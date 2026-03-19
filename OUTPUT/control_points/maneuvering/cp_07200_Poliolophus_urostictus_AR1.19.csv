@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Poliolophus_urostictus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 79.00 mm
+# Secondary1: 66.40 mm
+# Kipps Distance: 12.20 mm
+# Hand-Wing Index: 15.50
+# Tail Length: 83.20 mm
+# Aspect Ratio: 1.190
+# Pointedness Index: 0.1544
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1267
+# Max Thickness Position: 0.3407
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3676
+# Leading Edge Radius: 0.0358
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.22e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01073811,0.06932863
+UPPER,2,0.04295242,0.11809048
+UPPER,3,0.08948421,0.14517249
+UPPER,4,0.29640900,0.17774073
+UPPER,5,0.34070000,0.18534390
+UPPER,6,0.38499100,0.17267195
+UPPER,7,0.38956500,0.13719048
+UPPER,8,0.49760000,0.08531219
+UPPER,9,0.88000000,0.03241482
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01073811,-0.04148242
+LOWER,2,0.04295242,-0.02003172
+LOWER,3,0.08948421,-0.04653011
+LOWER,4,0.29640900,-0.04782003
+LOWER,5,0.34070000,-0.06809515
+LOWER,6,0.38499100,-0.04021686
+LOWER,7,0.38956500,0.00286778
+LOWER,8,0.49760000,0.01860638
+LOWER,9,0.88000000,0.00958731
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

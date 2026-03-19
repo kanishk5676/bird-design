@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bombycilla_garrulus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 116.20 mm
+# Secondary1: 72.30 mm
+# Kipps Distance: 43.90 mm
+# Hand-Wing Index: 37.80
+# Tail Length: 65.80 mm
+# Aspect Ratio: 1.607
+# Pointedness Index: 0.3778
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1067
+# Max Thickness Position: 0.3273
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3498
+# Leading Edge Radius: 0.0297
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00891656,0.05393933
+UPPER,2,0.03566622,0.10016127
+UPPER,3,0.07430463,0.12701910
+UPPER,4,0.28476840,0.15486232
+UPPER,5,0.32732000,0.16126600
+UPPER,6,0.36987160,0.15059319
+UPPER,7,0.37239400,0.12070932
+UPPER,8,0.47976000,0.07624108
+UPPER,9,0.88000000,0.02926265
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00891656,-0.03553422
+LOWER,2,0.03566622,-0.01506473
+LOWER,3,0.07430463,-0.03681487
+LOWER,4,0.28476840,-0.03511371
+LOWER,5,0.32732000,-0.05219020
+LOWER,6,0.36987160,-0.02871002
+LOWER,7,0.37239400,0.00757753
+LOWER,8,0.47976000,0.01887156
+LOWER,9,0.88000000,0.00936535
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Argya_malcolmi
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 115.20 mm
+# Secondary1: 97.40 mm
+# Kipps Distance: 17.60 mm
+# Hand-Wing Index: 15.40
+# Tail Length: 136.60 mm
+# Aspect Ratio: 1.183
+# Pointedness Index: 0.1528
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1247
+# Max Thickness Position: 0.3408
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3677
+# Leading Edge Radius: 0.0358
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.99e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01074959,0.06941756
+UPPER,2,0.04299837,0.11710990
+UPPER,3,0.08957994,0.14372778
+UPPER,4,0.29646120,0.17585202
+UPPER,5,0.34076000,0.18333383
+UPPER,6,0.38505880,0.17086415
+UPPER,7,0.38964200,0.13594907
+UPPER,8,0.49768000,0.08475662
+UPPER,9,0.88000000,0.03225784
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01074959,-0.04152237
+LOWER,2,0.04299837,-0.01937997
+LOWER,3,0.08957994,-0.04535104
+LOWER,4,0.29646120,-0.04610815
+LOWER,5,0.34076000,-0.06605963
+LOWER,6,0.38505880,-0.03862635
+LOWER,7,0.38964200,0.00377054
+LOWER,8,0.49768000,0.01889746
+LOWER,9,0.88000000,0.00967141
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

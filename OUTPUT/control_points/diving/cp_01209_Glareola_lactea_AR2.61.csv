@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Glareola_lactea
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 146.60 mm
+# Secondary1: 56.20 mm
+# Kipps Distance: 89.50 mm
+# Hand-Wing Index: 61.40
+# Tail Length: 51.40 mm
+# Aspect Ratio: 2.609
+# Pointedness Index: 0.6105
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0850
+# Max Thickness Position: 0.3132
+# Max Camber/Chord: 0.0475
+# Max Camber Position: 0.3309
+# Leading Edge Radius: 0.0234
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.88e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00700759,0.04204551
+UPPER,2,0.02803034,0.08287732
+UPPER,3,0.05839655,0.10490179
+UPPER,4,0.27244920,0.12740132
+UPPER,5,0.31316000,0.13250107
+UPPER,6,0.35387080,0.12400148
+UPPER,7,0.35422200,0.10020260
+UPPER,8,0.46088000,0.06417821
+UPPER,9,0.88000000,0.02485162
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00700759,-0.02803034
+LOWER,2,0.02803034,-0.01057193
+LOWER,3,0.05839655,-0.02744532
+LOWER,4,0.27244920,-0.02389152
+LOWER,5,0.31316000,-0.03749087
+LOWER,6,0.35387080,-0.01879176
+LOWER,7,0.35422200,0.01010687
+LOWER,8,0.46088000,0.01755373
+LOWER,9,0.88000000,0.00847644
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

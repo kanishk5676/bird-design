@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Smutsornis_africanus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 147.80 mm
+# Secondary1: 82.80 mm
+# Kipps Distance: 64.20 mm
+# Hand-Wing Index: 43.70
+# Tail Length: 64.20 mm
+# Aspect Ratio: 1.785
+# Pointedness Index: 0.4344
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1004
+# Max Thickness Position: 0.3238
+# Max Camber/Chord: 0.0530
+# Max Camber Position: 0.3450
+# Leading Edge Radius: 0.0282
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.90e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00844749,0.05068493
+UPPER,2,0.03378996,0.09529277
+UPPER,3,0.07039574,0.12109720
+UPPER,4,0.28168860,0.14743203
+UPPER,5,0.32378000,0.15345701
+UPPER,6,0.36587140,0.14341538
+UPPER,7,0.36785100,0.11529884
+UPPER,8,0.47504000,0.07320120
+UPPER,9,0.88000000,0.02818879
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00844749,-0.03378996
+LOWER,2,0.03378996,-0.01356892
+LOWER,3,0.07039574,-0.03384266
+LOWER,4,0.28168860,-0.03130886
+LOWER,5,0.32378000,-0.04737546
+LOWER,6,0.36587140,-0.02528389
+LOWER,7,0.36785100,0.00885763
+LOWER,8,0.47504000,0.01882701
+LOWER,9,0.88000000,0.00924354
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

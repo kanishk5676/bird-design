@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Himantornis_haematopus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 208.00 mm
+# Secondary1: 178.00 mm
+# Kipps Distance: 23.50 mm
+# Hand-Wing Index: 11.70
+# Tail Length: 83.40 mm
+# Aspect Ratio: 1.169
+# Pointedness Index: 0.1130
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1243
+# Max Thickness Position: 0.3430
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3706
+# Leading Edge Radius: 0.0369
+# LE Droop: 0.0057
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01106578,0.07205467
+UPPER,2,0.04426311,0.11801612
+UPPER,3,0.09221482,0.14383469
+UPPER,4,0.29839260,0.17590399
+UPPER,5,0.34298000,0.18336130
+UPPER,6,0.38756740,0.17093244
+UPPER,7,0.39249100,0.13613166
+UPPER,8,0.50064000,0.08501264
+UPPER,9,0.88000000,0.03239074
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01106578,-0.04256511
+LOWER,2,0.04426311,-0.01909686
+LOWER,3,0.09221482,-0.04491387
+LOWER,4,0.29839260,-0.04532958
+LOWER,5,0.34298000,-0.06521575
+LOWER,6,0.38756740,-0.03787227
+LOWER,7,0.39249100,0.00438583
+LOWER,8,0.50064000,0.01922473
+LOWER,9,0.88000000,0.00979665
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

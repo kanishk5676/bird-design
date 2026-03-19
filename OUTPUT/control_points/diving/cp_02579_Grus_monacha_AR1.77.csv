@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Grus_monacha
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 494.80 mm
+# Secondary1: 279.20 mm
+# Kipps Distance: 215.50 mm
+# Hand-Wing Index: 43.50
+# Tail Length: 166.00 mm
+# Aspect Ratio: 1.772
+# Pointedness Index: 0.4355
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0938
+# Max Thickness Position: 0.3239
+# Max Camber/Chord: 0.0531
+# Max Camber Position: 0.3452
+# Leading Edge Radius: 0.0282
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.39e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00844770,0.05068620
+UPPER,2,0.03379080,0.09200885
+UPPER,3,0.07039750,0.11635206
+UPPER,4,0.28179300,0.14122621
+UPPER,5,0.32390000,0.14685164
+UPPER,6,0.36600700,0.13747592
+UPPER,7,0.36800500,0.11122388
+UPPER,8,0.47520000,0.07138225
+UPPER,9,0.88000000,0.02767644
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00844770,-0.03379080
+LOWER,2,0.03379080,-0.01141929
+LOWER,3,0.07039750,-0.02995580
+LOWER,4,0.28179300,-0.02566173
+LOWER,5,0.32390000,-0.04066289
+LOWER,6,0.36600700,-0.02003629
+LOWER,7,0.36800500,0.01184118
+LOWER,8,0.47520000,0.01979249
+LOWER,9,0.88000000,0.00952330
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

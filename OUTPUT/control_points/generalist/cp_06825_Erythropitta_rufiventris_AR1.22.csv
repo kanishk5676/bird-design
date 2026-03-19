@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Erythropitta_rufiventris
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 92.80 mm
+# Secondary1: 76.30 mm
+# Kipps Distance: 16.40 mm
+# Hand-Wing Index: 17.80
+# Tail Length: 46.10 mm
+# Aspect Ratio: 1.216
+# Pointedness Index: 0.1767
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1239
+# Max Thickness Position: 0.3393
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3658
+# Leading Edge Radius: 0.0352
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.55e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01055403,0.06776416
+UPPER,2,0.04221611,0.11594510
+UPPER,3,0.08795022,0.14283871
+UPPER,4,0.29520840,0.17475549
+UPPER,5,0.33932000,0.18218768
+UPPER,6,0.38343160,0.16980070
+UPPER,7,0.38779400,0.13511716
+UPPER,8,0.49576000,0.08425375
+UPPER,9,0.88000000,0.03207038
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01055403,-0.04088411
+LOWER,2,0.04221611,-0.01922706
+LOWER,3,0.08795022,-0.04501824
+LOWER,4,0.29520840,-0.04573271
+LOWER,5,0.33932000,-0.06555188
+LOWER,6,0.38343160,-0.03830053
+LOWER,7,0.38779400,0.00381520
+LOWER,8,0.49576000,0.01881533
+LOWER,9,0.88000000,0.00962468
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

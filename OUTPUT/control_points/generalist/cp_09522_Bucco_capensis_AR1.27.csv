@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bucco_capensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 86.70 mm
+# Secondary1: 68.50 mm
+# Kipps Distance: 17.20 mm
+# Hand-Wing Index: 19.90
+# Tail Length: 57.00 mm
+# Aspect Ratio: 1.266
+# Pointedness Index: 0.1984
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1227
+# Max Thickness Position: 0.3381
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3641
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.38e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01037930,0.06629577
+UPPER,2,0.04151718,0.11467503
+UPPER,3,0.08649413,0.14170669
+UPPER,4,0.29411220,0.17333850
+UPPER,5,0.33806000,0.18069958
+UPPER,6,0.38200780,0.16843112
+UPPER,7,0.38617700,0.13407943
+UPPER,8,0.49408000,0.08366442
+UPPER,9,0.88000000,0.03186046
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01037930,-0.04031118
+LOWER,2,0.04151718,-0.01895383
+LOWER,3,0.08649413,-0.04447018
+LOWER,4,0.29411220,-0.04504009
+LOWER,5,0.33806000,-0.06466963
+LOWER,6,0.38200780,-0.03767901
+LOWER,7,0.38617700,0.00403375
+LOWER,8,0.49408000,0.01879344
+LOWER,9,0.88000000,0.00959636
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cariama_cristata
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 357.10 mm
+# Secondary1: 320.30 mm
+# Kipps Distance: 38.20 mm
+# Hand-Wing Index: 10.70
+# Tail Length: 296.40 mm
+# Aspect Ratio: 1.115
+# Pointedness Index: 0.1070
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1219
+# Max Thickness Position: 0.3436
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3714
+# Leading Edge Radius: 0.0371
+# LE Droop: 0.0059
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.93e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01112702,0.07262211
+UPPER,2,0.04450807,0.11712845
+UPPER,3,0.09272515,0.14223622
+UPPER,4,0.29891460,0.17379577
+UPPER,5,0.34358000,0.18111175
+UPPER,6,0.38824540,0.16891845
+UPPER,7,0.39326100,0.13477722
+UPPER,8,0.50144000,0.08444319
+UPPER,9,0.88000000,0.03224257
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01112702,-0.04275007
+LOWER,2,0.04450807,-0.01830598
+LOWER,3,0.09272515,-0.04349889
+LOWER,4,0.29891460,-0.04324492
+LOWER,5,0.34358000,-0.06275420
+LOWER,6,0.38824540,-0.03592895
+LOWER,7,0.39326100,0.00552827
+LOWER,8,0.50144000,0.01962022
+LOWER,9,0.88000000,0.00991737
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

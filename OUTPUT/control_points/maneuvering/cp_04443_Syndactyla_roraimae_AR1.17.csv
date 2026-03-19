@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Syndactyla_roraimae
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 79.00 mm
+# Secondary1: 67.50 mm
+# Kipps Distance: 12.30 mm
+# Hand-Wing Index: 15.40
+# Tail Length: 84.20 mm
+# Aspect Ratio: 1.170
+# Pointedness Index: 0.1557
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1268
+# Max Thickness Position: 0.3408
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3677
+# Leading Edge Radius: 0.0358
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.22e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01073471,0.06932826
+UPPER,2,0.04293884,0.11816130
+UPPER,3,0.08945591,0.14524179
+UPPER,4,0.29646120,0.17782866
+UPPER,5,0.34076000,0.18543663
+UPPER,6,0.38505880,0.17275668
+UPPER,7,0.38964200,0.13725281
+UPPER,8,0.49768000,0.08534540
+UPPER,9,0.88000000,0.03242606
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01073471,-0.04146284
+LOWER,2,0.04293884,-0.02005286
+LOWER,3,0.08945591,-0.04657066
+LOWER,4,0.29646120,-0.04787451
+LOWER,5,0.34076000,-0.06816243
+LOWER,6,0.38505880,-0.04026653
+LOWER,7,0.38964200,0.00284531
+LOWER,8,0.49768000,0.01860307
+LOWER,9,0.88000000,0.00958729
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

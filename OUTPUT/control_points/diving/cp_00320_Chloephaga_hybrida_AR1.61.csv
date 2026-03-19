@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chloephaga_hybrida
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 358.00 mm
+# Secondary1: 222.20 mm
+# Kipps Distance: 131.50 mm
+# Hand-Wing Index: 37.20
+# Tail Length: 131.80 mm
+# Aspect Ratio: 1.611
+# Pointedness Index: 0.3673
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1007
+# Max Thickness Position: 0.3277
+# Max Camber/Chord: 0.0547
+# Max Camber Position: 0.3502
+# Leading Edge Radius: 0.0300
+# LE Droop: 0.0006
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.96e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00898836,0.05449014
+UPPER,2,0.03595342,0.09739740
+UPPER,3,0.07490297,0.12282302
+UPPER,4,0.28508160,0.14935544
+UPPER,5,0.32768000,0.15539852
+UPPER,6,0.37027840,0.14532671
+UPPER,7,0.37285600,0.11712564
+UPPER,8,0.48024000,0.07467941
+UPPER,9,0.88000000,0.02883600
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00898836,-0.03578542
+LOWER,2,0.03595342,-0.01309166
+LOWER,3,0.07490297,-0.03326353
+LOWER,4,0.28508160,-0.02992282
+LOWER,5,0.32768000,-0.04603772
+LOWER,6,0.37027840,-0.02387974
+LOWER,7,0.37285600,0.01036443
+LOWER,8,0.48024000,0.01980131
+LOWER,9,0.88000000,0.00964138
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

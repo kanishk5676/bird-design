@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pogoniulus_bilineatus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 56.40 mm
+# Secondary1: 45.30 mm
+# Kipps Distance: 10.10 mm
+# Hand-Wing Index: 18.30
+# Tail Length: 28.80 mm
+# Aspect Ratio: 1.245
+# Pointedness Index: 0.1791
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1251
+# Max Thickness Position: 0.3390
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3654
+# Leading Edge Radius: 0.0351
+# LE Droop: 0.0043
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01052672,0.06750033
+UPPER,2,0.04210689,0.11641881
+UPPER,3,0.08772268,0.14368617
+UPPER,4,0.29494740,0.17587600
+UPPER,5,0.33902000,0.18338418
+UPPER,6,0.38309260,0.17087054
+UPPER,7,0.38740900,0.13583235
+UPPER,8,0.49536000,0.08454880
+UPPER,9,0.88000000,0.03214507
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01052672,-0.04080489
+LOWER,2,0.04210689,-0.01965693
+LOWER,3,0.08772268,-0.04578514
+LOWER,4,0.29494740,-0.04686681
+LOWER,5,0.33902000,-0.06688863
+LOWER,6,0.38309260,-0.03935862
+LOWER,7,0.38740900,0.00318776
+LOWER,8,0.49536000,0.01859452
+LOWER,9,0.88000000,0.00955649
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

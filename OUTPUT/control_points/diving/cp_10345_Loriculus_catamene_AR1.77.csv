@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Loriculus_catamene
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 80.90 mm
+# Secondary1: 45.80 mm
+# Kipps Distance: 35.10 mm
+# Hand-Wing Index: 43.40
+# Tail Length: 37.50 mm
+# Aspect Ratio: 1.766
+# Pointedness Index: 0.4339
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1029
+# Max Thickness Position: 0.3240
+# Max Camber/Chord: 0.0531
+# Max Camber Position: 0.3453
+# Leading Edge Radius: 0.0282
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.73e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00845923,0.05075537
+UPPER,2,0.03383691,0.09659924
+UPPER,3,0.07049357,0.12295409
+UPPER,4,0.28184520,0.14984016
+UPPER,5,0.32396000,0.15601371
+UPPER,6,0.36607480,0.14572445
+UPPER,7,0.36808200,0.11691452
+UPPER,8,0.47528000,0.07396287
+UPPER,9,0.88000000,0.02841743
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00845923,-0.03383691
+LOWER,2,0.03383691,-0.01433325
+LOWER,3,0.07049357,-0.03524201
+LOWER,4,0.28184520,-0.03330869
+LOWER,5,0.32396000,-0.04977151
+LOWER,6,0.36607480,-0.02713514
+LOWER,7,0.36808200,0.00784835
+LOWER,8,0.47528000,0.01853012
+LOWER,9,0.88000000,0.00916457
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

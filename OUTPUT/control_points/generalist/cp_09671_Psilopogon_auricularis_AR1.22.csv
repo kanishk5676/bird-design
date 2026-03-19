@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psilopogon_auricularis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 96.00 mm
+# Secondary1: 78.90 mm
+# Kipps Distance: 17.10 mm
+# Hand-Wing Index: 17.90
+# Tail Length: 72.50 mm
+# Aspect Ratio: 1.217
+# Pointedness Index: 0.1781
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1237
+# Max Thickness Position: 0.3393
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3657
+# Leading Edge Radius: 0.0351
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.57e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01054382,0.06768293
+UPPER,2,0.04217529,0.11583728
+UPPER,3,0.08786519,0.14271647
+UPPER,4,0.29515620,0.17459871
+UPPER,5,0.33926000,0.18202178
+UPPER,6,0.38336380,0.16965000
+UPPER,7,0.38771700,0.13500901
+UPPER,8,0.49568000,0.08419936
+UPPER,9,0.88000000,0.03205293
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01054382,-0.04084929
+LOWER,2,0.04217529,-0.01918331
+LOWER,3,0.08786519,-0.04493650
+LOWER,4,0.29515620,-0.04561898
+LOWER,5,0.33926000,-0.06541383
+LOWER,6,0.38336380,-0.03819591
+LOWER,7,0.38771700,0.00386814
+LOWER,8,0.49568000,0.01882797
+LOWER,9,0.88000000,0.00962728
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

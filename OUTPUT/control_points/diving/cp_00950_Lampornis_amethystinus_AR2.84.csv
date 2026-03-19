@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lampornis_amethystinus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 65.40 mm
+# Secondary1: 23.00 mm
+# Kipps Distance: 41.50 mm
+# Hand-Wing Index: 64.30
+# Tail Length: 41.50 mm
+# Aspect Ratio: 2.843
+# Pointedness Index: 0.6346
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0865
+# Max Thickness Position: 0.3114
+# Max Camber/Chord: 0.0464
+# Max Camber Position: 0.3286
+# Leading Edge Radius: 0.0227
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.60e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00679618,0.04077709
+UPPER,2,0.02718473,0.08274597
+UPPER,3,0.05663485,0.10503377
+UPPER,4,0.27093540,0.12778606
+UPPER,5,0.31142000,0.13297780
+UPPER,6,0.35190460,0.12432490
+UPPER,7,0.35198900,0.10009677
+UPPER,8,0.45856000,0.06370959
+UPPER,9,0.88000000,0.02457286
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00679618,-0.02718473
+LOWER,2,0.02718473,-0.01143222
+LOWER,3,0.05663485,-0.02882040
+LOWER,4,0.27093540,-0.02623561
+LOWER,5,0.31142000,-0.04008025
+LOWER,6,0.35190460,-0.02104387
+LOWER,7,0.35198900,0.00837600
+LOWER,8,0.45856000,0.01668418
+LOWER,9,0.88000000,0.00815103
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

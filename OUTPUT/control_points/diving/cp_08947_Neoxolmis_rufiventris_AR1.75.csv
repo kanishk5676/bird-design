@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Neoxolmis_rufiventris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 151.80 mm
+# Secondary1: 86.60 mm
+# Kipps Distance: 60.50 mm
+# Hand-Wing Index: 41.10
+# Tail Length: 91.30 mm
+# Aspect Ratio: 1.753
+# Pointedness Index: 0.3986
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1026
+# Max Thickness Position: 0.3253
+# Max Camber/Chord: 0.0537
+# Max Camber Position: 0.3471
+# Leading Edge Radius: 0.0290
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.85e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00870973,0.05225839
+UPPER,2,0.03483893,0.09695121
+UPPER,3,0.07258109,0.12327826
+UPPER,4,0.28304580,0.15014254
+UPPER,5,0.32534000,0.15629704
+UPPER,6,0.36763420,0.14603953
+UPPER,7,0.36985300,0.11731851
+UPPER,8,0.47712000,0.07438470
+UPPER,9,0.88000000,0.02862036
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00870973,-0.03483893
+LOWER,2,0.03483893,-0.01402133
+LOWER,3,0.07258109,-0.03478143
+LOWER,4,0.28304580,-0.03244108
+LOWER,5,0.32534000,-0.04885309
+LOWER,6,0.36763420,-0.02628658
+LOWER,7,0.36985300,0.00858895
+LOWER,8,0.47712000,0.01894712
+LOWER,9,0.88000000,0.00932749
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

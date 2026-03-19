@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ixos_malaccensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 104.00 mm
+# Secondary1: 83.90 mm
+# Kipps Distance: 20.10 mm
+# Hand-Wing Index: 19.40
+# Tail Length: 84.20 mm
+# Aspect Ratio: 1.240
+# Pointedness Index: 0.1933
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1221
+# Max Thickness Position: 0.3384
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3645
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.74e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01042069,0.06664412
+UPPER,2,0.04168275,0.11453104
+UPPER,3,0.08683906,0.14133281
+UPPER,4,0.29437320,0.17283548
+UPPER,5,0.33836000,0.18015971
+UPPER,6,0.38234680,0.16795265
+UPPER,7,0.38656200,0.13377288
+UPPER,8,0.49448000,0.08355551
+UPPER,9,0.88000000,0.03183951
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01042069,-0.04044675
+LOWER,2,0.04168275,-0.01873141
+LOWER,3,0.08683906,-0.04407997
+LOWER,4,0.29437320,-0.04445022
+LOWER,5,0.33836000,-0.06398151
+LOWER,6,0.38234680,-0.03712598
+LOWER,7,0.38656200,0.00437803
+LOWER,8,0.49448000,0.01892536
+LOWER,9,0.88000000,0.00963945
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

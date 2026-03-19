@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Atlapetes_citrinellus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 69.00 mm
+# Secondary1: 61.00 mm
+# Kipps Distance: 8.00 mm
+# Hand-Wing Index: 11.50
+# Tail Length: 70.80 mm
+# Aspect Ratio: 1.131
+# Pointedness Index: 0.1159
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1307
+# Max Thickness Position: 0.3431
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3708
+# Leading Edge Radius: 0.0369
+# LE Droop: 0.0057
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01105680,0.07204077
+UPPER,2,0.04422718,0.12126256
+UPPER,3,0.09213996,0.14844540
+UPPER,4,0.29849700,0.18191918
+UPPER,5,0.34310000,0.18975906
+UPPER,6,0.38770300,0.17669259
+UPPER,7,0.39264500,0.14010648
+UPPER,8,0.50080000,0.08681633
+UPPER,9,0.88000000,0.03290904
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01105680,-0.04251718
+LOWER,2,0.04422718,-0.02112967
+LOWER,3,0.09213996,-0.04860210
+LOWER,4,0.29849700,-0.05066396
+LOWER,5,0.34310000,-0.07157031
+LOWER,6,0.38770300,-0.04282408
+LOWER,7,0.39264500,0.00160191
+LOWER,8,0.50080000,0.01834546
+LOWER,9,0.88000000,0.00954701
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

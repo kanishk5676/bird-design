@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Primolius_couloni
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 221.80 mm
+# Secondary1: 128.40 mm
+# Kipps Distance: 93.50 mm
+# Hand-Wing Index: 42.20
+# Tail Length: 218.70 mm
+# Aspect Ratio: 1.727
+# Pointedness Index: 0.4216
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0995
+# Max Thickness Position: 0.3247
+# Max Camber/Chord: 0.0534
+# Max Camber Position: 0.3462
+# Leading Edge Radius: 0.0285
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.70e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00855877,0.05135262
+UPPER,2,0.03423508,0.09518075
+UPPER,3,0.07132308,0.12081516
+UPPER,4,0.28247160,0.14698395
+UPPER,5,0.32468000,0.15295497
+UPPER,6,0.36688840,0.14300327
+UPPER,7,0.36900600,0.11513849
+UPPER,8,0.47624000,0.07328700
+UPPER,9,0.88000000,0.02826777
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00855877,-0.03423508
+LOWER,2,0.03423508,-0.01314220
+LOWER,3,0.07132308,-0.03313847
+LOWER,4,0.28247160,-0.03015644
+LOWER,5,0.32468000,-0.04607917
+LOWER,6,0.36688840,-0.02418542
+LOWER,7,0.36900600,0.00965039
+LOWER,8,0.47624000,0.01919911
+LOWER,9,0.88000000,0.00937879
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cissomela_pectoralis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 67.20 mm
+# Secondary1: 52.10 mm
+# Kipps Distance: 13.80 mm
+# Hand-Wing Index: 21.00
+# Tail Length: 42.10 mm
+# Aspect Ratio: 1.290
+# Pointedness Index: 0.2054
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1228
+# Max Thickness Position: 0.3374
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3632
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.10e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01031008,0.06566047
+UPPER,2,0.04124031,0.11435442
+UPPER,3,0.08591732,0.14161273
+UPPER,4,0.29353800,0.17324951
+UPPER,5,0.33740000,0.18061559
+UPPER,6,0.38126200,0.16833878
+UPPER,7,0.38533000,0.13396372
+UPPER,8,0.49320000,0.08354544
+UPPER,9,0.88000000,0.03180350
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01031008,-0.04010031
+LOWER,2,0.04124031,-0.01903916
+LOWER,3,0.08591732,-0.04459564
+LOWER,4,0.29353800,-0.04527770
+LOWER,5,0.33740000,-0.06492059
+LOWER,6,0.38126200,-0.03791161
+LOWER,7,0.38533000,0.00382954
+LOWER,8,0.49320000,0.01867792
+LOWER,9,0.88000000,0.00955115
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

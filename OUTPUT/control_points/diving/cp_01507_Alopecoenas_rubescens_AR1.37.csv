@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Alopecoenas_rubescens
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 120.60 mm
+# Secondary1: 88.20 mm
+# Kipps Distance: 32.00 mm
+# Hand-Wing Index: 26.70
+# Tail Length: 65.80 mm
+# Aspect Ratio: 1.367
+# Pointedness Index: 0.2653
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1154
+# Max Thickness Position: 0.3340
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3586
+# Leading Edge Radius: 0.0328
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.11e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00982975,0.06163848
+UPPER,2,0.03931898,0.10870976
+UPPER,3,0.08191455,0.13541929
+UPPER,4,0.29056260,0.16535764
+UPPER,5,0.33398000,0.17228157
+UPPER,6,0.37739740,0.16074169
+UPPER,7,0.38094100,0.12843003
+UPPER,8,0.48864000,0.08066202
+UPPER,9,0.88000000,0.03084736
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00982975,-0.03852098
+LOWER,2,0.03931898,-0.01701864
+LOWER,3,0.08191455,-0.04076523
+LOWER,4,0.29056260,-0.04005221
+LOWER,5,0.33398000,-0.05851602
+LOWER,6,0.37739740,-0.03312829
+LOWER,7,0.38094100,0.00610730
+LOWER,8,0.48864000,0.01911149
+LOWER,9,0.88000000,0.00960474
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psilopsiagon_aymara
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 96.20 mm
+# Secondary1: 56.00 mm
+# Kipps Distance: 39.80 mm
+# Hand-Wing Index: 41.50
+# Tail Length: 103.00 mm
+# Aspect Ratio: 1.718
+# Pointedness Index: 0.4137
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1048
+# Max Thickness Position: 0.3251
+# Max Camber/Chord: 0.0536
+# Max Camber Position: 0.3468
+# Leading Edge Radius: 0.0287
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.58e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00862012,0.05172072
+UPPER,2,0.03448048,0.09798957
+UPPER,3,0.07183434,0.12480469
+UPPER,4,0.28283700,0.15215600
+UPPER,5,0.32510000,0.15844557
+UPPER,6,0.36736300,0.14796295
+UPPER,7,0.36954500,0.11861162
+UPPER,8,0.47680000,0.07492780
+UPPER,9,0.88000000,0.02876146
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00862012,-0.03448048
+LOWER,2,0.03448048,-0.01477760
+LOWER,3,0.07183434,-0.03613428
+LOWER,4,0.28283700,-0.03443463
+LOWER,5,0.32510000,-0.05120682
+LOWER,6,0.36736300,-0.02814506
+LOWER,7,0.36954500,0.00749585
+LOWER,8,0.47680000,0.01856835
+LOWER,9,0.88000000,0.00921180
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

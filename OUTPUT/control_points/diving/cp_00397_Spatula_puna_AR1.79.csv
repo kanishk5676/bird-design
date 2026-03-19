@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Spatula_puna
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 214.00 mm
+# Secondary1: 119.60 mm
+# Kipps Distance: 94.40 mm
+# Hand-Wing Index: 44.10
+# Tail Length: 74.80 mm
+# Aspect Ratio: 1.789
+# Pointedness Index: 0.4411
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0982
+# Max Thickness Position: 0.3235
+# Max Camber/Chord: 0.0529
+# Max Camber Position: 0.3447
+# Leading Edge Radius: 0.0280
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.48e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00840082,0.05040492
+UPPER,2,0.03360328,0.09409513
+UPPER,3,0.07000684,0.11940537
+UPPER,4,0.28147980,0.14524493
+UPPER,5,0.32354000,0.15113718
+UPPER,6,0.36560020,0.14131676
+UPPER,7,0.36754300,0.11381958
+UPPER,8,0.47472000,0.07249021
+UPPER,9,0.88000000,0.02797087
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00840082,-0.03360328
+LOWER,2,0.03360328,-0.01289880
+LOWER,3,0.07000684,-0.03260927
+LOWER,4,0.28147980,-0.02955856
+LOWER,5,0.32354000,-0.04527123
+LOWER,6,0.36560020,-0.02366631
+LOWER,7,0.36754300,0.00972312
+LOWER,8,0.47472000,0.01906986
+LOWER,9,0.88000000,0.00930508
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

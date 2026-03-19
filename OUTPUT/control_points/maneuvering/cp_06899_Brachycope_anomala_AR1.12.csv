@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Brachycope_anomala
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 59.20 mm
+# Secondary1: 52.80 mm
+# Kipps Distance: 6.40 mm
+# Hand-Wing Index: 10.90
+# Tail Length: 28.90 mm
+# Aspect Ratio: 1.121
+# Pointedness Index: 0.1081
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1310
+# Max Thickness Position: 0.3435
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3713
+# Leading Edge Radius: 0.0371
+# LE Droop: 0.0058
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.06e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01111511,0.07251065
+UPPER,2,0.04446043,0.12161820
+UPPER,3,0.09262591,0.14876539
+UPPER,4,0.29881020,0.18232415
+UPPER,5,0.34346000,0.19018582
+UPPER,6,0.38810980,0.17708304
+UPPER,7,0.39310700,0.14039524
+UPPER,8,0.50128000,0.08697208
+UPPER,9,0.88000000,0.03296226
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01111511,-0.04271443
+LOWER,2,0.04446043,-0.02122362
+LOWER,3,0.09262591,-0.04878348
+LOWER,4,0.29881020,-0.05090542
+LOWER,5,0.34346000,-0.07186987
+LOWER,6,0.38810980,-0.04304375
+LOWER,7,0.39310700,0.00150572
+LOWER,8,0.50128000,0.01833405
+LOWER,9,0.88000000,0.00954838
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

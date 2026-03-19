@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Colaptes_melanolaimus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 150.40 mm
+# Secondary1: 119.40 mm
+# Kipps Distance: 30.90 mm
+# Hand-Wing Index: 20.60
+# Tail Length: 89.60 mm
+# Aspect Ratio: 1.260
+# Pointedness Index: 0.2055
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1190
+# Max Thickness Position: 0.3376
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3635
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.81e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01032183,0.06581100
+UPPER,2,0.04128734,0.11261665
+UPPER,3,0.08601528,0.13897641
+UPPER,4,0.29374680,0.16979526
+UPPER,5,0.33764000,0.17693693
+UPPER,6,0.38153320,0.16503415
+UPPER,7,0.38563800,0.13170635
+UPPER,8,0.49352000,0.08255053
+UPPER,9,0.88000000,0.03152768
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01032183,-0.04012334
+LOWER,2,0.04128734,-0.01782072
+LOWER,3,0.08601528,-0.04239795
+LOWER,4,0.29374680,-0.04207428
+LOWER,5,0.33764000,-0.06111873
+LOWER,6,0.38153320,-0.03493261
+LOWER,7,0.38563800,0.00553686
+LOWER,8,0.49352000,0.01923975
+LOWER,9,0.88000000,0.00971616
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

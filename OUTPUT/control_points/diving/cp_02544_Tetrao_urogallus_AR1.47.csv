@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tetrao_urogallus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 347.30 mm
+# Secondary1: 236.10 mm
+# Kipps Distance: 117.50 mm
+# Hand-Wing Index: 33.20
+# Tail Length: 257.20 mm
+# Aspect Ratio: 1.471
+# Pointedness Index: 0.3383
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1041
+# Max Thickness Position: 0.3301
+# Max Camber/Chord: 0.0556
+# Max Camber Position: 0.3534
+# Leading Edge Radius: 0.0309
+# LE Droop: 0.0014
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.60e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00925863,0.05691176
+UPPER,2,0.03703451,0.10065528
+UPPER,3,0.07715522,0.12608754
+UPPER,4,0.28716960,0.15343565
+UPPER,5,0.33008000,0.15968147
+UPPER,6,0.37299040,0.14927177
+UPPER,7,0.37593600,0.12012459
+UPPER,8,0.48344000,0.07639392
+UPPER,9,0.88000000,0.02944984
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00925863,-0.03662651
+LOWER,2,0.03703451,-0.01385652
+LOWER,3,0.07715522,-0.03480748
+LOWER,4,0.28716960,-0.03185714
+LOWER,5,0.33008000,-0.04851267
+LOWER,6,0.37299040,-0.02561132
+LOWER,7,0.37593600,0.00978169
+LOWER,8,0.48344000,0.01988874
+LOWER,9,0.88000000,0.00973222
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

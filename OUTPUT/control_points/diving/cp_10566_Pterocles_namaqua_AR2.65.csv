@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pterocles_namaqua
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 163.60 mm
+# Secondary1: 61.80 mm
+# Kipps Distance: 100.50 mm
+# Hand-Wing Index: 61.90
+# Tail Length: 100.60 mm
+# Aspect Ratio: 2.647
+# Pointedness Index: 0.6143
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0854
+# Max Thickness Position: 0.3129
+# Max Camber/Chord: 0.0473
+# Max Camber Position: 0.3305
+# Leading Edge Radius: 0.0232
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.22e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00697291,0.04183748
+UPPER,2,0.02789166,0.08292541
+UPPER,3,0.05810761,0.10502550
+UPPER,4,0.27218820,0.12759884
+UPPER,5,0.31286000,0.13272264
+UPPER,6,0.35353180,0.12418298
+UPPER,7,0.35383700,0.10027191
+UPPER,8,0.46048000,0.06413815
+UPPER,9,0.88000000,0.02481560
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00697291,-0.02789166
+LOWER,2,0.02789166,-0.01076284
+LOWER,3,0.05810761,-0.02776012
+LOWER,4,0.27218820,-0.02440723
+LOWER,5,0.31286000,-0.03807069
+LOWER,6,0.35353180,-0.01928343
+LOWER,7,0.35383700,0.00975144
+LOWER,8,0.46048000,0.01738657
+LOWER,9,0.88000000,0.00841563
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

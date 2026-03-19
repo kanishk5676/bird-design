@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ortalis_cinereiceps
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 205.50 mm
+# Secondary1: 177.90 mm
+# Kipps Distance: 27.40 mm
+# Hand-Wing Index: 13.30
+# Tail Length: 207.20 mm
+# Aspect Ratio: 1.155
+# Pointedness Index: 0.1333
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1231
+# Max Thickness Position: 0.3420
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3694
+# Leading Edge Radius: 0.0364
+# LE Droop: 0.0053
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.25e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01091302,0.07081812
+UPPER,2,0.04365208,0.11693802
+UPPER,3,0.09094183,0.14279775
+UPPER,4,0.29755740,0.17458641
+UPPER,5,0.34202000,0.18197110
+UPPER,6,0.38648260,0.16966327
+UPPER,7,0.39125900,0.13520134
+UPPER,8,0.49936000,0.08452079
+UPPER,9,0.88000000,0.03222552
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01091302,-0.04205008
+LOWER,2,0.04365208,-0.01877259
+LOWER,3,0.09094183,-0.04429475
+LOWER,4,0.29755740,-0.04449302
+LOWER,5,0.34202000,-0.06418555
+LOWER,6,0.38648260,-0.03710832
+LOWER,7,0.39125900,0.00473831
+LOWER,8,0.49936000,0.01928255
+LOWER,9,0.88000000,0.00980006
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

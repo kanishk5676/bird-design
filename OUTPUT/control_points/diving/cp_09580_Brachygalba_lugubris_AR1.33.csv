@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Brachygalba_lugubris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 68.40 mm
+# Secondary1: 51.50 mm
+# Kipps Distance: 16.80 mm
+# Hand-Wing Index: 24.60
+# Tail Length: 50.00 mm
+# Aspect Ratio: 1.328
+# Pointedness Index: 0.2456
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1201
+# Max Thickness Position: 0.3352
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3603
+# Leading Edge Radius: 0.0333
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00999461,0.06304765
+UPPER,2,0.03997843,0.11179899
+UPPER,3,0.08328840,0.13914918
+UPPER,4,0.29165880,0.17015195
+UPPER,5,0.33524000,0.17735800
+UPPER,6,0.37882120,0.16534791
+UPPER,7,0.38255800,0.13171966
+UPPER,8,0.49032000,0.08229679
+UPPER,9,0.88000000,0.03136577
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00999461,-0.03905443
+LOWER,2,0.03997843,-0.01839230
+LOWER,3,0.08328840,-0.04332026
+LOWER,4,0.29165880,-0.04362766
+LOWER,5,0.33524000,-0.06284380
+LOWER,6,0.37882120,-0.03642161
+LOWER,7,0.38255800,0.00441270
+LOWER,8,0.49032000,0.01868528
+LOWER,9,0.88000000,0.00951024
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

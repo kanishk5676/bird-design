@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Artamus_mentalis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 127.40 mm
+# Secondary1: 71.60 mm
+# Kipps Distance: 55.40 mm
+# Hand-Wing Index: 43.50
+# Tail Length: 66.90 mm
+# Aspect Ratio: 1.779
+# Pointedness Index: 0.4349
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1015
+# Max Thickness Position: 0.3239
+# Max Camber/Chord: 0.0531
+# Max Camber Position: 0.3452
+# Leading Edge Radius: 0.0282
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.34e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00845116,0.05070696
+UPPER,2,0.03380464,0.09588761
+UPPER,3,0.07042634,0.12193747
+UPPER,4,0.28179300,0.14851827
+UPPER,5,0.32390000,0.15460915
+UPPER,6,0.36600700,0.14445768
+UPPER,7,0.36800500,0.11603354
+UPPER,8,0.47520000,0.07355436
+UPPER,9,0.88000000,0.02829704
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00845116,-0.03380464
+LOWER,2,0.03380464,-0.01390170
+LOWER,3,0.07042634,-0.03445516
+LOWER,4,0.28179300,-0.03217804
+LOWER,5,0.32390000,-0.04842040
+LOWER,6,0.36600700,-0.02608715
+LOWER,7,0.36800500,0.00842787
+LOWER,8,0.47520000,0.01870644
+LOWER,9,0.88000000,0.00921300
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

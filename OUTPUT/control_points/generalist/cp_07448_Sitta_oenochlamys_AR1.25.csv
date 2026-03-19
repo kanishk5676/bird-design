@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sitta_oenochlamys
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 72.90 mm
+# Secondary1: 58.50 mm
+# Kipps Distance: 13.70 mm
+# Hand-Wing Index: 18.90
+# Tail Length: 41.90 mm
+# Aspect Ratio: 1.246
+# Pointedness Index: 0.1879
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1241
+# Max Thickness Position: 0.3387
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3649
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.21e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01046322,0.06699934
+UPPER,2,0.04185290,0.11569042
+UPPER,3,0.08719353,0.14283616
+UPPER,4,0.29463420,0.17478352
+UPPER,5,0.33866000,0.18222745
+UPPER,6,0.38268580,0.16982090
+UPPER,7,0.38694700,0.13508257
+UPPER,8,0.49488000,0.08417601
+UPPER,9,0.88000000,0.03202679
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01046322,-0.04058690
+LOWER,2,0.04185290,-0.01934426
+LOWER,3,0.08719353,-0.04520347
+LOWER,4,0.29463420,-0.04605302
+LOWER,5,0.33866000,-0.06590350
+LOWER,6,0.38268580,-0.03860910
+LOWER,7,0.38694700,0.00357317
+LOWER,8,0.49488000,0.01869126
+LOWER,9,0.88000000,0.00957787
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

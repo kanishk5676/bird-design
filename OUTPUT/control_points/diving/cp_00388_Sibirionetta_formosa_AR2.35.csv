@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sibirionetta_formosa
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 206.00 mm
+# Secondary1: 87.70 mm
+# Kipps Distance: 116.30 mm
+# Hand-Wing Index: 57.00
+# Tail Length: 77.20 mm
+# Aspect Ratio: 2.349
+# Pointedness Index: 0.5646
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0877
+# Max Thickness Position: 0.3158
+# Max Camber/Chord: 0.0490
+# Max Camber Position: 0.3344
+# Leading Edge Radius: 0.0246
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.70e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00737653,0.04425917
+UPPER,2,0.02950611,0.08551225
+UPPER,3,0.06147107,0.10823328
+UPPER,4,0.27474600,0.13144459
+UPPER,5,0.31580000,0.13670525
+UPPER,6,0.35685400,0.12793748
+UPPER,7,0.35761000,0.10338771
+UPPER,8,0.46440000,0.06622315
+UPPER,9,0.88000000,0.02564467
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00737653,-0.02950611
+LOWER,2,0.02950611,-0.01089726
+LOWER,3,0.06147107,-0.02830045
+LOWER,4,0.27474600,-0.02462181
+LOWER,5,0.31580000,-0.03865025
+LOWER,6,0.35685400,-0.01936115
+LOWER,7,0.35761000,0.01044929
+LOWER,8,0.46440000,0.01812216
+LOWER,9,0.88000000,0.00874976
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

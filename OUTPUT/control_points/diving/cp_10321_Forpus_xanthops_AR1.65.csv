@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Forpus_xanthops
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 89.80 mm
+# Secondary1: 54.50 mm
+# Kipps Distance: 34.80 mm
+# Hand-Wing Index: 39.00
+# Tail Length: 43.20 mm
+# Aspect Ratio: 1.648
+# Pointedness Index: 0.3875
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1063
+# Max Thickness Position: 0.3266
+# Max Camber/Chord: 0.0542
+# Max Camber Position: 0.3488
+# Leading Edge Radius: 0.0294
+# LE Droop: 0.0002
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.78e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00883021,0.05318125
+UPPER,2,0.03532083,0.09945648
+UPPER,3,0.07358507,0.12643809
+UPPER,4,0.28414200,0.15416218
+UPPER,5,0.32660000,0.16053971
+UPPER,6,0.36905800,0.14991049
+UPPER,7,0.37147000,0.12014867
+UPPER,8,0.47880000,0.07587219
+UPPER,9,0.88000000,0.02911743
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00883021,-0.03526083
+LOWER,2,0.03532083,-0.01502688
+LOWER,3,0.07358507,-0.03669563
+LOWER,4,0.28414200,-0.03503796
+LOWER,5,0.32660000,-0.05204471
+LOWER,6,0.36905800,-0.02866043
+LOWER,7,0.37147000,0.00747893
+LOWER,8,0.47880000,0.01875254
+LOWER,9,0.88000000,0.00931019
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hemignathus_wilsoni
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 73.40 mm
+# Secondary1: 55.70 mm
+# Kipps Distance: 16.50 mm
+# Hand-Wing Index: 23.00
+# Tail Length: 44.20 mm
+# Aspect Ratio: 1.318
+# Pointedness Index: 0.2248
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1207
+# Max Thickness Position: 0.3362
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3616
+# Leading Edge Radius: 0.0338
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.22e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01014974,0.06429845
+UPPER,2,0.04059897,0.11266965
+UPPER,3,0.08458119,0.13985994
+UPPER,4,0.29249400,0.17102550
+UPPER,5,0.33620000,0.17827005
+UPPER,6,0.37990600,0.16619580
+UPPER,7,0.38379000,0.13238788
+UPPER,8,0.49160000,0.08270629
+UPPER,9,0.88000000,0.03151985
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01014974,-0.03957897
+LOWER,2,0.04059897,-0.01850299
+LOWER,3,0.08458119,-0.04356803
+LOWER,4,0.29249400,-0.04389625
+LOWER,5,0.33620000,-0.06321505
+LOWER,6,0.37990600,-0.03665169
+LOWER,7,0.38379000,0.00440078
+LOWER,8,0.49160000,0.01876309
+LOWER,9,0.88000000,0.00955217
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

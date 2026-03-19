@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sclateria_naevia
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 68.60 mm
+# Secondary1: 61.30 mm
+# Kipps Distance: 8.70 mm
+# Hand-Wing Index: 12.80
+# Tail Length: 51.50 mm
+# Aspect Ratio: 1.119
+# Pointedness Index: 0.1268
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1297
+# Max Thickness Position: 0.3423
+# Max Camber/Chord: 0.0590
+# Max Camber Position: 0.3698
+# Leading Edge Radius: 0.0365
+# LE Droop: 0.0054
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01096153,0.07120916
+UPPER,2,0.04384611,0.12037613
+UPPER,3,0.09134606,0.14758711
+UPPER,4,0.29781840,0.18082759
+UPPER,5,0.34232000,0.18860698
+UPPER,6,0.38682160,0.17564132
+UPPER,7,0.39164400,0.13933748
+UPPER,8,0.49976000,0.08641168
+UPPER,9,0.88000000,0.03277368
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01096153,-0.04221411
+LOWER,2,0.04384611,-0.02085747
+LOWER,3,0.09134606,-0.04808363
+LOWER,4,0.29781840,-0.04996113
+LOWER,5,0.34232000,-0.07070618
+LOWER,6,0.38682160,-0.04218173
+LOWER,7,0.39164400,0.00190150
+LOWER,8,0.49976000,0.01839733
+LOWER,9,0.88000000,0.00955134
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

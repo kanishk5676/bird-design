@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pericrocotus_flammeus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 92.10 mm
+# Secondary1: 66.10 mm
+# Kipps Distance: 25.90 mm
+# Hand-Wing Index: 28.10
+# Tail Length: 88.40 mm
+# Aspect Ratio: 1.393
+# Pointedness Index: 0.2812
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1158
+# Max Thickness Position: 0.3331
+# Max Camber/Chord: 0.0566
+# Max Camber Position: 0.3575
+# Leading Edge Radius: 0.0324
+# LE Droop: 0.0024
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.49e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00970594,0.06061563
+UPPER,2,0.03882375,0.10840225
+UPPER,3,0.08088282,0.13545926
+UPPER,4,0.28983180,0.16546248
+UPPER,5,0.33314000,0.17240981
+UPPER,6,0.37644820,0.16083093
+UPPER,7,0.37986300,0.12841005
+UPPER,8,0.48752000,0.08054870
+UPPER,9,0.88000000,0.03077908
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00970594,-0.03810975
+LOWER,2,0.03882375,-0.01723509
+LOWER,3,0.08088282,-0.04111188
+LOWER,4,0.28983180,-0.04064165
+LOWER,5,0.33314000,-0.05916786
+LOWER,6,0.37644820,-0.03369432
+LOWER,7,0.37986300,0.00567389
+LOWER,8,0.48752000,0.01889457
+LOWER,9,0.88000000,0.00952369
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

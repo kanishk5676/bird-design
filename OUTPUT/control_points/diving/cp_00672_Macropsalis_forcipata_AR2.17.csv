@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Macropsalis_forcipata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 225.20 mm
+# Secondary1: 103.90 mm
+# Kipps Distance: 121.30 mm
+# Hand-Wing Index: 53.90
+# Tail Length: 658.00 mm
+# Aspect Ratio: 2.167
+# Pointedness Index: 0.5386
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0901
+# Max Thickness Position: 0.3177
+# Max Camber/Chord: 0.0500
+# Max Camber Position: 0.3369
+# Leading Edge Radius: 0.0253
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.80e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00760364,0.04562181
+UPPER,2,0.03041454,0.08757016
+UPPER,3,0.06336363,0.11088827
+UPPER,4,0.27636420,0.13470680
+UPPER,5,0.31766000,0.14011094
+UPPER,6,0.35895580,0.13110404
+UPPER,7,0.35999700,0.10588473
+UPPER,8,0.46688000,0.06775499
+UPPER,9,0.88000000,0.02622147
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00760364,-0.03041454
+LOWER,2,0.03041454,-0.01130738
+LOWER,3,0.06336363,-0.02922069
+LOWER,4,0.27636420,-0.02561595
+LOWER,5,0.31766000,-0.04002699
+LOWER,6,0.35895580,-0.02021182
+LOWER,7,0.35999700,0.01041163
+LOWER,8,0.46688000,0.01841637
+LOWER,9,0.88000000,0.00890774
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

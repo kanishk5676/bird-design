@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ceyx_erithaca
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 58.20 mm
+# Secondary1: 50.60 mm
+# Kipps Distance: 8.00 mm
+# Hand-Wing Index: 13.70
+# Tail Length: 24.80 mm
+# Aspect Ratio: 1.150
+# Pointedness Index: 0.1375
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1285
+# Max Thickness Position: 0.3418
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3690
+# Leading Edge Radius: 0.0363
+# LE Droop: 0.0053
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.13e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01087975,0.07053849
+UPPER,2,0.04351900,0.11952538
+UPPER,3,0.09066458,0.14665303
+UPPER,4,0.29734860,0.17962913
+UPPER,5,0.34178000,0.18733871
+UPPER,6,0.38621140,0.17448942
+UPPER,7,0.39095100,0.13851139
+UPPER,8,0.49904000,0.08599693
+UPPER,9,0.88000000,0.03264083
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01087975,-0.04194100
+LOWER,2,0.04351900,-0.02052172
+LOWER,3,0.09066458,-0.04745685
+LOWER,4,0.29734860,-0.04908829
+LOWER,5,0.34178000,-0.06964716
+LOWER,6,0.38621140,-0.04137871
+LOWER,7,0.39095100,0.00230888
+LOWER,8,0.49904000,0.01849537
+LOWER,9,0.88000000,0.00957173
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

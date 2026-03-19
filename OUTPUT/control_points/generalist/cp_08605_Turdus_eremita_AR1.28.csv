@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Turdus_eremita
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 101.50 mm
+# Secondary1: 79.60 mm
+# Kipps Distance: 21.90 mm
+# Hand-Wing Index: 21.50
+# Tail Length: 80.50 mm
+# Aspect Ratio: 1.275
+# Pointedness Index: 0.2158
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1205
+# Max Thickness Position: 0.3371
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3628
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.69e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01024171,0.06515024
+UPPER,2,0.04096682,0.11306734
+UPPER,3,0.08534755,0.13992707
+UPPER,4,0.29327700,0.17106450
+UPPER,5,0.33710000,0.17829611
+UPPER,6,0.38092300,0.16624344
+UPPER,7,0.38494500,0.13249595
+UPPER,8,0.49280000,0.08285145
+UPPER,9,0.88000000,0.03159450
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01024171,-0.03985682
+LOWER,2,0.04096682,-0.01834927
+LOWER,3,0.08534755,-0.04333159
+LOWER,4,0.29327700,-0.04347308
+LOWER,5,0.33710000,-0.06275736
+LOWER,6,0.38092300,-0.03624148
+LOWER,7,0.38494500,0.00473761
+LOWER,8,0.49280000,0.01894327
+LOWER,9,0.88000000,0.00962127
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Carpococcyx_viridis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 211.20 mm
+# Secondary1: 240.80 mm
+# Kipps Distance: 16.20 mm
+# Hand-Wing Index: 6.20
+# Tail Length: 259.80 mm
+# Aspect Ratio: 0.877
+# Pointedness Index: 0.0767
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1286
+# Max Thickness Position: 0.3463
+# Max Camber/Chord: 0.0596
+# Max Camber Position: 0.3750
+# Leading Edge Radius: 0.0381
+# LE Droop: 0.0068
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01141909,0.07527452
+UPPER,2,0.04567635,0.12171498
+UPPER,3,0.09515906,0.14741863
+UPPER,4,0.30126360,0.18047821
+UPPER,5,0.34628000,0.18819423
+UPPER,6,0.39129640,0.17533420
+UPPER,7,0.39672600,0.13932610
+UPPER,8,0.50504000,0.08666291
+UPPER,9,0.88000000,0.03293371
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01141909,-0.04364835
+LOWER,2,0.04567635,-0.02029424
+LOWER,3,0.09515906,-0.04717500
+LOWER,4,0.30126360,-0.04843038
+LOWER,5,0.34628000,-0.06900643
+LOWER,6,0.39129640,-0.04071436
+LOWER,7,0.39672600,0.00300975
+LOWER,8,0.50504000,0.01894417
+LOWER,9,0.88000000,0.00975446
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

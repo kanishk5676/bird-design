@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Myrmecocichla_monticola
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 107.80 mm
+# Secondary1: 81.50 mm
+# Kipps Distance: 26.30 mm
+# Hand-Wing Index: 24.40
+# Tail Length: 73.10 mm
+# Aspect Ratio: 1.323
+# Pointedness Index: 0.2440
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1179
+# Max Thickness Position: 0.3354
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3605
+# Leading Edge Radius: 0.0334
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.82e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01000911,0.06317467
+UPPER,2,0.04003645,0.11075264
+UPPER,3,0.08340926,0.13757436
+UPPER,4,0.29176320,0.16808899
+UPPER,5,0.33536000,0.17516117
+UPPER,6,0.37895680,0.16337421
+UPPER,7,0.38271200,0.13037073
+UPPER,8,0.49048000,0.08170134
+UPPER,9,0.88000000,0.03120037
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01000911,-0.03910045
+LOWER,2,0.04003645,-0.01766620
+LOWER,3,0.08340926,-0.04201021
+LOWER,4,0.29176320,-0.04171884
+LOWER,5,0.33536000,-0.06057797
+LOWER,6,0.37895680,-0.03464666
+LOWER,7,0.38271200,0.00542899
+LOWER,8,0.49048000,0.01901905
+LOWER,9,0.88000000,0.00960812
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cyornis_lemprieri
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 73.70 mm
+# Secondary1: 59.40 mm
+# Kipps Distance: 13.90 mm
+# Hand-Wing Index: 19.00
+# Tail Length: 62.00 mm
+# Aspect Ratio: 1.241
+# Pointedness Index: 0.1886
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1243
+# Max Thickness Position: 0.3386
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3648
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.12e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01045673,0.06694037
+UPPER,2,0.04182691,0.11577662
+UPPER,3,0.08713940,0.14299350
+UPPER,4,0.29458200,0.17499184
+UPPER,5,0.33860000,0.18244999
+UPPER,6,0.38261800,0.17001974
+UPPER,7,0.38687000,0.13521505
+UPPER,8,0.49480000,0.08423007
+UPPER,9,0.88000000,0.03204025
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01045673,-0.04056691
+LOWER,2,0.04182691,-0.01942517
+LOWER,3,0.08713940,-0.04534760
+LOWER,4,0.29458200,-0.04626659
+LOWER,5,0.33860000,-0.06615499
+LOWER,6,0.38261800,-0.03880845
+LOWER,7,0.38687000,0.00345440
+LOWER,8,0.49480000,0.01864910
+LOWER,9,0.88000000,0.00956478
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

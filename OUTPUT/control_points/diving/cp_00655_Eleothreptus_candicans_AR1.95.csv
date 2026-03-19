@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eleothreptus_candicans
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 151.00 mm
+# Secondary1: 77.50 mm
+# Kipps Distance: 51.80 mm
+# Hand-Wing Index: 40.00
+# Tail Length: 103.80 mm
+# Aspect Ratio: 1.948
+# Pointedness Index: 0.3430
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1035
+# Max Thickness Position: 0.3260
+# Max Camber/Chord: 0.0540
+# Max Camber Position: 0.3480
+# Leading Edge Radius: 0.0301
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.83e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00902646,0.05415878
+UPPER,2,0.03610585,0.09764258
+UPPER,3,0.07522053,0.12418931
+UPPER,4,0.28362000,0.15127605
+UPPER,5,0.32600000,0.15748516
+UPPER,6,0.36838000,0.14713664
+UPPER,7,0.37070000,0.11816080
+UPPER,8,0.47800000,0.07487584
+UPPER,9,0.88000000,0.02879881
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00902646,-0.03610585
+LOWER,2,0.03610585,-0.01421525
+LOWER,3,0.07522053,-0.03518139
+LOWER,4,0.28362000,-0.03292753
+LOWER,5,0.32600000,-0.04948516
+LOWER,6,0.36838000,-0.02671842
+LOWER,7,0.37070000,0.00846653
+LOWER,8,0.47800000,0.01899208
+LOWER,9,0.88000000,0.00936059
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rowettia_goughensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 97.80 mm
+# Secondary1: 77.70 mm
+# Kipps Distance: 19.10 mm
+# Hand-Wing Index: 19.80
+# Tail Length: 78.60 mm
+# Aspect Ratio: 1.259
+# Pointedness Index: 0.1953
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1221
+# Max Thickness Position: 0.3381
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3642
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.61e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01039811,0.06642865
+UPPER,2,0.04159243,0.11441250
+UPPER,3,0.08665090,0.14129531
+UPPER,4,0.29416440,0.17279842
+UPPER,5,0.33812000,0.18012407
+UPPER,6,0.38207560,0.16791465
+UPPER,7,0.38625400,0.13372829
+UPPER,8,0.49416000,0.08351178
+UPPER,9,0.88000000,0.03181890
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01039811,-0.04038043
+LOWER,2,0.04159243,-0.01875967
+LOWER,3,0.08665090,-0.04412086
+LOWER,4,0.29416440,-0.04452920
+LOWER,5,0.33812000,-0.06406427
+LOWER,6,0.38207560,-0.03720355
+LOWER,7,0.38625400,0.00430847
+LOWER,8,0.49416000,0.01888535
+LOWER,9,0.88000000,0.00962371
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eupherusa_poliocerca
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 60.60 mm
+# Secondary1: 21.10 mm
+# Kipps Distance: 38.60 mm
+# Hand-Wing Index: 64.70
+# Tail Length: 38.20 mm
+# Aspect Ratio: 2.872
+# Pointedness Index: 0.6370
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0864
+# Max Thickness Position: 0.3112
+# Max Camber/Chord: 0.0463
+# Max Camber Position: 0.3282
+# Leading Edge Radius: 0.0226
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.52e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00677167,0.04062999
+UPPER,2,0.02708666,0.08256671
+UPPER,3,0.05643054,0.10482093
+UPPER,4,0.27072660,0.12753815
+UPPER,5,0.31118000,0.13272358
+UPPER,6,0.35163340,0.12408120
+UPPER,7,0.35168100,0.09988253
+UPPER,8,0.45824000,0.06355347
+UPPER,9,0.88000000,0.02450782
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00677167,-0.02708666
+LOWER,2,0.02708666,-0.01145070
+LOWER,3,0.05643054,-0.02882791
+LOWER,4,0.27072660,-0.02629622
+LOWER,5,0.31118000,-0.04012403
+LOWER,6,0.35163340,-0.02111079
+LOWER,7,0.35168100,0.00827330
+LOWER,8,0.45824000,0.01660653
+LOWER,9,0.88000000,0.00811799
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

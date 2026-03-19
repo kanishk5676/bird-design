@@ -1,0 +1,4 @@
+
+# Large analysis artifacts (kept local)
+RESULTS/neuralfoil_analysis/detailed_results.pkl
+RESULTS/neuralfoil_analysis/detailed_analysis.csv

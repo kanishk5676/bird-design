@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pheucticus_ludovicianus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 101.30 mm
+# Secondary1: 75.80 mm
+# Kipps Distance: 27.40 mm
+# Hand-Wing Index: 26.50
+# Tail Length: 74.60 mm
+# Aspect Ratio: 1.336
+# Pointedness Index: 0.2705
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1165
+# Max Thickness Position: 0.3341
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3588
+# Leading Edge Radius: 0.0327
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.68e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00980963,0.06155780
+UPPER,2,0.03923853,0.10935035
+UPPER,3,0.08174694,0.13627301
+UPPER,4,0.29066700,0.16646487
+UPPER,5,0.33410000,0.17345714
+UPPER,6,0.37753300,0.16180336
+UPPER,7,0.38109500,0.12917279
+UPPER,8,0.48880000,0.08101204
+UPPER,9,0.88000000,0.03095238
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00980963,-0.03842853
+LOWER,2,0.03923853,-0.01737030
+LOWER,3,0.08174694,-0.04140899
+LOWER,4,0.29066700,-0.04097234
+LOWER,5,0.33410000,-0.05961839
+LOWER,6,0.37753300,-0.03398008
+LOWER,7,0.38109500,0.00564276
+LOWER,8,0.48880000,0.01897473
+LOWER,9,0.88000000,0.00956833
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

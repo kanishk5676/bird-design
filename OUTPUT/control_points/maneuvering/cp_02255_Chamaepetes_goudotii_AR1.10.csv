@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chamaepetes_goudotii
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 253.40 mm
+# Secondary1: 231.10 mm
+# Kipps Distance: 25.40 mm
+# Hand-Wing Index: 9.90
+# Tail Length: 247.20 mm
+# Aspect Ratio: 1.096
+# Pointedness Index: 0.1002
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1246
+# Max Thickness Position: 0.3441
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3721
+# Leading Edge Radius: 0.0373
+# LE Droop: 0.0060
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01118585,0.07313511
+UPPER,2,0.04474341,0.11868285
+UPPER,3,0.09321544,0.14421947
+UPPER,4,0.29933220,0.17636869
+UPPER,5,0.34406000,0.18384372
+UPPER,6,0.38878780,0.17138534
+UPPER,7,0.39387700,0.13650190
+UPPER,8,0.50208000,0.08525443
+UPPER,9,0.88000000,0.03248549
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01118585,-0.04293741
+LOWER,2,0.04474341,-0.01912581
+LOWER,3,0.09321544,-0.04499898
+LOWER,4,0.29933220,-0.04539037
+LOWER,5,0.34406000,-0.06532377
+LOWER,6,0.38878780,-0.03791534
+LOWER,7,0.39387700,0.00444313
+LOWER,8,0.50208000,0.01929946
+LOWER,9,0.88000000,0.00983164
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

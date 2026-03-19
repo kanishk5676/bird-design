@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Enicurus_velatus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 74.50 mm
+# Secondary1: 54.40 mm
+# Kipps Distance: 20.10 mm
+# Hand-Wing Index: 27.00
+# Tail Length: 68.50 mm
+# Aspect Ratio: 1.369
+# Pointedness Index: 0.2698
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1178
+# Max Thickness Position: 0.3338
+# Max Camber/Chord: 0.0568
+# Max Camber Position: 0.3584
+# Leading Edge Radius: 0.0327
+# LE Droop: 0.0026
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.14e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00979783,0.06138696
+UPPER,2,0.03919131,0.10982490
+UPPER,3,0.08164856,0.13712829
+UPPER,4,0.29040600,0.16759996
+UPPER,5,0.33380000,0.17467054
+UPPER,6,0.37719400,0.16288624
+UPPER,7,0.38071000,0.12989019
+UPPER,8,0.48840000,0.08129943
+UPPER,9,0.88000000,0.03102189
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00979783,-0.03841131
+LOWER,2,0.03919131,-0.01782015
+LOWER,3,0.08164856,-0.04220831
+LOWER,4,0.29040600,-0.04216065
+LOWER,5,0.33380000,-0.06101554
+LOWER,6,0.37719400,-0.03509007
+LOWER,7,0.38071000,0.00497656
+LOWER,8,0.48840000,0.01873502
+LOWER,9,0.88000000,0.00949315
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Turacoena_sulaensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 181.00 mm
+# Secondary1: 140.00 mm
+# Kipps Distance: 57.80 mm
+# Hand-Wing Index: 29.20
+# Tail Length: 171.50 mm
+# Aspect Ratio: 1.293
+# Pointedness Index: 0.3193
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1111
+# Max Thickness Position: 0.3325
+# Max Camber/Chord: 0.0564
+# Max Camber Position: 0.3566
+# Leading Edge Radius: 0.0316
+# LE Droop: 0.0022
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.59e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00947786,0.05902717
+UPPER,2,0.03791144,0.10565166
+UPPER,3,0.07898218,0.13187984
+UPPER,4,0.28925760,0.16083210
+UPPER,5,0.33248000,0.16749745
+UPPER,6,0.37570240,0.15638854
+UPPER,7,0.37901600,0.12528361
+UPPER,8,0.48664000,0.07905207
+UPPER,9,0.88000000,0.03032232
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00947786,-0.03726344
+LOWER,2,0.03791144,-0.01580555
+LOWER,3,0.07898218,-0.03848378
+LOWER,4,0.28925760,-0.03690640
+LOWER,5,0.33248000,-0.05468065
+LOWER,6,0.37570240,-0.03024106
+LOWER,7,0.37901600,0.00752922
+LOWER,8,0.48664000,0.01942074
+LOWER,9,0.88000000,0.00965854
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psitteuteles_goldiei
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 106.80 mm
+# Secondary1: 49.90 mm
+# Kipps Distance: 56.90 mm
+# Hand-Wing Index: 53.30
+# Tail Length: 77.50 mm
+# Aspect Ratio: 2.140
+# Pointedness Index: 0.5328
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0946
+# Max Thickness Position: 0.3180
+# Max Camber/Chord: 0.0502
+# Max Camber Position: 0.3374
+# Leading Edge Radius: 0.0255
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.89e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00765189,0.04591131
+UPPER,2,0.03060754,0.08999069
+UPPER,3,0.06376571,0.11431583
+UPPER,4,0.27667740,0.13914330
+UPPER,5,0.31802000,0.14481844
+UPPER,6,0.35936260,0.13535987
+UPPER,7,0.36045900,0.10887589
+UPPER,8,0.46736000,0.06918185
+UPPER,9,0.88000000,0.02665531
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00765189,-0.03060754
+LOWER,2,0.03060754,-0.01268594
+LOWER,3,0.06376571,-0.03175261
+LOWER,4,0.27667740,-0.02921918
+LOWER,5,0.31802000,-0.04435289
+LOWER,6,0.35936260,-0.02354404
+LOWER,7,0.36045900,0.00861508
+LOWER,8,0.46736000,0.01790233
+LOWER,9,0.88000000,0.00877477
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

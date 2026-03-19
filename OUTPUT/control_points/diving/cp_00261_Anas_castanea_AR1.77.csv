@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anas_castanea
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 202.00 mm
+# Secondary1: 114.30 mm
+# Kipps Distance: 95.10 mm
+# Hand-Wing Index: 45.50
+# Tail Length: 87.70 mm
+# Aspect Ratio: 1.767
+# Pointedness Index: 0.4708
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0974
+# Max Thickness Position: 0.3227
+# Max Camber/Chord: 0.0525
+# Max Camber Position: 0.3436
+# Leading Edge Radius: 0.0274
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.15e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00820666,0.04923996
+UPPER,2,0.03282664,0.09337569
+UPPER,3,0.06838884,0.11848598
+UPPER,4,0.28074900,0.14412177
+UPPER,5,0.32270000,0.14996682
+UPPER,6,0.36465100,0.14022507
+UPPER,7,0.36646500,0.11294819
+UPPER,8,0.47360000,0.07194385
+UPPER,9,0.88000000,0.02776216
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00820666,-0.03282664
+LOWER,2,0.03282664,-0.01278130
+LOWER,3,0.06838884,-0.03232940
+LOWER,4,0.28074900,-0.02928127
+LOWER,5,0.32270000,-0.04486807
+LOWER,6,0.36465100,-0.02343623
+LOWER,7,0.36646500,0.00968570
+LOWER,8,0.47360000,0.01894217
+LOWER,9,0.88000000,0.00924065
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

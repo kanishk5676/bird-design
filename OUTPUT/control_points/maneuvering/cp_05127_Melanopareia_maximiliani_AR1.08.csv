@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melanopareia_maximiliani
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 52.10 mm
+# Secondary1: 48.40 mm
+# Kipps Distance: 3.50 mm
+# Hand-Wing Index: 6.70
+# Tail Length: 72.30 mm
+# Aspect Ratio: 1.076
+# Pointedness Index: 0.0672
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1346
+# Max Thickness Position: 0.3460
+# Max Camber/Chord: 0.0596
+# Max Camber Position: 0.3746
+# Leading Edge Radius: 0.0382
+# LE Droop: 0.0067
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01145237,0.07537422
+UPPER,2,0.04580948,0.12459986
+UPPER,3,0.09543641,0.15172935
+UPPER,4,0.30100260,0.18611437
+UPPER,5,0.34598000,0.19419278
+UPPER,6,0.39095740,0.18072878
+UPPER,7,0.39634100,0.14302958
+UPPER,8,0.50464000,0.08831906
+UPPER,9,0.88000000,0.03340125
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01145237,-0.04381148
+LOWER,2,0.04580948,-0.02224133
+LOWER,3,0.09543641,-0.05069692
+LOWER,4,0.30100260,-0.05354483
+LOWER,5,0.34598000,-0.07508723
+LOWER,6,0.39095740,-0.04546643
+LOWER,7,0.39634100,0.00031117
+LOWER,8,0.50464000,0.01807312
+LOWER,9,0.88000000,0.00950259
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

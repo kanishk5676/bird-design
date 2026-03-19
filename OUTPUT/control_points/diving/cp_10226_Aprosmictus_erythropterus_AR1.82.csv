@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aprosmictus_erythropterus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 190.20 mm
+# Secondary1: 104.50 mm
+# Kipps Distance: 87.20 mm
+# Hand-Wing Index: 45.50
+# Tail Length: 140.00 mm
+# Aspect Ratio: 1.820
+# Pointedness Index: 0.4585
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0978
+# Max Thickness Position: 0.3227
+# Max Camber/Chord: 0.0525
+# Max Camber Position: 0.3436
+# Leading Edge Radius: 0.0276
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.83e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00826953,0.04961718
+UPPER,2,0.03307812,0.09354904
+UPPER,3,0.06891275,0.11873561
+UPPER,4,0.28074900,0.14444767
+UPPER,5,0.32270000,0.15031352
+UPPER,6,0.36465100,0.14053710
+UPPER,7,0.36646500,0.11316314
+UPPER,8,0.47360000,0.07204093
+UPPER,9,0.88000000,0.02778989
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00826953,-0.03307812
+LOWER,2,0.03307812,-0.01289224
+LOWER,3,0.06891275,-0.03253049
+LOWER,4,0.28074900,-0.02957251
+LOWER,5,0.32270000,-0.04521477
+LOWER,6,0.36465100,-0.02370666
+LOWER,7,0.36646500,0.00953315
+LOWER,8,0.47360000,0.01889363
+LOWER,9,0.88000000,0.00922678
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

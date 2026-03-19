@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Philydor_pyrrhodes
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 82.60 mm
+# Secondary1: 67.70 mm
+# Kipps Distance: 15.00 mm
+# Hand-Wing Index: 18.10
+# Tail Length: 62.40 mm
+# Aspect Ratio: 1.220
+# Pointedness Index: 0.1816
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1244
+# Max Thickness Position: 0.3391
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3655
+# Leading Edge Radius: 0.0351
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.30e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01051999,0.06749994
+UPPER,2,0.04207996,0.11611113
+UPPER,3,0.08766658,0.14317693
+UPPER,4,0.29505180,0.17520549
+UPPER,5,0.33914000,0.18266908
+UPPER,6,0.38322820,0.17022977
+UPPER,7,0.38756300,0.13539970
+UPPER,8,0.49552000,0.08436465
+UPPER,9,0.88000000,0.03209632
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01051999,-0.04076596
+LOWER,2,0.04207996,-0.01940920
+LOWER,3,0.08766658,-0.04534105
+LOWER,4,0.29505180,-0.04621423
+LOWER,5,0.33914000,-0.06611713
+LOWER,6,0.38322820,-0.03875065
+LOWER,7,0.38756300,0.00354301
+LOWER,8,0.49552000,0.01871607
+LOWER,9,0.88000000,0.00959327
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Guira_guira
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 173.60 mm
+# Secondary1: 130.50 mm
+# Kipps Distance: 43.20 mm
+# Hand-Wing Index: 24.90
+# Tail Length: 213.80 mm
+# Aspect Ratio: 1.330
+# Pointedness Index: 0.2488
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1148
+# Max Thickness Position: 0.3351
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3601
+# Leading Edge Radius: 0.0332
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.40e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00996894,0.06283361
+UPPER,2,0.03987574,0.10902845
+UPPER,3,0.08307446,0.13526186
+UPPER,4,0.29150220,0.16508731
+UPPER,5,0.33506000,0.17197342
+UPPER,6,0.37861780,0.16049658
+UPPER,7,0.38232700,0.12836141
+UPPER,8,0.49008000,0.08075939
+UPPER,9,0.88000000,0.03091937
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00996894,-0.03896974
+LOWER,2,0.03987574,-0.01670416
+LOWER,3,0.08307446,-0.04025141
+LOWER,4,0.29150220,-0.03920052
+LOWER,5,0.33506000,-0.05756347
+LOWER,6,0.37861780,-0.03231441
+LOWER,7,0.38232700,0.00670686
+LOWER,8,0.49008000,0.01939950
+LOWER,9,0.88000000,0.00971051
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

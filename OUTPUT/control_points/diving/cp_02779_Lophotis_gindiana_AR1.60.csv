@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lophotis_gindiana
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 253.00 mm
+# Secondary1: 158.10 mm
+# Kipps Distance: 92.10 mm
+# Hand-Wing Index: 37.00
+# Tail Length: 135.60 mm
+# Aspect Ratio: 1.600
+# Pointedness Index: 0.3640
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1029
+# Max Thickness Position: 0.3278
+# Max Camber/Chord: 0.0547
+# Max Camber Position: 0.3504
+# Leading Edge Radius: 0.0300
+# LE Droop: 0.0006
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.61e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00901124,0.05466743
+UPPER,2,0.03604495,0.09857485
+UPPER,3,0.07509366,0.12444662
+UPPER,4,0.28518600,0.15146566
+UPPER,5,0.32780000,0.15764044
+UPPER,6,0.37041400,0.14734915
+UPPER,7,0.37301000,0.11853352
+UPPER,8,0.48040000,0.07533400
+UPPER,9,0.88000000,0.02902949
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00901124,-0.03586495
+LOWER,2,0.03604495,-0.01377752
+LOWER,3,0.07509366,-0.03451486
+LOWER,4,0.28518600,-0.03171937
+LOWER,5,0.32780000,-0.04818544
+LOWER,6,0.37041400,-0.02554459
+LOWER,7,0.37301000,0.00944581
+LOWER,8,0.48040000,0.01952324
+LOWER,9,0.88000000,0.00956536
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

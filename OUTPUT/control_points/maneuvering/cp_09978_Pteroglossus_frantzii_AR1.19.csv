@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pteroglossus_frantzii
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 149.60 mm
+# Secondary1: 125.20 mm
+# Kipps Distance: 24.50 mm
+# Hand-Wing Index: 16.30
+# Tail Length: 161.10 mm
+# Aspect Ratio: 1.195
+# Pointedness Index: 0.1638
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1225
+# Max Thickness Position: 0.3402
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3670
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.79e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01066599,0.06873596
+UPPER,2,0.04266397,0.11573175
+UPPER,3,0.08888327,0.14203781
+UPPER,4,0.29599140,0.17366907
+UPPER,5,0.34022000,0.18101897
+UPPER,6,0.38444860,0.16876915
+UPPER,7,0.38894900,0.13446965
+UPPER,8,0.49696000,0.08404215
+UPPER,9,0.88000000,0.03203775
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01066599,-0.04124197
+LOWER,2,0.04266397,-0.01871715
+LOWER,3,0.08888327,-0.04412939
+LOWER,4,0.29599140,-0.04437771
+LOWER,5,0.34022000,-0.06397742
+LOWER,6,0.38444860,-0.03702781
+LOWER,7,0.38894900,0.00462157
+LOWER,8,0.49696000,0.01913313
+LOWER,9,0.88000000,0.00973027
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

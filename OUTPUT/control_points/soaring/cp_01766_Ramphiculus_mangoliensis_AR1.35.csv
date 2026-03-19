@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ramphiculus_mangoliensis
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 158.60 mm
+# Secondary1: 117.60 mm
+# Kipps Distance: 41.00 mm
+# Hand-Wing Index: 25.80
+# Tail Length: 123.90 mm
+# Aspect Ratio: 1.349
+# Pointedness Index: 0.2585
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1146
+# Max Thickness Position: 0.3345
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3594
+# Leading Edge Radius: 0.0330
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00989211,0.06219265
+UPPER,2,0.03956844,0.10861162
+UPPER,3,0.08243424,0.13496918
+UPPER,4,0.29103240,0.16473720
+UPPER,5,0.33452000,0.17161112
+UPPER,6,0.37800760,0.16015459
+UPPER,7,0.38163400,0.12807633
+UPPER,8,0.48936000,0.08056728
+UPPER,9,0.88000000,0.03084266
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00989211,-0.03871644
+LOWER,2,0.03956844,-0.01669480
+LOWER,3,0.08243424,-0.04020671
+LOWER,4,0.29103240,-0.03918888
+LOWER,5,0.33452000,-0.05751932
+LOWER,6,0.37800760,-0.03231497
+LOWER,7,0.38163400,0.00663720
+LOWER,8,0.48936000,0.01932933
+LOWER,9,0.88000000,0.00967887
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

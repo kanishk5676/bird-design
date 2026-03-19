@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sibia_morrisoniana
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 81.00 mm
+# Secondary1: 69.60 mm
+# Kipps Distance: 11.40 mm
+# Hand-Wing Index: 14.10
+# Tail Length: 80.40 mm
+# Aspect Ratio: 1.164
+# Pointedness Index: 0.1407
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1277
+# Max Thickness Position: 0.3415
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3687
+# Leading Edge Radius: 0.0362
+# LE Droop: 0.0052
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.26e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01085076,0.07028457
+UPPER,2,0.04340305,0.11900895
+UPPER,3,0.09042302,0.14603910
+UPPER,4,0.29713980,0.17883723
+UPPER,5,0.34154000,0.18649931
+UPPER,6,0.38594020,0.17372918
+UPPER,7,0.39064300,0.13797280
+UPPER,8,0.49872000,0.08573465
+UPPER,9,0.88000000,0.03255934
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01085076,-0.04184905
+LOWER,2,0.04340305,-0.02028514
+LOWER,3,0.09042302,-0.04701971
+LOWER,4,0.29713980,-0.04847115
+LOWER,5,0.34154000,-0.06890336
+LOWER,6,0.38594020,-0.04080907
+LOWER,7,0.39064300,0.00260939
+LOWER,8,0.49872000,0.01857656
+LOWER,9,0.88000000,0.00959144
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lacedo_pulchella
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 82.00 mm
+# Secondary1: 64.40 mm
+# Kipps Distance: 18.40 mm
+# Hand-Wing Index: 22.20
+# Tail Length: 59.80 mm
+# Aspect Ratio: 1.273
+# Pointedness Index: 0.2244
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1212
+# Max Thickness Position: 0.3367
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3622
+# Leading Edge Radius: 0.0339
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01017629,0.06461774
+UPPER,2,0.04070516,0.11314594
+UPPER,3,0.08480241,0.14027576
+UPPER,4,0.29291160,0.17154215
+UPPER,5,0.33668000,0.17881136
+UPPER,6,0.38044840,0.16669601
+UPPER,7,0.38440600,0.13277304
+UPPER,8,0.49224000,0.08293218
+UPPER,9,0.88000000,0.03160228
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01017629,-0.03963716
+LOWER,2,0.04070516,-0.01858884
+LOWER,3,0.08480241,-0.04374637
+LOWER,4,0.29291160,-0.04411100
+LOWER,5,0.33668000,-0.06349556
+LOWER,6,0.38044840,-0.03684180
+LOWER,7,0.38440600,0.00435038
+LOWER,8,0.49224000,0.01878641
+LOWER,9,0.88000000,0.00956834
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

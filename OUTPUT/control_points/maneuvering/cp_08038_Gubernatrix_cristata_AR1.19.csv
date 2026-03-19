@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gubernatrix_cristata
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 93.80 mm
+# Secondary1: 78.50 mm
+# Kipps Distance: 16.00 mm
+# Hand-Wing Index: 16.90
+# Tail Length: 95.40 mm
+# Aspect Ratio: 1.195
+# Pointedness Index: 0.1706
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1246
+# Max Thickness Position: 0.3399
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3665
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01061292,0.06829754
+UPPER,2,0.04245170,0.11661833
+UPPER,3,0.08844103,0.14351154
+UPPER,4,0.29567820,0.17560916
+UPPER,5,0.33986000,0.18308798
+UPPER,6,0.38404180,0.17062328
+UPPER,7,0.38848700,0.13572212
+UPPER,8,0.49648000,0.08457599
+UPPER,9,0.88000000,0.03217933
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01061292,-0.04106570
+LOWER,2,0.04245170,-0.01943270
+LOWER,3,0.08844103,-0.04541241
+LOWER,4,0.29567820,-0.04626251
+LOWER,5,0.33986000,-0.06620603
+LOWER,6,0.38404180,-0.03878369
+LOWER,7,0.38848700,0.00359629
+LOWER,8,0.49648000,0.01878282
+LOWER,9,0.88000000,0.00962436
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

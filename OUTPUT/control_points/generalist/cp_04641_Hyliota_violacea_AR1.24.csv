@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hyliota_violacea
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 76.10 mm
+# Secondary1: 61.40 mm
+# Kipps Distance: 14.80 mm
+# Hand-Wing Index: 19.40
+# Tail Length: 49.60 mm
+# Aspect Ratio: 1.239
+# Pointedness Index: 0.1945
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1238
+# Max Thickness Position: 0.3384
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3645
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01041451,0.06660704
+UPPER,2,0.04165803,0.11539870
+UPPER,3,0.08678756,0.14258225
+UPPER,4,0.29437320,0.17446668
+UPPER,5,0.33836000,0.18189504
+UPPER,6,0.38234680,0.16951444
+UPPER,7,0.38656200,0.13484878
+UPPER,8,0.49448000,0.08404140
+UPPER,9,0.88000000,0.03197833
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01041451,-0.04042203
+LOWER,2,0.04165803,-0.01928671
+LOWER,3,0.08678756,-0.04508646
+LOWER,4,0.29437320,-0.04590789
+LOWER,5,0.33836000,-0.06571684
+LOWER,6,0.38234680,-0.03847953
+LOWER,7,0.38656200,0.00361449
+LOWER,8,0.49448000,0.01868241
+LOWER,9,0.88000000,0.00957004
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

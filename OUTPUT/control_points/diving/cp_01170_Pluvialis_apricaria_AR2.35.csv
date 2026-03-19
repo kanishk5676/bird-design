@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pluvialis_apricaria
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 181.20 mm
+# Secondary1: 77.20 mm
+# Kipps Distance: 104.20 mm
+# Hand-Wing Index: 57.40
+# Tail Length: 70.20 mm
+# Aspect Ratio: 2.347
+# Pointedness Index: 0.5751
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0879
+# Max Thickness Position: 0.3156
+# Max Camber/Chord: 0.0489
+# Max Camber Position: 0.3341
+# Leading Edge Radius: 0.0244
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.16e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00731078,0.04386467
+UPPER,2,0.02924311,0.08550483
+UPPER,3,0.06092315,0.10826345
+UPPER,4,0.27453720,0.13151100
+UPPER,5,0.31556000,0.13678449
+UPPER,6,0.35658280,0.12799535
+UPPER,7,0.35730200,0.10338576
+UPPER,8,0.46408000,0.06616872
+UPPER,9,0.88000000,0.02561069
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00731078,-0.02924311
+LOWER,2,0.02924311,-0.01101266
+LOWER,3,0.06092315,-0.02848618
+LOWER,4,0.27453720,-0.02493567
+LOWER,5,0.31556000,-0.03899829
+LOWER,6,0.35658280,-0.01966218
+LOWER,7,0.35730200,0.01022089
+LOWER,8,0.46408000,0.01800893
+LOWER,9,0.88000000,0.00870762
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

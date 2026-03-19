@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cercomacra_melanaria
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 70.20 mm
+# Secondary1: 64.40 mm
+# Kipps Distance: 6.00 mm
+# Hand-Wing Index: 8.50
+# Tail Length: 76.20 mm
+# Aspect Ratio: 1.090
+# Pointedness Index: 0.0855
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1330
+# Max Thickness Position: 0.3449
+# Max Camber/Chord: 0.0594
+# Max Camber Position: 0.3732
+# Leading Edge Radius: 0.0377
+# LE Droop: 0.0063
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01130400,0.07412402
+UPPER,2,0.04521601,0.12327023
+UPPER,3,0.09420002,0.15038125
+UPPER,4,0.30006300,0.18438620
+UPPER,5,0.34490000,0.19236441
+UPPER,6,0.38973700,0.17906740
+UPPER,7,0.39495500,0.14183579
+UPPER,8,0.50320000,0.08771683
+UPPER,9,0.88000000,0.03320746
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01130400,-0.04332601
+LOWER,2,0.04521601,-0.02176238
+LOWER,3,0.09420002,-0.04980120
+LOWER,4,0.30006300,-0.05230045
+LOWER,5,0.34490000,-0.07357566
+LOWER,6,0.38973700,-0.04432225
+LOWER,7,0.39495500,0.00088756
+LOWER,8,0.50320000,0.01820871
+LOWER,9,0.88000000,0.00952979
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

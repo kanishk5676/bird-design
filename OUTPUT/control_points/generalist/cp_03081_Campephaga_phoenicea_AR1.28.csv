@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Campephaga_phoenicea
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 97.50 mm
+# Secondary1: 76.20 mm
+# Kipps Distance: 21.50 mm
+# Hand-Wing Index: 22.00
+# Tail Length: 85.50 mm
+# Aspect Ratio: 1.280
+# Pointedness Index: 0.2205
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1204
+# Max Thickness Position: 0.3368
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3624
+# Leading Edge Radius: 0.0340
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.60e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01020218,0.06481311
+UPPER,2,0.04080874,0.11281216
+UPPER,3,0.08501821,0.13972775
+UPPER,4,0.29301600,0.17082024
+UPPER,5,0.33680000,0.17804131
+UPPER,6,0.38058400,0.16600618
+UPPER,7,0.38456000,0.13230782
+UPPER,8,0.49240000,0.08273487
+UPPER,9,0.88000000,0.03155031
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01020218,-0.03972874
+LOWER,2,0.04080874,-0.01832092
+LOWER,3,0.08501821,-0.04326636
+LOWER,4,0.29301600,-0.04340510
+LOWER,5,0.33680000,-0.06266131
+LOWER,6,0.38058400,-0.03618403
+LOWER,7,0.38456000,0.00473542
+LOWER,8,0.49240000,0.01891862
+LOWER,9,0.88000000,0.00960845
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

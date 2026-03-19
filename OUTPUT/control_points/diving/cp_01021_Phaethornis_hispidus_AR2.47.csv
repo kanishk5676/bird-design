@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phaethornis_hispidus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 54.10 mm
+# Secondary1: 21.90 mm
+# Kipps Distance: 32.30 mm
+# Hand-Wing Index: 59.70
+# Tail Length: 56.40 mm
+# Aspect Ratio: 2.470
+# Pointedness Index: 0.5970
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0922
+# Max Thickness Position: 0.3142
+# Max Camber/Chord: 0.0481
+# Max Camber Position: 0.3322
+# Leading Edge Radius: 0.0238
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00712826,0.04276958
+UPPER,2,0.02851305,0.08699603
+UPPER,3,0.05940219,0.11065043
+UPPER,4,0.27333660,0.13478588
+UPPER,5,0.31418000,0.14031871
+UPPER,6,0.35502340,0.13109732
+UPPER,7,0.35553100,0.10527742
+UPPER,8,0.46224000,0.06670896
+UPPER,9,0.88000000,0.02565693
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00712826,-0.02851305
+LOWER,2,0.02851305,-0.01267179
+LOWER,3,0.05940219,-0.03135589
+LOWER,4,0.27333660,-0.02935493
+LOWER,5,0.31418000,-0.04410916
+LOWER,6,0.35502340,-0.02382210
+LOWER,7,0.35553100,0.00753064
+LOWER,8,0.46224000,0.01691501
+LOWER,9,0.88000000,0.00833764
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

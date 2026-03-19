@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geomalia_heinrichi
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 111.80 mm
+# Secondary1: 97.10 mm
+# Kipps Distance: 14.70 mm
+# Hand-Wing Index: 13.10
+# Tail Length: 140.10 mm
+# Aspect Ratio: 1.151
+# Pointedness Index: 0.1315
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1267
+# Max Thickness Position: 0.3421
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3695
+# Leading Edge Radius: 0.0364
+# LE Droop: 0.0054
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.91e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01092857,0.07095141
+UPPER,2,0.04371427,0.11881113
+UPPER,3,0.09107140,0.14543037
+UPPER,4,0.29766180,0.17801878
+UPPER,5,0.34214000,0.18562108
+UPPER,6,0.38661820,0.17295057
+UPPER,7,0.39141300,0.13747314
+UPPER,8,0.49952000,0.08555601
+UPPER,9,0.88000000,0.03252448
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01092857,-0.04210027
+LOWER,2,0.04371427,-0.01992504
+LOWER,3,0.09107140,-0.04638761
+LOWER,4,0.29766180,-0.04751632
+LOWER,5,0.34214000,-0.06778913
+LOWER,6,0.38661820,-0.03991401
+LOWER,7,0.39141300,0.00316573
+LOWER,8,0.49952000,0.01878919
+LOWER,9,0.88000000,0.00966079
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

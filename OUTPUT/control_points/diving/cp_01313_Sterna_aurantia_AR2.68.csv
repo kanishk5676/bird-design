@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sterna_aurantia
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 262.20 mm
+# Secondary1: 97.80 mm
+# Kipps Distance: 166.80 mm
+# Hand-Wing Index: 63.00
+# Tail Length: 168.20 mm
+# Aspect Ratio: 2.681
+# Pointedness Index: 0.6362
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0819
+# Max Thickness Position: 0.3122
+# Max Camber/Chord: 0.0469
+# Max Camber Position: 0.3296
+# Leading Edge Radius: 0.0228
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.88e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00682781,0.04096684
+UPPER,2,0.02731123,0.08084080
+UPPER,3,0.05689839,0.10214480
+UPPER,4,0.27161400,0.12391806
+UPPER,5,0.31220000,0.12883236
+UPPER,6,0.35278600,0.12064187
+UPPER,7,0.35299000,0.09770851
+UPPER,8,0.45960000,0.06282173
+UPPER,9,0.88000000,0.02438484
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00682781,-0.02731123
+LOWER,2,0.02731123,-0.00978493
+LOWER,3,0.05689839,-0.02591817
+LOWER,4,0.27161400,-0.02187258
+LOWER,5,0.31220000,-0.03497736
+LOWER,6,0.35278600,-0.01695829
+LOWER,7,0.35299000,0.01088936
+LOWER,8,0.45960000,0.01762837
+LOWER,9,0.88000000,0.00845568
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

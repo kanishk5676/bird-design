@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Serinus_canicollis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 75.50 mm
+# Secondary1: 52.50 mm
+# Kipps Distance: 22.80 mm
+# Hand-Wing Index: 30.20
+# Tail Length: 54.50 mm
+# Aspect Ratio: 1.438
+# Pointedness Index: 0.3020
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1151
+# Max Thickness Position: 0.3319
+# Max Camber/Chord: 0.0562
+# Max Camber Position: 0.3558
+# Leading Edge Radius: 0.0318
+# LE Droop: 0.0020
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.19e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00953575,0.05917449
+UPPER,2,0.03814299,0.10728457
+UPPER,3,0.07946456,0.13457958
+UPPER,4,0.28873560,0.16439668
+UPPER,5,0.33188000,0.17130222
+UPPER,6,0.37502440,0.15979299
+UPPER,7,0.37824600,0.12756714
+UPPER,8,0.48584000,0.08000426
+UPPER,9,0.88000000,0.03056715
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00953575,-0.03755499
+LOWER,2,0.03814299,-0.01715608
+LOWER,3,0.07946456,-0.04089699
+LOWER,4,0.28873560,-0.04046765
+LOWER,5,0.33188000,-0.05888242
+LOWER,6,0.37502440,-0.03356211
+LOWER,7,0.37824600,0.00556928
+LOWER,8,0.48584000,0.01873721
+LOWER,9,0.88000000,0.00944878
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

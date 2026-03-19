@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Vireo_flavoviridis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 77.70 mm
+# Secondary1: 58.50 mm
+# Kipps Distance: 20.40 mm
+# Hand-Wing Index: 25.90
+# Tail Length: 51.90 mm
+# Aspect Ratio: 1.328
+# Pointedness Index: 0.2625
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1184
+# Max Thickness Position: 0.3345
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3593
+# Leading Edge Radius: 0.0329
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.21e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00986846,0.06203078
+UPPER,2,0.03947386,0.11051396
+UPPER,3,0.08223720,0.13774280
+UPPER,4,0.29098020,0.16836191
+UPPER,5,0.33446000,0.17546834
+UPPER,6,0.37793980,0.16362430
+UPPER,7,0.38155700,0.13046100
+UPPER,8,0.48928000,0.08163708
+UPPER,9,0.88000000,0.03114586
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00986846,-0.03862786
+LOWER,2,0.03947386,-0.01794112
+LOWER,3,0.08223720,-0.04246254
+LOWER,4,0.29098020,-0.04246193
+LOWER,5,0.33446000,-0.06141239
+LOWER,6,0.37793980,-0.03535551
+LOWER,7,0.38155700,0.00491422
+LOWER,8,0.48928000,0.01877569
+LOWER,9,0.88000000,0.00951938
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

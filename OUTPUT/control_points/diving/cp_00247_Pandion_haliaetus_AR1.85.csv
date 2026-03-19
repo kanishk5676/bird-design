@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pandion_haliaetus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 468.40 mm
+# Secondary1: 253.00 mm
+# Kipps Distance: 204.80 mm
+# Hand-Wing Index: 44.90
+# Tail Length: 201.30 mm
+# Aspect Ratio: 1.851
+# Pointedness Index: 0.4372
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0930
+# Max Thickness Position: 0.3231
+# Max Camber/Chord: 0.0527
+# Max Camber Position: 0.3441
+# Leading Edge Radius: 0.0280
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.29e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00839617,0.05037703
+UPPER,2,0.03358468,0.09128986
+UPPER,3,0.06996809,0.11543205
+UPPER,4,0.28106220,0.14010139
+UPPER,5,0.32306000,0.14567924
+UPPER,6,0.36505780,0.13638282
+UPPER,7,0.36692700,0.11035282
+UPPER,8,0.47408000,0.07083772
+UPPER,9,0.88000000,0.02746883
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00839617,-0.03358468
+LOWER,2,0.03358468,-0.01129832
+LOWER,3,0.06996809,-0.02967039
+LOWER,4,0.28106220,-0.02537501
+LOWER,5,0.32306000,-0.04024929
+LOWER,6,0.36505780,-0.01979715
+LOWER,7,0.36692700,0.01181070
+LOWER,8,0.47408000,0.01966829
+LOWER,9,0.88000000,0.00946017
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

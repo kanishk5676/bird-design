@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pitta_moluccensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 122.10 mm
+# Secondary1: 96.00 mm
+# Kipps Distance: 25.70 mm
+# Hand-Wing Index: 21.20
+# Tail Length: 40.60 mm
+# Aspect Ratio: 1.272
+# Pointedness Index: 0.2105
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1192
+# Max Thickness Position: 0.3373
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3630
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.40e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01027782,0.06542689
+UPPER,2,0.04111126,0.11252355
+UPPER,3,0.08564846,0.13904332
+UPPER,4,0.29343360,0.16990126
+UPPER,5,0.33728000,0.17705561
+UPPER,6,0.38112640,0.16513169
+UPPER,7,0.38517600,0.13174471
+UPPER,8,0.49304000,0.08253092
+UPPER,9,0.88000000,0.03150937
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01027782,-0.03998326
+LOWER,2,0.04111126,-0.01792081
+LOWER,3,0.08564846,-0.04256320
+LOWER,4,0.29343360,-0.04234454
+LOWER,5,0.33728000,-0.06142281
+LOWER,6,0.38112640,-0.03519019
+LOWER,7,0.38517600,0.00535115
+LOWER,8,0.49304000,0.01915268
+LOWER,9,0.88000000,0.00968453
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

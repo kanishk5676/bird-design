@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psarocolius_atrovirens
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 202.70 mm
+# Secondary1: 158.00 mm
+# Kipps Distance: 44.70 mm
+# Hand-Wing Index: 22.30
+# Tail Length: 150.30 mm
+# Aspect Ratio: 1.283
+# Pointedness Index: 0.2205
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1160
+# Max Thickness Position: 0.3366
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3622
+# Leading Edge Radius: 0.0340
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01019295,0.06469772
+UPPER,2,0.04077181,0.11051425
+UPPER,3,0.08494128,0.13651982
+UPPER,4,0.29285940,0.16664181
+UPPER,5,0.33662000,0.17359926
+UPPER,6,0.38038060,0.16200351
+UPPER,7,0.38432900,0.12953542
+UPPER,8,0.49216000,0.08146361
+UPPER,9,0.88000000,0.03118047
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01019295,-0.03970981
+LOWER,2,0.04077181,-0.01693177
+LOWER,3,0.08494128,-0.04074013
+LOWER,4,0.29285940,-0.03976251
+LOWER,5,0.33662000,-0.05831571
+LOWER,6,0.38038060,-0.03280507
+LOWER,7,0.38432900,0.00662048
+LOWER,8,0.49216000,0.01950385
+LOWER,9,0.88000000,0.00977214
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

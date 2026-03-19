@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Formicarius_rufifrons
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 84.00 mm
+# Secondary1: 73.50 mm
+# Kipps Distance: 10.50 mm
+# Hand-Wing Index: 12.50
+# Tail Length: 63.30 mm
+# Aspect Ratio: 1.143
+# Pointedness Index: 0.1250
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1288
+# Max Thickness Position: 0.3425
+# Max Camber/Chord: 0.0590
+# Max Camber Position: 0.3700
+# Leading Edge Radius: 0.0366
+# LE Droop: 0.0055
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01098000,0.07138000
+UPPER,2,0.04392000,0.12002673
+UPPER,3,0.09150000,0.14698724
+UPPER,4,0.29797500,0.18003759
+UPPER,5,0.34250000,0.18776440
+UPPER,6,0.38702500,0.17488639
+UPPER,7,0.39187500,0.13882799
+UPPER,8,0.50000000,0.08619512
+UPPER,9,0.88000000,0.03271646
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01098000,-0.04227000
+LOWER,2,0.04392000,-0.02056508
+LOWER,3,0.09150000,-0.04755960
+LOWER,4,0.29797500,-0.04919084
+LOWER,5,0.34250000,-0.06979565
+LOWER,6,0.38702500,-0.04146404
+LOWER,7,0.39187500,0.00232117
+LOWER,8,0.50000000,0.01854111
+LOWER,9,0.88000000,0.00959489
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

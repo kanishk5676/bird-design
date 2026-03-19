@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Fulica_americana
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 183.10 mm
+# Secondary1: 115.70 mm
+# Kipps Distance: 65.80 mm
+# Hand-Wing Index: 36.30
+# Tail Length: 50.60 mm
+# Aspect Ratio: 1.583
+# Pointedness Index: 0.3594
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1049
+# Max Thickness Position: 0.3282
+# Max Camber/Chord: 0.0549
+# Max Camber Position: 0.3510
+# Leading Edge Radius: 0.0302
+# LE Droop: 0.0007
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.08e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00905645,0.05507871
+UPPER,2,0.03622580,0.09982540
+UPPER,3,0.07547043,0.12599619
+UPPER,4,0.28555140,0.15345588
+UPPER,5,0.32822000,0.15974727
+UPPER,6,0.37088860,0.14926162
+UPPER,7,0.37354900,0.11990180
+UPPER,8,0.48096000,0.07601698
+UPPER,9,0.88000000,0.02924701
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00905645,-0.03600380
+LOWER,2,0.03622580,-0.01434231
+LOWER,3,0.07547043,-0.03556701
+LOWER,4,0.28555140,-0.03318868
+LOWER,5,0.32822000,-0.04996572
+LOWER,6,0.37088860,-0.02689729
+LOWER,7,0.37354900,0.00875392
+LOWER,8,0.48096000,0.01935237
+LOWER,9,0.88000000,0.00952843
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

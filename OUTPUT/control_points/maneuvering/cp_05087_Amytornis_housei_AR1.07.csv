@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Amytornis_housei
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 72.10 mm
+# Secondary1: 67.30 mm
+# Kipps Distance: 5.50 mm
+# Hand-Wing Index: 7.50
+# Tail Length: 98.60 mm
+# Aspect Ratio: 1.071
+# Pointedness Index: 0.0763
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1336
+# Max Thickness Position: 0.3455
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3740
+# Leading Edge Radius: 0.0379
+# LE Droop: 0.0065
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01138146,0.07478874
+UPPER,2,0.04552583,0.12387335
+UPPER,3,0.09484548,0.15093437
+UPPER,4,0.30058500,0.18509024
+UPPER,5,0.34550000,0.19310764
+UPPER,6,0.39041500,0.17974531
+UPPER,7,0.39572500,0.14233080
+UPPER,8,0.50400000,0.08797623
+UPPER,9,0.88000000,0.03329392
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01138146,-0.04357583
+LOWER,2,0.04552583,-0.02193991
+LOWER,3,0.09484548,-0.05013868
+LOWER,4,0.30058500,-0.05275917
+LOWER,5,0.34550000,-0.07413889
+LOWER,6,0.39041500,-0.04474177
+LOWER,7,0.39572500,0.00069014
+LOWER,8,0.50400000,0.01817306
+LOWER,9,0.88000000,0.00952616
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

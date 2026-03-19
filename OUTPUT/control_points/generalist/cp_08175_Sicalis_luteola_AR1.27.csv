@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sicalis_luteola
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 67.00 mm
+# Secondary1: 52.70 mm
+# Kipps Distance: 14.10 mm
+# Hand-Wing Index: 21.10
+# Tail Length: 45.40 mm
+# Aspect Ratio: 1.271
+# Pointedness Index: 0.2104
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1229
+# Max Thickness Position: 0.3373
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3631
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01028106,0.06546634
+UPPER,2,0.04112423,0.11438699
+UPPER,3,0.08567547,0.14169315
+UPPER,4,0.29348580,0.17335763
+UPPER,5,0.33734000,0.18073161
+UPPER,6,0.38119420,0.16844164
+UPPER,7,0.38525300,0.13402975
+UPPER,8,0.49312000,0.08356908
+UPPER,9,0.88000000,0.03180812
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01028106,-0.03999023
+LOWER,2,0.04112423,-0.01908669
+LOWER,3,0.08567547,-0.04467908
+LOWER,4,0.29348580,-0.04540372
+LOWER,5,0.33734000,-0.06506766
+LOWER,6,0.38119420,-0.03802974
+LOWER,7,0.38525300,0.00375614
+LOWER,8,0.49312000,0.01864988
+LOWER,9,0.88000000,0.00954201
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

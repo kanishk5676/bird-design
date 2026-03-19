@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Mycerobas_affinis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 123.80 mm
+# Secondary1: 92.50 mm
+# Kipps Distance: 31.00 mm
+# Hand-Wing Index: 25.10
+# Tail Length: 89.20 mm
+# Aspect Ratio: 1.338
+# Pointedness Index: 0.2504
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1165
+# Max Thickness Position: 0.3349
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3599
+# Leading Edge Radius: 0.0332
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.18e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00995488,0.06270928
+UPPER,2,0.03981952,0.10984003
+UPPER,3,0.08295734,0.13649877
+UPPER,4,0.29139780,0.16670921
+UPPER,5,0.33494000,0.17370107
+UPPER,6,0.37848220,0.16204796
+UPPER,7,0.38217300,0.12941926
+UPPER,8,0.48992000,0.08122319
+UPPER,9,0.88000000,0.03104708
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00995488,-0.03892552
+LOWER,2,0.03981952,-0.01728046
+LOWER,3,0.08295734,-0.04128985
+LOWER,4,0.29139780,-0.04071615
+LOWER,5,0.33494000,-0.05936112
+LOWER,6,0.37848220,-0.03372428
+LOWER,7,0.38217300,0.00589629
+LOWER,8,0.48992000,0.01913103
+LOWER,9,0.88000000,0.00963125
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

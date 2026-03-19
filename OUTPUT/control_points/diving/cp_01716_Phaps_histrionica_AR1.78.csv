@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phaps_histrionica
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 196.50 mm
+# Secondary1: 110.20 mm
+# Kipps Distance: 86.30 mm
+# Hand-Wing Index: 43.90
+# Tail Length: 81.80 mm
+# Aspect Ratio: 1.783
+# Pointedness Index: 0.4392
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0989
+# Max Thickness Position: 0.3237
+# Max Camber/Chord: 0.0530
+# Max Camber Position: 0.3449
+# Leading Edge Radius: 0.0281
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00841681,0.05050088
+UPPER,2,0.03366725,0.09446721
+UPPER,3,0.07014011,0.11992474
+UPPER,4,0.28158420,0.14591214
+UPPER,5,0.32366000,0.15184353
+UPPER,6,0.36573580,0.14195788
+UPPER,7,0.36769700,0.11427804
+UPPER,8,0.47488000,0.07271876
+UPPER,9,0.88000000,0.02804358
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00841681,-0.03366725
+LOWER,2,0.03366725,-0.01308866
+LOWER,3,0.07014011,-0.03296279
+LOWER,4,0.28158420,-0.03005253
+LOWER,5,0.32366000,-0.04586958
+LOWER,6,0.36573580,-0.02412114
+LOWER,7,0.36769700,0.00949009
+LOWER,8,0.47488000,0.01901201
+LOWER,9,0.88000000,0.00929248
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

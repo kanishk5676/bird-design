@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tangara_desmaresti
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 71.00 mm
+# Secondary1: 56.80 mm
+# Kipps Distance: 14.20 mm
+# Hand-Wing Index: 20.00
+# Tail Length: 52.80 mm
+# Aspect Ratio: 1.250
+# Pointedness Index: 0.2000
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1237
+# Max Thickness Position: 0.3380
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3640
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.07e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01036800,0.06620800
+UPPER,2,0.04147200,0.11515389
+UPPER,3,0.08640000,0.14242960
+UPPER,4,0.29406000,0.17428531
+UPPER,5,0.33800000,0.18170778
+UPPER,6,0.38194000,0.16933700
+UPPER,7,0.38610000,0.13469882
+UPPER,8,0.49400000,0.08393818
+UPPER,9,0.88000000,0.03193662
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01036800,-0.04027200
+LOWER,2,0.04147200,-0.01928649
+LOWER,3,0.08640000,-0.04507051
+LOWER,4,0.29406000,-0.04591453
+LOWER,5,0.33800000,-0.06570778
+LOWER,6,0.38194000,-0.03849207
+LOWER,7,0.38610000,0.00356858
+LOWER,8,0.49400000,0.01864091
+LOWER,9,0.88000000,0.00955169
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

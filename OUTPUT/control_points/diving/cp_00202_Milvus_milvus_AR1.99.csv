@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Milvus_milvus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 481.50 mm
+# Secondary1: 241.60 mm
+# Kipps Distance: 241.60 mm
+# Hand-Wing Index: 49.90
+# Tail Length: 317.30 mm
+# Aspect Ratio: 1.993
+# Pointedness Index: 0.5018
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0888
+# Max Thickness Position: 0.3201
+# Max Camber/Chord: 0.0513
+# Max Camber Position: 0.3401
+# Leading Edge Radius: 0.0264
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.34e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00791406,0.04748434
+UPPER,2,0.03165623,0.08798790
+UPPER,3,0.06595047,0.11111346
+UPPER,4,0.27845220,0.13475183
+UPPER,5,0.32006000,0.14007982
+UPPER,6,0.36166780,0.13119983
+UPPER,7,0.36307700,0.10633588
+UPPER,8,0.47008000,0.06845193
+UPPER,9,0.88000000,0.02659038
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00791406,-0.03165623
+LOWER,2,0.03165623,-0.01046796
+LOWER,3,0.06595047,-0.02791512
+LOWER,4,0.27845220,-0.02331189
+LOWER,5,0.32006000,-0.03751987
+LOWER,6,0.36166780,-0.01798390
+LOWER,7,0.36307700,0.01220804
+LOWER,8,0.47008000,0.01936161
+LOWER,9,0.88000000,0.00926800
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

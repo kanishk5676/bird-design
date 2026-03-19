@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anthocephala_floriceps
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 48.70 mm
+# Secondary1: 16.10 mm
+# Kipps Distance: 32.60 mm
+# Hand-Wing Index: 66.90
+# Tail Length: 28.50 mm
+# Aspect Ratio: 3.025
+# Pointedness Index: 0.6694
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0852
+# Max Thickness Position: 0.3099
+# Max Camber/Chord: 0.0455
+# Max Camber Position: 0.3265
+# Leading Edge Radius: 0.0218
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.33e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00653890,0.03923338
+UPPER,2,0.02615559,0.08126103
+UPPER,3,0.05449081,0.10319423
+UPPER,4,0.26957820,0.12558208
+UPPER,5,0.30986000,0.13069588
+UPPER,6,0.35014180,0.12217289
+UPPER,7,0.34998700,0.09830851
+UPPER,8,0.45648000,0.06251045
+UPPER,9,0.88000000,0.02409546
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00653890,-0.02615559
+LOWER,2,0.02615559,-0.01136048
+LOWER,3,0.05449081,-0.02851900
+LOWER,4,0.26957820,-0.02612714
+LOWER,5,0.30986000,-0.03976393
+LOWER,6,0.35014180,-0.02101335
+LOWER,7,0.34998700,0.00796482
+LOWER,8,0.45648000,0.01625672
+LOWER,9,0.88000000,0.00795730
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

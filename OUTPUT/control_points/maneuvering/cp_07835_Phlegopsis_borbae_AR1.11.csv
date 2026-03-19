@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phlegopsis_borbae
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 83.50 mm
+# Secondary1: 75.40 mm
+# Kipps Distance: 9.20 mm
+# Hand-Wing Index: 11.20
+# Tail Length: 55.20 mm
+# Aspect Ratio: 1.107
+# Pointedness Index: 0.1102
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1299
+# Max Thickness Position: 0.3433
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3710
+# Leading Edge Radius: 0.0370
+# LE Droop: 0.0058
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.31e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01109536,0.07233218
+UPPER,2,0.04438146,0.12094399
+UPPER,3,0.09246137,0.14789052
+UPPER,4,0.29865360,0.18118831
+UPPER,5,0.34328000,0.18897949
+UPPER,6,0.38790640,0.17599418
+UPPER,7,0.39287600,0.13963532
+UPPER,8,0.50104000,0.08661631
+UPPER,9,0.88000000,0.03285628
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01109536,-0.04265346
+LOWER,2,0.04438146,-0.02085875
+LOWER,3,0.09246137,-0.04811665
+LOWER,4,0.29865360,-0.04995020
+LOWER,5,0.34328000,-0.07072669
+LOWER,6,0.38790640,-0.04215901
+LOWER,7,0.39287600,0.00199104
+LOWER,8,0.50104000,0.01847893
+LOWER,9,0.88000000,0.00958748
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

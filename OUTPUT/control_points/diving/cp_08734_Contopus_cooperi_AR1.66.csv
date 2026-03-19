@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Contopus_cooperi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 104.70 mm
+# Secondary1: 63.20 mm
+# Kipps Distance: 38.50 mm
+# Hand-Wing Index: 37.90
+# Tail Length: 68.80 mm
+# Aspect Ratio: 1.657
+# Pointedness Index: 0.3677
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1072
+# Max Thickness Position: 0.3273
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3497
+# Leading Edge Radius: 0.0299
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.76e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00896490,0.05420941
+UPPER,2,0.03585961,0.10037341
+UPPER,3,0.07470752,0.12736066
+UPPER,4,0.28471620,0.15531305
+UPPER,5,0.32726000,0.16174703
+UPPER,6,0.36980380,0.15102373
+UPPER,7,0.37231700,0.12099847
+UPPER,8,0.47968000,0.07636214
+UPPER,9,0.88000000,0.02929396
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00896490,-0.03573361
+LOWER,2,0.03585961,-0.01523469
+LOWER,3,0.07470752,-0.03711875
+LOWER,4,0.28471620,-0.03556179
+LOWER,5,0.32726000,-0.05271908
+LOWER,6,0.36980380,-0.02912781
+LOWER,7,0.37231700,0.00733143
+LOWER,8,0.47968000,0.01878604
+LOWER,9,0.88000000,0.00933917
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

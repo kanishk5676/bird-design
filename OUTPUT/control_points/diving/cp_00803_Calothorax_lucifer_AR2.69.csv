@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Calothorax_lucifer
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 39.30 mm
+# Secondary1: 14.60 mm
+# Kipps Distance: 24.80 mm
+# Hand-Wing Index: 63.00
+# Tail Length: 27.20 mm
+# Aspect Ratio: 2.692
+# Pointedness Index: 0.6310
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0895
+# Max Thickness Position: 0.3122
+# Max Camber/Chord: 0.0469
+# Max Camber Position: 0.3296
+# Leading Edge Radius: 0.0228
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00685388,0.04112328
+UPPER,2,0.02741552,0.08464981
+UPPER,3,0.05711566,0.10762976
+UPPER,4,0.27161400,0.13107899
+UPPER,5,0.31220000,0.13645037
+UPPER,6,0.35278600,0.12749808
+UPPER,7,0.35299000,0.10243168
+UPPER,8,0.45960000,0.06495478
+UPPER,9,0.88000000,0.02499428
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00685388,-0.02741552
+LOWER,2,0.02741552,-0.01222269
+LOWER,3,0.05711566,-0.03033661
+LOWER,4,0.27161400,-0.02827171
+LOWER,5,0.31220000,-0.04259537
+LOWER,6,0.35278600,-0.02290034
+LOWER,7,0.35299000,0.00753744
+LOWER,8,0.45960000,0.01656185
+LOWER,9,0.88000000,0.00815096
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

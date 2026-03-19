@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Prioniturus_luconensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 143.80 mm
+# Secondary1: 83.00 mm
+# Kipps Distance: 60.80 mm
+# Hand-Wing Index: 42.30
+# Tail Length: 72.80 mm
+# Aspect Ratio: 1.733
+# Pointedness Index: 0.4228
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1019
+# Max Thickness Position: 0.3246
+# Max Camber/Chord: 0.0534
+# Max Camber Position: 0.3462
+# Leading Edge Radius: 0.0285
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.65e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00854929,0.05129575
+UPPER,2,0.03419717,0.09636154
+UPPER,3,0.07124410,0.12252344
+UPPER,4,0.28241940,0.14921946
+UPPER,5,0.32462000,0.15533484
+UPPER,6,0.36682060,0.14514254
+UPPER,7,0.36892900,0.11660408
+UPPER,8,0.47616000,0.07393847
+UPPER,9,0.88000000,0.02845032
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00854929,-0.03419717
+LOWER,2,0.03419717,-0.01392126
+LOWER,3,0.07124410,-0.03454596
+LOWER,4,0.28241940,-0.03220360
+LOWER,5,0.32462000,-0.04851129
+LOWER,6,0.36682060,-0.02608822
+LOWER,7,0.36892900,0.00856562
+LOWER,8,0.47616000,0.01884607
+LOWER,9,0.88000000,0.00927602
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

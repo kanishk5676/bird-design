@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Androdon_aequatorialis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 68.00 mm
+# Secondary1: 26.10 mm
+# Kipps Distance: 40.90 mm
+# Hand-Wing Index: 61.10
+# Tail Length: 41.40 mm
+# Aspect Ratio: 2.605
+# Pointedness Index: 0.6015
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0891
+# Max Thickness Position: 0.3133
+# Max Camber/Chord: 0.0476
+# Max Camber Position: 0.3311
+# Leading Edge Radius: 0.0235
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.61e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00706284,0.04237704
+UPPER,2,0.02825136,0.08500024
+UPPER,3,0.05885700,0.10792631
+UPPER,4,0.27260580,0.13132849
+UPPER,5,0.31334000,0.13667210
+UPPER,6,0.35407420,0.12776609
+UPPER,7,0.35445300,0.10282925
+UPPER,8,0.46112000,0.06540701
+UPPER,9,0.88000000,0.02521736
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00706284,-0.02825136
+LOWER,2,0.02825136,-0.01183505
+LOWER,3,0.05885700,-0.02975336
+LOWER,4,0.27260580,-0.02719853
+LOWER,5,0.31334000,-0.04144815
+LOWER,6,0.35407420,-0.02185492
+LOWER,7,0.35445300,0.00842552
+LOWER,8,0.46112000,0.01705101
+LOWER,9,0.88000000,0.00834059
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Monticola_explorator
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 100.10 mm
+# Secondary1: 75.00 mm
+# Kipps Distance: 25.10 mm
+# Hand-Wing Index: 25.00
+# Tail Length: 61.00 mm
+# Aspect Ratio: 1.335
+# Pointedness Index: 0.2507
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1178
+# Max Thickness Position: 0.3350
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3600
+# Leading Edge Radius: 0.0332
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.66e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00995618,0.06273707
+UPPER,2,0.03982472,0.11051156
+UPPER,3,0.08296816,0.13743164
+UPPER,4,0.29145000,0.16792360
+UPPER,5,0.33500000,0.17499186
+UPPER,6,0.37855000,0.16321143
+UPPER,7,0.38225000,0.13022620
+UPPER,8,0.49000000,0.08159460
+UPPER,9,0.88000000,0.03115560
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00995618,-0.03892472
+LOWER,2,0.03982472,-0.01768177
+LOWER,3,0.08296816,-0.04202028
+LOWER,4,0.29145000,-0.04176816
+LOWER,5,0.33500000,-0.06061686
+LOWER,6,0.37855000,-0.03469990
+LOWER,7,0.38225000,0.00535358
+LOWER,8,0.49000000,0.01896364
+LOWER,9,0.88000000,0.00958470
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

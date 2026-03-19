@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aspatha_gularis
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 100.40 mm
+# Secondary1: 82.70 mm
+# Kipps Distance: 17.30 mm
+# Hand-Wing Index: 17.30
+# Tail Length: 138.80 mm
+# Aspect Ratio: 1.214
+# Pointedness Index: 0.1723
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1239
+# Max Thickness Position: 0.3396
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3662
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.66e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01059184,0.06809101
+UPPER,2,0.04236734,0.11614258
+UPPER,3,0.08826529,0.14295813
+UPPER,4,0.29546940,0.17489756
+UPPER,5,0.33962000,0.18233442
+UPPER,6,0.38377060,0.16993965
+UPPER,7,0.38817900,0.13523431
+UPPER,8,0.49616000,0.08433410
+UPPER,9,0.88000000,0.03210279
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01059184,-0.04100534
+LOWER,2,0.04236734,-0.01922787
+LOWER,3,0.08826529,-0.04503172
+LOWER,4,0.29546940,-0.04572924
+LOWER,5,0.33962000,-0.06556087
+LOWER,6,0.38377060,-0.03829239
+LOWER,7,0.38817900,0.00384981
+LOWER,8,0.49616000,0.01884713
+LOWER,9,0.88000000,0.00963879
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

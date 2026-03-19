@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Plegadis_ridgwayi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 277.80 mm
+# Secondary1: 178.00 mm
+# Kipps Distance: 99.80 mm
+# Hand-Wing Index: 35.90
+# Tail Length: 103.20 mm
+# Aspect Ratio: 1.561
+# Pointedness Index: 0.3593
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1032
+# Max Thickness Position: 0.3285
+# Max Camber/Chord: 0.0550
+# Max Camber Position: 0.3513
+# Leading Edge Radius: 0.0302
+# LE Droop: 0.0008
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.36e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00906928,0.05523567
+UPPER,2,0.03627711,0.09917929
+UPPER,3,0.07557732,0.12492256
+UPPER,4,0.28576020,0.15203565
+UPPER,5,0.32846000,0.15823051
+UPPER,6,0.37115980,0.14790575
+UPPER,7,0.37385700,0.11899644
+UPPER,8,0.48128000,0.07564484
+UPPER,9,0.88000000,0.02915333
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00906928,-0.03603111
+LOWER,2,0.03627711,-0.01379517
+LOWER,3,0.07557732,-0.03459140
+LOWER,4,0.28576020,-0.03174495
+LOWER,5,0.32846000,-0.04826456
+LOWER,6,0.37115980,-0.02555010
+LOWER,7,0.37385700,0.00955406
+LOWER,8,0.48128000,0.01963479
+LOWER,9,0.88000000,0.00961584
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

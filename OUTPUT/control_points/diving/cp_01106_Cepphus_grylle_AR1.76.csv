@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cepphus_grylle
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 154.00 mm
+# Secondary1: 87.50 mm
+# Kipps Distance: 66.50 mm
+# Hand-Wing Index: 43.10
+# Tail Length: 51.00 mm
+# Aspect Ratio: 1.760
+# Pointedness Index: 0.4318
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1002
+# Max Thickness Position: 0.3241
+# Max Camber/Chord: 0.0532
+# Max Camber Position: 0.3455
+# Leading Edge Radius: 0.0283
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00847887,0.05087320
+UPPER,2,0.03391547,0.09531736
+UPPER,3,0.07065723,0.12108391
+UPPER,4,0.28200180,0.14738246
+UPPER,5,0.32414000,0.15339404
+UPPER,6,0.36627820,0.14337474
+UPPER,7,0.36831300,0.11532068
+UPPER,8,0.47552000,0.07327489
+UPPER,9,0.88000000,0.02823182
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00847887,-0.03391547
+LOWER,2,0.03391547,-0.01344144
+LOWER,3,0.07065723,-0.03363953
+LOWER,4,0.28200180,-0.03096120
+LOWER,5,0.32414000,-0.04699209
+LOWER,6,0.36627820,-0.02494962
+LOWER,7,0.36831300,0.00911602
+LOWER,8,0.47552000,0.01895757
+LOWER,9,0.88000000,0.00929252
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

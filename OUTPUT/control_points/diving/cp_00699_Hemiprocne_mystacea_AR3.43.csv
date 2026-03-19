@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hemiprocne_mystacea
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 216.60 mm
+# Secondary1: 63.20 mm
+# Kipps Distance: 150.80 mm
+# Hand-Wing Index: 70.40
+# Tail Length: 174.20 mm
+# Aspect Ratio: 3.427
+# Pointedness Index: 0.6962
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0771
+# Max Thickness Position: 0.3078
+# Max Camber/Chord: 0.0441
+# Max Camber Position: 0.3237
+# Leading Edge Radius: 0.0210
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.56e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00629507,0.03777040
+UPPER,2,0.02518027,0.07602335
+UPPER,3,0.05245890,0.09607038
+UPPER,4,0.26775120,0.11655831
+UPPER,5,0.30776000,0.12118397
+UPPER,6,0.34776880,0.11347453
+UPPER,7,0.34729200,0.09188811
+UPPER,8,0.45368000,0.05906258
+UPPER,9,0.88000000,0.02292160
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00629507,-0.02518027
+LOWER,2,0.02518027,-0.00923884
+LOWER,3,0.05245890,-0.02443352
+LOWER,4,0.26775120,-0.02066967
+LOWER,5,0.30776000,-0.03300477
+LOWER,6,0.34776880,-0.01604401
+LOWER,7,0.34729200,0.01016808
+LOWER,8,0.45368000,0.01654234
+LOWER,9,0.88000000,0.00793863
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chalcomitra_hunteri
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 66.80 mm
+# Secondary1: 57.00 mm
+# Kipps Distance: 9.70 mm
+# Hand-Wing Index: 14.60
+# Tail Length: 44.50 mm
+# Aspect Ratio: 1.172
+# Pointedness Index: 0.1452
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1282
+# Max Thickness Position: 0.3412
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3683
+# Leading Edge Radius: 0.0360
+# LE Droop: 0.0051
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01081267,0.06995603
+UPPER,2,0.04325068,0.11913121
+UPPER,3,0.09010559,0.14637766
+UPPER,4,0.29687880,0.17929149
+UPPER,5,0.34124000,0.18698645
+UPPER,6,0.38560120,0.17416151
+UPPER,7,0.39025800,0.13825169
+UPPER,8,0.49832000,0.08583635
+UPPER,9,0.88000000,0.03258005
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01081267,-0.04172668
+LOWER,2,0.04325068,-0.02048181
+LOWER,3,0.09010559,-0.04736555
+LOWER,4,0.29687880,-0.04899235
+LOWER,5,0.34124000,-0.06951225
+LOWER,6,0.38560120,-0.04129739
+LOWER,7,0.39025800,0.00230739
+LOWER,8,0.49832000,0.01846209
+LOWER,9,0.88000000,0.00955430
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

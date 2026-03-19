@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Kupeornis_chapini
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 97.00 mm
+# Secondary1: 87.60 mm
+# Kipps Distance: 9.40 mm
+# Hand-Wing Index: 9.80
+# Tail Length: 74.00 mm
+# Aspect Ratio: 1.107
+# Pointedness Index: 0.0969
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1301
+# Max Thickness Position: 0.3441
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3722
+# Leading Edge Radius: 0.0374
+# LE Droop: 0.0060
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.59e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01120589,0.07327536
+UPPER,2,0.04482357,0.12148942
+UPPER,3,0.09338244,0.14822911
+UPPER,4,0.29938440,0.18160150
+UPPER,5,0.34412000,0.18940990
+UPPER,6,0.38885560,0.17639590
+UPPER,7,0.39395400,0.13995670
+UPPER,8,0.50216000,0.08681862
+UPPER,9,0.88000000,0.03293376
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01120589,-0.04301157
+LOWER,2,0.04482357,-0.02090034
+LOWER,3,0.09338244,-0.04821705
+LOWER,4,0.29938440,-0.05004770
+LOWER,5,0.34412000,-0.07087010
+LOWER,6,0.38885560,-0.04223930
+LOWER,7,0.39395400,0.00200830
+LOWER,8,0.50216000,0.01852774
+LOWER,9,0.88000000,0.00961187
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

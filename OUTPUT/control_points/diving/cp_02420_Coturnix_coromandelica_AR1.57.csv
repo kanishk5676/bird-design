@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Coturnix_coromandelica
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 88.20 mm
+# Secondary1: 56.30 mm
+# Kipps Distance: 32.00 mm
+# Hand-Wing Index: 36.20
+# Tail Length: 28.50 mm
+# Aspect Ratio: 1.567
+# Pointedness Index: 0.3628
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1078
+# Max Thickness Position: 0.3283
+# Max Camber/Chord: 0.0549
+# Max Camber Position: 0.3510
+# Leading Edge Radius: 0.0301
+# LE Droop: 0.0008
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00904194,0.05501164
+UPPER,2,0.03616776,0.10135607
+UPPER,3,0.07534950,0.12816451
+UPPER,4,0.28560360,0.15628209
+UPPER,5,0.32828000,0.16275240
+UPPER,6,0.37095640,0.15196855
+UPPER,7,0.37362600,0.12177377
+UPPER,8,0.48104000,0.07687160
+UPPER,9,0.88000000,0.02949436
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00904194,-0.03593976
+LOWER,2,0.03616776,-0.01528846
+LOWER,3,0.07534950,-0.03728594
+LOWER,4,0.28560360,-0.03567044
+LOWER,5,0.32828000,-0.05292460
+LOWER,6,0.37095640,-0.02920013
+LOWER,7,0.37362600,0.00746496
+LOWER,8,0.48104000,0.01894923
+LOWER,9,0.88000000,0.00941493
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

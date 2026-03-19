@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Odontophorus_melanotis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 139.50 mm
+# Secondary1: 106.00 mm
+# Kipps Distance: 33.50 mm
+# Hand-Wing Index: 24.10
+# Tail Length: 56.20 mm
+# Aspect Ratio: 1.316
+# Pointedness Index: 0.2401
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1167
+# Max Thickness Position: 0.3355
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3607
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.55e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01003781,0.06340685
+UPPER,2,0.04015124,0.11024925
+UPPER,3,0.08364841,0.13674746
+UPPER,4,0.29191980,0.16699910
+UPPER,5,0.33554000,0.17399843
+UPPER,6,0.37916020,0.16233288
+UPPER,7,0.38294300,0.12966936
+UPPER,8,0.49072000,0.08140506
+UPPER,9,0.88000000,0.03112277
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01003781,-0.03919724
+LOWER,2,0.04015124,-0.01725970
+LOWER,3,0.08364841,-0.04128239
+LOWER,4,0.29191980,-0.04064760
+LOWER,5,0.33554000,-0.05931248
+LOWER,6,0.37916020,-0.03364828
+LOWER,7,0.38294300,0.00601458
+LOWER,8,0.49072000,0.01922088
+LOWER,9,0.88000000,0.00966953
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

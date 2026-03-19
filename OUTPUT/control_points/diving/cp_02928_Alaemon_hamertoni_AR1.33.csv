@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Alaemon_hamertoni
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 98.20 mm
+# Secondary1: 74.00 mm
+# Kipps Distance: 23.20 mm
+# Hand-Wing Index: 23.90
+# Tail Length: 71.80 mm
+# Aspect Ratio: 1.327
+# Pointedness Index: 0.2363
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1188
+# Max Thickness Position: 0.3357
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3609
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01006377,0.06360263
+UPPER,2,0.04025509,0.11138612
+UPPER,3,0.08386477,0.13831662
+UPPER,4,0.29202420,0.16904088
+UPPER,5,0.33566000,0.17616836
+UPPER,6,0.37929580,0.16428922
+UPPER,7,0.38309700,0.13102763
+UPPER,8,0.49088000,0.08203202
+UPPER,9,0.88000000,0.03130656
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01006377,-0.03928909
+LOWER,2,0.04025509,-0.01793130
+LOWER,3,0.08386477,-0.04250560
+LOWER,4,0.29202420,-0.04240779
+LOWER,5,0.33566000,-0.06141441
+LOWER,6,0.37929580,-0.03528031
+LOWER,7,0.38309700,0.00510876
+LOWER,8,0.49088000,0.01894293
+LOWER,9,0.88000000,0.00959259
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

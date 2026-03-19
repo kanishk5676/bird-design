@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ixobrychus_minutus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 142.60 mm
+# Secondary1: 88.20 mm
+# Kipps Distance: 52.30 mm
+# Hand-Wing Index: 37.20
+# Tail Length: 47.60 mm
+# Aspect Ratio: 1.617
+# Pointedness Index: 0.3668
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1054
+# Max Thickness Position: 0.3277
+# Max Camber/Chord: 0.0547
+# Max Camber Position: 0.3502
+# Leading Edge Radius: 0.0300
+# LE Droop: 0.0006
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.06e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00899120,0.05450722
+UPPER,2,0.03596481,0.09973092
+UPPER,3,0.07492669,0.12618328
+UPPER,4,0.28508160,0.15374245
+UPPER,5,0.32768000,0.16006556
+UPPER,6,0.37027840,0.14952704
+UPPER,7,0.37285600,0.12001920
+UPPER,8,0.48024000,0.07598618
+UPPER,9,0.88000000,0.02920936
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00899120,-0.03579681
+LOWER,2,0.03596481,-0.01458511
+LOWER,3,0.07492669,-0.03597041
+LOWER,4,0.28508160,-0.03384313
+LOWER,5,0.32768000,-0.05070476
+LOWER,6,0.37027840,-0.02752002
+LOWER,7,0.37285600,0.00831093
+LOWER,8,0.48024000,0.01914793
+LOWER,9,0.88000000,0.00945469
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

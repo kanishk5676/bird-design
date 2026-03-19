@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pipile_cumanensis
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 334.40 mm
+# Secondary1: 279.40 mm
+# Kipps Distance: 61.70 mm
+# Hand-Wing Index: 18.10
+# Tail Length: 302.10 mm
+# Aspect Ratio: 1.197
+# Pointedness Index: 0.1845
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1164
+# Max Thickness Position: 0.3391
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3655
+# Leading Edge Radius: 0.0350
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01050514,0.06741085
+UPPER,2,0.04202056,0.11211458
+UPPER,3,0.08754284,0.13742191
+UPPER,4,0.29505180,0.16769199
+UPPER,5,0.33914000,0.17467599
+UPPER,6,0.38322820,0.16303599
+UPPER,7,0.38756300,0.13044398
+UPPER,8,0.49552000,0.08212658
+UPPER,9,0.88000000,0.03145687
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01050514,-0.04070656
+LOWER,2,0.04202056,-0.01685141
+LOWER,3,0.08754284,-0.04070506
+LOWER,4,0.29505180,-0.03950003
+LOWER,5,0.33914000,-0.05812404
+LOWER,6,0.38322820,-0.03251603
+LOWER,7,0.38756300,0.00705997
+LOWER,8,0.49552000,0.01983510
+LOWER,9,0.88000000,0.00991299
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

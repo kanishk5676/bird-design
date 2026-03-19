@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Procellaria_westlandica
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 368.90 mm
+# Secondary1: 139.40 mm
+# Kipps Distance: 227.00 mm
+# Hand-Wing Index: 62.00
+# Tail Length: 131.00 mm
+# Aspect Ratio: 2.646
+# Pointedness Index: 0.6153
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0807
+# Max Thickness Position: 0.3128
+# Max Camber/Chord: 0.0473
+# Max Camber Position: 0.3304
+# Leading Edge Radius: 0.0232
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.33e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00696455,0.04178731
+UPPER,2,0.02785820,0.08054702
+UPPER,3,0.05803793,0.10161155
+UPPER,4,0.27213600,0.12314898
+UPPER,5,0.31280000,0.12799105
+UPPER,6,0.35346400,0.11992094
+UPPER,7,0.35376000,0.09732465
+UPPER,8,0.46040000,0.06279279
+UPPER,9,0.88000000,0.02442628
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00696455,-0.02785820
+LOWER,2,0.02785820,-0.00927283
+LOWER,3,0.05803793,-0.02505321
+LOWER,4,0.27213600,-0.02049888
+LOWER,5,0.31280000,-0.03341105
+LOWER,6,0.35346400,-0.01565682
+LOWER,7,0.35376000,0.01178154
+LOWER,8,0.46040000,0.01802165
+LOWER,9,0.88000000,0.00859446
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rhaphidura_leucopygialis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 116.20 mm
+# Secondary1: 38.50 mm
+# Kipps Distance: 77.70 mm
+# Hand-Wing Index: 66.80
+# Tail Length: 38.20 mm
+# Aspect Ratio: 3.018
+# Pointedness Index: 0.6687
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0810
+# Max Thickness Position: 0.3099
+# Max Camber/Chord: 0.0455
+# Max Camber Position: 0.3266
+# Leading Edge Radius: 0.0218
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.57e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00654568,0.03927407
+UPPER,2,0.02618272,0.07919344
+UPPER,3,0.05454733,0.10020521
+UPPER,4,0.26963040,0.12167203
+UPPER,5,0.30992000,0.12653379
+UPPER,6,0.35020960,0.11843085
+UPPER,7,0.35006400,0.09574262
+UPPER,8,0.45656000,0.06136697
+UPPER,9,0.88000000,0.02377402
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00654568,-0.02618272
+LOWER,2,0.02618272,-0.01000287
+LOWER,3,0.05454733,-0.02606502
+LOWER,4,0.26963040,-0.02256029
+LOWER,5,0.30992000,-0.03552499
+LOWER,6,0.35020960,-0.01769853
+LOWER,7,0.35006400,0.00985147
+LOWER,8,0.45656000,0.01686861
+LOWER,9,0.88000000,0.00813492
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

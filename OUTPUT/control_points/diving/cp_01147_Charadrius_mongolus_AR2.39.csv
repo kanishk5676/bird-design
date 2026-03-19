@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Charadrius_mongolus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 128.80 mm
+# Secondary1: 53.80 mm
+# Kipps Distance: 75.80 mm
+# Hand-Wing Index: 58.50
+# Tail Length: 52.80 mm
+# Aspect Ratio: 2.394
+# Pointedness Index: 0.5885
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0883
+# Max Thickness Position: 0.3149
+# Max Camber/Chord: 0.0485
+# Max Camber Position: 0.3332
+# Leading Edge Radius: 0.0240
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00720850,0.04325101
+UPPER,2,0.02883401,0.08538880
+UPPER,3,0.06007085,0.10820998
+UPPER,4,0.27396300,0.13151635
+UPPER,5,0.31490000,0.13681403
+UPPER,6,0.35583700,0.12798457
+UPPER,7,0.35645500,0.10326206
+UPPER,8,0.46320000,0.06596397
+UPPER,9,0.88000000,0.02550094
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00720850,-0.02883401
+LOWER,2,0.02883401,-0.01127251
+LOWER,3,0.06007085,-0.02889199
+LOWER,4,0.27396300,-0.02564814
+LOWER,5,0.31490000,-0.03977528
+LOWER,6,0.35583700,-0.02035046
+LOWER,7,0.35645500,0.00966973
+LOWER,8,0.46320000,0.01772076
+LOWER,9,0.88000000,0.00859806
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

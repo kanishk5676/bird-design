@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Terpsiphone_mutata
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 80.40 mm
+# Secondary1: 65.10 mm
+# Kipps Distance: 15.30 mm
+# Hand-Wing Index: 19.00
+# Tail Length: 89.50 mm
+# Aspect Ratio: 1.235
+# Pointedness Index: 0.1903
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1238
+# Max Thickness Position: 0.3386
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3648
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.25e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01044808,0.06688847
+UPPER,2,0.04179231,0.11553660
+UPPER,3,0.08706731,0.14264787
+UPPER,4,0.29458200,0.17454060
+UPPER,5,0.33860000,0.18196995
+UPPER,6,0.38261800,0.16958771
+UPPER,7,0.38687000,0.13491742
+UPPER,8,0.49480000,0.08409566
+UPPER,9,0.88000000,0.03200185
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01044808,-0.04053231
+LOWER,2,0.04179231,-0.01927156
+LOWER,3,0.08706731,-0.04506917
+LOWER,4,0.29458200,-0.04586336
+LOWER,5,0.33860000,-0.06567495
+LOWER,6,0.38261800,-0.03843401
+LOWER,7,0.38687000,0.00366562
+LOWER,8,0.49480000,0.01871631
+LOWER,9,0.88000000,0.00958398
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

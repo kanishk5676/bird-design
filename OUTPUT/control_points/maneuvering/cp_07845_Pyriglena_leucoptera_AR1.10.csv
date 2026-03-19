@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pyriglena_leucoptera
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 78.00 mm
+# Secondary1: 71.20 mm
+# Kipps Distance: 8.20 mm
+# Hand-Wing Index: 10.30
+# Tail Length: 75.70 mm
+# Aspect Ratio: 1.096
+# Pointedness Index: 0.1051
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1309
+# Max Thickness Position: 0.3438
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3718
+# Leading Edge Radius: 0.0372
+# LE Droop: 0.0059
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.21e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01114867,0.07283200
+UPPER,2,0.04459466,0.12175175
+UPPER,3,0.09290555,0.14876611
+UPPER,4,0.29912340,0.18231266
+UPPER,5,0.34382000,0.19016965
+UPPER,6,0.38851660,0.17707467
+UPPER,7,0.39356900,0.14040870
+UPPER,8,0.50176000,0.08700277
+UPPER,9,0.88000000,0.03297950
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01114867,-0.04281266
+LOWER,2,0.04459466,-0.02117704
+LOWER,3,0.09290555,-0.04870983
+LOWER,4,0.29912340,-0.05077812
+LOWER,5,0.34382000,-0.07173010
+LOWER,6,0.38851660,-0.04292113
+LOWER,7,0.39356900,0.00160183
+LOWER,8,0.50176000,0.01838328
+LOWER,9,0.88000000,0.00956695
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

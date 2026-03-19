@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Polysticta_stelleri
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 203.60 mm
+# Secondary1: 103.40 mm
+# Kipps Distance: 99.80 mm
+# Hand-Wing Index: 49.10
+# Tail Length: 79.00 mm
+# Aspect Ratio: 1.969
+# Pointedness Index: 0.4902
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0945
+# Max Thickness Position: 0.3205
+# Max Camber/Chord: 0.0515
+# Max Camber Position: 0.3407
+# Leading Edge Radius: 0.0267
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.20e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00799764,0.04798583
+UPPER,2,0.03199055,0.09103624
+UPPER,3,0.06664699,0.11543073
+UPPER,4,0.27886980,0.14034039
+UPPER,5,0.32054000,0.14600991
+UPPER,6,0.36221020,0.13656071
+UPPER,7,0.36369300,0.11010297
+UPPER,8,0.47072000,0.07024802
+UPPER,9,0.88000000,0.02713618
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00799764,-0.03199055
+LOWER,2,0.03199055,-0.01220613
+LOWER,3,0.06664699,-0.03110705
+LOWER,4,0.27886980,-0.02785525
+LOWER,5,0.32054000,-0.04297396
+LOWER,6,0.36221020,-0.02218573
+LOWER,7,0.36369300,0.00994153
+LOWER,8,0.47072000,0.01871227
+LOWER,9,0.88000000,0.00909982
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

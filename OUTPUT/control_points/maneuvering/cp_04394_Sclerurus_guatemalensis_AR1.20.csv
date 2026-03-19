@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sclerurus_guatemalensis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 87.70 mm
+# Secondary1: 73.30 mm
+# Kipps Distance: 15.30 mm
+# Hand-Wing Index: 17.20
+# Tail Length: 61.80 mm
+# Aspect Ratio: 1.196
+# Pointedness Index: 0.1745
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1248
+# Max Thickness Position: 0.3397
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3662
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.40e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01058394,0.06806365
+UPPER,2,0.04233577,0.11659081
+UPPER,3,0.08819952,0.14357065
+UPPER,4,0.29552160,0.17569449
+UPPER,5,0.33968000,0.18318135
+UPPER,6,0.38383840,0.17070325
+UPPER,7,0.38825600,0.13576459
+UPPER,8,0.49624000,0.08457901
+UPPER,9,0.88000000,0.03217463
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01058394,-0.04096777
+LOWER,2,0.04233577,-0.01948976
+LOWER,3,0.08819952,-0.04550877
+LOWER,4,0.29552160,-0.04641560
+LOWER,5,0.33968000,-0.06638055
+LOWER,6,0.38383840,-0.03892874
+LOWER,7,0.38825600,0.00349678
+LOWER,8,0.49624000,0.01873892
+LOWER,9,0.88000000,0.00960886
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

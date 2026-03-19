@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hydropsalis_maculicaudus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 128.80 mm
+# Secondary1: 70.20 mm
+# Kipps Distance: 58.60 mm
+# Hand-Wing Index: 45.50
+# Tail Length: 88.20 mm
+# Aspect Ratio: 1.835
+# Pointedness Index: 0.4550
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1000
+# Max Thickness Position: 0.3227
+# Max Camber/Chord: 0.0525
+# Max Camber Position: 0.3436
+# Leading Edge Radius: 0.0276
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.30e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00828736,0.04972415
+UPPER,2,0.03314943,0.09466070
+UPPER,3,0.06906132,0.12033639
+UPPER,4,0.28074900,0.14653758
+UPPER,5,0.32270000,0.15253683
+UPPER,6,0.36465100,0.14253809
+UPPER,7,0.36646500,0.11454160
+UPPER,8,0.47360000,0.07266346
+UPPER,9,0.88000000,0.02796776
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00828736,-0.03314943
+LOWER,2,0.03314943,-0.01360370
+LOWER,3,0.06906132,-0.03382001
+LOWER,4,0.28074900,-0.03144009
+LOWER,5,0.32270000,-0.04743808
+LOWER,6,0.36465100,-0.02544084
+LOWER,7,0.36646500,0.00855489
+LOWER,8,0.47360000,0.01858237
+LOWER,9,0.88000000,0.00913785
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

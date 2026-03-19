@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lophoictinia_isura
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 471.20 mm
+# Secondary1: 244.20 mm
+# Kipps Distance: 227.00 mm
+# Hand-Wing Index: 48.10
+# Tail Length: 224.20 mm
+# Aspect Ratio: 1.930
+# Pointedness Index: 0.4817
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0904
+# Max Thickness Position: 0.3211
+# Max Camber/Chord: 0.0518
+# Max Camber Position: 0.3415
+# Leading Edge Radius: 0.0269
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.30e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00807122,0.04842733
+UPPER,2,0.03228489,0.08922371
+UPPER,3,0.06726018,0.11273160
+UPPER,4,0.27939180,0.13675760
+UPPER,5,0.32114000,0.14217973
+UPPER,6,0.36288820,0.13314285
+UPPER,7,0.36446300,0.10783960
+UPPER,8,0.47152000,0.06934258
+UPPER,9,0.88000000,0.02691767
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00807122,-0.03228489
+LOWER,2,0.03228489,-0.01078416
+LOWER,3,0.06726018,-0.02858083
+LOWER,4,0.27939180,-0.02409878
+LOWER,5,0.32114000,-0.03855778
+LOWER,6,0.36288820,-0.01867665
+LOWER,7,0.36446300,0.01204872
+LOWER,8,0.47152000,0.01947118
+LOWER,9,0.88000000,0.00933799
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

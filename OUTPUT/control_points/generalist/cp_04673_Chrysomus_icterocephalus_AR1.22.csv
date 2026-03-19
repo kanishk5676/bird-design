@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chrysomus_icterocephalus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 85.60 mm
+# Secondary1: 69.90 mm
+# Kipps Distance: 14.80 mm
+# Hand-Wing Index: 17.60
+# Tail Length: 68.80 mm
+# Aspect Ratio: 1.225
+# Pointedness Index: 0.1729
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1246
+# Max Thickness Position: 0.3394
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3659
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.36e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01057966,0.06795799
+UPPER,2,0.04231866,0.11637148
+UPPER,3,0.08816387,0.14338666
+UPPER,4,0.29531280,0.17546531
+UPPER,5,0.33944000,0.18294103
+UPPER,6,0.38356720,0.17048149
+UPPER,7,0.38794800,0.13559477
+UPPER,8,0.49592000,0.08448048
+UPPER,9,0.88000000,0.03213896
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01057966,-0.04097466
+LOWER,2,0.04231866,-0.01944958
+LOWER,3,0.08816387,-0.04542637
+LOWER,4,0.29531280,-0.04631456
+LOWER,5,0.33944000,-0.06624983
+LOWER,6,0.38356720,-0.03883884
+LOWER,7,0.38794800,0.00352361
+LOWER,8,0.49592000,0.01873091
+LOWER,9,0.88000000,0.00960258
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

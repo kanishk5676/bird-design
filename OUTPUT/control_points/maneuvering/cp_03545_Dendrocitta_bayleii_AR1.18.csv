@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dendrocitta_bayleii
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 116.40 mm
+# Secondary1: 98.60 mm
+# Kipps Distance: 17.20 mm
+# Hand-Wing Index: 14.90
+# Tail Length: 181.30 mm
+# Aspect Ratio: 1.181
+# Pointedness Index: 0.1478
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1250
+# Max Thickness Position: 0.3411
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3681
+# Leading Edge Radius: 0.0360
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01079045,0.06976271
+UPPER,2,0.04316181,0.11743419
+UPPER,3,0.08992043,0.14403164
+UPPER,4,0.29672220,0.17623610
+UPPER,5,0.34106000,0.18373840
+UPPER,6,0.38539780,0.17123456
+UPPER,7,0.39002700,0.13622380
+UPPER,8,0.49808000,0.08490574
+UPPER,9,0.88000000,0.03230906
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01079045,-0.04165581
+LOWER,2,0.04316181,-0.01946731
+LOWER,3,0.08992043,-0.04552030
+LOWER,4,0.29672220,-0.04633230
+LOWER,5,0.34106000,-0.06633845
+LOWER,6,0.38539780,-0.03883000
+LOWER,7,0.39002700,0.00368307
+LOWER,8,0.49808000,0.01888860
+LOWER,9,0.88000000,0.00967346
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

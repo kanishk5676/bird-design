@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Monarcha_frater
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 83.70 mm
+# Secondary1: 69.30 mm
+# Kipps Distance: 14.20 mm
+# Hand-Wing Index: 16.90
+# Tail Length: 66.60 mm
+# Aspect Ratio: 1.208
+# Pointedness Index: 0.1697
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1253
+# Max Thickness Position: 0.3399
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3665
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01061763,0.06832576
+UPPER,2,0.04247051,0.11693475
+UPPER,3,0.08848023,0.14396718
+UPPER,4,0.29567820,0.17620403
+UPPER,5,0.33986000,0.18372082
+UPPER,6,0.38404180,0.17119283
+UPPER,7,0.38848700,0.13611448
+UPPER,8,0.49648000,0.08475318
+UPPER,9,0.88000000,0.03222996
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01061763,-0.04108451
+LOWER,2,0.04247051,-0.01963521
+LOWER,3,0.08848023,-0.04577946
+LOWER,4,0.29567820,-0.04679409
+LOWER,5,0.33986000,-0.06683887
+LOWER,6,0.38404180,-0.03927730
+LOWER,7,0.38848700,0.00331784
+LOWER,8,0.49648000,0.01869423
+LOWER,9,0.88000000,0.00959905
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

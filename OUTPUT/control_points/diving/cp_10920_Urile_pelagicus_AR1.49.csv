@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Urile_pelagicus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 254.40 mm
+# Secondary1: 171.30 mm
+# Kipps Distance: 87.00 mm
+# Hand-Wing Index: 33.60
+# Tail Length: 137.40 mm
+# Aspect Ratio: 1.485
+# Pointedness Index: 0.3420
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1056
+# Max Thickness Position: 0.3298
+# Max Camber/Chord: 0.0555
+# Max Camber Position: 0.3531
+# Leading Edge Radius: 0.0308
+# LE Droop: 0.0013
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.65e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00922774,0.05664642
+UPPER,2,0.03691094,0.10125337
+UPPER,3,0.07689780,0.12709038
+UPPER,4,0.28696080,0.15476236
+UPPER,5,0.32984000,0.16109841
+UPPER,6,0.37271920,0.15053833
+UPPER,7,0.37562800,0.12097010
+UPPER,8,0.48312000,0.07674119
+UPPER,9,0.88000000,0.02953715
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00922774,-0.03652694
+LOWER,2,0.03691094,-0.01436810
+LOWER,3,0.07689780,-0.03571957
+LOWER,4,0.28696080,-0.03320708
+LOWER,5,0.32984000,-0.05010321
+LOWER,6,0.37271920,-0.02687103
+LOWER,7,0.37562800,0.00903324
+LOWER,8,0.48312000,0.01962440
+LOWER,9,0.88000000,0.00965037
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

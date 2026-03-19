@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Asio_stygius
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 326.80 mm
+# Secondary1: 186.10 mm
+# Kipps Distance: 132.90 mm
+# Hand-Wing Index: 41.60
+# Tail Length: 173.70 mm
+# Aspect Ratio: 1.756
+# Pointedness Index: 0.4067
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0977
+# Max Thickness Position: 0.3250
+# Max Camber/Chord: 0.0536
+# Max Camber Position: 0.3467
+# Leading Edge Radius: 0.0288
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.92e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00865302,0.05191812
+UPPER,2,0.03461208,0.09442219
+UPPER,3,0.07210849,0.11967550
+UPPER,4,0.28278480,0.14546474
+UPPER,5,0.32504000,0.15132886
+UPPER,6,0.36729520,0.14155533
+UPPER,7,0.36946800,0.11418946
+UPPER,8,0.47672000,0.07292043
+UPPER,9,0.88000000,0.02818439
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00865302,-0.03461208
+LOWER,2,0.03461208,-0.01251752
+LOWER,3,0.07210849,-0.03203339
+LOWER,4,0.28278480,-0.02850402
+LOWER,5,0.32504000,-0.04414166
+LOWER,6,0.36729520,-0.02263990
+LOWER,7,0.36946800,0.01059009
+LOWER,8,0.47672000,0.01954510
+LOWER,9,0.88000000,0.00948899
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

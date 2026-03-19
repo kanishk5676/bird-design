@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eurillas_virens
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 74.40 mm
+# Secondary1: 65.90 mm
+# Kipps Distance: 9.80 mm
+# Hand-Wing Index: 12.80
+# Tail Length: 70.80 mm
+# Aspect Ratio: 1.129
+# Pointedness Index: 0.1317
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1292
+# Max Thickness Position: 0.3423
+# Max Camber/Chord: 0.0590
+# Max Camber Position: 0.3698
+# Leading Edge Radius: 0.0365
+# LE Droop: 0.0054
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.13e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01093655,0.07105927
+UPPER,2,0.04374618,0.12015306
+UPPER,3,0.09113788,0.14726588
+UPPER,4,0.29781840,0.18040821
+UPPER,5,0.34232000,0.18816084
+UPPER,6,0.38682160,0.17523980
+UPPER,7,0.39164400,0.13906087
+UPPER,8,0.49976000,0.08628676
+UPPER,9,0.88000000,0.03273799
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01093655,-0.04211418
+LOWER,2,0.04374618,-0.02071470
+LOWER,3,0.09113788,-0.04782487
+LOWER,4,0.29781840,-0.04958637
+LOWER,5,0.34232000,-0.07026004
+LOWER,6,0.38682160,-0.04183374
+LOWER,7,0.39164400,0.00209781
+LOWER,8,0.49976000,0.01845979
+LOWER,9,0.88000000,0.00956918
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

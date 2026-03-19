@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Fregetta_tropica
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 164.40 mm
+# Secondary1: 71.10 mm
+# Kipps Distance: 92.20 mm
+# Hand-Wing Index: 56.50
+# Tail Length: 76.20 mm
+# Aspect Ratio: 2.312
+# Pointedness Index: 0.5608
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0894
+# Max Thickness Position: 0.3161
+# Max Camber/Chord: 0.0492
+# Max Camber Position: 0.3348
+# Leading Edge Radius: 0.0247
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.48e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00741088,0.04446529
+UPPER,2,0.02964352,0.08650491
+UPPER,3,0.06175734,0.10961198
+UPPER,4,0.27500700,0.13321100
+UPPER,5,0.31610000,0.13857376
+UPPER,6,0.35719300,0.12963582
+UPPER,7,0.35799500,0.10460959
+UPPER,8,0.46480000,0.06684145
+UPPER,9,0.88000000,0.02584421
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00741088,-0.02964352
+LOWER,2,0.02964352,-0.01138337
+LOWER,3,0.06175734,-0.02921063
+LOWER,4,0.27500700,-0.02588431
+LOWER,5,0.31610000,-0.04018501
+LOWER,6,0.35719300,-0.02052155
+LOWER,7,0.35799500,0.00986745
+LOWER,8,0.46480000,0.01798740
+LOWER,9,0.88000000,0.00872342
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

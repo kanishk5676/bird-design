@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Galbula_chalcocephala
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 75.90 mm
+# Secondary1: 61.50 mm
+# Kipps Distance: 14.10 mm
+# Hand-Wing Index: 18.60
+# Tail Length: 72.50 mm
+# Aspect Ratio: 1.234
+# Pointedness Index: 0.1858
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1245
+# Max Thickness Position: 0.3388
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3651
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0043
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.16e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01048341,0.06718046
+UPPER,2,0.04193364,0.11598456
+UPPER,3,0.08736174,0.14316021
+UPPER,4,0.29479080,0.17519792
+UPPER,5,0.33884000,0.18266555
+UPPER,6,0.38288920,0.17021950
+UPPER,7,0.38717800,0.13537058
+UPPER,8,0.49512000,0.08432326
+UPPER,9,0.88000000,0.03207477
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01048341,-0.04064964
+LOWER,2,0.04193364,-0.01945556
+LOWER,3,0.08736174,-0.04541271
+LOWER,4,0.29479080,-0.04634167
+LOWER,5,0.33884000,-0.06625535
+LOWER,6,0.38288920,-0.03887405
+LOWER,7,0.38717800,0.00344250
+LOWER,8,0.49512000,0.01866270
+LOWER,9,0.88000000,0.00957286
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

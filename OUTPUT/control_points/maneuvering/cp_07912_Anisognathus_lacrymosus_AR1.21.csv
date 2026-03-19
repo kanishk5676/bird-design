@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anisognathus_lacrymosus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 89.50 mm
+# Secondary1: 74.10 mm
+# Kipps Distance: 14.60 mm
+# Hand-Wing Index: 16.40
+# Tail Length: 75.50 mm
+# Aspect Ratio: 1.208
+# Pointedness Index: 0.1631
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1253
+# Max Thickness Position: 0.3402
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3669
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.44e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01066620,0.06871723
+UPPER,2,0.04266482,0.11710551
+UPPER,3,0.08888504,0.14404882
+UPPER,4,0.29593920,0.17629721
+UPPER,5,0.34016000,0.18381569
+UPPER,6,0.38438080,0.17128488
+UPPER,7,0.38887200,0.13619862
+UPPER,8,0.49688000,0.08481773
+UPPER,9,0.88000000,0.03225754
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01066620,-0.04124882
+LOWER,2,0.04266482,-0.01962093
+LOWER,3,0.08888504,-0.04576520
+LOWER,4,0.29593920,-0.04675120
+LOWER,5,0.34016000,-0.06680049
+LOWER,6,0.38438080,-0.03923271
+LOWER,7,0.38887200,0.00337204
+LOWER,8,0.49688000,0.01873158
+LOWER,9,0.88000000,0.00961458
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

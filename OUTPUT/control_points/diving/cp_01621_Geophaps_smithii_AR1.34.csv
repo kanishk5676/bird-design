@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geophaps_smithii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 132.80 mm
+# Secondary1: 99.10 mm
+# Kipps Distance: 31.70 mm
+# Hand-Wing Index: 24.30
+# Tail Length: 81.40 mm
+# Aspect Ratio: 1.340
+# Pointedness Index: 0.2387
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1168
+# Max Thickness Position: 0.3354
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3606
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.39e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01003903,0.06337415
+UPPER,2,0.04015610,0.11023967
+UPPER,3,0.08365855,0.13680166
+UPPER,4,0.29181540,0.16707674
+UPPER,5,0.33542000,0.17408320
+UPPER,6,0.37902460,0.16240576
+UPPER,7,0.38278900,0.12970892
+UPPER,8,0.49056000,0.08140930
+UPPER,9,0.88000000,0.03111929
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01003903,-0.03921410
+LOWER,2,0.04015610,-0.01730975
+LOWER,3,0.08365855,-0.04136713
+LOWER,4,0.29181540,-0.04078174
+LOWER,5,0.33542000,-0.05946565
+LOWER,6,0.37902460,-0.03377528
+LOWER,7,0.38278900,0.00592803
+LOWER,8,0.49056000,0.01918302
+LOWER,9,0.88000000,0.00965622
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

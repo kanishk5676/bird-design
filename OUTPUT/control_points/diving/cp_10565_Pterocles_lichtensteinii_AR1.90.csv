@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pterocles_lichtensteinii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 175.10 mm
+# Secondary1: 92.40 mm
+# Kipps Distance: 79.80 mm
+# Hand-Wing Index: 46.40
+# Tail Length: 68.90 mm
+# Aspect Ratio: 1.895
+# Pointedness Index: 0.4557
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0973
+# Max Thickness Position: 0.3222
+# Max Camber/Chord: 0.0523
+# Max Camber Position: 0.3429
+# Leading Edge Radius: 0.0275
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.60e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00825589,0.04953533
+UPPER,2,0.03302355,0.09310889
+UPPER,3,0.06879907,0.11817834
+UPPER,4,0.28027920,0.14377075
+UPPER,5,0.32216000,0.14960947
+UPPER,6,0.36404080,0.13987828
+UPPER,7,0.36577200,0.11263096
+UPPER,8,0.47288000,0.07170028
+UPPER,9,0.88000000,0.02765804
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00825589,-0.03302355
+LOWER,2,0.03302355,-0.01283564
+LOWER,3,0.06879907,-0.03238399
+LOWER,4,0.28027920,-0.02944437
+LOWER,5,0.32216000,-0.04501427
+LOWER,6,0.36404080,-0.02360566
+LOWER,7,0.36577200,0.00948038
+LOWER,8,0.47288000,0.01880085
+LOWER,9,0.88000000,0.00918193
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

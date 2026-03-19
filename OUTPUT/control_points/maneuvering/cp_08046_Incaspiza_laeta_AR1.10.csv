@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Incaspiza_laeta
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 64.50 mm
+# Secondary1: 58.90 mm
+# Kipps Distance: 5.60 mm
+# Hand-Wing Index: 8.70
+# Tail Length: 58.40 mm
+# Aspect Ratio: 1.095
+# Pointedness Index: 0.0868
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1330
+# Max Thickness Position: 0.3448
+# Max Camber/Chord: 0.0594
+# Max Camber Position: 0.3730
+# Leading Edge Radius: 0.0376
+# LE Droop: 0.0063
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01129099,0.07400594
+UPPER,2,0.04516396,0.12324941
+UPPER,3,0.09409158,0.15041451
+UPPER,4,0.29995860,0.18443338
+UPPER,5,0.34478000,0.19241578
+UPPER,6,0.38960140,0.17911178
+UPPER,7,0.39480100,0.14186058
+UPPER,8,0.50304000,0.08772061
+UPPER,9,0.88000000,0.03320599
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01129099,-0.04328596
+LOWER,2,0.04516396,-0.02179128
+LOWER,3,0.09409158,-0.04985034
+LOWER,4,0.29995860,-0.05237783
+LOWER,5,0.34478000,-0.07366423
+LOWER,6,0.38960140,-0.04439543
+LOWER,7,0.39480100,0.00083817
+LOWER,8,0.50304000,0.01818738
+LOWER,9,0.88000000,0.00952234
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

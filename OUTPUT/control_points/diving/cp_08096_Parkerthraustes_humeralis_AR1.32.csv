@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Parkerthraustes_humeralis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 83.90 mm
+# Secondary1: 63.40 mm
+# Kipps Distance: 19.80 mm
+# Hand-Wing Index: 23.80
+# Tail Length: 71.50 mm
+# Aspect Ratio: 1.323
+# Pointedness Index: 0.2360
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1197
+# Max Thickness Position: 0.3357
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3610
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01006814,0.06364887
+UPPER,2,0.04027258,0.11189813
+UPPER,3,0.08390120,0.13901995
+UPPER,4,0.29207640,0.16995572
+UPPER,5,0.33572000,0.17714052
+UPPER,6,0.37936360,0.16516586
+UPPER,7,0.38317400,0.13163680
+UPPER,8,0.49096000,0.08231387
+UPPER,9,0.88000000,0.03138941
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01006814,-0.03930058
+LOWER,2,0.04027258,-0.01823105
+LOWER,3,0.08390120,-0.04305185
+LOWER,4,0.29207640,-0.04319326
+LOWER,5,0.33572000,-0.06235272
+LOWER,6,0.37936360,-0.03600846
+LOWER,7,0.38317400,0.00470539
+LOWER,8,0.49096000,0.01881969
+LOWER,9,0.88000000,0.00955861
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

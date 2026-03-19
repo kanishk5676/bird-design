@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Emberiza_lathami
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 79.90 mm
+# Secondary1: 64.80 mm
+# Kipps Distance: 13.80 mm
+# Hand-Wing Index: 17.50
+# Tail Length: 68.80 mm
+# Aspect Ratio: 1.233
+# Pointedness Index: 0.1727
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1251
+# Max Thickness Position: 0.3395
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3660
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.24e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01058365,0.06800189
+UPPER,2,0.04233460,0.11663394
+UPPER,3,0.08819707,0.14373162
+UPPER,4,0.29536500,0.17591290
+UPPER,5,0.33950000,0.18341631
+UPPER,6,0.38363500,0.17091062
+UPPER,7,0.38802500,0.13589468
+UPPER,8,0.49600000,0.08462141
+UPPER,9,0.88000000,0.03218112
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01058365,-0.04098460
+LOWER,2,0.04233460,-0.01959244
+LOWER,3,0.08819707,-0.04568771
+LOWER,4,0.29536500,-0.04668845
+LOWER,5,0.33950000,-0.06669756
+LOWER,6,0.38363500,-0.03918504
+LOWER,7,0.38802500,0.00333432
+LOWER,8,0.49600000,0.01867484
+LOWER,9,0.88000000,0.00958757
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

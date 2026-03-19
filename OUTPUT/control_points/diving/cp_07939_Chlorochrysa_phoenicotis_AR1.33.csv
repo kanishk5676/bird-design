@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chlorochrysa_phoenicotis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 73.50 mm
+# Secondary1: 55.40 mm
+# Kipps Distance: 18.10 mm
+# Hand-Wing Index: 24.60
+# Tail Length: 40.20 mm
+# Aspect Ratio: 1.327
+# Pointedness Index: 0.2463
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1192
+# Max Thickness Position: 0.3352
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3603
+# Leading Edge Radius: 0.0333
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00999132,0.06302793
+UPPER,2,0.03996529,0.11136573
+UPPER,3,0.08326101,0.13852530
+UPPER,4,0.29165880,0.16933743
+UPPER,5,0.33524000,0.17649150
+UPPER,6,0.37882120,0.16456806
+UPPER,7,0.38255800,0.13118243
+UPPER,8,0.49032000,0.08205417
+UPPER,9,0.88000000,0.03129645
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00999132,-0.03904129
+LOWER,2,0.03996529,-0.01811502
+LOWER,3,0.08326101,-0.04281768
+LOWER,4,0.29165880,-0.04289979
+LOWER,5,0.33524000,-0.06197730
+LOWER,6,0.37882120,-0.03574573
+LOWER,7,0.38255800,0.00479397
+LOWER,8,0.49032000,0.01880659
+LOWER,9,0.88000000,0.00954490
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

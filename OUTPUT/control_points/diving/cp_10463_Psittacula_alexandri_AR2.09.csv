@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psittacula_alexandri
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 163.90 mm
+# Secondary1: 78.60 mm
+# Kipps Distance: 86.30 mm
+# Hand-Wing Index: 52.30
+# Tail Length: 163.80 mm
+# Aspect Ratio: 2.085
+# Pointedness Index: 0.5265
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0932
+# Max Thickness Position: 0.3186
+# Max Camber/Chord: 0.0505
+# Max Camber Position: 0.3382
+# Leading Edge Radius: 0.0257
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.15e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00771426,0.04628558
+UPPER,2,0.03085705,0.08955350
+UPPER,3,0.06428553,0.11359082
+UPPER,4,0.27719940,0.13813361
+UPPER,5,0.31862000,0.14372426
+UPPER,6,0.36004060,0.13440651
+UPPER,7,0.36122900,0.10831681
+UPPER,8,0.46816000,0.06905445
+UPPER,9,0.88000000,0.02666197
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00771426,-0.03085705
+LOWER,2,0.03085705,-0.01212542
+LOWER,3,0.06428553,-0.03079142
+LOWER,4,0.27719940,-0.02772231
+LOWER,5,0.31862000,-0.04263071
+LOWER,6,0.36004060,-0.02213166
+LOWER,7,0.36122900,0.00954868
+LOWER,8,0.46816000,0.01829415
+LOWER,9,0.88000000,0.00890959
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ictinia_plumbea
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 285.60 mm
+# Secondary1: 164.90 mm
+# Kipps Distance: 117.80 mm
+# Hand-Wing Index: 41.80
+# Tail Length: 134.80 mm
+# Aspect Ratio: 1.732
+# Pointedness Index: 0.4125
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0984
+# Max Thickness Position: 0.3249
+# Max Camber/Chord: 0.0535
+# Max Camber Position: 0.3466
+# Leading Edge Radius: 0.0287
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.60e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00861735,0.05170409
+UPPER,2,0.03446939,0.09469343
+UPPER,3,0.07181124,0.12008180
+UPPER,4,0.28268040,0.14600560
+UPPER,5,0.32492000,0.15190753
+UPPER,6,0.36715960,0.14207097
+UPPER,7,0.36931400,0.11452859
+UPPER,8,0.47656000,0.07305299
+UPPER,9,0.88000000,0.02821517
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00861735,-0.03446939
+LOWER,2,0.03446939,-0.01273734
+LOWER,3,0.07181124,-0.03242279
+LOWER,4,0.28268040,-0.02908523
+LOWER,5,0.32492000,-0.04482373
+LOWER,6,0.36715960,-0.02318329
+LOWER,7,0.36931400,0.01026102
+LOWER,8,0.47656000,0.01942479
+LOWER,9,0.88000000,0.00945085
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

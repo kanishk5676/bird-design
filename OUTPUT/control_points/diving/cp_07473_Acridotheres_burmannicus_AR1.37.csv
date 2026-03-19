@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Acridotheres_burmannicus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 113.80 mm
+# Secondary1: 83.20 mm
+# Kipps Distance: 30.50 mm
+# Hand-Wing Index: 26.90
+# Tail Length: 68.00 mm
+# Aspect Ratio: 1.368
+# Pointedness Index: 0.2680
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1156
+# Max Thickness Position: 0.3339
+# Max Camber/Chord: 0.0568
+# Max Camber Position: 0.3585
+# Leading Edge Radius: 0.0327
+# LE Droop: 0.0026
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.96e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00980999,0.06147993
+UPPER,2,0.03923995,0.10872182
+UPPER,3,0.08174990,0.13550544
+UPPER,4,0.29045820,0.16547753
+UPPER,5,0.33386000,0.17241145
+UPPER,6,0.37726180,0.16085491
+UPPER,7,0.38078700,0.12849657
+UPPER,8,0.48848000,0.08067741
+UPPER,9,0.88000000,0.03084671
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00980999,-0.03845395
+LOWER,2,0.03923995,-0.01708486
+LOWER,3,0.08174990,-0.04087883
+LOWER,4,0.29045820,-0.04022903
+LOWER,5,0.33386000,-0.05871950
+LOWER,6,0.37726180,-0.03329510
+LOWER,7,0.38078700,0.00599716
+LOWER,8,0.48848000,0.01906534
+LOWER,9,0.88000000,0.00958887
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

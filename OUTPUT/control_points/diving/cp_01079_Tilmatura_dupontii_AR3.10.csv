@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tilmatura_dupontii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 36.00 mm
+# Secondary1: 11.60 mm
+# Kipps Distance: 23.90 mm
+# Hand-Wing Index: 67.40
+# Tail Length: 35.20 mm
+# Aspect Ratio: 3.103
+# Pointedness Index: 0.6639
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0861
+# Max Thickness Position: 0.3096
+# Max Camber/Chord: 0.0453
+# Max Camber Position: 0.3261
+# Leading Edge Radius: 0.0218
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00655173,0.03931036
+UPPER,2,0.02620691,0.08152213
+UPPER,3,0.05459772,0.10362885
+UPPER,4,0.26931720,0.12618830
+UPPER,5,0.30956000,0.13135310
+UPPER,6,0.34980280,0.12274510
+UPPER,7,0.34960200,0.09864270
+UPPER,8,0.45608000,0.06258453
+UPPER,9,0.88000000,0.02409018
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00655173,-0.02620691
+LOWER,2,0.02620691,-0.01170002
+LOWER,3,0.05459772,-0.02910077
+LOWER,4,0.26931720,-0.02703410
+LOWER,5,0.30956000,-0.04080690
+LOWER,6,0.34980280,-0.02186930
+LOWER,7,0.34960200,0.00739790
+LOWER,8,0.45608000,0.01601812
+LOWER,9,0.88000000,0.00787507
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

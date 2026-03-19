@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Leistes_loyca
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 120.70 mm
+# Secondary1: 92.50 mm
+# Kipps Distance: 27.00 mm
+# Hand-Wing Index: 22.50
+# Tail Length: 97.30 mm
+# Aspect Ratio: 1.305
+# Pointedness Index: 0.2237
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1188
+# Max Thickness Position: 0.3365
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3620
+# Leading Edge Radius: 0.0339
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.11e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01017065,0.06452393
+UPPER,2,0.04068262,0.11184503
+UPPER,3,0.08475546,0.13850360
+UPPER,4,0.29275500,0.16923825
+UPPER,5,0.33650000,0.17636350
+UPPER,6,0.38024500,0.16448809
+UPPER,7,0.38417500,0.13123693
+UPPER,8,0.49200000,0.08221912
+UPPER,9,0.88000000,0.03139189
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01017065,-0.03963262
+LOWER,2,0.04068262,-0.01783804
+LOWER,3,0.08475546,-0.04237708
+LOWER,4,0.29275500,-0.04214409
+LOWER,5,0.33650000,-0.06114475
+LOWER,6,0.38024500,-0.03501884
+LOWER,7,0.38417500,0.00535756
+LOWER,8,0.49200000,0.01909223
+LOWER,9,0.88000000,0.00965218
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Leucosticte_atrata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 106.40 mm
+# Secondary1: 65.90 mm
+# Kipps Distance: 39.40 mm
+# Hand-Wing Index: 37.50
+# Tail Length: 69.10 mm
+# Aspect Ratio: 1.615
+# Pointedness Index: 0.3703
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1075
+# Max Thickness Position: 0.3275
+# Max Camber/Chord: 0.0546
+# Max Camber Position: 0.3500
+# Leading Edge Radius: 0.0299
+# LE Droop: 0.0005
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.79e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00896397,0.05428380
+UPPER,2,0.03585586,0.10064939
+UPPER,3,0.07469972,0.12761387
+UPPER,4,0.28492500,0.15562444
+UPPER,5,0.32750000,0.16207221
+UPPER,6,0.37007500,0.15132593
+UPPER,7,0.37262500,0.12123634
+UPPER,8,0.48000000,0.07650756
+UPPER,9,0.88000000,0.02934859
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00896397,-0.03570586
+LOWER,2,0.03585586,-0.01527483
+LOWER,3,0.07469972,-0.03720813
+LOWER,4,0.28492500,-0.03565941
+LOWER,5,0.32750000,-0.05285346
+LOWER,6,0.37007500,-0.02921164
+LOWER,7,0.37262500,0.00732573
+LOWER,8,0.48000000,0.01881301
+LOWER,9,0.88000000,0.00935383
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

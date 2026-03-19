@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Opisthoprora_euryptera
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 63.20 mm
+# Secondary1: 25.50 mm
+# Kipps Distance: 37.80 mm
+# Hand-Wing Index: 59.80
+# Tail Length: 42.50 mm
+# Aspect Ratio: 2.478
+# Pointedness Index: 0.5981
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0907
+# Max Thickness Position: 0.3141
+# Max Camber/Chord: 0.0481
+# Max Camber Position: 0.3322
+# Leading Edge Radius: 0.0237
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00711980,0.04271882
+UPPER,2,0.02847921,0.08619252
+UPPER,3,0.05933170,0.10950398
+UPPER,4,0.27328440,0.13329614
+UPPER,5,0.31412000,0.13873611
+UPPER,6,0.35495560,0.12966949
+UPPER,7,0.35545400,0.10428295
+UPPER,8,0.46216000,0.06624595
+UPPER,9,0.88000000,0.02551986
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00711980,-0.02847921
+LOWER,2,0.02847921,-0.01218872
+LOWER,3,0.05933170,-0.03047425
+LOWER,4,0.27328440,-0.02808972
+LOWER,5,0.31412000,-0.04259631
+LOWER,6,0.35495560,-0.02264974
+LOWER,7,0.35545400,0.00817677
+LOWER,8,0.46216000,0.01711007
+LOWER,9,0.88000000,0.00839083
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

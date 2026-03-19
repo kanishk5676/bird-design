@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Crithagra_dorsostriata
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 73.10 mm
+# Secondary1: 58.90 mm
+# Kipps Distance: 14.50 mm
+# Hand-Wing Index: 19.80
+# Tail Length: 51.30 mm
+# Aspect Ratio: 1.241
+# Pointedness Index: 0.1984
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1237
+# Max Thickness Position: 0.3381
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3642
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.11e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01038249,0.06633495
+UPPER,2,0.04152997,0.11521916
+UPPER,3,0.08652077,0.14245690
+UPPER,4,0.29416440,0.17431494
+UPPER,5,0.33812000,0.18173739
+UPPER,6,0.38207560,0.16936664
+UPPER,7,0.38625400,0.13472854
+UPPER,8,0.49416000,0.08396351
+UPPER,9,0.88000000,0.03194796
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01038249,-0.04031797
+LOWER,2,0.04152997,-0.01927593
+LOWER,3,0.08652077,-0.04505659
+LOWER,4,0.29416440,-0.04588439
+LOWER,5,0.33812000,-0.06567759
+LOWER,6,0.38207560,-0.03846194
+LOWER,7,0.38625400,0.00359861
+LOWER,8,0.49416000,0.01865949
+LOWER,9,0.88000000,0.00955918
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

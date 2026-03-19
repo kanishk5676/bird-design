@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pterocles_quadricinctus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 174.60 mm
+# Secondary1: 103.60 mm
+# Kipps Distance: 70.40 mm
+# Hand-Wing Index: 40.50
+# Tail Length: 74.60 mm
+# Aspect Ratio: 1.685
+# Pointedness Index: 0.4032
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1023
+# Max Thickness Position: 0.3257
+# Max Camber/Chord: 0.0539
+# Max Camber Position: 0.3476
+# Leading Edge Radius: 0.0290
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.42e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00870434,0.05222606
+UPPER,2,0.03481737,0.09692098
+UPPER,3,0.07253619,0.12318841
+UPPER,4,0.28335900,0.14999457
+UPPER,5,0.32570000,0.15612991
+UPPER,6,0.36804100,0.14590435
+UPPER,7,0.37031500,0.11727280
+UPPER,8,0.47760000,0.07442477
+UPPER,9,0.88000000,0.02865270
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00870434,-0.03481737
+LOWER,2,0.03481737,-0.01386574
+LOWER,3,0.07253619,-0.03452600
+LOWER,4,0.28335900,-0.03202027
+LOWER,5,0.32570000,-0.04838116
+LOWER,6,0.36804100,-0.02588494
+LOWER,7,0.37031500,0.00888194
+LOWER,8,0.47760000,0.01908634
+LOWER,9,0.88000000,0.00937837
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

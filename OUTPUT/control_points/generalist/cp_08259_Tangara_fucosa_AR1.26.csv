@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tangara_fucosa
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 70.00 mm
+# Secondary1: 55.40 mm
+# Kipps Distance: 14.60 mm
+# Hand-Wing Index: 20.90
+# Tail Length: 46.00 mm
+# Aspect Ratio: 1.264
+# Pointedness Index: 0.2086
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1229
+# Max Thickness Position: 0.3375
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3633
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.10e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01029675,0.06560047
+UPPER,2,0.04118698,0.11443415
+UPPER,3,0.08580621,0.14169403
+UPPER,4,0.29359020,0.17335255
+UPPER,5,0.33746000,0.18072422
+UPPER,6,0.38132980,0.16843810
+UPPER,7,0.38540700,0.13403695
+UPPER,8,0.49328000,0.08358468
+UPPER,9,0.88000000,0.03181683
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01029675,-0.04004098
+LOWER,2,0.04118698,-0.01906356
+LOWER,3,0.08580621,-0.04464255
+LOWER,4,0.29359020,-0.04534047
+LOWER,5,0.33746000,-0.06499827
+LOWER,6,0.38132980,-0.03796880
+LOWER,7,0.38540700,0.00380403
+LOWER,8,0.49328000,0.01867447
+LOWER,9,0.88000000,0.00955129
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

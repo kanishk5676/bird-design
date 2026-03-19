@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Mohoua_albicilla
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 70.40 mm
+# Secondary1: 56.40 mm
+# Kipps Distance: 14.00 mm
+# Hand-Wing Index: 19.90
+# Tail Length: 65.40 mm
+# Aspect Ratio: 1.248
+# Pointedness Index: 0.1989
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1238
+# Max Thickness Position: 0.3381
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3641
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.06e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01037686,0.06628113
+UPPER,2,0.04150742,0.11524993
+UPPER,3,0.08647380,0.14253455
+UPPER,4,0.29411220,0.17441931
+UPPER,5,0.33806000,0.18184938
+UPPER,6,0.38200780,0.16946594
+UPPER,7,0.38617700,0.13479231
+UPPER,8,0.49408000,0.08398636
+UPPER,9,0.88000000,0.03195244
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01037686,-0.04030142
+LOWER,2,0.04150742,-0.01932177
+LOWER,3,0.08647380,-0.04513707
+LOWER,4,0.29411220,-0.04600592
+LOWER,5,0.33806000,-0.06581943
+LOWER,6,0.38200780,-0.03857586
+LOWER,7,0.38617700,0.00352784
+LOWER,8,0.49408000,0.01863247
+LOWER,9,0.88000000,0.00955037
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

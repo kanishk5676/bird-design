@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Columba_rupestris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 222.80 mm
+# Secondary1: 111.50 mm
+# Kipps Distance: 105.50 mm
+# Hand-Wing Index: 48.60
+# Tail Length: 113.00 mm
+# Aspect Ratio: 1.998
+# Pointedness Index: 0.4735
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0944
+# Max Thickness Position: 0.3208
+# Max Camber/Chord: 0.0517
+# Max Camber Position: 0.3411
+# Leading Edge Radius: 0.0270
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.73e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00809789,0.04858736
+UPPER,2,0.03239158,0.09110085
+UPPER,3,0.06748245,0.11547903
+UPPER,4,0.27913080,0.14037386
+UPPER,5,0.32084000,0.14603613
+UPPER,6,0.36254920,0.13659902
+UPPER,7,0.36407800,0.11017514
+UPPER,8,0.47112000,0.07033922
+UPPER,9,0.88000000,0.02718242
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00809789,-0.03239158
+LOWER,2,0.03239158,-0.01211594
+LOWER,3,0.06748245,-0.03096925
+LOWER,4,0.27913080,-0.02760656
+LOWER,5,0.32084000,-0.04270593
+LOWER,6,0.36254920,-0.02194430
+LOWER,7,0.36407800,0.01014185
+LOWER,8,0.47112000,0.01882042
+LOWER,9,0.88000000,0.00914143
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

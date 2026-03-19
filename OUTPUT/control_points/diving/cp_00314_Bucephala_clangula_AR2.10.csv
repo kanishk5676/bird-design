@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bucephala_clangula
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 208.70 mm
+# Secondary1: 99.40 mm
+# Kipps Distance: 105.40 mm
+# Hand-Wing Index: 51.40
+# Tail Length: 82.00 mm
+# Aspect Ratio: 2.100
+# Pointedness Index: 0.5050
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0925
+# Max Thickness Position: 0.3192
+# Max Camber/Chord: 0.0508
+# Max Camber Position: 0.3389
+# Leading Edge Radius: 0.0262
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.39e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00785150,0.04710901
+UPPER,2,0.03140600,0.08942994
+UPPER,3,0.06542918,0.11332828
+UPPER,4,0.27766920,0.13773488
+UPPER,5,0.31916000,0.14328231
+UPPER,6,0.36065080,0.13403659
+UPPER,7,0.36192200,0.10814857
+UPPER,8,0.46888000,0.06908935
+UPPER,9,0.88000000,0.02671011
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00785150,-0.03140600
+LOWER,2,0.03140600,-0.01179752
+LOWER,3,0.06542918,-0.03024563
+LOWER,4,0.27766920,-0.02683895
+LOWER,5,0.31916000,-0.04163211
+LOWER,6,0.36065080,-0.02129152
+LOWER,7,0.36192200,0.01014393
+LOWER,8,0.46888000,0.01856755
+LOWER,9,0.88000000,0.00900799
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

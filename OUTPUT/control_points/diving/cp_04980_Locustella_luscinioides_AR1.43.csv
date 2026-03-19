@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Locustella_luscinioides
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 70.20 mm
+# Secondary1: 49.20 mm
+# Kipps Distance: 21.20 mm
+# Hand-Wing Index: 30.10
+# Tail Length: 54.20 mm
+# Aspect Ratio: 1.427
+# Pointedness Index: 0.3020
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1156
+# Max Thickness Position: 0.3319
+# Max Camber/Chord: 0.0562
+# Max Camber Position: 0.3559
+# Leading Edge Radius: 0.0318
+# LE Droop: 0.0020
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.08e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00953877,0.05921261
+UPPER,2,0.03815508,0.10756441
+UPPER,3,0.07948974,0.13494764
+UPPER,4,0.28878780,0.16487317
+UPPER,5,0.33194000,0.17180784
+UPPER,6,0.37509220,0.16025005
+UPPER,7,0.37832300,0.12788825
+UPPER,8,0.48592000,0.08015728
+UPPER,9,0.88000000,0.03061362
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00953877,-0.03756108
+LOWER,2,0.03815508,-0.01730443
+LOWER,3,0.07948974,-0.04116937
+LOWER,4,0.28878780,-0.04085543
+LOWER,5,0.33194000,-0.05934789
+LOWER,6,0.37509220,-0.03392076
+LOWER,7,0.37832300,0.00537571
+LOWER,8,0.48592000,0.01868168
+LOWER,9,0.88000000,0.00943438
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

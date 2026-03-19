@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eremopterix_leucopareia
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 75.00 mm
+# Secondary1: 58.20 mm
+# Kipps Distance: 16.80 mm
+# Hand-Wing Index: 22.30
+# Tail Length: 41.60 mm
+# Aspect Ratio: 1.289
+# Pointedness Index: 0.2240
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1211
+# Max Thickness Position: 0.3366
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3622
+# Leading Edge Radius: 0.0339
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01017522,0.06459132
+UPPER,2,0.04070088,0.11308584
+UPPER,3,0.08479350,0.14022291
+UPPER,4,0.29285940,0.17147640
+UPPER,5,0.33662000,0.17874244
+UPPER,6,0.38038060,0.16663238
+UPPER,7,0.38432900,0.13272419
+UPPER,8,0.49216000,0.08290370
+UPPER,9,0.88000000,0.03159193
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01017522,-0.03963888
+LOWER,2,0.04070088,-0.01857759
+LOWER,3,0.08479350,-0.04372317
+LOWER,4,0.29285940,-0.04408279
+LOWER,5,0.33662000,-0.06345889
+LOWER,6,0.38038060,-0.03681675
+LOWER,7,0.38432900,0.00435748
+LOWER,8,0.49216000,0.01878381
+LOWER,9,0.88000000,0.00956642
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

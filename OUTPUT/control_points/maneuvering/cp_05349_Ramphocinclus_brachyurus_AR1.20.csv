@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ramphocinclus_brachyurus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 93.90 mm
+# Secondary1: 78.10 mm
+# Kipps Distance: 14.00 mm
+# Hand-Wing Index: 15.20
+# Tail Length: 76.50 mm
+# Aspect Ratio: 1.202
+# Pointedness Index: 0.1491
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1260
+# Max Thickness Position: 0.3409
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3678
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01077450,0.06960698
+UPPER,2,0.04309799,0.11782358
+UPPER,3,0.08978747,0.14469018
+UPPER,4,0.29656560,0.17710341
+UPPER,5,0.34088000,0.18466347
+UPPER,6,0.38519440,0.17206336
+UPPER,7,0.38979600,0.13678306
+UPPER,8,0.49784000,0.08514334
+UPPER,9,0.88000000,0.03237180
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01077450,-0.04160999
+LOWER,2,0.04309799,-0.01978850
+LOWER,3,0.08978747,-0.04609592
+LOWER,4,0.29656560,-0.04717850
+LOWER,5,0.34088000,-0.06733867
+LOWER,6,0.38519440,-0.03961843
+LOWER,7,0.38979600,0.00322193
+LOWER,8,0.49784000,0.01873054
+LOWER,9,0.88000000,0.00962556
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

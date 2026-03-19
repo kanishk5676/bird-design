@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Knipolegus_aterrimus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 82.40 mm
+# Secondary1: 68.50 mm
+# Kipps Distance: 13.70 mm
+# Hand-Wing Index: 16.70
+# Tail Length: 74.40 mm
+# Aspect Ratio: 1.203
+# Pointedness Index: 0.1663
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1255
+# Max Thickness Position: 0.3400
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3666
+# Leading Edge Radius: 0.0355
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.29e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01064104,0.06850626
+UPPER,2,0.04256417,0.11712087
+UPPER,3,0.08867536,0.14416945
+UPPER,4,0.29578260,0.17646271
+UPPER,5,0.33998000,0.18399430
+UPPER,6,0.38417740,0.17144165
+UPPER,7,0.38864100,0.13629422
+UPPER,8,0.49664000,0.08484504
+UPPER,9,0.88000000,0.03225988
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01064104,-0.04116617
+LOWER,2,0.04256417,-0.01970477
+LOWER,3,0.08867536,-0.04591021
+LOWER,4,0.29578260,-0.04697450
+LOWER,5,0.33998000,-0.06705875
+LOWER,6,0.38417740,-0.03944291
+LOWER,7,0.38864100,0.00323610
+LOWER,8,0.49664000,0.01867631
+LOWER,9,0.88000000,0.00959588
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

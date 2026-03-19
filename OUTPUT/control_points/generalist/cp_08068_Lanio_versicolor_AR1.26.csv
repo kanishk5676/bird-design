@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lanio_versicolor
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 76.70 mm
+# Secondary1: 60.80 mm
+# Kipps Distance: 15.50 mm
+# Hand-Wing Index: 20.30
+# Tail Length: 67.60 mm
+# Aspect Ratio: 1.262
+# Pointedness Index: 0.2021
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1230
+# Max Thickness Position: 0.3378
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3638
+# Leading Edge Radius: 0.0345
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.18e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01034818,0.06602909
+UPPER,2,0.04139272,0.11472287
+UPPER,3,0.08623484,0.14190908
+UPPER,4,0.29390340,0.17361484
+UPPER,5,0.33782000,0.18099740
+UPPER,6,0.38173660,0.16869314
+UPPER,7,0.38586900,0.13424120
+UPPER,8,0.49376000,0.08371349
+UPPER,9,0.88000000,0.03186622
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01034818,-0.04021072
+LOWER,2,0.04139272,-0.01908947
+LOWER,3,0.08623484,-0.04470553
+LOWER,4,0.29390340,-0.04540103
+LOWER,5,0.33782000,-0.06508785
+LOWER,6,0.38173660,-0.03801847
+LOWER,7,0.38586900,0.00381602
+LOWER,8,0.49376000,0.01870599
+LOWER,9,0.88000000,0.00956699
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

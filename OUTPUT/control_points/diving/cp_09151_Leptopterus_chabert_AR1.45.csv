@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Leptopterus_chabert
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 93.20 mm
+# Secondary1: 64.40 mm
+# Kipps Distance: 28.80 mm
+# Hand-Wing Index: 30.90
+# Tail Length: 47.10 mm
+# Aspect Ratio: 1.447
+# Pointedness Index: 0.3090
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1130
+# Max Thickness Position: 0.3315
+# Max Camber/Chord: 0.0561
+# Max Camber Position: 0.3553
+# Leading Edge Radius: 0.0316
+# LE Droop: 0.0018
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.68e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00947849,0.05869097
+UPPER,2,0.03791398,0.10599523
+UPPER,3,0.07898745,0.13296766
+UPPER,4,0.28837020,0.16232078
+UPPER,5,0.33146000,0.16910287
+UPPER,6,0.37454980,0.15779938
+UPPER,7,0.37770700,0.12614961
+UPPER,8,0.48528000,0.07930755
+UPPER,9,0.88000000,0.03034862
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00947849,-0.03736798
+LOWER,2,0.03791398,-0.01654738
+LOWER,3,0.07898745,-0.03976897
+LOWER,4,0.28837020,-0.03888134
+LOWER,5,0.33146000,-0.05696692
+LOWER,6,0.37454980,-0.03209925
+LOWER,7,0.37770700,0.00633262
+LOWER,8,0.48528000,0.01893726
+LOWER,9,0.88000000,0.00949560
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

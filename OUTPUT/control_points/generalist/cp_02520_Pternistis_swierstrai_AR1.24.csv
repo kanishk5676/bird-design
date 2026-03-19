@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pternistis_swierstrai
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 179.00 mm
+# Secondary1: 144.00 mm
+# Kipps Distance: 35.00 mm
+# Hand-Wing Index: 19.60
+# Tail Length: 88.00 mm
+# Aspect Ratio: 1.243
+# Pointedness Index: 0.1955
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1188
+# Max Thickness Position: 0.3382
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3643
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.54e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01040303,0.06649820
+UPPER,2,0.04161213,0.11284707
+UPPER,3,0.08669194,0.13897446
+UPPER,4,0.29426880,0.16976244
+UPPER,5,0.33824000,0.17689241
+UPPER,6,0.38221120,0.16500913
+UPPER,7,0.38640800,0.13173594
+UPPER,8,0.49432000,0.08262385
+UPPER,9,0.88000000,0.03156927
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01040303,-0.04038813
+LOWER,2,0.04161213,-0.01770564
+LOWER,3,0.08669194,-0.04221562
+LOWER,4,0.29426880,-0.04175996
+LOWER,5,0.33824000,-0.06077321
+LOWER,6,0.38221120,-0.03462999
+LOWER,7,0.38640800,0.00577316
+LOWER,8,0.49432000,0.01936036
+LOWER,9,0.88000000,0.00976159
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

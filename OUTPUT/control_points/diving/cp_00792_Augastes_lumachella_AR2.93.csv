@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Augastes_lumachella
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 60.10 mm
+# Secondary1: 20.50 mm
+# Kipps Distance: 39.60 mm
+# Hand-Wing Index: 65.90
+# Tail Length: 35.50 mm
+# Aspect Ratio: 2.932
+# Pointedness Index: 0.6589
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0853
+# Max Thickness Position: 0.3105
+# Max Camber/Chord: 0.0458
+# Max Camber Position: 0.3273
+# Leading Edge Radius: 0.0221
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.58e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00662306,0.03973836
+UPPER,2,0.02649224,0.08162335
+UPPER,3,0.05519217,0.10359984
+UPPER,4,0.27010020,0.12603480
+UPPER,5,0.31046000,0.13115311
+UPPER,6,0.35081980,0.12262260
+UPPER,7,0.35075700,0.09873716
+UPPER,8,0.45728000,0.06285622
+UPPER,9,0.88000000,0.02424664
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00662306,-0.02649224
+LOWER,2,0.02649224,-0.01125085
+LOWER,3,0.05519217,-0.02838691
+LOWER,4,0.27010020,-0.02580834
+LOWER,5,0.31046000,-0.03945716
+LOWER,6,0.35081980,-0.02069003
+LOWER,7,0.35075700,0.00831371
+LOWER,8,0.45728000,0.01648303
+LOWER,9,0.88000000,0.00804979
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

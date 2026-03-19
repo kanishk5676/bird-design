@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anabacerthia_amaurotis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 76.20 mm
+# Secondary1: 64.40 mm
+# Kipps Distance: 11.80 mm
+# Hand-Wing Index: 15.50
+# Tail Length: 72.30 mm
+# Aspect Ratio: 1.183
+# Pointedness Index: 0.1549
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1269
+# Max Thickness Position: 0.3407
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3676
+# Leading Edge Radius: 0.0358
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01073594,0.06931562
+UPPER,2,0.04294374,0.11819007
+UPPER,3,0.08946614,0.14531589
+UPPER,4,0.29640900,0.17792795
+UPPER,5,0.34070000,0.18554307
+UPPER,6,0.38499100,0.17285120
+UPPER,7,0.38956500,0.13731397
+UPPER,8,0.49760000,0.08536795
+UPPER,9,0.88000000,0.03243076
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01073594,-0.04147374
+LOWER,2,0.04294374,-0.02009545
+LOWER,3,0.08946614,-0.04664563
+LOWER,4,0.29640900,-0.04798733
+LOWER,5,0.34070000,-0.06829432
+LOWER,6,0.38499100,-0.04037221
+LOWER,7,0.38956500,0.00278015
+LOWER,8,0.49760000,0.01857850
+LOWER,9,0.88000000,0.00957935
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

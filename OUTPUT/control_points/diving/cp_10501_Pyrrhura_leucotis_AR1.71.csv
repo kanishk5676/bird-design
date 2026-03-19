@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pyrrhura_leucotis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 114.80 mm
+# Secondary1: 67.20 mm
+# Kipps Distance: 47.50 mm
+# Hand-Wing Index: 41.40
+# Tail Length: 106.80 mm
+# Aspect Ratio: 1.708
+# Pointedness Index: 0.4138
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1039
+# Max Thickness Position: 0.3252
+# Max Camber/Chord: 0.0536
+# Max Camber Position: 0.3469
+# Leading Edge Radius: 0.0287
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.98e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00862297,0.05173781
+UPPER,2,0.03449187,0.09755648
+UPPER,3,0.07185807,0.12417322
+UPPER,4,0.28288920,0.15132641
+UPPER,5,0.32516000,0.15756139
+UPPER,6,0.36743080,0.14716976
+UPPER,7,0.36962200,0.11807320
+UPPER,8,0.47688000,0.07469490
+UPPER,9,0.88000000,0.02869844
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00862297,-0.03449187
+LOWER,2,0.03449187,-0.01447743
+LOWER,3,0.07185807,-0.03559470
+LOWER,4,0.28288920,-0.03364458
+LOWER,5,0.32516000,-0.05027119
+LOWER,6,0.36743080,-0.02740961
+LOWER,7,0.36962200,0.00792193
+LOWER,8,0.47688000,0.01871168
+LOWER,9,0.88000000,0.00925462
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

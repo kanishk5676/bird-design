@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pterodroma_incerta
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 318.00 mm
+# Secondary1: 109.20 mm
+# Kipps Distance: 208.80 mm
+# Hand-Wing Index: 65.60
+# Tail Length: 124.20 mm
+# Aspect Ratio: 2.912
+# Pointedness Index: 0.6566
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0787
+# Max Thickness Position: 0.3106
+# Max Camber/Chord: 0.0460
+# Max Camber Position: 0.3275
+# Leading Edge Radius: 0.0221
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.63e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00664396,0.03986376
+UPPER,2,0.02657584,0.07841521
+UPPER,3,0.05536634,0.09894557
+UPPER,4,0.27025680,0.11993555
+UPPER,5,0.31064000,0.12465730
+UPPER,6,0.35102320,0.11678773
+UPPER,7,0.35098800,0.09475293
+UPPER,8,0.45752000,0.06110215
+UPPER,9,0.88000000,0.02376106
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00664396,-0.02657584
+LOWER,2,0.02657584,-0.00909606
+LOWER,3,0.05536634,-0.02450117
+LOWER,4,0.27025680,-0.02014278
+LOWER,5,0.31064000,-0.03273410
+LOWER,6,0.35102320,-0.01542104
+LOWER,7,0.35098800,0.01133549
+LOWER,8,0.45752000,0.01747879
+LOWER,9,0.88000000,0.00834257
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

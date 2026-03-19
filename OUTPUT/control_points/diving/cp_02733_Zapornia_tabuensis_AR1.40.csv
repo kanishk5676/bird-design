@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Zapornia_tabuensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 80.40 mm
+# Secondary1: 57.50 mm
+# Kipps Distance: 24.20 mm
+# Hand-Wing Index: 29.50
+# Tail Length: 35.60 mm
+# Aspect Ratio: 1.398
+# Pointedness Index: 0.3010
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1144
+# Max Thickness Position: 0.3323
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3564
+# Leading Edge Radius: 0.0319
+# LE Droop: 0.0021
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.57e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00956223,0.05947335
+UPPER,2,0.03824890,0.10721770
+UPPER,3,0.07968521,0.13423928
+UPPER,4,0.28910100,0.16392435
+UPPER,5,0.33230000,0.17079084
+UPPER,6,0.37549900,0.15934669
+UPPER,7,0.37878500,0.12730308
+UPPER,8,0.48640000,0.07994058
+UPPER,9,0.88000000,0.03056808
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00956223,-0.03761890
+LOWER,2,0.03824890,-0.01689899
+LOWER,3,0.07968521,-0.04045533
+LOWER,4,0.28910100,-0.03978145
+LOWER,5,0.33230000,-0.05809209
+LOWER,6,0.37549900,-0.03291496
+LOWER,7,0.37878500,0.00599513
+LOWER,8,0.48640000,0.01891481
+LOWER,9,0.88000000,0.00950969
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

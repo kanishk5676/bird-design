@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Turdus_fumigatus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 113.50 mm
+# Secondary1: 89.60 mm
+# Kipps Distance: 23.90 mm
+# Hand-Wing Index: 21.10
+# Tail Length: 90.80 mm
+# Aspect Ratio: 1.267
+# Pointedness Index: 0.2106
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1202
+# Max Thickness Position: 0.3373
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3631
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.95e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01028042,0.06546252
+UPPER,2,0.04112168,0.11304734
+UPPER,3,0.08567016,0.13976404
+UPPER,4,0.29348580,0.17083907
+UPPER,5,0.33734000,0.17805229
+UPPER,6,0.38119420,0.16603026
+UPPER,7,0.38525300,0.13236857
+UPPER,8,0.49312000,0.08281887
+UPPER,9,0.88000000,0.03159378
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01028042,-0.03998768
+LOWER,2,0.04112168,-0.01822931
+LOWER,3,0.08567016,-0.04312508
+LOWER,4,0.29348580,-0.04315309
+LOWER,5,0.33734000,-0.06238834
+LOWER,6,0.38119420,-0.03593987
+LOWER,7,0.38525300,0.00493504
+LOWER,8,0.49312000,0.01902498
+LOWER,9,0.88000000,0.00964918
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

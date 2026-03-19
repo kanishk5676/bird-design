@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Trichoglossus_moluccanus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 142.80 mm
+# Secondary1: 77.20 mm
+# Kipps Distance: 65.60 mm
+# Hand-Wing Index: 45.90
+# Tail Length: 114.80 mm
+# Aspect Ratio: 1.850
+# Pointedness Index: 0.4594
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0991
+# Max Thickness Position: 0.3225
+# Max Camber/Chord: 0.0524
+# Max Camber Position: 0.3433
+# Leading Edge Radius: 0.0275
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.63e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00825260,0.04951562
+UPPER,2,0.03301041,0.09411364
+UPPER,3,0.06877169,0.11958249
+UPPER,4,0.28054020,0.14557573
+UPPER,5,0.32246000,0.15152069
+UPPER,6,0.36437980,0.14161242
+UPPER,7,0.36615700,0.11386926
+UPPER,8,0.47328000,0.07231544
+UPPER,9,0.88000000,0.02785305
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00825260,-0.03301041
+LOWER,2,0.03301041,-0.01335318
+LOWER,3,0.06877169,-0.03334651
+LOWER,4,0.28054020,-0.03079151
+LOWER,5,0.32246000,-0.04664474
+LOWER,6,0.36437980,-0.02484654
+LOWER,7,0.36615700,0.00884158
+LOWER,8,0.47328000,0.01863996
+LOWER,9,0.88000000,0.00914619
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

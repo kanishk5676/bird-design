@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nesoptilotis_leucotis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 88.80 mm
+# Secondary1: 73.40 mm
+# Kipps Distance: 15.30 mm
+# Hand-Wing Index: 17.30
+# Tail Length: 80.80 mm
+# Aspect Ratio: 1.210
+# Pointedness Index: 0.1723
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1246
+# Max Thickness Position: 0.3396
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3662
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.42e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01059190,0.06809142
+UPPER,2,0.04236762,0.11648462
+UPPER,3,0.08826586,0.14345067
+UPPER,4,0.29546940,0.17554059
+UPPER,5,0.33962000,0.18301850
+UPPER,6,0.38377060,0.17055532
+UPPER,7,0.38817900,0.13565844
+UPPER,8,0.49616000,0.08452564
+UPPER,9,0.88000000,0.03215751
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01059190,-0.04100562
+LOWER,2,0.04236762,-0.01944678
+LOWER,3,0.08826586,-0.04542848
+LOWER,4,0.29546940,-0.04630387
+LOWER,5,0.33962000,-0.06624495
+LOWER,6,0.38377060,-0.03882597
+LOWER,7,0.38817900,0.00354882
+LOWER,8,0.49616000,0.01875136
+LOWER,9,0.88000000,0.00961142
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

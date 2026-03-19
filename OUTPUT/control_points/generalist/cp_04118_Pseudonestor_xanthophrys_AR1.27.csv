@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pseudonestor_xanthophrys
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 72.20 mm
+# Secondary1: 56.90 mm
+# Kipps Distance: 14.10 mm
+# Hand-Wing Index: 19.90
+# Tail Length: 45.40 mm
+# Aspect Ratio: 1.269
+# Pointedness Index: 0.1953
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1235
+# Max Thickness Position: 0.3381
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3641
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.16e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01039508,0.06639046
+UPPER,2,0.04158031,0.11505948
+UPPER,3,0.08662564,0.14226029
+UPPER,4,0.29411220,0.17406126
+UPPER,5,0.33806000,0.18146847
+UPPER,6,0.38200780,0.16912312
+UPPER,7,0.38617700,0.13455614
+UPPER,8,0.49408000,0.08387971
+UPPER,9,0.88000000,0.03192197
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01039508,-0.04037431
+LOWER,2,0.04158031,-0.01919988
+LOWER,3,0.08662564,-0.04491614
+LOWER,4,0.29411220,-0.04568596
+LOWER,5,0.33806000,-0.06543852
+LOWER,6,0.38200780,-0.03827875
+LOWER,7,0.38617700,0.00369544
+LOWER,8,0.49408000,0.01868580
+LOWER,9,0.88000000,0.00956560
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

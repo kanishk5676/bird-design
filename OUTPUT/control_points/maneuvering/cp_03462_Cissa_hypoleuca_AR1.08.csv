@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cissa_hypoleuca
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 144.40 mm
+# Secondary1: 134.10 mm
+# Kipps Distance: 10.30 mm
+# Hand-Wing Index: 7.20
+# Tail Length: 144.90 mm
+# Aspect Ratio: 1.077
+# Pointedness Index: 0.0713
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1300
+# Max Thickness Position: 0.3457
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3742
+# Leading Edge Radius: 0.0381
+# LE Droop: 0.0066
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.67e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01141590,0.07505539
+UPPER,2,0.04566360,0.12213354
+UPPER,3,0.09513249,0.14833474
+UPPER,4,0.30074160,0.18169104
+UPPER,5,0.34568000,0.18948981
+UPPER,6,0.39061840,0.17649187
+UPPER,7,0.39595600,0.14009763
+UPPER,8,0.50424000,0.08697807
+UPPER,9,0.88000000,0.03301230
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01141590,-0.04369560
+LOWER,2,0.04566360,-0.02076477
+LOWER,3,0.09513249,-0.04801327
+LOWER,4,0.30074160,-0.04967230
+LOWER,5,0.34568000,-0.07046901
+LOWER,6,0.39061840,-0.04187354
+LOWER,7,0.39595600,0.00231946
+LOWER,8,0.50424000,0.01869933
+LOWER,9,0.88000000,0.00967842
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

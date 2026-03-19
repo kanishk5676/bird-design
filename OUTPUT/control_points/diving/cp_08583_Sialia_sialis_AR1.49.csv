@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sialia_sialis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 95.80 mm
+# Secondary1: 64.40 mm
+# Kipps Distance: 31.40 mm
+# Hand-Wing Index: 32.80
+# Tail Length: 62.50 mm
+# Aspect Ratio: 1.488
+# Pointedness Index: 0.3278
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1118
+# Max Thickness Position: 0.3303
+# Max Camber/Chord: 0.0557
+# Max Camber Position: 0.3538
+# Leading Edge Radius: 0.0311
+# LE Droop: 0.0014
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.57e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00932471,0.05738827
+UPPER,2,0.03729885,0.10466456
+UPPER,3,0.07770594,0.13171956
+UPPER,4,0.28737840,0.16077126
+UPPER,5,0.33032000,0.16747983
+UPPER,6,0.37326160,0.15629889
+UPPER,7,0.37624400,0.12499225
+UPPER,8,0.48376000,0.07862648
+UPPER,9,0.88000000,0.03009951
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00932471,-0.03686685
+LOWER,2,0.03729885,-0.01629438
+LOWER,3,0.07770594,-0.03924109
+LOWER,4,0.28737840,-0.03824952
+LOWER,5,0.33032000,-0.05613903
+LOWER,6,0.37326160,-0.03154096
+LOWER,7,0.37624400,0.00647425
+LOWER,8,0.48376000,0.01886233
+LOWER,9,0.88000000,0.00944522
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

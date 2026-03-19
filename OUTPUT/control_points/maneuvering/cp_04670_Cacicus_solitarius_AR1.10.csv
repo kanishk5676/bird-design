@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cacicus_solitarius
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 118.10 mm
+# Secondary1: 107.20 mm
+# Kipps Distance: 13.30 mm
+# Hand-Wing Index: 11.00
+# Tail Length: 110.40 mm
+# Aspect Ratio: 1.102
+# Pointedness Index: 0.1126
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1281
+# Max Thickness Position: 0.3434
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3712
+# Leading Edge Radius: 0.0370
+# LE Droop: 0.0058
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01108906,0.07233434
+UPPER,2,0.04435622,0.12011378
+UPPER,3,0.09240880,0.14663100
+UPPER,4,0.29875800,0.17953970
+UPPER,5,0.34340000,0.18722431
+UPPER,6,0.38804200,0.17441663
+UPPER,7,0.39303000,0.13855512
+UPPER,8,0.50120000,0.08613688
+UPPER,9,0.88000000,0.03272219
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01108906,-0.04261622
+LOWER,2,0.04435622,-0.02028295
+LOWER,3,0.09240880,-0.04707670
+LOWER,4,0.29875800,-0.04843702
+LOWER,5,0.34340000,-0.06892931
+LOWER,6,0.38804200,-0.04075241
+LOWER,7,0.39303000,0.00279370
+LOWER,8,0.50120000,0.01874070
+LOWER,9,0.88000000,0.00966380
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

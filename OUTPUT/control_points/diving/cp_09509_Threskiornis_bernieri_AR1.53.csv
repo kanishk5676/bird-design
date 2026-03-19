@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Threskiornis_bernieri
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 341.80 mm
+# Secondary1: 222.80 mm
+# Kipps Distance: 116.20 mm
+# Hand-Wing Index: 34.30
+# Tail Length: 144.40 mm
+# Aspect Ratio: 1.534
+# Pointedness Index: 0.3400
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1033
+# Max Thickness Position: 0.3294
+# Max Camber/Chord: 0.0553
+# Max Camber Position: 0.3526
+# Leading Edge Radius: 0.0307
+# LE Droop: 0.0011
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00921660,0.05643959
+UPPER,2,0.03686640,0.09983778
+UPPER,3,0.07680499,0.12530029
+UPPER,4,0.28659540,0.15245624
+UPPER,5,0.32942000,0.15865491
+UPPER,6,0.37224460,0.14832380
+UPPER,7,0.37508900,0.11939668
+UPPER,8,0.48256000,0.07596933
+UPPER,9,0.88000000,0.02929553
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00921660,-0.03652440
+LOWER,2,0.03686640,-0.01368924
+LOWER,3,0.07680499,-0.03446232
+LOWER,4,0.28659540,-0.03143758
+LOWER,5,0.32942000,-0.04796736
+LOWER,6,0.37224460,-0.02523891
+LOWER,7,0.37508900,0.00988688
+LOWER,8,0.48256000,0.01984958
+LOWER,9,0.88000000,0.00970350
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

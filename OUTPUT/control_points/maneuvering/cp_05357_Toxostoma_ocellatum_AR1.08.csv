@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Toxostoma_ocellatum
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 104.00 mm
+# Secondary1: 96.20 mm
+# Kipps Distance: 7.80 mm
+# Hand-Wing Index: 7.50
+# Tail Length: 136.40 mm
+# Aspect Ratio: 1.081
+# Pointedness Index: 0.0750
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1316
+# Max Thickness Position: 0.3455
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3740
+# Leading Edge Radius: 0.0380
+# LE Droop: 0.0065
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.74e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01138800,0.07482800
+UPPER,2,0.04555200,0.12285703
+UPPER,3,0.09490000,0.14947087
+UPPER,4,0.30058500,0.18317955
+UPPER,5,0.34550000,0.19107499
+UPPER,6,0.39041500,0.17791593
+UPPER,7,0.39572500,0.14107056
+UPPER,8,0.50400000,0.08740709
+UPPER,9,0.88000000,0.03313131
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01138800,-0.04360200
+LOWER,2,0.04555200,-0.02128947
+LOWER,3,0.09490000,-0.04895974
+LOWER,4,0.30058500,-0.05105174
+LOWER,5,0.34550000,-0.07210624
+LOWER,6,0.39041500,-0.04315630
+LOWER,7,0.39572500,0.00158451
+LOWER,8,0.50400000,0.01845763
+LOWER,9,0.88000000,0.00960747
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

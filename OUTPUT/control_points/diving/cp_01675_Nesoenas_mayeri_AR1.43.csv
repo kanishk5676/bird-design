@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nesoenas_mayeri
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 208.50 mm
+# Secondary1: 146.30 mm
+# Kipps Distance: 62.20 mm
+# Hand-Wing Index: 29.80
+# Tail Length: 159.30 mm
+# Aspect Ratio: 1.425
+# Pointedness Index: 0.2983
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1098
+# Max Thickness Position: 0.3321
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3562
+# Leading Edge Radius: 0.0319
+# LE Droop: 0.0020
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.33e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00956668,0.05944009
+UPPER,2,0.03826672,0.10478374
+UPPER,3,0.07972234,0.13083886
+UPPER,4,0.28894440,0.15949688
+UPPER,5,0.33212000,0.16608456
+UPPER,6,0.37529560,0.15510509
+UPPER,7,0.37855400,0.12436259
+UPPER,8,0.48616000,0.07858892
+UPPER,9,0.88000000,0.03017373
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00956668,-0.03765472
+LOWER,2,0.03826672,-0.01543283
+LOWER,3,0.07972234,-0.03778755
+LOWER,4,0.28894440,-0.03593761
+LOWER,5,0.33212000,-0.05350476
+LOWER,6,0.37529560,-0.02934993
+LOWER,7,0.37855400,0.00798025
+LOWER,8,0.48616000,0.01952849
+LOWER,9,0.88000000,0.00968069
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

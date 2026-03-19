@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ploceus_bannermani
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 75.10 mm
+# Secondary1: 64.00 mm
+# Kipps Distance: 11.10 mm
+# Hand-Wing Index: 14.80
+# Tail Length: 54.90 mm
+# Aspect Ratio: 1.173
+# Pointedness Index: 0.1478
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1276
+# Max Thickness Position: 0.3411
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3682
+# Leading Edge Radius: 0.0360
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.15e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01079333,0.06979995
+UPPER,2,0.04317330,0.11872496
+UPPER,3,0.08994438,0.14585778
+UPPER,4,0.29677440,0.17861772
+UPPER,5,0.34112000,0.18627125
+UPPER,6,0.38546560,0.17351536
+UPPER,7,0.39010400,0.13779889
+UPPER,8,0.49816000,0.08562202
+UPPER,9,0.88000000,0.03251542
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01079333,-0.04166130
+LOWER,2,0.04317330,-0.02026949
+LOWER,3,0.08994438,-0.04697643
+LOWER,4,0.29677440,-0.04843703
+LOWER,5,0.34112000,-0.06884645
+LOWER,6,0.38546560,-0.04078350
+LOWER,7,0.39010400,0.00258651
+LOWER,8,0.49816000,0.01854345
+LOWER,9,0.88000000,0.00957575
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

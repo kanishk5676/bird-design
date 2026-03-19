@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Saxicola_caprata
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 70.10 mm
+# Secondary1: 59.70 mm
+# Kipps Distance: 10.70 mm
+# Hand-Wing Index: 15.10
+# Tail Length: 51.50 mm
+# Aspect Ratio: 1.174
+# Pointedness Index: 0.1526
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1277
+# Max Thickness Position: 0.3409
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3679
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01075948,0.06953688
+UPPER,2,0.04303792,0.11870266
+UPPER,3,0.08966234,0.14592344
+UPPER,4,0.29661780,0.17871096
+UPPER,5,0.34094000,0.18637283
+UPPER,6,0.38526220,0.17360305
+UPPER,7,0.38987300,0.13784765
+UPPER,8,0.49792000,0.08562913
+UPPER,9,0.88000000,0.03251232
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01075948,-0.04154392
+LOWER,2,0.04303792,-0.02032707
+LOWER,3,0.08966234,-0.04707427
+LOWER,4,0.29661780,-0.04859123
+LOWER,5,0.34094000,-0.06902288
+LOWER,6,0.38526220,-0.04092935
+LOWER,7,0.38987300,0.00248792
+LOWER,8,0.49792000,0.01850078
+LOWER,9,0.88000000,0.00956083
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

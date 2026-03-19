@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Picathartes_gymnocephalus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 162.20 mm
+# Secondary1: 152.30 mm
+# Kipps Distance: 7.20 mm
+# Hand-Wing Index: 4.50
+# Tail Length: 180.50 mm
+# Aspect Ratio: 1.065
+# Pointedness Index: 0.0444
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1315
+# Max Thickness Position: 0.3473
+# Max Camber/Chord: 0.0597
+# Max Camber Position: 0.3764
+# Leading Edge Radius: 0.0388
+# LE Droop: 0.0071
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.11e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01163591,0.07691548
+UPPER,2,0.04654365,0.12360425
+UPPER,3,0.09696594,0.14960991
+UPPER,4,0.30215100,0.18331281
+UPPER,5,0.34730000,0.19120143
+UPPER,6,0.39244900,0.17805373
+UPPER,7,0.39803500,0.14124015
+UPPER,8,0.50640000,0.08757930
+UPPER,9,0.88000000,0.03321343
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01163591,-0.04441365
+LOWER,2,0.04654365,-0.02116913
+LOWER,3,0.09696594,-0.04878348
+LOWER,4,0.30215100,-0.05071635
+LOWER,5,0.34730000,-0.07175268
+LOWER,6,0.39244900,-0.04282773
+LOWER,7,0.39803500,0.00187447
+LOWER,8,0.50640000,0.01862232
+LOWER,9,0.88000000,0.00967201
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Zonotrichia_querula
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 86.90 mm
+# Secondary1: 66.30 mm
+# Kipps Distance: 20.50 mm
+# Hand-Wing Index: 23.70
+# Tail Length: 80.90 mm
+# Aspect Ratio: 1.311
+# Pointedness Index: 0.2359
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1196
+# Max Thickness Position: 0.3358
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3610
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.38e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01007167,0.06369004
+UPPER,2,0.04028669,0.11187507
+UPPER,3,0.08393061,0.13895282
+UPPER,4,0.29212860,0.16986468
+UPPER,5,0.33578000,0.17704259
+UPPER,6,0.37943140,0.16507941
+UPPER,7,0.38325100,0.13158250
+UPPER,8,0.49104000,0.08229607
+UPPER,9,0.88000000,0.03138664
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01007167,-0.03930869
+LOWER,2,0.04028669,-0.01818841
+LOWER,3,0.08393061,-0.04297750
+LOWER,4,0.29212860,-0.04307995
+LOWER,5,0.33578000,-0.06222104
+LOWER,6,0.37943140,-0.03590204
+LOWER,7,0.38325100,0.00477278
+LOWER,8,0.49104000,0.01884623
+LOWER,9,0.88000000,0.00956742
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

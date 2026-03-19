@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ardeola_bacchus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 213.00 mm
+# Secondary1: 153.40 mm
+# Kipps Distance: 56.60 mm
+# Hand-Wing Index: 26.80
+# Tail Length: 73.40 mm
+# Aspect Ratio: 1.389
+# Pointedness Index: 0.2657
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1121
+# Max Thickness Position: 0.3339
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3586
+# Leading Edge Radius: 0.0327
+# LE Droop: 0.0026
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.46e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00982471,0.06158825
+UPPER,2,0.03929883,0.10701038
+UPPER,3,0.08187257,0.13300657
+UPPER,4,0.29051040,0.16221141
+UPPER,5,0.33392000,0.16893568
+UPPER,6,0.37732960,0.15772856
+UPPER,7,0.38086400,0.12634860
+UPPER,8,0.48856000,0.07971470
+UPPER,9,0.88000000,0.03057417
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00982471,-0.03850683
+LOWER,2,0.03929883,-0.01596027
+LOWER,3,0.08187257,-0.03884372
+LOWER,4,0.29051040,-0.03727548
+LOWER,5,0.33392000,-0.05520688
+LOWER,6,0.37732960,-0.03055120
+LOWER,7,0.38086400,0.00755304
+LOWER,8,0.48856000,0.01956595
+LOWER,9,0.88000000,0.00973325
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

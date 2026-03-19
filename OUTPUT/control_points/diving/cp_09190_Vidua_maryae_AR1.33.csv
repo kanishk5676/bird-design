@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Vidua_maryae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 66.40 mm
+# Secondary1: 50.00 mm
+# Kipps Distance: 16.40 mm
+# Hand-Wing Index: 24.80
+# Tail Length: 38.20 mm
+# Aspect Ratio: 1.328
+# Pointedness Index: 0.2470
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1195
+# Max Thickness Position: 0.3351
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3602
+# Leading Edge Radius: 0.0333
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.16e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00998148,0.06292889
+UPPER,2,0.03992593,0.11143868
+UPPER,3,0.08317901,0.13869849
+UPPER,4,0.29155440,0.16957052
+UPPER,5,0.33512000,0.17674168
+UPPER,6,0.37868560,0.16478975
+UPPER,7,0.38240400,0.13132435
+UPPER,8,0.49016000,0.08210444
+UPPER,9,0.88000000,0.03130605
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00998148,-0.03901393
+LOWER,2,0.03992593,-0.01821833
+LOWER,3,0.08317901,-0.04299888
+LOWER,4,0.29155440,-0.04317380
+LOWER,5,0.33512000,-0.06229688
+LOWER,6,0.37868560,-0.03600264
+LOWER,7,0.38240400,0.00463392
+LOWER,8,0.49016000,0.01874519
+LOWER,9,0.88000000,0.00952483
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

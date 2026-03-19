@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eos_cyanogenia
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 160.00 mm
+# Secondary1: 84.00 mm
+# Kipps Distance: 76.00 mm
+# Hand-Wing Index: 47.50
+# Tail Length: 104.20 mm
+# Aspect Ratio: 1.905
+# Pointedness Index: 0.4750
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0972
+# Max Thickness Position: 0.3215
+# Max Camber/Chord: 0.0520
+# Max Camber Position: 0.3420
+# Leading Edge Radius: 0.0271
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00812400,0.04874400
+UPPER,2,0.03249600,0.09276424
+UPPER,3,0.06770000,0.11777726
+UPPER,4,0.27970500,0.14331012
+UPPER,5,0.32150000,0.14913943
+UPPER,6,0.36329500,0.13942392
+UPPER,7,0.36492500,0.11222051
+UPPER,8,0.47200000,0.07139013
+UPPER,9,0.88000000,0.02752647
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00812400,-0.03249600
+LOWER,2,0.03249600,-0.01289508
+LOWER,3,0.06770000,-0.03243712
+LOWER,4,0.27970500,-0.02962587
+LOWER,5,0.32150000,-0.04517068
+LOWER,6,0.36329500,-0.02379656
+LOWER,7,0.36492500,0.00923615
+LOWER,8,0.47200000,0.01862861
+LOWER,9,0.88000000,0.00910989
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Streptopelia_orientalis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 176.50 mm
+# Secondary1: 117.70 mm
+# Kipps Distance: 57.20 mm
+# Hand-Wing Index: 32.80
+# Tail Length: 127.20 mm
+# Aspect Ratio: 1.500
+# Pointedness Index: 0.3241
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1084
+# Max Thickness Position: 0.3303
+# Max Camber/Chord: 0.0557
+# Max Camber Position: 0.3538
+# Leading Edge Radius: 0.0311
+# LE Droop: 0.0014
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.47e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00934352,0.05750109
+UPPER,2,0.03737406,0.10293658
+UPPER,3,0.07786263,0.12923128
+UPPER,4,0.28737840,0.15752268
+UPPER,5,0.33032000,0.16402389
+UPPER,6,0.37326160,0.15318854
+UPPER,7,0.37624400,0.12284956
+UPPER,8,0.48376000,0.07765882
+UPPER,9,0.88000000,0.02982303
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00934352,-0.03694206
+LOWER,2,0.03737406,-0.01518848
+LOWER,3,0.07786263,-0.03723664
+LOWER,4,0.28737840,-0.03534653
+LOWER,5,0.33032000,-0.05268309
+LOWER,6,0.37326160,-0.02884532
+LOWER,7,0.37624400,0.00799487
+LOWER,8,0.48376000,0.01934616
+LOWER,9,0.88000000,0.00958346
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

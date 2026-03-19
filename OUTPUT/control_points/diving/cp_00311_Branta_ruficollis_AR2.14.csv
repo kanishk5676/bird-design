@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Branta_ruficollis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 345.60 mm
+# Secondary1: 161.50 mm
+# Kipps Distance: 183.80 mm
+# Hand-Wing Index: 53.20
+# Tail Length: 101.00 mm
+# Aspect Ratio: 2.140
+# Pointedness Index: 0.5318
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0881
+# Max Thickness Position: 0.3181
+# Max Camber/Chord: 0.0503
+# Max Camber Position: 0.3374
+# Leading Edge Radius: 0.0255
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.54e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00765975,0.04595852
+UPPER,2,0.03063901,0.08678774
+UPPER,3,0.06383128,0.10969396
+UPPER,4,0.27672960,0.13310283
+UPPER,5,0.31808000,0.13839039
+UPPER,6,0.35943040,0.12957779
+UPPER,7,0.36053600,0.10490252
+UPPER,8,0.46744000,0.06740002
+UPPER,9,0.88000000,0.02615055
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00765975,-0.03063901
+LOWER,2,0.03063901,-0.01060778
+LOWER,3,0.06383128,-0.02799145
+LOWER,4,0.27672960,-0.02376143
+LOWER,5,0.31808000,-0.03786159
+LOWER,6,0.35943040,-0.01847387
+LOWER,7,0.36053600,0.01148896
+LOWER,8,0.46744000,0.01882629
+LOWER,9,0.88000000,0.00904106
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

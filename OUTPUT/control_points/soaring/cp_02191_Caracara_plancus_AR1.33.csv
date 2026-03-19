@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Caracara_plancus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 378.70 mm
+# Secondary1: 284.60 mm
+# Kipps Distance: 92.30 mm
+# Hand-Wing Index: 24.40
+# Tail Length: 205.30 mm
+# Aspect Ratio: 1.331
+# Pointedness Index: 0.2437
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1106
+# Max Thickness Position: 0.3354
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3605
+# Leading Edge Radius: 0.0334
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.67e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01001034,0.06318207
+UPPER,2,0.04004138,0.10713090
+UPPER,3,0.08341954,0.13235906
+UPPER,4,0.29176320,0.16128012
+UPPER,5,0.33536000,0.16791769
+UPPER,6,0.37895680,0.15685508
+UPPER,7,0.38271200,0.12587977
+UPPER,8,0.49048000,0.07967316
+UPPER,9,0.88000000,0.03062090
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01001034,-0.03910538
+LOWER,2,0.04004138,-0.01534829
+LOWER,3,0.08341954,-0.03780900
+LOWER,4,0.29176320,-0.03563431
+LOWER,5,0.33536000,-0.05333449
+LOWER,6,0.37895680,-0.02899675
+LOWER,7,0.38271200,0.00861612
+LOWER,8,0.49048000,0.02003314
+LOWER,9,0.88000000,0.00989786
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

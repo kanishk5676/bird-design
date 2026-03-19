@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Emberiza_koslowi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 94.00 mm
+# Secondary1: 74.20 mm
+# Kipps Distance: 19.80 mm
+# Hand-Wing Index: 21.10
+# Tail Length: 88.50 mm
+# Aspect Ratio: 1.267
+# Pointedness Index: 0.2106
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1213
+# Max Thickness Position: 0.3373
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3631
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01028008,0.06546051
+UPPER,2,0.04112034,0.11357475
+UPPER,3,0.08566737,0.14052352
+UPPER,4,0.29348580,0.17183061
+UPPER,5,0.33734000,0.17910712
+UPPER,6,0.38119420,0.16697960
+UPPER,7,0.38525300,0.13302256
+UPPER,8,0.49312000,0.08311422
+UPPER,9,0.88000000,0.03167816
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01028008,-0.03998634
+LOWER,2,0.04112034,-0.01856685
+LOWER,3,0.08566737,-0.04373687
+LOWER,4,0.29348580,-0.04403914
+LOWER,5,0.33734000,-0.06344317
+LOWER,6,0.38119420,-0.03676264
+LOWER,7,0.38525300,0.00447091
+LOWER,8,0.49312000,0.01887730
+LOWER,9,0.88000000,0.00960699
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

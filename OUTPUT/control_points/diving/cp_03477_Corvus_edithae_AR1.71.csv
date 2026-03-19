@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Corvus_edithae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 338.50 mm
+# Secondary1: 198.20 mm
+# Kipps Distance: 138.10 mm
+# Hand-Wing Index: 41.00
+# Tail Length: 168.60 mm
+# Aspect Ratio: 1.708
+# Pointedness Index: 0.4080
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0980
+# Max Thickness Position: 0.3254
+# Max Camber/Chord: 0.0537
+# Max Camber Position: 0.3472
+# Leading Edge Radius: 0.0289
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.30e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00866472,0.05198832
+UPPER,2,0.03465888,0.09468951
+UPPER,3,0.07220600,0.12001366
+UPPER,4,0.28309800,0.14587527
+UPPER,5,0.32540000,0.15175577
+UPPER,6,0.36770200,0.14195494
+UPPER,7,0.36993000,0.11451263
+UPPER,8,0.47720000,0.07312769
+UPPER,9,0.88000000,0.02826471
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00866472,-0.03465888
+LOWER,2,0.03465888,-0.01255102
+LOWER,3,0.07220600,-0.03212095
+LOWER,4,0.28309800,-0.02857945
+LOWER,5,0.32540000,-0.04426077
+LOWER,6,0.36770200,-0.02269895
+LOWER,7,0.36993000,0.01062386
+LOWER,8,0.47720000,0.01960229
+LOWER,9,0.88000000,0.00951654
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

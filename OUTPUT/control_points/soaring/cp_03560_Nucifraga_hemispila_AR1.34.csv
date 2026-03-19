@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nucifraga_hemispila
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 208.00 mm
+# Secondary1: 154.90 mm
+# Kipps Distance: 53.10 mm
+# Hand-Wing Index: 25.50
+# Tail Length: 116.00 mm
+# Aspect Ratio: 1.343
+# Pointedness Index: 0.2553
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1132
+# Max Thickness Position: 0.3347
+# Max Camber/Chord: 0.0571
+# Max Camber Position: 0.3596
+# Leading Edge Radius: 0.0331
+# LE Droop: 0.0029
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00991773,0.06240637
+UPPER,2,0.03967092,0.10805873
+UPPER,3,0.08264774,0.13407036
+UPPER,4,0.29118900,0.16355299
+UPPER,5,0.33470000,0.17034790
+UPPER,6,0.37821100,0.15902304
+UPPER,7,0.38186500,0.12731346
+UPPER,8,0.48960000,0.08024405
+UPPER,9,0.88000000,0.03075764
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00991773,-0.03880092
+LOWER,2,0.03967092,-0.01625475
+LOWER,3,0.08264774,-0.03941843
+LOWER,4,0.29118900,-0.03802938
+LOWER,5,0.33470000,-0.05614915
+LOWER,6,0.37821100,-0.03123447
+LOWER,7,0.38186500,0.00727003
+LOWER,8,0.48960000,0.01954682
+LOWER,9,0.88000000,0.00974490
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

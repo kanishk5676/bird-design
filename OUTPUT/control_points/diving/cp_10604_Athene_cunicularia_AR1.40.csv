@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Athene_cunicularia
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 180.00 mm
+# Secondary1: 128.90 mm
+# Kipps Distance: 51.00 mm
+# Hand-Wing Index: 28.30
+# Tail Length: 80.20 mm
+# Aspect Ratio: 1.396
+# Pointedness Index: 0.2833
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1118
+# Max Thickness Position: 0.3330
+# Max Camber/Chord: 0.0566
+# Max Camber Position: 0.3574
+# Leading Edge Radius: 0.0323
+# LE Droop: 0.0023
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.56e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00968902,0.06047412
+UPPER,2,0.03875608,0.10635578
+UPPER,3,0.08074183,0.13258156
+UPPER,4,0.28972740,0.16171317
+UPPER,5,0.33302000,0.16842362
+UPPER,6,0.37631260,0.15723954
+UPPER,7,0.37970900,0.12592410
+UPPER,8,0.48736000,0.07941080
+UPPER,9,0.88000000,0.03044872
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00968902,-0.03805408
+LOWER,2,0.03875608,-0.01598510
+LOWER,3,0.08074183,-0.03883961
+LOWER,4,0.28972740,-0.03736353
+LOWER,5,0.33302000,-0.05525807
+LOWER,6,0.37631260,-0.03065308
+LOWER,7,0.37970900,0.00737280
+LOWER,8,0.48736000,0.01942360
+LOWER,9,0.88000000,0.00967206
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

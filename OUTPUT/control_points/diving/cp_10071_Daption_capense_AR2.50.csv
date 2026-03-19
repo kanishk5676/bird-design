@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Daption_capense
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 249.80 mm
+# Secondary1: 99.80 mm
+# Kipps Distance: 145.50 mm
+# Hand-Wing Index: 59.40
+# Tail Length: 94.00 mm
+# Aspect Ratio: 2.503
+# Pointedness Index: 0.5825
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0849
+# Max Thickness Position: 0.3144
+# Max Camber/Chord: 0.0482
+# Max Camber Position: 0.3325
+# Leading Edge Radius: 0.0240
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.69e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00721178,0.04327070
+UPPER,2,0.02884713,0.08344276
+UPPER,3,0.06009820,0.10550201
+UPPER,4,0.27349320,0.12804335
+UPPER,5,0.31436000,0.13313915
+UPPER,6,0.35522680,0.12464615
+UPPER,7,0.35576200,0.10086573
+UPPER,8,0.46248000,0.06475815
+UPPER,9,0.88000000,0.02511386
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00721178,-0.02884713
+LOWER,2,0.02884713,-0.01030443
+LOWER,3,0.06009820,-0.02708324
+LOWER,4,0.27349320,-0.02313214
+LOWER,5,0.31436000,-0.03672095
+LOWER,6,0.35522680,-0.01803634
+LOWER,7,0.35576200,0.01083988
+LOWER,8,0.46248000,0.01799943
+LOWER,9,0.88000000,0.00865507
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

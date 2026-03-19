@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Loxia_megaplaga
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 85.10 mm
+# Secondary1: 58.30 mm
+# Kipps Distance: 26.80 mm
+# Hand-Wing Index: 31.50
+# Tail Length: 60.80 mm
+# Aspect Ratio: 1.460
+# Pointedness Index: 0.3149
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1135
+# Max Thickness Position: 0.3311
+# Max Camber/Chord: 0.0559
+# Max Camber Position: 0.3548
+# Leading Edge Radius: 0.0314
+# LE Droop: 0.0017
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.35e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00942999,0.05827994
+UPPER,2,0.03771996,0.10600668
+UPPER,3,0.07858325,0.13319452
+UPPER,4,0.28805700,0.16264182
+UPPER,5,0.33110000,0.16945229
+UPPER,6,0.37414300,0.15810150
+UPPER,7,0.37724500,0.12631928
+UPPER,8,0.48480000,0.07933493
+UPPER,9,0.88000000,0.03033950
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00942999,-0.03720996
+LOWER,2,0.03771996,-0.01674200
+LOWER,3,0.07858325,-0.04010018
+LOWER,4,0.28805700,-0.03940227
+LOWER,5,0.33110000,-0.05756354
+LOWER,6,0.37414300,-0.03259180
+LOWER,7,0.37724500,0.00600089
+LOWER,8,0.48480000,0.01879440
+LOWER,9,0.88000000,0.00944578
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

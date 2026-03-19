@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anthropoides_virgo
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 484.80 mm
+# Secondary1: 256.80 mm
+# Kipps Distance: 214.80 mm
+# Hand-Wing Index: 45.50
+# Tail Length: 174.80 mm
+# Aspect Ratio: 1.888
+# Pointedness Index: 0.4431
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0923
+# Max Thickness Position: 0.3227
+# Max Camber/Chord: 0.0525
+# Max Camber Position: 0.3436
+# Leading Edge Radius: 0.0278
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.36e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00834805,0.05008828
+UPPER,2,0.03339219,0.09080652
+UPPER,3,0.06956705,0.11478638
+UPPER,4,0.28074900,0.13929173
+UPPER,5,0.32270000,0.14482848
+UPPER,6,0.36465100,0.13560057
+UPPER,7,0.36646500,0.10976242
+UPPER,8,0.47360000,0.07050512
+UPPER,9,0.88000000,0.02735109
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00834805,-0.03339219
+LOWER,2,0.03339219,-0.01113703
+LOWER,3,0.06956705,-0.02934917
+LOWER,4,0.28074900,-0.02496507
+LOWER,5,0.32270000,-0.03972973
+LOWER,6,0.36465100,-0.01942833
+LOWER,7,0.36646500,0.01194657
+LOWER,8,0.47360000,0.01966154
+LOWER,9,0.88000000,0.00944618
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

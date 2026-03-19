@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Prunella_rubeculoides
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 76.80 mm
+# Secondary1: 63.90 mm
+# Kipps Distance: 12.60 mm
+# Hand-Wing Index: 16.40
+# Tail Length: 65.80 mm
+# Aspect Ratio: 1.202
+# Pointedness Index: 0.1641
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1262
+# Max Thickness Position: 0.3402
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3669
+# Leading Edge Radius: 0.0355
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.18e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01066144,0.06868865
+UPPER,2,0.04264577,0.11752918
+UPPER,3,0.08884534,0.14465891
+UPPER,4,0.29593920,0.17709371
+UPPER,5,0.34016000,0.18466304
+UPPER,6,0.38438080,0.17204749
+UPPER,7,0.38887200,0.13672397
+UPPER,8,0.49688000,0.08505498
+UPPER,9,0.88000000,0.03232532
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01066144,-0.04122977
+LOWER,2,0.04264577,-0.01989208
+LOWER,3,0.08884534,-0.04625666
+LOWER,4,0.29593920,-0.04746297
+LOWER,5,0.34016000,-0.06764784
+LOWER,6,0.38438080,-0.03989364
+LOWER,7,0.38887200,0.00299921
+LOWER,8,0.49688000,0.01861295
+LOWER,9,0.88000000,0.00958068
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

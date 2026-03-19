@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Climacteris_erythrops
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 83.30 mm
+# Secondary1: 62.20 mm
+# Kipps Distance: 21.00 mm
+# Hand-Wing Index: 25.20
+# Tail Length: 64.20 mm
+# Aspect Ratio: 1.339
+# Pointedness Index: 0.2521
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1187
+# Max Thickness Position: 0.3349
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3598
+# Leading Edge Radius: 0.0331
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.31e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00994317,0.06261899
+UPPER,2,0.03977266,0.11087273
+UPPER,3,0.08285971,0.13802000
+UPPER,4,0.29134560,0.16869879
+UPPER,5,0.33488000,0.17581878
+UPPER,6,0.37841440,0.16395214
+UPPER,7,0.38209600,0.13072555
+UPPER,8,0.48984000,0.08180613
+UPPER,9,0.88000000,0.03121122
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00994317,-0.03888466
+LOWER,2,0.03977266,-0.01796990
+LOWER,3,0.08285971,-0.04253639
+LOWER,4,0.29134560,-0.04252736
+LOWER,5,0.33488000,-0.06151398
+LOWER,6,0.37841440,-0.03540737
+LOWER,7,0.38209600,0.00493919
+LOWER,8,0.48984000,0.01882120
+LOWER,9,0.88000000,0.00954144
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

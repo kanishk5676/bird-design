@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Microptilotis_vicina
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 84.60 mm
+# Secondary1: 71.00 mm
+# Kipps Distance: 13.70 mm
+# Hand-Wing Index: 16.20
+# Tail Length: 72.10 mm
+# Aspect Ratio: 1.192
+# Pointedness Index: 0.1619
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1258
+# Max Thickness Position: 0.3403
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3670
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.34e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01067839,0.06883036
+UPPER,2,0.04271357,0.11740411
+UPPER,3,0.08898661,0.14441321
+UPPER,4,0.29604360,0.17676765
+UPPER,5,0.34028000,0.18431448
+UPPER,6,0.38451640,0.17173642
+UPPER,7,0.38902600,0.13651786
+UPPER,8,0.49704000,0.08497238
+UPPER,9,0.88000000,0.03230533
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01067839,-0.04128557
+LOWER,2,0.04271357,-0.01976292
+LOWER,3,0.08898661,-0.04602714
+LOWER,4,0.29604360,-0.04712179
+LOWER,5,0.34028000,-0.06724668
+LOWER,6,0.38451640,-0.03957495
+LOWER,7,0.38902600,0.00319044
+LOWER,8,0.49704000,0.01868174
+LOWER,9,0.88000000,0.00960225
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Abeillia_abeillei
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 47.00 mm
+# Secondary1: 15.50 mm
+# Kipps Distance: 30.50 mm
+# Hand-Wing Index: 66.30
+# Tail Length: 29.40 mm
+# Aspect Ratio: 3.032
+# Pointedness Index: 0.6489
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0859
+# Max Thickness Position: 0.3102
+# Max Camber/Chord: 0.0457
+# Max Camber Position: 0.3270
+# Leading Edge Radius: 0.0222
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00666165,0.03996987
+UPPER,2,0.02664658,0.08179208
+UPPER,3,0.05551371,0.10388909
+UPPER,4,0.26989140,0.12644304
+UPPER,5,0.31022000,0.13159713
+UPPER,6,0.35054860,0.12300699
+UPPER,7,0.35044900,0.09895461
+UPPER,8,0.45696000,0.06289379
+UPPER,9,0.88000000,0.02423650
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00666165,-0.02664658
+LOWER,2,0.02664658,-0.01149491
+LOWER,3,0.05551371,-0.02880273
+LOWER,4,0.26989140,-0.02646136
+LOWER,5,0.31022000,-0.04020558
+LOWER,6,0.35054860,-0.02130728
+LOWER,7,0.35044900,0.00789918
+LOWER,8,0.45696000,0.01630519
+LOWER,9,0.88000000,0.00798789
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

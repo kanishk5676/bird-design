@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cichlocolaptes_leucophrus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 101.30 mm
+# Secondary1: 80.90 mm
+# Kipps Distance: 21.00 mm
+# Hand-Wing Index: 19.90
+# Tail Length: 87.10 mm
+# Aspect Ratio: 1.252
+# Pointedness Index: 0.2073
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1218
+# Max Thickness Position: 0.3381
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3641
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.68e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01033380,0.06602283
+UPPER,2,0.04133522,0.11424161
+UPPER,3,0.08611504,0.14108256
+UPPER,4,0.29411220,0.17252367
+UPPER,5,0.33806000,0.17983274
+UPPER,6,0.38200780,0.16765096
+UPPER,7,0.38617700,0.13354199
+UPPER,8,0.49408000,0.08342170
+UPPER,9,0.88000000,0.03179111
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01033380,-0.04012922
+LOWER,2,0.04133522,-0.01867644
+LOWER,3,0.08611504,-0.04396741
+LOWER,4,0.29411220,-0.04431194
+LOWER,5,0.33806000,-0.06380279
+LOWER,6,0.38200780,-0.03700288
+LOWER,7,0.38617700,0.00441516
+LOWER,8,0.49408000,0.01891480
+LOWER,9,0.88000000,0.00963103
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

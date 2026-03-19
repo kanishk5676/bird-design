@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Thalassornis_leuconotus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 166.50 mm
+# Secondary1: 109.20 mm
+# Kipps Distance: 58.80 mm
+# Hand-Wing Index: 35.10
+# Tail Length: 41.80 mm
+# Aspect Ratio: 1.525
+# Pointedness Index: 0.3532
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1060
+# Max Thickness Position: 0.3289
+# Max Camber/Chord: 0.0552
+# Max Camber Position: 0.3519
+# Leading Edge Radius: 0.0304
+# LE Droop: 0.0010
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.88e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00912486,0.05572915
+UPPER,2,0.03649944,0.10088379
+UPPER,3,0.07604049,0.12709130
+UPPER,4,0.28617780,0.15483047
+UPPER,5,0.32894000,0.16119210
+UPPER,6,0.37170220,0.15058938
+UPPER,7,0.37447300,0.12090179
+UPPER,8,0.48192000,0.07657782
+UPPER,9,0.88000000,0.02944486
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00912486,-0.03620544
+LOWER,2,0.03649944,-0.01462094
+LOWER,3,0.07604049,-0.03611984
+LOWER,4,0.28617780,-0.03389781
+LOWER,5,0.32894000,-0.05086215
+LOWER,6,0.37170220,-0.02753618
+LOWER,7,0.37447300,0.00851304
+LOWER,8,0.48192000,0.01935849
+LOWER,9,0.88000000,0.00955016
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

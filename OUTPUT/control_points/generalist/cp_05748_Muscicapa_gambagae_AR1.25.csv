@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Muscicapa_gambagae
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 71.90 mm
+# Secondary1: 57.30 mm
+# Kipps Distance: 15.10 mm
+# Hand-Wing Index: 20.80
+# Tail Length: 60.20 mm
+# Aspect Ratio: 1.255
+# Pointedness Index: 0.2100
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1230
+# Max Thickness Position: 0.3375
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3634
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01029245,0.06559469
+UPPER,2,0.04116980,0.11453591
+UPPER,3,0.08577041,0.14180708
+UPPER,4,0.29364240,0.17349703
+UPPER,5,0.33752000,0.18087694
+UPPER,6,0.38139760,0.16857708
+UPPER,7,0.38548400,0.13413749
+UPPER,8,0.49336000,0.08363623
+UPPER,9,0.88000000,0.03183368
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01029245,-0.04001780
+LOWER,2,0.04116980,-0.01910209
+LOWER,3,0.08577041,-0.04471509
+LOWER,4,0.29364240,-0.04544037
+LOWER,5,0.33752000,-0.06512014
+LOWER,6,0.38139760,-0.03806046
+LOWER,7,0.38548400,0.00375904
+LOWER,8,0.49336000,0.01866481
+LOWER,9,0.88000000,0.00954966
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

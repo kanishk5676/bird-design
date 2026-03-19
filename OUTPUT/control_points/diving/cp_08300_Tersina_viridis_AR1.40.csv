@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tersina_viridis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 85.40 mm
+# Secondary1: 61.10 mm
+# Kipps Distance: 25.10 mm
+# Hand-Wing Index: 29.10
+# Tail Length: 53.60 mm
+# Aspect Ratio: 1.398
+# Pointedness Index: 0.2939
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1153
+# Max Thickness Position: 0.3325
+# Max Camber/Chord: 0.0564
+# Max Camber Position: 0.3567
+# Leading Edge Radius: 0.0320
+# LE Droop: 0.0022
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.38e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00961059,0.05984356
+UPPER,2,0.03844238,0.10780220
+UPPER,3,0.08008828,0.13494187
+UPPER,4,0.28930980,0.16482581
+UPPER,5,0.33254000,0.17174482
+UPPER,6,0.37577020,0.16021314
+UPPER,7,0.37909300,0.12792442
+UPPER,8,0.48672000,0.08025250
+UPPER,9,0.88000000,0.03066798
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00961059,-0.03778838
+LOWER,2,0.03844238,-0.01715160
+LOWER,3,0.08008828,-0.04092690
+LOWER,4,0.28930980,-0.04043817
+LOWER,5,0.33254000,-0.05888887
+LOWER,6,0.37577020,-0.03351916
+LOWER,7,0.37909300,0.00568856
+LOWER,8,0.48672000,0.01884099
+LOWER,9,0.88000000,0.00949432
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

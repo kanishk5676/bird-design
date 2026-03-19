@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rhynchocyclus_olivaceus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 74.40 mm
+# Secondary1: 60.10 mm
+# Kipps Distance: 10.70 mm
+# Hand-Wing Index: 15.20
+# Tail Length: 64.90 mm
+# Aspect Ratio: 1.238
+# Pointedness Index: 0.1438
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1273
+# Max Thickness Position: 0.3409
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3678
+# Leading Edge Radius: 0.0360
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.13e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01080141,0.06976847
+UPPER,2,0.04320565,0.11846826
+UPPER,3,0.09001177,0.14561852
+UPPER,4,0.29656560,0.17831541
+UPPER,5,0.34088000,0.18595284
+UPPER,6,0.38519440,0.17322380
+UPPER,7,0.38979600,0.13758247
+UPPER,8,0.49784000,0.08550436
+UPPER,9,0.88000000,0.03247495
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01080141,-0.04171765
+LOWER,2,0.04320565,-0.02020110
+LOWER,3,0.09001177,-0.04684375
+LOWER,4,0.29656560,-0.04826157
+LOWER,5,0.34088000,-0.06862804
+LOWER,6,0.38519440,-0.04062414
+LOWER,7,0.38979600,0.00265461
+LOWER,8,0.49784000,0.01855003
+LOWER,9,0.88000000,0.00957398
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

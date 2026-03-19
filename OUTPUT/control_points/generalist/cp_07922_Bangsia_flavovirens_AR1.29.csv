@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bangsia_flavovirens
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 78.20 mm
+# Secondary1: 60.60 mm
+# Kipps Distance: 17.60 mm
+# Hand-Wing Index: 22.50
+# Tail Length: 57.50 mm
+# Aspect Ratio: 1.290
+# Pointedness Index: 0.2251
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1212
+# Max Thickness Position: 0.3365
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3620
+# Leading Edge Radius: 0.0339
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.21e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01016367,0.06448204
+UPPER,2,0.04065470,0.11305584
+UPPER,3,0.08469728,0.14024716
+UPPER,4,0.29275500,0.17151457
+UPPER,5,0.33650000,0.17878512
+UPPER,6,0.38024500,0.16666754
+UPPER,7,0.38417500,0.13273833
+UPPER,8,0.49200000,0.08289718
+UPPER,9,0.88000000,0.03158562
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01016367,-0.03960470
+LOWER,2,0.04065470,-0.01861296
+LOWER,3,0.08469728,-0.04378162
+LOWER,4,0.29275500,-0.04417825
+LOWER,5,0.33650000,-0.06356637
+LOWER,6,0.38024500,-0.03690770
+LOWER,7,0.38417500,0.00429205
+LOWER,8,0.49200000,0.01875321
+LOWER,9,0.88000000,0.00955531
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

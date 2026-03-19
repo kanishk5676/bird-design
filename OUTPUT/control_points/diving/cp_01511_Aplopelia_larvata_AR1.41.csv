@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aplopelia_larvata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 143.10 mm
+# Secondary1: 101.70 mm
+# Kipps Distance: 42.10 mm
+# Hand-Wing Index: 29.30
+# Tail Length: 92.90 mm
+# Aspect Ratio: 1.407
+# Pointedness Index: 0.2942
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1124
+# Max Thickness Position: 0.3324
+# Max Camber/Chord: 0.0564
+# Max Camber Position: 0.3566
+# Leading Edge Radius: 0.0320
+# LE Droop: 0.0021
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.64e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00960300,0.05975800
+UPPER,2,0.03841200,0.10624586
+UPPER,3,0.08002501,0.13277024
+UPPER,4,0.28920540,0.16199852
+UPPER,5,0.33242000,0.16873957
+UPPER,6,0.37563460,0.15750449
+UPPER,7,0.37893900,0.12604627
+UPPER,8,0.48656000,0.07938868
+UPPER,9,0.88000000,0.03041580
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00960300,-0.03777000
+LOWER,2,0.03841200,-0.01621618
+LOWER,3,0.08002501,-0.03922462
+LOWER,4,0.28920540,-0.03798589
+LOWER,5,0.33242000,-0.05596202
+LOWER,6,0.37563460,-0.03124484
+LOWER,7,0.37893900,0.00695443
+LOWER,8,0.48656000,0.01923193
+LOWER,9,0.88000000,0.00960316
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

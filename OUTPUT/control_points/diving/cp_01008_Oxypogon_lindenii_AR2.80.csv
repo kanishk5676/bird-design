@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Oxypogon_lindenii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 71.80 mm
+# Secondary1: 25.60 mm
+# Kipps Distance: 43.40 mm
+# Hand-Wing Index: 62.90
+# Tail Length: 56.20 mm
+# Aspect Ratio: 2.805
+# Pointedness Index: 0.6045
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0878
+# Max Thickness Position: 0.3123
+# Max Camber/Chord: 0.0470
+# Max Camber Position: 0.3297
+# Leading Edge Radius: 0.0233
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00699253,0.04195518
+UPPER,2,0.02797012,0.08383195
+UPPER,3,0.05827108,0.10644096
+UPPER,4,0.27166620,0.12951962
+UPPER,5,0.31226000,0.13478912
+UPPER,6,0.35285380,0.12600661
+UPPER,7,0.35306700,0.10141557
+UPPER,8,0.45968000,0.06451042
+UPPER,9,0.88000000,0.02487232
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00699253,-0.02797012
+LOWER,2,0.02797012,-0.01166666
+LOWER,3,0.05827108,-0.02933516
+LOWER,4,0.27166620,-0.02680915
+LOWER,5,0.31226000,-0.04086117
+LOWER,6,0.35285380,-0.02153964
+LOWER,7,0.35306700,0.00832091
+LOWER,8,0.45968000,0.01682214
+LOWER,9,0.88000000,0.00822799
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

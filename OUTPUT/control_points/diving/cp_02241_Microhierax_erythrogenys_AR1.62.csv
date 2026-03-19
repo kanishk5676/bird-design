@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Microhierax_erythrogenys
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 106.60 mm
+# Secondary1: 65.90 mm
+# Kipps Distance: 41.90 mm
+# Hand-Wing Index: 38.90
+# Tail Length: 59.60 mm
+# Aspect Ratio: 1.618
+# Pointedness Index: 0.3931
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1062
+# Max Thickness Position: 0.3267
+# Max Camber/Chord: 0.0543
+# Max Camber Position: 0.3489
+# Leading Edge Radius: 0.0294
+# LE Droop: 0.0002
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.87e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00880506,0.05305038
+UPPER,2,0.03522025,0.09942812
+UPPER,3,0.07337553,0.12636102
+UPPER,4,0.28419420,0.15405663
+UPPER,5,0.32666000,0.16042586
+UPPER,6,0.36912580,0.14981047
+UPPER,7,0.37154700,0.12008739
+UPPER,8,0.47888000,0.07585427
+UPPER,9,0.88000000,0.02911566
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00880506,-0.03515425
+LOWER,2,0.03522025,-0.01497405
+LOWER,3,0.07337553,-0.03660415
+LOWER,4,0.28419420,-0.03489729
+LOWER,5,0.32666000,-0.05188191
+LOWER,6,0.36912580,-0.02852806
+LOWER,7,0.37154700,0.00756426
+LOWER,8,0.47888000,0.01878708
+LOWER,9,0.88000000,0.00932184
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

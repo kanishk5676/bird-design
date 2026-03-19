@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Otus_lettia
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 155.80 mm
+# Secondary1: 116.00 mm
+# Kipps Distance: 39.80 mm
+# Hand-Wing Index: 25.60
+# Tail Length: 81.20 mm
+# Aspect Ratio: 1.343
+# Pointedness Index: 0.2555
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1148
+# Max Thickness Position: 0.3346
+# Max Camber/Chord: 0.0571
+# Max Camber Position: 0.3595
+# Leading Edge Radius: 0.0330
+# LE Droop: 0.0029
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.95e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00991382,0.06236290
+UPPER,2,0.03965526,0.10881278
+UPPER,3,0.08261513,0.13519039
+UPPER,4,0.29113680,0.16501882
+UPPER,5,0.33464000,0.17190843
+UPPER,6,0.37814320,0.16042575
+UPPER,7,0.38178800,0.12827424
+UPPER,8,0.48952000,0.08067087
+UPPER,9,0.88000000,0.03087715
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00991382,-0.03879126
+LOWER,2,0.03965526,-0.01676603
+LOWER,3,0.08261513,-0.04034203
+LOWER,4,0.29113680,-0.03937294
+LOWER,5,0.33464000,-0.05774523
+LOWER,6,0.37814320,-0.03248333
+LOWER,7,0.38178800,0.00655779
+LOWER,8,0.48952000,0.01931484
+LOWER,9,0.88000000,0.00967733
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

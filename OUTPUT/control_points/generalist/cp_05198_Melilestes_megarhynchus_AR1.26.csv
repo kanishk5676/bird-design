@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melilestes_megarhynchus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 99.40 mm
+# Secondary1: 78.70 mm
+# Kipps Distance: 16.50 mm
+# Hand-Wing Index: 17.50
+# Tail Length: 77.50 mm
+# Aspect Ratio: 1.263
+# Pointedness Index: 0.1660
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1238
+# Max Thickness Position: 0.3395
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3660
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.64e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01061792,0.06820752
+UPPER,2,0.04247168,0.11602725
+UPPER,3,0.08848267,0.14285799
+UPPER,4,0.29536500,0.17477233
+UPPER,5,0.33950000,0.18220294
+UPPER,6,0.38363500,0.16981858
+UPPER,7,0.38802500,0.13514239
+UPPER,8,0.49600000,0.08428167
+UPPER,9,0.88000000,0.03208405
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01061792,-0.04112168
+LOWER,2,0.04247168,-0.01920416
+LOWER,3,0.08848267,-0.04498396
+LOWER,4,0.29536500,-0.04566922
+LOWER,5,0.33950000,-0.06548419
+LOWER,6,0.38363500,-0.03823861
+LOWER,7,0.38802500,0.00386821
+LOWER,8,0.49600000,0.01884471
+LOWER,9,0.88000000,0.00963610
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

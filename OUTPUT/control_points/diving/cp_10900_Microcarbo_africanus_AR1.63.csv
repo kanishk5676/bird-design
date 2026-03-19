@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Microcarbo_africanus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 198.80 mm
+# Secondary1: 121.80 mm
+# Kipps Distance: 74.50 mm
+# Hand-Wing Index: 37.90
+# Tail Length: 142.60 mm
+# Aspect Ratio: 1.632
+# Pointedness Index: 0.3747
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1036
+# Max Thickness Position: 0.3273
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3497
+# Leading Edge Radius: 0.0298
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.06e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00892904,0.05399426
+UPPER,2,0.03571617,0.09855163
+UPPER,3,0.07440869,0.12473730
+UPPER,4,0.28471620,0.15188811
+UPPER,5,0.32726000,0.15810348
+UPPER,6,0.36980380,0.14774453
+UPPER,7,0.37231700,0.11873947
+UPPER,8,0.47968000,0.07534194
+UPPER,9,0.88000000,0.02900247
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00892904,-0.03559017
+LOWER,2,0.03571617,-0.01406875
+LOWER,3,0.07440869,-0.03500548
+LOWER,4,0.28471620,-0.03250121
+LOWER,5,0.32726000,-0.04907553
+LOWER,6,0.36980380,-0.02628584
+LOWER,7,0.37231700,0.00893459
+LOWER,8,0.47968000,0.01929613
+LOWER,9,0.88000000,0.00948491
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

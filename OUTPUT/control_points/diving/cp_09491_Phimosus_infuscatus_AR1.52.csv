@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phimosus_infuscatus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 265.30 mm
+# Secondary1: 175.10 mm
+# Kipps Distance: 92.40 mm
+# Hand-Wing Index: 34.50
+# Tail Length: 109.30 mm
+# Aspect Ratio: 1.515
+# Pointedness Index: 0.3483
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1046
+# Max Thickness Position: 0.3293
+# Max Camber/Chord: 0.0553
+# Max Camber Position: 0.3524
+# Leading Edge Radius: 0.0306
+# LE Droop: 0.0011
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.98e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00916805,0.05610828
+UPPER,2,0.03667219,0.10042263
+UPPER,3,0.07640039,0.12621357
+UPPER,4,0.28649100,0.15365751
+UPPER,5,0.32930000,0.15993569
+UPPER,6,0.37210900,0.14947206
+UPPER,7,0.37493500,0.12017389
+UPPER,8,0.48240000,0.07630264
+UPPER,9,0.88000000,0.02938467
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00916805,-0.03634219
+LOWER,2,0.03667219,-0.01412884
+LOWER,3,0.07640039,-0.03525135
+LOWER,4,0.28649100,-0.03259513
+LOWER,5,0.32930000,-0.04933694
+LOWER,6,0.37210900,-0.02631695
+LOWER,7,0.37493500,0.00925940
+LOWER,8,0.48240000,0.01963653
+LOWER,9,0.88000000,0.00963939
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pauxi_pauxi
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 379.60 mm
+# Secondary1: 350.60 mm
+# Kipps Distance: 29.00 mm
+# Hand-Wing Index: 7.80
+# Tail Length: 317.50 mm
+# Aspect Ratio: 1.083
+# Pointedness Index: 0.0764
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1239
+# Max Thickness Position: 0.3453
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3738
+# Leading Edge Radius: 0.0379
+# LE Droop: 0.0064
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.70e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01137170,0.07467020
+UPPER,2,0.04548680,0.11892524
+UPPER,3,0.09476416,0.14390355
+UPPER,4,0.30042840,0.17591643
+UPPER,5,0.34532000,0.18334995
+UPPER,6,0.39021160,0.17096075
+UPPER,7,0.39549400,0.13627097
+UPPER,8,0.50376000,0.08522899
+UPPER,9,0.88000000,0.03250537
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01137170,-0.04355480
+LOWER,2,0.04548680,-0.01883519
+LOWER,3,0.09476416,-0.04450676
+LOWER,4,0.30042840,-0.04461142
+LOWER,5,0.34532000,-0.06443415
+LOWER,6,0.39021160,-0.03717790
+LOWER,7,0.39549400,0.00494540
+LOWER,8,0.50376000,0.01951901
+LOWER,9,0.88000000,0.00990879
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

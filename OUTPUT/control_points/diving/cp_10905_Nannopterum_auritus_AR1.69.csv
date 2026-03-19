@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nannopterum_auritus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 311.80 mm
+# Secondary1: 185.00 mm
+# Kipps Distance: 126.80 mm
+# Hand-Wing Index: 40.80
+# Tail Length: 154.20 mm
+# Aspect Ratio: 1.685
+# Pointedness Index: 0.4067
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0987
+# Max Thickness Position: 0.3255
+# Max Camber/Chord: 0.0538
+# Max Camber Position: 0.3474
+# Leading Edge Radius: 0.0289
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.43e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00867750,0.05206499
+UPPER,2,0.03470999,0.09505430
+UPPER,3,0.07231248,0.12052347
+UPPER,4,0.28320240,0.14653063
+UPPER,5,0.32552000,0.15244971
+UPPER,6,0.36783760,0.14258458
+UPPER,7,0.37008400,0.11496221
+UPPER,8,0.47736000,0.07335101
+UPPER,9,0.88000000,0.02833550
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00867750,-0.03470999
+LOWER,2,0.03470999,-0.01273898
+LOWER,3,0.07231248,-0.03247050
+LOWER,4,0.28320240,-0.02906870
+LOWER,5,0.32552000,-0.04485291
+LOWER,6,0.36783760,-0.02314962
+LOWER,7,0.37008400,0.01039182
+LOWER,8,0.47736000,0.01954382
+LOWER,9,0.88000000,0.00950355
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

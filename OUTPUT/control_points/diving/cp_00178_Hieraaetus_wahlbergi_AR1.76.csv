@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hieraaetus_wahlbergi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 413.80 mm
+# Secondary1: 235.50 mm
+# Kipps Distance: 174.80 mm
+# Hand-Wing Index: 42.60
+# Tail Length: 216.80 mm
+# Aspect Ratio: 1.757
+# Pointedness Index: 0.4224
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0955
+# Max Thickness Position: 0.3244
+# Max Camber/Chord: 0.0533
+# Max Camber Position: 0.3459
+# Leading Edge Radius: 0.0285
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.09e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00854207,0.05125240
+UPPER,2,0.03416826,0.09310369
+UPPER,3,0.07118388,0.11785606
+UPPER,4,0.28226280,0.14314175
+UPPER,5,0.32444000,0.14887422
+UPPER,6,0.36661720,0.13932010
+UPPER,7,0.36869800,0.11256859
+UPPER,8,0.47592000,0.07208465
+UPPER,9,0.88000000,0.02790987
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00854207,-0.03416826
+LOWER,2,0.03416826,-0.01190657
+LOWER,3,0.07118388,-0.03088062
+LOWER,4,0.28226280,-0.02692144
+LOWER,5,0.32444000,-0.04220802
+LOWER,6,0.36661720,-0.02118897
+LOWER,7,0.36869800,0.01129501
+LOWER,8,0.47592000,0.01969077
+LOWER,9,0.88000000,0.00951163
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

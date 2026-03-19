@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Urolestes_melanoleucus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 134.60 mm
+# Secondary1: 104.00 mm
+# Kipps Distance: 30.90 mm
+# Hand-Wing Index: 22.90
+# Tail Length: 288.70 mm
+# Aspect Ratio: 1.294
+# Pointedness Index: 0.2296
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1178
+# Max Thickness Position: 0.3363
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3617
+# Leading Edge Radius: 0.0338
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.43e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01012846,0.06419075
+UPPER,2,0.04051383,0.11124147
+UPPER,3,0.08440381,0.13776955
+UPPER,4,0.29254620,0.16829307
+UPPER,5,0.33626000,0.17536216
+UPPER,6,0.37997380,0.16358034
+UPPER,7,0.38386700,0.13059125
+UPPER,8,0.49168000,0.08190147
+UPPER,9,0.88000000,0.03129217
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01012846,-0.03948783
+LOWER,2,0.04051383,-0.01756143
+LOWER,3,0.08440381,-0.04186432
+LOWER,4,0.29254620,-0.04142330
+LOWER,5,0.33626000,-0.06027421
+LOWER,6,0.37997380,-0.03435421
+LOWER,7,0.38386700,0.00570397
+LOWER,8,0.49168000,0.01918272
+LOWER,9,0.88000000,0.00967327
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

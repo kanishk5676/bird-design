@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geospiza_fuliginosa
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 62.80 mm
+# Secondary1: 51.20 mm
+# Kipps Distance: 10.40 mm
+# Hand-Wing Index: 16.80
+# Tail Length: 36.90 mm
+# Aspect Ratio: 1.227
+# Pointedness Index: 0.1656
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1263
+# Max Thickness Position: 0.3399
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3666
+# Leading Edge Radius: 0.0355
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.06e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01064133,0.06848800
+UPPER,2,0.04256534,0.11748700
+UPPER,3,0.08867778,0.14472954
+UPPER,4,0.29573040,0.17719663
+UPPER,5,0.33992000,0.18477592
+UPPER,6,0.38410960,0.17214377
+UPPER,7,0.38856400,0.13677374
+UPPER,8,0.49656000,0.08505627
+UPPER,9,0.88000000,0.03231839
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01064133,-0.04117334
+LOWER,2,0.04256534,-0.01996385
+LOWER,3,0.08867778,-0.04637746
+LOWER,4,0.29573040,-0.04765568
+LOWER,5,0.33992000,-0.06786712
+LOWER,6,0.38410960,-0.04007638
+LOWER,7,0.38856400,0.00287293
+LOWER,8,0.49656000,0.01855672
+LOWER,9,0.88000000,0.00956074
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

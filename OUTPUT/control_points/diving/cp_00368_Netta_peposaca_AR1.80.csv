@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Netta_peposaca
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 230.70 mm
+# Secondary1: 128.00 mm
+# Kipps Distance: 102.50 mm
+# Hand-Wing Index: 44.50
+# Tail Length: 62.20 mm
+# Aspect Ratio: 1.802
+# Pointedness Index: 0.4443
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0971
+# Max Thickness Position: 0.3233
+# Max Camber/Chord: 0.0528
+# Max Camber Position: 0.3444
+# Leading Edge Radius: 0.0279
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.34e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00837237,0.05023422
+UPPER,2,0.03348948,0.09346500
+UPPER,3,0.06976975,0.11853099
+UPPER,4,0.28127100,0.14412522
+UPPER,5,0.32330000,0.14995293
+UPPER,6,0.36532900,0.14024008
+UPPER,7,0.36723500,0.11304408
+UPPER,8,0.47440000,0.07209671
+UPPER,9,0.88000000,0.02784355
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00837237,-0.03348948
+LOWER,2,0.03348948,-0.01259261
+LOWER,3,0.06976975,-0.03203535
+LOWER,4,0.28127100,-0.02876361
+LOWER,5,0.32330000,-0.04430418
+LOWER,6,0.36532900,-0.02293590
+LOWER,7,0.36723500,0.01008781
+LOWER,8,0.47440000,0.01915311
+LOWER,9,0.88000000,0.00932095
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

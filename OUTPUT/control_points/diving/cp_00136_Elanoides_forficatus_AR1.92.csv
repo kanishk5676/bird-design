@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Elanoides_forficatus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 412.80 mm
+# Secondary1: 214.70 mm
+# Kipps Distance: 189.10 mm
+# Hand-Wing Index: 46.90
+# Tail Length: 279.20 mm
+# Aspect Ratio: 1.923
+# Pointedness Index: 0.4581
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0921
+# Max Thickness Position: 0.3219
+# Max Camber/Chord: 0.0522
+# Max Camber Position: 0.3425
+# Leading Edge Radius: 0.0274
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.09e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00822860,0.04937157
+UPPER,2,0.03291438,0.09039031
+UPPER,3,0.06857163,0.11430663
+UPPER,4,0.28001820,0.13874452
+UPPER,5,0.32186000,0.14427144
+UPPER,6,0.36370180,0.13505990
+UPPER,7,0.36538700,0.10926757
+UPPER,8,0.47248000,0.07012491
+UPPER,9,0.88000000,0.02718851
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00822860,-0.03291438
+LOWER,2,0.03291438,-0.01122236
+LOWER,3,0.06857163,-0.02943522
+LOWER,4,0.28001820,-0.02522102
+LOWER,5,0.32186000,-0.03995949
+LOWER,6,0.36370180,-0.01969409
+LOWER,7,0.36538700,0.01162517
+LOWER,8,0.47248000,0.01944054
+LOWER,9,0.88000000,0.00935437
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Florisuga_mellivora
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 67.80 mm
+# Secondary1: 22.60 mm
+# Kipps Distance: 43.80 mm
+# Hand-Wing Index: 66.10
+# Tail Length: 36.80 mm
+# Aspect Ratio: 3.000
+# Pointedness Index: 0.6460
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0845
+# Max Thickness Position: 0.3103
+# Max Camber/Chord: 0.0458
+# Max Camber Position: 0.3271
+# Leading Edge Radius: 0.0223
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.82e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00668265,0.04009590
+UPPER,2,0.02673060,0.08116330
+UPPER,3,0.05568875,0.10296048
+UPPER,4,0.26999580,0.12521537
+UPPER,5,0.31034000,0.13028622
+UPPER,6,0.35068420,0.12183480
+UPPER,7,0.35060300,0.09817081
+UPPER,8,0.45712000,0.06257017
+UPPER,9,0.88000000,0.02415449
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00668265,-0.02673060
+LOWER,2,0.02673060,-0.01102437
+LOWER,3,0.05568875,-0.02796316
+LOWER,4,0.26999580,-0.02521999
+LOWER,5,0.31034000,-0.03874227
+LOWER,6,0.35068420,-0.02014914
+LOWER,7,0.35060300,0.00858571
+LOWER,8,0.45712000,0.01654663
+LOWER,9,0.88000000,0.00806242
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eulipoa_wallacei
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 193.00 mm
+# Secondary1: 128.30 mm
+# Kipps Distance: 64.70 mm
+# Hand-Wing Index: 33.50
+# Tail Length: 65.00 mm
+# Aspect Ratio: 1.504
+# Pointedness Index: 0.3352
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1073
+# Max Thickness Position: 0.3299
+# Max Camber/Chord: 0.0555
+# Max Camber Position: 0.3532
+# Leading Edge Radius: 0.0309
+# LE Droop: 0.0013
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.91e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00926521,0.05689127
+UPPER,2,0.03706084,0.10213149
+UPPER,3,0.07721009,0.12831946
+UPPER,4,0.28701300,0.15636262
+UPPER,5,0.32990000,0.16279942
+UPPER,6,0.37278700,0.15207142
+UPPER,7,0.37570500,0.12203301
+UPPER,8,0.48320000,0.07722988
+UPPER,9,0.88000000,0.02967977
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00926521,-0.03667084
+LOWER,2,0.03706084,-0.01489783
+LOWER,3,0.07721009,-0.03668352
+LOWER,4,0.28701300,-0.03459587
+LOWER,5,0.32990000,-0.05176067
+LOWER,6,0.37278700,-0.02815906
+LOWER,7,0.37570500,0.00831615
+LOWER,8,0.48320000,0.01940281
+LOWER,9,0.88000000,0.00958864
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

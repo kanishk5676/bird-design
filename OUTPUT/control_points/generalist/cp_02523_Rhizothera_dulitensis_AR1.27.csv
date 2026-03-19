@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rhizothera_dulitensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 179.20 mm
+# Secondary1: 140.60 mm
+# Kipps Distance: 39.40 mm
+# Hand-Wing Index: 21.80
+# Tail Length: 69.40 mm
+# Aspect Ratio: 1.275
+# Pointedness Index: 0.2199
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1171
+# Max Thickness Position: 0.3369
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3626
+# Leading Edge Radius: 0.0340
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.54e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01021160,0.06490962
+UPPER,2,0.04084641,0.11123682
+UPPER,3,0.08509669,0.13739196
+UPPER,4,0.29312040,0.16776432
+UPPER,5,0.33692000,0.17478831
+UPPER,6,0.38071960,0.16308166
+UPPER,7,0.38471400,0.13030307
+UPPER,8,0.49256000,0.08184221
+UPPER,9,0.88000000,0.03129963
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01021160,-0.03975441
+LOWER,2,0.04084641,-0.01725858
+LOWER,3,0.08509669,-0.04134644
+LOWER,4,0.29312040,-0.04061388
+LOWER,5,0.33692000,-0.05934451
+LOWER,6,0.38071960,-0.03358990
+LOWER,7,0.38471400,0.00621268
+LOWER,8,0.49256000,0.01939828
+LOWER,9,0.88000000,0.00974782
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

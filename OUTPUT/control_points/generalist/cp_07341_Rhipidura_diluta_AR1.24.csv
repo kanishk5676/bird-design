@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rhipidura_diluta
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 77.20 mm
+# Secondary1: 62.40 mm
+# Kipps Distance: 14.80 mm
+# Hand-Wing Index: 19.10
+# Tail Length: 84.40 mm
+# Aspect Ratio: 1.237
+# Pointedness Index: 0.1917
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1240
+# Max Thickness Position: 0.3385
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3647
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.19e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01043782,0.06680692
+UPPER,2,0.04175128,0.11557642
+UPPER,3,0.08698183,0.14273842
+UPPER,4,0.29452980,0.17466175
+UPPER,5,0.33854000,0.18209975
+UPPER,6,0.38255020,0.16970307
+UPPER,7,0.38679300,0.13499238
+UPPER,8,0.49472000,0.08412373
+UPPER,9,0.88000000,0.03200787
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01043782,-0.04049728
+LOWER,2,0.04175128,-0.01932283
+LOWER,3,0.08698183,-0.04515956
+LOWER,4,0.29452980,-0.04599912
+LOWER,5,0.33854000,-0.06583380
+LOWER,6,0.38255020,-0.03856111
+LOWER,7,0.38679300,0.00358759
+LOWER,8,0.49472000,0.01868710
+LOWER,9,0.88000000,0.00957457
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

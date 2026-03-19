@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Knipolegus_cyanirostris
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 76.60 mm
+# Secondary1: 62.60 mm
+# Kipps Distance: 14.00 mm
+# Hand-Wing Index: 18.20
+# Tail Length: 66.30 mm
+# Aspect Ratio: 1.224
+# Pointedness Index: 0.1828
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1247
+# Max Thickness Position: 0.3391
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3654
+# Leading Edge Radius: 0.0350
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.18e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01051097,0.06742579
+UPPER,2,0.04204386,0.11624753
+UPPER,3,0.08759138,0.14340642
+UPPER,4,0.29499960,0.17550793
+UPPER,5,0.33908000,0.18299172
+UPPER,6,0.38316040,0.17051874
+UPPER,7,0.38748600,0.13559439
+UPPER,8,0.49544000,0.08444696
+UPPER,9,0.88000000,0.03211791
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01051097,-0.04073586
+LOWER,2,0.04204386,-0.01952188
+LOWER,3,0.08759138,-0.04554282
+LOWER,4,0.29499960,-0.04651115
+LOWER,5,0.33908000,-0.06646792
+LOWER,6,0.38316040,-0.03902736
+LOWER,7,0.38748600,0.00338078
+LOWER,8,0.49544000,0.01866020
+LOWER,9,0.88000000,0.00957628
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

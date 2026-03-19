@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Kempiella_flavovirescens
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 78.00 mm
+# Secondary1: 59.60 mm
+# Kipps Distance: 18.40 mm
+# Hand-Wing Index: 23.50
+# Tail Length: 62.00 mm
+# Aspect Ratio: 1.309
+# Pointedness Index: 0.2359
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1204
+# Max Thickness Position: 0.3359
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3612
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.21e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01007782,0.06376694
+UPPER,2,0.04031129,0.11232266
+UPPER,3,0.08398186,0.13952954
+UPPER,4,0.29223300,0.17061086
+UPPER,5,0.33590000,0.17783425
+UPPER,6,0.37956700,0.16579527
+UPPER,7,0.38340500,0.13208610
+UPPER,8,0.49120000,0.08253688
+UPPER,9,0.88000000,0.03146005
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01007782,-0.03932129
+LOWER,2,0.04031129,-0.01841923
+LOWER,3,0.08398186,-0.04340172
+LOWER,4,0.29223300,-0.04368312
+LOWER,5,0.33590000,-0.06294550
+LOWER,6,0.37956700,-0.03645973
+LOWER,7,0.38340500,0.00447283
+LOWER,8,0.49120000,0.01876093
+LOWER,9,0.88000000,0.00954550
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

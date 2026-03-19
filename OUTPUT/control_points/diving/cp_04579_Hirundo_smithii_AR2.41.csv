@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hirundo_smithii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 110.70 mm
+# Secondary1: 46.00 mm
+# Kipps Distance: 64.80 mm
+# Hand-Wing Index: 58.40
+# Tail Length: 83.20 mm
+# Aspect Ratio: 2.407
+# Pointedness Index: 0.5854
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0902
+# Max Thickness Position: 0.3150
+# Max Camber/Chord: 0.0486
+# Max Camber Position: 0.3333
+# Leading Edge Radius: 0.0241
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00722759,0.04336556
+UPPER,2,0.02891038,0.08637256
+UPPER,3,0.06022995,0.10961619
+UPPER,4,0.27401520,0.13334536
+UPPER,5,0.31496000,0.13875760
+UPPER,6,0.35590480,0.12973720
+UPPER,7,0.35653200,0.10448008
+UPPER,8,0.46328000,0.06652768
+UPPER,9,0.88000000,0.02566669
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00722759,-0.02891038
+LOWER,2,0.02891038,-0.01187152
+LOWER,3,0.06022995,-0.02998366
+LOWER,4,0.27401520,-0.02721776
+LOWER,5,0.31496000,-0.04165040
+LOWER,6,0.35590480,-0.02180552
+LOWER,7,0.35653200,0.00886384
+LOWER,8,0.46328000,0.01747467
+LOWER,9,0.88000000,0.00853024
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

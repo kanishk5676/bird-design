@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Trichoglossus_flavoviridis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 119.50 mm
+# Secondary1: 59.10 mm
+# Kipps Distance: 60.40 mm
+# Hand-Wing Index: 50.50
+# Tail Length: 77.20 mm
+# Aspect Ratio: 2.022
+# Pointedness Index: 0.5054
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0963
+# Max Thickness Position: 0.3197
+# Max Camber/Chord: 0.0511
+# Max Camber Position: 0.3396
+# Leading Edge Radius: 0.0263
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.13e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00787696,0.04726176
+UPPER,2,0.03150784,0.09158913
+UPPER,3,0.06564133,0.11635413
+UPPER,4,0.27813900,0.14163013
+UPPER,5,0.31970000,0.14740869
+UPPER,6,0.36126100,0.13777776
+UPPER,7,0.36261500,0.11081115
+UPPER,8,0.46960000,0.07040108
+UPPER,9,0.88000000,0.02712251
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00787696,-0.03150784
+LOWER,2,0.03150784,-0.01293420
+LOWER,3,0.06564133,-0.03235369
+LOWER,4,0.27813900,-0.02980045
+LOWER,5,0.31970000,-0.04520994
+LOWER,6,0.36126100,-0.02402189
+LOWER,7,0.36261500,0.00872328
+LOWER,8,0.46960000,0.01819831
+LOWER,9,0.88000000,0.00892247
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

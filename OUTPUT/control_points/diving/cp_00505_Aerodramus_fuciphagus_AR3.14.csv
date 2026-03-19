@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aerodramus_fuciphagus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 113.00 mm
+# Secondary1: 36.00 mm
+# Kipps Distance: 77.00 mm
+# Hand-Wing Index: 68.10
+# Tail Length: 48.90 mm
+# Aspect Ratio: 3.139
+# Pointedness Index: 0.6814
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0806
+# Max Thickness Position: 0.3091
+# Max Camber/Chord: 0.0450
+# Max Camber Position: 0.3255
+# Leading Edge Radius: 0.0215
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.11e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00644092,0.03864551
+UPPER,2,0.02576368,0.07854958
+UPPER,3,0.05367432,0.09943109
+UPPER,4,0.26895180,0.12076262
+UPPER,5,0.30914000,0.12559847
+UPPER,6,0.34932820,0.11753872
+UPPER,7,0.34906300,0.09497142
+UPPER,8,0.45552000,0.06081813
+UPPER,9,0.88000000,0.02354817
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00644092,-0.02576368
+LOWER,2,0.02576368,-0.01004086
+LOWER,3,0.05367432,-0.02604610
+LOWER,4,0.26895180,-0.02270092
+LOWER,5,0.30914000,-0.03559652
+LOWER,6,0.34932820,-0.01786507
+LOWER,7,0.34906300,0.00953808
+LOWER,8,0.45552000,0.01661696
+LOWER,9,0.88000000,0.00802634
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

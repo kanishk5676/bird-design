@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Haliaeetus_vociferoides
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 487.20 mm
+# Secondary1: 333.00 mm
+# Kipps Distance: 156.20 mm
+# Hand-Wing Index: 31.90
+# Tail Length: 236.80 mm
+# Aspect Ratio: 1.463
+# Pointedness Index: 0.3206
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1031
+# Max Thickness Position: 0.3309
+# Max Camber/Chord: 0.0559
+# Max Camber Position: 0.3545
+# Leading Edge Radius: 0.0313
+# LE Droop: 0.0016
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.36e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00938876,0.05795257
+UPPER,2,0.03755505,0.10066665
+UPPER,3,0.07823968,0.12564544
+UPPER,4,0.28784820,0.15280284
+UPPER,5,0.33086000,0.15899062
+UPPER,6,0.37387180,0.14867765
+UPPER,7,0.37693700,0.11980135
+UPPER,8,0.48448000,0.07635813
+UPPER,9,0.88000000,0.02947754
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00938876,-0.03706905
+LOWER,2,0.03755505,-0.01345014
+LOWER,3,0.07823968,-0.03411914
+LOWER,4,0.28784820,-0.03076793
+LOWER,5,0.33086000,-0.04726867
+LOWER,6,0.37387180,-0.02458015
+LOWER,7,0.37693700,0.01048393
+LOWER,8,0.48448000,0.02019565
+LOWER,9,0.88000000,0.00984006
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

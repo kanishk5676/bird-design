@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Colaptes_mexicanoides
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 154.70 mm
+# Secondary1: 120.00 mm
+# Kipps Distance: 34.70 mm
+# Hand-Wing Index: 22.40
+# Tail Length: 110.50 mm
+# Aspect Ratio: 1.289
+# Pointedness Index: 0.2243
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1174
+# Max Thickness Position: 0.3366
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3621
+# Leading Edge Radius: 0.0339
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.92e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01017060,0.06454362
+UPPER,2,0.04068242,0.11121537
+UPPER,3,0.08475503,0.13756316
+UPPER,4,0.29280720,0.16800720
+UPPER,5,0.33656000,0.17505283
+UPPER,6,0.38031280,0.16331011
+UPPER,7,0.38425200,0.13043048
+UPPER,8,0.49208000,0.08186138
+UPPER,9,0.88000000,0.03129191
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01017060,-0.03962642
+LOWER,2,0.04068242,-0.01740775
+LOWER,3,0.08475503,-0.04160002
+LOWER,4,0.29280720,-0.04101327
+LOWER,5,0.33656000,-0.05980163
+LOWER,6,0.38031280,-0.03396764
+LOWER,7,0.38425200,0.00595762
+LOWER,8,0.49208000,0.01928806
+LOWER,9,0.88000000,0.00970931
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

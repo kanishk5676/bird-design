@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Coenocorypha_huegeli
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 101.80 mm
+# Secondary1: 70.40 mm
+# Kipps Distance: 30.80 mm
+# Hand-Wing Index: 30.40
+# Tail Length: 38.40 mm
+# Aspect Ratio: 1.446
+# Pointedness Index: 0.3026
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1125
+# Max Thickness Position: 0.3318
+# Max Camber/Chord: 0.0562
+# Max Camber Position: 0.3557
+# Leading Edge Radius: 0.0318
+# LE Droop: 0.0019
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.08e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00952673,0.05908041
+UPPER,2,0.03810694,0.10591452
+UPPER,3,0.07938945,0.13267654
+UPPER,4,0.28863120,0.16192027
+UPPER,5,0.33176000,0.16867031
+UPPER,6,0.37488880,0.15742024
+UPPER,7,0.37809200,0.12592004
+UPPER,8,0.48568000,0.07924436
+UPPER,9,0.88000000,0.03034450
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00952673,-0.03753094
+LOWER,2,0.03810694,-0.01634087
+LOWER,3,0.07938945,-0.03941240
+LOWER,4,0.28863120,-0.03833100
+LOWER,5,0.33176000,-0.05633111
+LOWER,6,0.37488880,-0.03158096
+LOWER,7,0.37809200,0.00666929
+LOWER,8,0.48568000,0.01907505
+LOWER,9,0.88000000,0.00954237
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dendrocincla_homochroa
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 99.30 mm
+# Secondary1: 81.40 mm
+# Kipps Distance: 17.60 mm
+# Hand-Wing Index: 17.70
+# Tail Length: 79.60 mm
+# Aspect Ratio: 1.220
+# Pointedness Index: 0.1772
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1237
+# Max Thickness Position: 0.3394
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3658
+# Leading Edge Radius: 0.0352
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.64e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01055445,0.06778672
+UPPER,2,0.04221781,0.11588660
+UPPER,3,0.08795377,0.14272145
+UPPER,4,0.29526060,0.17459961
+UPPER,5,0.33938000,0.18202096
+UPPER,6,0.38349940,0.16965204
+UPPER,7,0.38787100,0.13501907
+UPPER,8,0.49584000,0.08421498
+UPPER,9,0.88000000,0.03206121
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01055445,-0.04087981
+LOWER,2,0.04221781,-0.01916442
+LOWER,3,0.08795377,-0.04490711
+LOWER,4,0.29526060,-0.04556714
+LOWER,5,0.33938000,-0.06535741
+LOWER,6,0.38349940,-0.03814579
+LOWER,7,0.38787100,0.00390853
+LOWER,8,0.49584000,0.01884921
+LOWER,9,0.88000000,0.00963538
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

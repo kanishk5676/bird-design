@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Elvira_chionura
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 49.50 mm
+# Secondary1: 15.70 mm
+# Kipps Distance: 33.00 mm
+# Hand-Wing Index: 67.80
+# Tail Length: 28.60 mm
+# Aspect Ratio: 3.153
+# Pointedness Index: 0.6667
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0844
+# Max Thickness Position: 0.3093
+# Max Camber/Chord: 0.0451
+# Max Camber Position: 0.3258
+# Leading Edge Radius: 0.0218
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.36e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00652532,0.03915192
+UPPER,2,0.02610128,0.08056121
+UPPER,3,0.05437767,0.10229231
+UPPER,4,0.26910840,0.12447458
+UPPER,5,0.30932000,0.12953990
+UPPER,6,0.34953160,0.12109770
+UPPER,7,0.34929400,0.09745954
+UPPER,8,0.45576000,0.06198837
+UPPER,9,0.88000000,0.02389856
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00652532,-0.02610128
+LOWER,2,0.02610128,-0.01122377
+LOWER,3,0.05437767,-0.02821052
+LOWER,4,0.26910840,-0.02579658
+LOWER,5,0.30932000,-0.03930410
+LOWER,6,0.34953160,-0.02073126
+LOWER,7,0.34929400,0.00797222
+LOWER,8,0.45576000,0.01615402
+LOWER,9,0.88000000,0.00790260
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Turnix_pyrrhothorax
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 72.60 mm
+# Secondary1: 46.20 mm
+# Kipps Distance: 26.80 mm
+# Hand-Wing Index: 36.70
+# Tail Length: 28.80 mm
+# Aspect Ratio: 1.571
+# Pointedness Index: 0.3691
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1085
+# Max Thickness Position: 0.3280
+# Max Camber/Chord: 0.0548
+# Max Camber Position: 0.3506
+# Leading Edge Radius: 0.0300
+# LE Droop: 0.0007
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.63e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00899434,0.05462601
+UPPER,2,0.03597734,0.10150333
+UPPER,3,0.07495279,0.12855587
+UPPER,4,0.28534260,0.15681639
+UPPER,5,0.32798000,0.16332822
+UPPER,6,0.37061740,0.15247517
+UPPER,7,0.37324100,0.12208665
+UPPER,8,0.48064000,0.07696663
+UPPER,9,0.88000000,0.02950559
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00899434,-0.03577934
+LOWER,2,0.03597734,-0.01555052
+LOWER,3,0.07495279,-0.03774068
+LOWER,4,0.28534260,-0.03636779
+LOWER,5,0.32798000,-0.05373267
+LOWER,6,0.37061740,-0.02985597
+LOWER,7,0.37324100,0.00704438
+LOWER,8,0.48064000,0.01878036
+LOWER,9,0.88000000,0.00935823
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

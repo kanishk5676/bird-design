@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Coccyzus_vieilloti
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 132.00 mm
+# Secondary1: 114.00 mm
+# Kipps Distance: 18.00 mm
+# Hand-Wing Index: 13.70
+# Tail Length: 213.00 mm
+# Aspect Ratio: 1.158
+# Pointedness Index: 0.1364
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1253
+# Max Thickness Position: 0.3418
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3690
+# Leading Edge Radius: 0.0363
+# LE Droop: 0.0053
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.37e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01088533,0.07057195
+UPPER,2,0.04354130,0.11792323
+UPPER,3,0.09071105,0.14434593
+UPPER,4,0.29734860,0.17661709
+UPPER,5,0.34178000,0.18413441
+UPPER,6,0.38621140,0.17160554
+UPPER,7,0.39095100,0.13652473
+UPPER,8,0.49904000,0.08509973
+UPPER,9,0.88000000,0.03238449
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01088533,-0.04196330
+LOWER,2,0.04354130,-0.01949634
+LOWER,3,0.09071105,-0.04559835
+LOWER,4,0.29734860,-0.04639668
+LOWER,5,0.34178000,-0.06644286
+LOWER,6,0.38621140,-0.03887936
+LOWER,7,0.39095100,0.00371878
+LOWER,8,0.49904000,0.01894397
+LOWER,9,0.88000000,0.00969990
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

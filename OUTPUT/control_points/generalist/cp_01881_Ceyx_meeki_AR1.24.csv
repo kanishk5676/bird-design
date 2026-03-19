@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ceyx_meeki
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 56.90 mm
+# Secondary1: 45.80 mm
+# Kipps Distance: 11.60 mm
+# Hand-Wing Index: 20.20
+# Tail Length: 24.70 mm
+# Aspect Ratio: 1.242
+# Pointedness Index: 0.2039
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1232
+# Max Thickness Position: 0.3379
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3638
+# Leading Edge Radius: 0.0345
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.15e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01034216,0.06601297
+UPPER,2,0.04136864,0.11485423
+UPPER,3,0.08618468,0.14206485
+UPPER,4,0.29395560,0.17381516
+UPPER,5,0.33788000,0.18120954
+UPPER,6,0.38180440,0.16888557
+UPPER,7,0.38594600,0.13437848
+UPPER,8,0.49384000,0.08378151
+UPPER,9,0.88000000,0.03188773
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01034216,-0.04018064
+LOWER,2,0.04136864,-0.01914722
+LOWER,3,0.08618468,-0.04481284
+LOWER,4,0.29395560,-0.04555140
+LOWER,5,0.33788000,-0.06526974
+LOWER,6,0.38180440,-0.03815702
+LOWER,7,0.38594600,0.00374446
+LOWER,8,0.49384000,0.01868779
+LOWER,9,0.88000000,0.00956289
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

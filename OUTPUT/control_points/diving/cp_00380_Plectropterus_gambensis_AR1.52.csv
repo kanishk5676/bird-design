@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Plectropterus_gambensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 522.60 mm
+# Secondary1: 343.50 mm
+# Kipps Distance: 172.20 mm
+# Hand-Wing Index: 33.50
+# Tail Length: 177.20 mm
+# Aspect Ratio: 1.521
+# Pointedness Index: 0.3295
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1014
+# Max Thickness Position: 0.3299
+# Max Camber/Chord: 0.0555
+# Max Camber Position: 0.3532
+# Leading Edge Radius: 0.0310
+# LE Droop: 0.0013
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.50e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00929442,0.05706651
+UPPER,2,0.03717767,0.09920680
+UPPER,3,0.07745348,0.12410790
+UPPER,4,0.28701300,0.15086420
+UPPER,5,0.32990000,0.15695004
+UPPER,6,0.37278700,0.14680697
+UPPER,7,0.37570500,0.11840638
+UPPER,8,0.48320000,0.07559205
+UPPER,9,0.88000000,0.02921182
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00929442,-0.03678767
+LOWER,2,0.03717767,-0.01302603
+LOWER,3,0.07745348,-0.03329087
+LOWER,4,0.28701300,-0.02968238
+LOWER,5,0.32990000,-0.04591129
+LOWER,6,0.37278700,-0.02359654
+LOWER,7,0.37570500,0.01088988
+LOWER,8,0.48320000,0.02022172
+LOWER,9,0.88000000,0.00982262
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

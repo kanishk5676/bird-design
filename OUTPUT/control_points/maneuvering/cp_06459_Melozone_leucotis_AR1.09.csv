@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melozone_leucotis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 81.50 mm
+# Secondary1: 74.60 mm
+# Kipps Distance: 6.90 mm
+# Hand-Wing Index: 8.40
+# Tail Length: 71.00 mm
+# Aspect Ratio: 1.092
+# Pointedness Index: 0.0847
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1322
+# Max Thickness Position: 0.3450
+# Max Camber/Chord: 0.0594
+# Max Camber Position: 0.3733
+# Leading Edge Radius: 0.0377
+# LE Droop: 0.0063
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.27e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01131118,0.07418709
+UPPER,2,0.04524472,0.12292671
+UPPER,3,0.09425984,0.14985497
+UPPER,4,0.30011520,0.18369726
+UPPER,5,0.34496000,0.19163090
+UPPER,6,0.38980480,0.17840817
+UPPER,7,0.39503200,0.14138452
+UPPER,8,0.50328000,0.08751670
+UPPER,9,0.88000000,0.03315155
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01131118,-0.04334872
+LOWER,2,0.04524472,-0.02152148
+LOWER,3,0.09425984,-0.04936618
+LOWER,4,0.30011520,-0.05166733
+LOWER,5,0.34496000,-0.07282370
+LOWER,6,0.38980480,-0.04373369
+LOWER,7,0.39503200,0.00122359
+LOWER,8,0.50328000,0.01831841
+LOWER,9,0.88000000,0.00956181
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

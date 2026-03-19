@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chalcophaps_longirostris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 152.00 mm
+# Secondary1: 103.30 mm
+# Kipps Distance: 48.70 mm
+# Hand-Wing Index: 32.00
+# Tail Length: 87.00 mm
+# Aspect Ratio: 1.471
+# Pointedness Index: 0.3204
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1098
+# Max Thickness Position: 0.3308
+# Max Camber/Chord: 0.0558
+# Max Camber Position: 0.3544
+# Leading Edge Radius: 0.0313
+# LE Droop: 0.0016
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.85e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00938679,0.05792072
+UPPER,2,0.03754715,0.10398778
+UPPER,3,0.07822322,0.13046305
+UPPER,4,0.28779600,0.15909671
+UPPER,5,0.33080000,0.16568756
+UPPER,6,0.37380400,0.15470281
+UPPER,7,0.37686000,0.12394549
+UPPER,8,0.48440000,0.07822132
+UPPER,9,0.88000000,0.03000701
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00938679,-0.03706715
+LOWER,2,0.03754715,-0.01560722
+LOWER,3,0.07822322,-0.03802519
+LOWER,4,0.28779600,-0.03643195
+LOWER,5,0.33080000,-0.05400756
+LOWER,6,0.37380400,-0.02984110
+LOWER,7,0.37686000,0.00750707
+LOWER,8,0.48440000,0.01924214
+LOWER,9,0.88000000,0.00956610
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pteroglossus_bailloni
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 129.00 mm
+# Secondary1: 110.40 mm
+# Kipps Distance: 18.90 mm
+# Hand-Wing Index: 14.50
+# Tail Length: 169.00 mm
+# Aspect Ratio: 1.168
+# Pointedness Index: 0.1465
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1248
+# Max Thickness Position: 0.3413
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3684
+# Leading Edge Radius: 0.0360
+# LE Droop: 0.0051
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.30e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01080909,0.06995454
+UPPER,2,0.04323636,0.11742631
+UPPER,3,0.09007576,0.14389008
+UPPER,4,0.29693100,0.17604134
+UPPER,5,0.34130000,0.18352806
+UPPER,6,0.38566900,0.17105019
+UPPER,7,0.39033500,0.13611216
+UPPER,8,0.49840000,0.08487500
+UPPER,9,0.88000000,0.03230706
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01080909,-0.04170636
+LOWER,2,0.04323636,-0.01936690
+LOWER,3,0.09007576,-0.04534692
+LOWER,4,0.29693100,-0.04606472
+LOWER,5,0.34130000,-0.06602931
+LOWER,6,0.38566900,-0.03857800
+LOWER,7,0.39033500,0.00384675
+LOWER,8,0.49840000,0.01895560
+LOWER,9,0.88000000,0.00969620
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

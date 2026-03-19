@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Arses_insularis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 78.60 mm
+# Secondary1: 67.00 mm
+# Kipps Distance: 11.60 mm
+# Hand-Wing Index: 14.70
+# Tail Length: 67.90 mm
+# Aspect Ratio: 1.173
+# Pointedness Index: 0.1476
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1274
+# Max Thickness Position: 0.3412
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3682
+# Leading Edge Radius: 0.0360
+# LE Droop: 0.0051
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.22e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01079751,0.06984505
+UPPER,2,0.04319003,0.11866984
+UPPER,3,0.08997924,0.14574584
+UPPER,4,0.29682660,0.17846909
+UPPER,5,0.34118000,0.18611234
+UPPER,6,0.38553340,0.17337359
+UPPER,7,0.39018100,0.13770507
+UPPER,8,0.49824000,0.08558458
+UPPER,9,0.88000000,0.03250642
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01079751,-0.04167203
+LOWER,2,0.04319003,-0.02021035
+LOWER,3,0.08997924,-0.04687139
+LOWER,4,0.29682660,-0.04828078
+LOWER,5,0.34118000,-0.06866279
+LOWER,6,0.38553340,-0.04063753
+LOWER,7,0.39018100,0.00267425
+LOWER,8,0.49824000,0.01857510
+LOWER,9,0.88000000,0.00958569
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

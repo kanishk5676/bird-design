@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Accipiter_madagascariensis
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 190.80 mm
+# Secondary1: 136.20 mm
+# Kipps Distance: 54.50 mm
+# Hand-Wing Index: 28.70
+# Tail Length: 149.50 mm
+# Aspect Ratio: 1.401
+# Pointedness Index: 0.2856
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1112
+# Max Thickness Position: 0.3328
+# Max Camber/Chord: 0.0565
+# Max Camber Position: 0.3570
+# Leading Edge Radius: 0.0322
+# LE Droop: 0.0023
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.85e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00966502,0.06025011
+UPPER,2,0.03866008,0.10588292
+UPPER,3,0.08054182,0.13203925
+UPPER,4,0.28951860,0.16102064
+UPPER,5,0.33278000,0.16769180
+UPPER,6,0.37604140,0.15657320
+UPPER,7,0.37940100,0.12544111
+UPPER,8,0.48704000,0.07916200
+UPPER,9,0.88000000,0.03036708
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00966502,-0.03798208
+LOWER,2,0.03866008,-0.01580251
+LOWER,3,0.08054182,-0.03849524
+LOWER,4,0.28951860,-0.03689048
+LOWER,5,0.33278000,-0.05468025
+LOWER,6,0.37604140,-0.03021932
+LOWER,7,0.37940100,0.00758392
+LOWER,8,0.48704000,0.01946754
+LOWER,9,0.88000000,0.00967900
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

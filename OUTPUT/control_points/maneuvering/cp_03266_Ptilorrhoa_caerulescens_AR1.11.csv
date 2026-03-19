@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ptilorrhoa_caerulescens
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 88.10 mm
+# Secondary1: 79.10 mm
+# Kipps Distance: 9.10 mm
+# Hand-Wing Index: 10.30
+# Tail Length: 90.00 mm
+# Aspect Ratio: 1.114
+# Pointedness Index: 0.1033
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1303
+# Max Thickness Position: 0.3438
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3718
+# Leading Edge Radius: 0.0372
+# LE Droop: 0.0059
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01115803,0.07288819
+UPPER,2,0.04463213,0.12141465
+UPPER,3,0.09298360,0.14828068
+UPPER,4,0.29912340,0.18167891
+UPPER,5,0.34382000,0.18949545
+UPPER,6,0.38851660,0.17646789
+UPPER,7,0.39356900,0.13999070
+UPPER,8,0.50176000,0.08681400
+UPPER,9,0.88000000,0.03292557
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01115803,-0.04285013
+LOWER,2,0.04463213,-0.02096130
+LOWER,3,0.09298360,-0.04831880
+LOWER,4,0.29912340,-0.05021180
+LOWER,5,0.34382000,-0.07105590
+LOWER,6,0.38851660,-0.04239526
+LOWER,7,0.39356900,0.00189848
+LOWER,8,0.50176000,0.01847767
+LOWER,9,0.88000000,0.00959392
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

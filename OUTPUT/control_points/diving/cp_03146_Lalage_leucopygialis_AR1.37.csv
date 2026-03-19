@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lalage_leucopygialis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 91.00 mm
+# Secondary1: 66.50 mm
+# Kipps Distance: 24.50 mm
+# Hand-Wing Index: 26.90
+# Tail Length: 67.80 mm
+# Aspect Ratio: 1.368
+# Pointedness Index: 0.2692
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1168
+# Max Thickness Position: 0.3339
+# Max Camber/Chord: 0.0568
+# Max Camber Position: 0.3585
+# Leading Edge Radius: 0.0327
+# LE Droop: 0.0026
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.47e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00980378,0.06144270
+UPPER,2,0.03921513,0.10934692
+UPPER,3,0.08169819,0.13640559
+UPPER,4,0.29045820,0.16665272
+UPPER,5,0.33386000,0.17366166
+UPPER,6,0.37726180,0.16198009
+UPPER,7,0.38078700,0.12927170
+UPPER,8,0.48848000,0.08102747
+UPPER,9,0.88000000,0.03094673
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00980378,-0.03842913
+LOWER,2,0.03921513,-0.01748493
+LOWER,3,0.08169819,-0.04160395
+LOWER,4,0.29045820,-0.04127920
+LOWER,5,0.33386000,-0.05996971
+LOWER,6,0.37726180,-0.03427026
+LOWER,7,0.38078700,0.00544707
+LOWER,8,0.48848000,0.01889031
+LOWER,9,0.88000000,0.00953887
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

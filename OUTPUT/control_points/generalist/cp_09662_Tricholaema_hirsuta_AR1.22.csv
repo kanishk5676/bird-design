@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tricholaema_hirsuta
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 88.80 mm
+# Secondary1: 72.70 mm
+# Kipps Distance: 15.10 mm
+# Hand-Wing Index: 17.20
+# Tail Length: 49.70 mm
+# Aspect Ratio: 1.221
+# Pointedness Index: 0.1700
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1247
+# Max Thickness Position: 0.3397
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3662
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.42e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01060645,0.06819870
+UPPER,2,0.04242580,0.11655620
+UPPER,3,0.08838709,0.14352081
+UPPER,4,0.29552160,0.17562942
+UPPER,5,0.33968000,0.18311212
+UPPER,6,0.38383840,0.17064095
+UPPER,7,0.38825600,0.13572167
+UPPER,8,0.49624000,0.08455962
+UPPER,9,0.88000000,0.03216909
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01060645,-0.04105780
+LOWER,2,0.04242580,-0.01946761
+LOWER,3,0.08838709,-0.04546861
+LOWER,4,0.29552160,-0.04635745
+LOWER,5,0.33968000,-0.06631132
+LOWER,6,0.38383840,-0.03887474
+LOWER,7,0.38825600,0.00352724
+LOWER,8,0.49624000,0.01874861
+LOWER,9,0.88000000,0.00961163
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

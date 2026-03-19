@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Glossopsitta_porphyrocephala
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 103.00 mm
+# Secondary1: 46.80 mm
+# Kipps Distance: 55.20 mm
+# Hand-Wing Index: 54.20
+# Tail Length: 59.40 mm
+# Aspect Ratio: 2.201
+# Pointedness Index: 0.5359
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0934
+# Max Thickness Position: 0.3175
+# Max Camber/Chord: 0.0499
+# Max Camber Position: 0.3366
+# Leading Edge Radius: 0.0254
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00760828,0.04564966
+UPPER,2,0.03043310,0.08916919
+UPPER,3,0.06340230,0.11322009
+UPPER,4,0.27620760,0.13777044
+UPPER,5,0.31748000,0.14337626
+UPPER,6,0.35875240,0.13403322
+UPPER,7,0.35976600,0.10787272
+UPPER,8,0.46664000,0.06861452
+UPPER,9,0.88000000,0.02645387
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00760828,-0.03043310
+LOWER,2,0.03043310,-0.01241665
+LOWER,3,0.06340230,-0.03121449
+LOWER,4,0.27620760,-0.02853560
+LOWER,5,0.31748000,-0.04348446
+LOWER,6,0.35875240,-0.02292978
+LOWER,7,0.35976600,0.00883654
+LOWER,8,0.46664000,0.01788621
+LOWER,9,0.88000000,0.00874926
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

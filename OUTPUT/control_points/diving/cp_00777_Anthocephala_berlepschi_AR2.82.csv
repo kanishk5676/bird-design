@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anthocephala_berlepschi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 51.40 mm
+# Secondary1: 18.20 mm
+# Kipps Distance: 33.00 mm
+# Hand-Wing Index: 64.50
+# Tail Length: 32.60 mm
+# Aspect Ratio: 2.824
+# Pointedness Index: 0.6420
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0872
+# Max Thickness Position: 0.3113
+# Max Camber/Chord: 0.0464
+# Max Camber Position: 0.3284
+# Leading Edge Radius: 0.0225
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.33e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00675198,0.04051189
+UPPER,2,0.02700792,0.08300329
+UPPER,3,0.05626651,0.10542693
+UPPER,4,0.27083100,0.12831431
+UPPER,5,0.31130000,0.13354451
+UPPER,6,0.35176900,0.12482750
+UPPER,7,0.35183500,0.10041986
+UPPER,8,0.45840000,0.06382586
+UPPER,9,0.88000000,0.02459587
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00675198,-0.02700792
+LOWER,2,0.02700792,-0.01166341
+LOWER,3,0.05626651,-0.02922647
+LOWER,4,0.27083100,-0.02684854
+LOWER,5,0.31130000,-0.04079576
+LOWER,6,0.35176900,-0.02161833
+LOWER,7,0.35183500,0.00801951
+LOWER,8,0.45840000,0.01654829
+LOWER,9,0.88000000,0.00810679
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

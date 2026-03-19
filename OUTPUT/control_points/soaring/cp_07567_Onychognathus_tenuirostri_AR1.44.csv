@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Onychognathus_tenuirostris
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 152.20 mm
+# Secondary1: 105.90 mm
+# Kipps Distance: 45.30 mm
+# Hand-Wing Index: 30.00
+# Tail Length: 159.10 mm
+# Aspect Ratio: 1.437
+# Pointedness Index: 0.2976
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1114
+# Max Thickness Position: 0.3320
+# Max Camber/Chord: 0.0562
+# Max Camber Position: 0.3560
+# Leading Edge Radius: 0.0319
+# LE Droop: 0.0020
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.86e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00956406,0.05938438
+UPPER,2,0.03825625,0.10553254
+UPPER,3,0.07970053,0.13198685
+UPPER,4,0.28884000,0.16100367
+UPPER,5,0.33200000,0.16769007
+UPPER,6,0.37516000,0.15654607
+UPPER,7,0.37840000,0.12534285
+UPPER,8,0.48600000,0.07901572
+UPPER,9,0.88000000,0.03029021
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00956406,-0.03765625
+LOWER,2,0.03825625,-0.01597332
+LOWER,3,0.07970053,-0.03876024
+LOWER,4,0.28884000,-0.03735966
+LOWER,5,0.33200000,-0.05519007
+LOWER,6,0.37516000,-0.03067326
+LOWER,7,0.37840000,0.00721637
+LOWER,8,0.48600000,0.01927339
+LOWER,9,0.88000000,0.00960490
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

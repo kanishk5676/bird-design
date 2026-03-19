@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Radjah_radjah
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 270.00 mm
+# Secondary1: 160.60 mm
+# Kipps Distance: 100.20 mm
+# Hand-Wing Index: 38.50
+# Tail Length: 98.00 mm
+# Aspect Ratio: 1.681
+# Pointedness Index: 0.3711
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1013
+# Max Thickness Position: 0.3269
+# Max Camber/Chord: 0.0544
+# Max Camber Position: 0.3492
+# Leading Edge Radius: 0.0298
+# LE Droop: 0.0003
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.12e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00892923,0.05387540
+UPPER,2,0.03571693,0.09718090
+UPPER,3,0.07441028,0.12298020
+UPPER,4,0.28440300,0.14962320
+UPPER,5,0.32690000,0.15570323
+UPPER,6,0.36939700,0.14556984
+UPPER,7,0.37185500,0.11719636
+UPPER,8,0.47920000,0.07458745
+UPPER,9,0.88000000,0.02876707
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00892923,-0.03562693
+LOWER,2,0.03571693,-0.01339755
+LOWER,3,0.07441028,-0.03376372
+LOWER,4,0.28440300,-0.03075106
+LOWER,5,0.32690000,-0.04696448
+LOWER,6,0.36939700,-0.02467103
+LOWER,7,0.37185500,0.00978248
+LOWER,8,0.47920000,0.01952227
+LOWER,9,0.88000000,0.00953899
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

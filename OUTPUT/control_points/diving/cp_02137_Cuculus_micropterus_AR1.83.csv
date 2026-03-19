@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cuculus_micropterus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 196.30 mm
+# Secondary1: 107.00 mm
+# Kipps Distance: 87.90 mm
+# Hand-Wing Index: 45.10
+# Tail Length: 146.10 mm
+# Aspect Ratio: 1.835
+# Pointedness Index: 0.4478
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0979
+# Max Thickness Position: 0.3229
+# Max Camber/Chord: 0.0527
+# Max Camber Position: 0.3439
+# Leading Edge Radius: 0.0278
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00833624,0.05001745
+UPPER,2,0.03334497,0.09371219
+UPPER,3,0.06946868,0.11893692
+UPPER,4,0.28095780,0.14468825
+UPPER,5,0.32294000,0.15056240
+UPPER,6,0.36492220,0.14077216
+UPPER,7,0.36677300,0.11335948
+UPPER,8,0.47392000,0.07217366
+UPPER,9,0.88000000,0.02784298
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00833624,-0.03334497
+LOWER,2,0.03334497,-0.01289778
+LOWER,3,0.06946868,-0.03255982
+LOWER,4,0.28095780,-0.02957806
+LOWER,5,0.32294000,-0.04524245
+LOWER,6,0.36492220,-0.02370392
+LOWER,7,0.36677300,0.00958291
+LOWER,8,0.47392000,0.01894285
+LOWER,9,0.88000000,0.00924890
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

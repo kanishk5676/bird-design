@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chlorostilbon_lucidus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 49.60 mm
+# Secondary1: 17.30 mm
+# Kipps Distance: 28.60 mm
+# Hand-Wing Index: 62.30
+# Tail Length: 27.80 mm
+# Aspect Ratio: 2.867
+# Pointedness Index: 0.5766
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0888
+# Max Thickness Position: 0.3126
+# Max Camber/Chord: 0.0472
+# Max Camber Position: 0.3302
+# Leading Edge Radius: 0.0238
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.36e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00715289,0.04291737
+UPPER,2,0.02861158,0.08451006
+UPPER,3,0.05960745,0.10735123
+UPPER,4,0.27197940,0.13066421
+UPPER,5,0.31262000,0.13599288
+UPPER,6,0.35326060,0.12711177
+UPPER,7,0.35352900,0.10224466
+UPPER,8,0.46016000,0.06497162
+UPPER,9,0.88000000,0.02503396
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00715289,-0.02861158
+LOWER,2,0.02861158,-0.01190593
+LOWER,3,0.05960745,-0.02980682
+LOWER,4,0.27197940,-0.02741955
+LOWER,5,0.31262000,-0.04162933
+LOWER,6,0.35326060,-0.02209089
+LOWER,7,0.35352900,0.00810489
+LOWER,8,0.46016000,0.01681915
+LOWER,9,0.88000000,0.00824300
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

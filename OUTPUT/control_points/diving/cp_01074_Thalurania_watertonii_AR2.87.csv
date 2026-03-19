@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Thalurania_watertonii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 54.50 mm
+# Secondary1: 19.00 mm
+# Kipps Distance: 34.80 mm
+# Hand-Wing Index: 64.60
+# Tail Length: 51.80 mm
+# Aspect Ratio: 2.868
+# Pointedness Index: 0.6385
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0877
+# Max Thickness Position: 0.3112
+# Max Camber/Chord: 0.0463
+# Max Camber Position: 0.3283
+# Leading Edge Radius: 0.0226
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.14e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00676673,0.04060036
+UPPER,2,0.02706690,0.08325893
+UPPER,3,0.05638939,0.10580639
+UPPER,4,0.27077880,0.12881721
+UPPER,5,0.31124000,0.13408190
+UPPER,6,0.35170120,0.12530742
+UPPER,7,0.35175800,0.10073887
+UPPER,8,0.45832000,0.06395508
+UPPER,9,0.88000000,0.02462768
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00676673,-0.02706690
+LOWER,2,0.02706690,-0.01186035
+LOWER,3,0.05638939,-0.02957692
+LOWER,4,0.27077880,-0.02736853
+LOWER,5,0.31124000,-0.04140770
+LOWER,6,0.35170120,-0.02210384
+LOWER,7,0.35175800,0.00772939
+LOWER,8,0.45832000,0.01644473
+LOWER,9,0.88000000,0.00807448
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

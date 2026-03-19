@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Contopus_latirostris
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 69.10 mm
+# Secondary1: 55.80 mm
+# Kipps Distance: 13.30 mm
+# Hand-Wing Index: 19.30
+# Tail Length: 59.20 mm
+# Aspect Ratio: 1.238
+# Pointedness Index: 0.1925
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1244
+# Max Thickness Position: 0.3384
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3646
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01042780,0.06670679
+UPPER,2,0.04171120,0.11573658
+UPPER,3,0.08689833,0.14303552
+UPPER,4,0.29442540,0.17505551
+UPPER,5,0.33842000,0.18252051
+UPPER,6,0.38241460,0.17007884
+UPPER,7,0.38663900,0.13524215
+UPPER,8,0.49456000,0.08422489
+UPPER,9,0.88000000,0.03203277
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01042780,-0.04046920
+LOWER,2,0.04171120,-0.01947703
+LOWER,3,0.08689833,-0.04543397
+LOWER,4,0.29442540,-0.04640628
+LOWER,5,0.33842000,-0.06631296
+LOWER,6,0.38241460,-0.03894128
+LOWER,7,0.38663900,0.00336041
+LOWER,8,0.49456000,0.01860600
+LOWER,9,0.88000000,0.00954927
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

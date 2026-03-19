@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Otidiphaps_insularis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 174.60 mm
+# Secondary1: 150.80 mm
+# Kipps Distance: 23.80 mm
+# Hand-Wing Index: 13.60
+# Tail Length: 175.00 mm
+# Aspect Ratio: 1.158
+# Pointedness Index: 0.1363
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1238
+# Max Thickness Position: 0.3418
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3691
+# Leading Edge Radius: 0.0363
+# LE Droop: 0.0053
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.42e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01088865,0.07061191
+UPPER,2,0.04355460,0.11719673
+UPPER,3,0.09073876,0.14326737
+UPPER,4,0.29740080,0.17520660
+UPPER,5,0.34184000,0.18263313
+UPPER,6,0.38627920,0.17025558
+UPPER,7,0.39102800,0.13559843
+UPPER,8,0.49912000,0.08468611
+UPPER,9,0.88000000,0.03226793
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01088865,-0.04197060
+LOWER,2,0.04355460,-0.01900801
+LOWER,3,0.09073876,-0.04471531
+LOWER,4,0.29740080,-0.04511385
+LOWER,5,0.34184000,-0.06491793
+LOWER,6,0.38627920,-0.03768731
+LOWER,7,0.39102800,0.00439637
+LOWER,8,0.49912000,0.01916314
+LOWER,9,0.88000000,0.00976338
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

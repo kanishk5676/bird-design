@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ptiloprora_mayri
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 95.10 mm
+# Secondary1: 74.30 mm
+# Kipps Distance: 20.80 mm
+# Hand-Wing Index: 21.80
+# Tail Length: 83.40 mm
+# Aspect Ratio: 1.280
+# Pointedness Index: 0.2187
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1207
+# Max Thickness Position: 0.3369
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3626
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.55e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01021746,0.06494478
+UPPER,2,0.04086985,0.11302877
+UPPER,3,0.08514552,0.13997237
+UPPER,4,0.29312040,0.17113319
+UPPER,5,0.33692000,0.17837221
+UPPER,6,0.38071960,0.16630718
+UPPER,7,0.38471400,0.13252509
+UPPER,8,0.49256000,0.08284570
+UPPER,9,0.88000000,0.03158635
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01021746,-0.03977785
+LOWER,2,0.04086985,-0.01840544
+LOWER,3,0.08514552,-0.04342511
+LOWER,4,0.29312040,-0.04362436
+LOWER,5,0.33692000,-0.06292841
+LOWER,6,0.38071960,-0.03638534
+LOWER,7,0.38471400,0.00463576
+LOWER,8,0.49256000,0.01889653
+LOWER,9,0.88000000,0.00960446
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

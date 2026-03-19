@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gulosus_aristotelis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 262.60 mm
+# Secondary1: 174.80 mm
+# Kipps Distance: 87.00 mm
+# Hand-Wing Index: 33.20
+# Tail Length: 140.20 mm
+# Aspect Ratio: 1.502
+# Pointedness Index: 0.3313
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1057
+# Max Thickness Position: 0.3301
+# Max Camber/Chord: 0.0556
+# Max Camber Position: 0.3534
+# Leading Edge Radius: 0.0310
+# LE Droop: 0.0014
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.89e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00929444,0.05712663
+UPPER,2,0.03717775,0.10147472
+UPPER,3,0.07745365,0.12726755
+UPPER,4,0.28716960,0.15497621
+UPPER,5,0.33008000,0.16132037
+UPPER,6,0.37299040,0.15074677
+UPPER,7,0.37593600,0.12114070
+UPPER,8,0.48344000,0.07685281
+UPPER,9,0.88000000,0.02958095
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00929444,-0.03676975
+LOWER,2,0.03717775,-0.01438097
+LOWER,3,0.07745365,-0.03575804
+LOWER,4,0.28716960,-0.03323381
+LOWER,5,0.33008000,-0.05015157
+LOWER,6,0.37299040,-0.02688966
+LOWER,7,0.37593600,0.00906057
+LOWER,8,0.48344000,0.01965929
+LOWER,9,0.88000000,0.00966666
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

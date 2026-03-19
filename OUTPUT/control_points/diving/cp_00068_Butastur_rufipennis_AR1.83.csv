@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Butastur_rufipennis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 311.20 mm
+# Secondary1: 170.00 mm
+# Kipps Distance: 143.50 mm
+# Hand-Wing Index: 45.80
+# Tail Length: 181.40 mm
+# Aspect Ratio: 1.831
+# Pointedness Index: 0.4611
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0947
+# Max Thickness Position: 0.3225
+# Max Camber/Chord: 0.0525
+# Max Camber Position: 0.3434
+# Leading Edge Radius: 0.0275
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00824682,0.04948090
+UPPER,2,0.03298727,0.09192732
+UPPER,3,0.06872347,0.11642571
+UPPER,4,0.28059240,0.14144876
+UPPER,5,0.32252000,0.14712852
+UPPER,6,0.36444760,0.13766226
+UPPER,7,0.36623400,0.11115672
+UPPER,8,0.47336000,0.07110155
+UPPER,9,0.88000000,0.02751005
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00824682,-0.03298727
+LOWER,2,0.03298727,-0.01192897
+LOWER,3,0.06872347,-0.03077001
+LOWER,4,0.28059240,-0.02705070
+LOWER,5,0.32252000,-0.04219672
+LOWER,6,0.36444760,-0.02137094
+LOWER,7,0.36623400,0.01081435
+LOWER,8,0.47336000,0.01927609
+LOWER,9,0.88000000,0.00932997
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Larus_canus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 351.00 mm
+# Secondary1: 145.90 mm
+# Kipps Distance: 206.20 mm
+# Hand-Wing Index: 58.60
+# Tail Length: 133.80 mm
+# Aspect Ratio: 2.406
+# Pointedness Index: 0.5875
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0837
+# Max Thickness Position: 0.3148
+# Max Camber/Chord: 0.0485
+# Max Camber Position: 0.3331
+# Leading Edge Radius: 0.0240
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.72e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00721077,0.04326463
+UPPER,2,0.02884309,0.08306964
+UPPER,3,0.06008976,0.10488080
+UPPER,4,0.27391080,0.12717683
+UPPER,5,0.31484000,0.13219970
+UPPER,6,0.35576920,0.12382824
+UPPER,7,0.35637800,0.10038815
+UPPER,8,0.46312000,0.06465242
+UPPER,9,0.88000000,0.02512151
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00721077,-0.02884309
+LOWER,2,0.02884309,-0.00981889
+LOWER,3,0.06008976,-0.02625132
+LOWER,4,0.27391080,-0.02183516
+LOWER,5,0.31484000,-0.03522950
+LOWER,6,0.35576920,-0.01681229
+LOWER,7,0.35637800,0.01165068
+LOWER,8,0.46312000,0.01834072
+LOWER,9,0.88000000,0.00877269
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

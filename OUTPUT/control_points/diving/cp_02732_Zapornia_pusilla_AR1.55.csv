@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Zapornia_pusilla
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 84.40 mm
+# Secondary1: 54.50 mm
+# Kipps Distance: 29.80 mm
+# Hand-Wing Index: 35.30
+# Tail Length: 32.20 mm
+# Aspect Ratio: 1.549
+# Pointedness Index: 0.3531
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1091
+# Max Thickness Position: 0.3288
+# Max Camber/Chord: 0.0551
+# Max Camber Position: 0.3518
+# Leading Edge Radius: 0.0304
+# LE Droop: 0.0009
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.85e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00911911,0.05565465
+UPPER,2,0.03647644,0.10233828
+UPPER,3,0.07599258,0.12925711
+UPPER,4,0.28607340,0.15766715
+UPPER,5,0.32882000,0.16421272
+UPPER,6,0.37156660,0.15330343
+UPPER,7,0.37431900,0.12275740
+UPPER,8,0.48176000,0.07739783
+UPPER,9,0.88000000,0.02967295
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00911911,-0.03619444
+LOWER,2,0.03647644,-0.01561782
+LOWER,3,0.07599258,-0.03791881
+LOWER,4,0.28607340,-0.03651830
+LOWER,5,0.32882000,-0.05397317
+LOWER,6,0.37156660,-0.02997272
+LOWER,7,0.37431900,0.00711888
+LOWER,8,0.48176000,0.01890125
+LOWER,9,0.88000000,0.00941623
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

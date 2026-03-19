@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lophotriorchis_kienerii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 366.20 mm
+# Secondary1: 227.50 mm
+# Kipps Distance: 127.60 mm
+# Hand-Wing Index: 35.90
+# Tail Length: 216.30 mm
+# Aspect Ratio: 1.610
+# Pointedness Index: 0.3484
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1016
+# Max Thickness Position: 0.3285
+# Max Camber/Chord: 0.0550
+# Max Camber Position: 0.3513
+# Leading Edge Radius: 0.0304
+# LE Droop: 0.0008
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.24e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00912440,0.05556639
+UPPER,2,0.03649759,0.09836775
+UPPER,3,0.07603665,0.12375393
+UPPER,4,0.28576020,0.15050994
+UPPER,5,0.32846000,0.15660741
+UPPER,6,0.37115980,0.14644497
+UPPER,7,0.37385700,0.11799012
+UPPER,8,0.48128000,0.07519037
+UPPER,9,0.88000000,0.02902349
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00912440,-0.03625159
+LOWER,2,0.03649759,-0.01327578
+LOWER,3,0.07603665,-0.03365000
+LOWER,4,0.28576020,-0.03038155
+LOWER,5,0.32846000,-0.04664146
+LOWER,6,0.37115980,-0.02428408
+LOWER,7,0.37385700,0.01026822
+LOWER,8,0.48128000,0.01986202
+LOWER,9,0.88000000,0.00968077
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

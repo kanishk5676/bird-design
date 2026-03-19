@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Stachyris_herberti
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 70.50 mm
+# Secondary1: 64.10 mm
+# Kipps Distance: 6.40 mm
+# Hand-Wing Index: 9.10
+# Tail Length: 67.50 mm
+# Aspect Ratio: 1.100
+# Pointedness Index: 0.0908
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1325
+# Max Thickness Position: 0.3445
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3727
+# Leading Edge Radius: 0.0375
+# LE Droop: 0.0062
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.06e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01125856,0.07373137
+UPPER,2,0.04503425,0.12285058
+UPPER,3,0.09382134,0.14996689
+UPPER,4,0.29974980,0.18385659
+UPPER,5,0.34454000,0.19180458
+UPPER,6,0.38933020,0.17855792
+UPPER,7,0.39449300,0.14146727
+UPPER,8,0.50272000,0.08752793
+UPPER,9,0.88000000,0.03314576
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01125856,-0.04318025
+LOWER,2,0.04503425,-0.02162102
+LOWER,3,0.09382134,-0.04953516
+LOWER,4,0.29974980,-0.05193397
+LOWER,5,0.34454000,-0.07312863
+LOWER,6,0.38933020,-0.04398598
+LOWER,7,0.39449300,0.00105267
+LOWER,8,0.50272000,0.01824422
+LOWER,9,0.88000000,0.00953583
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

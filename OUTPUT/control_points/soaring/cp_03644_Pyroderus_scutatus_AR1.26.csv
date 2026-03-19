@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pyroderus_scutatus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 231.00 mm
+# Secondary1: 183.80 mm
+# Kipps Distance: 41.00 mm
+# Hand-Wing Index: 18.20
+# Tail Length: 152.20 mm
+# Aspect Ratio: 1.257
+# Pointedness Index: 0.1775
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1185
+# Max Thickness Position: 0.3391
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3654
+# Leading Edge Radius: 0.0351
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.96e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01053789,0.06758731
+UPPER,2,0.04215154,0.11312339
+UPPER,3,0.08781571,0.13890767
+UPPER,4,0.29499960,0.16963456
+UPPER,5,0.33908000,0.17674346
+UPPER,6,0.38316040,0.16489530
+UPPER,7,0.38748600,0.13172046
+UPPER,8,0.49544000,0.08269745
+UPPER,9,0.88000000,0.03161805
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01053789,-0.04084354
+LOWER,2,0.04215154,-0.01752243
+LOWER,3,0.08781571,-0.04191883
+LOWER,4,0.29499960,-0.04126261
+LOWER,5,0.33908000,-0.06021966
+LOWER,6,0.38316040,-0.03415371
+LOWER,7,0.38748600,0.00613002
+LOWER,8,0.49544000,0.01953496
+LOWER,9,0.88000000,0.00982621
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

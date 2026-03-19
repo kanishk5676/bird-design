@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Urocissa_whiteheadi
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 203.00 mm
+# Secondary1: 183.40 mm
+# Kipps Distance: 28.60 mm
+# Hand-Wing Index: 13.40
+# Tail Length: 236.00 mm
+# Aspect Ratio: 1.107
+# Pointedness Index: 0.1409
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1231
+# Max Thickness Position: 0.3420
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3693
+# Leading Edge Radius: 0.0362
+# LE Droop: 0.0053
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.18e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01087144,0.07054863
+UPPER,2,0.04348575,0.11690341
+UPPER,3,0.09059532,0.14278026
+UPPER,4,0.29750520,0.17456592
+UPPER,5,0.34196000,0.18195006
+UPPER,6,0.38641480,0.16964316
+UPPER,7,0.39118200,0.13518385
+UPPER,8,0.49928000,0.08450824
+UPPER,9,0.88000000,0.03222033
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01087144,-0.04188975
+LOWER,2,0.04348575,-0.01877368
+LOWER,3,0.09059532,-0.04429469
+LOWER,4,0.29750520,-0.04449682
+LOWER,5,0.34196000,-0.06418786
+LOWER,6,0.38641480,-0.03711269
+LOWER,7,0.39118200,0.00473076
+LOWER,8,0.49928000,0.01927663
+LOWER,9,0.88000000,0.00979752
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chlidonias_hybrida
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 231.80 mm
+# Secondary1: 82.80 mm
+# Kipps Distance: 144.50 mm
+# Hand-Wing Index: 63.60
+# Tail Length: 85.80 mm
+# Aspect Ratio: 2.800
+# Pointedness Index: 0.6234
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0816
+# Max Thickness Position: 0.3118
+# Max Camber/Chord: 0.0467
+# Max Camber Position: 0.3291
+# Leading Edge Radius: 0.0229
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.70e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00687459,0.04124754
+UPPER,2,0.02749836,0.08048307
+UPPER,3,0.05728826,0.10169651
+UPPER,4,0.27130080,0.12337703
+UPPER,5,0.31184000,0.12827082
+UPPER,6,0.35237920,0.12011450
+UPPER,7,0.35252800,0.09727680
+UPPER,8,0.45912000,0.06253916
+UPPER,9,0.88000000,0.02427395
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00687459,-0.02749836
+LOWER,2,0.02749836,-0.00975257
+LOWER,3,0.05728826,-0.02582117
+LOWER,4,0.27130080,-0.02180551
+LOWER,5,0.31184000,-0.03485562
+LOWER,6,0.35237920,-0.01691171
+LOWER,7,0.35252800,0.01081978
+LOWER,8,0.45912000,0.01753986
+LOWER,9,0.88000000,0.00841437
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

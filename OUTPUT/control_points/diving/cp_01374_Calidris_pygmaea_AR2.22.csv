@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Calidris_pygmaea
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 99.40 mm
+# Secondary1: 44.80 mm
+# Kipps Distance: 53.40 mm
+# Hand-Wing Index: 54.40
+# Tail Length: 37.20 mm
+# Aspect Ratio: 2.219
+# Pointedness Index: 0.5372
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0924
+# Max Thickness Position: 0.3174
+# Max Camber/Chord: 0.0499
+# Max Camber Position: 0.3365
+# Leading Edge Radius: 0.0253
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.54e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00759552,0.04557313
+UPPER,2,0.03038208,0.08861708
+UPPER,3,0.06329601,0.11244459
+UPPER,4,0.27610320,0.13677091
+UPPER,5,0.31736000,0.14231704
+UPPER,6,0.35861680,0.13307349
+UPPER,7,0.35961200,0.10719157
+UPPER,8,0.46648000,0.06828128
+UPPER,9,0.88000000,0.02634984
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00759552,-0.03038208
+LOWER,2,0.03038208,-0.01212078
+LOWER,3,0.06329601,-0.03066702
+LOWER,4,0.27610320,-0.02776417
+LOWER,5,0.31736000,-0.04255384
+LOWER,6,0.35861680,-0.02221804
+LOWER,7,0.35961200,0.00921001
+LOWER,8,0.46648000,0.01798563
+LOWER,9,0.88000000,0.00877298
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

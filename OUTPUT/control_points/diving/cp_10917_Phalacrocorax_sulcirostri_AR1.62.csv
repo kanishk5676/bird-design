@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phalacrocorax_sulcirostris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 248.80 mm
+# Secondary1: 153.80 mm
+# Kipps Distance: 95.00 mm
+# Hand-Wing Index: 38.10
+# Tail Length: 128.80 mm
+# Aspect Ratio: 1.618
+# Pointedness Index: 0.3818
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1021
+# Max Thickness Position: 0.3271
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3495
+# Leading Edge Radius: 0.0296
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.48e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00888679,0.05370076
+UPPER,2,0.03554717,0.09774126
+UPPER,3,0.07405661,0.12364256
+UPPER,4,0.28461180,0.15046851
+UPPER,5,0.32714000,0.15659634
+UPPER,6,0.36966820,0.14638330
+UPPER,7,0.37216300,0.11778680
+UPPER,8,0.47952000,0.07489258
+UPPER,9,0.88000000,0.02886750
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00888679,-0.03543317
+LOWER,2,0.03554717,-0.01361862
+LOWER,3,0.07405661,-0.03418126
+LOWER,4,0.28461180,-0.03132353
+LOWER,5,0.32714000,-0.04766439
+LOWER,6,0.36966820,-0.02519571
+LOWER,7,0.37216300,0.00952862
+LOWER,8,0.47952000,0.01947065
+LOWER,9,0.88000000,0.00953128
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

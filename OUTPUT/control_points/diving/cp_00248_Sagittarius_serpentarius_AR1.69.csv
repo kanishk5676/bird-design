@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sagittarius_serpentarius
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 615.50 mm
+# Secondary1: 365.20 mm
+# Kipps Distance: 250.20 mm
+# Hand-Wing Index: 40.60
+# Tail Length: 551.80 mm
+# Aspect Ratio: 1.685
+# Pointedness Index: 0.4065
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0948
+# Max Thickness Position: 0.3256
+# Max Camber/Chord: 0.0538
+# Max Camber Position: 0.3475
+# Leading Edge Radius: 0.0289
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.88e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00868450,0.05210698
+UPPER,2,0.03473798,0.09315648
+UPPER,3,0.07237080,0.11777520
+UPPER,4,0.28330680,0.14293241
+UPPER,5,0.32564000,0.14861858
+UPPER,6,0.36797320,0.13914163
+UPPER,7,0.37023800,0.11260618
+UPPER,8,0.47752000,0.07230719
+UPPER,9,0.88000000,0.02804422
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00868450,-0.03473798
+LOWER,2,0.03473798,-0.01147905
+LOWER,3,0.07237080,-0.03019571
+LOWER,4,0.28330680,-0.02575726
+LOWER,5,0.32564000,-0.04092038
+LOWER,6,0.36797320,-0.02007110
+LOWER,7,0.37023800,0.01215053
+LOWER,8,0.47752000,0.02011871
+LOWER,9,0.88000000,0.00967150
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

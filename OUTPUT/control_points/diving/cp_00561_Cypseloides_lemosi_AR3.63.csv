@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cypseloides_lemosi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 150.20 mm
+# Secondary1: 41.40 mm
+# Kipps Distance: 108.80 mm
+# Hand-Wing Index: 72.40
+# Tail Length: 54.00 mm
+# Aspect Ratio: 3.628
+# Pointedness Index: 0.7244
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0754
+# Max Thickness Position: 0.3066
+# Max Camber/Chord: 0.0433
+# Max Camber Position: 0.3221
+# Leading Edge Radius: 0.0203
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.60e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00609029,0.03654171
+UPPER,2,0.02436114,0.07450862
+UPPER,3,0.05075238,0.09413663
+UPPER,4,0.26670720,0.11419740
+UPPER,5,0.30656000,0.11872433
+UPPER,6,0.34641280,0.11117945
+UPPER,7,0.34575200,0.09005381
+UPPER,8,0.45208000,0.05790990
+UPPER,9,0.88000000,0.02248063
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00609029,-0.02436114
+LOWER,2,0.02436114,-0.00899713
+LOWER,3,0.05075238,-0.02385348
+LOWER,4,0.26670720,-0.02010133
+LOWER,5,0.30656000,-0.03217313
+LOWER,6,0.34641280,-0.01557441
+LOWER,7,0.34575200,0.01007816
+LOWER,8,0.45208000,0.01626805
+LOWER,9,0.88000000,0.00780095
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

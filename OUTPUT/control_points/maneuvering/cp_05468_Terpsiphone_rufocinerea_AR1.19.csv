@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Terpsiphone_rufocinerea
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 73.90 mm
+# Secondary1: 61.90 mm
+# Kipps Distance: 12.10 mm
+# Hand-Wing Index: 16.30
+# Tail Length: 85.30 mm
+# Aspect Ratio: 1.194
+# Pointedness Index: 0.1637
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1264
+# Max Thickness Position: 0.3402
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3670
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.13e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01066617,0.06873704
+UPPER,2,0.04266469,0.11770645
+UPPER,3,0.08888477,0.14488137
+UPPER,4,0.29599140,0.17738149
+UPPER,5,0.34022000,0.18496835
+UPPER,6,0.38444860,0.17232359
+UPPER,7,0.38894900,0.13691827
+UPPER,8,0.49696000,0.08514798
+UPPER,9,0.88000000,0.03235370
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01066617,-0.04124269
+LOWER,2,0.04266469,-0.01998095
+LOWER,3,0.08888477,-0.04642004
+LOWER,4,0.29599140,-0.04769519
+LOWER,5,0.34022000,-0.06792680
+LOWER,6,0.38444860,-0.04010833
+LOWER,7,0.38894900,0.00288384
+LOWER,8,0.49696000,0.01858022
+LOWER,9,0.88000000,0.00957229
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

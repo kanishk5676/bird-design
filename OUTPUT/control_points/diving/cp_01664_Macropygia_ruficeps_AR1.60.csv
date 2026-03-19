@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Macropygia_ruficeps
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 141.00 mm
+# Secondary1: 88.40 mm
+# Kipps Distance: 51.10 mm
+# Hand-Wing Index: 36.60
+# Tail Length: 150.60 mm
+# Aspect Ratio: 1.595
+# Pointedness Index: 0.3624
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1066
+# Max Thickness Position: 0.3280
+# Max Camber/Chord: 0.0548
+# Max Camber Position: 0.3507
+# Leading Edge Radius: 0.0301
+# LE Droop: 0.0007
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.59e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00903174,0.05487045
+UPPER,2,0.03612697,0.10057531
+UPPER,3,0.07526452,0.12718363
+UPPER,4,0.28539480,0.15502016
+UPPER,5,0.32804000,0.16141585
+UPPER,6,0.37068520,0.15075637
+UPPER,7,0.37331800,0.12090984
+UPPER,8,0.48072000,0.07644446
+UPPER,9,0.88000000,0.02935960
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00903174,-0.03592297
+LOWER,2,0.03612697,-0.01492293
+LOWER,3,0.07526452,-0.03660725
+LOWER,4,0.28539480,-0.03471849
+LOWER,5,0.32804000,-0.05177365
+LOWER,6,0.37068520,-0.02832280
+LOWER,7,0.37331800,0.00791941
+LOWER,8,0.48072000,0.01906582
+LOWER,9,0.88000000,0.00944149
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

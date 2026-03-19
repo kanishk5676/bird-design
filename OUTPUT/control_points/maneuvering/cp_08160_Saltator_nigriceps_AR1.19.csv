@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Saltator_nigriceps
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 105.40 mm
+# Secondary1: 88.60 mm
+# Kipps Distance: 16.80 mm
+# Hand-Wing Index: 15.80
+# Tail Length: 105.00 mm
+# Aspect Ratio: 1.190
+# Pointedness Index: 0.1594
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1249
+# Max Thickness Position: 0.3405
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3674
+# Leading Edge Radius: 0.0357
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.77e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01070362,0.06906170
+UPPER,2,0.04281447,0.11707589
+UPPER,3,0.08919681,0.14380956
+UPPER,4,0.29625240,0.17596910
+UPPER,5,0.34052000,0.18346164
+UPPER,6,0.38478760,0.17097407
+UPPER,7,0.38933400,0.13600886
+UPPER,8,0.49736000,0.08476322
+UPPER,9,0.88000000,0.03225270
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01070362,-0.04136247
+LOWER,2,0.04281447,-0.01945517
+LOWER,3,0.08919681,-0.04547842
+LOWER,4,0.29625240,-0.04630972
+LOWER,5,0.34052000,-0.06628984
+LOWER,6,0.38478760,-0.03881718
+LOWER,7,0.38933400,0.00364057
+LOWER,8,0.49736000,0.01884065
+LOWER,9,0.88000000,0.00965145
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

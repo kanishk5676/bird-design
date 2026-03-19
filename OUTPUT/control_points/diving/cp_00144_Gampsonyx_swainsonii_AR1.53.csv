@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gampsonyx_swainsonii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 147.70 mm
+# Secondary1: 96.80 mm
+# Kipps Distance: 55.90 mm
+# Hand-Wing Index: 36.50
+# Tail Length: 97.90 mm
+# Aspect Ratio: 1.526
+# Pointedness Index: 0.3785
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1064
+# Max Thickness Position: 0.3281
+# Max Camber/Chord: 0.0548
+# Max Camber Position: 0.3508
+# Leading Edge Radius: 0.0298
+# LE Droop: 0.0007
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.75e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00895290,0.05441742
+UPPER,2,0.03581161,0.10052318
+UPPER,3,0.07460753,0.12707269
+UPPER,4,0.28544700,0.15487065
+UPPER,5,0.32810000,0.16125530
+UPPER,6,0.37075300,0.15061421
+UPPER,7,0.37339500,0.12081915
+UPPER,8,0.48080000,0.07641278
+UPPER,9,0.88000000,0.02935374
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00895290,-0.03560161
+LOWER,2,0.03581161,-0.01485597
+LOWER,3,0.07460753,-0.03648992
+LOWER,4,0.28544700,-0.03454080
+LOWER,5,0.32810000,-0.05156655
+LOWER,6,0.37075300,-0.02815615
+LOWER,7,0.37339500,0.00802357
+LOWER,8,0.48080000,0.01910598
+LOWER,9,0.88000000,0.00945466
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

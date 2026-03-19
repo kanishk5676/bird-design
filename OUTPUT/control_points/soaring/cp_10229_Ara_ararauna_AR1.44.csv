@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ara_ararauna
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 381.30 mm
+# Secondary1: 264.60 mm
+# Kipps Distance: 115.40 mm
+# Hand-Wing Index: 30.10
+# Tail Length: 492.50 mm
+# Aspect Ratio: 1.441
+# Pointedness Index: 0.3026
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1060
+# Max Thickness Position: 0.3319
+# Max Camber/Chord: 0.0562
+# Max Camber Position: 0.3559
+# Leading Edge Radius: 0.0318
+# LE Droop: 0.0020
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.76e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00953543,0.05919259
+UPPER,2,0.03814172,0.10278829
+UPPER,3,0.07946192,0.12807003
+UPPER,4,0.28878780,0.15589406
+UPPER,5,0.33194000,0.16225560
+UPPER,6,0.37509220,0.15165304
+UPPER,7,0.37832300,0.12196586
+UPPER,8,0.48592000,0.07748265
+UPPER,9,0.88000000,0.02984944
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00953543,-0.03754772
+LOWER,2,0.03814172,-0.01424771
+LOWER,3,0.07946192,-0.03562907
+LOWER,4,0.28878780,-0.03283155
+LOWER,5,0.33194000,-0.04979565
+LOWER,6,0.37509220,-0.02647001
+LOWER,7,0.37832300,0.00957870
+LOWER,8,0.48592000,0.02001900
+LOWER,9,0.88000000,0.00981647
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Burhinus_oedicnemus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 233.40 mm
+# Secondary1: 122.20 mm
+# Kipps Distance: 111.50 mm
+# Hand-Wing Index: 47.70
+# Tail Length: 116.60 mm
+# Aspect Ratio: 1.910
+# Pointedness Index: 0.4777
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0948
+# Max Thickness Position: 0.3214
+# Max Camber/Chord: 0.0519
+# Max Camber Position: 0.3418
+# Leading Edge Radius: 0.0270
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00810400,0.04862403
+UPPER,2,0.03241602,0.09154856
+UPPER,3,0.06753337,0.11604418
+UPPER,4,0.27960060,0.14105907
+UPPER,5,0.32138000,0.14674837
+UPPER,6,0.36315940,0.13726621
+UPPER,7,0.36477100,0.11071616
+UPPER,8,0.47184000,0.07068781
+UPPER,9,0.88000000,0.02731790
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00810400,-0.03241602
+LOWER,2,0.03241602,-0.01216854
+LOWER,3,0.06753337,-0.03111021
+LOWER,4,0.27960060,-0.02772336
+LOWER,5,0.32138000,-0.04289482
+LOWER,6,0.36315940,-0.02203407
+LOWER,7,0.36477100,0.01020527
+LOWER,8,0.47184000,0.01891958
+LOWER,9,0.88000000,0.00918883
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Automolus_virgatus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 82.80 mm
+# Secondary1: 67.80 mm
+# Kipps Distance: 13.20 mm
+# Hand-Wing Index: 16.30
+# Tail Length: 72.20 mm
+# Aspect Ratio: 1.221
+# Pointedness Index: 0.1594
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1258
+# Max Thickness Position: 0.3402
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3670
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.30e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01068818,0.06886906
+UPPER,2,0.04275271,0.11739252
+UPPER,3,0.08906814,0.14442931
+UPPER,4,0.29599140,0.17679131
+UPPER,5,0.34022000,0.18434049
+UPPER,6,0.38444860,0.17175852
+UPPER,7,0.38894900,0.13652900
+UPPER,8,0.49696000,0.08497218
+UPPER,9,0.88000000,0.03230347
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01068818,-0.04133071
+LOWER,2,0.04275271,-0.01978004
+LOWER,3,0.08906814,-0.04605588
+LOWER,4,0.29599140,-0.04716778
+LOWER,5,0.34022000,-0.06729894
+LOWER,6,0.38444860,-0.03961860
+LOWER,7,0.38894900,0.00316010
+LOWER,8,0.49696000,0.01866812
+LOWER,9,0.88000000,0.00959741
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

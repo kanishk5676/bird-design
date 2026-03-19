@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Neophema_chrysostoma
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 104.80 mm
+# Secondary1: 61.00 mm
+# Kipps Distance: 45.10 mm
+# Hand-Wing Index: 42.60
+# Tail Length: 125.40 mm
+# Aspect Ratio: 1.718
+# Pointedness Index: 0.4303
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1035
+# Max Thickness Position: 0.3244
+# Max Camber/Chord: 0.0533
+# Max Camber Position: 0.3459
+# Leading Edge Radius: 0.0283
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.76e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00850169,0.05101013
+UPPER,2,0.03400675,0.09706699
+UPPER,3,0.07084740,0.12356321
+UPPER,4,0.28226280,0.15059275
+UPPER,5,0.32444000,0.15680081
+UPPER,6,0.36661720,0.14645404
+UPPER,7,0.36869800,0.11748308
+UPPER,8,0.47592000,0.07430409
+UPPER,9,0.88000000,0.02854400
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00850169,-0.03400675
+LOWER,2,0.03400675,-0.01444308
+LOWER,3,0.07084740,-0.03547805
+LOWER,4,0.28226280,-0.03357978
+LOWER,5,0.32444000,-0.05013461
+LOWER,6,0.36661720,-0.02737172
+LOWER,7,0.36869800,0.00780731
+LOWER,8,0.47592000,0.01858104
+LOWER,9,0.88000000,0.00919457
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

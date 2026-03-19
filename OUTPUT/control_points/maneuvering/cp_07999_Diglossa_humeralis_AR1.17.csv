@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Diglossa_humeralis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 67.40 mm
+# Secondary1: 57.60 mm
+# Kipps Distance: 11.70 mm
+# Hand-Wing Index: 16.90
+# Tail Length: 59.20 mm
+# Aspect Ratio: 1.170
+# Pointedness Index: 0.1736
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1265
+# Max Thickness Position: 0.3399
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3665
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01059755,0.06820529
+UPPER,2,0.04239019,0.11753151
+UPPER,3,0.08831290,0.14482651
+UPPER,4,0.29567820,0.17732593
+UPPER,5,0.33986000,0.18491433
+UPPER,6,0.38404180,0.17226699
+UPPER,7,0.38848700,0.13685445
+UPPER,8,0.49648000,0.08508737
+UPPER,9,0.88000000,0.03232544
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01059755,-0.04100419
+LOWER,2,0.04239019,-0.02001713
+LOWER,3,0.08831290,-0.04647170
+LOWER,4,0.29567820,-0.04779664
+LOWER,5,0.33986000,-0.06803238
+LOWER,6,0.38404180,-0.04020824
+LOWER,7,0.38848700,0.00279270
+LOWER,8,0.49648000,0.01852714
+LOWER,9,0.88000000,0.00955131
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

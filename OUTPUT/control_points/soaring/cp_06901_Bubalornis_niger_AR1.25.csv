@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bubalornis_niger
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 115.90 mm
+# Secondary1: 92.50 mm
+# Kipps Distance: 22.90 mm
+# Hand-Wing Index: 19.90
+# Tail Length: 100.10 mm
+# Aspect Ratio: 1.253
+# Pointedness Index: 0.1976
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1211
+# Max Thickness Position: 0.3381
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3641
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01038338,0.06632029
+UPPER,2,0.04153352,0.11386405
+UPPER,3,0.08652817,0.14053888
+UPPER,4,0.29411220,0.17181387
+UPPER,5,0.33806000,0.17907762
+UPPER,6,0.38200780,0.16697136
+UPPER,7,0.38617700,0.13307382
+UPPER,8,0.49408000,0.08321027
+UPPER,9,0.88000000,0.03173070
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01038338,-0.04032752
+LOWER,2,0.04153352,-0.01843481
+LOWER,3,0.08652817,-0.04352945
+LOWER,4,0.29411220,-0.04367765
+LOWER,5,0.33806000,-0.06304767
+LOWER,6,0.38200780,-0.03641389
+LOWER,7,0.38617700,0.00474741
+LOWER,8,0.49408000,0.01902051
+LOWER,9,0.88000000,0.00966124
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

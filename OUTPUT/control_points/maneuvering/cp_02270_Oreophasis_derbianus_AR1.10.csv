@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Oreophasis_derbianus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 370.50 mm
+# Secondary1: 337.00 mm
+# Kipps Distance: 33.50 mm
+# Hand-Wing Index: 9.00
+# Tail Length: 352.80 mm
+# Aspect Ratio: 1.099
+# Pointedness Index: 0.0904
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1231
+# Max Thickness Position: 0.3446
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3728
+# Leading Edge Radius: 0.0375
+# LE Droop: 0.0062
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.39e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01126347,0.07378080
+UPPER,2,0.04505387,0.11818311
+UPPER,3,0.09386222,0.14321404
+UPPER,4,0.29980200,0.17503845
+UPPER,5,0.34460000,0.18242298
+UPPER,6,0.38939800,0.17011543
+UPPER,7,0.39457000,0.13565430
+UPPER,8,0.50280000,0.08490651
+UPPER,9,0.88000000,0.03239809
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01126347,-0.04319387
+LOWER,2,0.04505387,-0.01861253
+LOWER,3,0.09386222,-0.04408393
+LOWER,4,0.29980200,-0.04403590
+LOWER,5,0.34460000,-0.06372798
+LOWER,6,0.38939800,-0.03665137
+LOWER,7,0.39457000,0.00519429
+LOWER,8,0.50280000,0.01956488
+LOWER,9,0.88000000,0.00991386
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

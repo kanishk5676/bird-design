@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cacatua_haematuropygia
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 214.50 mm
+# Secondary1: 142.50 mm
+# Kipps Distance: 75.20 mm
+# Hand-Wing Index: 34.60
+# Tail Length: 102.70 mm
+# Aspect Ratio: 1.505
+# Pointedness Index: 0.3506
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1058
+# Max Thickness Position: 0.3292
+# Max Camber/Chord: 0.0553
+# Max Camber Position: 0.3523
+# Leading Edge Radius: 0.0305
+# LE Droop: 0.0011
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.50e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00915327,0.05599961
+UPPER,2,0.03661307,0.10096089
+UPPER,3,0.07627723,0.12702425
+UPPER,4,0.28643880,0.15472037
+UPPER,5,0.32924000,0.16106781
+UPPER,6,0.37204120,0.15048874
+UPPER,7,0.37485800,0.12086734
+UPPER,8,0.48232000,0.07660693
+UPPER,9,0.88000000,0.02946856
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00915327,-0.03628907
+LOWER,2,0.03661307,-0.01450604
+LOWER,3,0.07627723,-0.03593115
+LOWER,4,0.28643880,-0.03358710
+LOWER,5,0.32924000,-0.05051361
+LOWER,6,0.37204120,-0.02723966
+LOWER,7,0.37485800,0.00872919
+LOWER,8,0.48232000,0.01946110
+LOWER,9,0.88000000,0.00958765
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

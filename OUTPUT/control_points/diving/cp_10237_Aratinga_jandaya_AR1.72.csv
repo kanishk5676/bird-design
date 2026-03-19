@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aratinga_jandaya
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 156.20 mm
+# Secondary1: 90.60 mm
+# Kipps Distance: 65.70 mm
+# Hand-Wing Index: 42.00
+# Tail Length: 138.70 mm
+# Aspect Ratio: 1.724
+# Pointedness Index: 0.4206
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1017
+# Max Thickness Position: 0.3248
+# Max Camber/Chord: 0.0535
+# Max Camber Position: 0.3464
+# Leading Edge Radius: 0.0286
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.96e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00856967,0.05141799
+UPPER,2,0.03427866,0.09631260
+UPPER,3,0.07141388,0.12242919
+UPPER,4,0.28257600,0.14908068
+UPPER,5,0.32480000,0.15518221
+UPPER,6,0.36702400,0.14501299
+UPPER,7,0.36916000,0.11653917
+UPPER,8,0.47640000,0.07394032
+UPPER,9,0.88000000,0.02846158
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00856967,-0.03427866
+LOWER,2,0.03427866,-0.01382001
+LOWER,3,0.07141388,-0.03437608
+LOWER,4,0.28257600,-0.03193146
+LOWER,5,0.32480000,-0.04820221
+LOWER,6,0.36702400,-0.02582992
+LOWER,7,0.36916000,0.00874543
+LOWER,8,0.47640000,0.01892689
+LOWER,9,0.88000000,0.00930481
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

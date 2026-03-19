@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Delichon_dasypus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 102.80 mm
+# Secondary1: 46.40 mm
+# Kipps Distance: 56.40 mm
+# Hand-Wing Index: 54.80
+# Tail Length: 46.60 mm
+# Aspect Ratio: 2.216
+# Pointedness Index: 0.5486
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0924
+# Max Thickness Position: 0.3171
+# Max Camber/Chord: 0.0498
+# Max Camber Position: 0.3362
+# Leading Edge Radius: 0.0251
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.37e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00752507,0.04515039
+UPPER,2,0.03010026,0.08849945
+UPPER,3,0.06270888,0.11231447
+UPPER,4,0.27589440,0.13662702
+UPPER,5,0.31712000,0.14217221
+UPPER,6,0.35834560,0.13293023
+UPPER,7,0.35930400,0.10705268
+UPPER,8,0.46616000,0.06816709
+UPPER,9,0.88000000,0.02629950
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00752507,-0.03010026
+LOWER,2,0.03010026,-0.01216100
+LOWER,3,0.06270888,-0.03071739
+LOWER,4,0.27589440,-0.02788024
+LOWER,5,0.31712000,-0.04266741
+LOWER,6,0.35834560,-0.02233505
+LOWER,7,0.35930400,0.00908768
+LOWER,8,0.46616000,0.01790771
+LOWER,9,0.88000000,0.00874131
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

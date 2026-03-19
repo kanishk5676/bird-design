@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Kleinothraupis_auricularis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 76.40 mm
+# Secondary1: 66.20 mm
+# Kipps Distance: 10.10 mm
+# Hand-Wing Index: 13.20
+# Tail Length: 74.00 mm
+# Aspect Ratio: 1.154
+# Pointedness Index: 0.1322
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1287
+# Max Thickness Position: 0.3421
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3694
+# Leading Edge Radius: 0.0364
+# LE Droop: 0.0054
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01092187,0.07089119
+UPPER,2,0.04368746,0.11980086
+UPPER,3,0.09101554,0.14688790
+UPPER,4,0.29760960,0.17992399
+UPPER,5,0.34208000,0.18764864
+UPPER,6,0.38655040,0.17477422
+UPPER,7,0.39133600,0.13872583
+UPPER,8,0.49944000,0.08611713
+UPPER,9,0.88000000,0.03268321
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01092187,-0.04207946
+LOWER,2,0.04368746,-0.02058162
+LOWER,3,0.09101554,-0.04757564
+LOWER,4,0.29760960,-0.04924076
+LOWER,5,0.34208000,-0.06983984
+LOWER,6,0.38655040,-0.04151611
+LOWER,7,0.39133600,0.00225693
+LOWER,8,0.49944000,0.01849653
+LOWER,9,0.88000000,0.00957633
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

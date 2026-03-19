@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cinclosoma_punctatum
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 110.30 mm
+# Secondary1: 85.80 mm
+# Kipps Distance: 24.00 mm
+# Hand-Wing Index: 21.80
+# Tail Length: 114.30 mm
+# Aspect Ratio: 1.286
+# Pointedness Index: 0.2176
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1198
+# Max Thickness Position: 0.3369
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3626
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.88e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01022322,0.06497932
+UPPER,2,0.04089288,0.11261409
+UPPER,3,0.08519349,0.13937523
+UPPER,4,0.29312040,0.17035359
+UPPER,5,0.33692000,0.17754285
+UPPER,6,0.38071960,0.16556076
+UPPER,7,0.38471400,0.13201089
+UPPER,8,0.49256000,0.08261348
+UPPER,9,0.88000000,0.03152000
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01022322,-0.03980088
+LOWER,2,0.04089288,-0.01814004
+LOWER,3,0.08519349,-0.04294408
+LOWER,4,0.29312040,-0.04292770
+LOWER,5,0.33692000,-0.06209905
+LOWER,6,0.38071960,-0.03573844
+LOWER,7,0.38471400,0.00500068
+LOWER,8,0.49256000,0.01901264
+LOWER,9,0.88000000,0.00963764
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

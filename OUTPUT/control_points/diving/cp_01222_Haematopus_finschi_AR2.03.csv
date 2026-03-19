@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Haematopus_finschi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 252.20 mm
+# Secondary1: 124.50 mm
+# Kipps Distance: 127.80 mm
+# Hand-Wing Index: 50.60
+# Tail Length: 92.50 mm
+# Aspect Ratio: 2.026
+# Pointedness Index: 0.5067
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0921
+# Max Thickness Position: 0.3196
+# Max Camber/Chord: 0.0511
+# Max Camber Position: 0.3395
+# Leading Edge Radius: 0.0262
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.58e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00786726,0.04720358
+UPPER,2,0.03146905,0.08943442
+UPPER,3,0.06556052,0.11326056
+UPPER,4,0.27808680,0.13759739
+UPPER,5,0.31964000,0.14312048
+UPPER,6,0.36119320,0.13391534
+UPPER,7,0.36253800,0.10814095
+UPPER,8,0.46952000,0.06918312
+UPPER,9,0.88000000,0.02677037
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00786726,-0.03146905
+LOWER,2,0.03146905,-0.01158226
+LOWER,3,0.06556052,-0.02989801
+LOWER,4,0.27808680,-0.02625406
+LOWER,5,0.31964000,-0.04098228
+LOWER,6,0.36119320,-0.02073097
+LOWER,7,0.36253800,0.01056649
+LOWER,8,0.46952000,0.01877565
+LOWER,9,0.88000000,0.00908522
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

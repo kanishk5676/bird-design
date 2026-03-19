@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Setophaga_ruticilla
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 62.00 mm
+# Secondary1: 48.00 mm
+# Kipps Distance: 15.60 mm
+# Hand-Wing Index: 24.60
+# Tail Length: 52.60 mm
+# Aspect Ratio: 1.292
+# Pointedness Index: 0.2516
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1203
+# Max Thickness Position: 0.3352
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3603
+# Leading Edge Radius: 0.0332
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00996401,0.06286409
+UPPER,2,0.03985606,0.11190854
+UPPER,3,0.08303345,0.13930693
+UPPER,4,0.29165880,0.17035790
+UPPER,5,0.33524000,0.17757710
+UPPER,6,0.37882120,0.16554510
+UPPER,7,0.38255800,0.13185550
+UPPER,8,0.49032000,0.08235813
+UPPER,9,0.88000000,0.03138330
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00996401,-0.03893206
+LOWER,2,0.03985606,-0.01846242
+LOWER,3,0.08303345,-0.04344733
+LOWER,4,0.29165880,-0.04381170
+LOWER,5,0.33524000,-0.06306290
+LOWER,6,0.37882120,-0.03659250
+LOWER,7,0.38255800,0.00431630
+LOWER,8,0.49032000,0.01865460
+LOWER,9,0.88000000,0.00950147
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

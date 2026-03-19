@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Macropygia_amboinensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 171.90 mm
+# Secondary1: 116.60 mm
+# Kipps Distance: 55.20 mm
+# Hand-Wing Index: 32.20
+# Tail Length: 190.60 mm
+# Aspect Ratio: 1.474
+# Pointedness Index: 0.3211
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1090
+# Max Thickness Position: 0.3307
+# Max Camber/Chord: 0.0558
+# Max Camber Position: 0.3542
+# Leading Edge Radius: 0.0313
+# LE Droop: 0.0016
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.35e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00937698,0.05782190
+UPPER,2,0.03750793,0.10348063
+UPPER,3,0.07814153,0.12980314
+UPPER,4,0.28769160,0.15824363
+UPPER,5,0.33068000,0.16478272
+UPPER,6,0.37366840,0.15388424
+UPPER,7,0.37670600,0.12336849
+UPPER,8,0.48424000,0.07794396
+UPPER,9,0.88000000,0.02992199
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00937698,-0.03703993
+LOWER,2,0.03750793,-0.01534588
+LOWER,3,0.07814153,-0.03754416
+LOWER,4,0.28769160,-0.03574935
+LOWER,5,0.33068000,-0.05318692
+LOWER,6,0.37366840,-0.02921026
+LOWER,7,0.37670600,0.00784458
+LOWER,8,0.48424000,0.01933682
+LOWER,9,0.88000000,0.00959008
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

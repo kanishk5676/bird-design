@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ploceus_jacksoni
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 71.00 mm
+# Secondary1: 57.90 mm
+# Kipps Distance: 13.20 mm
+# Hand-Wing Index: 18.50
+# Tail Length: 47.00 mm
+# Aspect Ratio: 1.226
+# Pointedness Index: 0.1859
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1248
+# Max Thickness Position: 0.3389
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3652
+# Leading Edge Radius: 0.0350
+# LE Droop: 0.0043
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01048573,0.06721439
+UPPER,2,0.04194292,0.11619400
+UPPER,3,0.08738109,0.14342867
+UPPER,4,0.29484300,0.17554554
+UPPER,5,0.33890000,0.18303444
+UPPER,6,0.38295700,0.17055294
+UPPER,7,0.38725500,0.13560472
+UPPER,8,0.49520000,0.08443469
+UPPER,9,0.88000000,0.03210857
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01048573,-0.04065292
+LOWER,2,0.04194292,-0.01956404
+LOWER,3,0.08738109,-0.04561183
+LOWER,4,0.29484300,-0.04662528
+LOWER,5,0.33890000,-0.06659569
+LOWER,6,0.38295700,-0.03913638
+LOWER,7,0.38725500,0.00330074
+LOWER,8,0.49520000,0.01862190
+LOWER,9,0.88000000,0.00956224
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

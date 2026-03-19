@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Neocichla_gutturalis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 107.80 mm
+# Secondary1: 82.60 mm
+# Kipps Distance: 25.10 mm
+# Hand-Wing Index: 23.30
+# Tail Length: 86.50 mm
+# Aspect Ratio: 1.305
+# Pointedness Index: 0.2328
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1187
+# Max Thickness Position: 0.3360
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3614
+# Leading Edge Radius: 0.0337
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.82e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01009954,0.06393726
+UPPER,2,0.04039817,0.11157089
+UPPER,3,0.08416286,0.13837924
+UPPER,4,0.29233740,0.16910237
+UPPER,5,0.33602000,0.17622734
+UPPER,6,0.37970260,0.16435239
+UPPER,7,0.38355900,0.13110251
+UPPER,8,0.49136000,0.08210599
+UPPER,9,0.88000000,0.03134152
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01009954,-0.03939617
+LOWER,2,0.04039817,-0.01788264
+LOWER,3,0.08416286,-0.04243497
+LOWER,4,0.29233740,-0.04227186
+LOWER,5,0.33602000,-0.06127179
+LOWER,6,0.37970260,-0.03514689
+LOWER,7,0.38355900,0.00522797
+LOWER,8,0.49136000,0.01901128
+LOWER,9,0.88000000,0.00961946
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

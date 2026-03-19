@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psittacara_rubritorquis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 147.60 mm
+# Secondary1: 74.80 mm
+# Kipps Distance: 70.60 mm
+# Hand-Wing Index: 48.70
+# Tail Length: 118.40 mm
+# Aspect Ratio: 1.973
+# Pointedness Index: 0.4783
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0967
+# Max Thickness Position: 0.3208
+# Max Camber/Chord: 0.0516
+# Max Camber Position: 0.3410
+# Leading Edge Radius: 0.0269
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.74e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00807035,0.04842209
+UPPER,2,0.03228140,0.09221780
+UPPER,3,0.06725291,0.11709635
+UPPER,4,0.27907860,0.14249127
+UPPER,5,0.32078000,0.14829055
+UPPER,6,0.36248140,0.13862508
+UPPER,7,0.36400100,0.11156174
+UPPER,8,0.47104000,0.07095375
+UPPER,9,0.88000000,0.02735398
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00807035,-0.03228140
+LOWER,2,0.03228140,-0.01285701
+LOWER,3,0.06725291,-0.03230732
+LOWER,4,0.27907860,-0.02955424
+LOWER,5,0.32078000,-0.04501900
+LOWER,6,0.36248140,-0.02375495
+LOWER,7,0.36400100,0.00910767
+LOWER,8,0.47104000,0.01848251
+LOWER,9,0.88000000,0.00904275
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

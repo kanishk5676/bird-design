@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dromococcyx_pavoninus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 128.10 mm
+# Secondary1: 100.00 mm
+# Kipps Distance: 27.90 mm
+# Hand-Wing Index: 21.80
+# Tail Length: 161.10 mm
+# Aspect Ratio: 1.281
+# Pointedness Index: 0.2178
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1190
+# Max Thickness Position: 0.3369
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3626
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01022215,0.06497288
+UPPER,2,0.04088859,0.11219275
+UPPER,3,0.08518456,0.13876850
+UPPER,4,0.29312040,0.16956147
+UPPER,5,0.33692000,0.17670016
+UPPER,6,0.38071960,0.16480234
+UPPER,7,0.38471400,0.13148842
+UPPER,8,0.49256000,0.08237753
+UPPER,9,0.88000000,0.03145258
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01022215,-0.03979659
+LOWER,2,0.04088859,-0.01787038
+LOWER,3,0.08518456,-0.04245532
+LOWER,4,0.29312040,-0.04221984
+LOWER,5,0.33692000,-0.06125636
+LOWER,6,0.38071960,-0.03508115
+LOWER,7,0.38471400,0.00537146
+LOWER,8,0.49256000,0.01913062
+LOWER,9,0.88000000,0.00967134
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

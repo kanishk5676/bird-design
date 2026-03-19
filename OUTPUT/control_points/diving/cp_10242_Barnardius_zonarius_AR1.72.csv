@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Barnardius_zonarius
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 169.20 mm
+# Secondary1: 98.20 mm
+# Kipps Distance: 69.00 mm
+# Hand-Wing Index: 41.20
+# Tail Length: 204.40 mm
+# Aspect Ratio: 1.723
+# Pointedness Index: 0.4078
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1019
+# Max Thickness Position: 0.3253
+# Max Camber/Chord: 0.0537
+# Max Camber Position: 0.3470
+# Leading Edge Radius: 0.0289
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00865949,0.05195696
+UPPER,2,0.03463797,0.09657967
+UPPER,3,0.07216244,0.12275102
+UPPER,4,0.28299360,0.14945933
+UPPER,5,0.32528000,0.15557186
+UPPER,6,0.36756640,0.14538432
+UPPER,7,0.36977600,0.11685919
+UPPER,8,0.47704000,0.07416707
+UPPER,9,0.88000000,0.02855467
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00865949,-0.03463797
+LOWER,2,0.03463797,-0.01380641
+LOWER,3,0.07216244,-0.03438742
+LOWER,4,0.28299360,-0.03187899
+LOWER,5,0.32528000,-0.04817906
+LOWER,6,0.36756640,-0.02576646
+LOWER,7,0.36977600,0.00887120
+LOWER,8,0.47704000,0.01902920
+LOWER,9,0.88000000,0.00934908
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

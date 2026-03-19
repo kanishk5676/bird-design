@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Euplectes_diadematus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 58.90 mm
+# Secondary1: 47.50 mm
+# Kipps Distance: 11.30 mm
+# Hand-Wing Index: 19.20
+# Tail Length: 34.50 mm
+# Aspect Ratio: 1.240
+# Pointedness Index: 0.1919
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1246
+# Max Thickness Position: 0.3385
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3646
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01043404,0.06676425
+UPPER,2,0.04173617,0.11585137
+UPPER,3,0.08695035,0.14316757
+UPPER,4,0.29447760,0.17522496
+UPPER,5,0.33848000,0.18269985
+UPPER,6,0.38248240,0.17024171
+UPPER,7,0.38671600,0.13535890
+UPPER,8,0.49464000,0.08428345
+UPPER,9,0.88000000,0.03205151
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01043404,-0.04048817
+LOWER,2,0.04173617,-0.01952462
+LOWER,3,0.08695035,-0.04552278
+LOWER,4,0.29447760,-0.04653002
+LOWER,5,0.33848000,-0.06646305
+LOWER,6,0.38248240,-0.03905513
+LOWER,7,0.38671600,0.00330256
+LOWER,8,0.49464000,0.01859200
+LOWER,9,0.88000000,0.00954634
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

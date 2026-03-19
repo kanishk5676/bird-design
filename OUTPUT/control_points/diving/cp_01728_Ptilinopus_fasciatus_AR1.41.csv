@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ptilinopus_fasciatus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 130.90 mm
+# Secondary1: 92.60 mm
+# Kipps Distance: 38.90 mm
+# Hand-Wing Index: 29.60
+# Tail Length: 71.90 mm
+# Aspect Ratio: 1.414
+# Pointedness Index: 0.2972
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1126
+# Max Thickness Position: 0.3322
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3563
+# Leading Edge Radius: 0.0319
+# LE Droop: 0.0021
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.35e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00957866,0.05955193
+UPPER,2,0.03831462,0.10626815
+UPPER,3,0.07982213,0.13290674
+UPPER,4,0.28904880,0.16218863
+UPPER,5,0.33224000,0.16894559
+UPPER,6,0.37543120,0.15768399
+UPPER,7,0.37870800,0.12615151
+UPPER,8,0.48632000,0.07941264
+UPPER,9,0.88000000,0.03041453
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00957866,-0.03769062
+LOWER,2,0.03831462,-0.01632176
+LOWER,3,0.07982213,-0.03940566
+LOWER,4,0.28904880,-0.03826783
+LOWER,5,0.33224000,-0.05628639
+LOWER,6,0.37543120,-0.03151087
+LOWER,7,0.37870800,0.00677857
+LOWER,8,0.48632000,0.01915811
+LOWER,9,0.88000000,0.00957776
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

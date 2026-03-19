@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psarocolius_wagleri
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 182.00 mm
+# Secondary1: 125.40 mm
+# Kipps Distance: 51.30 mm
+# Hand-Wing Index: 28.50
+# Tail Length: 119.20 mm
+# Aspect Ratio: 1.451
+# Pointedness Index: 0.2819
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1116
+# Max Thickness Position: 0.3329
+# Max Camber/Chord: 0.0565
+# Max Camber Position: 0.3572
+# Leading Edge Radius: 0.0323
+# LE Droop: 0.0023
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00969037,0.06044224
+UPPER,2,0.03876149,0.10617143
+UPPER,3,0.08075310,0.13238536
+UPPER,4,0.28962300,0.16146475
+UPPER,5,0.33290000,0.16816179
+UPPER,6,0.37617700,0.15700005
+UPPER,7,0.37955500,0.12574717
+UPPER,8,0.48720000,0.07931560
+UPPER,9,0.88000000,0.03041626
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00969037,-0.03807149
+LOWER,2,0.03876149,-0.01592704
+LOWER,3,0.08075310,-0.03872769
+LOWER,4,0.28962300,-0.03721425
+LOWER,5,0.33290000,-0.05507304
+LOWER,6,0.37617700,-0.03051721
+LOWER,7,0.37955500,0.00743271
+LOWER,8,0.48720000,0.01943107
+LOWER,9,0.88000000,0.00967140
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

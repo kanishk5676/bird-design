@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chlorodrepanis_flava
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 62.00 mm
+# Secondary1: 45.20 mm
+# Kipps Distance: 16.80 mm
+# Hand-Wing Index: 27.00
+# Tail Length: 42.50 mm
+# Aspect Ratio: 1.372
+# Pointedness Index: 0.2710
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1183
+# Max Thickness Position: 0.3338
+# Max Camber/Chord: 0.0568
+# Max Camber Position: 0.3584
+# Leading Edge Radius: 0.0326
+# LE Droop: 0.0026
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00979186,0.06135119
+UPPER,2,0.03916746,0.11005113
+UPPER,3,0.08159887,0.13745407
+UPPER,4,0.29040600,0.16802529
+UPPER,5,0.33380000,0.17512302
+UPPER,6,0.37719400,0.16329346
+UPPER,7,0.38071000,0.13017072
+UPPER,8,0.48840000,0.08142612
+UPPER,9,0.88000000,0.03105809
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00979186,-0.03838746
+LOWER,2,0.03916746,-0.01796494
+LOWER,3,0.08159887,-0.04247075
+LOWER,4,0.29040600,-0.04254073
+LOWER,5,0.33380000,-0.06146802
+LOWER,6,0.37719400,-0.03544300
+LOWER,7,0.38071000,0.00477747
+LOWER,8,0.48840000,0.01867168
+LOWER,9,0.88000000,0.00947505
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

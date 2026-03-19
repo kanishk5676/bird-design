@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Coracias_caudatus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 161.20 mm
+# Secondary1: 109.20 mm
+# Kipps Distance: 52.80 mm
+# Hand-Wing Index: 32.50
+# Tail Length: 121.20 mm
+# Aspect Ratio: 1.476
+# Pointedness Index: 0.3275
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1091
+# Max Thickness Position: 0.3305
+# Max Camber/Chord: 0.0557
+# Max Camber Position: 0.3540
+# Leading Edge Radius: 0.0311
+# LE Droop: 0.0015
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.08e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00933503,0.05751017
+UPPER,2,0.03734011,0.10343041
+UPPER,3,0.07779190,0.12983654
+UPPER,4,0.28753500,0.15830002
+UPPER,5,0.33050000,0.16484676
+UPPER,6,0.37346500,0.15393552
+UPPER,7,0.37647500,0.12338405
+UPPER,8,0.48400000,0.07792569
+UPPER,9,0.88000000,0.02990805
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00933503,-0.03689011
+LOWER,2,0.03734011,-0.01540893
+LOWER,3,0.07779190,-0.03764737
+LOWER,4,0.28753500,-0.03592003
+LOWER,5,0.33050000,-0.05337801
+LOWER,6,0.37346500,-0.02937328
+LOWER,7,0.37647500,0.00772493
+LOWER,8,0.48400000,0.01927958
+LOWER,9,0.88000000,0.00956910
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

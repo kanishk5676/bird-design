@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Syrrhaptes_paradoxus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 235.80 mm
+# Secondary1: 66.80 mm
+# Kipps Distance: 166.00 mm
+# Hand-Wing Index: 71.20
+# Tail Length: 165.60 mm
+# Aspect Ratio: 3.530
+# Pointedness Index: 0.7040
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0760
+# Max Thickness Position: 0.3073
+# Max Camber/Chord: 0.0438
+# Max Camber Position: 0.3230
+# Leading Edge Radius: 0.0208
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.10e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00623095,0.03738570
+UPPER,2,0.02492380,0.07518255
+UPPER,3,0.05192458,0.09495789
+UPPER,4,0.26733360,0.11517089
+UPPER,5,0.30728000,0.11972862
+UPPER,6,0.34722640,0.11213240
+UPPER,7,0.34667600,0.09086298
+UPPER,8,0.45304000,0.05847086
+UPPER,9,0.88000000,0.02270821
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00623095,-0.02492380
+LOWER,2,0.02492380,-0.00898967
+LOWER,3,0.05192458,-0.02392554
+LOWER,4,0.26733360,-0.02004187
+LOWER,5,0.30728000,-0.03219582
+LOWER,6,0.34722640,-0.01548413
+LOWER,7,0.34667600,0.01034302
+LOWER,8,0.45304000,0.01650046
+LOWER,9,0.88000000,0.00790311
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

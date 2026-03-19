@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dendropicos_spodocephalus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 109.60 mm
+# Secondary1: 83.40 mm
+# Kipps Distance: 25.80 mm
+# Hand-Wing Index: 23.50
+# Tail Length: 58.10 mm
+# Aspect Ratio: 1.314
+# Pointedness Index: 0.2354
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1185
+# Max Thickness Position: 0.3359
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3612
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.86e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01008035,0.06378212
+UPPER,2,0.04032141,0.11137606
+UPPER,3,0.08400294,0.13816644
+UPPER,4,0.29223300,0.16883126
+UPPER,5,0.33590000,0.17594106
+UPPER,6,0.37956700,0.16409139
+UPPER,7,0.38340500,0.13091232
+UPPER,8,0.49120000,0.08200679
+UPPER,9,0.88000000,0.03130860
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01008035,-0.03933141
+LOWER,2,0.04032141,-0.01781341
+LOWER,3,0.08400294,-0.04230366
+LOWER,4,0.29223300,-0.04209284
+LOWER,5,0.33590000,-0.06105231
+LOWER,6,0.37956700,-0.03498304
+LOWER,7,0.38340500,0.00530584
+LOWER,8,0.49120000,0.01902598
+LOWER,9,0.88000000,0.00962123
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

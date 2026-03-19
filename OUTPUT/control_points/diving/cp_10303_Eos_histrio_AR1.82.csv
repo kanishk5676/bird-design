@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eos_histrio
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 161.80 mm
+# Secondary1: 88.70 mm
+# Kipps Distance: 76.50 mm
+# Hand-Wing Index: 46.40
+# Tail Length: 127.80 mm
+# Aspect Ratio: 1.824
+# Pointedness Index: 0.4728
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0980
+# Max Thickness Position: 0.3222
+# Max Camber/Chord: 0.0523
+# Max Camber Position: 0.3429
+# Leading Edge Radius: 0.0272
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.10e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00816885,0.04901310
+UPPER,2,0.03267540,0.09343854
+UPPER,3,0.06807375,0.11865303
+UPPER,4,0.28027920,0.14439049
+UPPER,5,0.32216000,0.15026876
+UPPER,6,0.36404080,0.14047165
+UPPER,7,0.36577200,0.11303972
+UPPER,8,0.47288000,0.07188489
+UPPER,9,0.88000000,0.02771078
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00816885,-0.03267540
+LOWER,2,0.03267540,-0.01304661
+LOWER,3,0.06807375,-0.03276638
+LOWER,4,0.28027920,-0.02999818
+LOWER,5,0.32216000,-0.04567356
+LOWER,6,0.36404080,-0.02411991
+LOWER,7,0.36577200,0.00919029
+LOWER,8,0.47288000,0.01870855
+LOWER,9,0.88000000,0.00915555
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

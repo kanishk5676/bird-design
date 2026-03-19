@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Zosterops_winifredae
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 61.80 mm
+# Secondary1: 51.10 mm
+# Kipps Distance: 10.70 mm
+# Hand-Wing Index: 17.30
+# Tail Length: 48.10 mm
+# Aspect Ratio: 1.209
+# Pointedness Index: 0.1731
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1262
+# Max Thickness Position: 0.3396
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3662
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01058761,0.06806566
+UPPER,2,0.04235044,0.11724876
+UPPER,3,0.08823009,0.14455103
+UPPER,4,0.29546940,0.17697718
+UPPER,5,0.33962000,0.18454678
+UPPER,6,0.38377060,0.17193078
+UPPER,7,0.38817900,0.13660598
+UPPER,8,0.49616000,0.08495356
+UPPER,9,0.88000000,0.03227977
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01058761,-0.04098844
+LOWER,2,0.04235044,-0.01993583
+LOWER,3,0.08823009,-0.04631488
+LOWER,4,0.29546940,-0.04758763
+LOWER,5,0.33962000,-0.06777323
+LOWER,6,0.38377060,-0.04001803
+LOWER,7,0.38817900,0.00287637
+LOWER,8,0.49616000,0.01853740
+LOWER,9,0.88000000,0.00955029
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

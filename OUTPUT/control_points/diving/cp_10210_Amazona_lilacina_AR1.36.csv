@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Amazona_lilacina
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 197.80 mm
+# Secondary1: 145.00 mm
+# Kipps Distance: 52.80 mm
+# Hand-Wing Index: 26.70
+# Tail Length: 108.40 mm
+# Aspect Ratio: 1.364
+# Pointedness Index: 0.2669
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1126
+# Max Thickness Position: 0.3340
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3586
+# Leading Edge Radius: 0.0327
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.04e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00982160,0.06158963
+UPPER,2,0.03928642,0.10729964
+UPPER,3,0.08184671,0.13338872
+UPPER,4,0.29056260,0.16270663
+UPPER,5,0.33398000,0.16946134
+UPPER,6,0.37739740,0.15820348
+UPPER,7,0.38094100,0.12668149
+UPPER,8,0.48864000,0.07987236
+UPPER,9,0.88000000,0.03062174
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00982160,-0.03848842
+LOWER,2,0.03928642,-0.01611617
+LOWER,3,0.08184671,-0.03912949
+LOWER,4,0.29056260,-0.03768322
+LOWER,5,0.33398000,-0.05569579
+LOWER,6,0.37739740,-0.03092851
+LOWER,7,0.38094100,0.00734821
+LOWER,8,0.48864000,0.01950632
+LOWER,9,0.88000000,0.00971755
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

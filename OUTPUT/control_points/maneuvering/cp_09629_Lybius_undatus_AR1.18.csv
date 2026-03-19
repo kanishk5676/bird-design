@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lybius_undatus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 80.20 mm
+# Secondary1: 68.20 mm
+# Kipps Distance: 12.30 mm
+# Hand-Wing Index: 15.30
+# Tail Length: 43.80 mm
+# Aspect Ratio: 1.176
+# Pointedness Index: 0.1534
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1266
+# Max Thickness Position: 0.3408
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3678
+# Leading Edge Radius: 0.0358
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.29e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01074965,0.06943790
+UPPER,2,0.04299860,0.11811298
+UPPER,3,0.08958042,0.14513956
+UPPER,4,0.29651340,0.17769264
+UPPER,5,0.34082000,0.18529112
+UPPER,6,0.38512660,0.17262698
+UPPER,7,0.38971900,0.13716741
+UPPER,8,0.49776000,0.08531188
+UPPER,9,0.88000000,0.03241822
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01074965,-0.04151660
+LOWER,2,0.04299860,-0.01999781
+LOWER,3,0.08958042,-0.04647308
+LOWER,4,0.29651340,-0.04772895
+LOWER,5,0.34082000,-0.06799157
+LOWER,6,0.38512660,-0.04013047
+LOWER,7,0.38971900,0.00292758
+LOWER,8,0.49776000,0.01863307
+LOWER,9,0.88000000,0.00959679
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phylloscopus_humei
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 54.60 mm
+# Secondary1: 40.50 mm
+# Kipps Distance: 13.00 mm
+# Hand-Wing Index: 24.80
+# Tail Length: 39.60 mm
+# Aspect Ratio: 1.348
+# Pointedness Index: 0.2381
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1202
+# Max Thickness Position: 0.3351
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3602
+# Leading Edge Radius: 0.0334
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01002683,0.06320101
+UPPER,2,0.04010734,0.11175904
+UPPER,3,0.08355695,0.13915981
+UPPER,4,0.29155440,0.17017280
+UPPER,5,0.33512000,0.17738240
+UPPER,6,0.37868560,0.16536640
+UPPER,7,0.38240400,0.13172160
+UPPER,8,0.49016000,0.08228384
+UPPER,9,0.88000000,0.03135731
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01002683,-0.03919534
+LOWER,2,0.04010734,-0.01842336
+LOWER,3,0.08355695,-0.04337050
+LOWER,4,0.29155440,-0.04371200
+LOWER,5,0.33512000,-0.06293760
+LOWER,6,0.37868560,-0.03650240
+LOWER,7,0.38240400,0.00435200
+LOWER,8,0.49016000,0.01865549
+LOWER,9,0.88000000,0.00949920
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

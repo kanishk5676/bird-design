@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ptyonoprogne_rupestris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 129.50 mm
+# Secondary1: 57.00 mm
+# Kipps Distance: 72.40 mm
+# Hand-Wing Index: 56.00
+# Tail Length: 59.40 mm
+# Aspect Ratio: 2.272
+# Pointedness Index: 0.5591
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0906
+# Max Thickness Position: 0.3164
+# Max Camber/Chord: 0.0494
+# Max Camber Position: 0.3352
+# Leading Edge Radius: 0.0248
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.86e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00743513,0.04461076
+UPPER,2,0.02974050,0.08727273
+UPPER,3,0.06195938,0.11066730
+UPPER,4,0.27526800,0.13455546
+UPPER,5,0.31640000,0.13999347
+UPPER,6,0.35753200,0.13093012
+UPPER,7,0.35838000,0.10555275
+UPPER,8,0.46520000,0.06733337
+UPPER,9,0.88000000,0.02600748
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00743513,-0.02974050
+LOWER,2,0.02974050,-0.01172671
+LOWER,3,0.06195938,-0.02986181
+LOWER,4,0.27526800,-0.02677211
+LOWER,5,0.31640000,-0.04127347
+LOWER,6,0.35753200,-0.02133410
+LOWER,7,0.35838000,0.00948127
+LOWER,8,0.46520000,0.01791451
+LOWER,9,0.88000000,0.00871466
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

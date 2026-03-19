@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Colluricincla_harmonica
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 123.20 mm
+# Secondary1: 100.50 mm
+# Kipps Distance: 23.90 mm
+# Hand-Wing Index: 19.20
+# Tail Length: 102.10 mm
+# Aspect Ratio: 1.226
+# Pointedness Index: 0.1940
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1213
+# Max Thickness Position: 0.3385
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3646
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01042311,0.06669868
+UPPER,2,0.04169245,0.11419990
+UPPER,3,0.08685928,0.14078946
+UPPER,4,0.29447760,0.17212020
+UPPER,5,0.33848000,0.17939691
+UPPER,6,0.38248240,0.16726906
+UPPER,7,0.38671600,0.13331108
+UPPER,8,0.49464000,0.08335862
+UPPER,9,0.88000000,0.03178727
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01042311,-0.04044445
+LOWER,2,0.04169245,-0.01846768
+LOWER,3,0.08685928,-0.04360707
+LOWER,4,0.29447760,-0.04375555
+LOWER,5,0.33848000,-0.06316011
+LOWER,6,0.38248240,-0.03647884
+LOWER,7,0.38671600,0.00475585
+LOWER,8,0.49464000,0.01905442
+LOWER,9,0.88000000,0.00967846
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

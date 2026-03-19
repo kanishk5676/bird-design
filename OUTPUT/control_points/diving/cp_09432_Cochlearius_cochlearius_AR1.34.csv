@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cochlearius_cochlearius
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 264.60 mm
+# Secondary1: 197.00 mm
+# Kipps Distance: 77.50 mm
+# Hand-Wing Index: 28.20
+# Tail Length: 117.00 mm
+# Aspect Ratio: 1.343
+# Pointedness Index: 0.2929
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1097
+# Max Thickness Position: 0.3331
+# Max Camber/Chord: 0.0566
+# Max Camber Position: 0.3574
+# Leading Edge Radius: 0.0321
+# LE Droop: 0.0024
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.95e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00964332,0.06021989
+UPPER,2,0.03857326,0.10531748
+UPPER,3,0.08036097,0.13105179
+UPPER,4,0.28977960,0.15971212
+UPPER,5,0.33308000,0.16629363
+UPPER,6,0.37638040,0.15532445
+UPPER,7,0.37978600,0.12461077
+UPPER,8,0.48744000,0.07882530
+UPPER,9,0.88000000,0.03028406
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00964332,-0.03786526
+LOWER,2,0.03857326,-0.01529069
+LOWER,3,0.08036097,-0.03758433
+LOWER,4,0.28977960,-0.03553915
+LOWER,5,0.33308000,-0.05308983
+LOWER,6,0.37638040,-0.02895765
+LOWER,7,0.37978600,0.00833754
+LOWER,8,0.48744000,0.01973634
+LOWER,9,0.88000000,0.00976281
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

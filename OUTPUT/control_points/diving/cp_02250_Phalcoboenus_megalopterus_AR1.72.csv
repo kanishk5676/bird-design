@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phalcoboenus_megalopterus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 371.80 mm
+# Secondary1: 216.00 mm
+# Kipps Distance: 167.00 mm
+# Hand-Wing Index: 43.60
+# Tail Length: 215.80 mm
+# Aspect Ratio: 1.721
+# Pointedness Index: 0.4492
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0954
+# Max Thickness Position: 0.3238
+# Max Camber/Chord: 0.0531
+# Max Camber Position: 0.3451
+# Leading Edge Radius: 0.0279
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.43e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00837509,0.05025055
+UPPER,2,0.03350037,0.09279485
+UPPER,3,0.06979244,0.11749203
+UPPER,4,0.28174080,0.14271989
+UPPER,5,0.32384000,0.14844238
+UPPER,6,0.36593920,0.13890490
+UPPER,7,0.36792800,0.11219996
+UPPER,8,0.47512000,0.07181240
+UPPER,9,0.88000000,0.02779567
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00837509,-0.03350037
+LOWER,2,0.03350037,-0.01194627
+LOWER,3,0.06979244,-0.03090628
+LOWER,4,0.28174080,-0.02704722
+LOWER,5,0.32384000,-0.04230718
+LOWER,6,0.36593920,-0.02132473
+LOWER,7,0.36792800,0.01110270
+LOWER,8,0.47512000,0.01954944
+LOWER,9,0.88000000,0.00945191
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

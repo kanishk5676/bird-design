@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Malacoptila_fulvogularis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 92.80 mm
+# Secondary1: 76.20 mm
+# Kipps Distance: 17.70 mm
+# Hand-Wing Index: 18.90
+# Tail Length: 94.10 mm
+# Aspect Ratio: 1.218
+# Pointedness Index: 0.1907
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1231
+# Max Thickness Position: 0.3387
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3649
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.50e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01044892,0.06691354
+UPPER,2,0.04179569,0.11521102
+UPPER,3,0.08707436,0.14214583
+UPPER,4,0.29463420,0.17388226
+UPPER,5,0.33866000,0.18126867
+UPPER,6,0.38268580,0.16895800
+UPPER,7,0.38694700,0.13448812
+UPPER,8,0.49488000,0.08390755
+UPPER,9,0.88000000,0.03195009
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01044892,-0.04052969
+LOWER,2,0.04179569,-0.01903745
+LOWER,3,0.08707436,-0.04464737
+LOWER,4,0.29463420,-0.04524765
+LOWER,5,0.33866000,-0.06494472
+LOWER,6,0.38268580,-0.03786124
+LOWER,7,0.38694700,0.00399503
+LOWER,8,0.49488000,0.01882549
+LOWER,9,0.88000000,0.00961623
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

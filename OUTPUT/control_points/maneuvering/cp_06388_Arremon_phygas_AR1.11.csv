@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Arremon_phygas
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 80.50 mm
+# Secondary1: 72.80 mm
+# Kipps Distance: 7.80 mm
+# Hand-Wing Index: 9.80
+# Tail Length: 85.70 mm
+# Aspect Ratio: 1.106
+# Pointedness Index: 0.0969
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1312
+# Max Thickness Position: 0.3441
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3722
+# Leading Edge Radius: 0.0374
+# LE Droop: 0.0060
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.25e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01120596,0.07327575
+UPPER,2,0.04482383,0.12200720
+UPPER,3,0.09338299,0.14897473
+UPPER,4,0.29938440,0.18257494
+UPPER,5,0.34412000,0.19044548
+UPPER,6,0.38885560,0.17732792
+UPPER,7,0.39395400,0.14059876
+UPPER,8,0.50216000,0.08710858
+UPPER,9,0.88000000,0.03301661
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01120596,-0.04301183
+LOWER,2,0.04482383,-0.02123172
+LOWER,3,0.09338299,-0.04881768
+LOWER,4,0.29938440,-0.05091759
+LOWER,5,0.34412000,-0.07190568
+LOWER,6,0.38885560,-0.04304705
+LOWER,7,0.39395400,0.00155265
+LOWER,8,0.50216000,0.01838276
+LOWER,9,0.88000000,0.00957045
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

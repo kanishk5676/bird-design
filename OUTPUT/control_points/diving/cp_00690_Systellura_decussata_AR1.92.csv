@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Systellura_decussata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 133.20 mm
+# Secondary1: 69.40 mm
+# Kipps Distance: 63.70 mm
+# Hand-Wing Index: 47.80
+# Tail Length: 96.70 mm
+# Aspect Ratio: 1.919
+# Pointedness Index: 0.4782
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0980
+# Max Thickness Position: 0.3213
+# Max Camber/Chord: 0.0519
+# Max Camber Position: 0.3418
+# Leading Edge Radius: 0.0270
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.40e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00809836,0.04859014
+UPPER,2,0.03239342,0.09309192
+UPPER,3,0.06748630,0.11827540
+UPPER,4,0.27954840,0.14397786
+UPPER,5,0.32132000,0.14985530
+UPPER,6,0.36309160,0.14005956
+UPPER,7,0.36469400,0.11263149
+UPPER,8,0.47176000,0.07154129
+UPPER,9,0.88000000,0.02755779
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00809836,-0.03239342
+LOWER,2,0.03239342,-0.01318210
+LOWER,3,0.06748630,-0.03294226
+LOWER,4,0.27954840,-0.03038632
+LOWER,5,0.32132000,-0.04605950
+LOWER,6,0.36309160,-0.02450887
+LOWER,7,0.36469400,0.00879664
+LOWER,8,0.47176000,0.01846266
+LOWER,9,0.88000000,0.00905618
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

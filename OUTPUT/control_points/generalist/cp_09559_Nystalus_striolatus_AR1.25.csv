@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nystalus_striolatus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 84.20 mm
+# Secondary1: 67.60 mm
+# Kipps Distance: 18.40 mm
+# Hand-Wing Index: 21.50
+# Tail Length: 65.40 mm
+# Aspect Ratio: 1.246
+# Pointedness Index: 0.2185
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1216
+# Max Thickness Position: 0.3371
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3628
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.33e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01022761,0.06506566
+UPPER,2,0.04091044,0.11358739
+UPPER,3,0.08523009,0.14067595
+UPPER,4,0.29327700,0.17204221
+UPPER,5,0.33710000,0.17933622
+UPPER,6,0.38092300,0.16717953
+UPPER,7,0.38494500,0.13314082
+UPPER,8,0.49280000,0.08314269
+UPPER,9,0.88000000,0.03167771
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01022761,-0.03980044
+LOWER,2,0.04091044,-0.01868211
+LOWER,3,0.08523009,-0.04393486
+LOWER,4,0.29327700,-0.04434677
+LOWER,5,0.33710000,-0.06379747
+LOWER,6,0.38092300,-0.03705276
+LOWER,7,0.38494500,0.00427996
+LOWER,8,0.49280000,0.01879765
+LOWER,9,0.88000000,0.00957967
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

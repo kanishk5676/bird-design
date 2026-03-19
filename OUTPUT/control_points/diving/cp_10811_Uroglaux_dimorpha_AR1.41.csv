@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Uroglaux_dimorpha
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 208.50 mm
+# Secondary1: 147.60 mm
+# Kipps Distance: 60.90 mm
+# Hand-Wing Index: 29.20
+# Tail Length: 130.80 mm
+# Aspect Ratio: 1.413
+# Pointedness Index: 0.2921
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1103
+# Max Thickness Position: 0.3325
+# Max Camber/Chord: 0.0564
+# Max Camber Position: 0.3566
+# Leading Edge Radius: 0.0321
+# LE Droop: 0.0022
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.33e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00961684,0.05986104
+UPPER,2,0.03846736,0.10524447
+UPPER,3,0.08014033,0.13129348
+UPPER,4,0.28925760,0.16006658
+UPPER,5,0.33248000,0.16668306
+UPPER,6,0.37570240,0.15565559
+UPPER,7,0.37901600,0.12477869
+UPPER,8,0.48664000,0.07882404
+UPPER,9,0.88000000,0.03025716
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00961684,-0.03781936
+LOWER,2,0.03846736,-0.01554495
+LOWER,3,0.08014033,-0.03801144
+LOWER,4,0.28925760,-0.03622231
+LOWER,5,0.33248000,-0.05386626
+LOWER,6,0.37570240,-0.02960583
+LOWER,7,0.37901600,0.00788755
+LOWER,8,0.48664000,0.01953476
+LOWER,9,0.88000000,0.00969111
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

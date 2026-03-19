@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Threnetes_niger
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 58.80 mm
+# Secondary1: 21.40 mm
+# Kipps Distance: 37.50 mm
+# Hand-Wing Index: 63.80
+# Tail Length: 33.40 mm
+# Aspect Ratio: 2.748
+# Pointedness Index: 0.6378
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0871
+# Max Thickness Position: 0.3117
+# Max Camber/Chord: 0.0466
+# Max Camber Position: 0.3290
+# Leading Edge Radius: 0.0227
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00679517,0.04077101
+UPPER,2,0.02718068,0.08319513
+UPPER,3,0.05662641,0.10562428
+UPPER,4,0.27119640,0.12851977
+UPPER,5,0.31172000,0.13374653
+UPPER,6,0.35224360,0.12503527
+UPPER,7,0.35237400,0.10064373
+UPPER,8,0.45896000,0.06403035
+UPPER,9,0.88000000,0.02468989
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00679517,-0.02718068
+LOWER,2,0.02718068,-0.01155418
+LOWER,3,0.05662641,-0.02907373
+LOWER,4,0.27119640,-0.02654071
+LOWER,5,0.31172000,-0.04047873
+LOWER,6,0.35224360,-0.02131395
+LOWER,7,0.35237400,0.00830434
+LOWER,8,0.45896000,0.01671725
+LOWER,9,0.88000000,0.00817397
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

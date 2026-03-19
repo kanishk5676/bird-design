@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ducula_salvadorii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 248.90 mm
+# Secondary1: 171.20 mm
+# Kipps Distance: 77.80 mm
+# Hand-Wing Index: 31.20
+# Tail Length: 135.30 mm
+# Aspect Ratio: 1.454
+# Pointedness Index: 0.3126
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1076
+# Max Thickness Position: 0.3313
+# Max Camber/Chord: 0.0560
+# Max Camber Position: 0.3550
+# Leading Edge Radius: 0.0315
+# LE Droop: 0.0018
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.49e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00945115,0.05846687
+UPPER,2,0.03780458,0.10318945
+UPPER,3,0.07875955,0.12903246
+UPPER,4,0.28821360,0.15719554
+UPPER,5,0.33128000,0.16365442
+UPPER,6,0.37434640,0.15288962
+UPPER,7,0.37747600,0.12274817
+UPPER,8,0.48504000,0.07774689
+UPPER,9,0.88000000,0.02989427
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00945115,-0.03727658
+LOWER,2,0.03780458,-0.01484513
+LOWER,3,0.07875955,-0.03667291
+LOWER,4,0.28821360,-0.03441794
+LOWER,5,0.33128000,-0.05164162
+LOWER,6,0.37434640,-0.02795906
+LOWER,7,0.37747600,0.00864127
+LOWER,8,0.48504000,0.01965324
+LOWER,9,0.88000000,0.00969568
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

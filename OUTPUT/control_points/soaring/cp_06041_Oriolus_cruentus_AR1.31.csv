@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Oriolus_cruentus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 127.90 mm
+# Secondary1: 97.70 mm
+# Kipps Distance: 27.70 mm
+# Hand-Wing Index: 22.10
+# Tail Length: 90.80 mm
+# Aspect Ratio: 1.309
+# Pointedness Index: 0.2166
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1187
+# Max Thickness Position: 0.3367
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3623
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01021921,0.06489523
+UPPER,2,0.04087682,0.11197643
+UPPER,3,0.08516004,0.13855796
+UPPER,4,0.29296380,0.16929624
+UPPER,5,0.33674000,0.17642107
+UPPER,6,0.38051620,0.16454636
+UPPER,7,0.38448300,0.13129717
+UPPER,8,0.49232000,0.08227207
+UPPER,9,0.88000000,0.03141588
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01021921,-0.03980282
+LOWER,2,0.04087682,-0.01781318
+LOWER,3,0.08516004,-0.04234329
+LOWER,4,0.29296380,-0.04207358
+LOWER,5,0.33674000,-0.06107312
+LOWER,6,0.38051620,-0.03494876
+LOWER,7,0.38448300,0.00542525
+LOWER,8,0.49232000,0.01913327
+LOWER,9,0.88000000,0.00966861
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

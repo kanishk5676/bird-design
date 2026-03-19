@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rubigula_melanictera
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 72.00 mm
+# Secondary1: 63.60 mm
+# Kipps Distance: 8.40 mm
+# Hand-Wing Index: 11.70
+# Tail Length: 70.60 mm
+# Aspect Ratio: 1.132
+# Pointedness Index: 0.1167
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1303
+# Max Thickness Position: 0.3430
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3706
+# Leading Edge Radius: 0.0368
+# LE Droop: 0.0057
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01104698,0.07194188
+UPPER,2,0.04418792,0.12100731
+UPPER,3,0.09205817,0.14814200
+UPPER,4,0.29839260,0.18152742
+UPPER,5,0.34298000,0.18934367
+UPPER,6,0.38756740,0.17631658
+UPPER,7,0.39249100,0.13984073
+UPPER,8,0.50064000,0.08668771
+UPPER,9,0.88000000,0.03286933
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01104698,-0.04248992
+LOWER,2,0.04418792,-0.02101122
+LOWER,3,0.09205817,-0.04838364
+LOWER,4,0.29839260,-0.05035478
+LOWER,5,0.34298000,-0.07119812
+LOWER,6,0.38756740,-0.04253852
+LOWER,7,0.39249100,0.00175358
+LOWER,8,0.50064000,0.01838720
+LOWER,9,0.88000000,0.00955736
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

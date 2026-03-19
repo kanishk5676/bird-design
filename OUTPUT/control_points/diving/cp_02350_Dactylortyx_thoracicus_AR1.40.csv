@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dactylortyx_thoracicus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 125.60 mm
+# Secondary1: 89.60 mm
+# Kipps Distance: 38.10 mm
+# Hand-Wing Index: 29.90
+# Tail Length: 42.60 mm
+# Aspect Ratio: 1.402
+# Pointedness Index: 0.3033
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1120
+# Max Thickness Position: 0.3321
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3561
+# Leading Edge Radius: 0.0318
+# LE Droop: 0.0020
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.55e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00953801,0.05924804
+UPPER,2,0.03815202,0.10585595
+UPPER,3,0.07948338,0.13241770
+UPPER,4,0.28889220,0.16156215
+UPPER,5,0.33206000,0.16828293
+UPPER,6,0.37522780,0.15708163
+UPPER,7,0.37847700,0.12571800
+UPPER,8,0.48608000,0.07919311
+UPPER,9,0.88000000,0.03034363
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00953801,-0.03754602
+LOWER,2,0.03815202,-0.01614965
+LOWER,3,0.07948338,-0.03908332
+LOWER,4,0.28889220,-0.03782090
+LOWER,5,0.33206000,-0.05574298
+LOWER,6,0.37522780,-0.03110013
+LOWER,7,0.37847700,0.00698428
+LOWER,8,0.48608000,0.01920557
+LOWER,9,0.88000000,0.00958698
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

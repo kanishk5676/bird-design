@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Surniculus_velutinus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 111.00 mm
+# Secondary1: 83.00 mm
+# Kipps Distance: 29.00 mm
+# Hand-Wing Index: 25.90
+# Tail Length: 100.80 mm
+# Aspect Ratio: 1.337
+# Pointedness Index: 0.2613
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1165
+# Max Thickness Position: 0.3345
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3593
+# Leading Edge Radius: 0.0329
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.89e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00987503,0.06207017
+UPPER,2,0.03950011,0.10954650
+UPPER,3,0.08229190,0.13634965
+UPPER,4,0.29098020,0.16654308
+UPPER,5,0.33446000,0.17353341
+UPPER,6,0.37793980,0.16188287
+UPPER,7,0.38155700,0.12926135
+UPPER,8,0.48928000,0.08109530
+UPPER,9,0.88000000,0.03099107
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00987503,-0.03865411
+LOWER,2,0.03950011,-0.01732195
+LOWER,3,0.08229190,-0.04134028
+LOWER,4,0.29098020,-0.04083659
+LOWER,5,0.33446000,-0.05947746
+LOWER,6,0.37793980,-0.03384626
+LOWER,7,0.38155700,0.00576558
+LOWER,8,0.48928000,0.01904658
+LOWER,9,0.88000000,0.00959678
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Atthis_heloisa
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 34.40 mm
+# Secondary1: 11.50 mm
+# Kipps Distance: 22.90 mm
+# Hand-Wing Index: 66.50
+# Tail Length: 21.00 mm
+# Aspect Ratio: 2.991
+# Pointedness Index: 0.6657
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0868
+# Max Thickness Position: 0.3101
+# Max Camber/Chord: 0.0456
+# Max Camber Position: 0.3268
+# Leading Edge Radius: 0.0219
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00657004,0.03942025
+UPPER,2,0.02628017,0.08217647
+UPPER,3,0.05475035,0.10446583
+UPPER,4,0.26978700,0.12721138
+UPPER,5,0.31010000,0.13241938
+UPPER,6,0.35041300,0.12373938
+UPPER,7,0.35029500,0.09943538
+UPPER,8,0.45680000,0.06308047
+UPPER,9,0.88000000,0.02427936
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00657004,-0.02628017
+LOWER,2,0.02628017,-0.01180922
+LOWER,3,0.05475035,-0.02935909
+LOWER,4,0.26978700,-0.02729263
+LOWER,5,0.31010000,-0.04118063
+LOWER,6,0.35041300,-0.02208463
+LOWER,7,0.35029500,0.00742737
+LOWER,8,0.45680000,0.01613201
+LOWER,9,0.88000000,0.00793284
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

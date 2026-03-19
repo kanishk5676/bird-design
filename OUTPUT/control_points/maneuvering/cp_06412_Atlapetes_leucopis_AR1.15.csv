@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Atlapetes_leucopis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 79.80 mm
+# Secondary1: 69.10 mm
+# Kipps Distance: 10.70 mm
+# Hand-Wing Index: 13.30
+# Tail Length: 85.20 mm
+# Aspect Ratio: 1.155
+# Pointedness Index: 0.1341
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1284
+# Max Thickness Position: 0.3420
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3694
+# Leading Edge Radius: 0.0364
+# LE Droop: 0.0053
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.24e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01090919,0.07079511
+UPPER,2,0.04363674,0.11961079
+UPPER,3,0.09090988,0.14664653
+UPPER,4,0.29755740,0.17961120
+UPPER,5,0.34202000,0.18731663
+UPPER,6,0.38648260,0.17447425
+UPPER,7,0.39125900,0.13851557
+UPPER,8,0.49936000,0.08601754
+UPPER,9,0.88000000,0.03265316
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01090919,-0.04203474
+LOWER,2,0.04363674,-0.02048316
+LOWER,3,0.09090988,-0.04739516
+LOWER,4,0.29755740,-0.04898327
+LOWER,5,0.34202000,-0.06953108
+LOWER,6,0.38648260,-0.04127783
+LOWER,7,0.39125900,0.00238628
+LOWER,8,0.49936000,0.01853418
+LOWER,9,0.88000000,0.00958624
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

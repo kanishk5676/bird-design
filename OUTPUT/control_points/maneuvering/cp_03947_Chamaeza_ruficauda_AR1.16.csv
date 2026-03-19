@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chamaeza_ruficauda
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 87.90 mm
+# Secondary1: 75.90 mm
+# Kipps Distance: 13.20 mm
+# Hand-Wing Index: 14.80
+# Tail Length: 74.90 mm
+# Aspect Ratio: 1.158
+# Pointedness Index: 0.1502
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1267
+# Max Thickness Position: 0.3411
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3682
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.40e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01078125,0.06972750
+UPPER,2,0.04312500,0.11828969
+UPPER,3,0.08984375,0.14523098
+UPPER,4,0.29677440,0.17779940
+UPPER,5,0.34112000,0.18540070
+UPPER,6,0.38546560,0.17273187
+UPPER,7,0.39010400,0.13725915
+UPPER,8,0.49816000,0.08537826
+UPPER,9,0.88000000,0.03244578
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01078125,-0.04161300
+LOWER,2,0.04312500,-0.01999092
+LOWER,3,0.08984375,-0.04647151
+LOWER,4,0.29677440,-0.04770577
+LOWER,5,0.34112000,-0.06797590
+LOWER,6,0.38546560,-0.04010447
+LOWER,7,0.39010400,0.00296955
+LOWER,8,0.49816000,0.01866533
+LOWER,9,0.88000000,0.00961057
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

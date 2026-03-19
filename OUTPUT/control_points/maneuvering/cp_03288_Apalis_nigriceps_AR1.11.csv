@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Apalis_nigriceps
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 46.60 mm
+# Secondary1: 41.80 mm
+# Kipps Distance: 4.80 mm
+# Hand-Wing Index: 10.20
+# Tail Length: 43.80 mm
+# Aspect Ratio: 1.115
+# Pointedness Index: 0.1030
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1318
+# Max Thickness Position: 0.3439
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3718
+# Leading Edge Radius: 0.0372
+# LE Droop: 0.0060
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01116256,0.07293535
+UPPER,2,0.04465023,0.12222542
+UPPER,3,0.09302132,0.14941631
+UPPER,4,0.29917560,0.18315950
+UPPER,5,0.34388000,0.19106990
+UPPER,6,0.38858440,0.17788590
+UPPER,7,0.39364600,0.14097070
+UPPER,8,0.50184000,0.08726062
+UPPER,9,0.88000000,0.03305456
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01116256,-0.04286223
+LOWER,2,0.04465023,-0.02145834
+LOWER,3,0.09302132,-0.04922145
+LOWER,4,0.29917560,-0.05151570
+LOWER,5,0.34388000,-0.07261010
+LOWER,6,0.38858440,-0.04360530
+LOWER,7,0.39364600,0.00122030
+LOWER,8,0.50184000,0.01826494
+LOWER,9,0.88000000,0.00953387
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

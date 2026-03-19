@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rollandia_rolland
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 134.60 mm
+# Secondary1: 88.70 mm
+# Kipps Distance: 45.50 mm
+# Hand-Wing Index: 34.00
+# Tail Length: 42.00 mm
+# Aspect Ratio: 1.517
+# Pointedness Index: 0.3380
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1081
+# Max Thickness Position: 0.3296
+# Max Camber/Chord: 0.0554
+# Max Camber Position: 0.3528
+# Leading Edge Radius: 0.0308
+# LE Droop: 0.0012
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.93e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00923560,0.05661362
+UPPER,2,0.03694241,0.10236776
+UPPER,3,0.07696336,0.12883694
+UPPER,4,0.28675200,0.15706021
+UPPER,5,0.32960000,0.16354852
+UPPER,6,0.37244800,0.15273467
+UPPER,7,0.37532000,0.12245588
+UPPER,8,0.48280000,0.07737729
+UPPER,9,0.88000000,0.02970688
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00923560,-0.03658241
+LOWER,2,0.03694241,-0.01521083
+LOWER,3,0.07696336,-0.03723174
+LOWER,4,0.28675200,-0.03542636
+LOWER,5,0.32960000,-0.05272852
+LOWER,6,0.37244800,-0.02893805
+LOWER,7,0.37532000,0.00782905
+LOWER,8,0.48280000,0.01921481
+LOWER,9,0.88000000,0.00952696
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

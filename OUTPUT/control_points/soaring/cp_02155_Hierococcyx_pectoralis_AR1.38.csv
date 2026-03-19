@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hierococcyx_pectoralis
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 171.20 mm
+# Secondary1: 124.20 mm
+# Kipps Distance: 47.00 mm
+# Hand-Wing Index: 27.40
+# Tail Length: 140.20 mm
+# Aspect Ratio: 1.378
+# Pointedness Index: 0.2745
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1128
+# Max Thickness Position: 0.3336
+# Max Camber/Chord: 0.0568
+# Max Camber Position: 0.3581
+# Leading Edge Radius: 0.0325
+# LE Droop: 0.0025
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.34e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00976144,0.06108866
+UPPER,2,0.03904577,0.10718423
+UPPER,3,0.08134536,0.13346355
+UPPER,4,0.29019720,0.16283040
+UPPER,5,0.33356000,0.16960129
+UPPER,6,0.37692280,0.15831647
+UPPER,7,0.38040200,0.12671898
+UPPER,8,0.48808000,0.07983763
+UPPER,9,0.88000000,0.03059403
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00976144,-0.03828977
+LOWER,2,0.03904577,-0.01624784
+LOWER,3,0.08134536,-0.03934552
+LOWER,4,0.29019720,-0.03803938
+LOWER,5,0.33356000,-0.05609509
+LOWER,6,0.37692280,-0.03126849
+LOWER,7,0.38040200,0.00709990
+LOWER,8,0.48808000,0.01938818
+LOWER,9,0.88000000,0.00967435
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

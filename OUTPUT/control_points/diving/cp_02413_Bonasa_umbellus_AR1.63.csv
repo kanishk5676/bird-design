@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bonasa_umbellus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 183.20 mm
+# Secondary1: 112.20 mm
+# Kipps Distance: 69.80 mm
+# Hand-Wing Index: 38.30
+# Tail Length: 152.00 mm
+# Aspect Ratio: 1.633
+# Pointedness Index: 0.3810
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1037
+# Max Thickness Position: 0.3270
+# Max Camber/Chord: 0.0544
+# Max Camber Position: 0.3494
+# Leading Edge Radius: 0.0296
+# LE Droop: 0.0003
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.65e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00888490,0.05364939
+UPPER,2,0.03553959,0.09846495
+UPPER,3,0.07404081,0.12475692
+UPPER,4,0.28450740,0.15193307
+UPPER,5,0.32702000,0.15815745
+UPPER,6,0.36953260,0.14778348
+UPPER,7,0.37200900,0.11873638
+UPPER,8,0.47936000,0.07530222
+UPPER,9,0.88000000,0.02897793
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00888490,-0.03543759
+LOWER,2,0.03553959,-0.01415048
+LOWER,3,0.07404081,-0.03513684
+LOWER,4,0.28450740,-0.03272355
+LOWER,5,0.32702000,-0.04932190
+LOWER,6,0.36953260,-0.02649917
+LOWER,7,0.37200900,0.00877232
+LOWER,8,0.47936000,0.01921547
+LOWER,9,0.88000000,0.00945486
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

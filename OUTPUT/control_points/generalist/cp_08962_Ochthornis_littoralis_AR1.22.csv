@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ochthornis_littoralis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 70.20 mm
+# Secondary1: 57.50 mm
+# Kipps Distance: 12.30 mm
+# Hand-Wing Index: 17.60
+# Tail Length: 54.60 mm
+# Aspect Ratio: 1.221
+# Pointedness Index: 0.1752
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1257
+# Max Thickness Position: 0.3394
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3659
+# Leading Edge Radius: 0.0352
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01056785,0.06788710
+UPPER,2,0.04227140,0.11691878
+UPPER,3,0.08806542,0.14417477
+UPPER,4,0.29531280,0.17649423
+UPPER,5,0.33944000,0.18403563
+UPPER,6,0.38356720,0.17146663
+UPPER,7,0.38794800,0.13627342
+UPPER,8,0.49592000,0.08478697
+UPPER,9,0.88000000,0.03222653
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01056785,-0.04092740
+LOWER,2,0.04227140,-0.01979985
+LOWER,3,0.08806542,-0.04606124
+LOWER,4,0.29531280,-0.04723403
+LOWER,5,0.33944000,-0.06734443
+LOWER,6,0.38356720,-0.03969262
+LOWER,7,0.38794800,0.00304199
+LOWER,8,0.49592000,0.01857767
+LOWER,9,0.88000000,0.00955880
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

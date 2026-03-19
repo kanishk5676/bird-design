@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bostrychia_olivacea
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 347.00 mm
+# Secondary1: 255.90 mm
+# Kipps Distance: 91.10 mm
+# Hand-Wing Index: 26.30
+# Tail Length: 143.50 mm
+# Aspect Ratio: 1.356
+# Pointedness Index: 0.2625
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1096
+# Max Thickness Position: 0.3342
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3590
+# Leading Edge Radius: 0.0329
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.59e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00985629,0.06187772
+UPPER,2,0.03942515,0.10596349
+UPPER,3,0.08213572,0.13132727
+UPPER,4,0.29077140,0.16000061
+UPPER,5,0.33422000,0.16657794
+UPPER,6,0.37766860,0.15561573
+UPPER,7,0.38124900,0.12492152
+UPPER,8,0.48896000,0.07910662
+UPPER,9,0.88000000,0.03041297
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00985629,-0.03860315
+LOWER,2,0.03942515,-0.01514457
+LOWER,3,0.08213572,-0.03738120
+LOWER,4,0.29077140,-0.03512685
+LOWER,5,0.33422000,-0.05266639
+LOWER,6,0.37766860,-0.02854952
+LOWER,7,0.38124900,0.00872202
+LOWER,8,0.48896000,0.01996548
+LOWER,9,0.88000000,0.00985406
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Megascops_sanctaecatarinae
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 200.70 mm
+# Secondary1: 163.00 mm
+# Kipps Distance: 37.60 mm
+# Hand-Wing Index: 18.80
+# Tail Length: 102.30 mm
+# Aspect Ratio: 1.231
+# Pointedness Index: 0.1873
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1188
+# Max Thickness Position: 0.3387
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3650
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.12e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01046926,0.06705558
+UPPER,2,0.04187706,0.11309728
+UPPER,3,0.08724387,0.13906885
+UPPER,4,0.29468640,0.16986219
+UPPER,5,0.33872000,0.17699107
+UPPER,6,0.38275360,0.16510960
+UPPER,7,0.38702400,0.13184150
+UPPER,8,0.49496000,0.08271805
+UPPER,9,0.88000000,0.03161221
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01046926,-0.04060506
+LOWER,2,0.04187706,-0.01765896
+LOWER,3,0.08724387,-0.04215137
+LOWER,4,0.29468640,-0.04162792
+LOWER,5,0.33872000,-0.06063827
+LOWER,6,0.38275360,-0.03449904
+LOWER,7,0.38702400,0.00589794
+LOWER,8,0.49496000,0.01943531
+LOWER,9,0.88000000,0.00979151
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

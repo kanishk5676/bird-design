@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Strix_occidentalis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 320.00 mm
+# Secondary1: 214.40 mm
+# Kipps Distance: 105.60 mm
+# Hand-Wing Index: 33.00
+# Tail Length: 190.40 mm
+# Aspect Ratio: 1.493
+# Pointedness Index: 0.3300
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1047
+# Max Thickness Position: 0.3302
+# Max Camber/Chord: 0.0556
+# Max Camber Position: 0.3536
+# Leading Edge Radius: 0.0310
+# LE Droop: 0.0014
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.69e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00930720,0.05724320
+UPPER,2,0.03722880,0.10105281
+UPPER,3,0.07756000,0.12658928
+UPPER,4,0.28727400,0.15408203
+UPPER,5,0.33020000,0.16036636
+UPPER,6,0.37312600,0.14989247
+UPPER,7,0.37609000,0.12056559
+UPPER,8,0.48360000,0.07661026
+UPPER,9,0.88000000,0.02951756
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00930720,-0.03680880
+LOWER,2,0.03722880,-0.01404681
+LOWER,3,0.07756000,-0.03515989
+LOWER,4,0.28727400,-0.03235314
+LOWER,5,0.33020000,-0.04911136
+LOWER,6,0.37312600,-0.02606881
+LOWER,7,0.37609000,0.00954240
+LOWER,8,0.48360000,0.01982561
+LOWER,9,0.88000000,0.00971732
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

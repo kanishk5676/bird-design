@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Vidua_orientalis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 74.70 mm
+# Secondary1: 57.50 mm
+# Kipps Distance: 16.40 mm
+# Hand-Wing Index: 22.10
+# Tail Length: 60.20 mm
+# Aspect Ratio: 1.299
+# Pointedness Index: 0.2195
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1217
+# Max Thickness Position: 0.3367
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3623
+# Leading Edge Radius: 0.0340
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.14e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01020406,0.06480437
+UPPER,2,0.04081625,0.11347702
+UPPER,3,0.08503384,0.14071881
+UPPER,4,0.29296380,0.17211735
+UPPER,5,0.33674000,0.17942225
+UPPER,6,0.38051620,0.16724742
+UPPER,7,0.38448300,0.13315790
+UPPER,8,0.49232000,0.08311240
+UPPER,9,0.88000000,0.03165597
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01020406,-0.03974225
+LOWER,2,0.04081625,-0.01877356
+LOWER,3,0.08503384,-0.04408397
+LOWER,4,0.29296380,-0.04459457
+LOWER,5,0.33674000,-0.06407430
+LOWER,6,0.38051620,-0.03728968
+LOWER,7,0.38448300,0.00410473
+LOWER,8,0.49232000,0.01871311
+LOWER,9,0.88000000,0.00954856
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

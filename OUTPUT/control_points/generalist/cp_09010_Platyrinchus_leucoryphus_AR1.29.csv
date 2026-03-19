@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Platyrinchus_leucoryphus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 76.10 mm
+# Secondary1: 59.10 mm
+# Kipps Distance: 17.00 mm
+# Hand-Wing Index: 22.40
+# Tail Length: 46.20 mm
+# Aspect Ratio: 1.288
+# Pointedness Index: 0.2234
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1212
+# Max Thickness Position: 0.3366
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3621
+# Leading Edge Radius: 0.0339
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.23e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01017527,0.06457162
+UPPER,2,0.04070108,0.11308669
+UPPER,3,0.08479391,0.14025785
+UPPER,4,0.29280720,0.17152527
+UPPER,5,0.33656000,0.17879546
+UPPER,6,0.38031280,0.16667847
+UPPER,7,0.38425200,0.13275091
+UPPER,8,0.49208000,0.08290932
+UPPER,9,0.88000000,0.03159132
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01017527,-0.03964508
+LOWER,2,0.04070108,-0.01860540
+LOWER,3,0.08479391,-0.04377074
+LOWER,4,0.29280720,-0.04415708
+LOWER,5,0.33656000,-0.06354426
+LOWER,6,0.38031280,-0.03688689
+LOWER,7,0.38425200,0.00431086
+LOWER,8,0.49208000,0.01876409
+LOWER,9,0.88000000,0.00955961
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

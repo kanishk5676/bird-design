@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pseudosaltator_rufiventris
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 116.10 mm
+# Secondary1: 96.80 mm
+# Kipps Distance: 19.60 mm
+# Hand-Wing Index: 16.80
+# Tail Length: 103.60 mm
+# Aspect Ratio: 1.199
+# Pointedness Index: 0.1688
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1235
+# Max Thickness Position: 0.3399
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3666
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01062494,0.06838963
+UPPER,2,0.04249975,0.11609271
+UPPER,3,0.08854115,0.14272177
+UPPER,4,0.29573040,0.17457537
+UPPER,5,0.33992000,0.18198735
+UPPER,6,0.38410960,0.16963405
+UPPER,7,0.38856400,0.13504483
+UPPER,8,0.49656000,0.08427547
+UPPER,9,0.88000000,0.03209531
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01062494,-0.04110775
+LOWER,2,0.04249975,-0.01907150
+LOWER,3,0.08854115,-0.04476009
+LOWER,4,0.29573040,-0.04531328
+LOWER,5,0.33992000,-0.06507855
+LOWER,6,0.38410960,-0.03790130
+LOWER,7,0.38856400,0.00409990
+LOWER,8,0.49656000,0.01894712
+LOWER,9,0.88000000,0.00967228
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

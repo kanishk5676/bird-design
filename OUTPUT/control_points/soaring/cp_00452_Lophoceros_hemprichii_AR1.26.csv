@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lophoceros_hemprichii
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 279.10 mm
+# Secondary1: 221.10 mm
+# Kipps Distance: 58.70 mm
+# Hand-Wing Index: 20.90
+# Tail Length: 248.90 mm
+# Aspect Ratio: 1.262
+# Pointedness Index: 0.2103
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1152
+# Max Thickness Position: 0.3375
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3633
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.40e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01028783,0.06554700
+UPPER,2,0.04115133,0.11061365
+UPPER,3,0.08573195,0.13619252
+UPPER,4,0.29359020,0.16617001
+UPPER,5,0.33746000,0.17308322
+UPPER,6,0.38132980,0.16156120
+UPPER,7,0.38540700,0.12929953
+UPPER,8,0.49328000,0.08144520
+UPPER,9,0.88000000,0.03120555
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01028783,-0.04000533
+LOWER,2,0.04115133,-0.01661844
+LOWER,3,0.08573195,-0.04021078
+LOWER,4,0.29359020,-0.03892203
+LOWER,5,0.33746000,-0.05735727
+LOWER,6,0.38132980,-0.03200882
+LOWER,7,0.38540700,0.00716607
+LOWER,8,0.49328000,0.01974421
+LOWER,9,0.88000000,0.00985693
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

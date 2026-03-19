@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ploceus_megarhynchus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 77.00 mm
+# Secondary1: 60.50 mm
+# Kipps Distance: 16.50 mm
+# Hand-Wing Index: 21.40
+# Tail Length: 57.50 mm
+# Aspect Ratio: 1.273
+# Pointedness Index: 0.2143
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1221
+# Max Thickness Position: 0.3372
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3629
+# Leading Edge Radius: 0.0342
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.19e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01025230,0.06523382
+UPPER,2,0.04100921,0.11390788
+UPPER,3,0.08543586,0.14110388
+UPPER,4,0.29332920,0.17259772
+UPPER,5,0.33716000,0.17992619
+UPPER,6,0.38099080,0.16771208
+UPPER,7,0.38502200,0.13351258
+UPPER,8,0.49288000,0.08331684
+UPPER,9,0.88000000,0.03172963
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01025230,-0.03989321
+LOWER,2,0.04100921,-0.01886036
+LOWER,3,0.08543586,-0.04426069
+LOWER,4,0.29332920,-0.04481342
+LOWER,5,0.33716000,-0.06435599
+LOWER,6,0.38099080,-0.03748495
+LOWER,7,0.38502200,0.00404302
+LOWER,8,0.49288000,0.01872701
+LOWER,9,0.88000000,0.00956063
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

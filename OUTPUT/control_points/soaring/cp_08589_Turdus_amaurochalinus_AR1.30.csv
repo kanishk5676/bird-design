@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Turdus_amaurochalinus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 116.10 mm
+# Secondary1: 89.10 mm
+# Kipps Distance: 27.30 mm
+# Hand-Wing Index: 23.40
+# Tail Length: 95.70 mm
+# Aspect Ratio: 1.303
+# Pointedness Index: 0.2351
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1183
+# Max Thickness Position: 0.3360
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3613
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01008474,0.06382841
+UPPER,2,0.04033894,0.11128841
+UPPER,3,0.08403946,0.13800633
+UPPER,4,0.29228520,0.16861887
+UPPER,5,0.33596000,0.17571405
+UPPER,6,0.37963480,0.16388875
+UPPER,7,0.38348200,0.13077793
+UPPER,8,0.49128000,0.08195276
+UPPER,9,0.88000000,0.03129545
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01008474,-0.03934294
+LOWER,2,0.04033894,-0.01772956
+LOWER,3,0.08403946,-0.04215460
+LOWER,4,0.29228520,-0.04187138
+LOWER,5,0.33596000,-0.06079185
+LOWER,6,0.37963480,-0.03477620
+LOWER,7,0.38348200,0.00542980
+LOWER,8,0.49128000,0.01907047
+LOWER,9,0.88000000,0.00963516
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

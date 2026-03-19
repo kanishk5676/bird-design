@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Piculus_flavigula
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 114.00 mm
+# Secondary1: 88.30 mm
+# Kipps Distance: 25.50 mm
+# Hand-Wing Index: 22.40
+# Tail Length: 63.00 mm
+# Aspect Ratio: 1.291
+# Pointedness Index: 0.2237
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1192
+# Max Thickness Position: 0.3366
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3621
+# Leading Edge Radius: 0.0339
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.96e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01017377,0.06456262
+UPPER,2,0.04069508,0.11207956
+UPPER,3,0.08478142,0.13880759
+UPPER,4,0.29280720,0.16963187
+UPPER,5,0.33656000,0.17678121
+UPPER,6,0.38031280,0.16486565
+UPPER,7,0.38425200,0.13150208
+UPPER,8,0.49208000,0.08234533
+UPPER,9,0.88000000,0.03143018
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01017377,-0.03963908
+LOWER,2,0.04069508,-0.01796083
+LOWER,3,0.08478142,-0.04260248
+LOWER,4,0.29280720,-0.04246511
+LOWER,5,0.33656000,-0.06153001
+LOWER,6,0.38031280,-0.03531577
+LOWER,7,0.38425200,0.00519713
+LOWER,8,0.49208000,0.01904609
+LOWER,9,0.88000000,0.00964018
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Astrapia_rothschildi
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 183.90 mm
+# Secondary1: 152.70 mm
+# Kipps Distance: 30.30 mm
+# Hand-Wing Index: 16.60
+# Tail Length: 421.20 mm
+# Aspect Ratio: 1.204
+# Pointedness Index: 0.1648
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1211
+# Max Thickness Position: 0.3400
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3667
+# Leading Edge Radius: 0.0355
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.67e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01065175,0.06859048
+UPPER,2,0.04260699,0.11492782
+UPPER,3,0.08876455,0.14097861
+UPPER,4,0.29583480,0.17229421
+UPPER,5,0.34004000,0.17955887
+UPPER,6,0.38424520,0.16745110
+UPPER,7,0.38871800,0.13354932
+UPPER,8,0.49672000,0.08361071
+UPPER,9,0.88000000,0.03190904
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01065175,-0.04120299
+LOWER,2,0.04260699,-0.01827650
+LOWER,3,0.08876455,-0.04332380
+LOWER,4,0.29583480,-0.04322423
+LOWER,5,0.34004000,-0.06259667
+LOWER,6,0.38424520,-0.03595956
+LOWER,7,0.38871800,0.00520688
+LOWER,8,0.49672000,0.01930739
+LOWER,9,0.88000000,0.00977716
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

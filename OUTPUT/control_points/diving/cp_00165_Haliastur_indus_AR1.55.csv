@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Haliastur_indus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 399.80 mm
+# Secondary1: 257.20 mm
+# Kipps Distance: 147.00 mm
+# Hand-Wing Index: 36.40
+# Tail Length: 203.80 mm
+# Aspect Ratio: 1.554
+# Pointedness Index: 0.3677
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1007
+# Max Thickness Position: 0.3282
+# Max Camber/Chord: 0.0549
+# Max Camber Position: 0.3509
+# Leading Edge Radius: 0.0300
+# LE Droop: 0.0007
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.04e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00901097,0.05478583
+UPPER,2,0.03604389,0.09771004
+UPPER,3,0.07509144,0.12298591
+UPPER,4,0.28549920,0.14953045
+UPPER,5,0.32816000,0.15557276
+UPPER,6,0.37082080,0.14550225
+UPPER,7,0.37347200,0.11730480
+UPPER,8,0.48088000,0.07483491
+UPPER,9,0.88000000,0.02890610
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00901097,-0.03582789
+LOWER,2,0.03604389,-0.01302199
+LOWER,3,0.07509144,-0.03316990
+LOWER,4,0.28549920,-0.02972474
+LOWER,5,0.32816000,-0.04583756
+LOWER,6,0.37082080,-0.02368243
+LOWER,7,0.37347200,0.01055733
+LOWER,8,0.48088000,0.01991919
+LOWER,9,0.88000000,0.00968869
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gymnobucco_vernayi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 90.60 mm
+# Secondary1: 73.20 mm
+# Kipps Distance: 16.80 mm
+# Hand-Wing Index: 18.70
+# Tail Length: 54.40 mm
+# Aspect Ratio: 1.238
+# Pointedness Index: 0.1854
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1234
+# Max Thickness Position: 0.3388
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3650
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0043
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.46e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01048208,0.06715251
+UPPER,2,0.04192834,0.11542225
+UPPER,3,0.08735071,0.14238365
+UPPER,4,0.29473860,0.17418695
+UPPER,5,0.33878000,0.18159096
+UPPER,6,0.38282140,0.16925094
+UPPER,7,0.38710100,0.13469889
+UPPER,8,0.49504000,0.08401421
+UPPER,9,0.88000000,0.03198451
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01048208,-0.04065034
+LOWER,2,0.04192834,-0.01912129
+LOWER,3,0.08735071,-0.04480435
+LOWER,4,0.29473860,-0.04546538
+LOWER,5,0.33878000,-0.06520941
+LOWER,6,0.38282140,-0.03806137
+LOWER,7,0.38710100,0.00389469
+LOWER,8,0.49504000,0.01880225
+LOWER,9,0.88000000,0.00961169
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

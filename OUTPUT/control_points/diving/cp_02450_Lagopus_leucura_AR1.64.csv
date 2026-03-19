@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lagopus_leucura
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 173.00 mm
+# Secondary1: 105.80 mm
+# Kipps Distance: 71.70 mm
+# Hand-Wing Index: 40.40
+# Tail Length: 86.40 mm
+# Aspect Ratio: 1.635
+# Pointedness Index: 0.4145
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1024
+# Max Thickness Position: 0.3258
+# Max Camber/Chord: 0.0539
+# Max Camber Position: 0.3477
+# Leading Edge Radius: 0.0288
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.38e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00865006,0.05190036
+UPPER,2,0.03460024,0.09700880
+UPPER,3,0.07208384,0.12330720
+UPPER,4,0.28341120,0.15014459
+UPPER,5,0.32576000,0.15628788
+UPPER,6,0.36810880,0.14604905
+UPPER,7,0.37039200,0.11738034
+UPPER,8,0.47768000,0.07448338
+UPPER,9,0.88000000,0.02867291
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00865006,-0.03460024
+LOWER,2,0.03460024,-0.01389939
+LOWER,3,0.07208384,-0.03459139
+LOWER,4,0.28341120,-0.03210656
+LOWER,5,0.32576000,-0.04848868
+LOWER,6,0.36810880,-0.02596326
+LOWER,7,0.37039200,0.00884876
+LOWER,8,0.47768000,0.01908339
+LOWER,9,0.88000000,0.00937937
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

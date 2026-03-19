@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Corvus_bennetti
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 313.50 mm
+# Secondary1: 184.90 mm
+# Kipps Distance: 129.50 mm
+# Hand-Wing Index: 41.10
+# Tail Length: 173.30 mm
+# Aspect Ratio: 1.696
+# Pointedness Index: 0.4131
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0984
+# Max Thickness Position: 0.3253
+# Max Camber/Chord: 0.0537
+# Max Camber Position: 0.3471
+# Leading Edge Radius: 0.0288
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.48e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00863564,0.05181385
+UPPER,2,0.03454257,0.09485338
+UPPER,3,0.07196368,0.12025738
+UPPER,4,0.28304580,0.14619860
+UPPER,5,0.32534000,0.15210137
+UPPER,6,0.36763420,0.14226343
+UPPER,7,0.36985300,0.11471720
+UPPER,8,0.47712000,0.07320991
+UPPER,9,0.88000000,0.02828470
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00863564,-0.03454257
+LOWER,2,0.03454257,-0.01267871
+LOWER,3,0.07196368,-0.03234794
+LOWER,4,0.28304580,-0.02891672
+LOWER,5,0.32534000,-0.04465742
+LOWER,6,0.36763420,-0.02301395
+LOWER,7,0.36985300,0.01043504
+LOWER,8,0.47712000,0.01953451
+LOWER,9,0.88000000,0.00949532
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

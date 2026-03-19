@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Crax_daubentoni
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 381.20 mm
+# Secondary1: 350.60 mm
+# Kipps Distance: 23.90 mm
+# Hand-Wing Index: 6.40
+# Tail Length: 340.50 mm
+# Aspect Ratio: 1.087
+# Pointedness Index: 0.0627
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1250
+# Max Thickness Position: 0.3462
+# Max Camber/Chord: 0.0596
+# Max Camber Position: 0.3749
+# Leading Edge Radius: 0.0383
+# LE Droop: 0.0067
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.76e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01148441,0.07562644
+UPPER,2,0.04593763,0.11985455
+UPPER,3,0.09570339,0.14480216
+UPPER,4,0.30115920,0.17706555
+UPPER,5,0.34616000,0.18456478
+UPPER,6,0.39116080,0.17206606
+UPPER,7,0.39657200,0.13706965
+UPPER,8,0.50488000,0.08563737
+UPPER,9,0.88000000,0.03263846
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01148441,-0.04392163
+LOWER,2,0.04593763,-0.01914374
+LOWER,3,0.09570339,-0.04508687
+LOWER,4,0.30115920,-0.04541163
+LOWER,5,0.34616000,-0.06540958
+LOWER,6,0.39116080,-0.03791240
+LOWER,7,0.39657200,0.00458324
+LOWER,8,0.50488000,0.01943991
+LOWER,9,0.88000000,0.00989491
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

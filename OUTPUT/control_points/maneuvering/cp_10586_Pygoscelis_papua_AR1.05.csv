@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pygoscelis_papua
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 126.10 mm
+# Secondary1: 119.80 mm
+# Kipps Distance: 6.20 mm
+# Hand-Wing Index: 5.00
+# Tail Length: 122.80 mm
+# Aspect Ratio: 1.053
+# Pointedness Index: 0.0492
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1325
+# Max Thickness Position: 0.3470
+# Max Camber/Chord: 0.0597
+# Max Camber Position: 0.3760
+# Leading Edge Radius: 0.0387
+# LE Droop: 0.0070
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.24e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01159625,0.07657748
+UPPER,2,0.04638499,0.12398796
+UPPER,3,0.09663539,0.15031767
+UPPER,4,0.30189000,0.18424424
+UPPER,5,0.34700000,0.19219467
+UPPER,6,0.39211000,0.17894396
+UPPER,7,0.39765000,0.14184195
+UPPER,8,0.50600000,0.08783638
+UPPER,9,0.88000000,0.03328182
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01159625,-0.04428499
+LOWER,2,0.04638499,-0.02151167
+LOWER,3,0.09663539,-0.04939791
+LOWER,4,0.30189000,-0.05161853
+LOWER,5,0.34700000,-0.07281967
+LOWER,6,0.39211000,-0.04366810
+LOWER,7,0.39765000,0.00138434
+LOWER,8,0.50600000,0.01845525
+LOWER,9,0.88000000,0.00962159
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

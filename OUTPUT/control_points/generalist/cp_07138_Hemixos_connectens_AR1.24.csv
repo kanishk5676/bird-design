@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hemixos_connectens
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 95.30 mm
+# Secondary1: 76.60 mm
+# Kipps Distance: 17.30 mm
+# Hand-Wing Index: 18.40
+# Tail Length: 88.80 mm
+# Aspect Ratio: 1.244
+# Pointedness Index: 0.1815
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1234
+# Max Thickness Position: 0.3390
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3653
+# Leading Edge Radius: 0.0350
+# LE Droop: 0.0043
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.56e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01051115,0.06738688
+UPPER,2,0.04204459,0.11549786
+UPPER,3,0.08759289,0.14239311
+UPPER,4,0.29489520,0.17419069
+UPPER,5,0.33896000,0.18159220
+UPPER,6,0.38302480,0.16925634
+UPPER,7,0.38733200,0.13471593
+UPPER,8,0.49528000,0.08403897
+UPPER,9,0.88000000,0.03199746
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01051115,-0.04074859
+LOWER,2,0.04204459,-0.01909299
+LOWER,3,0.08759289,-0.04476053
+LOWER,4,0.29489520,-0.04538763
+LOWER,5,0.33896000,-0.06512500
+LOWER,6,0.38302480,-0.03798611
+LOWER,7,0.38733200,0.00395581
+LOWER,8,0.49528000,0.01883463
+LOWER,9,0.88000000,0.00962406
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

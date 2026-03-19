@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Glaucidium_peruanum
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 94.20 mm
+# Secondary1: 75.50 mm
+# Kipps Distance: 18.80 mm
+# Hand-Wing Index: 19.90
+# Tail Length: 63.80 mm
+# Aspect Ratio: 1.248
+# Pointedness Index: 0.1996
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1222
+# Max Thickness Position: 0.3381
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3641
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01037323,0.06625935
+UPPER,2,0.04149290,0.11444438
+UPPER,3,0.08644355,0.14137455
+UPPER,4,0.29411220,0.17290488
+UPPER,5,0.33806000,0.18023828
+UPPER,6,0.38200780,0.16801595
+UPPER,7,0.38617700,0.13379342
+UPPER,8,0.49408000,0.08353525
+UPPER,9,0.88000000,0.03182355
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01037323,-0.04028690
+LOWER,2,0.04149290,-0.01880622
+LOWER,3,0.08644355,-0.04420263
+LOWER,4,0.29411220,-0.04465260
+LOWER,5,0.33806000,-0.06420833
+LOWER,6,0.38200780,-0.03731920
+LOWER,7,0.38617700,0.00423672
+LOWER,8,0.49408000,0.01885802
+LOWER,9,0.88000000,0.00961481
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Haematopus_fuliginosus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 283.00 mm
+# Secondary1: 156.50 mm
+# Kipps Distance: 126.20 mm
+# Hand-Wing Index: 44.70
+# Tail Length: 118.00 mm
+# Aspect Ratio: 1.808
+# Pointedness Index: 0.4459
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0961
+# Max Thickness Position: 0.3232
+# Max Camber/Chord: 0.0528
+# Max Camber Position: 0.3442
+# Leading Edge Radius: 0.0279
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.52e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00835790,0.05014743
+UPPER,2,0.03343162,0.09290387
+UPPER,3,0.06964920,0.11773956
+UPPER,4,0.28116660,0.14310295
+UPPER,5,0.32318000,0.14886890
+UPPER,6,0.36519340,0.13925899
+UPPER,7,0.36708100,0.11235123
+UPPER,8,0.47424000,0.07176206
+UPPER,9,0.88000000,0.02774044
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00835790,-0.03343162
+LOWER,2,0.03343162,-0.01228230
+LOWER,3,0.06964920,-0.03146339
+LOWER,4,0.28116660,-0.02795349
+LOWER,5,0.32318000,-0.04332935
+LOWER,6,0.36519340,-0.02218754
+LOWER,7,0.36708100,0.01048616
+LOWER,8,0.47424000,0.01926338
+LOWER,9,0.88000000,0.00934848
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

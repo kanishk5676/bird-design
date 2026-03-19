@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nisaetus_floris
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 436.70 mm
+# Secondary1: 320.80 mm
+# Kipps Distance: 115.90 mm
+# Hand-Wing Index: 26.50
+# Tail Length: 229.30 mm
+# Aspect Ratio: 1.361
+# Pointedness Index: 0.2654
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1081
+# Max Thickness Position: 0.3341
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3588
+# Leading Edge Radius: 0.0328
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.17e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00983556,0.06171337
+UPPER,2,0.03934225,0.10513211
+UPPER,3,0.08196302,0.13019875
+UPPER,4,0.29066700,0.15853458
+UPPER,5,0.33410000,0.16502066
+UPPER,6,0.37753300,0.15421053
+UPPER,7,0.38109500,0.12394217
+UPPER,8,0.48880000,0.07864983
+UPPER,9,0.88000000,0.03027747
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00983556,-0.03853225
+LOWER,2,0.03934225,-0.01467063
+LOWER,3,0.08196302,-0.03651583
+LOWER,4,0.29066700,-0.03388570
+LOWER,5,0.33410000,-0.05118191
+LOWER,6,0.37753300,-0.02739963
+LOWER,7,0.38109500,0.00935481
+LOWER,8,0.48880000,0.02015583
+LOWER,9,0.88000000,0.00990579
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

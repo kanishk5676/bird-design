@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Syrmaticus_mikado
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 218.80 mm
+# Secondary1: 163.30 mm
+# Kipps Distance: 50.70 mm
+# Hand-Wing Index: 23.70
+# Tail Length: 337.80 mm
+# Aspect Ratio: 1.340
+# Pointedness Index: 0.2317
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1144
+# Max Thickness Position: 0.3358
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3610
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01009302,0.06381809
+UPPER,2,0.04037206,0.10925711
+UPPER,3,0.08410847,0.13518296
+UPPER,4,0.29212860,0.16494292
+UPPER,5,0.33578000,0.17180668
+UPPER,6,0.37943140,0.16036709
+UPPER,7,0.38325100,0.12833623
+UPPER,8,0.49104000,0.08083001
+UPPER,9,0.88000000,0.03096777
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01009302,-0.03939406
+LOWER,2,0.04037206,-0.01651292
+LOWER,3,0.08410847,-0.03994067
+LOWER,4,0.29212860,-0.03868178
+LOWER,5,0.33578000,-0.05698513
+LOWER,6,0.37943140,-0.03181803
+LOWER,7,0.38325100,0.00707658
+LOWER,8,0.49104000,0.01957925
+LOWER,9,0.88000000,0.00977686
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

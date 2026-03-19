@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anser_erythropus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 369.00 mm
+# Secondary1: 173.00 mm
+# Kipps Distance: 195.50 mm
+# Hand-Wing Index: 53.10
+# Tail Length: 112.40 mm
+# Aspect Ratio: 2.133
+# Pointedness Index: 0.5298
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0878
+# Max Thickness Position: 0.3181
+# Max Camber/Chord: 0.0503
+# Max Camber Position: 0.3375
+# Leading Edge Radius: 0.0256
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.33e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00767311,0.04603864
+UPPER,2,0.03069243,0.08666130
+UPPER,3,0.06394256,0.10950230
+UPPER,4,0.27678180,0.13284625
+UPPER,5,0.31814000,0.13811542
+UPPER,6,0.35949820,0.12933348
+UPPER,7,0.36061300,0.10474403
+UPPER,8,0.46752000,0.06734102
+UPPER,9,0.88000000,0.02613803
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00767311,-0.03069243
+LOWER,2,0.03069243,-0.01049863
+LOWER,3,0.06394256,-0.02779913
+LOWER,4,0.27678180,-0.02347236
+LOWER,5,0.31814000,-0.03752347
+LOWER,6,0.35949820,-0.01820319
+LOWER,7,0.36061300,0.01165542
+LOWER,8,0.46752000,0.01888878
+LOWER,9,0.88000000,0.00906122
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

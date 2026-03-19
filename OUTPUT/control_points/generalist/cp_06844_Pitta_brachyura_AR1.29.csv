@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pitta_brachyura
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 104.80 mm
+# Secondary1: 81.50 mm
+# Kipps Distance: 23.20 mm
+# Hand-Wing Index: 22.10
+# Tail Length: 39.40 mm
+# Aspect Ratio: 1.286
+# Pointedness Index: 0.2214
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1193
+# Max Thickness Position: 0.3367
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3623
+# Leading Edge Radius: 0.0340
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01019473,0.06474839
+UPPER,2,0.04077893,0.11224732
+UPPER,3,0.08495610,0.13894805
+UPPER,4,0.29296380,0.16980552
+UPPER,5,0.33674000,0.17696285
+UPPER,6,0.38051620,0.16503396
+UPPER,7,0.38448300,0.13163308
+UPPER,8,0.49232000,0.08242376
+UPPER,9,0.88000000,0.03145922
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01019473,-0.03970493
+LOWER,2,0.04077893,-0.01798655
+LOWER,3,0.08495610,-0.04265752
+LOWER,4,0.29296380,-0.04252868
+LOWER,5,0.33674000,-0.06161490
+LOWER,6,0.38051620,-0.03537135
+LOWER,7,0.38448300,0.00518687
+LOWER,8,0.49232000,0.01905742
+LOWER,9,0.88000000,0.00964694
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

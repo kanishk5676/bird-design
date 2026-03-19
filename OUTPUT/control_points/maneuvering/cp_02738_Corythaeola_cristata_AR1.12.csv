@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Corythaeola_cristata
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 321.40 mm
+# Secondary1: 286.90 mm
+# Kipps Distance: 36.50 mm
+# Hand-Wing Index: 11.20
+# Tail Length: 366.80 mm
+# Aspect Ratio: 1.120
+# Pointedness Index: 0.1136
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1222
+# Max Thickness Position: 0.3433
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3710
+# Leading Edge Radius: 0.0369
+# LE Droop: 0.0058
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.74e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01107810,0.07222857
+UPPER,2,0.04431238,0.11709404
+UPPER,3,0.09231746,0.14234660
+UPPER,4,0.29865360,0.17395042
+UPPER,5,0.34328000,0.18127961
+UPPER,6,0.38790640,0.16906429
+UPPER,7,0.39287600,0.13486139
+UPPER,8,0.50104000,0.08446034
+UPPER,9,0.88000000,0.03224029
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01107810,-0.04258438
+LOWER,2,0.04431238,-0.01839479
+LOWER,3,0.09231746,-0.04365072
+LOWER,4,0.29865360,-0.04348230
+LOWER,5,0.34328000,-0.06302681
+LOWER,6,0.38790640,-0.03615310
+LOWER,7,0.39287600,0.00537899
+LOWER,8,0.50104000,0.01955692
+LOWER,9,0.88000000,0.00989547
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

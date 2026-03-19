@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Colibri_coruscans
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 75.40 mm
+# Secondary1: 28.50 mm
+# Kipps Distance: 47.50 mm
+# Hand-Wing Index: 62.50
+# Tail Length: 51.40 mm
+# Aspect Ratio: 2.646
+# Pointedness Index: 0.6300
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0878
+# Max Thickness Position: 0.3125
+# Max Camber/Chord: 0.0471
+# Max Camber Position: 0.3300
+# Leading Edge Radius: 0.0229
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.66e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00687464,0.04124781
+UPPER,2,0.02749854,0.08394735
+UPPER,3,0.05728863,0.10656293
+UPPER,4,0.27187500,0.12964961
+UPPER,5,0.31250000,0.13491814
+UPPER,6,0.35312500,0.12613726
+UPPER,7,0.35337500,0.10155081
+UPPER,8,0.46000000,0.06462942
+UPPER,9,0.88000000,0.02492626
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00687464,-0.02749854
+LOWER,2,0.02749854,-0.01161052
+LOWER,3,0.05728863,-0.02925877
+LOWER,4,0.27187500,-0.02664999
+LOWER,5,0.31250000,-0.04069939
+LOWER,6,0.35312500,-0.02138146
+LOWER,7,0.35337500,0.00847352
+LOWER,8,0.46000000,0.01691459
+LOWER,9,0.88000000,0.00826499
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

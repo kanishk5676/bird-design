@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tesia_cyaniventer
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 50.90 mm
+# Secondary1: 43.90 mm
+# Kipps Distance: 6.50 mm
+# Hand-Wing Index: 12.80
+# Tail Length: 17.00 mm
+# Aspect Ratio: 1.159
+# Pointedness Index: 0.1277
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1291
+# Max Thickness Position: 0.3423
+# Max Camber/Chord: 0.0590
+# Max Camber Position: 0.3698
+# Leading Edge Radius: 0.0365
+# LE Droop: 0.0054
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.16e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01095704,0.07118226
+UPPER,2,0.04382817,0.12009901
+UPPER,3,0.09130869,0.14718805
+UPPER,4,0.29781840,0.18030660
+UPPER,5,0.34232000,0.18805274
+UPPER,6,0.38682160,0.17514250
+UPPER,7,0.39164400,0.13899385
+UPPER,8,0.49976000,0.08625649
+UPPER,9,0.88000000,0.03272934
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01095704,-0.04219617
+LOWER,2,0.04382817,-0.02068011
+LOWER,3,0.09130869,-0.04776217
+LOWER,4,0.29781840,-0.04949556
+LOWER,5,0.34232000,-0.07015194
+LOWER,6,0.38682160,-0.04174942
+LOWER,7,0.39164400,0.00214537
+LOWER,8,0.49976000,0.01847492
+LOWER,9,0.88000000,0.00957351
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

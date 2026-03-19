@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Microchera_albocoronata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 40.60 mm
+# Secondary1: 14.00 mm
+# Kipps Distance: 25.80 mm
+# Hand-Wing Index: 64.80
+# Tail Length: 22.40 mm
+# Aspect Ratio: 2.900
+# Pointedness Index: 0.6355
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0879
+# Max Thickness Position: 0.3111
+# Max Camber/Chord: 0.0463
+# Max Camber Position: 0.3282
+# Leading Edge Radius: 0.0226
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.07e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00677623,0.04065740
+UPPER,2,0.02710493,0.08326627
+UPPER,3,0.05646861,0.10583966
+UPPER,4,0.27067440,0.12887567
+UPPER,5,0.31112000,0.13414886
+UPPER,6,0.35156560,0.12536021
+UPPER,7,0.35160400,0.10075200
+UPPER,8,0.45816000,0.06393125
+UPPER,9,0.88000000,0.02461063
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00677623,-0.02710493
+LOWER,2,0.02710493,-0.01193183
+LOWER,3,0.05646861,-0.02969344
+LOWER,4,0.27067440,-0.02756223
+LOWER,5,0.31112000,-0.04162406
+LOWER,6,0.35156560,-0.02228904
+LOWER,7,0.35160400,0.00759236
+LOWER,8,0.45816000,0.01637858
+LOWER,9,0.88000000,0.00805014
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

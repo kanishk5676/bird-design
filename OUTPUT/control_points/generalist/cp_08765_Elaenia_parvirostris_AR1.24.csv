@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Elaenia_parvirostris
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 69.40 mm
+# Secondary1: 55.90 mm
+# Kipps Distance: 13.90 mm
+# Hand-Wing Index: 19.90
+# Tail Length: 64.90 mm
+# Aspect Ratio: 1.242
+# Pointedness Index: 0.2003
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1239
+# Max Thickness Position: 0.3381
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3641
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.04e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01036959,0.06623754
+UPPER,2,0.04147836,0.11528921
+UPPER,3,0.08641325,0.14259111
+UPPER,4,0.29411220,0.17449316
+UPPER,5,0.33806000,0.18192793
+UPPER,6,0.38200780,0.16953664
+UPPER,7,0.38617700,0.13484101
+UPPER,8,0.49408000,0.08400836
+UPPER,9,0.88000000,0.03195873
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01036959,-0.04027236
+LOWER,2,0.04147836,-0.01934691
+LOWER,3,0.08641325,-0.04518263
+LOWER,4,0.29411220,-0.04607191
+LOWER,5,0.33806000,-0.06589798
+LOWER,6,0.38200780,-0.03863713
+LOWER,7,0.38617700,0.00349327
+LOWER,8,0.49408000,0.01862147
+LOWER,9,0.88000000,0.00954723
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

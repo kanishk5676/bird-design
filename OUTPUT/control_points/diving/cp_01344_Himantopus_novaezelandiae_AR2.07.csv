@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Himantopus_novaezelandiae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 241.80 mm
+# Secondary1: 116.90 mm
+# Kipps Distance: 124.90 mm
+# Hand-Wing Index: 51.60
+# Tail Length: 78.20 mm
+# Aspect Ratio: 2.068
+# Pointedness Index: 0.5165
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0914
+# Max Thickness Position: 0.3190
+# Max Camber/Chord: 0.0508
+# Max Camber Position: 0.3387
+# Leading Edge Radius: 0.0260
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.43e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00778667,0.04672004
+UPPER,2,0.03114669,0.08883597
+UPPER,3,0.06488894,0.11249166
+UPPER,4,0.27756480,0.13665499
+UPPER,5,0.31904000,0.14213741
+UPPER,6,0.36051520,0.13300003
+UPPER,7,0.36176800,0.10741536
+UPPER,8,0.46872000,0.06873373
+UPPER,9,0.88000000,0.02660007
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00778667,-0.03114669
+LOWER,2,0.03114669,-0.01147236
+LOWER,3,0.06488894,-0.02964556
+LOWER,4,0.27756480,-0.02599040
+LOWER,5,0.31904000,-0.04061021
+LOWER,6,0.36051520,-0.02050797
+LOWER,7,0.36176800,0.01055912
+LOWER,8,0.46872000,0.01868110
+LOWER,9,0.88000000,0.00903595
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

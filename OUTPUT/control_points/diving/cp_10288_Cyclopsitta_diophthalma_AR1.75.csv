@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cyclopsitta_diophthalma
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 91.90 mm
+# Secondary1: 52.60 mm
+# Kipps Distance: 39.90 mm
+# Hand-Wing Index: 43.20
+# Tail Length: 46.40 mm
+# Aspect Ratio: 1.747
+# Pointedness Index: 0.4342
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1028
+# Max Thickness Position: 0.3241
+# Max Camber/Chord: 0.0532
+# Max Camber Position: 0.3454
+# Leading Edge Radius: 0.0282
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.82e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00846383,0.05078295
+UPPER,2,0.03385530,0.09661403
+UPPER,3,0.07053188,0.12295918
+UPPER,4,0.28194960,0.14983608
+UPPER,5,0.32408000,0.15600598
+UPPER,6,0.36621040,0.14572282
+UPPER,7,0.36823600,0.11692998
+UPPER,8,0.47544000,0.07399108
+UPPER,9,0.88000000,0.02843280
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00846383,-0.03385530
+LOWER,2,0.03385530,-0.01429506
+LOWER,3,0.07053188,-0.03518209
+LOWER,4,0.28194960,-0.03320412
+LOWER,5,0.32408000,-0.04965718
+LOWER,6,0.36621040,-0.02703423
+LOWER,7,0.36823600,0.00792851
+LOWER,8,0.47544000,0.01857171
+LOWER,9,0.88000000,0.00918034
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

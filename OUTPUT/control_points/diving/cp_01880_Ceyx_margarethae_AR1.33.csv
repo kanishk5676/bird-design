@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ceyx_margarethae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 62.90 mm
+# Secondary1: 47.20 mm
+# Kipps Distance: 16.60 mm
+# Hand-Wing Index: 26.10
+# Tail Length: 22.90 mm
+# Aspect Ratio: 1.333
+# Pointedness Index: 0.2639
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1177
+# Max Thickness Position: 0.3343
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3591
+# Leading Edge Radius: 0.0329
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.40e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00985539,0.06191236
+UPPER,2,0.03942158,0.11005157
+UPPER,3,0.08212828,0.13714550
+UPPER,4,0.29087580,0.16758935
+UPPER,5,0.33434000,0.17464875
+UPPER,6,0.37780420,0.16288308
+UPPER,7,0.38140300,0.12993918
+UPPER,8,0.48912000,0.08138708
+UPPER,9,0.88000000,0.03106949
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00985539,-0.03858758
+LOWER,2,0.03942158,-0.01770298
+LOWER,3,0.08212828,-0.04202462
+LOWER,4,0.29087580,-0.04183972
+LOWER,5,0.33434000,-0.06066480
+LOWER,6,0.37780420,-0.03478031
+LOWER,7,0.38140300,0.00522299
+LOWER,8,0.48912000,0.01886308
+LOWER,9,0.88000000,0.00954172
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

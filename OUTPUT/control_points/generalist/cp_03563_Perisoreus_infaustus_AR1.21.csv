@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Perisoreus_infaustus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 140.40 mm
+# Secondary1: 115.90 mm
+# Kipps Distance: 24.40 mm
+# Hand-Wing Index: 17.40
+# Tail Length: 128.10 mm
+# Aspect Ratio: 1.211
+# Pointedness Index: 0.1738
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1220
+# Max Thickness Position: 0.3396
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3661
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.57e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01058124,0.06800741
+UPPER,2,0.04232494,0.11512661
+UPPER,3,0.08817696,0.14152810
+UPPER,4,0.29541720,0.17303332
+UPPER,5,0.33956000,0.18035206
+UPPER,6,0.38370280,0.16815416
+UPPER,7,0.38810200,0.13400005
+UPPER,8,0.49608000,0.08377124
+UPPER,9,0.88000000,0.03194009
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01058124,-0.04096894
+LOWER,2,0.04232494,-0.01860268
+LOWER,3,0.08817696,-0.04389617
+LOWER,4,0.29541720,-0.04408922
+LOWER,5,0.33956000,-0.06360586
+LOWER,6,0.38370280,-0.03677049
+LOWER,7,0.38810200,0.00470236
+LOWER,8,0.49608000,0.01911427
+LOWER,9,0.88000000,0.00971412
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

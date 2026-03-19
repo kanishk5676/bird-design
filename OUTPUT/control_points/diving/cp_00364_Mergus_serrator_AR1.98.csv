@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Mergus_serrator
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 233.60 mm
+# Secondary1: 118.00 mm
+# Kipps Distance: 114.80 mm
+# Hand-Wing Index: 49.30
+# Tail Length: 76.20 mm
+# Aspect Ratio: 1.980
+# Pointedness Index: 0.4914
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0935
+# Max Thickness Position: 0.3204
+# Max Camber/Chord: 0.0515
+# Max Camber Position: 0.3406
+# Leading Edge Radius: 0.0266
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.14e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00798508,0.04791051
+UPPER,2,0.03194034,0.09046653
+UPPER,3,0.06654237,0.11462834
+UPPER,4,0.27876540,0.13930473
+UPPER,5,0.32042000,0.14491192
+UPPER,6,0.36207460,0.13556661
+UPPER,7,0.36353900,0.10939973
+UPPER,8,0.47056000,0.06990684
+UPPER,9,0.88000000,0.02703059
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00798508,-0.03194034
+LOWER,2,0.03194034,-0.01189444
+LOWER,3,0.06654237,-0.03053179
+LOWER,4,0.27876540,-0.02704187
+LOWER,5,0.32042000,-0.04199437
+LOWER,6,0.36207460,-0.02143468
+LOWER,7,0.36353900,0.01033939
+LOWER,8,0.47056000,0.01882100
+LOWER,9,0.88000000,0.00912657
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

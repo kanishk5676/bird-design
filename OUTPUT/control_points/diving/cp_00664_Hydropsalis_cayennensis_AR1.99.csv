@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hydropsalis_cayennensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 136.40 mm
+# Secondary1: 68.60 mm
+# Kipps Distance: 67.00 mm
+# Hand-Wing Index: 49.40
+# Tail Length: 102.30 mm
+# Aspect Ratio: 1.988
+# Pointedness Index: 0.4912
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0965
+# Max Thickness Position: 0.3204
+# Max Camber/Chord: 0.0514
+# Max Camber Position: 0.3405
+# Leading Edge Radius: 0.0266
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.48e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00798323,0.04789937
+UPPER,2,0.03193291,0.09198619
+UPPER,3,0.06652690,0.11682566
+UPPER,4,0.27871320,0.14217943
+UPPER,5,0.32036000,0.14797200
+UPPER,6,0.36200680,0.13831771
+UPPER,7,0.36346200,0.11128570
+UPPER,8,0.47048000,0.07074675
+UPPER,9,0.88000000,0.02726649
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00798323,-0.03193291
+LOWER,2,0.03193291,-0.01289354
+LOWER,3,0.06652690,-0.03233750
+LOWER,4,0.27871320,-0.02966694
+LOWER,5,0.32036000,-0.04511380
+LOWER,6,0.36200680,-0.02387436
+LOWER,7,0.36346200,0.00895022
+LOWER,8,0.47048000,0.01837004
+LOWER,9,0.88000000,0.00899556
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

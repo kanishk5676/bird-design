@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eudocimus_albus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 280.20 mm
+# Secondary1: 179.30 mm
+# Kipps Distance: 97.20 mm
+# Hand-Wing Index: 35.20
+# Tail Length: 102.40 mm
+# Aspect Ratio: 1.563
+# Pointedness Index: 0.3469
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1038
+# Max Thickness Position: 0.3289
+# Max Camber/Chord: 0.0551
+# Max Camber Position: 0.3518
+# Leading Edge Radius: 0.0305
+# LE Droop: 0.0010
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.43e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00915372,0.05588229
+UPPER,2,0.03661486,0.09970967
+UPPER,3,0.07628096,0.12543623
+UPPER,4,0.28612560,0.15267422
+UPPER,5,0.32888000,0.15889966
+UPPER,6,0.37163440,0.14852393
+UPPER,7,0.37439600,0.11947190
+UPPER,8,0.48184000,0.07592307
+UPPER,9,0.88000000,0.02925469
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00915372,-0.03632686
+LOWER,2,0.03661486,-0.01390248
+LOWER,3,0.07628096,-0.03481370
+LOWER,4,0.28612560,-0.03201370
+LOWER,5,0.32888000,-0.04861486
+LOWER,6,0.37163440,-0.02578826
+LOWER,7,0.37439600,0.00948921
+LOWER,8,0.48184000,0.01966227
+LOWER,9,0.88000000,0.00963531
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

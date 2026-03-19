@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pericrocotus_miniatus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 81.70 mm
+# Secondary1: 59.90 mm
+# Kipps Distance: 21.90 mm
+# Hand-Wing Index: 26.80
+# Tail Length: 93.40 mm
+# Aspect Ratio: 1.364
+# Pointedness Index: 0.2681
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1175
+# Max Thickness Position: 0.3339
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3586
+# Leading Edge Radius: 0.0327
+# LE Droop: 0.0026
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00981285,0.06151707
+UPPER,2,0.03925138,0.10972161
+UPPER,3,0.08177371,0.13691074
+UPPER,4,0.29051040,0.16730851
+UPPER,5,0.33392000,0.17435814
+UPPER,6,0.37732960,0.16260876
+UPPER,7,0.38086400,0.12971052
+UPPER,8,0.48856000,0.08123299
+UPPER,9,0.88000000,0.03100797
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00981285,-0.03845938
+LOWER,2,0.03925138,-0.01769546
+LOWER,3,0.08177371,-0.04198874
+LOWER,4,0.29051040,-0.04183034
+LOWER,5,0.33392000,-0.06062934
+LOWER,6,0.37732960,-0.03478072
+LOWER,7,0.38086400,0.00516716
+LOWER,8,0.48856000,0.01880680
+LOWER,9,0.88000000,0.00951635
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

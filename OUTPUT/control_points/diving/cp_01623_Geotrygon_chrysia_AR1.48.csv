@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geotrygon_chrysia
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 152.80 mm
+# Secondary1: 103.40 mm
+# Kipps Distance: 49.40 mm
+# Hand-Wing Index: 32.30
+# Tail Length: 92.00 mm
+# Aspect Ratio: 1.478
+# Pointedness Index: 0.3233
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1096
+# Max Thickness Position: 0.3306
+# Max Camber/Chord: 0.0558
+# Max Camber Position: 0.3542
+# Leading Edge Radius: 0.0312
+# LE Droop: 0.0015
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.87e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00936280,0.05771679
+UPPER,2,0.03745119,0.10373909
+UPPER,3,0.07802332,0.13021055
+UPPER,4,0.28763940,0.15877977
+UPPER,5,0.33062000,0.16535443
+UPPER,6,0.37360060,0.15439667
+UPPER,7,0.37662900,0.12371492
+UPPER,8,0.48416000,0.07809200
+UPPER,9,0.88000000,0.02996139
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00936280,-0.03698919
+LOWER,2,0.03745119,-0.01554298
+LOWER,3,0.07802332,-0.03789773
+LOWER,4,0.28763940,-0.03626846
+LOWER,5,0.33062000,-0.05380088
+LOWER,6,0.37360060,-0.02969380
+LOWER,7,0.37662900,0.00756260
+LOWER,8,0.48416000,0.01924073
+LOWER,9,0.88000000,0.00956109
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

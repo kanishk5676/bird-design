@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Arremonops_conirostris
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 73.70 mm
+# Secondary1: 70.10 mm
+# Kipps Distance: 6.30 mm
+# Hand-Wing Index: 8.20
+# Tail Length: 67.60 mm
+# Aspect Ratio: 1.051
+# Pointedness Index: 0.0855
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1329
+# Max Thickness Position: 0.3451
+# Max Camber/Chord: 0.0594
+# Max Camber Position: 0.3734
+# Leading Edge Radius: 0.0377
+# LE Droop: 0.0064
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.12e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01131312,0.07423874
+UPPER,2,0.04525249,0.12333986
+UPPER,3,0.09427603,0.15038674
+UPPER,4,0.30021960,0.18438784
+UPPER,5,0.34508000,0.19236439
+UPPER,6,0.38994040,0.17907014
+UPPER,7,0.39518600,0.14184625
+UPPER,8,0.50344000,0.08773251
+UPPER,9,0.88000000,0.03321572
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01131312,-0.04334449
+LOWER,2,0.04525249,-0.02174393
+LOWER,3,0.09427603,-0.04977257
+LOWER,4,0.30021960,-0.05224979
+LOWER,5,0.34508000,-0.07352059
+LOWER,6,0.38994040,-0.04427325
+LOWER,7,0.39518600,0.00092720
+LOWER,8,0.50344000,0.01822963
+LOWER,9,0.88000000,0.00953778
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

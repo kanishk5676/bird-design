@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Amazona_vittata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 182.20 mm
+# Secondary1: 121.30 mm
+# Kipps Distance: 60.90 mm
+# Hand-Wing Index: 33.40
+# Tail Length: 96.80 mm
+# Aspect Ratio: 1.502
+# Pointedness Index: 0.3342
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1077
+# Max Thickness Position: 0.3300
+# Max Camber/Chord: 0.0555
+# Max Camber Position: 0.3533
+# Leading Edge Radius: 0.0309
+# LE Droop: 0.0013
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00927329,0.05695977
+UPPER,2,0.03709318,0.10237549
+UPPER,3,0.07727746,0.12863541
+UPPER,4,0.28706520,0.15677074
+UPPER,5,0.32996000,0.16323221
+UPPER,6,0.37285480,0.15246310
+UPPER,7,0.37578200,0.12230959
+UPPER,8,0.48328000,0.07736345
+UPPER,9,0.88000000,0.02972091
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00927329,-0.03669718
+LOWER,2,0.03709318,-0.01502177
+LOWER,3,0.07727746,-0.03691194
+LOWER,4,0.28706520,-0.03491943
+LOWER,5,0.32996000,-0.05215001
+LOWER,6,0.37285480,-0.02845797
+LOWER,7,0.37578200,0.00815701
+LOWER,8,0.48328000,0.01935873
+LOWER,9,0.88000000,0.00957763
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

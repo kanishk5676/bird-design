@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Columbina_minuta
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 76.00 mm
+# Secondary1: 64.60 mm
+# Kipps Distance: 14.80 mm
+# Hand-Wing Index: 18.70
+# Tail Length: 52.40 mm
+# Aspect Ratio: 1.176
+# Pointedness Index: 0.1947
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1244
+# Max Thickness Position: 0.3388
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3650
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0043
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01043462,0.06686773
+UPPER,2,0.04173849,0.11590875
+UPPER,3,0.08695518,0.14308421
+UPPER,4,0.29473860,0.17510157
+UPPER,5,0.33878000,0.18256396
+UPPER,6,0.38282140,0.17012664
+UPPER,7,0.38710100,0.13530215
+UPPER,8,0.49504000,0.08428665
+UPPER,9,0.88000000,0.03206235
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01043462,-0.04046049
+LOWER,2,0.04173849,-0.01943265
+LOWER,3,0.08695518,-0.04536869
+LOWER,4,0.29473860,-0.04628270
+LOWER,5,0.33878000,-0.06618241
+LOWER,6,0.38282140,-0.03882031
+LOWER,7,0.38710100,0.00346657
+LOWER,8,0.49504000,0.01866603
+LOWER,9,0.88000000,0.00957277
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

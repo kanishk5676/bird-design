@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Celeus_occidentalis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 152.90 mm
+# Secondary1: 116.60 mm
+# Kipps Distance: 36.40 mm
+# Hand-Wing Index: 23.80
+# Tail Length: 92.00 mm
+# Aspect Ratio: 1.311
+# Pointedness Index: 0.2381
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1164
+# Max Thickness Position: 0.3357
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3610
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.87e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01005759,0.06358556
+UPPER,2,0.04023037,0.11021178
+UPPER,3,0.08381328,0.13659162
+UPPER,4,0.29207640,0.16678540
+UPPER,5,0.33572000,0.17376783
+UPPER,6,0.37936360,0.16213044
+UPPER,7,0.38317400,0.12954574
+UPPER,8,0.49096000,0.08136952
+UPPER,9,0.88000000,0.03111960
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01005759,-0.03925837
+LOWER,2,0.04023037,-0.01715179
+LOWER,3,0.08381328,-0.04109569
+LOWER,4,0.29207640,-0.04036020
+LOWER,5,0.33572000,-0.05898003
+LOWER,6,0.37936360,-0.03337777
+LOWER,7,0.38317400,0.00618937
+LOWER,8,0.49096000,0.01929187
+LOWER,9,0.88000000,0.00969352
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

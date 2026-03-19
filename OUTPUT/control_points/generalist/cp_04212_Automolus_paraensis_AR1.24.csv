@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Automolus_paraensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 89.70 mm
+# Secondary1: 72.20 mm
+# Kipps Distance: 17.80 mm
+# Hand-Wing Index: 19.80
+# Tail Length: 75.20 mm
+# Aspect Ratio: 1.242
+# Pointedness Index: 0.1984
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1226
+# Max Thickness Position: 0.3381
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3642
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.44e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01038208,0.06633248
+UPPER,2,0.04152832,0.11465326
+UPPER,3,0.08651733,0.14164200
+UPPER,4,0.29416440,0.17325105
+UPPER,5,0.33812000,0.18060559
+UPPER,6,0.38207560,0.16834802
+UPPER,7,0.38625400,0.13402683
+UPPER,8,0.49416000,0.08364661
+UPPER,9,0.88000000,0.03185742
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01038208,-0.04031632
+LOWER,2,0.04152832,-0.01891375
+LOWER,3,0.08651733,-0.04440014
+LOWER,4,0.29416440,-0.04493368
+LOWER,5,0.33812000,-0.06454579
+LOWER,6,0.38207560,-0.03757914
+LOWER,7,0.38625400,0.00409660
+LOWER,8,0.49416000,0.01881794
+LOWER,9,0.88000000,0.00960445
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

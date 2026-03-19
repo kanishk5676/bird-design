@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Manucodia_jobiensis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 168.00 mm
+# Secondary1: 151.20 mm
+# Kipps Distance: 16.80 mm
+# Hand-Wing Index: 10.00
+# Tail Length: 127.80 mm
+# Aspect Ratio: 1.111
+# Pointedness Index: 0.1000
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1269
+# Max Thickness Position: 0.3440
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3720
+# Leading Edge Radius: 0.0373
+# LE Droop: 0.0060
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.25e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01118400,0.07310400
+UPPER,2,0.04473600,0.11980060
+UPPER,3,0.09320000,0.14586086
+UPPER,4,0.29928000,0.17851362
+UPPER,5,0.34400000,0.18612619
+UPPER,6,0.38872000,0.17343857
+UPPER,7,0.39380000,0.13791324
+UPPER,8,0.50200000,0.08588783
+UPPER,9,0.88000000,0.03266510
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01118400,-0.04293600
+LOWER,2,0.04473600,-0.01986288
+LOWER,3,0.09320000,-0.04633319
+LOWER,4,0.29928000,-0.04732600
+LOWER,5,0.34400000,-0.06762619
+LOWER,6,0.38872000,-0.03971343
+LOWER,7,0.39380000,0.00342448
+LOWER,8,0.50200000,0.01897233
+LOWER,9,0.88000000,0.00973745
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

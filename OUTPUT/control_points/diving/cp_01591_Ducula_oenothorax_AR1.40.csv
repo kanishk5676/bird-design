@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ducula_oenothorax
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 238.30 mm
+# Secondary1: 170.40 mm
+# Kipps Distance: 68.00 mm
+# Hand-Wing Index: 28.50
+# Tail Length: 123.10 mm
+# Aspect Ratio: 1.398
+# Pointedness Index: 0.2854
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1101
+# Max Thickness Position: 0.3329
+# Max Camber/Chord: 0.0565
+# Max Camber Position: 0.3572
+# Leading Edge Radius: 0.0322
+# LE Droop: 0.0023
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00967259,0.06033555
+UPPER,2,0.03869037,0.10539321
+UPPER,3,0.08060493,0.13126474
+UPPER,4,0.28962300,0.16000170
+UPPER,5,0.33290000,0.16660536
+UPPER,6,0.37617700,0.15559926
+UPPER,7,0.37955500,0.12478219
+UPPER,8,0.48720000,0.07887980
+UPPER,9,0.88000000,0.03029174
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00967259,-0.03800037
+LOWER,2,0.03869037,-0.01542899
+LOWER,3,0.08060493,-0.03782496
+LOWER,4,0.28962300,-0.03590686
+LOWER,5,0.33290000,-0.05351661
+LOWER,6,0.37617700,-0.02930320
+LOWER,7,0.37955500,0.00811754
+LOWER,8,0.48720000,0.01964897
+LOWER,9,0.88000000,0.00973365
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

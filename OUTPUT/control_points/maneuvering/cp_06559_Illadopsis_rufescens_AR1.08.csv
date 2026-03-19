@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Illadopsis_rufescens
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 78.50 mm
+# Secondary1: 72.40 mm
+# Kipps Distance: 6.20 mm
+# Hand-Wing Index: 7.90
+# Tail Length: 70.40 mm
+# Aspect Ratio: 1.084
+# Pointedness Index: 0.0790
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1328
+# Max Thickness Position: 0.3453
+# Max Camber/Chord: 0.0594
+# Max Camber Position: 0.3737
+# Leading Edge Radius: 0.0379
+# LE Droop: 0.0064
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.21e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01135546,0.07455274
+UPPER,2,0.04542183,0.12336893
+UPPER,3,0.09462881,0.15033397
+UPPER,4,0.30037620,0.18431350
+UPPER,5,0.34526000,0.19228357
+UPPER,6,0.39014380,0.17900011
+UPPER,7,0.39541700,0.14180643
+UPPER,8,0.50368000,0.08772532
+UPPER,9,0.88000000,0.03321738
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01135546,-0.04349583
+LOWER,2,0.04542183,-0.02169993
+LOWER,3,0.09462881,-0.04969754
+LOWER,4,0.30037620,-0.05213209
+LOWER,5,0.34526000,-0.07338562
+LOWER,6,0.39014380,-0.04416201
+LOWER,7,0.39541700,0.00100175
+LOWER,8,0.50368000,0.01826152
+LOWER,9,0.88000000,0.00954886
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

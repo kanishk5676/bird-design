@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Liocichla_steerii
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 74.60 mm
+# Secondary1: 68.60 mm
+# Kipps Distance: 5.70 mm
+# Hand-Wing Index: 7.70
+# Tail Length: 81.00 mm
+# Aspect Ratio: 1.087
+# Pointedness Index: 0.0764
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1333
+# Max Thickness Position: 0.3454
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3738
+# Leading Edge Radius: 0.0379
+# LE Droop: 0.0065
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.14e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01137470,0.07470821
+UPPER,2,0.04549881,0.12364459
+UPPER,3,0.09478918,0.15066790
+UPPER,4,0.30048060,0.18474589
+UPPER,5,0.34538000,0.19274243
+UPPER,6,0.39027940,0.17941486
+UPPER,7,0.39557100,0.14209768
+UPPER,8,0.50384000,0.08786394
+UPPER,9,0.88000000,0.03325943
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01137470,-0.04356081
+LOWER,2,0.04549881,-0.02183484
+LOWER,3,0.09478918,-0.04994516
+LOWER,4,0.30048060,-0.05248477
+LOWER,5,0.34538000,-0.07380888
+LOWER,6,0.39027940,-0.04448823
+LOWER,7,0.39557100,0.00082549
+LOWER,8,0.50384000,0.01821081
+LOWER,9,0.88000000,0.00953567
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

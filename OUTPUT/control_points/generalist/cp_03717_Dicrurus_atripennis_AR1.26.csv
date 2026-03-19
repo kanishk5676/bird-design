@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dicrurus_atripennis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 113.10 mm
+# Secondary1: 89.60 mm
+# Kipps Distance: 23.40 mm
+# Hand-Wing Index: 20.70
+# Tail Length: 92.20 mm
+# Aspect Ratio: 1.262
+# Pointedness Index: 0.2069
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1206
+# Max Thickness Position: 0.3376
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3634
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.94e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01031141,0.06572845
+UPPER,2,0.04124563,0.11334979
+UPPER,3,0.08592840,0.14006559
+UPPER,4,0.29369460,0.17122032
+UPPER,5,0.33758000,0.17845393
+UPPER,6,0.38146540,0.16639792
+UPPER,7,0.38556100,0.13264107
+UPPER,8,0.49344000,0.08296655
+UPPER,9,0.88000000,0.03164445
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01031141,-0.04008763
+LOWER,2,0.04124563,-0.01831643
+LOWER,3,0.08592840,-0.04329376
+LOWER,4,0.29369460,-0.04337676
+LOWER,5,0.33758000,-0.06266638
+LOWER,6,0.38146540,-0.03614315
+LOWER,7,0.38556100,0.00484731
+LOWER,8,0.49344000,0.01901572
+LOWER,9,0.88000000,0.00965104
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

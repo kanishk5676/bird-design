@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Caprimulgus_fossii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 155.00 mm
+# Secondary1: 84.80 mm
+# Kipps Distance: 70.20 mm
+# Hand-Wing Index: 45.40
+# Tail Length: 109.00 mm
+# Aspect Ratio: 1.828
+# Pointedness Index: 0.4529
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0990
+# Max Thickness Position: 0.3228
+# Max Camber/Chord: 0.0526
+# Max Camber Position: 0.3437
+# Leading Edge Radius: 0.0277
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.93e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00830095,0.04980572
+UPPER,2,0.03320381,0.09419863
+UPPER,3,0.06917461,0.11966259
+UPPER,4,0.28080120,0.14565231
+UPPER,5,0.32276000,0.15159328
+UPPER,6,0.36471880,0.14169167
+UPPER,7,0.36654200,0.11396713
+UPPER,8,0.47368000,0.07241507
+UPPER,9,0.88000000,0.02790059
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00830095,-0.03320381
+LOWER,2,0.03320381,-0.01328319
+LOWER,3,0.06917461,-0.03324392
+LOWER,4,0.28080120,-0.03059650
+LOWER,5,0.32276000,-0.04643908
+LOWER,6,0.36471880,-0.02465552
+LOWER,7,0.36654200,0.00900998
+LOWER,8,0.47368000,0.01873554
+LOWER,9,0.88000000,0.00918363
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Colius_castanotus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 95.60 mm
+# Secondary1: 69.60 mm
+# Kipps Distance: 25.70 mm
+# Hand-Wing Index: 27.00
+# Tail Length: 224.00 mm
+# Aspect Ratio: 1.374
+# Pointedness Index: 0.2688
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1165
+# Max Thickness Position: 0.3338
+# Max Camber/Chord: 0.0568
+# Max Camber Position: 0.3584
+# Leading Edge Radius: 0.0327
+# LE Droop: 0.0026
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.56e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00980277,0.06141665
+UPPER,2,0.03921110,0.10913392
+UPPER,3,0.08168979,0.13613328
+UPPER,4,0.29040600,0.16630092
+UPPER,5,0.33380000,0.17328858
+UPPER,6,0.37719400,0.16164247
+UPPER,7,0.38071000,0.12903337
+UPPER,8,0.48840000,0.08091248
+UPPER,9,0.88000000,0.03091134
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00980277,-0.03843110
+LOWER,2,0.03921110,-0.01737792
+LOWER,3,0.08168979,-0.04140678
+LOWER,4,0.29040600,-0.04099981
+LOWER,5,0.33380000,-0.05963358
+LOWER,6,0.37719400,-0.03401214
+LOWER,7,0.38071000,0.00558462
+LOWER,8,0.48840000,0.01892850
+LOWER,9,0.88000000,0.00954843
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

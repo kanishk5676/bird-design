@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Stelgidillas_gracilirostris
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 80.90 mm
+# Secondary1: 69.30 mm
+# Kipps Distance: 14.70 mm
+# Hand-Wing Index: 17.50
+# Tail Length: 74.00 mm
+# Aspect Ratio: 1.167
+# Pointedness Index: 0.1817
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1250
+# Max Thickness Position: 0.3395
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3660
+# Leading Edge Radius: 0.0351
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.26e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01053780,0.06772680
+UPPER,2,0.04215120,0.11659955
+UPPER,3,0.08781500,0.14368211
+UPPER,4,0.29536500,0.17584826
+UPPER,5,0.33950000,0.18334755
+UPPER,6,0.38363500,0.17084873
+UPPER,7,0.38802500,0.13585204
+UPPER,8,0.49600000,0.08460216
+UPPER,9,0.88000000,0.03217562
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01053780,-0.04080120
+LOWER,2,0.04215120,-0.01957043
+LOWER,3,0.08781500,-0.04564783
+LOWER,4,0.29536500,-0.04663069
+LOWER,5,0.33950000,-0.06662880
+LOWER,6,0.38363500,-0.03913140
+LOWER,7,0.38802500,0.00336458
+LOWER,8,0.49600000,0.01868447
+LOWER,9,0.88000000,0.00959032
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

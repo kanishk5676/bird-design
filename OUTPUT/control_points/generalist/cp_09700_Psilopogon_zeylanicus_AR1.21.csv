@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psilopogon_zeylanicus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 108.80 mm
+# Secondary1: 90.00 mm
+# Kipps Distance: 19.80 mm
+# Hand-Wing Index: 18.00
+# Tail Length: 65.00 mm
+# Aspect Ratio: 1.209
+# Pointedness Index: 0.1820
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1229
+# Max Thickness Position: 0.3392
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3656
+# Leading Edge Radius: 0.0351
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.85e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01052108,0.06752645
+UPPER,2,0.04208430,0.11541539
+UPPER,3,0.08767563,0.14214200
+UPPER,4,0.29510400,0.17385152
+UPPER,5,0.33920000,0.18122778
+UPPER,6,0.38329600,0.16893400
+UPPER,7,0.38764000,0.13451143
+UPPER,8,0.49560000,0.08396908
+UPPER,9,0.88000000,0.03198522
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01052108,-0.04076430
+LOWER,2,0.04208430,-0.01893859
+LOWER,3,0.08767563,-0.04449051
+LOWER,4,0.29510400,-0.04497774
+LOWER,5,0.33920000,-0.06464778
+LOWER,6,0.38329600,-0.03760147
+LOWER,7,0.38764000,0.00419738
+LOWER,8,0.49560000,0.01892851
+LOWER,9,0.88000000,0.00965499
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

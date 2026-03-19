@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lamprotornis_acuticaudus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 124.10 mm
+# Secondary1: 89.00 mm
+# Kipps Distance: 35.10 mm
+# Hand-Wing Index: 28.30
+# Tail Length: 103.40 mm
+# Aspect Ratio: 1.394
+# Pointedness Index: 0.2828
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1140
+# Max Thickness Position: 0.3330
+# Max Camber/Chord: 0.0566
+# Max Camber Position: 0.3574
+# Leading Edge Radius: 0.0323
+# LE Droop: 0.0023
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.19e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00969155,0.06048933
+UPPER,2,0.03876622,0.10741408
+UPPER,3,0.08076295,0.13410551
+UPPER,4,0.28972740,0.16370277
+UPPER,5,0.33302000,0.17054021
+UPPER,6,0.37631260,0.15914447
+UPPER,7,0.37970900,0.12723639
+UPPER,8,0.48736000,0.08000344
+UPPER,9,0.88000000,0.03061805
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00969155,-0.03806422
+LOWER,2,0.03876622,-0.01666241
+LOWER,3,0.08076295,-0.04006724
+LOWER,4,0.28972740,-0.03914147
+LOWER,5,0.33302000,-0.05737466
+LOWER,6,0.37631260,-0.03230403
+LOWER,7,0.37970900,0.00644150
+LOWER,8,0.48736000,0.01912728
+LOWER,9,0.88000000,0.00958740
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Merops_bullockoides
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 111.80 mm
+# Secondary1: 84.50 mm
+# Kipps Distance: 28.50 mm
+# Hand-Wing Index: 25.20
+# Tail Length: 92.00 mm
+# Aspect Ratio: 1.323
+# Pointedness Index: 0.2549
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1170
+# Max Thickness Position: 0.3349
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3598
+# Leading Edge Radius: 0.0331
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.91e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00992879,0.06253274
+UPPER,2,0.03971516,0.11005209
+UPPER,3,0.08273992,0.13683829
+UPPER,4,0.29134560,0.16715600
+UPPER,5,0.33488000,0.17417751
+UPPER,6,0.37841440,0.16247500
+UPPER,7,0.38209600,0.12970797
+UPPER,8,0.48984000,0.08134657
+UPPER,9,0.88000000,0.03107992
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00992879,-0.03882716
+LOWER,2,0.03971516,-0.01744469
+LOWER,3,0.08273992,-0.04158446
+LOWER,4,0.29134560,-0.04114869
+LOWER,5,0.33488000,-0.05987271
+LOWER,6,0.37841440,-0.03412718
+LOWER,7,0.38209600,0.00566135
+LOWER,8,0.48984000,0.01905097
+LOWER,9,0.88000000,0.00960710
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

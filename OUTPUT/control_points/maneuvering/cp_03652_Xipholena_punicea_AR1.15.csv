@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Xipholena_punicea
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 124.00 mm
+# Secondary1: 107.40 mm
+# Kipps Distance: 16.30 mm
+# Hand-Wing Index: 13.30
+# Tail Length: 66.00 mm
+# Aspect Ratio: 1.155
+# Pointedness Index: 0.1315
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1260
+# Max Thickness Position: 0.3420
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3694
+# Leading Edge Radius: 0.0364
+# LE Droop: 0.0053
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.19e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01092262,0.07087570
+UPPER,2,0.04369047,0.11837985
+UPPER,3,0.09102181,0.14487399
+UPPER,4,0.29755740,0.17729705
+UPPER,5,0.34202000,0.18485476
+UPPER,6,0.38648260,0.17225857
+UPPER,7,0.39125900,0.13698921
+UPPER,8,0.49936000,0.08532822
+UPPER,9,0.88000000,0.03245621
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01092262,-0.04208847
+LOWER,2,0.04369047,-0.01969537
+LOWER,3,0.09102181,-0.04596728
+LOWER,4,0.29755740,-0.04691530
+LOWER,5,0.34202000,-0.06706921
+LOWER,6,0.38648260,-0.03935758
+LOWER,7,0.39125900,0.00346950
+LOWER,8,0.49936000,0.01887884
+LOWER,9,0.88000000,0.00968471
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

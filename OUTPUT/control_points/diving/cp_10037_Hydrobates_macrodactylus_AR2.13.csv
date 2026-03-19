@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hydrobates_macrodactylus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 163.30 mm
+# Secondary1: 76.50 mm
+# Kipps Distance: 86.90 mm
+# Hand-Wing Index: 53.20
+# Tail Length: 85.70 mm
+# Aspect Ratio: 2.135
+# Pointedness Index: 0.5321
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0925
+# Max Thickness Position: 0.3181
+# Max Camber/Chord: 0.0503
+# Max Camber Position: 0.3374
+# Leading Edge Radius: 0.0255
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.13e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00765812,0.04594871
+UPPER,2,0.03063247,0.08896396
+UPPER,3,0.06381765,0.11282773
+UPPER,4,0.27672960,0.13719413
+UPPER,5,0.31808000,0.14274284
+UPPER,6,0.35943040,0.13349500
+UPPER,7,0.36053600,0.10760103
+UPPER,8,0.46744000,0.06861870
+UPPER,9,0.88000000,0.02649875
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00765812,-0.03063247
+LOWER,2,0.03063247,-0.01200056
+LOWER,3,0.06381765,-0.03051587
+LOWER,4,0.27672960,-0.02741749
+LOWER,5,0.31808000,-0.04221404
+LOWER,6,0.35943040,-0.02186878
+LOWER,7,0.36053600,0.00957389
+LOWER,8,0.46744000,0.01821695
+LOWER,9,0.88000000,0.00886696
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

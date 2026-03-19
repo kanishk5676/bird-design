@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tringa_incana
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 164.60 mm
+# Secondary1: 73.30 mm
+# Kipps Distance: 90.50 mm
+# Hand-Wing Index: 55.30
+# Tail Length: 72.20 mm
+# Aspect Ratio: 2.246
+# Pointedness Index: 0.5498
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0903
+# Max Thickness Position: 0.3168
+# Max Camber/Chord: 0.0496
+# Max Camber Position: 0.3358
+# Leading Edge Radius: 0.0250
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00750375,0.04502250
+UPPER,2,0.03001500,0.08729075
+UPPER,3,0.06253125,0.11062339
+UPPER,4,0.27563340,0.13445192
+UPPER,5,0.31682000,0.13986865
+UPPER,6,0.35800660,0.13084077
+UPPER,7,0.35891900,0.10556268
+UPPER,8,0.46576000,0.06742939
+UPPER,9,0.88000000,0.02606642
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00750375,-0.03001500
+LOWER,2,0.03001500,-0.01153282
+LOWER,3,0.06253125,-0.02955045
+LOWER,4,0.27563340,-0.02624448
+LOWER,5,0.31682000,-0.04068910
+LOWER,6,0.35800660,-0.02082775
+LOWER,7,0.35891900,0.00986707
+LOWER,8,0.46576000,0.01810662
+LOWER,9,0.88000000,0.00878629
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

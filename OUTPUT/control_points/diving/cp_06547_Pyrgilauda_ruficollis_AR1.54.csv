@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pyrgilauda_ruficollis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 92.30 mm
+# Secondary1: 59.90 mm
+# Kipps Distance: 32.00 mm
+# Hand-Wing Index: 34.80
+# Tail Length: 53.20 mm
+# Aspect Ratio: 1.541
+# Pointedness Index: 0.3467
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1101
+# Max Thickness Position: 0.3291
+# Max Camber/Chord: 0.0552
+# Max Camber Position: 0.3522
+# Leading Edge Radius: 0.0306
+# LE Droop: 0.0010
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.61e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00916697,0.05604184
+UPPER,2,0.03666789,0.10303611
+UPPER,3,0.07639144,0.13008375
+UPPER,4,0.28633440,0.15872372
+UPPER,5,0.32912000,0.16532955
+UPPER,6,0.37190560,0.15431983
+UPPER,7,0.37470400,0.12349263
+UPPER,8,0.48216000,0.07777474
+UPPER,9,0.88000000,0.02979608
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00916697,-0.03635589
+LOWER,2,0.03666789,-0.01589975
+LOWER,3,0.07639144,-0.03844944
+LOWER,4,0.28633440,-0.03724920
+LOWER,5,0.32912000,-0.05486475
+LOWER,6,0.37190560,-0.03064338
+LOWER,7,0.37470400,0.00678965
+LOWER,8,0.48216000,0.01883049
+LOWER,9,0.88000000,0.00940421
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

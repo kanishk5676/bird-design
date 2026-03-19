@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Luscinia_luscinia
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 89.20 mm
+# Secondary1: 62.60 mm
+# Kipps Distance: 26.60 mm
+# Hand-Wing Index: 29.90
+# Tail Length: 68.20 mm
+# Aspect Ratio: 1.425
+# Pointedness Index: 0.2982
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1145
+# Max Thickness Position: 0.3321
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3561
+# Leading Edge Radius: 0.0319
+# LE Droop: 0.0020
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.43e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00956421,0.05940525
+UPPER,2,0.03825683,0.10711285
+UPPER,3,0.07970173,0.13422764
+UPPER,4,0.28889220,0.16392512
+UPPER,5,0.33206000,0.17079673
+UPPER,6,0.37522780,0.15934405
+UPPER,7,0.37847700,0.12727656
+UPPER,8,0.48608000,0.07989697
+UPPER,9,0.88000000,0.03054473
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00956421,-0.03765083
+LOWER,2,0.03825683,-0.01695407
+LOWER,3,0.07970173,-0.04054133
+LOWER,4,0.28889220,-0.03993250
+LOWER,5,0.33206000,-0.05825678
+LOWER,6,0.37522780,-0.03306089
+LOWER,7,0.37847700,0.00587820
+LOWER,8,0.48608000,0.01885364
+LOWER,9,0.88000000,0.00948642
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

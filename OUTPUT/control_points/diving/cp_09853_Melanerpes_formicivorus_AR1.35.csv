@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melanerpes_formicivorus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 139.80 mm
+# Secondary1: 103.60 mm
+# Kipps Distance: 40.10 mm
+# Hand-Wing Index: 28.00
+# Tail Length: 84.50 mm
+# Aspect Ratio: 1.349
+# Pointedness Index: 0.2868
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1135
+# Max Thickness Position: 0.3332
+# Max Camber/Chord: 0.0566
+# Max Camber Position: 0.3576
+# Leading Edge Radius: 0.0323
+# LE Droop: 0.0024
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.56e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00968032,0.06048195
+UPPER,2,0.03872130,0.10730563
+UPPER,3,0.08066937,0.13384555
+UPPER,4,0.28988400,0.16335187
+UPPER,5,0.33320000,0.17016326
+UPPER,6,0.37651600,0.15881094
+UPPER,7,0.37994000,0.12702442
+UPPER,8,0.48760000,0.07993051
+UPPER,9,0.88000000,0.03060506
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00968032,-0.03800130
+LOWER,2,0.03872130,-0.01650344
+LOWER,3,0.08066937,-0.03978909
+LOWER,4,0.28988400,-0.03871954
+LOWER,5,0.33320000,-0.05688326
+LOWER,6,0.37651600,-0.03190814
+LOWER,7,0.37994000,0.00668976
+LOWER,8,0.48760000,0.01922354
+LOWER,9,0.88000000,0.00961907
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

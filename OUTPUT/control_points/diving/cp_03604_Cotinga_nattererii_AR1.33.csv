@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cotinga_nattererii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 111.80 mm
+# Secondary1: 84.10 mm
+# Kipps Distance: 27.70 mm
+# Hand-Wing Index: 24.80
+# Tail Length: 76.80 mm
+# Aspect Ratio: 1.329
+# Pointedness Index: 0.2478
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1173
+# Max Thickness Position: 0.3351
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3602
+# Leading Edge Radius: 0.0333
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.91e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00997752,0.06290515
+UPPER,2,0.03991010,0.11035159
+UPPER,3,0.08314604,0.13713309
+UPPER,4,0.29155440,0.16752680
+UPPER,5,0.33512000,0.17456751
+UPPER,6,0.37868560,0.16283300
+UPPER,7,0.38240400,0.12997637
+UPPER,8,0.49016000,0.08149567
+UPPER,9,0.88000000,0.03113212
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00997752,-0.03899810
+LOWER,2,0.03991010,-0.01752259
+LOWER,3,0.08314604,-0.04173786
+LOWER,4,0.29155440,-0.04134749
+LOWER,5,0.33512000,-0.06012271
+LOWER,6,0.37868560,-0.03430678
+LOWER,7,0.38240400,0.00559055
+LOWER,8,0.49016000,0.01904957
+LOWER,9,0.88000000,0.00961180
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

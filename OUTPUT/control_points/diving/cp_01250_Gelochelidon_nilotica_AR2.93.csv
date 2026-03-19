@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gelochelidon_nilotica
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 308.10 mm
+# Secondary1: 105.10 mm
+# Kipps Distance: 213.60 mm
+# Hand-Wing Index: 67.00
+# Tail Length: 123.50 mm
+# Aspect Ratio: 2.931
+# Pointedness Index: 0.6933
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0778
+# Max Thickness Position: 0.3098
+# Max Camber/Chord: 0.0454
+# Max Camber Position: 0.3264
+# Leading Edge Radius: 0.0214
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.31e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00641406,0.03848439
+UPPER,2,0.02565626,0.07749406
+UPPER,3,0.05345054,0.09778149
+UPPER,4,0.26952600,0.11852319
+UPPER,5,0.30980000,0.12318887
+UPPER,6,0.35007400,0.11541273
+UPPER,7,0.34991000,0.09363955
+UPPER,8,0.45640000,0.06038656
+UPPER,9,0.88000000,0.02348336
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00641406,-0.02565626
+LOWER,2,0.02565626,-0.00898401
+LOWER,3,0.05345054,-0.02420494
+LOWER,4,0.26952600,-0.01989205
+LOWER,5,0.30980000,-0.03233387
+LOWER,6,0.35007400,-0.01522637
+LOWER,7,0.34991000,0.01121250
+LOWER,8,0.45640000,0.01727846
+LOWER,9,0.88000000,0.00824642
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nothoprocta_cinerascens
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 180.80 mm
+# Secondary1: 130.30 mm
+# Kipps Distance: 49.40 mm
+# Hand-Wing Index: 27.50
+# Tail Length: 61.60 mm
+# Aspect Ratio: 1.388
+# Pointedness Index: 0.2732
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1125
+# Max Thickness Position: 0.3335
+# Max Camber/Chord: 0.0567
+# Max Camber Position: 0.3580
+# Leading Edge Radius: 0.0326
+# LE Droop: 0.0025
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.58e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00976503,0.06109016
+UPPER,2,0.03906011,0.10695191
+UPPER,3,0.08137522,0.13316351
+UPPER,4,0.29014500,0.16244244
+UPPER,5,0.33350000,0.16918977
+UPPER,6,0.37685500,0.15794423
+UPPER,7,0.38032500,0.12645672
+UPPER,8,0.48800000,0.07971173
+UPPER,9,0.88000000,0.03055549
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00976503,-0.03831011
+LOWER,2,0.03906011,-0.01612869
+LOWER,3,0.08137522,-0.03912632
+LOWER,4,0.29014500,-0.03772815
+LOWER,5,0.33350000,-0.05572102
+LOWER,6,0.37685500,-0.03098083
+LOWER,7,0.38032500,0.00725400
+LOWER,8,0.48800000,0.01943156
+LOWER,9,0.88000000,0.00968538
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

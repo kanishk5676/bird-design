@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pachycephala_rufogularis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 109.70 mm
+# Secondary1: 84.30 mm
+# Kipps Distance: 26.00 mm
+# Hand-Wing Index: 23.50
+# Tail Length: 87.80 mm
+# Aspect Ratio: 1.301
+# Pointedness Index: 0.2370
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1185
+# Max Thickness Position: 0.3359
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3612
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.87e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01007215,0.06373289
+UPPER,2,0.04028860,0.11137350
+UPPER,3,0.08393457,0.13816275
+UPPER,4,0.29223300,0.16882644
+UPPER,5,0.33590000,0.17593594
+UPPER,6,0.37956700,0.16408678
+UPPER,7,0.38340500,0.13090914
+UPPER,8,0.49120000,0.08200536
+UPPER,9,0.88000000,0.03130819
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01007215,-0.03929860
+LOWER,2,0.04028860,-0.01781177
+LOWER,3,0.08393457,-0.04230069
+LOWER,4,0.29223300,-0.04208854
+LOWER,5,0.33590000,-0.06104719
+LOWER,6,0.37956700,-0.03497904
+LOWER,7,0.38340500,0.00530809
+LOWER,8,0.49120000,0.01902669
+LOWER,9,0.88000000,0.00962143
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

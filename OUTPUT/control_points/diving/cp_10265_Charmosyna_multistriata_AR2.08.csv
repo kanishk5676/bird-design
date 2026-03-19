@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Charmosyna_multistriata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 95.50 mm
+# Secondary1: 45.90 mm
+# Kipps Distance: 49.60 mm
+# Hand-Wing Index: 52.00
+# Tail Length: 74.00 mm
+# Aspect Ratio: 2.081
+# Pointedness Index: 0.5194
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0962
+# Max Thickness Position: 0.3188
+# Max Camber/Chord: 0.0506
+# Max Camber Position: 0.3384
+# Leading Edge Radius: 0.0259
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.66e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00776000,0.04656003
+UPPER,2,0.03104002,0.09114991
+UPPER,3,0.06466670,0.11586131
+UPPER,4,0.27735600,0.14107911
+UPPER,5,0.31880000,0.14685182
+UPPER,6,0.36024400,0.13723064
+UPPER,7,0.36146000,0.11029133
+UPPER,8,0.46840000,0.06998331
+UPPER,9,0.88000000,0.02694015
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00776000,-0.03104002
+LOWER,2,0.03104002,-0.01306378
+LOWER,3,0.06466670,-0.03250846
+LOWER,4,0.27735600,-0.03017793
+LOWER,5,0.31880000,-0.04557182
+LOWER,6,0.36024400,-0.02440522
+LOWER,7,0.36146000,0.00830680
+LOWER,8,0.46840000,0.01792714
+LOWER,9,0.88000000,0.00881153
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

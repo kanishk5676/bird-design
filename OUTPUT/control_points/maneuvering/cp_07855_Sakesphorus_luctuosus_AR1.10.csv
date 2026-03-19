@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sakesphorus_luctuosus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 79.30 mm
+# Secondary1: 71.90 mm
+# Kipps Distance: 8.50 mm
+# Hand-Wing Index: 10.60
+# Tail Length: 65.40 mm
+# Aspect Ratio: 1.103
+# Pointedness Index: 0.1072
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1306
+# Max Thickness Position: 0.3436
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3715
+# Leading Edge Radius: 0.0371
+# LE Droop: 0.0059
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.23e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01112898,0.07265389
+UPPER,2,0.04451593,0.12150003
+UPPER,3,0.09274151,0.14849936
+UPPER,4,0.29896680,0.18197057
+UPPER,5,0.34364000,0.18980769
+UPPER,6,0.38831320,0.17674583
+UPPER,7,0.39333800,0.14017263
+UPPER,8,0.50152000,0.08688394
+UPPER,9,0.88000000,0.03294135
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01112898,-0.04275193
+LOWER,2,0.04451593,-0.02108176
+LOWER,3,0.09274151,-0.04853180
+LOWER,4,0.29896680,-0.05053052
+LOWER,5,0.34364000,-0.07142949
+LOWER,6,0.38831320,-0.04269340
+LOWER,7,0.39333800,0.00171692
+LOWER,8,0.50152000,0.01841064
+LOWER,9,0.88000000,0.00957253
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

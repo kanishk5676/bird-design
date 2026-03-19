@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Heteromirafra_ruddi
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 74.20 mm
+# Secondary1: 62.50 mm
+# Kipps Distance: 11.70 mm
+# Hand-Wing Index: 15.80
+# Tail Length: 45.20 mm
+# Aspect Ratio: 1.187
+# Pointedness Index: 0.1577
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1267
+# Max Thickness Position: 0.3405
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3674
+# Leading Edge Radius: 0.0357
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.16e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01071234,0.06911405
+UPPER,2,0.04284937,0.11799703
+UPPER,3,0.08926952,0.14513602
+UPPER,4,0.29625240,0.17770086
+UPPER,5,0.34052000,0.18530394
+UPPER,6,0.38478760,0.17263213
+UPPER,7,0.38933400,0.13715108
+UPPER,8,0.49736000,0.08527907
+UPPER,9,0.88000000,0.03240009
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01071234,-0.04139737
+LOWER,2,0.04284937,-0.02004471
+LOWER,3,0.08926952,-0.04654695
+LOWER,4,0.29625240,-0.04785725
+LOWER,5,0.34052000,-0.06813214
+LOWER,6,0.38478760,-0.04025417
+LOWER,7,0.38933400,0.00282996
+LOWER,8,0.49736000,0.01858273
+LOWER,9,0.88000000,0.00957775
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

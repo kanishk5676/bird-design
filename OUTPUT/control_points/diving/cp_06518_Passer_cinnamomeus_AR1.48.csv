@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Passer_cinnamomeus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 69.00 mm
+# Secondary1: 46.70 mm
+# Kipps Distance: 21.60 mm
+# Hand-Wing Index: 31.50
+# Tail Length: 50.00 mm
+# Aspect Ratio: 1.478
+# Pointedness Index: 0.3130
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1143
+# Max Thickness Position: 0.3311
+# Max Camber/Chord: 0.0559
+# Max Camber Position: 0.3548
+# Leading Edge Radius: 0.0315
+# LE Droop: 0.0017
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.12e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00943958,0.05833747
+UPPER,2,0.03775831,0.10640351
+UPPER,3,0.07866315,0.13376596
+UPPER,4,0.28805700,0.16338785
+UPPER,5,0.33110000,0.17024595
+UPPER,6,0.37414300,0.15881579
+UPPER,7,0.37724500,0.12681135
+UPPER,8,0.48480000,0.07955716
+UPPER,9,0.88000000,0.03040299
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00943958,-0.03724831
+LOWER,2,0.03775831,-0.01699597
+LOWER,3,0.07866315,-0.04056050
+LOWER,4,0.28805700,-0.04006895
+LOWER,5,0.33110000,-0.05835720
+LOWER,6,0.37414300,-0.03321085
+LOWER,7,0.37724500,0.00565168
+LOWER,8,0.48480000,0.01868329
+LOWER,9,0.88000000,0.00941403
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

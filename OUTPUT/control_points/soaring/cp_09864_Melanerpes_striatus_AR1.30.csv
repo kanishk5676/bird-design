@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melanerpes_striatus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 117.20 mm
+# Secondary1: 90.50 mm
+# Kipps Distance: 23.00 mm
+# Hand-Wing Index: 20.30
+# Tail Length: 87.20 mm
+# Aspect Ratio: 1.295
+# Pointedness Index: 0.1962
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1207
+# Max Thickness Position: 0.3378
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3638
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01037797,0.06620780
+UPPER,2,0.04151187,0.11354150
+UPPER,3,0.08648306,0.14020791
+UPPER,4,0.29390340,0.17139386
+UPPER,5,0.33782000,0.17863465
+UPPER,6,0.38173660,0.16656667
+UPPER,7,0.38586900,0.13277630
+UPPER,8,0.49376000,0.08305192
+UPPER,9,0.88000000,0.03167720
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01037797,-0.04032987
+LOWER,2,0.04151187,-0.01833339
+LOWER,3,0.08648306,-0.04333513
+LOWER,4,0.29390340,-0.04341632
+LOWER,5,0.33782000,-0.06272510
+LOWER,6,0.38173660,-0.03617553
+LOWER,7,0.38586900,0.00485563
+LOWER,8,0.49376000,0.01903678
+LOWER,9,0.88000000,0.00966150
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

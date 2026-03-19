@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anabazenops_dorsalis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 92.70 mm
+# Secondary1: 79.90 mm
+# Kipps Distance: 12.80 mm
+# Hand-Wing Index: 13.90
+# Tail Length: 77.00 mm
+# Aspect Ratio: 1.160
+# Pointedness Index: 0.1381
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1271
+# Max Thickness Position: 0.3417
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3689
+# Leading Edge Radius: 0.0362
+# LE Droop: 0.0052
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.50e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01087045,0.07044272
+UPPER,2,0.04348181,0.11877503
+UPPER,3,0.09058711,0.14563736
+UPPER,4,0.29724420,0.17830791
+UPPER,5,0.34166000,0.18593467
+UPPER,6,0.38607580,0.17322340
+UPPER,7,0.39079700,0.13763184
+UPPER,8,0.49888000,0.08559023
+UPPER,9,0.88000000,0.03252137
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01087045,-0.04191581
+LOWER,2,0.04348181,-0.02008837
+LOWER,3,0.09058711,-0.04666725
+LOWER,4,0.29724420,-0.04795269
+LOWER,5,0.34166000,-0.06829072
+LOWER,6,0.38607580,-0.04032593
+LOWER,7,0.39079700,0.00289239
+LOWER,8,0.49888000,0.01867385
+LOWER,9,0.88000000,0.00962099
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

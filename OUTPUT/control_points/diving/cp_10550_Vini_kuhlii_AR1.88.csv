@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Vini_kuhlii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 118.20 mm
+# Secondary1: 62.90 mm
+# Kipps Distance: 55.30 mm
+# Hand-Wing Index: 46.80
+# Tail Length: 63.20 mm
+# Aspect Ratio: 1.879
+# Pointedness Index: 0.4679
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0991
+# Max Thickness Position: 0.3219
+# Max Camber/Chord: 0.0522
+# Max Camber Position: 0.3426
+# Leading Edge Radius: 0.0273
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.24e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00818188,0.04909128
+UPPER,2,0.03272752,0.09388449
+UPPER,3,0.06818233,0.11932960
+UPPER,4,0.28007040,0.14529657
+UPPER,5,0.32192000,0.15123990
+UPPER,6,0.36376960,0.14133435
+UPPER,7,0.36546400,0.11359881
+UPPER,8,0.47256000,0.07209228
+UPPER,9,0.88000000,0.02775451
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00818188,-0.03272752
+LOWER,2,0.03272752,-0.01343322
+LOWER,3,0.06818233,-0.03344736
+LOWER,4,0.28007040,-0.03102222
+LOWER,5,0.32192000,-0.04687110
+LOWER,6,0.36376960,-0.02507889
+LOWER,7,0.36546400,0.00859998
+LOWER,8,0.47256000,0.01848656
+LOWER,9,0.88000000,0.00908388
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

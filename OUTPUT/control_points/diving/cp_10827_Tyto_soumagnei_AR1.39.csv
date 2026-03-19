@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tyto_soumagnei
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 210.20 mm
+# Secondary1: 151.50 mm
+# Kipps Distance: 58.70 mm
+# Hand-Wing Index: 27.90
+# Tail Length: 100.50 mm
+# Aspect Ratio: 1.387
+# Pointedness Index: 0.2793
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1113
+# Max Thickness Position: 0.3333
+# Max Camber/Chord: 0.0567
+# Max Camber Position: 0.3577
+# Leading Edge Radius: 0.0324
+# LE Droop: 0.0024
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.38e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00972204,0.06075227
+UPPER,2,0.03888818,0.10621400
+UPPER,3,0.08101704,0.13223904
+UPPER,4,0.28993620,0.16125066
+UPPER,5,0.33326000,0.16792673
+UPPER,6,0.37658380,0.15679995
+UPPER,7,0.38001700,0.12564498
+UPPER,8,0.48768000,0.07931510
+UPPER,9,0.88000000,0.03043183
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00972204,-0.03816218
+LOWER,2,0.03888818,-0.01577504
+LOWER,3,0.08101704,-0.03847217
+LOWER,4,0.28993620,-0.03680594
+LOWER,5,0.33326000,-0.05460878
+LOWER,6,0.37658380,-0.03012987
+LOWER,7,0.38001700,0.00770116
+LOWER,8,0.48768000,0.01955108
+LOWER,9,0.88000000,0.00971403
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rhyticeros_undulatus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 438.80 mm
+# Secondary1: 361.10 mm
+# Kipps Distance: 64.10 mm
+# Hand-Wing Index: 14.80
+# Tail Length: 272.20 mm
+# Aspect Ratio: 1.215
+# Pointedness Index: 0.1461
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1174
+# Max Thickness Position: 0.3411
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3682
+# Leading Edge Radius: 0.0360
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.18e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01080211,0.06985267
+UPPER,2,0.04320844,0.11366192
+UPPER,3,0.09001759,0.13856700
+UPPER,4,0.29677440,0.16909920
+UPPER,5,0.34112000,0.17614517
+UPPER,6,0.38546560,0.16440189
+UPPER,7,0.39010400,0.13152072
+UPPER,8,0.49816000,0.08278671
+UPPER,9,0.88000000,0.03170533
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01080211,-0.04169644
+LOWER,2,0.04320844,-0.01702915
+LOWER,3,0.09001759,-0.04110330
+LOWER,4,0.29677440,-0.03993112
+LOWER,5,0.34112000,-0.05872037
+LOWER,6,0.38546560,-0.03288516
+LOWER,7,0.39010400,0.00704198
+LOWER,8,0.49816000,0.01996110
+LOWER,9,0.88000000,0.00998079
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

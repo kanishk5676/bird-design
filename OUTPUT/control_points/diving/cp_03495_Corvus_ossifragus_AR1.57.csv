@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Corvus_ossifragus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 276.70 mm
+# Secondary1: 176.20 mm
+# Kipps Distance: 100.60 mm
+# Hand-Wing Index: 36.30
+# Tail Length: 157.10 mm
+# Aspect Ratio: 1.570
+# Pointedness Index: 0.3636
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1030
+# Max Thickness Position: 0.3282
+# Max Camber/Chord: 0.0549
+# Max Camber Position: 0.3510
+# Leading Edge Radius: 0.0301
+# LE Droop: 0.0007
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00903501,0.05495006
+UPPER,2,0.03614004,0.09887252
+UPPER,3,0.07529175,0.12462403
+UPPER,4,0.28555140,0.15166445
+UPPER,5,0.32822000,0.15784149
+UPPER,6,0.37088860,0.14754642
+UPPER,7,0.37354900,0.11872022
+UPPER,8,0.48096000,0.07548336
+UPPER,9,0.88000000,0.02909455
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00903501,-0.03591804
+LOWER,2,0.03614004,-0.01373246
+LOWER,3,0.07529175,-0.03446166
+LOWER,4,0.28555140,-0.03158782
+LOWER,5,0.32822000,-0.04805994
+LOWER,6,0.37088860,-0.02541078
+LOWER,7,0.37354900,0.00959246
+LOWER,8,0.48096000,0.01961918
+LOWER,9,0.88000000,0.00960467
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

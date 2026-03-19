@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Trogon_mexicanus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 147.60 mm
+# Secondary1: 86.70 mm
+# Kipps Distance: 60.30 mm
+# Hand-Wing Index: 41.00
+# Tail Length: 180.60 mm
+# Aspect Ratio: 1.702
+# Pointedness Index: 0.4085
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1028
+# Max Thickness Position: 0.3254
+# Max Camber/Chord: 0.0537
+# Max Camber Position: 0.3472
+# Leading Edge Radius: 0.0289
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.74e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00866186,0.05197118
+UPPER,2,0.03464745,0.09709276
+UPPER,3,0.07218220,0.12347434
+UPPER,4,0.28309800,0.15039339
+UPPER,5,0.32540000,0.15656228
+UPPER,6,0.36770200,0.14628080
+UPPER,7,0.36993000,0.11749266
+UPPER,8,0.47720000,0.07447351
+UPPER,9,0.88000000,0.02864923
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00866186,-0.03464745
+LOWER,2,0.03464745,-0.01408910
+LOWER,3,0.07218220,-0.03490872
+LOWER,4,0.28309800,-0.03261691
+LOWER,5,0.32540000,-0.04906728
+LOWER,6,0.36770200,-0.02644803
+LOWER,7,0.36993000,0.00850900
+LOWER,8,0.47720000,0.01892938
+LOWER,9,0.88000000,0.00932428
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lophura_ignita
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 280.00 mm
+# Secondary1: 226.70 mm
+# Kipps Distance: 48.10 mm
+# Hand-Wing Index: 17.40
+# Tail Length: 239.40 mm
+# Aspect Ratio: 1.235
+# Pointedness Index: 0.1718
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1180
+# Max Thickness Position: 0.3396
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3661
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.42e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01059145,0.06806872
+UPPER,2,0.04236581,0.11313785
+UPPER,3,0.08826211,0.13866428
+UPPER,4,0.29541720,0.16929444
+UPPER,5,0.33956000,0.17637453
+UPPER,6,0.38370280,0.16457439
+UPPER,7,0.38810200,0.13153399
+UPPER,8,0.49608000,0.08265754
+UPPER,9,0.88000000,0.03162189
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01059145,-0.04100981
+LOWER,2,0.04236581,-0.01732987
+LOWER,3,0.08826211,-0.04158920
+LOWER,4,0.29541720,-0.04074810
+LOWER,5,0.33956000,-0.05962833
+LOWER,6,0.38370280,-0.03366802
+LOWER,7,0.38810200,0.00645247
+LOWER,8,0.49608000,0.01967112
+LOWER,9,0.88000000,0.00987322
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

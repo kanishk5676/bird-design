@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Irediparra_gallinacea
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 135.10 mm
+# Secondary1: 91.70 mm
+# Kipps Distance: 43.90 mm
+# Hand-Wing Index: 32.40
+# Tail Length: 41.20 mm
+# Aspect Ratio: 1.473
+# Pointedness Index: 0.3249
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1094
+# Max Thickness Position: 0.3306
+# Max Camber/Chord: 0.0558
+# Max Camber Position: 0.3541
+# Leading Edge Radius: 0.0312
+# LE Droop: 0.0015
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.92e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00935134,0.05762806
+UPPER,2,0.03740537,0.10362223
+UPPER,3,0.07792786,0.13007750
+UPPER,4,0.28758720,0.15861034
+UPPER,5,0.33056000,0.16517553
+UPPER,6,0.37353280,0.15423354
+UPPER,7,0.37655200,0.12359596
+UPPER,8,0.48408000,0.07802984
+UPPER,9,0.88000000,0.02994072
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00935134,-0.03694937
+LOWER,2,0.03740537,-0.01549992
+LOWER,3,0.07792786,-0.03781598
+LOWER,4,0.28758720,-0.03615714
+LOWER,5,0.33056000,-0.05366433
+LOWER,6,0.37353280,-0.02959195
+LOWER,7,0.37655200,0.00761083
+LOWER,8,0.48408000,0.01924968
+LOWER,9,0.88000000,0.00956210
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

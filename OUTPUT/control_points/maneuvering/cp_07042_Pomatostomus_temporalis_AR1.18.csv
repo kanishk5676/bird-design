@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pomatostomus_temporalis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 107.60 mm
+# Secondary1: 91.00 mm
+# Kipps Distance: 11.20 mm
+# Hand-Wing Index: 11.00
+# Tail Length: 110.20 mm
+# Aspect Ratio: 1.182
+# Pointedness Index: 0.1041
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1286
+# Max Thickness Position: 0.3434
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3712
+# Leading Edge Radius: 0.0371
+# LE Droop: 0.0058
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.82e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01113254,0.07259527
+UPPER,2,0.04453018,0.12037536
+UPPER,3,0.09277121,0.14700768
+UPPER,4,0.29875800,0.18003148
+UPPER,5,0.34340000,0.18774748
+UPPER,6,0.38804200,0.17488748
+UPPER,7,0.39303000,0.13887949
+UPPER,8,0.50120000,0.08628337
+UPPER,9,0.88000000,0.03276405
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01113254,-0.04279018
+LOWER,2,0.04453018,-0.02045037
+LOWER,3,0.09277121,-0.04738014
+LOWER,4,0.29875800,-0.04887648
+LOWER,5,0.34340000,-0.06945248
+LOWER,6,0.38804200,-0.04116048
+LOWER,7,0.39303000,0.00256351
+LOWER,8,0.50120000,0.01866745
+LOWER,9,0.88000000,0.00964288
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

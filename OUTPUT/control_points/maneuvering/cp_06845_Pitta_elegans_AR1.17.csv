@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pitta_elegans
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 98.40 mm
+# Secondary1: 83.80 mm
+# Kipps Distance: 14.20 mm
+# Hand-Wing Index: 14.60
+# Tail Length: 34.60 mm
+# Aspect Ratio: 1.174
+# Pointedness Index: 0.1443
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1256
+# Max Thickness Position: 0.3412
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3683
+# Leading Edge Radius: 0.0361
+# LE Droop: 0.0051
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.89e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01081726,0.06998359
+UPPER,2,0.04326906,0.11778471
+UPPER,3,0.09014387,0.14443871
+UPPER,4,0.29687880,0.17676007
+UPPER,5,0.34124000,0.18429345
+UPPER,6,0.38560120,0.17173782
+UPPER,7,0.39025800,0.13658204
+UPPER,8,0.49832000,0.08508231
+UPPER,9,0.88000000,0.03236461
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01081726,-0.04174506
+LOWER,2,0.04326906,-0.01962005
+LOWER,3,0.09014387,-0.04580362
+LOWER,4,0.29687880,-0.04673024
+LOWER,5,0.34124000,-0.06681925
+LOWER,6,0.38560120,-0.03919686
+LOWER,7,0.39025800,0.00349230
+LOWER,8,0.49832000,0.01883911
+LOWER,9,0.88000000,0.00966202
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

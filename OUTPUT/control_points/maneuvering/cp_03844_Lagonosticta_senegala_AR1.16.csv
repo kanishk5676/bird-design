@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lagonosticta_senegala
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 48.80 mm
+# Secondary1: 42.00 mm
+# Kipps Distance: 6.80 mm
+# Hand-Wing Index: 13.90
+# Tail Length: 36.90 mm
+# Aspect Ratio: 1.162
+# Pointedness Index: 0.1393
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1289
+# Max Thickness Position: 0.3417
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3689
+# Leading Edge Radius: 0.0362
+# LE Droop: 0.0052
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01086400,0.07040403
+UPPER,2,0.04345602,0.11965868
+UPPER,3,0.09053337,0.14690982
+UPPER,4,0.29724420,0.17996918
+UPPER,5,0.34166000,0.18770198
+UPPER,6,0.38607580,0.17481398
+UPPER,7,0.39079700,0.13872757
+UPPER,8,0.49888000,0.08608508
+UPPER,9,0.88000000,0.03266275
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01086400,-0.04189002
+LOWER,2,0.04345602,-0.02065391
+LOWER,3,0.09053337,-0.04769229
+LOWER,4,0.29724420,-0.04943723
+LOWER,5,0.34166000,-0.07005803
+LOWER,6,0.38607580,-0.04170443
+LOWER,7,0.39079700,0.00211477
+LOWER,8,0.49888000,0.01842642
+LOWER,9,0.88000000,0.00955029
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

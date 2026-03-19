@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Erythrogenys_erythrocnemis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 97.80 mm
+# Secondary1: 90.70 mm
+# Kipps Distance: 7.30 mm
+# Hand-Wing Index: 7.40
+# Tail Length: 95.40 mm
+# Aspect Ratio: 1.078
+# Pointedness Index: 0.0746
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1320
+# Max Thickness Position: 0.3456
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3741
+# Leading Edge Radius: 0.0380
+# LE Droop: 0.0065
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.61e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01139289,0.07487731
+UPPER,2,0.04557154,0.12309622
+UPPER,3,0.09494071,0.14978385
+UPPER,4,0.30063720,0.18358642
+UPPER,5,0.34556000,0.19150727
+UPPER,6,0.39048280,0.17830585
+UPPER,7,0.39580200,0.14134189
+UPPER,8,0.50408000,0.08753310
+UPPER,9,0.88000000,0.03316851
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01139289,-0.04361554
+LOWER,2,0.04557154,-0.02142195
+LOWER,3,0.09494071,-0.04920139
+LOWER,4,0.30063720,-0.05139880
+LOWER,5,0.34556000,-0.07252107
+LOWER,6,0.39048280,-0.04347795
+LOWER,7,0.39580200,0.00140687
+LOWER,8,0.50408000,0.01840374
+LOWER,9,0.88000000,0.00959271
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eurystomus_gularis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 148.60 mm
+# Secondary1: 84.50 mm
+# Kipps Distance: 61.80 mm
+# Hand-Wing Index: 42.40
+# Tail Length: 90.60 mm
+# Aspect Ratio: 1.759
+# Pointedness Index: 0.4159
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1017
+# Max Thickness Position: 0.3246
+# Max Camber/Chord: 0.0534
+# Max Camber Position: 0.3461
+# Leading Edge Radius: 0.0286
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.77e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00858156,0.05148938
+UPPER,2,0.03432626,0.09620594
+UPPER,3,0.07151303,0.12230733
+UPPER,4,0.28236720,0.14894258
+UPPER,5,0.32456000,0.15504196
+UPPER,6,0.36675280,0.14487633
+UPPER,7,0.36885200,0.11641254
+UPPER,8,0.47608000,0.07384154
+UPPER,9,0.88000000,0.02841904
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00858156,-0.03432626
+LOWER,2,0.03432626,-0.01384508
+LOWER,3,0.07151303,-0.03440331
+LOWER,4,0.28236720,-0.03200574
+LOWER,5,0.32456000,-0.04827076
+LOWER,6,0.36675280,-0.02590636
+LOWER,7,0.36885200,0.00865680
+LOWER,8,0.47608000,0.01886718
+LOWER,9,0.88000000,0.00928015
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

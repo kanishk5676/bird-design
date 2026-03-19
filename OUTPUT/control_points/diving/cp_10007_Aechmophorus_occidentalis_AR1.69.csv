@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aechmophorus_occidentalis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 184.50 mm
+# Secondary1: 109.00 mm
+# Kipps Distance: 75.40 mm
+# Hand-Wing Index: 40.80
+# Tail Length: 29.80 mm
+# Aspect Ratio: 1.693
+# Pointedness Index: 0.4087
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0999
+# Max Thickness Position: 0.3255
+# Max Camber/Chord: 0.0538
+# Max Camber Position: 0.3474
+# Leading Edge Radius: 0.0289
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.55e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00866729,0.05200375
+UPPER,2,0.03466917,0.09568714
+UPPER,3,0.07222744,0.12143476
+UPPER,4,0.28320240,0.14772037
+UPPER,5,0.32552000,0.15371539
+UPPER,6,0.36783760,0.14372369
+UPPER,7,0.37008400,0.11574694
+UPPER,8,0.47736000,0.07370540
+UPPER,9,0.88000000,0.02843675
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00866729,-0.03466917
+LOWER,2,0.03466917,-0.01314400
+LOWER,3,0.07222744,-0.03320459
+LOWER,4,0.28320240,-0.03013187
+LOWER,5,0.32552000,-0.04611859
+LOWER,6,0.36783760,-0.02413685
+LOWER,7,0.37008400,0.00983492
+LOWER,8,0.47736000,0.01936663
+LOWER,9,0.88000000,0.00945292
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

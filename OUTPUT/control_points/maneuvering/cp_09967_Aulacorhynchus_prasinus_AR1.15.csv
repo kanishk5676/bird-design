@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aulacorhynchus_prasinus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 129.90 mm
+# Secondary1: 113.20 mm
+# Kipps Distance: 16.70 mm
+# Hand-Wing Index: 12.80
+# Tail Length: 110.20 mm
+# Aspect Ratio: 1.148
+# Pointedness Index: 0.1286
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1261
+# Max Thickness Position: 0.3423
+# Max Camber/Chord: 0.0590
+# Max Camber Position: 0.3698
+# Leading Edge Radius: 0.0365
+# LE Droop: 0.0054
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01095266,0.07115597
+UPPER,2,0.04381065,0.11859752
+UPPER,3,0.09127218,0.14502591
+UPPER,4,0.29781840,0.17748381
+UPPER,5,0.34232000,0.18504977
+UPPER,6,0.38682160,0.17243983
+UPPER,7,0.39164400,0.13713201
+UPPER,8,0.49976000,0.08541566
+UPPER,9,0.88000000,0.03248910
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01095266,-0.04217865
+LOWER,2,0.04381065,-0.01971916
+LOWER,3,0.09127218,-0.04602045
+LOWER,4,0.29781840,-0.04697307
+LOWER,5,0.34232000,-0.06714897
+LOWER,6,0.38682160,-0.03940711
+LOWER,7,0.39164400,0.00346668
+LOWER,8,0.49976000,0.01889534
+LOWER,9,0.88000000,0.00969363
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

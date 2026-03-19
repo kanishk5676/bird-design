@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Crax_blumenbachii
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 384.00 mm
+# Secondary1: 307.10 mm
+# Kipps Distance: 33.90 mm
+# Hand-Wing Index: 9.70
+# Tail Length: 333.80 mm
+# Aspect Ratio: 1.250
+# Pointedness Index: 0.0883
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1223
+# Max Thickness Position: 0.3442
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3722
+# Leading Edge Radius: 0.0375
+# LE Droop: 0.0061
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.85e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01125295,0.07357767
+UPPER,2,0.04501178,0.11759975
+UPPER,3,0.09377455,0.14259619
+UPPER,4,0.29943660,0.17424543
+UPPER,5,0.34418000,0.18158366
+UPPER,6,0.38892340,0.16935327
+UPPER,7,0.39403100,0.13510818
+UPPER,8,0.50224000,0.08463290
+UPPER,9,0.88000000,0.03231063
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01125295,-0.04319378
+LOWER,2,0.04501178,-0.01838932
+LOWER,3,0.09377455,-0.04366756
+LOWER,4,0.29943660,-0.04345549
+LOWER,5,0.34418000,-0.06302411
+LOWER,6,0.38892340,-0.03611726
+LOWER,7,0.39403100,0.00546607
+LOWER,8,0.50224000,0.01963092
+LOWER,9,0.88000000,0.00992779
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

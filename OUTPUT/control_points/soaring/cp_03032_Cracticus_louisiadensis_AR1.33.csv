@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cracticus_louisiadensis
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 165.90 mm
+# Secondary1: 124.60 mm
+# Kipps Distance: 41.30 mm
+# Hand-Wing Index: 24.90
+# Tail Length: 125.60 mm
+# Aspect Ratio: 1.331
+# Pointedness Index: 0.2489
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1150
+# Max Thickness Position: 0.3351
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3601
+# Leading Edge Radius: 0.0332
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.20e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00996844,0.06283064
+UPPER,2,0.03987376,0.10915830
+UPPER,3,0.08307033,0.13544884
+UPPER,4,0.29150220,0.16533143
+UPPER,5,0.33506000,0.17223312
+UPPER,6,0.37861780,0.16073030
+UPPER,7,0.38232700,0.12852242
+UPPER,8,0.49008000,0.08083211
+UPPER,9,0.88000000,0.03094014
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00996844,-0.03896776
+LOWER,2,0.03987376,-0.01678726
+LOWER,3,0.08307033,-0.04040203
+LOWER,4,0.29150220,-0.03941867
+LOWER,5,0.33506000,-0.05782317
+LOWER,6,0.37861780,-0.03251698
+LOWER,7,0.38232700,0.00659259
+LOWER,8,0.49008000,0.01936314
+LOWER,9,0.88000000,0.00970012
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

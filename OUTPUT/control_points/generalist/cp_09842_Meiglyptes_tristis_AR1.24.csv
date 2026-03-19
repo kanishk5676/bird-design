@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Meiglyptes_tristis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 91.10 mm
+# Secondary1: 73.40 mm
+# Kipps Distance: 17.90 mm
+# Hand-Wing Index: 19.60
+# Tail Length: 46.30 mm
+# Aspect Ratio: 1.241
+# Pointedness Index: 0.1965
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1225
+# Max Thickness Position: 0.3382
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3643
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.52e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01039815,0.06646893
+UPPER,2,0.04159262,0.11467969
+UPPER,3,0.08665129,0.14161344
+UPPER,4,0.29426880,0.17320779
+UPPER,5,0.33824000,0.18055767
+UPPER,6,0.38221120,0.16830786
+UPPER,7,0.38640800,0.13400840
+UPPER,8,0.49432000,0.08365012
+UPPER,9,0.88000000,0.03186249
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01039815,-0.04036862
+LOWER,2,0.04159262,-0.01887852
+LOWER,3,0.08665129,-0.04434146
+LOWER,4,0.29426880,-0.04483878
+LOWER,5,0.33824000,-0.06443847
+LOWER,6,0.38221120,-0.03748889
+LOWER,7,0.38640800,0.00416045
+LOWER,8,0.49432000,0.01884722
+LOWER,9,0.88000000,0.00961498
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

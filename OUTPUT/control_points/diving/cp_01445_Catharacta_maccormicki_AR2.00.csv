@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Catharacta_maccormicki
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 386.80 mm
+# Secondary1: 193.00 mm
+# Kipps Distance: 192.80 mm
+# Hand-Wing Index: 50.00
+# Tail Length: 135.00 mm
+# Aspect Ratio: 2.004
+# Pointedness Index: 0.4984
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0900
+# Max Thickness Position: 0.3200
+# Max Camber/Chord: 0.0512
+# Max Camber Position: 0.3400
+# Leading Edge Radius: 0.0264
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.95e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00792791,0.04756747
+UPPER,2,0.03171164,0.08857295
+UPPER,3,0.06606593,0.11196505
+UPPER,4,0.27840000,0.13586965
+UPPER,5,0.32000000,0.14127090
+UPPER,6,0.36160000,0.13226881
+UPPER,7,0.36300000,0.10706296
+UPPER,8,0.47000000,0.06876835
+UPPER,9,0.88000000,0.02667667
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00792791,-0.03171164
+LOWER,2,0.03171164,-0.01086919
+LOWER,3,0.06606593,-0.02863712
+LOWER,4,0.27840000,-0.02436756
+LOWER,5,0.32000000,-0.03877090
+LOWER,6,0.36160000,-0.01896630
+LOWER,7,0.36300000,0.01164080
+LOWER,8,0.47000000,0.01917207
+LOWER,9,0.88000000,0.00921166
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

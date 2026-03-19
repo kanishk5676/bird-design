@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lorius_garrulus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 168.20 mm
+# Secondary1: 99.40 mm
+# Kipps Distance: 70.60 mm
+# Hand-Wing Index: 41.50
+# Tail Length: 102.60 mm
+# Aspect Ratio: 1.692
+# Pointedness Index: 0.4197
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1017
+# Max Thickness Position: 0.3251
+# Max Camber/Chord: 0.0536
+# Max Camber Position: 0.3468
+# Leading Edge Radius: 0.0286
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.26e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00858943,0.05153660
+UPPER,2,0.03435774,0.09641116
+UPPER,3,0.07157862,0.12253178
+UPPER,4,0.28283700,0.14918860
+UPPER,5,0.32510000,0.15528876
+UPPER,6,0.36736300,0.14512182
+UPPER,7,0.36954500,0.11665439
+UPPER,8,0.47680000,0.07404390
+UPPER,9,0.88000000,0.02850891
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00858943,-0.03435774
+LOWER,2,0.03435774,-0.01376742
+LOWER,3,0.07157862,-0.03430333
+LOWER,4,0.28283700,-0.03178291
+LOWER,5,0.32510000,-0.04805001
+LOWER,6,0.36736300,-0.02568274
+LOWER,7,0.36954500,0.00888485
+LOWER,8,0.47680000,0.01901030
+LOWER,9,0.88000000,0.00933807
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

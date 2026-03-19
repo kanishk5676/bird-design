@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Antrostomus_ridgwayi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 150.20 mm
+# Secondary1: 79.80 mm
+# Kipps Distance: 70.40 mm
+# Hand-Wing Index: 46.90
+# Tail Length: 120.00 mm
+# Aspect Ratio: 1.882
+# Pointedness Index: 0.4687
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0980
+# Max Thickness Position: 0.3219
+# Max Camber/Chord: 0.0522
+# Max Camber Position: 0.3425
+# Leading Edge Radius: 0.0272
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.81e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00817445,0.04904668
+UPPER,2,0.03269779,0.09333028
+UPPER,3,0.06812039,0.11854019
+UPPER,4,0.28001820,0.14427166
+UPPER,5,0.32186000,0.15015138
+UPPER,6,0.36370180,0.14035184
+UPPER,7,0.36538700,0.11291313
+UPPER,8,0.47248000,0.07177129
+UPPER,9,0.88000000,0.02765890
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00817445,-0.03269779
+LOWER,2,0.03269779,-0.01310394
+LOWER,3,0.06812039,-0.03284559
+LOWER,4,0.28001820,-0.03016016
+LOWER,5,0.32186000,-0.04583943
+LOWER,6,0.36370180,-0.02428044
+LOWER,7,0.36538700,0.00903800
+LOWER,8,0.47248000,0.01861735
+LOWER,9,0.88000000,0.00911918
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

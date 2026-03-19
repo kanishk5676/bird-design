@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Carpospiza_brachydactyla
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 93.60 mm
+# Secondary1: 55.00 mm
+# Kipps Distance: 37.50 mm
+# Hand-Wing Index: 40.60
+# Tail Length: 56.20 mm
+# Aspect Ratio: 1.702
+# Pointedness Index: 0.4006
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1053
+# Max Thickness Position: 0.3256
+# Max Camber/Chord: 0.0538
+# Max Camber Position: 0.3475
+# Leading Edge Radius: 0.0290
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.67e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00871437,0.05228622
+UPPER,2,0.03485748,0.09841309
+UPPER,3,0.07261976,0.12534472
+UPPER,4,0.28330680,0.15281485
+UPPER,5,0.32564000,0.15913181
+UPPER,6,0.36797320,0.14860354
+UPPER,7,0.37023800,0.11912438
+UPPER,8,0.47752000,0.07525089
+UPPER,9,0.88000000,0.02888527
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00871437,-0.03485748
+LOWER,2,0.03485748,-0.01484328
+LOWER,3,0.07261976,-0.03629339
+LOWER,4,0.28330680,-0.03458838
+LOWER,5,0.32564000,-0.05143361
+LOWER,6,0.36797320,-0.02827141
+LOWER,7,0.37023800,0.00752471
+LOWER,8,0.47752000,0.01864686
+LOWER,9,0.88000000,0.00925097
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

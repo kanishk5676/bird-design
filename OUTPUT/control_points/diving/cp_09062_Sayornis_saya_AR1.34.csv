@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sayornis_saya
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 104.40 mm
+# Secondary1: 77.70 mm
+# Kipps Distance: 26.80 mm
+# Hand-Wing Index: 25.60
+# Tail Length: 79.80 mm
+# Aspect Ratio: 1.344
+# Pointedness Index: 0.2567
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1171
+# Max Thickness Position: 0.3346
+# Max Camber/Chord: 0.0571
+# Max Camber Position: 0.3595
+# Leading Edge Radius: 0.0330
+# LE Droop: 0.0029
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.75e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00990744,0.06232467
+UPPER,2,0.03962978,0.10994392
+UPPER,3,0.08256204,0.13681924
+UPPER,4,0.29113680,0.16714538
+UPPER,5,0.33464000,0.17417072
+UPPER,6,0.37814320,0.16246181
+UPPER,7,0.38178800,0.12967686
+UPPER,8,0.48952000,0.08130431
+UPPER,9,0.88000000,0.03105814
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00990744,-0.03876578
+LOWER,2,0.03962978,-0.01748996
+LOWER,3,0.08256204,-0.04165416
+LOWER,4,0.29113680,-0.04127326
+LOWER,5,0.33464000,-0.06000752
+LOWER,6,0.37814320,-0.03424792
+LOWER,7,0.38178800,0.00556239
+LOWER,8,0.48952000,0.01899811
+LOWER,9,0.88000000,0.00958684
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

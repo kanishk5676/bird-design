@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Myiotheretes_striaticollis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 140.10 mm
+# Secondary1: 103.70 mm
+# Kipps Distance: 36.20 mm
+# Hand-Wing Index: 25.80
+# Tail Length: 98.80 mm
+# Aspect Ratio: 1.351
+# Pointedness Index: 0.2584
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1153
+# Max Thickness Position: 0.3345
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3594
+# Leading Edge Radius: 0.0330
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.56e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00989275,0.06219648
+UPPER,2,0.03957099,0.10896456
+UPPER,3,0.08243956,0.13547742
+UPPER,4,0.29103240,0.16540073
+UPPER,5,0.33452000,0.17231700
+UPPER,6,0.37800760,0.16078989
+UPPER,7,0.38163400,0.12851398
+UPPER,8,0.48936000,0.08076492
+UPPER,9,0.88000000,0.03089913
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00989275,-0.03871899
+LOWER,2,0.03957099,-0.01692069
+LOWER,3,0.08243956,-0.04061612
+LOWER,4,0.29103240,-0.03978182
+LOWER,5,0.33452000,-0.05822520
+LOWER,6,0.37800760,-0.03286556
+LOWER,7,0.38163400,0.00632662
+LOWER,8,0.48936000,0.01923050
+LOWER,9,0.88000000,0.00965063
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

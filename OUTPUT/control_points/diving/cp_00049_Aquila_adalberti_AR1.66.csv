@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aquila_adalberti
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 592.50 mm
+# Secondary1: 357.50 mm
+# Kipps Distance: 235.00 mm
+# Hand-Wing Index: 39.70
+# Tail Length: 297.00 mm
+# Aspect Ratio: 1.657
+# Pointedness Index: 0.3966
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0957
+# Max Thickness Position: 0.3262
+# Max Camber/Chord: 0.0541
+# Max Camber Position: 0.3482
+# Leading Edge Radius: 0.0292
+# LE Droop: 0.0001
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.79e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00876240,0.05263437
+UPPER,2,0.03504958,0.09388272
+UPPER,3,0.07301996,0.11866599
+UPPER,4,0.28377660,0.14405001
+UPPER,5,0.32618000,0.14979311
+UPPER,6,0.36858340,0.14022127
+UPPER,7,0.37093100,0.11342014
+UPPER,8,0.47824000,0.07276469
+UPPER,9,0.88000000,0.02820588
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00876240,-0.03503158
+LOWER,2,0.03504958,-0.01170369
+LOWER,3,0.07301996,-0.03064224
+LOWER,4,0.28377660,-0.02632862
+LOWER,5,0.32618000,-0.04164356
+LOWER,6,0.36858340,-0.02058552
+LOWER,7,0.37093100,0.01195871
+LOWER,8,0.47824000,0.02012579
+LOWER,9,0.88000000,0.00968996
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

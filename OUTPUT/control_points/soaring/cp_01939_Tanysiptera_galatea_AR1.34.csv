@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tanysiptera_galatea
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 104.30 mm
+# Secondary1: 77.70 mm
+# Kipps Distance: 25.40 mm
+# Hand-Wing Index: 24.80
+# Tail Length: 236.00 mm
+# Aspect Ratio: 1.342
+# Pointedness Index: 0.2435
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1177
+# Max Thickness Position: 0.3351
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3602
+# Leading Edge Radius: 0.0333
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.75e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00999913,0.06303475
+UPPER,2,0.03999650,0.11054628
+UPPER,3,0.08332605,0.13741344
+UPPER,4,0.29155440,0.16789282
+UPPER,5,0.33512000,0.17495689
+UPPER,6,0.37868560,0.16318344
+UPPER,7,0.38240400,0.13021778
+UPPER,8,0.49016000,0.08160470
+UPPER,9,0.88000000,0.03116327
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00999913,-0.03908450
+LOWER,2,0.03999650,-0.01764720
+LOWER,3,0.08332605,-0.04196370
+LOWER,4,0.29155440,-0.04167457
+LOWER,5,0.33512000,-0.06051209
+LOWER,6,0.37868560,-0.03461050
+LOWER,7,0.38240400,0.00541922
+LOWER,8,0.49016000,0.01899506
+LOWER,9,0.88000000,0.00959622
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

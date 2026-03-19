@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anthus_cervinus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 83.30 mm
+# Secondary1: 60.30 mm
+# Kipps Distance: 22.90 mm
+# Hand-Wing Index: 27.50
+# Tail Length: 56.60 mm
+# Aspect Ratio: 1.381
+# Pointedness Index: 0.2749
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1168
+# Max Thickness Position: 0.3335
+# Max Camber/Chord: 0.0567
+# Max Camber Position: 0.3580
+# Leading Edge Radius: 0.0325
+# LE Droop: 0.0025
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.31e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00975646,0.06103876
+UPPER,2,0.03902584,0.10913741
+UPPER,3,0.08130383,0.13631062
+UPPER,4,0.29014500,0.16655117
+UPPER,5,0.33350000,0.17356075
+UPPER,6,0.37685500,0.16187811
+UPPER,7,0.38032500,0.12916673
+UPPER,8,0.48800000,0.08093560
+UPPER,9,0.88000000,0.03090517
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00975646,-0.03827584
+LOWER,2,0.03902584,-0.01752741
+LOWER,3,0.08130383,-0.04166149
+LOWER,4,0.29014500,-0.04139978
+LOWER,5,0.33350000,-0.06009200
+LOWER,6,0.37685500,-0.03439020
+LOWER,7,0.38032500,0.00533077
+LOWER,8,0.48800000,0.01881962
+LOWER,9,0.88000000,0.00951054
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Otus_tempestatis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 146.40 mm
+# Secondary1: 123.20 mm
+# Kipps Distance: 48.50 mm
+# Hand-Wing Index: 28.20
+# Tail Length: 80.20 mm
+# Aspect Ratio: 1.188
+# Pointedness Index: 0.3313
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1131
+# Max Thickness Position: 0.3331
+# Max Camber/Chord: 0.0566
+# Max Camber Position: 0.3574
+# Leading Edge Radius: 0.0315
+# LE Droop: 0.0024
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.72e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00944753,0.05904518
+UPPER,2,0.03779012,0.10702222
+UPPER,3,0.07872942,0.13350662
+UPPER,4,0.28977960,0.16291704
+UPPER,5,0.33308000,0.16970311
+UPPER,6,0.37638040,0.15839299
+UPPER,7,0.37978600,0.12672465
+UPPER,8,0.48744000,0.07977995
+UPPER,9,0.88000000,0.03055682
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00944753,-0.03708212
+LOWER,2,0.03779012,-0.01638172
+LOWER,3,0.07872942,-0.03956183
+LOWER,4,0.28977960,-0.03840312
+LOWER,5,0.33308000,-0.05649931
+LOWER,6,0.37638040,-0.03161704
+LOWER,7,0.37978600,0.00683737
+LOWER,8,0.48744000,0.01925901
+LOWER,9,0.88000000,0.00962643
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

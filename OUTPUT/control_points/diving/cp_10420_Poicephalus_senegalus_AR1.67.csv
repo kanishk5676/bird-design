@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Poicephalus_senegalus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 157.00 mm
+# Secondary1: 94.20 mm
+# Kipps Distance: 62.80 mm
+# Hand-Wing Index: 39.90
+# Tail Length: 67.90 mm
+# Aspect Ratio: 1.667
+# Pointedness Index: 0.4000
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1033
+# Max Thickness Position: 0.3261
+# Max Camber/Chord: 0.0540
+# Max Camber Position: 0.3481
+# Leading Edge Radius: 0.0291
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.98e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00873906,0.05245436
+UPPER,2,0.03495624,0.09761276
+UPPER,3,0.07282550,0.12410999
+UPPER,4,0.28367220,0.15116746
+UPPER,5,0.32606000,0.15736805
+UPPER,6,0.36844780,0.14703374
+UPPER,7,0.37077700,0.11809768
+UPPER,8,0.47808000,0.07485729
+UPPER,9,0.88000000,0.02879694
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00873906,-0.03495024
+LOWER,2,0.03495624,-0.01416104
+LOWER,3,0.07282550,-0.03508749
+LOWER,4,0.28367220,-0.03278320
+LOWER,5,0.32606000,-0.04931810
+LOWER,6,0.36844780,-0.02658262
+LOWER,7,0.37077700,0.00855402
+LOWER,8,0.47808000,0.01902745
+LOWER,9,0.88000000,0.00937252
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

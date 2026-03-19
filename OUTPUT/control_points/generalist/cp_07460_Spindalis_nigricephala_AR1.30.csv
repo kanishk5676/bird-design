@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Spindalis_nigricephala
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 95.20 mm
+# Secondary1: 73.40 mm
+# Kipps Distance: 20.60 mm
+# Hand-Wing Index: 21.90
+# Tail Length: 72.30 mm
+# Aspect Ratio: 1.297
+# Pointedness Index: 0.2164
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1206
+# Max Thickness Position: 0.3369
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3625
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.55e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01022629,0.06497773
+UPPER,2,0.04090515,0.11295231
+UPPER,3,0.08521907,0.13989591
+UPPER,4,0.29306820,0.17103656
+UPPER,5,0.33686000,0.17827043
+UPPER,6,0.38065180,0.16621399
+UPPER,7,0.38463700,0.13245594
+UPPER,8,0.49248000,0.08280813
+UPPER,9,0.88000000,0.03157343
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01022629,-0.03981915
+LOWER,2,0.04090515,-0.01838353
+LOWER,3,0.08521907,-0.04338264
+LOWER,4,0.29306820,-0.04356817
+LOWER,5,0.33686000,-0.06285848
+LOWER,6,0.38065180,-0.03633430
+LOWER,7,0.38463700,0.00465761
+LOWER,8,0.49248000,0.01889868
+LOWER,9,0.88000000,0.00960392
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

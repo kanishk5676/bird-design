@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dasyornis_longirostris
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 67.60 mm
+# Secondary1: 62.00 mm
+# Kipps Distance: 4.20 mm
+# Hand-Wing Index: 6.30
+# Tail Length: 88.60 mm
+# Aspect Ratio: 1.090
+# Pointedness Index: 0.0621
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1349
+# Max Thickness Position: 0.3462
+# Max Camber/Chord: 0.0596
+# Max Camber Position: 0.3750
+# Leading Edge Radius: 0.0383
+# LE Droop: 0.0067
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01149036,0.07568214
+UPPER,2,0.04596142,0.12485646
+UPPER,3,0.09575297,0.15197363
+UPPER,4,0.30121140,0.18642666
+UPPER,5,0.34622000,0.19452289
+UPPER,6,0.39122860,0.18102918
+UPPER,7,0.39664900,0.14324678
+UPPER,8,0.50496000,0.08843030
+UPPER,9,0.88000000,0.03343756
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01149036,-0.04393942
+LOWER,2,0.04596142,-0.02232485
+LOWER,3,0.09575297,-0.05085407
+LOWER,4,0.30121140,-0.05376140
+LOWER,5,0.34622000,-0.07535134
+LOWER,6,0.39122860,-0.04566517
+LOWER,7,0.39664900,0.00021345
+LOWER,8,0.50496000,0.01805198
+LOWER,9,0.88000000,0.00949896
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

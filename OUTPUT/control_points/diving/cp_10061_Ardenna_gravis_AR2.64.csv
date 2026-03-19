@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ardenna_gravis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 317.80 mm
+# Secondary1: 120.20 mm
+# Kipps Distance: 195.20 mm
+# Hand-Wing Index: 61.90
+# Tail Length: 112.80 mm
+# Aspect Ratio: 2.644
+# Pointedness Index: 0.6142
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0817
+# Max Thickness Position: 0.3129
+# Max Camber/Chord: 0.0473
+# Max Camber Position: 0.3305
+# Leading Edge Radius: 0.0232
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00697332,0.04183994
+UPPER,2,0.02789330,0.08105677
+UPPER,3,0.05811103,0.10233466
+UPPER,4,0.27218820,0.12408580
+UPPER,5,0.31286000,0.12898537
+UPPER,6,0.35353180,0.12081943
+UPPER,7,0.35383700,0.09795480
+UPPER,8,0.46048000,0.06309171
+UPPER,9,0.88000000,0.02451662
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00697332,-0.02789330
+LOWER,2,0.02789330,-0.00956691
+LOWER,3,0.05811103,-0.02559250
+LOWER,4,0.27218820,-0.02126791
+LOWER,5,0.31286000,-0.03433342
+LOWER,6,0.35353180,-0.01636835
+LOWER,7,0.35383700,0.01139584
+LOWER,8,0.46048000,0.01790979
+LOWER,9,0.88000000,0.00856512
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

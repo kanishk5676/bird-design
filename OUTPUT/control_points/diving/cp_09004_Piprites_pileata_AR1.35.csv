@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Piprites_pileata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 72.00 mm
+# Secondary1: 53.20 mm
+# Kipps Distance: 18.80 mm
+# Hand-Wing Index: 26.10
+# Tail Length: 50.40 mm
+# Aspect Ratio: 1.353
+# Pointedness Index: 0.2611
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1186
+# Max Thickness Position: 0.3343
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3591
+# Leading Edge Radius: 0.0329
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.13e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00986967,0.06199804
+UPPER,2,0.03947869,0.11052100
+UPPER,3,0.08224728,0.13782148
+UPPER,4,0.29087580,0.16847188
+UPPER,5,0.33434000,0.17558762
+UPPER,6,0.37780420,0.16372805
+UPPER,7,0.38140300,0.13052127
+UPPER,8,0.48912000,0.08164996
+UPPER,9,0.88000000,0.03114460
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00986967,-0.03864469
+LOWER,2,0.03947869,-0.01800341
+LOWER,3,0.08224728,-0.04256916
+LOWER,4,0.29087580,-0.04262837
+LOWER,5,0.33434000,-0.06160367
+LOWER,6,0.37780420,-0.03551263
+LOWER,7,0.38140300,0.00480989
+LOWER,8,0.48912000,0.01873163
+LOWER,9,0.88000000,0.00950417
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

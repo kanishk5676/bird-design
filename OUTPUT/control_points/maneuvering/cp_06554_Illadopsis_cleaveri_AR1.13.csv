@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Illadopsis_cleaveri
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 72.70 mm
+# Secondary1: 64.60 mm
+# Kipps Distance: 4.20 mm
+# Hand-Wing Index: 6.10
+# Tail Length: 58.00 mm
+# Aspect Ratio: 1.125
+# Pointedness Index: 0.0578
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1347
+# Max Thickness Position: 0.3463
+# Max Camber/Chord: 0.0596
+# Max Camber Position: 0.3751
+# Leading Edge Radius: 0.0384
+# LE Droop: 0.0068
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.10e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01151870,0.07589223
+UPPER,2,0.04607482,0.12479052
+UPPER,3,0.09598920,0.15181615
+UPPER,4,0.30131580,0.18621779
+UPPER,5,0.34634000,0.19429965
+UPPER,6,0.39136420,0.18082989
+UPPER,7,0.39680300,0.14311454
+UPPER,8,0.50512000,0.08837703
+UPPER,9,0.88000000,0.03342456
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01151870,-0.04404082
+LOWER,2,0.04607482,-0.02224257
+LOWER,3,0.09598920,-0.05070775
+LOWER,4,0.30131580,-0.05354407
+LOWER,5,0.34634000,-0.07509570
+LOWER,6,0.39136420,-0.04546221
+LOWER,7,0.39680300,0.00033500
+LOWER,8,0.50512000,0.01809555
+LOWER,9,0.88000000,0.00951259
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Riparia_riparia
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 101.80 mm
+# Secondary1: 47.90 mm
+# Kipps Distance: 54.00 mm
+# Hand-Wing Index: 53.00
+# Tail Length: 47.20 mm
+# Aspect Ratio: 2.125
+# Pointedness Index: 0.5305
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0940
+# Max Thickness Position: 0.3182
+# Max Camber/Chord: 0.0503
+# Max Camber Position: 0.3376
+# Leading Edge Radius: 0.0256
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.27e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00767290,0.04603737
+UPPER,2,0.03069158,0.08979467
+UPPER,3,0.06394080,0.11400476
+UPPER,4,0.27683400,0.13871813
+UPPER,5,0.31820000,0.14436008
+UPPER,6,0.35956600,0.13495682
+UPPER,7,0.36069000,0.10862770
+UPPER,8,0.46760000,0.06910750
+UPPER,9,0.88000000,0.02664706
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00767290,-0.03069158
+LOWER,2,0.03069158,-0.01247580
+LOWER,3,0.06394080,-0.03138825
+LOWER,4,0.27683400,-0.02865987
+LOWER,5,0.31820000,-0.04370508
+LOWER,6,0.35956600,-0.02301791
+LOWER,7,0.36069000,0.00895316
+LOWER,8,0.46760000,0.01803849
+LOWER,9,0.88000000,0.00882057
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

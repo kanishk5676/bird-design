@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hypnelus_ruficollis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 88.00 mm
+# Secondary1: 68.30 mm
+# Kipps Distance: 19.20 mm
+# Hand-Wing Index: 22.00
+# Tail Length: 84.00 mm
+# Aspect Ratio: 1.288
+# Pointedness Index: 0.2182
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1209
+# Max Thickness Position: 0.3368
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3624
+# Leading Edge Radius: 0.0340
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01021407,0.06488444
+UPPER,2,0.04085629,0.11309749
+UPPER,3,0.08511727,0.14013863
+UPPER,4,0.29301600,0.17135667
+UPPER,5,0.33680000,0.17861199
+UPPER,6,0.38058400,0.16651979
+UPPER,7,0.38456000,0.13266163
+UPPER,8,0.49240000,0.08289466
+UPPER,9,0.88000000,0.03159596
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01021407,-0.03977629
+LOWER,2,0.04085629,-0.01850354
+LOWER,3,0.08511727,-0.04359735
+LOWER,4,0.29301600,-0.04388447
+LOWER,5,0.33680000,-0.06323199
+LOWER,6,0.38058400,-0.03662915
+LOWER,7,0.38456000,0.00448433
+LOWER,8,0.49240000,0.01883872
+LOWER,9,0.88000000,0.00958562
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

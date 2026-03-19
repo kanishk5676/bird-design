@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ninox_obscura
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 212.50 mm
+# Secondary1: 133.70 mm
+# Kipps Distance: 78.80 mm
+# Hand-Wing Index: 37.10
+# Tail Length: 122.20 mm
+# Aspect Ratio: 1.589
+# Pointedness Index: 0.3708
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1038
+# Max Thickness Position: 0.3277
+# Max Camber/Chord: 0.0547
+# Max Camber Position: 0.3503
+# Leading Edge Radius: 0.0299
+# LE Droop: 0.0006
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.44e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00897354,0.05442124
+UPPER,2,0.03589416,0.09900081
+UPPER,3,0.07477950,0.12509596
+UPPER,4,0.28513380,0.15231815
+UPPER,5,0.32774000,0.15854884
+UPPER,6,0.37034620,0.14816436
+UPPER,7,0.37293300,0.11908779
+UPPER,8,0.48032000,0.07557494
+UPPER,9,0.88000000,0.02909510
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00897354,-0.03572016
+LOWER,2,0.03589416,-0.01408397
+LOWER,3,0.07477950,-0.03506619
+LOWER,4,0.28513380,-0.03252571
+LOWER,5,0.32774000,-0.04914089
+LOWER,6,0.37034620,-0.02629502
+LOWER,7,0.37293300,0.00901223
+LOWER,8,0.48032000,0.01937818
+LOWER,9,0.88000000,0.00952220
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

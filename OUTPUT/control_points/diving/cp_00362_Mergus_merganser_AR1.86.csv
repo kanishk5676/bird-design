@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Mergus_merganser
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 270.80 mm
+# Secondary1: 145.70 mm
+# Kipps Distance: 123.80 mm
+# Hand-Wing Index: 46.00
+# Tail Length: 107.20 mm
+# Aspect Ratio: 1.859
+# Pointedness Index: 0.4572
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0953
+# Max Thickness Position: 0.3224
+# Max Camber/Chord: 0.0524
+# Max Camber Position: 0.3432
+# Leading Edge Radius: 0.0275
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.14e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00826086,0.04956518
+UPPER,2,0.03304346,0.09220679
+UPPER,3,0.06884053,0.11684514
+UPPER,4,0.28048800,0.14200759
+UPPER,5,0.32240000,0.14772658
+UPPER,6,0.36431200,0.13819493
+UPPER,7,0.36608000,0.11150628
+UPPER,8,0.47320000,0.07123714
+UPPER,9,0.88000000,0.02754113
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00826086,-0.03304346
+LOWER,2,0.03304346,-0.01215781
+LOWER,3,0.06884053,-0.03117502
+LOWER,4,0.28048800,-0.02765593
+LOWER,5,0.32240000,-0.04290658
+LOWER,6,0.36431200,-0.02193694
+LOWER,7,0.36608000,0.01047070
+LOWER,8,0.47320000,0.01914988
+LOWER,9,0.88000000,0.00928984
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

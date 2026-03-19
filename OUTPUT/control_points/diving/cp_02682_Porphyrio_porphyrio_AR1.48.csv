@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Porphyrio_porphyrio
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 234.90 mm
+# Secondary1: 158.30 mm
+# Kipps Distance: 69.30 mm
+# Hand-Wing Index: 30.50
+# Tail Length: 85.50 mm
+# Aspect Ratio: 1.484
+# Pointedness Index: 0.2950
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1085
+# Max Thickness Position: 0.3317
+# Max Camber/Chord: 0.0561
+# Max Camber Position: 0.3556
+# Leading Edge Radius: 0.0319
+# LE Droop: 0.0019
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.08e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00956210,0.05927261
+UPPER,2,0.03824841,0.10389918
+UPPER,3,0.07968419,0.12980941
+UPPER,4,0.28857900,0.15818113
+UPPER,5,0.33170000,0.16469379
+UPPER,6,0.37482100,0.15383935
+UPPER,7,0.37801500,0.12344691
+UPPER,8,0.48560000,0.07811941
+UPPER,9,0.88000000,0.03002032
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00956210,-0.03767841
+LOWER,2,0.03824841,-0.01508193
+LOWER,3,0.07968419,-0.03712705
+LOWER,4,0.28857900,-0.03502794
+LOWER,5,0.33170000,-0.05239504
+LOWER,6,0.37482100,-0.02851527
+LOWER,7,0.37801500,0.00838983
+LOWER,8,0.48560000,0.01961639
+LOWER,9,0.88000000,0.00969557
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

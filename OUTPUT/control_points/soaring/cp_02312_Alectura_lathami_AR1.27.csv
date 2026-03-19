@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Alectura_lathami
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 289.80 mm
+# Secondary1: 228.00 mm
+# Kipps Distance: 61.70 mm
+# Hand-Wing Index: 21.40
+# Tail Length: 218.50 mm
+# Aspect Ratio: 1.271
+# Pointedness Index: 0.2129
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1146
+# Max Thickness Position: 0.3372
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3629
+# Leading Edge Radius: 0.0342
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.73e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01025934,0.06527605
+UPPER,2,0.04103737,0.11013744
+UPPER,3,0.08549452,0.13567444
+UPPER,4,0.29332920,0.16550930
+UPPER,5,0.33716000,0.17238531
+UPPER,6,0.38099080,0.16092529
+UPPER,7,0.38502200,0.12883723
+UPPER,8,0.49288000,0.08120539
+UPPER,9,0.88000000,0.03112635
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01025934,-0.03992137
+LOWER,2,0.04103737,-0.01644728
+LOWER,3,0.08549452,-0.03988698
+LOWER,4,0.29332920,-0.03847908
+LOWER,5,0.33716000,-0.05681511
+LOWER,6,0.38099080,-0.03160306
+LOWER,7,0.38502200,0.00736101
+LOWER,8,0.49288000,0.01978273
+LOWER,9,0.88000000,0.00986227
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Patagioenas_speciosa
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 184.70 mm
+# Secondary1: 114.00 mm
+# Kipps Distance: 65.50 mm
+# Hand-Wing Index: 36.50
+# Tail Length: 98.30 mm
+# Aspect Ratio: 1.620
+# Pointedness Index: 0.3546
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1051
+# Max Thickness Position: 0.3281
+# Max Camber/Chord: 0.0548
+# Max Camber Position: 0.3508
+# Leading Edge Radius: 0.0302
+# LE Droop: 0.0007
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.69e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00907449,0.05514695
+UPPER,2,0.03629797,0.09988414
+UPPER,3,0.07562076,0.12615247
+UPPER,4,0.28544700,0.15366924
+UPPER,5,0.32810000,0.15997721
+UPPER,6,0.37075300,0.14946393
+UPPER,7,0.37339500,0.12002673
+UPPER,8,0.48080000,0.07605491
+UPPER,9,0.88000000,0.02925149
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00907449,-0.03608797
+LOWER,2,0.03629797,-0.01444698
+LOWER,3,0.07562076,-0.03574863
+LOWER,4,0.28544700,-0.03346721
+LOWER,5,0.32810000,-0.05028846
+LOWER,6,0.37075300,-0.02715924
+LOWER,7,0.37339500,0.00858593
+LOWER,8,0.48080000,0.01928492
+LOWER,9,0.88000000,0.00950578
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

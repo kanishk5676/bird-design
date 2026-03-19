@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ensifera_ensifera
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 76.30 mm
+# Secondary1: 32.30 mm
+# Kipps Distance: 45.60 mm
+# Hand-Wing Index: 58.70
+# Tail Length: 60.50 mm
+# Aspect Ratio: 2.362
+# Pointedness Index: 0.5976
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0914
+# Max Thickness Position: 0.3148
+# Max Camber/Chord: 0.0485
+# Max Camber Position: 0.3330
+# Leading Edge Radius: 0.0239
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.46e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00715581,0.04293487
+UPPER,2,0.02862325,0.08687482
+UPPER,3,0.05963176,0.11037071
+UPPER,4,0.27385860,0.13435111
+UPPER,5,0.31478000,0.13983411
+UPPER,6,0.35570140,0.13069577
+UPPER,7,0.35630100,0.10510844
+UPPER,8,0.46304000,0.06677049
+UPPER,9,0.88000000,0.02572196
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00715581,-0.02862325
+LOWER,2,0.02862325,-0.01228489
+LOWER,3,0.05963176,-0.03071498
+LOWER,4,0.27385860,-0.02831122
+LOWER,5,0.31478000,-0.04293256
+LOWER,6,0.35570140,-0.02282822
+LOWER,7,0.35630100,0.00824211
+LOWER,8,0.46304000,0.01724581
+LOWER,9,0.88000000,0.00845736
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

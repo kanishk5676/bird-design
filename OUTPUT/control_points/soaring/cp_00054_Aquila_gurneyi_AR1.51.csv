@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aquila_gurneyi
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 544.50 mm
+# Secondary1: 360.80 mm
+# Kipps Distance: 183.80 mm
+# Hand-Wing Index: 33.80
+# Tail Length: 365.50 mm
+# Aspect Ratio: 1.509
+# Pointedness Index: 0.3376
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1009
+# Max Thickness Position: 0.3297
+# Max Camber/Chord: 0.0555
+# Max Camber Position: 0.3530
+# Leading Edge Radius: 0.0308
+# LE Droop: 0.0012
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.59e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00924418,0.05670506
+UPPER,2,0.03697671,0.09884831
+UPPER,3,0.07703481,0.12369798
+UPPER,4,0.28685640,0.15034218
+UPPER,5,0.32972000,0.15639888
+UPPER,6,0.37258360,0.14630438
+UPPER,7,0.37547400,0.11803979
+UPPER,8,0.48296000,0.07540041
+UPPER,9,0.88000000,0.02914808
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00924418,-0.03660471
+LOWER,2,0.03697671,-0.01289353
+LOWER,3,0.07703481,-0.03303930
+LOWER,4,0.28685640,-0.02933988
+LOWER,5,0.32972000,-0.04549108
+LOWER,6,0.37258360,-0.02328319
+LOWER,7,0.37547400,0.01103811
+LOWER,8,0.48296000,0.02024912
+LOWER,9,0.88000000,0.00982568
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Microhierax_melanoleucos
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 111.40 mm
+# Secondary1: 67.00 mm
+# Kipps Distance: 45.30 mm
+# Hand-Wing Index: 40.40
+# Tail Length: 69.80 mm
+# Aspect Ratio: 1.663
+# Pointedness Index: 0.4066
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1049
+# Max Thickness Position: 0.3258
+# Max Camber/Chord: 0.0539
+# Max Camber Position: 0.3477
+# Leading Edge Radius: 0.0290
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.90e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00868988,0.05213929
+UPPER,2,0.03475953,0.09825728
+UPPER,3,0.07241568,0.12510500
+UPPER,4,0.28341120,0.15249172
+UPPER,5,0.32576000,0.15878484
+UPPER,6,0.36810880,0.14829631
+UPPER,7,0.37039200,0.11892845
+UPPER,8,0.47768000,0.07518253
+UPPER,9,0.88000000,0.02887267
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00868988,-0.03475953
+LOWER,2,0.03475953,-0.01469842
+LOWER,3,0.07241568,-0.03603962
+LOWER,4,0.28341120,-0.03420400
+LOWER,5,0.32576000,-0.05098564
+LOWER,6,0.36810880,-0.02791089
+LOWER,7,0.37039200,0.00775010
+LOWER,8,0.47768000,0.01873382
+LOWER,9,0.88000000,0.00927949
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

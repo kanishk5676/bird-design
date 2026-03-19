@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Passer_cordofanicus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 73.10 mm
+# Secondary1: 60.50 mm
+# Kipps Distance: 12.60 mm
+# Hand-Wing Index: 17.20
+# Tail Length: 54.60 mm
+# Aspect Ratio: 1.208
+# Pointedness Index: 0.1724
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1258
+# Max Thickness Position: 0.3397
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3662
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.11e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01059461,0.06812766
+UPPER,2,0.04237844,0.11709408
+UPPER,3,0.08828842,0.14429536
+UPPER,4,0.29552160,0.17664064
+UPPER,5,0.33968000,0.18418789
+UPPER,6,0.38383840,0.17160914
+UPPER,7,0.38825600,0.13638864
+UPPER,8,0.49624000,0.08486084
+UPPER,9,0.88000000,0.03225515
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01059461,-0.04101044
+LOWER,2,0.04237844,-0.01981186
+LOWER,3,0.08828842,-0.04609256
+LOWER,4,0.29552160,-0.04726109
+LOWER,5,0.33968000,-0.06738709
+LOWER,6,0.38383840,-0.03971384
+LOWER,7,0.38825600,0.00305391
+LOWER,8,0.49624000,0.01859800
+LOWER,9,0.88000000,0.00956860
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

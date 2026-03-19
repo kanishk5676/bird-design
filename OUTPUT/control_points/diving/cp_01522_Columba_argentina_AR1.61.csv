@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Columba_argentina
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 234.60 mm
+# Secondary1: 146.10 mm
+# Kipps Distance: 88.70 mm
+# Hand-Wing Index: 37.80
+# Tail Length: 148.00 mm
+# Aspect Ratio: 1.606
+# Pointedness Index: 0.3781
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1027
+# Max Thickness Position: 0.3273
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3498
+# Leading Edge Radius: 0.0297
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.07e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00891506,0.05393035
+UPPER,2,0.03566024,0.09815313
+UPPER,3,0.07429216,0.12412739
+UPPER,4,0.28476840,0.15108703
+UPPER,5,0.32732000,0.15724974
+UPPER,6,0.36987160,0.14697855
+UPPER,7,0.37239400,0.11821924
+UPPER,8,0.47976000,0.07511653
+UPPER,9,0.88000000,0.02894135
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00891506,-0.03552824
+LOWER,2,0.03566024,-0.01377952
+LOWER,3,0.07429216,-0.03448543
+LOWER,4,0.28476840,-0.03174004
+LOWER,5,0.32732000,-0.04817394
+LOWER,6,0.36987160,-0.02557733
+LOWER,7,0.37239400,0.00934469
+LOWER,8,0.47976000,0.01943384
+LOWER,9,0.88000000,0.00952600
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

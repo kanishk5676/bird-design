@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Microdynamis_parva
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 104.80 mm
+# Secondary1: 84.60 mm
+# Kipps Distance: 20.20 mm
+# Hand-Wing Index: 19.30
+# Tail Length: 85.20 mm
+# Aspect Ratio: 1.239
+# Pointedness Index: 0.1927
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1221
+# Max Thickness Position: 0.3384
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3646
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.76e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01042640,0.06669843
+UPPER,2,0.04170562,0.11458207
+UPPER,3,0.08688671,0.14137303
+UPPER,4,0.29442540,0.17288503
+UPPER,5,0.33842000,0.18021149
+UPPER,6,0.38241460,0.16800072
+UPPER,7,0.38663900,0.13381056
+UPPER,8,0.49456000,0.08357837
+UPPER,9,0.88000000,0.03184805
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01042640,-0.04046362
+LOWER,2,0.04170562,-0.01873815
+LOWER,3,0.08688671,-0.04409474
+LOWER,4,0.29442540,-0.04446670
+LOWER,5,0.33842000,-0.06400394
+LOWER,6,0.38241460,-0.03714024
+LOWER,7,0.38663900,0.00437638
+LOWER,8,0.49456000,0.01892926
+LOWER,9,0.88000000,0.00964164
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

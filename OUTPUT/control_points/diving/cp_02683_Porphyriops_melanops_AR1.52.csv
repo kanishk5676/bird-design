@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Porphyriops_melanops
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 125.00 mm
+# Secondary1: 82.50 mm
+# Kipps Distance: 42.50 mm
+# Hand-Wing Index: 34.00
+# Tail Length: 54.80 mm
+# Aspect Ratio: 1.515
+# Pointedness Index: 0.3400
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1091
+# Max Thickness Position: 0.3296
+# Max Camber/Chord: 0.0554
+# Max Camber Position: 0.3528
+# Leading Edge Radius: 0.0308
+# LE Droop: 0.0012
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00922560,0.05655360
+UPPER,2,0.03690240,0.10286749
+UPPER,3,0.07688000,0.12955654
+UPPER,4,0.28675200,0.15799969
+UPPER,5,0.32960000,0.16454797
+UPPER,6,0.37244800,0.15363418
+UPPER,7,0.37532000,0.12307554
+UPPER,8,0.48280000,0.07765713
+UPPER,9,0.88000000,0.02978684
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00922560,-0.03654240
+LOWER,2,0.03690240,-0.01553065
+LOWER,3,0.07688000,-0.03781142
+LOWER,4,0.28675200,-0.03626590
+LOWER,5,0.32960000,-0.05372797
+LOWER,6,0.37244800,-0.02971762
+LOWER,7,0.37532000,0.00738929
+LOWER,8,0.48280000,0.01907488
+LOWER,9,0.88000000,0.00948698
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

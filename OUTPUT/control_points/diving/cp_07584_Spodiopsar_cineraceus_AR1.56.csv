@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Spodiopsar_cineraceus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 127.50 mm
+# Secondary1: 81.70 mm
+# Kipps Distance: 45.90 mm
+# Hand-Wing Index: 36.00
+# Tail Length: 63.80 mm
+# Aspect Ratio: 1.561
+# Pointedness Index: 0.3600
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1076
+# Max Thickness Position: 0.3284
+# Max Camber/Chord: 0.0550
+# Max Camber Position: 0.3512
+# Leading Edge Radius: 0.0302
+# LE Droop: 0.0008
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.27e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00906240,0.05517440
+UPPER,2,0.03624960,0.10133840
+UPPER,3,0.07552000,0.12806745
+UPPER,4,0.28570800,0.15614611
+UPPER,5,0.32840000,0.16260480
+UPPER,6,0.37109200,0.15184032
+UPPER,7,0.37378000,0.12169977
+UPPER,8,0.48120000,0.07685654
+UPPER,9,0.88000000,0.02949638
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00906240,-0.03600960
+LOWER,2,0.03624960,-0.01521033
+LOWER,3,0.07552000,-0.03715238
+LOWER,4,0.28570800,-0.03546163
+LOWER,5,0.32840000,-0.05268480
+LOWER,6,0.37109200,-0.02900294
+LOWER,7,0.37378000,0.00759629
+LOWER,8,0.48120000,0.01900493
+LOWER,9,0.88000000,0.00943421
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

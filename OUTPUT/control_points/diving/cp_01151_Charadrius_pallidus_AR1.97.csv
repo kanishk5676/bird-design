@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Charadrius_pallidus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 90.40 mm
+# Secondary1: 45.80 mm
+# Kipps Distance: 44.00 mm
+# Hand-Wing Index: 49.00
+# Tail Length: 36.20 mm
+# Aspect Ratio: 1.974
+# Pointedness Index: 0.4867
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0975
+# Max Thickness Position: 0.3206
+# Max Camber/Chord: 0.0515
+# Max Camber Position: 0.3408
+# Leading Edge Radius: 0.0267
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.15e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00801830,0.04810979
+UPPER,2,0.03207320,0.09255498
+UPPER,3,0.06681916,0.11760872
+UPPER,4,0.27892200,0.14317795
+UPPER,5,0.32060000,0.14902670
+UPPER,6,0.36227800,0.13927878
+UPPER,7,0.36377000,0.11198460
+UPPER,8,0.47080000,0.07110955
+UPPER,9,0.88000000,0.02738639
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00801830,-0.03207320
+LOWER,2,0.03207320,-0.01315172
+LOWER,3,0.06681916,-0.03282609
+LOWER,4,0.27892200,-0.03033503
+LOWER,5,0.32060000,-0.04593170
+LOWER,6,0.36227800,-0.02448628
+LOWER,7,0.36377000,0.00865665
+LOWER,8,0.47080000,0.01831236
+LOWER,9,0.88000000,0.00898771
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

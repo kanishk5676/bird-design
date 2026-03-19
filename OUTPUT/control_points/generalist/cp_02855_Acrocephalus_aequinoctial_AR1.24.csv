@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Acrocephalus_aequinoctialis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 73.50 mm
+# Secondary1: 59.20 mm
+# Kipps Distance: 14.30 mm
+# Hand-Wing Index: 19.50
+# Tail Length: 63.50 mm
+# Aspect Ratio: 1.242
+# Pointedness Index: 0.1946
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1239
+# Max Thickness Position: 0.3383
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3644
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.12e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01041106,0.06656633
+UPPER,2,0.04164422,0.11542195
+UPPER,3,0.08675879,0.14264899
+UPPER,4,0.29432100,0.17455678
+UPPER,5,0.33830000,0.18199183
+UPPER,6,0.38227900,0.16960008
+UPPER,7,0.38648500,0.13490320
+UPPER,8,0.49440000,0.08406011
+UPPER,9,0.88000000,0.03198166
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01041106,-0.04041422
+LOWER,2,0.04164422,-0.01932755
+LOWER,3,0.08675879,-0.04515791
+LOWER,4,0.29432100,-0.04601629
+LOWER,5,0.33830000,-0.06584308
+LOWER,6,0.38227900,-0.03858124
+LOWER,7,0.38648500,0.00355070
+LOWER,8,0.49440000,0.01865767
+LOWER,9,0.88000000,0.00956190
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

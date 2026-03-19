@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Oxyura_leucocephala
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 148.40 mm
+# Secondary1: 77.80 mm
+# Kipps Distance: 68.80 mm
+# Hand-Wing Index: 47.00
+# Tail Length: 88.20 mm
+# Aspect Ratio: 1.907
+# Pointedness Index: 0.4636
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0980
+# Max Thickness Position: 0.3218
+# Max Camber/Chord: 0.0521
+# Max Camber Position: 0.3424
+# Leading Edge Radius: 0.0273
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.76e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00819738,0.04918428
+UPPER,2,0.03278952,0.09330039
+UPPER,3,0.06831150,0.11850580
+UPPER,4,0.27996600,0.14423248
+UPPER,5,0.32180000,0.15011153
+UPPER,6,0.36363400,0.14031312
+UPPER,7,0.36531000,0.11287760
+UPPER,8,0.47240000,0.07174390
+UPPER,9,0.88000000,0.02764717
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00819738,-0.03278952
+LOWER,2,0.03278952,-0.01311026
+LOWER,3,0.06831150,-0.03285208
+LOWER,4,0.27996600,-0.03017908
+LOWER,5,0.32180000,-0.04585653
+LOWER,6,0.36363400,-0.02430004
+LOWER,7,0.36531000,0.00901453
+LOWER,8,0.47240000,0.01860129
+LOWER,9,0.88000000,0.00911251
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

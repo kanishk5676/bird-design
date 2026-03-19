@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Artamus_monachus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 152.20 mm
+# Secondary1: 87.50 mm
+# Kipps Distance: 65.50 mm
+# Hand-Wing Index: 42.70
+# Tail Length: 72.60 mm
+# Aspect Ratio: 1.739
+# Pointedness Index: 0.4304
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1013
+# Max Thickness Position: 0.3244
+# Max Camber/Chord: 0.0533
+# Max Camber Position: 0.3458
+# Leading Edge Radius: 0.0283
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.86e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00849857,0.05099142
+UPPER,2,0.03399428,0.09595080
+UPPER,3,0.07082142,0.12196389
+UPPER,4,0.28221060,0.14851004
+UPPER,5,0.32438000,0.15458685
+UPPER,6,0.36654940,0.14445884
+UPPER,7,0.36862100,0.11610042
+UPPER,8,0.47584000,0.07366918
+UPPER,9,0.88000000,0.02835898
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00849857,-0.03399428
+LOWER,2,0.03399428,-0.01375225
+LOWER,3,0.07082142,-0.03422133
+LOWER,4,0.28221060,-0.03176849
+LOWER,5,0.32438000,-0.04797330
+LOWER,6,0.36654940,-0.02569168
+LOWER,7,0.36862100,0.00874354
+LOWER,8,0.47584000,0.01887099
+LOWER,9,0.88000000,0.00927549
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

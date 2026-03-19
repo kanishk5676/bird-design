@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Discosura_langsdorffi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 35.20 mm
+# Secondary1: 12.80 mm
+# Kipps Distance: 22.80 mm
+# Hand-Wing Index: 64.10
+# Tail Length: 66.60 mm
+# Aspect Ratio: 2.750
+# Pointedness Index: 0.6477
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0887
+# Max Thickness Position: 0.3115
+# Max Camber/Chord: 0.0465
+# Max Camber Position: 0.3287
+# Leading Edge Radius: 0.0225
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00673513,0.04041079
+UPPER,2,0.02694052,0.08390453
+UPPER,3,0.05612609,0.10667954
+UPPER,4,0.27103980,0.12991978
+UPPER,5,0.31154000,0.13524298
+UPPER,6,0.35204020,0.12637098
+UPPER,7,0.35214300,0.10152938
+UPPER,8,0.45872000,0.06438613
+UPPER,9,0.88000000,0.02477633
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00673513,-0.02694052
+LOWER,2,0.02694052,-0.01210736
+LOWER,3,0.05612609,-0.03005703
+LOWER,4,0.27103980,-0.02800183
+LOWER,5,0.31154000,-0.04219703
+LOWER,6,0.35204020,-0.02267863
+LOWER,7,0.35214300,0.00748617
+LOWER,8,0.45872000,0.01642344
+LOWER,9,0.88000000,0.00808194
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

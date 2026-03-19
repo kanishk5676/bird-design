@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Semnornis_frantzii
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 88.80 mm
+# Secondary1: 76.80 mm
+# Kipps Distance: 12.20 mm
+# Hand-Wing Index: 13.70
+# Tail Length: 67.70 mm
+# Aspect Ratio: 1.156
+# Pointedness Index: 0.1374
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1275
+# Max Thickness Position: 0.3418
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3690
+# Leading Edge Radius: 0.0363
+# LE Droop: 0.0053
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.42e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01088010,0.07054063
+UPPER,2,0.04352042,0.11903477
+UPPER,3,0.09066754,0.14594655
+UPPER,4,0.29734860,0.17870679
+UPPER,5,0.34178000,0.18635750
+UPPER,6,0.38621140,0.17360632
+UPPER,7,0.39095100,0.13790304
+UPPER,8,0.49904000,0.08572219
+UPPER,9,0.88000000,0.03256233
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01088010,-0.04194242
+LOWER,2,0.04352042,-0.02020773
+LOWER,3,0.09066754,-0.04688774
+LOWER,4,0.29734860,-0.04826407
+LOWER,5,0.34178000,-0.06866595
+LOWER,6,0.38621140,-0.04061337
+LOWER,7,0.39095100,0.00274062
+LOWER,8,0.49904000,0.01863274
+LOWER,9,0.88000000,0.00961097
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

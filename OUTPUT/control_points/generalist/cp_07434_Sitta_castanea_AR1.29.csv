@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sitta_castanea
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 74.20 mm
+# Secondary1: 57.50 mm
+# Kipps Distance: 16.70 mm
+# Hand-Wing Index: 22.50
+# Tail Length: 38.10 mm
+# Aspect Ratio: 1.290
+# Pointedness Index: 0.2251
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1208
+# Max Thickness Position: 0.3365
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3620
+# Leading Edge Radius: 0.0339
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01016366,0.06448194
+UPPER,2,0.04065463,0.11287092
+UPPER,3,0.08469714,0.13998088
+UPPER,4,0.29275500,0.17116693
+UPPER,5,0.33650000,0.17841528
+UPPER,6,0.38024500,0.16633469
+UPPER,7,0.38417500,0.13250904
+UPPER,8,0.49200000,0.08279362
+UPPER,9,0.88000000,0.03155604
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01016366,-0.03960463
+LOWER,2,0.04065463,-0.01849461
+LOWER,3,0.08469714,-0.04356711
+LOWER,4,0.29275500,-0.04386759
+LOWER,5,0.33650000,-0.06319653
+LOWER,6,0.38024500,-0.03661923
+LOWER,7,0.38417500,0.00445477
+LOWER,8,0.49200000,0.01880499
+LOWER,9,0.88000000,0.00957011
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

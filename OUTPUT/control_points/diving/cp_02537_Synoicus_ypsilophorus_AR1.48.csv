@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Synoicus_ypsilophorus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 98.00 mm
+# Secondary1: 66.30 mm
+# Kipps Distance: 33.40 mm
+# Hand-Wing Index: 33.50
+# Tail Length: 37.60 mm
+# Aspect Ratio: 1.478
+# Pointedness Index: 0.3408
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1101
+# Max Thickness Position: 0.3299
+# Max Camber/Chord: 0.0555
+# Max Camber Position: 0.3532
+# Leading Edge Radius: 0.0308
+# LE Droop: 0.0013
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00923674,0.05672042
+UPPER,2,0.03694695,0.10356139
+UPPER,3,0.07697281,0.13037851
+UPPER,4,0.28701300,0.15905083
+UPPER,5,0.32990000,0.16565922
+UPPER,6,0.37278700,0.15464523
+UPPER,7,0.37570500,0.12380608
+UPPER,8,0.48320000,0.07803063
+UPPER,9,0.88000000,0.02990855
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00923674,-0.03655695
+LOWER,2,0.03694695,-0.01581297
+LOWER,3,0.07697281,-0.03834220
+LOWER,4,0.28701300,-0.03699809
+LOWER,5,0.32990000,-0.05462047
+LOWER,6,0.37278700,-0.03038970
+LOWER,7,0.37570500,0.00705784
+LOWER,8,0.48320000,0.01900243
+LOWER,9,0.88000000,0.00947425
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

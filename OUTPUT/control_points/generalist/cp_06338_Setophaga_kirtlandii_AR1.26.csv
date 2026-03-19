@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Setophaga_kirtlandii
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 70.00 mm
+# Secondary1: 55.70 mm
+# Kipps Distance: 14.30 mm
+# Hand-Wing Index: 20.50
+# Tail Length: 59.50 mm
+# Aspect Ratio: 1.257
+# Pointedness Index: 0.2043
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1234
+# Max Thickness Position: 0.3377
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3636
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01033084,0.06588506
+UPPER,2,0.04132337,0.11482857
+UPPER,3,0.08609036,0.14212813
+UPPER,4,0.29379900,0.17390693
+UPPER,5,0.33770000,0.18131007
+UPPER,6,0.38160100,0.16897150
+UPPER,7,0.38571500,0.13442351
+UPPER,8,0.49360000,0.08378371
+UPPER,9,0.88000000,0.03188212
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01033084,-0.04015337
+LOWER,2,0.04132337,-0.01920989
+LOWER,3,0.08609036,-0.04491849
+LOWER,4,0.29379900,-0.04571961
+LOWER,5,0.33770000,-0.06546132
+LOWER,6,0.38160100,-0.03831647
+LOWER,7,0.38571500,0.00363467
+LOWER,8,0.49360000,0.01863911
+LOWER,9,0.88000000,0.00954567
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

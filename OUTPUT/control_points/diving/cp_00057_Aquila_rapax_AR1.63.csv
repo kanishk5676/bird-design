@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aquila_rapax
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 506.60 mm
+# Secondary1: 310.00 mm
+# Kipps Distance: 196.00 mm
+# Hand-Wing Index: 38.70
+# Tail Length: 242.40 mm
+# Aspect Ratio: 1.634
+# Pointedness Index: 0.3869
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0975
+# Max Thickness Position: 0.3268
+# Max Camber/Chord: 0.0543
+# Max Camber Position: 0.3490
+# Leading Edge Radius: 0.0295
+# LE Droop: 0.0003
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.44e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00884263,0.05331575
+UPPER,2,0.03537050,0.09516092
+UPPER,3,0.07368855,0.12014381
+UPPER,4,0.28429860,0.14592991
+UPPER,5,0.32678000,0.15177730
+UPPER,6,0.36926140,0.14203165
+UPPER,7,0.37170100,0.11474382
+UPPER,8,0.47904000,0.07346049
+UPPER,9,0.88000000,0.02843842
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00884263,-0.03529250
+LOWER,2,0.03537050,-0.01217382
+LOWER,3,0.07368855,-0.03153723
+LOWER,4,0.28429860,-0.02754270
+LOWER,5,0.32678000,-0.04313575
+LOWER,6,0.36926140,-0.02169531
+LOWER,7,0.37170100,0.01143990
+LOWER,8,0.47904000,0.02003497
+LOWER,9,0.88000000,0.00968193
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Buphagus_africanus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 118.30 mm
+# Secondary1: 83.40 mm
+# Kipps Distance: 34.20 mm
+# Hand-Wing Index: 29.00
+# Tail Length: 95.10 mm
+# Aspect Ratio: 1.418
+# Pointedness Index: 0.2891
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1137
+# Max Thickness Position: 0.3326
+# Max Camber/Chord: 0.0564
+# Max Camber Position: 0.3568
+# Leading Edge Radius: 0.0321
+# LE Droop: 0.0022
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.06e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00963821,0.06002928
+UPPER,2,0.03855285,0.10701402
+UPPER,3,0.08031844,0.13377214
+UPPER,4,0.28936200,0.16329475
+UPPER,5,0.33260000,0.17011478
+UPPER,6,0.37583800,0.15874805
+UPPER,7,0.37917000,0.12692121
+UPPER,8,0.48680000,0.07980721
+UPPER,9,0.88000000,0.03054343
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00963821,-0.03789285
+LOWER,2,0.03855285,-0.01661691
+LOWER,3,0.08031844,-0.03996117
+LOWER,4,0.28936200,-0.03903302
+LOWER,5,0.33260000,-0.05721978
+LOWER,6,0.37583800,-0.03221298
+LOWER,7,0.37917000,0.00643390
+LOWER,8,0.48680000,0.01908403
+LOWER,9,0.88000000,0.00956518
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ciconia_abdimii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 416.50 mm
+# Secondary1: 230.80 mm
+# Kipps Distance: 185.80 mm
+# Hand-Wing Index: 44.60
+# Tail Length: 163.00 mm
+# Aspect Ratio: 1.805
+# Pointedness Index: 0.4461
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0939
+# Max Thickness Position: 0.3232
+# Max Camber/Chord: 0.0528
+# Max Camber Position: 0.3443
+# Leading Edge Radius: 0.0279
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.10e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00836014,0.05016083
+UPPER,2,0.03344055,0.09182880
+UPPER,3,0.06966782,0.11618315
+UPPER,4,0.28121880,0.14106548
+UPPER,5,0.32324000,0.14669963
+UPPER,6,0.36526120,0.13730938
+UPPER,7,0.36715800,0.11101667
+UPPER,8,0.47432000,0.07117024
+UPPER,9,0.88000000,0.02757510
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00836014,-0.03344055
+LOWER,2,0.03344055,-0.01156983
+LOWER,3,0.06966782,-0.03017680
+LOWER,4,0.28121880,-0.02608103
+LOWER,5,0.32324000,-0.04110543
+LOWER,6,0.36526120,-0.02044687
+LOWER,7,0.36715800,0.01147999
+LOWER,8,0.47432000,0.01958785
+LOWER,9,0.88000000,0.00944317
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pitohui_cerviniventris
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 113.90 mm
+# Secondary1: 101.20 mm
+# Kipps Distance: 12.60 mm
+# Hand-Wing Index: 11.00
+# Tail Length: 100.00 mm
+# Aspect Ratio: 1.125
+# Pointedness Index: 0.1106
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1283
+# Max Thickness Position: 0.3434
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3712
+# Leading Edge Radius: 0.0370
+# LE Droop: 0.0058
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.96e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01109922,0.07239533
+UPPER,2,0.04439688,0.12021565
+UPPER,3,0.09249351,0.14677769
+UPPER,4,0.29875800,0.17973121
+UPPER,5,0.34340000,0.18742804
+UPPER,6,0.38804200,0.17459999
+UPPER,7,0.39303000,0.13868144
+UPPER,8,0.50120000,0.08619393
+UPPER,9,0.88000000,0.03273849
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01109922,-0.04265688
+LOWER,2,0.04439688,-0.02034815
+LOWER,3,0.09249351,-0.04719486
+LOWER,4,0.29875800,-0.04860815
+LOWER,5,0.34340000,-0.06913304
+LOWER,6,0.38804200,-0.04091132
+LOWER,7,0.39303000,0.00270406
+LOWER,8,0.50120000,0.01871217
+LOWER,9,0.88000000,0.00965565
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

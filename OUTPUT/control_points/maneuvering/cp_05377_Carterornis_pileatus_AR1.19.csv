@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Carterornis_pileatus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 69.40 mm
+# Secondary1: 58.10 mm
+# Kipps Distance: 11.30 mm
+# Hand-Wing Index: 16.20
+# Tail Length: 68.00 mm
+# Aspect Ratio: 1.194
+# Pointedness Index: 0.1628
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1269
+# Max Thickness Position: 0.3403
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3670
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.04e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01067388,0.06880326
+UPPER,2,0.04269551,0.11795029
+UPPER,3,0.08894897,0.14519972
+UPPER,4,0.29604360,0.17779448
+UPPER,5,0.34028000,0.18540686
+UPPER,6,0.38451640,0.17271956
+UPPER,7,0.38902600,0.13719514
+UPPER,8,0.49704000,0.08527824
+UPPER,9,0.88000000,0.03239272
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01067388,-0.04126751
+LOWER,2,0.04269551,-0.02011248
+LOWER,3,0.08894897,-0.04666072
+LOWER,4,0.29604360,-0.04803939
+LOWER,5,0.34028000,-0.06833906
+LOWER,6,0.38451640,-0.04042701
+LOWER,7,0.38902600,0.00270980
+LOWER,8,0.49704000,0.01852880
+LOWER,9,0.88000000,0.00955856
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tringa_guttifer
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 171.20 mm
+# Secondary1: 79.00 mm
+# Kipps Distance: 92.20 mm
+# Hand-Wing Index: 53.90
+# Tail Length: 61.00 mm
+# Aspect Ratio: 2.167
+# Pointedness Index: 0.5386
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0909
+# Max Thickness Position: 0.3177
+# Max Camber/Chord: 0.0500
+# Max Camber Position: 0.3369
+# Leading Edge Radius: 0.0253
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.98e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00760405,0.04562429
+UPPER,2,0.03041619,0.08797826
+UPPER,3,0.06336707,0.11147593
+UPPER,4,0.27636420,0.13547402
+UPPER,5,0.31766000,0.14092713
+UPPER,6,0.35895580,0.13183861
+UPPER,7,0.35999700,0.10639077
+UPPER,8,0.46688000,0.06798352
+UPPER,9,0.88000000,0.02628676
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00760405,-0.03041619
+LOWER,2,0.03041619,-0.01156856
+LOWER,3,0.06336707,-0.02969408
+LOWER,4,0.27636420,-0.02630156
+LOWER,5,0.31766000,-0.04084318
+LOWER,6,0.35895580,-0.02084845
+LOWER,7,0.35999700,0.01005251
+LOWER,8,0.46688000,0.01830210
+LOWER,9,0.88000000,0.00887509
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

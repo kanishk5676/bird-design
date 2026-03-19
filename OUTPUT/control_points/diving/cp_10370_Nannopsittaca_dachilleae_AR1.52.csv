@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nannopsittaca_dachilleae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 82.00 mm
+# Secondary1: 53.90 mm
+# Kipps Distance: 28.10 mm
+# Hand-Wing Index: 34.40
+# Tail Length: 39.60 mm
+# Aspect Ratio: 1.521
+# Pointedness Index: 0.3427
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1105
+# Max Thickness Position: 0.3294
+# Max Camber/Chord: 0.0553
+# Max Camber Position: 0.3525
+# Leading Edge Radius: 0.0307
+# LE Droop: 0.0011
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.59e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00919968,0.05631806
+UPPER,2,0.03679871,0.10337361
+UPPER,3,0.07666398,0.13042744
+UPPER,4,0.28654320,0.15915448
+UPPER,5,0.32936000,0.16578211
+UPPER,6,0.37217680,0.15473606
+UPPER,7,0.37501200,0.12380711
+UPPER,8,0.48248000,0.07795230
+UPPER,9,0.88000000,0.02985905
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00919968,-0.03646271
+LOWER,2,0.03679871,-0.01598480
+LOWER,3,0.07666398,-0.03861916
+LOWER,4,0.28654320,-0.03746523
+LOWER,5,0.32936000,-0.05513891
+LOWER,6,0.37217680,-0.03083759
+LOWER,7,0.37501200,0.00671898
+LOWER,8,0.48248000,0.01883492
+LOWER,9,0.88000000,0.00941198
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

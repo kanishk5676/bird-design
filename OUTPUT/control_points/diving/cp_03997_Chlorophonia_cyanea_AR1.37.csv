@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chlorophonia_cyanea
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 62.30 mm
+# Secondary1: 45.50 mm
+# Kipps Distance: 16.60 mm
+# Hand-Wing Index: 26.70
+# Tail Length: 35.00 mm
+# Aspect Ratio: 1.369
+# Pointedness Index: 0.2665
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1181
+# Max Thickness Position: 0.3340
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3586
+# Leading Edge Radius: 0.0327
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.13e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00982407,0.06160443
+UPPER,2,0.03929629,0.11005608
+UPPER,3,0.08186726,0.13735799
+UPPER,4,0.29056260,0.16788873
+UPPER,5,0.33398000,0.17497422
+UPPER,6,0.37739740,0.16316507
+UPPER,7,0.38094100,0.13009947
+UPPER,8,0.48864000,0.08141596
+UPPER,9,0.88000000,0.03106277
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00982407,-0.03849829
+LOWER,2,0.03929629,-0.01788029
+LOWER,3,0.08186726,-0.04232696
+LOWER,4,0.29056260,-0.04231404
+LOWER,5,0.33398000,-0.06120867
+LOWER,6,0.37739740,-0.03522855
+LOWER,7,0.38094100,0.00492254
+LOWER,8,0.48864000,0.01873452
+LOWER,9,0.88000000,0.00949704
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

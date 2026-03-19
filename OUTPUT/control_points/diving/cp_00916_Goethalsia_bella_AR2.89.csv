@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Goethalsia_bella
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 51.40 mm
+# Secondary1: 17.80 mm
+# Kipps Distance: 33.80 mm
+# Hand-Wing Index: 65.70
+# Tail Length: 33.10 mm
+# Aspect Ratio: 2.888
+# Pointedness Index: 0.6576
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0862
+# Max Thickness Position: 0.3106
+# Max Camber/Chord: 0.0459
+# Max Camber Position: 0.3274
+# Leading Edge Radius: 0.0221
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.33e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00663588,0.03981530
+UPPER,2,0.02654353,0.08213268
+UPPER,3,0.05529903,0.10431023
+UPPER,4,0.27020460,0.12694701
+UPPER,5,0.31058000,0.13211871
+UPPER,6,0.35095540,0.12349922
+UPPER,7,0.35091100,0.09936463
+UPPER,8,0.45744000,0.06316979
+UPPER,9,0.88000000,0.02434663
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00663588,-0.02654353
+LOWER,2,0.02654353,-0.01150906
+LOWER,3,0.05529903,-0.02886813
+LOWER,4,0.27020460,-0.02647997
+LOWER,5,0.31058000,-0.04027116
+LOWER,6,0.35095540,-0.02130827
+LOWER,7,0.35091100,0.00799800
+LOWER,8,0.45744000,0.01640545
+LOWER,9,0.88000000,0.00803315
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

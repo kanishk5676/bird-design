@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Clamator_coromandus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 159.80 mm
+# Secondary1: 117.50 mm
+# Kipps Distance: 42.20 mm
+# Hand-Wing Index: 26.40
+# Tail Length: 212.40 mm
+# Aspect Ratio: 1.360
+# Pointedness Index: 0.2641
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1140
+# Max Thickness Position: 0.3342
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3589
+# Leading Edge Radius: 0.0328
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00984535,0.06179211
+UPPER,2,0.03938141,0.10813806
+UPPER,3,0.08204460,0.13449297
+UPPER,4,0.29071920,0.16413726
+UPPER,5,0.33416000,0.17097979
+UPPER,6,0.37760080,0.15957557
+UPPER,7,0.38117200,0.12764376
+UPPER,8,0.48888000,0.08032877
+UPPER,9,0.88000000,0.03075966
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00984535,-0.03856541
+LOWER,2,0.03938141,-0.01656534
+LOWER,3,0.08204460,-0.03995317
+LOWER,4,0.29071920,-0.03885784
+LOWER,5,0.33416000,-0.05710459
+LOWER,6,0.37760080,-0.03201531
+LOWER,7,0.38117200,0.00675904
+LOWER,8,0.48888000,0.01933541
+LOWER,9,0.88000000,0.00967271
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

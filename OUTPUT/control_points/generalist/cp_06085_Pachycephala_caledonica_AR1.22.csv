@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pachycephala_caledonica
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 83.00 mm
+# Secondary1: 68.10 mm
+# Kipps Distance: 14.90 mm
+# Hand-Wing Index: 17.90
+# Tail Length: 65.60 mm
+# Aspect Ratio: 1.219
+# Pointedness Index: 0.1795
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1245
+# Max Thickness Position: 0.3393
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3657
+# Leading Edge Radius: 0.0351
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.30e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01053672,0.06764031
+UPPER,2,0.04214687,0.11624156
+UPPER,3,0.08780598,0.14329863
+UPPER,4,0.29515620,0.17535875
+UPPER,5,0.33926000,0.18283033
+UPPER,6,0.38336380,0.17037770
+UPPER,7,0.38771700,0.13551032
+UPPER,8,0.49568000,0.08442576
+UPPER,9,0.88000000,0.03211762
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01053672,-0.04082087
+LOWER,2,0.04214687,-0.01944204
+LOWER,3,0.08780598,-0.04540546
+LOWER,4,0.29515620,-0.04629816
+LOWER,5,0.33926000,-0.06622238
+LOWER,6,0.38336380,-0.03882658
+LOWER,7,0.38771700,0.00351238
+LOWER,8,0.49568000,0.01871477
+LOWER,9,0.88000000,0.00959494
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chelidoptera_tenebrosa
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 107.20 mm
+# Secondary1: 82.30 mm
+# Kipps Distance: 24.10 mm
+# Hand-Wing Index: 22.40
+# Tail Length: 53.60 mm
+# Aspect Ratio: 1.303
+# Pointedness Index: 0.2248
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1195
+# Max Thickness Position: 0.3366
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3621
+# Leading Edge Radius: 0.0339
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.81e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01016801,0.06452807
+UPPER,2,0.04067205,0.11225219
+UPPER,3,0.08473343,0.13905617
+UPPER,4,0.29280720,0.16995641
+UPPER,5,0.33656000,0.17712646
+UPPER,6,0.38031280,0.16517637
+UPPER,7,0.38425200,0.13171613
+UPPER,8,0.49208000,0.08244200
+UPPER,9,0.88000000,0.03145780
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01016801,-0.03961605
+LOWER,2,0.04067205,-0.01807131
+LOWER,3,0.08473343,-0.04280272
+LOWER,4,0.29280720,-0.04275512
+LOWER,5,0.33656000,-0.06187526
+LOWER,6,0.38031280,-0.03558507
+LOWER,7,0.38425200,0.00504522
+LOWER,8,0.49208000,0.01899775
+LOWER,9,0.88000000,0.00962637
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

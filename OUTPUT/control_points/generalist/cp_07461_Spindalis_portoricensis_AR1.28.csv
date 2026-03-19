@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Spindalis_portoricensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 83.60 mm
+# Secondary1: 65.40 mm
+# Kipps Distance: 18.30 mm
+# Hand-Wing Index: 21.90
+# Tail Length: 60.00 mm
+# Aspect Ratio: 1.278
+# Pointedness Index: 0.2189
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1213
+# Max Thickness Position: 0.3369
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3625
+# Leading Edge Radius: 0.0340
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01021347,0.06490083
+UPPER,2,0.04085389,0.11331331
+UPPER,3,0.08511227,0.14041575
+UPPER,4,0.29306820,0.17171525
+UPPER,5,0.33686000,0.17899244
+UPPER,6,0.38065180,0.16686379
+UPPER,7,0.38463700,0.13290358
+UPPER,8,0.49248000,0.08301029
+UPPER,9,0.88000000,0.03163119
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01021347,-0.03976789
+LOWER,2,0.04085389,-0.01861458
+LOWER,3,0.08511227,-0.04380140
+LOWER,4,0.29306820,-0.04417466
+LOWER,5,0.33686000,-0.06358049
+LOWER,6,0.38065180,-0.03689747
+LOWER,7,0.38463700,0.00433993
+LOWER,8,0.49248000,0.01879760
+LOWER,9,0.88000000,0.00957504
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

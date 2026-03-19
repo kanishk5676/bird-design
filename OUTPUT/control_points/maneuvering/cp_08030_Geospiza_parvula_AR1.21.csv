@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geospiza_parvula
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 61.30 mm
+# Secondary1: 50.60 mm
+# Kipps Distance: 9.10 mm
+# Hand-Wing Index: 15.30
+# Tail Length: 36.70 mm
+# Aspect Ratio: 1.211
+# Pointedness Index: 0.1485
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1277
+# Max Thickness Position: 0.3408
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3678
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01077472,0.06958834
+UPPER,2,0.04309890,0.11862660
+UPPER,3,0.08978936,0.14587917
+UPPER,4,0.29651340,0.17865824
+UPPER,5,0.34082000,0.18631835
+UPPER,6,0.38512660,0.17355150
+UPPER,7,0.38971900,0.13780429
+UPPER,8,0.49776000,0.08559951
+UPPER,9,0.88000000,0.03250040
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01077472,-0.04161690
+LOWER,2,0.04309890,-0.02032652
+LOWER,3,0.08978936,-0.04706888
+LOWER,4,0.29651340,-0.04859183
+LOWER,5,0.34082000,-0.06901880
+LOWER,6,0.38512660,-0.04093172
+LOWER,7,0.38971900,0.00247560
+LOWER,8,0.49776000,0.01848926
+LOWER,9,0.88000000,0.00955570
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

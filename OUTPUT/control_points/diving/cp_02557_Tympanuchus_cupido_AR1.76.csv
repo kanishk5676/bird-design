@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tympanuchus_cupido
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 204.80 mm
+# Secondary1: 116.10 mm
+# Kipps Distance: 86.40 mm
+# Hand-Wing Index: 42.70
+# Tail Length: 82.00 mm
+# Aspect Ratio: 1.764
+# Pointedness Index: 0.4219
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0996
+# Max Thickness Position: 0.3244
+# Max Camber/Chord: 0.0533
+# Max Camber Position: 0.3458
+# Leading Edge Radius: 0.0285
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.23e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00854182,0.05125090
+UPPER,2,0.03416727,0.09509977
+UPPER,3,0.07118181,0.12073841
+UPPER,4,0.28221060,0.14691012
+UPPER,5,0.32438000,0.15288480
+UPPER,6,0.36654940,0.14292699
+UPPER,7,0.36862100,0.11504515
+UPPER,8,0.47584000,0.07319260
+UPPER,9,0.88000000,0.02822282
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00854182,-0.03416727
+LOWER,2,0.03416727,-0.01320760
+LOWER,3,0.07118181,-0.03323414
+LOWER,4,0.28221060,-0.03033876
+LOWER,5,0.32438000,-0.04627125
+LOWER,6,0.36654940,-0.02436408
+LOWER,7,0.36862100,0.00949245
+LOWER,8,0.47584000,0.01910928
+LOWER,9,0.88000000,0.00934357
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

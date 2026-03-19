@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pachyptila_macgillivrayi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 192.80 mm
+# Secondary1: 78.20 mm
+# Kipps Distance: 114.50 mm
+# Hand-Wing Index: 59.40
+# Tail Length: 86.80 mm
+# Aspect Ratio: 2.465
+# Pointedness Index: 0.5939
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0863
+# Max Thickness Position: 0.3144
+# Max Camber/Chord: 0.0482
+# Max Camber Position: 0.3325
+# Leading Edge Radius: 0.0238
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.16e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00715357,0.04292144
+UPPER,2,0.02861429,0.08412214
+UPPER,3,0.05961311,0.10648032
+UPPER,4,0.27349320,0.12932058
+UPPER,5,0.31436000,0.13449791
+UPPER,6,0.35522680,0.12586903
+UPPER,7,0.35576200,0.10170816
+UPPER,8,0.46248000,0.06513860
+UPPER,9,0.88000000,0.02522256
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00715357,-0.02861429
+LOWER,2,0.02861429,-0.01073924
+LOWER,3,0.05961311,-0.02787133
+LOWER,4,0.27349320,-0.02427350
+LOWER,5,0.31436000,-0.03807971
+LOWER,6,0.35522680,-0.01909617
+LOWER,7,0.35576200,0.01024202
+LOWER,8,0.46248000,0.01780921
+LOWER,9,0.88000000,0.00860072
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

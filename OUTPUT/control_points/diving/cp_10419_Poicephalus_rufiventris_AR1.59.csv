@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Poicephalus_rufiventris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 152.60 mm
+# Secondary1: 95.80 mm
+# Kipps Distance: 56.60 mm
+# Hand-Wing Index: 37.20
+# Tail Length: 73.70 mm
+# Aspect Ratio: 1.593
+# Pointedness Index: 0.3709
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1057
+# Max Thickness Position: 0.3277
+# Max Camber/Chord: 0.0547
+# Max Camber Position: 0.3502
+# Leading Edge Radius: 0.0299
+# LE Droop: 0.0006
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.87e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00897007,0.05438041
+UPPER,2,0.03588027,0.09987090
+UPPER,3,0.07475057,0.12638486
+UPPER,4,0.28508160,0.15400561
+UPPER,5,0.32768000,0.16034552
+UPPER,6,0.37027840,0.14977901
+UPPER,7,0.37285600,0.12019278
+UPPER,8,0.48024000,0.07606457
+UPPER,9,0.88000000,0.02923176
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00897007,-0.03571227
+LOWER,2,0.03588027,-0.01467470
+LOWER,3,0.07475057,-0.03613279
+LOWER,4,0.28508160,-0.03407830
+LOWER,5,0.32768000,-0.05098472
+LOWER,6,0.37027840,-0.02773839
+LOWER,7,0.37285600,0.00818775
+LOWER,8,0.48024000,0.01910873
+LOWER,9,0.88000000,0.00944350
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

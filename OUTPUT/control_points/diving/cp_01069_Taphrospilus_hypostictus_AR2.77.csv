@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Taphrospilus_hypostictus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 67.10 mm
+# Secondary1: 24.20 mm
+# Kipps Distance: 42.90 mm
+# Hand-Wing Index: 64.00
+# Tail Length: 37.00 mm
+# Aspect Ratio: 2.773
+# Pointedness Index: 0.6393
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0864
+# Max Thickness Position: 0.3116
+# Max Camber/Chord: 0.0466
+# Max Camber Position: 0.3288
+# Leading Edge Radius: 0.0226
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.72e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00678094,0.04068567
+UPPER,2,0.02712378,0.08279299
+UPPER,3,0.05650787,0.10506766
+UPPER,4,0.27109200,0.12780794
+UPPER,5,0.31160000,0.13299397
+UPPER,6,0.35210800,0.12435058
+UPPER,7,0.35222000,0.10014906
+UPPER,8,0.45880000,0.06377751
+UPPER,9,0.88000000,0.02460752
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00678094,-0.02712378
+LOWER,2,0.02712378,-0.01136287
+LOWER,3,0.05650787,-0.02871411
+LOWER,4,0.27109200,-0.02604454
+LOWER,5,0.31160000,-0.03987397
+LOWER,6,0.35210800,-0.02085850
+LOWER,7,0.35222000,0.00852905
+LOWER,8,0.45880000,0.01676644
+LOWER,9,0.88000000,0.00818264
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

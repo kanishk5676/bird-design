@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eutoxeres_aquila
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 70.50 mm
+# Secondary1: 27.80 mm
+# Kipps Distance: 42.90 mm
+# Hand-Wing Index: 60.70
+# Tail Length: 54.00 mm
+# Aspect Ratio: 2.536
+# Pointedness Index: 0.6085
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0898
+# Max Thickness Position: 0.3136
+# Max Camber/Chord: 0.0478
+# Max Camber Position: 0.3314
+# Leading Edge Radius: 0.0235
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.45e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00703918,0.04223505
+UPPER,2,0.02815670,0.08549949
+UPPER,3,0.05865980,0.10860211
+UPPER,4,0.27281460,0.13218228
+UPPER,5,0.31358000,0.13757133
+UPPER,6,0.35434540,0.12858957
+UPPER,7,0.35476100,0.10344066
+UPPER,8,0.46144000,0.06573962
+UPPER,9,0.88000000,0.02533184
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00703918,-0.02815670
+LOWER,2,0.02815670,-0.01202780
+LOWER,3,0.05865980,-0.03012744
+LOWER,4,0.27281460,-0.02769297
+LOWER,5,0.31358000,-0.04206378
+LOWER,6,0.35434540,-0.02230392
+LOWER,7,0.35476100,0.00823405
+LOWER,8,0.46144000,0.01703288
+LOWER,9,0.88000000,0.00834574
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Alauda_leucoptera
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 113.20 mm
+# Secondary1: 62.30 mm
+# Kipps Distance: 53.00 mm
+# Hand-Wing Index: 45.90
+# Tail Length: 68.40 mm
+# Aspect Ratio: 1.817
+# Pointedness Index: 0.4682
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1003
+# Max Thickness Position: 0.3225
+# Max Camber/Chord: 0.0524
+# Max Camber Position: 0.3433
+# Leading Edge Radius: 0.0274
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00820765,0.04924590
+UPPER,2,0.03283060,0.09470397
+UPPER,3,0.06839709,0.12043257
+UPPER,4,0.28054020,0.14668555
+UPPER,5,0.32246000,0.15270135
+UPPER,6,0.36437980,0.14267502
+UPPER,7,0.36615700,0.11460127
+UPPER,8,0.47328000,0.07264603
+UPPER,9,0.88000000,0.02794750
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00820765,-0.03283060
+LOWER,2,0.03283060,-0.01373099
+LOWER,3,0.06839709,-0.03403129
+LOWER,4,0.28054020,-0.03178326
+LOWER,5,0.32246000,-0.04782540
+LOWER,6,0.36437980,-0.02576746
+LOWER,7,0.36615700,0.00832209
+LOWER,8,0.47328000,0.01847467
+LOWER,9,0.88000000,0.00909896
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

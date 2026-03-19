@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rynchops_niger
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 365.70 mm
+# Secondary1: 119.20 mm
+# Kipps Distance: 246.50 mm
+# Hand-Wing Index: 67.40
+# Tail Length: 130.50 mm
+# Aspect Ratio: 3.068
+# Pointedness Index: 0.6740
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0764
+# Max Thickness Position: 0.3096
+# Max Camber/Chord: 0.0453
+# Max Camber Position: 0.3261
+# Leading Edge Radius: 0.0217
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.22e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00649991,0.03899944
+UPPER,2,0.02599962,0.07669839
+UPPER,3,0.05416588,0.09668265
+UPPER,4,0.26931720,0.11711965
+UPPER,5,0.30956000,0.12170560
+UPPER,6,0.34980280,0.11406235
+UPPER,7,0.34960200,0.09266125
+UPPER,8,0.45608000,0.05988324
+UPPER,9,0.88000000,0.02331838
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00649991,-0.02599962
+LOWER,2,0.02599962,-0.00861282
+LOWER,3,0.05416588,-0.02350523
+LOWER,4,0.26931720,-0.01893020
+LOWER,5,0.30956000,-0.03115940
+LOWER,6,0.34980280,-0.01434425
+LOWER,7,0.34960200,0.01164280
+LOWER,8,0.45608000,0.01736877
+LOWER,9,0.88000000,0.00826097
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

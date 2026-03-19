@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Uria_aalge
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 196.30 mm
+# Secondary1: 82.20 mm
+# Kipps Distance: 111.20 mm
+# Hand-Wing Index: 57.50
+# Tail Length: 49.80 mm
+# Aspect Ratio: 2.388
+# Pointedness Index: 0.5665
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0866
+# Max Thickness Position: 0.3155
+# Max Camber/Chord: 0.0489
+# Max Camber Position: 0.3340
+# Leading Edge Radius: 0.0245
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.54e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00735145,0.04410872
+UPPER,2,0.02940581,0.08481448
+UPPER,3,0.06126211,0.10727960
+UPPER,4,0.27448500,0.13023332
+UPPER,5,0.31550000,0.13542740
+UPPER,6,0.35651500,0.12677060
+UPPER,7,0.35722500,0.10253155
+UPPER,8,0.46400000,0.06576952
+UPPER,9,0.88000000,0.02549200
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00735145,-0.02940581
+LOWER,2,0.02940581,-0.01060099
+LOWER,3,0.06126211,-0.02773414
+LOWER,4,0.27448500,-0.02385777
+LOWER,5,0.31550000,-0.03770865
+LOWER,6,0.35651500,-0.01866369
+LOWER,7,0.35722500,0.01076944
+LOWER,8,0.46400000,0.01817329
+LOWER,9,0.88000000,0.00875212
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

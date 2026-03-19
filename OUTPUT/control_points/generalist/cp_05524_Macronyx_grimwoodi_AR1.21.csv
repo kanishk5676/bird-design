@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Macronyx_grimwoodi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 95.50 mm
+# Secondary1: 78.90 mm
+# Kipps Distance: 16.60 mm
+# Hand-Wing Index: 17.50
+# Tail Length: 72.00 mm
+# Aspect Ratio: 1.210
+# Pointedness Index: 0.1738
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1241
+# Max Thickness Position: 0.3395
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3660
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.56e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01057801,0.06796805
+UPPER,2,0.04231203,0.11613893
+UPPER,3,0.08815007,0.14301881
+UPPER,4,0.29536500,0.17498228
+UPPER,5,0.33950000,0.18242629
+UPPER,6,0.38363500,0.17001960
+UPPER,7,0.38802500,0.13528086
+UPPER,8,0.49600000,0.08434421
+UPPER,9,0.88000000,0.03210192
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01057801,-0.04096203
+LOWER,2,0.04231203,-0.01927563
+LOWER,3,0.08815007,-0.04511350
+LOWER,4,0.29536500,-0.04585684
+LOWER,5,0.33950000,-0.06570754
+LOWER,6,0.38363500,-0.03841282
+LOWER,7,0.38802500,0.00376993
+LOWER,8,0.49600000,0.01881344
+LOWER,9,0.88000000,0.00962717
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

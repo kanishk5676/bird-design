@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Certhia_manipurensis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 67.50 mm
+# Secondary1: 57.00 mm
+# Kipps Distance: 10.60 mm
+# Hand-Wing Index: 15.70
+# Tail Length: 73.40 mm
+# Aspect Ratio: 1.184
+# Pointedness Index: 0.1570
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1274
+# Max Thickness Position: 0.3406
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3674
+# Leading Edge Radius: 0.0357
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01071869,0.06917215
+UPPER,2,0.04287476,0.11838157
+UPPER,3,0.08932243,0.14565704
+UPPER,4,0.29630460,0.17837849
+UPPER,5,0.34058000,0.18602400
+UPPER,6,0.38485540,0.17328148
+UPPER,7,0.38941100,0.13760242
+UPPER,8,0.49744000,0.08548802
+UPPER,9,0.88000000,0.03246155
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01071869,-0.04141676
+LOWER,2,0.04287476,-0.02026650
+LOWER,3,0.08932243,-0.04695119
+LOWER,4,0.29630460,-0.04843842
+LOWER,5,0.34058000,-0.06882645
+LOWER,6,0.38485540,-0.04079290
+LOWER,7,0.38941100,0.00253168
+LOWER,8,0.49744000,0.01849171
+LOWER,9,0.88000000,0.00955268
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

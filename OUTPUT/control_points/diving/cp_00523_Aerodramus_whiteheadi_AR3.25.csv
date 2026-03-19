@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aerodramus_whiteheadi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 136.00 mm
+# Secondary1: 41.90 mm
+# Kipps Distance: 94.10 mm
+# Hand-Wing Index: 69.20
+# Tail Length: 50.00 mm
+# Aspect Ratio: 3.246
+# Pointedness Index: 0.6919
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0786
+# Max Thickness Position: 0.3085
+# Max Camber/Chord: 0.0446
+# Max Camber Position: 0.3246
+# Leading Edge Radius: 0.0212
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.97e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00635373,0.03812238
+UPPER,2,0.02541492,0.07720688
+UPPER,3,0.05294775,0.09762911
+UPPER,4,0.26837760,0.11849703
+UPPER,5,0.30848000,0.12321588
+UPPER,6,0.34858240,0.11535113
+UPPER,7,0.34821600,0.09332983
+UPPER,8,0.45464000,0.05990443
+UPPER,9,0.88000000,0.02322779
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00635373,-0.02541492
+LOWER,2,0.02541492,-0.00956825
+LOWER,3,0.05294775,-0.02511407
+LOWER,4,0.26837760,-0.02149548
+LOWER,5,0.30848000,-0.03407908
+LOWER,6,0.34858240,-0.01677663
+LOWER,7,0.34821600,0.00996351
+LOWER,8,0.45464000,0.01662176
+LOWER,9,0.88000000,0.00799620
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

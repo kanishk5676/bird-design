@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bolemoreus_frenatus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 99.70 mm
+# Secondary1: 79.00 mm
+# Kipps Distance: 19.30 mm
+# Hand-Wing Index: 19.60
+# Tail Length: 83.60 mm
+# Aspect Ratio: 1.262
+# Pointedness Index: 0.1936
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1221
+# Max Thickness Position: 0.3382
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3643
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.65e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01041298,0.06655787
+UPPER,2,0.04165191,0.11450403
+UPPER,3,0.08677482,0.14136048
+UPPER,4,0.29426880,0.17287753
+UPPER,5,0.33824000,0.18020633
+UPPER,6,0.38221120,0.16799166
+UPPER,7,0.38640800,0.13379057
+UPPER,8,0.49432000,0.08355175
+UPPER,9,0.88000000,0.03183439
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01041298,-0.04042791
+LOWER,2,0.04165191,-0.01876609
+LOWER,3,0.08677482,-0.04413769
+LOWER,4,0.29426880,-0.04454366
+LOWER,5,0.33824000,-0.06408713
+LOWER,6,0.38221120,-0.03721485
+LOWER,7,0.38640800,0.00431504
+LOWER,8,0.49432000,0.01889641
+LOWER,9,0.88000000,0.00962903
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

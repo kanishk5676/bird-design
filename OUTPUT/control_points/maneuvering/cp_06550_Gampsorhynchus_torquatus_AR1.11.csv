@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gampsorhynchus_torquatus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 98.80 mm
+# Secondary1: 89.30 mm
+# Kipps Distance: 8.20 mm
+# Hand-Wing Index: 8.40
+# Tail Length: 118.40 mm
+# Aspect Ratio: 1.106
+# Pointedness Index: 0.0830
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1312
+# Max Thickness Position: 0.3450
+# Max Camber/Chord: 0.0594
+# Max Camber Position: 0.3733
+# Leading Edge Radius: 0.0377
+# LE Droop: 0.0063
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.63e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01131968,0.07423808
+UPPER,2,0.04527872,0.12239175
+UPPER,3,0.09433067,0.14908462
+UPPER,4,0.30011520,0.18269154
+UPPER,5,0.34496000,0.19056098
+UPPER,6,0.38980480,0.17744524
+UPPER,7,0.39503200,0.14072117
+UPPER,8,0.50328000,0.08721713
+UPPER,9,0.88000000,0.03306596
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01131968,-0.04338272
+LOWER,2,0.04527872,-0.02117910
+LOWER,3,0.09433067,-0.04874562
+LOWER,4,0.30011520,-0.05076860
+LOWER,5,0.34496000,-0.07175378
+LOWER,6,0.38980480,-0.04289916
+LOWER,7,0.39503200,0.00169435
+LOWER,8,0.50328000,0.01846820
+LOWER,9,0.88000000,0.00960460
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

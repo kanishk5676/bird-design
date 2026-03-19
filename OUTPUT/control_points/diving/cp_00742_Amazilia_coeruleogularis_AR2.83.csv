@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Amazilia_coeruleogularis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 47.20 mm
+# Secondary1: 16.70 mm
+# Kipps Distance: 30.00 mm
+# Hand-Wing Index: 64.30
+# Tail Length: 33.60 mm
+# Aspect Ratio: 2.826
+# Pointedness Index: 0.6356
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0879
+# Max Thickness Position: 0.3114
+# Max Camber/Chord: 0.0464
+# Max Camber Position: 0.3286
+# Leading Edge Radius: 0.0226
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.18e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00679089,0.04074537
+UPPER,2,0.02716358,0.08340849
+UPPER,3,0.05659079,0.10598779
+UPPER,4,0.27093540,0.12903159
+UPPER,5,0.31142000,0.13430283
+UPPER,6,0.35190460,0.12551743
+UPPER,7,0.35198900,0.10091829
+UPPER,8,0.45856000,0.06408060
+UPPER,9,0.88000000,0.02467886
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00679089,-0.02716358
+LOWER,2,0.02716358,-0.01185623
+LOWER,3,0.05659079,-0.02958892
+LOWER,4,0.27093540,-0.02734863
+LOWER,5,0.31142000,-0.04140528
+LOWER,6,0.35190460,-0.02207739
+LOWER,7,0.35198900,0.00779299
+LOWER,8,0.45856000,0.01649867
+LOWER,9,0.88000000,0.00809803
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

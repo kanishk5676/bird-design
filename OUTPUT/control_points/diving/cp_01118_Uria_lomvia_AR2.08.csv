@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Uria_lomvia
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 206.80 mm
+# Secondary1: 99.20 mm
+# Kipps Distance: 106.80 mm
+# Hand-Wing Index: 51.90
+# Tail Length: 44.40 mm
+# Aspect Ratio: 2.085
+# Pointedness Index: 0.5164
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0908
+# Max Thickness Position: 0.3189
+# Max Camber/Chord: 0.0507
+# Max Camber Position: 0.3385
+# Leading Edge Radius: 0.0259
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.87e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00777801,0.04666807
+UPPER,2,0.03111204,0.08846700
+UPPER,3,0.06481676,0.11198851
+UPPER,4,0.27740820,0.13601672
+UPPER,5,0.31886000,0.14146432
+UPPER,6,0.36031180,0.13238499
+UPPER,7,0.36153700,0.10696285
+UPPER,8,0.46848000,0.06849247
+UPPER,9,0.88000000,0.02651844
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00777801,-0.03111204
+LOWER,2,0.03111204,-0.01131903
+LOWER,3,0.06481676,-0.02935149
+LOWER,4,0.27740820,-0.02559544
+LOWER,5,0.31886000,-0.04012237
+LOWER,6,0.36031180,-0.02014784
+LOWER,7,0.36153700,0.01072190
+LOWER,8,0.46848000,0.01870494
+LOWER,9,0.88000000,0.00903601
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

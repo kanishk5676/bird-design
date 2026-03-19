@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aethia_pygmaea
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 112.20 mm
+# Secondary1: 66.40 mm
+# Kipps Distance: 45.80 mm
+# Hand-Wing Index: 40.80
+# Tail Length: 31.20 mm
+# Aspect Ratio: 1.690
+# Pointedness Index: 0.4082
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1028
+# Max Thickness Position: 0.3255
+# Max Camber/Chord: 0.0538
+# Max Camber Position: 0.3474
+# Leading Edge Radius: 0.0289
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.83e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00866970,0.05201821
+UPPER,2,0.03467881,0.09715184
+UPPER,3,0.07224752,0.12354393
+UPPER,4,0.28320240,0.15047401
+UPPER,5,0.32552000,0.15664480
+UPPER,6,0.36783760,0.14636016
+UPPER,7,0.37008400,0.11756317
+UPPER,8,0.47736000,0.07452563
+UPPER,9,0.88000000,0.02867110
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00866970,-0.03467881
+LOWER,2,0.03467881,-0.01408141
+LOWER,3,0.07224752,-0.03490365
+LOWER,4,0.28320240,-0.03259257
+LOWER,5,0.32552000,-0.04904800
+LOWER,6,0.36783760,-0.02642179
+LOWER,7,0.37008400,0.00854599
+LOWER,8,0.47736000,0.01895651
+LOWER,9,0.88000000,0.00933574
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Antrostomus_noctitherus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 132.50 mm
+# Secondary1: 75.30 mm
+# Kipps Distance: 57.20 mm
+# Hand-Wing Index: 43.20
+# Tail Length: 125.50 mm
+# Aspect Ratio: 1.760
+# Pointedness Index: 0.4317
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1017
+# Max Thickness Position: 0.3241
+# Max Camber/Chord: 0.0532
+# Max Camber Position: 0.3454
+# Leading Edge Radius: 0.0283
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.38e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00847642,0.05085852
+UPPER,2,0.03390568,0.09603186
+UPPER,3,0.07063683,0.12212086
+UPPER,4,0.28194960,0.14874160
+UPPER,5,0.32408000,0.15484163
+UPPER,6,0.36621040,0.14467491
+UPPER,7,0.36823600,0.11620808
+UPPER,8,0.47544000,0.07366506
+UPPER,9,0.88000000,0.02833965
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00847642,-0.03390568
+LOWER,2,0.03390568,-0.01392247
+LOWER,3,0.07063683,-0.03450677
+LOWER,4,0.28194960,-0.03222607
+LOWER,5,0.32408000,-0.04849283
+LOWER,6,0.36621040,-0.02612604
+LOWER,7,0.36823600,0.00844082
+LOWER,8,0.47544000,0.01873472
+LOWER,9,0.88000000,0.00922691
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

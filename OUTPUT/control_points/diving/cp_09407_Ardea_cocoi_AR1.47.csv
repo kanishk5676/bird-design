@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ardea_cocoi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 466.30 mm
+# Secondary1: 316.50 mm
+# Kipps Distance: 147.50 mm
+# Hand-Wing Index: 31.80
+# Tail Length: 178.30 mm
+# Aspect Ratio: 1.473
+# Pointedness Index: 0.3163
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1035
+# Max Thickness Position: 0.3309
+# Max Camber/Chord: 0.0559
+# Max Camber Position: 0.3546
+# Leading Edge Radius: 0.0314
+# LE Droop: 0.0016
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.28e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00941369,0.05812213
+UPPER,2,0.03765475,0.10087513
+UPPER,3,0.07844740,0.12591050
+UPPER,4,0.28790040,0.15314468
+UPPER,5,0.33092000,0.15935294
+UPPER,6,0.37393960,0.14900584
+UPPER,7,0.37701400,0.12003394
+UPPER,8,0.48456000,0.07647151
+UPPER,9,0.88000000,0.02951281
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00941369,-0.03716275
+LOWER,2,0.03765475,-0.01355207
+LOWER,3,0.07844740,-0.03430753
+LOWER,4,0.28790040,-0.03103377
+LOWER,5,0.33092000,-0.04758914
+LOWER,6,0.37393960,-0.02482551
+LOWER,7,0.37701400,0.01035464
+LOWER,8,0.48456000,0.02016083
+LOWER,9,0.88000000,0.00983163
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

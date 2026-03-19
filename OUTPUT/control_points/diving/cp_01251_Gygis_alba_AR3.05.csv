@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gygis_alba
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 251.80 mm
+# Secondary1: 82.50 mm
+# Kipps Distance: 169.20 mm
+# Hand-Wing Index: 67.20
+# Tail Length: 103.80 mm
+# Aspect Ratio: 3.052
+# Pointedness Index: 0.6720
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0784
+# Max Thickness Position: 0.3097
+# Max Camber/Chord: 0.0454
+# Max Camber Position: 0.3262
+# Leading Edge Radius: 0.0217
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.04e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00651667,0.03910005
+UPPER,2,0.02606670,0.07776199
+UPPER,3,0.05430562,0.09819074
+UPPER,4,0.26942160,0.11907300
+UPPER,5,0.30968000,0.12377869
+UPPER,6,0.34993840,0.11593586
+UPPER,7,0.34975600,0.09397594
+UPPER,8,0.45624000,0.06050776
+UPPER,9,0.88000000,0.02350742
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00651667,-0.02606670
+LOWER,2,0.02606670,-0.00922441
+LOWER,3,0.05430562,-0.02462723
+LOWER,4,0.26942160,-0.02052937
+LOWER,5,0.30968000,-0.03307789
+LOWER,6,0.34993840,-0.01582367
+LOWER,7,0.34975600,0.01084195
+LOWER,8,0.45624000,0.01713729
+LOWER,9,0.88000000,0.00820047
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

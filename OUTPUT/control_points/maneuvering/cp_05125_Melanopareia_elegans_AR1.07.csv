@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melanopareia_elegans
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 53.10 mm
+# Secondary1: 49.80 mm
+# Kipps Distance: 2.70 mm
+# Hand-Wing Index: 4.70
+# Tail Length: 57.90 mm
+# Aspect Ratio: 1.066
+# Pointedness Index: 0.0508
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1362
+# Max Thickness Position: 0.3472
+# Max Camber/Chord: 0.0597
+# Max Camber Position: 0.3762
+# Leading Edge Radius: 0.0387
+# LE Droop: 0.0071
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01159686,0.07664115
+UPPER,2,0.04638743,0.12593331
+UPPER,3,0.09664048,0.15302579
+UPPER,4,0.30204660,0.18777537
+UPPER,5,0.34718000,0.19594977
+UPPER,6,0.39231340,0.18232577
+UPPER,7,0.39788100,0.14417857
+UPPER,8,0.50624000,0.08890051
+UPPER,9,0.88000000,0.03358891
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01159686,-0.04426943
+LOWER,2,0.04638743,-0.02269838
+LOWER,3,0.09664048,-0.05155270
+LOWER,4,0.30204660,-0.05473182
+LOWER,5,0.34718000,-0.07653023
+LOWER,6,0.39231340,-0.04655743
+LOWER,7,0.39788100,-0.00023583
+LOWER,8,0.50624000,0.01794646
+LOWER,9,0.88000000,0.00947784
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

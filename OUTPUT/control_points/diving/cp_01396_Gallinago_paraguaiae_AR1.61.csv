@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gallinago_paraguaiae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 115.80 mm
+# Secondary1: 72.00 mm
+# Kipps Distance: 44.00 mm
+# Hand-Wing Index: 38.00
+# Tail Length: 48.00 mm
+# Aspect Ratio: 1.608
+# Pointedness Index: 0.3800
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1060
+# Max Thickness Position: 0.3272
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3496
+# Leading Edge Radius: 0.0297
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00889938,0.05379626
+UPPER,2,0.03559750,0.09969227
+UPPER,3,0.07416147,0.12641590
+UPPER,4,0.28466400,0.15408444
+UPPER,5,0.32720000,0.16044153
+UPPER,6,0.36973600,0.14984638
+UPPER,7,0.37224000,0.12017995
+UPPER,8,0.47960000,0.07598293
+UPPER,9,0.88000000,0.02918232
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00889938,-0.03547750
+LOWER,2,0.03559750,-0.01483299
+LOWER,3,0.07416147,-0.03638649
+LOWER,4,0.28466400,-0.03450929
+LOWER,5,0.32720000,-0.05146153
+LOWER,6,0.36973600,-0.02815219
+LOWER,7,0.37224000,0.00787133
+LOWER,8,0.47960000,0.01895059
+LOWER,9,0.88000000,0.00938444
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

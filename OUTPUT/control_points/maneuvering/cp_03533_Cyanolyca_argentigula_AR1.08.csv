@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cyanolyca_argentigula
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 118.30 mm
+# Secondary1: 109.30 mm
+# Kipps Distance: 9.10 mm
+# Hand-Wing Index: 7.70
+# Tail Length: 120.50 mm
+# Aspect Ratio: 1.082
+# Pointedness Index: 0.0769
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1307
+# Max Thickness Position: 0.3454
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3738
+# Leading Edge Radius: 0.0379
+# LE Droop: 0.0065
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.06e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01137207,0.07469243
+UPPER,2,0.04548829,0.12236040
+UPPER,3,0.09476727,0.14881868
+UPPER,4,0.30048060,0.18233162
+UPPER,5,0.34538000,0.19017406
+UPPER,6,0.39027940,0.17710333
+UPPER,7,0.39557100,0.14050529
+UPPER,8,0.50384000,0.08714480
+UPPER,9,0.88000000,0.03305396
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01137207,-0.04355029
+LOWER,2,0.04548829,-0.02101296
+LOWER,3,0.09476727,-0.04845551
+LOWER,4,0.30048060,-0.05032734
+LOWER,5,0.34538000,-0.07124051
+LOWER,6,0.39027940,-0.04248491
+LOWER,7,0.39557100,0.00195557
+LOWER,8,0.50384000,0.01857038
+LOWER,9,0.88000000,0.00963840
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

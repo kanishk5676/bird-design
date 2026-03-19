@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chloebia_gouldiae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 64.20 mm
+# Secondary1: 44.60 mm
+# Kipps Distance: 19.50 mm
+# Hand-Wing Index: 30.40
+# Tail Length: 46.20 mm
+# Aspect Ratio: 1.439
+# Pointedness Index: 0.3037
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1155
+# Max Thickness Position: 0.3318
+# Max Camber/Chord: 0.0562
+# Max Camber Position: 0.3557
+# Leading Edge Radius: 0.0317
+# LE Droop: 0.0019
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00952069,0.05904417
+UPPER,2,0.03808278,0.10739494
+UPPER,3,0.07933912,0.13480835
+UPPER,4,0.28863120,0.16470346
+UPPER,5,0.33176000,0.17163115
+UPPER,6,0.37488880,0.16008500
+UPPER,7,0.37809200,0.12775576
+UPPER,8,0.48568000,0.08007339
+UPPER,9,0.88000000,0.03058137
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00952069,-0.03750678
+LOWER,2,0.03808278,-0.01728834
+LOWER,3,0.07933912,-0.04112968
+LOWER,4,0.28863120,-0.04081810
+LOWER,5,0.33176000,-0.05929195
+LOWER,6,0.37488880,-0.03389041
+LOWER,7,0.37809200,0.00536652
+LOWER,8,0.48568000,0.01866053
+LOWER,9,0.88000000,0.00942394
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

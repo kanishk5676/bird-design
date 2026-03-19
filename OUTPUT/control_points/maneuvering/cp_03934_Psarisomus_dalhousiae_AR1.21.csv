@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psarisomus_dalhousiae
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 101.30 mm
+# Secondary1: 83.50 mm
+# Kipps Distance: 16.40 mm
+# Hand-Wing Index: 17.10
+# Tail Length: 128.10 mm
+# Aspect Ratio: 1.213
+# Pointedness Index: 0.1619
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1241
+# Max Thickness Position: 0.3397
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3663
+# Leading Edge Radius: 0.0355
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.68e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01065107,0.06848644
+UPPER,2,0.04260429,0.11626076
+UPPER,3,0.08875895,0.14306244
+UPPER,4,0.29557380,0.17502827
+UPPER,5,0.33974000,0.18247174
+UPPER,6,0.38390620,0.17006596
+UPPER,7,0.38833300,0.13532979
+UPPER,8,0.49632000,0.08438805
+UPPER,9,0.88000000,0.03212193
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01065107,-0.04123029
+LOWER,2,0.04260429,-0.01925359
+LOWER,3,0.08875895,-0.04508307
+LOWER,4,0.29557380,-0.04579454
+LOWER,5,0.33974000,-0.06564379
+LOWER,6,0.38390620,-0.03835108
+LOWER,7,0.38833300,0.00382856
+LOWER,8,0.49632000,0.01884858
+LOWER,9,0.88000000,0.00964118
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

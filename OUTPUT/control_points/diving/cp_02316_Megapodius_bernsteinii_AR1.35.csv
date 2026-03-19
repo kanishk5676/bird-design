@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Megapodius_bernsteinii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 185.00 mm
+# Secondary1: 136.90 mm
+# Kipps Distance: 48.10 mm
+# Hand-Wing Index: 26.00
+# Tail Length: 57.00 mm
+# Aspect Ratio: 1.351
+# Pointedness Index: 0.2600
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1135
+# Max Thickness Position: 0.3344
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3592
+# Leading Edge Radius: 0.0329
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.70e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00987840,0.06207040
+UPPER,2,0.03951360,0.10802026
+UPPER,3,0.08232000,0.13418613
+UPPER,4,0.29092800,0.16372210
+UPPER,5,0.33440000,0.17053351
+UPPER,6,0.37787200,0.15918116
+UPPER,7,0.38148000,0.12739458
+UPPER,8,0.48920000,0.08024508
+UPPER,9,0.88000000,0.03074568
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00987840,-0.03867360
+LOWER,2,0.03951360,-0.01637402
+LOWER,3,0.08232000,-0.03961904
+LOWER,4,0.29092800,-0.03834975
+LOWER,5,0.33440000,-0.05651351
+LOWER,6,0.37787200,-0.03153834
+LOWER,7,0.38148000,0.00705965
+LOWER,8,0.48920000,0.01945291
+LOWER,9,0.88000000,0.00971156
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phoenicopterus_chilensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 401.80 mm
+# Secondary1: 226.80 mm
+# Kipps Distance: 175.00 mm
+# Hand-Wing Index: 43.50
+# Tail Length: 136.50 mm
+# Aspect Ratio: 1.772
+# Pointedness Index: 0.4355
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0950
+# Max Thickness Position: 0.3239
+# Max Camber/Chord: 0.0531
+# Max Camber Position: 0.3452
+# Leading Edge Radius: 0.0282
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00844765,0.05068587
+UPPER,2,0.03379058,0.09262802
+UPPER,3,0.07039705,0.11724365
+UPPER,4,0.28179300,0.14239024
+UPPER,5,0.32390000,0.14808997
+UPPER,6,0.36600700,0.13859041
+UPPER,7,0.36800500,0.11199164
+UPPER,8,0.47520000,0.07172899
+UPPER,9,0.88000000,0.02777551
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00844765,-0.03379058
+LOWER,2,0.03379058,-0.01181556
+LOWER,3,0.07039705,-0.03067403
+LOWER,4,0.28179300,-0.02670193
+LOWER,5,0.32390000,-0.04190122
+LOWER,6,0.36600700,-0.02100219
+LOWER,7,0.36800500,0.01129631
+LOWER,8,0.47520000,0.01961913
+LOWER,9,0.88000000,0.00947377
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

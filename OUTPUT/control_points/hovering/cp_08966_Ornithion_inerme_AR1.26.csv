@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ornithion_inerme
+# Flight Category: hovering
+#
+# === Morphological Parameters ===
+# Wing Length: 43.70 mm
+# Secondary1: 34.70 mm
+# Kipps Distance: 8.10 mm
+# Hand-Wing Index: 18.80
+# Tail Length: 31.60 mm
+# Aspect Ratio: 1.259
+# Pointedness Index: 0.1854
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1250
+# Max Thickness Position: 0.3387
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3650
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01047941,0.06711647
+UPPER,2,0.04191764,0.11616994
+UPPER,3,0.08732843,0.14349349
+UPPER,4,0.29468640,0.17563880
+UPPER,5,0.33872000,0.18313640
+UPPER,6,0.38275360,0.17064040
+UPPER,7,0.38702400,0.13565160
+UPPER,8,0.49496000,0.08443874
+UPPER,9,0.88000000,0.03210383
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01047941,-0.04064564
+LOWER,2,0.04191764,-0.01962546
+LOWER,3,0.08732843,-0.04571566
+LOWER,4,0.29468640,-0.04679000
+LOWER,5,0.33872000,-0.06678360
+LOWER,6,0.38275360,-0.03929240
+LOWER,7,0.38702400,0.00319400
+LOWER,8,0.49496000,0.01857497
+LOWER,9,0.88000000,0.00954570
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

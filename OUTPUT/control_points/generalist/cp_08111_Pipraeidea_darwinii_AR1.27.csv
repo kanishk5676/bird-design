@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pipraeidea_darwinii
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 87.80 mm
+# Secondary1: 69.10 mm
+# Kipps Distance: 18.70 mm
+# Hand-Wing Index: 21.30
+# Tail Length: 76.30 mm
+# Aspect Ratio: 1.271
+# Pointedness Index: 0.2130
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1215
+# Max Thickness Position: 0.3372
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3630
+# Leading Edge Radius: 0.0342
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.40e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01026200,0.06531201
+UPPER,2,0.04104801,0.11361797
+UPPER,3,0.08551668,0.14065284
+UPPER,4,0.29338140,0.17200572
+UPPER,5,0.33722000,0.17929540
+UPPER,6,0.38105860,0.16714593
+UPPER,7,0.38509900,0.13312744
+UPPER,8,0.49296000,0.08314915
+UPPER,9,0.88000000,0.03168386
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01026200,-0.03992601
+LOWER,2,0.04104801,-0.01864801
+LOWER,3,0.08551668,-0.04387852
+LOWER,4,0.29338140,-0.04425471
+LOWER,5,0.33722000,-0.06369385
+LOWER,6,0.38105860,-0.03696503
+LOWER,7,0.38509900,0.00434314
+LOWER,8,0.49296000,0.01882723
+LOWER,9,0.88000000,0.00959041
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

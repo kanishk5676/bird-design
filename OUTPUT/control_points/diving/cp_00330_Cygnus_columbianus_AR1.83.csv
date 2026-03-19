@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cygnus_columbianus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 538.20 mm
+# Secondary1: 294.50 mm
+# Kipps Distance: 243.80 mm
+# Hand-Wing Index: 45.30
+# Tail Length: 162.20 mm
+# Aspect Ratio: 1.828
+# Pointedness Index: 0.4530
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0918
+# Max Thickness Position: 0.3228
+# Max Camber/Chord: 0.0526
+# Max Camber Position: 0.3438
+# Leading Edge Radius: 0.0277
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.57e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00830356,0.04982138
+UPPER,2,0.03321425,0.09062139
+UPPER,3,0.06919636,0.11450295
+UPPER,4,0.28085340,0.13891056
+UPPER,5,0.32282000,0.14441944
+UPPER,6,0.36478660,0.13523797
+UPPER,7,0.36661900,0.10952987
+UPPER,8,0.47376000,0.07042216
+UPPER,9,0.88000000,0.02733499
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00830356,-0.03321425
+LOWER,2,0.03321425,-0.01096902
+LOWER,3,0.06919636,-0.02905431
+LOWER,4,0.28085340,-0.02451954
+LOWER,5,0.32282000,-0.03920989
+LOWER,6,0.36478660,-0.01901066
+LOWER,7,0.36661900,0.01220632
+LOWER,8,0.47376000,0.01976091
+LOWER,9,0.88000000,0.00947861
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

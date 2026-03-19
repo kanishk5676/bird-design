@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Actenoides_concretus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 110.80 mm
+# Secondary1: 87.00 mm
+# Kipps Distance: 23.70 mm
+# Hand-Wing Index: 21.50
+# Tail Length: 58.50 mm
+# Aspect Ratio: 1.274
+# Pointedness Index: 0.2139
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1200
+# Max Thickness Position: 0.3371
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3628
+# Leading Edge Radius: 0.0342
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.89e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01025122,0.06520729
+UPPER,2,0.04100486,0.11282175
+UPPER,3,0.08542680,0.13957343
+UPPER,4,0.29327700,0.17060280
+UPPER,5,0.33710000,0.17780494
+UPPER,6,0.38092300,0.16580138
+UPPER,7,0.38494500,0.13219142
+UPPER,8,0.49280000,0.08271393
+UPPER,9,0.88000000,0.03155521
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01025122,-0.03989486
+LOWER,2,0.04100486,-0.01819210
+LOWER,3,0.08542680,-0.04304671
+LOWER,4,0.29327700,-0.04306050
+LOWER,5,0.33710000,-0.06226619
+LOWER,6,0.38092300,-0.03585836
+LOWER,7,0.38494500,0.00495373
+LOWER,8,0.49280000,0.01901203
+LOWER,9,0.88000000,0.00964092
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

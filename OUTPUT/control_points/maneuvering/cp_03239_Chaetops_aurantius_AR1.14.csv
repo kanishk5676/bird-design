@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chaetops_aurantius
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 88.00 mm
+# Secondary1: 77.00 mm
+# Kipps Distance: 10.60 mm
+# Hand-Wing Index: 12.10
+# Tail Length: 90.00 mm
+# Aspect Ratio: 1.143
+# Pointedness Index: 0.1205
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1288
+# Max Thickness Position: 0.3427
+# Max Camber/Chord: 0.0590
+# Max Camber Position: 0.3703
+# Leading Edge Radius: 0.0367
+# LE Droop: 0.0056
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01101542,0.07167253
+UPPER,2,0.04406169,0.12017562
+UPPER,3,0.09179518,0.14707289
+UPPER,4,0.29818380,0.18014044
+UPPER,5,0.34274000,0.18787096
+UPPER,6,0.38729620,0.17498676
+UPPER,7,0.39218300,0.13891101
+UPPER,8,0.50032000,0.08625038
+UPPER,9,0.88000000,0.03273837
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01101542,-0.04238769
+LOWER,2,0.04406169,-0.02056929
+LOWER,3,0.09179518,-0.04757502
+LOWER,4,0.29818380,-0.04919829
+LOWER,5,0.34274000,-0.06981301
+LOWER,6,0.38729620,-0.04146777
+LOWER,7,0.39218300,0.00233850
+LOWER,8,0.50032000,0.01856009
+LOWER,9,0.88000000,0.00960356
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

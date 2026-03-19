@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Newtonia_amphichroa
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 55.80 mm
+# Secondary1: 50.90 mm
+# Kipps Distance: 4.30 mm
+# Hand-Wing Index: 7.80
+# Tail Length: 43.50 mm
+# Aspect Ratio: 1.096
+# Pointedness Index: 0.0771
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1338
+# Max Thickness Position: 0.3453
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3738
+# Leading Edge Radius: 0.0379
+# LE Droop: 0.0064
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01136831,0.07464986
+UPPER,2,0.04547324,0.12385921
+UPPER,3,0.09473591,0.15100847
+UPPER,4,0.30042840,0.18519230
+UPPER,5,0.34532000,0.19321790
+UPPER,6,0.39021160,0.17984190
+UPPER,7,0.39549400,0.14238910
+UPPER,8,0.50376000,0.08799202
+UPPER,9,0.88000000,0.03329480
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01136831,-0.04354124
+LOWER,2,0.04547324,-0.02199294
+LOWER,3,0.09473591,-0.05023017
+LOWER,4,0.30042840,-0.05290050
+LOWER,5,0.34532000,-0.07430210
+LOWER,6,0.39021160,-0.04487490
+LOWER,7,0.39549400,0.00060350
+LOWER,8,0.50376000,0.01813750
+LOWER,9,0.88000000,0.00951407
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

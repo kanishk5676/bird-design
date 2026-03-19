@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Heliodoxa_schreibersii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 69.50 mm
+# Secondary1: 25.40 mm
+# Kipps Distance: 44.10 mm
+# Hand-Wing Index: 63.50
+# Tail Length: 49.20 mm
+# Aspect Ratio: 2.736
+# Pointedness Index: 0.6345
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0873
+# Max Thickness Position: 0.3119
+# Max Camber/Chord: 0.0467
+# Max Camber Position: 0.3292
+# Leading Edge Radius: 0.0227
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.55e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00682078,0.04092471
+UPPER,2,0.02728314,0.08337713
+UPPER,3,0.05683987,0.10585278
+UPPER,4,0.27135300,0.12879587
+UPPER,5,0.31190000,0.13403320
+UPPER,6,0.35244700,0.12530432
+UPPER,7,0.35260500,0.10086345
+UPPER,8,0.45920000,0.06417359
+UPPER,9,0.88000000,0.02474597
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00682078,-0.02728314
+LOWER,2,0.02728314,-0.01157189
+LOWER,3,0.05683987,-0.02912511
+LOWER,4,0.27135300,-0.02657824
+LOWER,5,0.31190000,-0.04054445
+LOWER,6,0.35244700,-0.02134091
+LOWER,7,0.35260500,0.00833729
+LOWER,8,0.45920000,0.01676108
+LOWER,9,0.88000000,0.00819454
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

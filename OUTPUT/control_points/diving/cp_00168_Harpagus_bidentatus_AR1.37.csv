@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Harpagus_bidentatus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 210.30 mm
+# Secondary1: 153.70 mm
+# Kipps Distance: 64.60 mm
+# Hand-Wing Index: 29.60
+# Tail Length: 161.10 mm
+# Aspect Ratio: 1.368
+# Pointedness Index: 0.3072
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1099
+# Max Thickness Position: 0.3322
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3563
+# Leading Edge Radius: 0.0318
+# LE Droop: 0.0021
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.38e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00952762,0.05924573
+UPPER,2,0.03811048,0.10491266
+UPPER,3,0.07939684,0.13095483
+UPPER,4,0.28904880,0.15964030
+UPPER,5,0.33224000,0.16623460
+UPPER,6,0.37543120,0.15524410
+UPPER,7,0.37870800,0.12447070
+UPPER,8,0.48632000,0.07865356
+UPPER,9,0.88000000,0.03019765
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00952762,-0.03748648
+LOWER,2,0.03811048,-0.01545424
+LOWER,3,0.07939684,-0.03783329
+LOWER,4,0.28904880,-0.03599060
+LOWER,5,0.33224000,-0.05357540
+LOWER,6,0.37543120,-0.02939630
+LOWER,7,0.37870800,0.00797140
+LOWER,8,0.48632000,0.01953765
+LOWER,9,0.88000000,0.00968620
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

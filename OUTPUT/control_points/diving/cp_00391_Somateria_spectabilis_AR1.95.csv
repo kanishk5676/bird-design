@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Somateria_spectabilis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 266.30 mm
+# Secondary1: 136.70 mm
+# Kipps Distance: 130.80 mm
+# Hand-Wing Index: 48.90
+# Tail Length: 76.20 mm
+# Aspect Ratio: 1.948
+# Pointedness Index: 0.4912
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0930
+# Max Thickness Position: 0.3207
+# Max Camber/Chord: 0.0516
+# Max Camber Position: 0.3409
+# Leading Edge Radius: 0.0267
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.07e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00799867,0.04799199
+UPPER,2,0.03199466,0.09036335
+UPPER,3,0.06665555,0.11444382
+UPPER,4,0.27897420,0.13904006
+UPPER,5,0.32066000,0.14462281
+UPPER,6,0.36234580,0.13531822
+UPPER,7,0.36384700,0.10926539
+UPPER,8,0.47088000,0.06989326
+UPPER,9,0.88000000,0.02704292
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00799867,-0.03199466
+LOWER,2,0.03199466,-0.01172273
+LOWER,3,0.06665555,-0.03024117
+LOWER,4,0.27897420,-0.02658152
+LOWER,5,0.32066000,-0.04146886
+LOWER,6,0.36234580,-0.02099877
+LOWER,7,0.36384700,0.01063681
+LOWER,8,0.47088000,0.01895131
+LOWER,9,0.88000000,0.00917241
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

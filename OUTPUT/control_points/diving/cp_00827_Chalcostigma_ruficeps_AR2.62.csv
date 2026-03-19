@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chalcostigma_ruficeps
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 57.90 mm
+# Secondary1: 22.10 mm
+# Kipps Distance: 36.00 mm
+# Hand-Wing Index: 61.90
+# Tail Length: 42.10 mm
+# Aspect Ratio: 2.620
+# Pointedness Index: 0.6218
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0893
+# Max Thickness Position: 0.3129
+# Max Camber/Chord: 0.0473
+# Max Camber Position: 0.3305
+# Leading Edge Radius: 0.0231
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.31e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00693488,0.04160925
+UPPER,2,0.02773950,0.08488840
+UPPER,3,0.05779063,0.10785219
+UPPER,4,0.27218820,0.13128925
+UPPER,5,0.31286000,0.13664861
+UPPER,6,0.35353180,0.12771635
+UPPER,7,0.35383700,0.10270601
+UPPER,8,0.46048000,0.06523742
+UPPER,9,0.88000000,0.02512968
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00693488,-0.02773950
+LOWER,2,0.02773950,-0.01201915
+LOWER,3,0.05779063,-0.03003718
+LOWER,4,0.27218820,-0.02770504
+LOWER,5,0.31286000,-0.04199666
+LOWER,6,0.35353180,-0.02234568
+LOWER,7,0.35383700,0.00802402
+LOWER,8,0.46048000,0.01683694
+LOWER,9,0.88000000,0.00825859
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

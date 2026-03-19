@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Larus_occidentalis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 397.50 mm
+# Secondary1: 193.00 mm
+# Kipps Distance: 200.60 mm
+# Hand-Wing Index: 51.00
+# Tail Length: 145.20 mm
+# Aspect Ratio: 2.060
+# Pointedness Index: 0.5047
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0891
+# Max Thickness Position: 0.3194
+# Max Camber/Chord: 0.0509
+# Max Camber Position: 0.3392
+# Leading Edge Radius: 0.0262
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.03e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00786566,0.04719398
+UPPER,2,0.03146266,0.08783505
+UPPER,3,0.06554720,0.11099443
+UPPER,4,0.27787800,0.13466328
+UPPER,5,0.31940000,0.14000684
+UPPER,6,0.36092200,0.13110091
+UPPER,7,0.36223000,0.10616429
+UPPER,8,0.46920000,0.06824199
+UPPER,9,0.88000000,0.02648480
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00786566,-0.03146266
+LOWER,2,0.03146266,-0.01066736
+LOWER,3,0.06554720,-0.02821857
+LOWER,4,0.27787800,-0.02386235
+LOWER,5,0.31940000,-0.03811184
+LOWER,6,0.36092200,-0.01851879
+LOWER,7,0.36223000,0.01176139
+LOWER,8,0.46920000,0.01911914
+LOWER,9,0.88000000,0.00917450
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

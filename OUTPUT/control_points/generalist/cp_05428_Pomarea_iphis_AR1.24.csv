@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pomarea_iphis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 89.80 mm
+# Secondary1: 72.20 mm
+# Kipps Distance: 17.60 mm
+# Hand-Wing Index: 19.60
+# Tail Length: 76.00 mm
+# Aspect Ratio: 1.244
+# Pointedness Index: 0.1960
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1227
+# Max Thickness Position: 0.3382
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3643
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.44e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01040069,0.06648411
+UPPER,2,0.04160274,0.11479541
+UPPER,3,0.08667238,0.14178007
+UPPER,4,0.29426880,0.17342532
+UPPER,5,0.33824000,0.18078909
+UPPER,6,0.38221120,0.16851614
+UPPER,7,0.38640800,0.13415189
+UPPER,8,0.49432000,0.08371492
+UPPER,9,0.88000000,0.03188101
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01040069,-0.04037874
+LOWER,2,0.04160274,-0.01895258
+LOWER,3,0.08667238,-0.04447569
+LOWER,4,0.29426880,-0.04503317
+LOWER,5,0.33824000,-0.06466989
+LOWER,6,0.38221120,-0.03766941
+LOWER,7,0.38640800,0.00405862
+LOWER,8,0.49432000,0.01881482
+LOWER,9,0.88000000,0.00960572
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

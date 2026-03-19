@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Grus_grus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 540.60 mm
+# Secondary1: 300.20 mm
+# Kipps Distance: 225.50 mm
+# Hand-Wing Index: 43.00
+# Tail Length: 193.40 mm
+# Aspect Ratio: 1.801
+# Pointedness Index: 0.4171
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0936
+# Max Thickness Position: 0.3242
+# Max Camber/Chord: 0.0532
+# Max Camber Position: 0.3456
+# Leading Edge Radius: 0.0285
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.57e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00855684,0.05134105
+UPPER,2,0.03422737,0.09205739
+UPPER,3,0.07130701,0.11638148
+UPPER,4,0.28205400,0.14123784
+UPPER,5,0.32420000,0.14685553
+UPPER,6,0.36634600,0.13749272
+UPPER,7,0.36839000,0.11127688
+UPPER,8,0.47560000,0.07145922
+UPPER,9,0.88000000,0.02771669
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00855684,-0.03422737
+LOWER,2,0.03422737,-0.01133134
+LOWER,3,0.07130701,-0.02981960
+LOWER,4,0.28205400,-0.02542004
+LOWER,5,0.32420000,-0.04040053
+LOWER,6,0.36634600,-0.01980236
+LOWER,7,0.36839000,0.01203117
+LOWER,8,0.47560000,0.01989313
+LOWER,9,0.88000000,0.00956175
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

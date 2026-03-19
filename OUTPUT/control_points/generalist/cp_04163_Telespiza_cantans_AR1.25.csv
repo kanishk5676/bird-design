@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Telespiza_cantans
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 80.50 mm
+# Secondary1: 64.60 mm
+# Kipps Distance: 15.90 mm
+# Hand-Wing Index: 19.80
+# Tail Length: 56.70 mm
+# Aspect Ratio: 1.246
+# Pointedness Index: 0.1975
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1232
+# Max Thickness Position: 0.3381
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3642
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.25e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01038679,0.06636074
+UPPER,2,0.04154716,0.11495320
+UPPER,3,0.08655659,0.14207393
+UPPER,4,0.29416440,0.17381494
+UPPER,5,0.33812000,0.18120548
+UPPER,6,0.38207560,0.16888792
+UPPER,7,0.38625400,0.13439876
+UPPER,8,0.49416000,0.08381458
+UPPER,9,0.88000000,0.03190541
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01038679,-0.04033516
+LOWER,2,0.04154716,-0.01910572
+LOWER,3,0.08655659,-0.04474808
+LOWER,4,0.29416440,-0.04543759
+LOWER,5,0.33812000,-0.06514568
+LOWER,6,0.38207560,-0.03804705
+LOWER,7,0.38625400,0.00383265
+LOWER,8,0.49416000,0.01873396
+LOWER,9,0.88000000,0.00958045
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

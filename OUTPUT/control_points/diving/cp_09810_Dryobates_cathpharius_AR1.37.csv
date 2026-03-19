@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dryobates_cathpharius
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 98.20 mm
+# Secondary1: 71.60 mm
+# Kipps Distance: 26.10 mm
+# Hand-Wing Index: 26.80
+# Tail Length: 61.60 mm
+# Aspect Ratio: 1.372
+# Pointedness Index: 0.2658
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1165
+# Max Thickness Position: 0.3339
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3586
+# Leading Edge Radius: 0.0327
+# LE Droop: 0.0026
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00982442,0.06158653
+UPPER,2,0.03929768,0.10921043
+UPPER,3,0.08187018,0.13617465
+UPPER,4,0.29051040,0.16634750
+UPPER,5,0.33392000,0.17333579
+UPPER,6,0.37732960,0.16168865
+UPPER,7,0.38086400,0.12907666
+UPPER,8,0.48856000,0.08094673
+UPPER,9,0.88000000,0.03092618
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00982442,-0.03850568
+LOWER,2,0.03929768,-0.01736830
+LOWER,3,0.08187018,-0.04139578
+LOWER,4,0.29051040,-0.04097157
+LOWER,5,0.33392000,-0.05960699
+LOWER,6,0.37732960,-0.03398328
+LOWER,7,0.38086400,0.00561699
+LOWER,8,0.48856000,0.01894993
+LOWER,9,0.88000000,0.00955724
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

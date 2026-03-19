@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Scolopax_mira
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 189.70 mm
+# Secondary1: 133.50 mm
+# Kipps Distance: 57.80 mm
+# Hand-Wing Index: 30.20
+# Tail Length: 69.60 mm
+# Aspect Ratio: 1.421
+# Pointedness Index: 0.3047
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1100
+# Max Thickness Position: 0.3319
+# Max Camber/Chord: 0.0562
+# Max Camber Position: 0.3558
+# Leading Edge Radius: 0.0317
+# LE Droop: 0.0020
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.82e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00952195,0.05909172
+UPPER,2,0.03808781,0.10474806
+UPPER,3,0.07934961,0.13092699
+UPPER,4,0.28873560,0.15962803
+UPPER,5,0.33188000,0.16622918
+UPPER,6,0.37502440,0.15522726
+UPPER,7,0.37824600,0.12442186
+UPPER,8,0.48584000,0.07858381
+UPPER,9,0.88000000,0.03016130
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00952195,-0.03749981
+LOWER,2,0.03808781,-0.01553271
+LOWER,3,0.07934961,-0.03795463
+LOWER,4,0.28873560,-0.03620630
+LOWER,5,0.33188000,-0.05380938
+LOWER,6,0.37502440,-0.02960514
+LOWER,7,0.37824600,0.00780141
+LOWER,8,0.48584000,0.01944744
+LOWER,9,0.88000000,0.00965170
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

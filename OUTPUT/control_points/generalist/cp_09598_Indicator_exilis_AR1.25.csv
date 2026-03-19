@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Indicator_exilis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 68.80 mm
+# Secondary1: 55.00 mm
+# Kipps Distance: 13.80 mm
+# Hand-Wing Index: 20.00
+# Tail Length: 43.40 mm
+# Aspect Ratio: 1.251
+# Pointedness Index: 0.2006
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1236
+# Max Thickness Position: 0.3380
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3640
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.10e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01036503,0.06619021
+UPPER,2,0.04146014,0.11508582
+UPPER,3,0.08637529,0.14233157
+UPPER,4,0.29406000,0.17415733
+UPPER,5,0.33800000,0.18157163
+UPPER,6,0.38194000,0.16921447
+UPPER,7,0.38610000,0.13461441
+UPPER,8,0.49400000,0.08390006
+UPPER,9,0.88000000,0.03192573
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01036503,-0.04026014
+LOWER,2,0.04146014,-0.01924292
+LOWER,3,0.08637529,-0.04499155
+LOWER,4,0.29406000,-0.04580017
+LOWER,5,0.33800000,-0.06557163
+LOWER,6,0.38194000,-0.03838587
+LOWER,7,0.38610000,0.00362848
+LOWER,8,0.49400000,0.01865997
+LOWER,9,0.88000000,0.00955713
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

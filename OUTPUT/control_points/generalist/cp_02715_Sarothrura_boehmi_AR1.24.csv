@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sarothrura_boehmi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 83.00 mm
+# Secondary1: 67.20 mm
+# Kipps Distance: 15.80 mm
+# Hand-Wing Index: 19.00
+# Tail Length: 25.80 mm
+# Aspect Ratio: 1.235
+# Pointedness Index: 0.1904
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1222
+# Max Thickness Position: 0.3386
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3648
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.80e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01044776,0.06688654
+UPPER,2,0.04179103,0.11474318
+UPPER,3,0.08706464,0.14150534
+UPPER,4,0.29458200,0.17304897
+UPPER,5,0.33860000,0.18038311
+UPPER,6,0.38261800,0.16815955
+UPPER,7,0.38687000,0.13393358
+UPPER,8,0.49480000,0.08365135
+UPPER,9,0.88000000,0.03187490
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01044776,-0.04053103
+LOWER,2,0.04179103,-0.01876377
+LOWER,3,0.08706464,-0.04414880
+LOWER,4,0.29458200,-0.04453041
+LOWER,5,0.33860000,-0.06408811
+LOWER,6,0.38261800,-0.03719628
+LOWER,7,0.38687000,0.00436383
+LOWER,8,0.49480000,0.01893846
+LOWER,9,0.88000000,0.00964745
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

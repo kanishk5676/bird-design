@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Streptopelia_roseogrisea
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 159.20 mm
+# Secondary1: 96.80 mm
+# Kipps Distance: 62.20 mm
+# Hand-Wing Index: 39.20
+# Tail Length: 106.00 mm
+# Aspect Ratio: 1.645
+# Pointedness Index: 0.3907
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1038
+# Max Thickness Position: 0.3265
+# Max Camber/Chord: 0.0542
+# Max Camber Position: 0.3486
+# Leading Edge Radius: 0.0294
+# LE Droop: 0.0002
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00880789,0.05300735
+UPPER,2,0.03523157,0.09814047
+UPPER,3,0.07339910,0.12461557
+UPPER,4,0.28403760,0.15179265
+UPPER,5,0.32648000,0.15802206
+UPPER,6,0.36892240,0.14763970
+UPPER,7,0.37131600,0.11856907
+UPPER,8,0.47864000,0.07513927
+UPPER,9,0.88000000,0.02890129
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00880789,-0.03518357
+LOWER,2,0.03523157,-0.01425413
+LOWER,3,0.07339910,-0.03528646
+LOWER,4,0.28403760,-0.03301348
+LOWER,5,0.32648000,-0.04962526
+LOWER,6,0.36892240,-0.02678406
+LOWER,7,0.37131600,0.00851599
+LOWER,8,0.47864000,0.01906769
+LOWER,9,0.88000000,0.00939665
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

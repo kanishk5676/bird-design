@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pooecetes_gramineus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 78.60 mm
+# Secondary1: 60.00 mm
+# Kipps Distance: 18.80 mm
+# Hand-Wing Index: 23.90
+# Tail Length: 59.60 mm
+# Aspect Ratio: 1.310
+# Pointedness Index: 0.2392
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1200
+# Max Thickness Position: 0.3357
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3609
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.22e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01004881,0.06351288
+UPPER,2,0.04019525,0.11200421
+UPPER,3,0.08374011,0.13920667
+UPPER,4,0.29202420,0.17020289
+UPPER,5,0.33566000,0.17740454
+UPPER,6,0.37929580,0.16540179
+UPPER,7,0.38309700,0.13179407
+UPPER,8,0.49088000,0.08237815
+UPPER,9,0.88000000,0.03140546
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01004881,-0.03922925
+LOWER,2,0.04019525,-0.01832688
+LOWER,3,0.08374011,-0.04322258
+LOWER,4,0.29202420,-0.04344618
+LOWER,5,0.33566000,-0.06265059
+LOWER,6,0.37929580,-0.03624453
+LOWER,7,0.38309700,0.00456485
+LOWER,8,0.49088000,0.01876987
+LOWER,9,0.88000000,0.00954314
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Arcanator_orostruthus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 85.30 mm
+# Secondary1: 73.50 mm
+# Kipps Distance: 11.50 mm
+# Hand-Wing Index: 13.50
+# Tail Length: 70.00 mm
+# Aspect Ratio: 1.161
+# Pointedness Index: 0.1348
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1279
+# Max Thickness Position: 0.3419
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3692
+# Leading Edge Radius: 0.0363
+# LE Droop: 0.0053
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.35e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01089933,0.07069596
+UPPER,2,0.04359731,0.11928642
+UPPER,3,0.09082772,0.14624415
+UPPER,4,0.29745300,0.17909058
+UPPER,5,0.34190000,0.18676428
+UPPER,6,0.38634700,0.17397479
+UPPER,7,0.39110500,0.13816421
+UPPER,8,0.49920000,0.08584954
+UPPER,9,0.88000000,0.03260195
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01089933,-0.04200731
+LOWER,2,0.04359731,-0.02032209
+LOWER,3,0.09082772,-0.04709913
+LOWER,4,0.29745300,-0.04856234
+LOWER,5,0.34190000,-0.06902553
+LOWER,6,0.38634700,-0.04088865
+LOWER,7,0.39110500,0.00259562
+LOWER,8,0.49920000,0.01859373
+LOWER,9,0.88000000,0.00960155
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

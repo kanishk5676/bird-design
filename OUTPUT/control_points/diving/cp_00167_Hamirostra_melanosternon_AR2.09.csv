@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hamirostra_melanosternon
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 472.60 mm
+# Secondary1: 226.00 mm
+# Kipps Distance: 244.50 mm
+# Hand-Wing Index: 52.00
+# Tail Length: 233.00 mm
+# Aspect Ratio: 2.091
+# Pointedness Index: 0.5174
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0872
+# Max Thickness Position: 0.3188
+# Max Camber/Chord: 0.0506
+# Max Camber Position: 0.3384
+# Leading Edge Radius: 0.0259
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.31e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00777031,0.04662186
+UPPER,2,0.03108124,0.08665954
+UPPER,3,0.06475259,0.10939517
+UPPER,4,0.27735600,0.13263721
+UPPER,5,0.31880000,0.13787107
+UPPER,6,0.36024400,0.12914797
+UPPER,7,0.36146000,0.10472327
+UPPER,8,0.46840000,0.06746870
+UPPER,9,0.88000000,0.02622169
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00777031,-0.03108124
+LOWER,2,0.03108124,-0.01018994
+LOWER,3,0.06475259,-0.02729962
+LOWER,4,0.27735600,-0.02263410
+LOWER,5,0.31880000,-0.03659107
+LOWER,6,0.36024400,-0.01740024
+LOWER,7,0.36146000,0.01225833
+LOWER,8,0.46840000,0.01918445
+LOWER,9,0.88000000,0.00917076
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

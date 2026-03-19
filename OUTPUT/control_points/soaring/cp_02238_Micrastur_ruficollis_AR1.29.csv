@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Micrastur_ruficollis
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 167.10 mm
+# Secondary1: 129.30 mm
+# Kipps Distance: 35.90 mm
+# Hand-Wing Index: 21.80
+# Tail Length: 166.60 mm
+# Aspect Ratio: 1.292
+# Pointedness Index: 0.2148
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1175
+# Max Thickness Position: 0.3369
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3626
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.23e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01023723,0.06506337
+UPPER,2,0.04094892,0.11143708
+UPPER,3,0.08531024,0.13768033
+UPPER,4,0.29312040,0.16814081
+UPPER,5,0.33692000,0.17518882
+UPPER,6,0.38071960,0.16344213
+UPPER,7,0.38471400,0.13055139
+UPPER,8,0.49256000,0.08195435
+UPPER,9,0.88000000,0.03133168
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01023723,-0.03985692
+LOWER,2,0.04094892,-0.01738675
+LOWER,3,0.08531024,-0.04157874
+LOWER,4,0.29312040,-0.04095031
+LOWER,5,0.33692000,-0.05974502
+LOWER,6,0.38071960,-0.03390230
+LOWER,7,0.38471400,0.00603645
+LOWER,8,0.49256000,0.01934221
+LOWER,9,0.88000000,0.00973180
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

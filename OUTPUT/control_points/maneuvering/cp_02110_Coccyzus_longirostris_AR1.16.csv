@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Coccyzus_longirostris
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 136.00 mm
+# Secondary1: 117.70 mm
+# Kipps Distance: 16.80 mm
+# Hand-Wing Index: 12.50
+# Tail Length: 202.60 mm
+# Aspect Ratio: 1.155
+# Pointedness Index: 0.1235
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1261
+# Max Thickness Position: 0.3425
+# Max Camber/Chord: 0.0590
+# Max Camber Position: 0.3700
+# Leading Edge Radius: 0.0366
+# LE Droop: 0.0055
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.47e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01098750,0.07142500
+UPPER,2,0.04395000,0.11867649
+UPPER,3,0.09156250,0.14504290
+UPPER,4,0.29797500,0.17749915
+UPPER,5,0.34250000,0.18506392
+UPPER,6,0.38702500,0.17245597
+UPPER,7,0.39187500,0.13715370
+UPPER,8,0.50000000,0.08543899
+UPPER,9,0.88000000,0.03250043
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01098750,-0.04230000
+LOWER,2,0.04395000,-0.01970092
+LOWER,3,0.09156250,-0.04599333
+LOWER,4,0.29797500,-0.04692245
+LOWER,5,0.34250000,-0.06709517
+LOWER,6,0.38702500,-0.03935767
+LOWER,7,0.39187500,0.00350937
+LOWER,8,0.50000000,0.01891918
+LOWER,9,0.88000000,0.00970291
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

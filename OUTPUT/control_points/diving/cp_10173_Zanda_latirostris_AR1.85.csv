@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Zanda_latirostris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 361.20 mm
+# Secondary1: 195.20 mm
+# Kipps Distance: 166.00 mm
+# Hand-Wing Index: 45.90
+# Tail Length: 270.00 mm
+# Aspect Ratio: 1.850
+# Pointedness Index: 0.4596
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0937
+# Max Thickness Position: 0.3225
+# Max Camber/Chord: 0.0524
+# Max Camber Position: 0.3433
+# Leading Edge Radius: 0.0275
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.07e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00825161,0.04950964
+UPPER,2,0.03300642,0.09142508
+UPPER,3,0.06876338,0.11571097
+UPPER,4,0.28054020,0.14052124
+UPPER,5,0.32246000,0.14614358
+UPPER,6,0.36437980,0.13677302
+UPPER,7,0.36615700,0.11053545
+UPPER,8,0.47328000,0.07080985
+UPPER,9,0.88000000,0.02742288
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00825161,-0.03300642
+LOWER,2,0.03300642,-0.01163250
+LOWER,3,0.06876338,-0.03022778
+LOWER,4,0.28054020,-0.02627473
+LOWER,5,0.32246000,-0.04126763
+LOWER,6,0.36437980,-0.02065240
+LOWER,7,0.36615700,0.01120751
+LOWER,8,0.47328000,0.01939276
+LOWER,9,0.88000000,0.00936127
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

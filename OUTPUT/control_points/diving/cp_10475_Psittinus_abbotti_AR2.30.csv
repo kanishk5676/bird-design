@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psittinus_abbotti
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 136.90 mm
+# Secondary1: 59.40 mm
+# Kipps Distance: 55.10 mm
+# Hand-Wing Index: 48.10
+# Tail Length: 58.50 mm
+# Aspect Ratio: 2.305
+# Pointedness Index: 0.4025
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0966
+# Max Thickness Position: 0.3211
+# Max Camber/Chord: 0.0518
+# Max Camber Position: 0.3415
+# Leading Edge Radius: 0.0283
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.12e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00847547,0.05085284
+UPPER,2,0.03390190,0.09232661
+UPPER,3,0.07062895,0.11719978
+UPPER,4,0.27939180,0.14259106
+UPPER,5,0.32114000,0.14838553
+UPPER,6,0.36288820,0.13872807
+UPPER,7,0.36446300,0.11168720
+UPPER,8,0.47152000,0.07108020
+UPPER,9,0.88000000,0.02741413
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00847547,-0.03390190
+LOWER,2,0.03390190,-0.01277002
+LOWER,3,0.07062895,-0.03218019
+LOWER,4,0.27939180,-0.02931165
+LOWER,5,0.32114000,-0.04476358
+LOWER,6,0.36288820,-0.02351718
+LOWER,7,0.36446300,0.00931817
+LOWER,8,0.47152000,0.01860237
+LOWER,9,0.88000000,0.00908976
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Coracornis_sanghirensis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 91.80 mm
+# Secondary1: 76.20 mm
+# Kipps Distance: 15.50 mm
+# Hand-Wing Index: 17.00
+# Tail Length: 78.60 mm
+# Aspect Ratio: 1.205
+# Pointedness Index: 0.1688
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1247
+# Max Thickness Position: 0.3398
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3664
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.48e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01061869,0.06831213
+UPPER,2,0.04247476,0.11660687
+UPPER,3,0.08848907,0.14352793
+UPPER,4,0.29562600,0.17563327
+UPPER,5,0.33980000,0.18311449
+UPPER,6,0.38397400,0.17064579
+UPPER,7,0.38841000,0.13573344
+UPPER,8,0.49640000,0.08457573
+UPPER,9,0.88000000,0.03217741
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01061869,-0.04109476
+LOWER,2,0.04247476,-0.01945021
+LOWER,3,0.08848907,-0.04544181
+LOWER,4,0.29562600,-0.04630957
+LOWER,5,0.33980000,-0.06625949
+LOWER,6,0.38397400,-0.03882835
+LOWER,7,0.38841000,0.00356522
+LOWER,8,0.49640000,0.01876887
+LOWER,9,0.88000000,0.00961940
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

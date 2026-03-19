@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Neophema_splendida
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 118.00 mm
+# Secondary1: 64.70 mm
+# Kipps Distance: 52.50 mm
+# Hand-Wing Index: 44.80
+# Tail Length: 101.80 mm
+# Aspect Ratio: 1.824
+# Pointedness Index: 0.4449
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1010
+# Max Thickness Position: 0.3231
+# Max Camber/Chord: 0.0527
+# Max Camber Position: 0.3442
+# Leading Edge Radius: 0.0279
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00836005,0.05016031
+UPPER,2,0.03344021,0.09535183
+UPPER,3,0.06966710,0.12127295
+UPPER,4,0.28111440,0.14772149
+UPPER,5,0.32312000,0.15378398
+UPPER,6,0.36512560,0.14367982
+UPPER,7,0.36700400,0.11538818
+UPPER,8,0.47416000,0.07312268
+UPPER,9,0.88000000,0.02812544
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00836005,-0.03344021
+LOWER,2,0.03344021,-0.01387347
+LOWER,3,0.06966710,-0.03434261
+LOWER,4,0.28111440,-0.03213253
+LOWER,5,0.32312000,-0.04829918
+LOWER,6,0.36512560,-0.02607003
+LOWER,7,0.36700400,0.00828410
+LOWER,8,0.47416000,0.01855447
+LOWER,9,0.88000000,0.00914394
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dyaphorophyia_tonsa
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 54.20 mm
+# Secondary1: 48.50 mm
+# Kipps Distance: 5.30 mm
+# Hand-Wing Index: 9.80
+# Tail Length: 24.20 mm
+# Aspect Ratio: 1.118
+# Pointedness Index: 0.0978
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1320
+# Max Thickness Position: 0.3441
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3722
+# Leading Edge Radius: 0.0373
+# LE Droop: 0.0060
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.04e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01120141,0.07324847
+UPPER,2,0.04480565,0.12242396
+UPPER,3,0.09334510,0.14957485
+UPPER,4,0.29938440,0.18335844
+UPPER,5,0.34412000,0.19127898
+UPPER,6,0.38885560,0.17807808
+UPPER,7,0.39395400,0.14111553
+UPPER,8,0.50216000,0.08734196
+UPPER,9,0.88000000,0.03308329
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01120141,-0.04299365
+LOWER,2,0.04480565,-0.02149844
+LOWER,3,0.09334510,-0.04930111
+LOWER,4,0.29938440,-0.05161773
+LOWER,5,0.34412000,-0.07273918
+LOWER,6,0.38885560,-0.04369719
+LOWER,7,0.39395400,0.00118590
+LOWER,8,0.50216000,0.01826607
+LOWER,9,0.88000000,0.00953711
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

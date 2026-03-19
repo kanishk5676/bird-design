@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bangsia_aureocincta
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 89.80 mm
+# Secondary1: 70.00 mm
+# Kipps Distance: 19.80 mm
+# Hand-Wing Index: 22.10
+# Tail Length: 56.30 mm
+# Aspect Ratio: 1.283
+# Pointedness Index: 0.2205
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1207
+# Max Thickness Position: 0.3367
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3623
+# Leading Edge Radius: 0.0340
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.44e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01019924,0.06477545
+UPPER,2,0.04079696,0.11296763
+UPPER,3,0.08499368,0.13998529
+UPPER,4,0.29296380,0.17115970
+UPPER,5,0.33674000,0.17840347
+UPPER,6,0.38051620,0.16633052
+UPPER,7,0.38448300,0.13252626
+UPPER,8,0.49232000,0.08282714
+UPPER,9,0.88000000,0.03157447
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01019924,-0.03972296
+LOWER,2,0.04079696,-0.01844755
+LOWER,3,0.08499368,-0.04349308
+LOWER,4,0.29296380,-0.04373880
+LOWER,5,0.33674000,-0.06305552
+LOWER,6,0.38051620,-0.03649503
+LOWER,7,0.38448300,0.00455300
+LOWER,8,0.49232000,0.01885574
+LOWER,9,0.88000000,0.00958931
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

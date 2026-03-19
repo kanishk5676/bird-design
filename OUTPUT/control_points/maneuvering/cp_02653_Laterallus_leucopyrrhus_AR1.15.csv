@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Laterallus_leucopyrrhus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 78.60 mm
+# Secondary1: 68.40 mm
+# Kipps Distance: 10.10 mm
+# Hand-Wing Index: 13.00
+# Tail Length: 45.00 mm
+# Aspect Ratio: 1.149
+# Pointedness Index: 0.1285
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1287
+# Max Thickness Position: 0.3422
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3696
+# Leading Edge Radius: 0.0365
+# LE Droop: 0.0054
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.23e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01094686,0.07108114
+UPPER,2,0.04378743,0.11983912
+UPPER,3,0.09122380,0.14687838
+UPPER,4,0.29771400,0.17990691
+UPPER,5,0.34220000,0.18762900
+UPPER,6,0.38668600,0.17475885
+UPPER,7,0.39149000,0.13872243
+UPPER,8,0.49960000,0.08612479
+UPPER,9,0.88000000,0.03268857
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01094686,-0.04216743
+LOWER,2,0.04378743,-0.02055985
+LOWER,3,0.09122380,-0.04754022
+LOWER,4,0.29771400,-0.04918176
+LOWER,5,0.34220000,-0.06977400
+LOWER,6,0.38668600,-0.04145967
+LOWER,7,0.39149000,0.00229884
+LOWER,8,0.49960000,0.01851684
+LOWER,9,0.88000000,0.00958382
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

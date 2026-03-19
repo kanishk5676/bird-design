@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geokichla_citrina
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 118.20 mm
+# Secondary1: 79.20 mm
+# Kipps Distance: 33.30 mm
+# Hand-Wing Index: 29.60
+# Tail Length: 73.40 mm
+# Aspect Ratio: 1.492
+# Pointedness Index: 0.2817
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1132
+# Max Thickness Position: 0.3322
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3563
+# Leading Edge Radius: 0.0322
+# LE Droop: 0.0021
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00965744,0.06002463
+UPPER,2,0.03862975,0.10655618
+UPPER,3,0.08047865,0.13332150
+UPPER,4,0.28904880,0.16273012
+UPPER,5,0.33224000,0.16952164
+UPPER,6,0.37543120,0.15820244
+UPPER,7,0.37870800,0.12650867
+UPPER,8,0.48632000,0.07957393
+UPPER,9,0.88000000,0.03046061
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00965744,-0.03800575
+LOWER,2,0.03862975,-0.01650609
+LOWER,3,0.08047865,-0.03973977
+LOWER,4,0.28904880,-0.03875172
+LOWER,5,0.33224000,-0.05686244
+LOWER,6,0.37543120,-0.03196019
+LOWER,7,0.37870800,0.00652510
+LOWER,8,0.48632000,0.01907747
+LOWER,9,0.88000000,0.00955472
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

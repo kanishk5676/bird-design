@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gliciphila_notabilis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 85.90 mm
+# Secondary1: 68.20 mm
+# Kipps Distance: 16.80 mm
+# Hand-Wing Index: 19.70
+# Tail Length: 73.70 mm
+# Aspect Ratio: 1.260
+# Pointedness Index: 0.1956
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1229
+# Max Thickness Position: 0.3382
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3642
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.36e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01039974,0.06645845
+UPPER,2,0.04159896,0.11484607
+UPPER,3,0.08666451,0.14188633
+UPPER,4,0.29421660,0.17356704
+UPPER,5,0.33818000,0.18094080
+UPPER,6,0.38214340,0.16865120
+UPPER,7,0.38633100,0.13424031
+UPPER,8,0.49424000,0.08374895
+UPPER,9,0.88000000,0.03188870
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01039974,-0.04038096
+LOWER,2,0.04159896,-0.01901106
+LOWER,3,0.08666451,-0.04457910
+LOWER,4,0.29421660,-0.04518789
+LOWER,5,0.33818000,-0.06485125
+LOWER,6,0.38214340,-0.03781413
+LOWER,7,0.38633100,0.00397052
+LOWER,8,0.49424000,0.01878232
+LOWER,9,0.88000000,0.00959535
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

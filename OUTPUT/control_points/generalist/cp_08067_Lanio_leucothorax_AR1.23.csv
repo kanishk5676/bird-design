@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lanio_leucothorax
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 102.70 mm
+# Secondary1: 83.30 mm
+# Kipps Distance: 19.60 mm
+# Hand-Wing Index: 19.00
+# Tail Length: 90.80 mm
+# Aspect Ratio: 1.233
+# Pointedness Index: 0.1908
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1225
+# Max Thickness Position: 0.3386
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3648
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.71e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01044528,0.06687168
+UPPER,2,0.04178112,0.11485588
+UPPER,3,0.08704400,0.14166762
+UPPER,4,0.29458200,0.17326084
+UPPER,5,0.33860000,0.18060850
+UPPER,6,0.38261800,0.16836240
+UPPER,7,0.38687000,0.13407332
+UPPER,8,0.49480000,0.08371446
+UPPER,9,0.88000000,0.03189293
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01044528,-0.04052112
+LOWER,2,0.04178112,-0.01883590
+LOWER,3,0.08704400,-0.04427953
+LOWER,4,0.29458200,-0.04471974
+LOWER,5,0.33860000,-0.06431350
+LOWER,6,0.38261800,-0.03737208
+LOWER,7,0.38687000,0.00426466
+LOWER,8,0.49480000,0.01890691
+LOWER,9,0.88000000,0.00963843
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sitta_neumayer
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 80.20 mm
+# Secondary1: 68.40 mm
+# Kipps Distance: 12.00 mm
+# Hand-Wing Index: 14.90
+# Tail Length: 49.30 mm
+# Aspect Ratio: 1.173
+# Pointedness Index: 0.1496
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1271
+# Max Thickness Position: 0.3411
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3681
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.25e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01078097,0.06970581
+UPPER,2,0.04312387,0.11847309
+UPPER,3,0.08984140,0.14552766
+UPPER,4,0.29672220,0.17818922
+UPPER,5,0.34106000,0.18581620
+UPPER,6,0.38539780,0.17310457
+UPPER,7,0.39002700,0.13751203
+UPPER,8,0.49808000,0.08548752
+UPPER,9,0.88000000,0.03247529
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01078097,-0.04161787
+LOWER,2,0.04312387,-0.02013220
+LOWER,3,0.08984140,-0.04672542
+LOWER,4,0.29672220,-0.04807765
+LOWER,5,0.34106000,-0.06841625
+LOWER,6,0.38539780,-0.04045068
+LOWER,7,0.39002700,0.00276884
+LOWER,8,0.49808000,0.01859771
+LOWER,9,0.88000000,0.00959034
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

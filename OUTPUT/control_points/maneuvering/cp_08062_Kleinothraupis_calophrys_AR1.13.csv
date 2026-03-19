@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Kleinothraupis_calophrys
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 68.40 mm
+# Secondary1: 60.50 mm
+# Kipps Distance: 7.90 mm
+# Hand-Wing Index: 11.60
+# Tail Length: 67.50 mm
+# Aspect Ratio: 1.131
+# Pointedness Index: 0.1155
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1306
+# Max Thickness Position: 0.3430
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3707
+# Leading Edge Radius: 0.0369
+# LE Droop: 0.0057
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01105600,0.07201603
+UPPER,2,0.04422402,0.12121736
+UPPER,3,0.09213337,0.14841238
+UPPER,4,0.29844480,0.18187824
+UPPER,5,0.34304000,0.18971620
+UPPER,6,0.38763520,0.17665294
+UPPER,7,0.39256800,0.14007581
+UPPER,8,0.50072000,0.08679819
+UPPER,9,0.88000000,0.03290238
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01105600,-0.04252002
+LOWER,2,0.04422402,-0.02112317
+LOWER,3,0.09213337,-0.04858845
+LOWER,4,0.29844480,-0.05064778
+LOWER,5,0.34304000,-0.07154900
+LOWER,6,0.38763520,-0.04280983
+LOWER,7,0.39256800,0.00160526
+LOWER,8,0.50072000,0.01834327
+LOWER,9,0.88000000,0.00954560
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

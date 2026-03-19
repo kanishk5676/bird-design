@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Frederickena_viridis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 95.30 mm
+# Secondary1: 89.00 mm
+# Kipps Distance: 6.30 mm
+# Hand-Wing Index: 6.60
+# Tail Length: 76.90 mm
+# Aspect Ratio: 1.071
+# Pointedness Index: 0.0661
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1328
+# Max Thickness Position: 0.3460
+# Max Camber/Chord: 0.0596
+# Max Camber Position: 0.3747
+# Leading Edge Radius: 0.0382
+# LE Droop: 0.0067
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.56e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01146089,0.07544536
+UPPER,2,0.04584358,0.12370624
+UPPER,3,0.09550745,0.15041121
+UPPER,4,0.30105480,0.18439179
+UPPER,5,0.34604000,0.19235970
+UPPER,6,0.39102520,0.17907984
+UPPER,7,0.39641800,0.14189623
+UPPER,8,0.50472000,0.08781054
+UPPER,9,0.88000000,0.03325711
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01146089,-0.04383958
+LOWER,2,0.04584358,-0.02164917
+LOWER,3,0.09550745,-0.04962508
+LOWER,4,0.30105480,-0.05198973
+LOWER,5,0.34604000,-0.07323750
+LOWER,6,0.39102520,-0.04402181
+LOWER,7,0.39641800,0.00112971
+LOWER,8,0.50472000,0.01833608
+LOWER,9,0.88000000,0.00957833
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

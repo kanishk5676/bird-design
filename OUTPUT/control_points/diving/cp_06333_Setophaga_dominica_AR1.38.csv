@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Setophaga_dominica
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 67.70 mm
+# Secondary1: 49.00 mm
+# Kipps Distance: 18.80 mm
+# Hand-Wing Index: 27.70
+# Tail Length: 50.70 mm
+# Aspect Ratio: 1.382
+# Pointedness Index: 0.2777
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1176
+# Max Thickness Position: 0.3334
+# Max Camber/Chord: 0.0567
+# Max Camber Position: 0.3578
+# Leading Edge Radius: 0.0325
+# LE Droop: 0.0025
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00973613,0.06087679
+UPPER,2,0.03894453,0.10946315
+UPPER,3,0.08113443,0.13684872
+UPPER,4,0.29004060,0.16726125
+UPPER,5,0.33338000,0.17431856
+UPPER,6,0.37671940,0.16255638
+UPPER,7,0.38017100,0.12962228
+UPPER,8,0.48784000,0.08112636
+UPPER,9,0.88000000,0.03095452
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00973613,-0.03820653
+LOWER,2,0.03894453,-0.01779510
+LOWER,3,0.08113443,-0.04214012
+LOWER,4,0.29004060,-0.04210552
+LOWER,5,0.33338000,-0.06092501
+LOWER,6,0.37671940,-0.03504822
+LOWER,7,0.38017100,0.00494319
+LOWER,8,0.48784000,0.01868495
+LOWER,9,0.88000000,0.00946932
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

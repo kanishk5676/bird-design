@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ducula_brenchleyi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 216.20 mm
+# Secondary1: 135.90 mm
+# Kipps Distance: 80.30 mm
+# Hand-Wing Index: 37.20
+# Tail Length: 112.60 mm
+# Aspect Ratio: 1.591
+# Pointedness Index: 0.3714
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1037
+# Max Thickness Position: 0.3277
+# Max Camber/Chord: 0.0547
+# Max Camber Position: 0.3502
+# Leading Edge Radius: 0.0299
+# LE Droop: 0.0006
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.54e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00896746,0.05436477
+UPPER,2,0.03586985,0.09887087
+UPPER,3,0.07472885,0.12494481
+UPPER,4,0.28508160,0.15212556
+UPPER,5,0.32768000,0.15834546
+UPPER,6,0.37027840,0.14797896
+UPPER,7,0.37285600,0.11895274
+UPPER,8,0.48024000,0.07550456
+UPPER,9,0.88000000,0.02907176
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00896746,-0.03570185
+LOWER,2,0.03586985,-0.01403468
+LOWER,3,0.07472885,-0.03497275
+LOWER,4,0.28508160,-0.03239825
+LOWER,5,0.32768000,-0.04898466
+LOWER,6,0.37027840,-0.02617835
+LOWER,7,0.37285600,0.00906777
+LOWER,8,0.48024000,0.01938874
+LOWER,9,0.88000000,0.00952350
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Podiceps_auritus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 137.80 mm
+# Secondary1: 78.30 mm
+# Kipps Distance: 57.20 mm
+# Hand-Wing Index: 42.20
+# Tail Length: 33.20 mm
+# Aspect Ratio: 1.760
+# Pointedness Index: 0.4151
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1006
+# Max Thickness Position: 0.3247
+# Max Camber/Chord: 0.0534
+# Max Camber Position: 0.3462
+# Leading Edge Radius: 0.0286
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.65e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00859170,0.05155019
+UPPER,2,0.03436680,0.09572869
+UPPER,3,0.07159749,0.12160420
+UPPER,4,0.28247160,0.14801408
+UPPER,5,0.32468000,0.15405086
+UPPER,6,0.36688840,0.14398956
+UPPER,7,0.36900600,0.11581793
+UPPER,8,0.47624000,0.07359384
+UPPER,9,0.88000000,0.02835544
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00859170,-0.03436680
+LOWER,2,0.03436680,-0.01349288
+LOWER,3,0.07159749,-0.03377408
+LOWER,4,0.28247160,-0.03107699
+LOWER,5,0.32468000,-0.04717506
+LOWER,6,0.36688840,-0.02504021
+LOWER,7,0.36900600,0.00916820
+LOWER,8,0.47624000,0.01904568
+LOWER,9,0.88000000,0.00933496
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

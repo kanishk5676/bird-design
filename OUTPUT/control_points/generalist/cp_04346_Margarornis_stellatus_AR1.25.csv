@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Margarornis_stellatus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 77.50 mm
+# Secondary1: 61.90 mm
+# Kipps Distance: 14.20 mm
+# Hand-Wing Index: 18.80
+# Tail Length: 71.10 mm
+# Aspect Ratio: 1.252
+# Pointedness Index: 0.1832
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1242
+# Max Thickness Position: 0.3387
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3650
+# Leading Edge Radius: 0.0350
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.20e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01049027,0.06718161
+UPPER,2,0.04196107,0.11578263
+UPPER,3,0.08741890,0.14293576
+UPPER,4,0.29468640,0.17491065
+UPPER,5,0.33872000,0.18236177
+UPPER,6,0.38275360,0.16994324
+UPPER,7,0.38702400,0.13517133
+UPPER,8,0.49496000,0.08422184
+UPPER,9,0.88000000,0.03204186
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01049027,-0.04068907
+LOWER,2,0.04196107,-0.01937758
+LOWER,3,0.08741890,-0.04526637
+LOWER,4,0.29468640,-0.04613931
+LOWER,5,0.33872000,-0.06600897
+LOWER,6,0.38275360,-0.03868819
+LOWER,7,0.38702400,0.00353484
+LOWER,8,0.49496000,0.01868342
+LOWER,9,0.88000000,0.00957669
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

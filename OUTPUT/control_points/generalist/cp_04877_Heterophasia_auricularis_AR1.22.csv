@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Heterophasia_auricularis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 101.70 mm
+# Secondary1: 83.70 mm
+# Kipps Distance: 17.40 mm
+# Hand-Wing Index: 17.00
+# Tail Length: 106.40 mm
+# Aspect Ratio: 1.215
+# Pointedness Index: 0.1711
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1241
+# Max Thickness Position: 0.3398
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3664
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.69e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01060723,0.06824340
+UPPER,2,0.04242893,0.11632124
+UPPER,3,0.08839361,0.14311662
+UPPER,4,0.29562600,0.17509628
+UPPER,5,0.33980000,0.18254323
+UPPER,6,0.38397400,0.17013165
+UPPER,7,0.38841000,0.13537925
+UPPER,8,0.49640000,0.08441578
+UPPER,9,0.88000000,0.03213171
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01060723,-0.04104893
+LOWER,2,0.04242893,-0.01926741
+LOWER,3,0.08839361,-0.04511047
+LOWER,4,0.29562600,-0.04582971
+LOWER,5,0.33980000,-0.06568823
+LOWER,6,0.38397400,-0.03838277
+LOWER,7,0.38841000,0.00381658
+LOWER,8,0.49640000,0.01884885
+LOWER,9,0.88000000,0.00964225
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

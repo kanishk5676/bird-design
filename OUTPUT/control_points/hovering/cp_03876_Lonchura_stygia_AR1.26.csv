@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lonchura_stygia
+# Flight Category: hovering
+#
+# === Morphological Parameters ===
+# Wing Length: 51.20 mm
+# Secondary1: 40.70 mm
+# Kipps Distance: 10.40 mm
+# Hand-Wing Index: 20.40
+# Tail Length: 37.00 mm
+# Aspect Ratio: 1.258
+# Pointedness Index: 0.2031
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1237
+# Max Thickness Position: 0.3378
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3637
+# Leading Edge Radius: 0.0345
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01033982,0.06595893
+UPPER,2,0.04135929,0.11500866
+UPPER,3,0.08616519,0.14235403
+UPPER,4,0.29385120,0.17419880
+UPPER,5,0.33776000,0.18161960
+UPPER,6,0.38166880,0.16925160
+UPPER,7,0.38579200,0.13462120
+UPPER,8,0.49368000,0.08387906
+UPPER,9,0.88000000,0.03191145
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01033982,-0.04018329
+LOWER,2,0.04135929,-0.01929874
+LOWER,3,0.08616519,-0.04508218
+LOWER,4,0.29385120,-0.04595160
+LOWER,5,0.33776000,-0.06574040
+LOWER,6,0.38166880,-0.03853080
+LOWER,7,0.38579200,0.00352040
+LOWER,8,0.49368000,0.01860735
+LOWER,9,0.88000000,0.00953770
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

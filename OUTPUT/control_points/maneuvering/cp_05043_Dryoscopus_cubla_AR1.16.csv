@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dryoscopus_cubla
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 79.00 mm
+# Secondary1: 68.00 mm
+# Kipps Distance: 10.90 mm
+# Hand-Wing Index: 13.80
+# Tail Length: 65.20 mm
+# Aspect Ratio: 1.162
+# Pointedness Index: 0.1380
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1281
+# Max Thickness Position: 0.3417
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3690
+# Leading Edge Radius: 0.0362
+# LE Droop: 0.0052
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.22e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01087405,0.07048429
+UPPER,2,0.04349620,0.11928858
+UPPER,3,0.09061708,0.14634445
+UPPER,4,0.29729640,0.17922866
+UPPER,5,0.34172000,0.18691343
+UPPER,6,0.38614360,0.17410548
+UPPER,7,0.39087400,0.13824321
+UPPER,8,0.49896000,0.08587108
+UPPER,9,0.88000000,0.03260324
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01087405,-0.04192420
+LOWER,2,0.04349620,-0.02039358
+LOWER,3,0.09061708,-0.04722253
+LOWER,4,0.29729640,-0.04875291
+LOWER,5,0.34172000,-0.06924563
+LOWER,6,0.38614360,-0.04106813
+LOWER,7,0.39087400,0.00247891
+LOWER,8,0.49896000,0.01854588
+LOWER,9,0.88000000,0.00958529
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

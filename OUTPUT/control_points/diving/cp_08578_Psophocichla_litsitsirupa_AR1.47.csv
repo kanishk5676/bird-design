@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psophocichla_litsitsirupa
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 128.60 mm
+# Secondary1: 87.20 mm
+# Kipps Distance: 41.40 mm
+# Hand-Wing Index: 32.20
+# Tail Length: 70.30 mm
+# Aspect Ratio: 1.475
+# Pointedness Index: 0.3219
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1106
+# Max Thickness Position: 0.3307
+# Max Camber/Chord: 0.0558
+# Max Camber Position: 0.3542
+# Leading Edge Radius: 0.0312
+# LE Droop: 0.0016
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.29e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00937284,0.05779707
+UPPER,2,0.03749138,0.10430634
+UPPER,3,0.07810704,0.13099216
+UPPER,4,0.28769160,0.15979597
+UPPER,5,0.33068000,0.16643414
+UPPER,6,0.37366840,0.15537052
+UPPER,7,0.37670600,0.12439237
+UPPER,8,0.48424000,0.07840636
+UPPER,9,0.88000000,0.03005410
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00937284,-0.03702338
+LOWER,2,0.03749138,-0.01587433
+LOWER,3,0.07810704,-0.03850199
+LOWER,4,0.28769160,-0.03713654
+LOWER,5,0.33068000,-0.05483834
+LOWER,6,0.37366840,-0.03049837
+LOWER,7,0.37670600,0.00711795
+LOWER,8,0.48424000,0.01910562
+LOWER,9,0.88000000,0.00952403
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

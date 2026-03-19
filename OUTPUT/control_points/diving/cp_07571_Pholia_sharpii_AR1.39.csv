@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pholia_sharpii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 102.70 mm
+# Secondary1: 74.00 mm
+# Kipps Distance: 29.50 mm
+# Hand-Wing Index: 28.50
+# Tail Length: 63.90 mm
+# Aspect Ratio: 1.388
+# Pointedness Index: 0.2872
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1149
+# Max Thickness Position: 0.3329
+# Max Camber/Chord: 0.0565
+# Max Camber Position: 0.3572
+# Leading Edge Radius: 0.0322
+# LE Droop: 0.0023
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.71e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00966295,0.06027772
+UPPER,2,0.03865181,0.10779322
+UPPER,3,0.08052461,0.13472075
+UPPER,4,0.28962300,0.16451372
+UPPER,5,0.33290000,0.17140538
+UPPER,6,0.37617700,0.15991928
+UPPER,7,0.37955500,0.12775820
+UPPER,8,0.48720000,0.08022380
+UPPER,9,0.88000000,0.03067574
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00966295,-0.03796181
+LOWER,2,0.03865181,-0.01696499
+LOWER,3,0.08052461,-0.04060897
+LOWER,4,0.28962300,-0.03993887
+LOWER,5,0.33290000,-0.05831663
+LOWER,6,0.37617700,-0.03304721
+LOWER,7,0.37955500,0.00600553
+LOWER,8,0.48720000,0.01897697
+LOWER,9,0.88000000,0.00954165
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

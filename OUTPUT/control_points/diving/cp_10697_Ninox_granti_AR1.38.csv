@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ninox_granti
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 174.90 mm
+# Secondary1: 127.00 mm
+# Kipps Distance: 48.00 mm
+# Hand-Wing Index: 27.40
+# Tail Length: 86.00 mm
+# Aspect Ratio: 1.377
+# Pointedness Index: 0.2744
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1127
+# Max Thickness Position: 0.3336
+# Max Camber/Chord: 0.0568
+# Max Camber Position: 0.3581
+# Leading Edge Radius: 0.0325
+# LE Droop: 0.0025
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.43e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00976190,0.06109142
+UPPER,2,0.03904761,0.10712298
+UPPER,3,0.08134919,0.13337535
+UPPER,4,0.29019720,0.16271525
+UPPER,5,0.33356000,0.16947879
+UPPER,6,0.37692280,0.15820622
+UPPER,7,0.38040200,0.12664303
+UPPER,8,0.48808000,0.07980333
+UPPER,9,0.88000000,0.03058423
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00976190,-0.03829161
+LOWER,2,0.03904761,-0.01620864
+LOWER,3,0.08134919,-0.03927448
+LOWER,4,0.29019720,-0.03793648
+LOWER,5,0.33356000,-0.05597259
+LOWER,6,0.37692280,-0.03117294
+LOWER,7,0.38040200,0.00715380
+LOWER,8,0.48808000,0.01940533
+LOWER,9,0.88000000,0.00967925
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Furnarius_cristatus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 73.80 mm
+# Secondary1: 61.90 mm
+# Kipps Distance: 11.90 mm
+# Hand-Wing Index: 16.10
+# Tail Length: 59.20 mm
+# Aspect Ratio: 1.192
+# Pointedness Index: 0.1612
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1266
+# Max Thickness Position: 0.3403
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3671
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.12e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01068498,0.06888989
+UPPER,2,0.04273993,0.11785244
+UPPER,3,0.08904152,0.14502604
+UPPER,4,0.29609580,0.17756510
+UPPER,5,0.34034000,0.18516200
+UPPER,6,0.38458420,0.17250050
+UPPER,7,0.38910300,0.13704829
+UPPER,8,0.49712000,0.08521714
+UPPER,9,0.88000000,0.03237705
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01068498,-0.04130593
+LOWER,2,0.04273993,-0.02002537
+LOWER,3,0.08904152,-0.04650511
+LOWER,4,0.29609580,-0.04780965
+LOWER,5,0.34034000,-0.06806805
+LOWER,6,0.38458420,-0.04021275
+LOWER,7,0.38910300,0.00283636
+LOWER,8,0.49712000,0.01857302
+LOWER,9,0.88000000,0.00957214
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

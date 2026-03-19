@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cuculus_clamosus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 181.00 mm
+# Secondary1: 102.40 mm
+# Kipps Distance: 82.60 mm
+# Hand-Wing Index: 44.20
+# Tail Length: 157.00 mm
+# Aspect Ratio: 1.768
+# Pointedness Index: 0.4564
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0991
+# Max Thickness Position: 0.3235
+# Max Camber/Chord: 0.0529
+# Max Camber Position: 0.3446
+# Leading Edge Radius: 0.0277
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.59e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00832008,0.04992046
+UPPER,2,0.03328031,0.09451454
+UPPER,3,0.06933397,0.12001754
+UPPER,4,0.28142760,0.14604960
+UPPER,5,0.32348000,0.15199495
+UPPER,6,0.36553240,0.14208604
+UPPER,7,0.36746600,0.11434111
+UPPER,8,0.47464000,0.07271495
+UPPER,9,0.88000000,0.02803137
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00832008,-0.03328031
+LOWER,2,0.03328031,-0.01319143
+LOWER,3,0.06933397,-0.03313493
+LOWER,4,0.28142760,-0.03032890
+LOWER,5,0.32348000,-0.04618315
+LOWER,6,0.36553240,-0.02438356
+LOWER,7,0.36746600,0.00930672
+LOWER,8,0.47464000,0.01892919
+LOWER,9,0.88000000,0.00926291
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

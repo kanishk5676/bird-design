@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dendrocopos_hyperythrus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 115.80 mm
+# Secondary1: 81.50 mm
+# Kipps Distance: 33.20 mm
+# Hand-Wing Index: 28.90
+# Tail Length: 69.80 mm
+# Aspect Ratio: 1.421
+# Pointedness Index: 0.2867
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1139
+# Max Thickness Position: 0.3327
+# Max Camber/Chord: 0.0565
+# Max Camber Position: 0.3569
+# Leading Edge Radius: 0.0322
+# LE Droop: 0.0022
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00965348,0.06014090
+UPPER,2,0.03861394,0.10715068
+UPPER,3,0.08044570,0.13393422
+UPPER,4,0.28941420,0.16350243
+UPPER,5,0.33266000,0.17033448
+UPPER,6,0.37590580,0.15894773
+UPPER,7,0.37924700,0.12706483
+UPPER,8,0.48688000,0.07987983
+UPPER,9,0.88000000,0.03056685
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00965348,-0.03794794
+LOWER,2,0.03861394,-0.01667416
+LOWER,3,0.08044570,-0.04006834
+LOWER,4,0.28941420,-0.03918173
+LOWER,5,0.33266000,-0.05740053
+LOWER,6,0.37590580,-0.03234968
+LOWER,7,0.37924700,0.00636527
+LOWER,8,0.48688000,0.01906807
+LOWER,9,0.88000000,0.00956204
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chalcopsitta_cardinalis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 171.40 mm
+# Secondary1: 96.30 mm
+# Kipps Distance: 74.90 mm
+# Hand-Wing Index: 43.70
+# Tail Length: 141.80 mm
+# Aspect Ratio: 1.780
+# Pointedness Index: 0.4370
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0998
+# Max Thickness Position: 0.3238
+# Max Camber/Chord: 0.0530
+# Max Camber Position: 0.3450
+# Leading Edge Radius: 0.0281
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.34e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00843413,0.05060480
+UPPER,2,0.03373653,0.09498541
+UPPER,3,0.07028445,0.12065460
+UPPER,4,0.28168860,0.14685419
+UPPER,5,0.32378000,0.15284228
+UPPER,6,0.36587140,0.14286213
+UPPER,7,0.36785100,0.11491771
+UPPER,8,0.47504000,0.07302908
+UPPER,9,0.88000000,0.02813961
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00843413,-0.03373653
+LOWER,2,0.03373653,-0.01337221
+LOWER,3,0.07028445,-0.03348612
+LOWER,4,0.28168860,-0.03079249
+LOWER,5,0.32378000,-0.04676073
+LOWER,6,0.36587140,-0.02480440
+LOWER,7,0.36785100,0.00912811
+LOWER,8,0.47504000,0.01891307
+LOWER,9,0.88000000,0.00926813
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

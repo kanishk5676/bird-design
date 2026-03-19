@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Harpactes_ardens
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 137.20 mm
+# Secondary1: 88.90 mm
+# Kipps Distance: 49.30 mm
+# Hand-Wing Index: 35.70
+# Tail Length: 172.50 mm
+# Aspect Ratio: 1.543
+# Pointedness Index: 0.3593
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1075
+# Max Thickness Position: 0.3286
+# Max Camber/Chord: 0.0550
+# Max Camber Position: 0.3514
+# Leading Edge Radius: 0.0302
+# LE Droop: 0.0009
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.49e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00907500,0.05531000
+UPPER,2,0.03630000,0.10136933
+UPPER,3,0.07562500,0.12800469
+UPPER,4,0.28586460,0.15605034
+UPPER,5,0.32858000,0.16249853
+UPPER,6,0.37129540,0.15175155
+UPPER,7,0.37401100,0.12166002
+UPPER,8,0.48144000,0.07686599
+UPPER,9,0.88000000,0.02950851
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00907500,-0.03604200
+LOWER,2,0.03630000,-0.01513025
+LOWER,3,0.07562500,-0.03701922
+LOWER,4,0.28586460,-0.03524582
+LOWER,5,0.32858000,-0.05244098
+LOWER,6,0.37129540,-0.02879763
+LOWER,7,0.37401100,0.00774208
+LOWER,8,0.48144000,0.01907208
+LOWER,9,0.88000000,0.00945840
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

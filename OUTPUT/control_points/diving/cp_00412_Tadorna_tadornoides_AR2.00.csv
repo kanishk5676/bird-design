@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tadorna_tadornoides
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 353.50 mm
+# Secondary1: 176.50 mm
+# Kipps Distance: 177.00 mm
+# Hand-Wing Index: 50.10
+# Tail Length: 106.00 mm
+# Aspect Ratio: 2.003
+# Pointedness Index: 0.5007
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0905
+# Max Thickness Position: 0.3199
+# Max Camber/Chord: 0.0512
+# Max Camber Position: 0.3399
+# Leading Edge Radius: 0.0264
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.80e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00791333,0.04748000
+UPPER,2,0.03165333,0.08877335
+UPPER,3,0.06594444,0.11226276
+UPPER,4,0.27834780,0.13626436
+UPPER,5,0.31994000,0.14169272
+UPPER,6,0.36153220,0.13264545
+UPPER,7,0.36292300,0.10731308
+UPPER,8,0.46992000,0.06886935
+UPPER,9,0.88000000,0.02670141
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00791333,-0.03165333
+LOWER,2,0.03165333,-0.01102429
+LOWER,3,0.06594444,-0.02891300
+LOWER,4,0.27834780,-0.02477713
+LOWER,5,0.31994000,-0.03925277
+LOWER,6,0.36153220,-0.01934877
+LOWER,7,0.36292300,0.01141197
+LOWER,8,0.46992000,0.01909020
+LOWER,9,0.88000000,0.00918608
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

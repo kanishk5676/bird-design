@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Laniarius_mufumbiri
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 89.80 mm
+# Secondary1: 83.30 mm
+# Kipps Distance: 6.40 mm
+# Hand-Wing Index: 7.20
+# Tail Length: 80.50 mm
+# Aspect Ratio: 1.078
+# Pointedness Index: 0.0713
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1326
+# Max Thickness Position: 0.3457
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3742
+# Leading Edge Radius: 0.0381
+# LE Droop: 0.0066
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.44e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01141621,0.07505723
+UPPER,2,0.04566482,0.12346859
+UPPER,3,0.09513505,0.15025720
+UPPER,4,0.30074160,0.18420092
+UPPER,5,0.34568000,0.19215989
+UPPER,6,0.39061840,0.17889494
+UPPER,7,0.39595600,0.14175309
+UPPER,8,0.50424000,0.08772570
+UPPER,9,0.88000000,0.03322591
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01141621,-0.04369682
+LOWER,2,0.04566482,-0.02161920
+LOWER,3,0.09513505,-0.04956192
+LOWER,4,0.30074160,-0.05191517
+LOWER,5,0.34568000,-0.07313909
+LOWER,6,0.39061840,-0.04395621
+LOWER,7,0.39595600,0.00114462
+LOWER,8,0.50424000,0.01832552
+LOWER,9,0.88000000,0.00957162
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

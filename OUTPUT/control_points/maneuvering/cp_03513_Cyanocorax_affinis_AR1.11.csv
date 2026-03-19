@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cyanocorax_affinis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 167.80 mm
+# Secondary1: 150.70 mm
+# Kipps Distance: 17.10 mm
+# Hand-Wing Index: 10.20
+# Tail Length: 160.00 mm
+# Aspect Ratio: 1.113
+# Pointedness Index: 0.1019
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1267
+# Max Thickness Position: 0.3439
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3718
+# Leading Edge Radius: 0.0372
+# LE Droop: 0.0060
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.25e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01116815,0.07296892
+UPPER,2,0.04467262,0.11966692
+UPPER,3,0.09306795,0.14573207
+UPPER,4,0.29917560,0.17834953
+UPPER,5,0.34388000,0.18595291
+UPPER,6,0.38858440,0.17328061
+UPPER,7,0.39364600,0.13779816
+UPPER,8,0.50184000,0.08582786
+UPPER,9,0.88000000,0.03264520
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01116815,-0.04288462
+LOWER,2,0.04467262,-0.01982090
+LOWER,3,0.09306795,-0.04625359
+LOWER,4,0.29917560,-0.04721743
+LOWER,5,0.34388000,-0.06749311
+LOWER,6,0.38858440,-0.03961405
+LOWER,7,0.39364600,0.00347178
+LOWER,8,0.50184000,0.01898132
+LOWER,9,0.88000000,0.00973855
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

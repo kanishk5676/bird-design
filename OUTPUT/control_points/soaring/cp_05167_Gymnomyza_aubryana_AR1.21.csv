@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gymnomyza_aubryana
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 175.20 mm
+# Secondary1: 144.20 mm
+# Kipps Distance: 31.00 mm
+# Hand-Wing Index: 17.90
+# Tail Length: 179.10 mm
+# Aspect Ratio: 1.215
+# Pointedness Index: 0.1769
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1203
+# Max Thickness Position: 0.3393
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3657
+# Leading Edge Radius: 0.0352
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.44e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01054986,0.06771918
+UPPER,2,0.04219945,0.11413631
+UPPER,3,0.08791552,0.14026708
+UPPER,4,0.29515620,0.17140089
+UPPER,5,0.33926000,0.17861984
+UPPER,6,0.38336380,0.16658826
+UPPER,7,0.38771700,0.13289981
+UPPER,8,0.49568000,0.08324682
+UPPER,9,0.88000000,0.03178078
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01054986,-0.04087345
+LOWER,2,0.04219945,-0.01809469
+LOWER,3,0.08791552,-0.04296337
+LOWER,4,0.29515620,-0.04276135
+LOWER,5,0.33926000,-0.06201189
+LOWER,6,0.38336380,-0.03554240
+LOWER,7,0.38771700,0.00536499
+LOWER,8,0.49568000,0.01930424
+LOWER,9,0.88000000,0.00976336
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Campylopterus_villaviscensio
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 65.80 mm
+# Secondary1: 25.80 mm
+# Kipps Distance: 40.00 mm
+# Hand-Wing Index: 60.80
+# Tail Length: 44.80 mm
+# Aspect Ratio: 2.550
+# Pointedness Index: 0.6079
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0897
+# Max Thickness Position: 0.3135
+# Max Camber/Chord: 0.0477
+# Max Camber Position: 0.3314
+# Leading Edge Radius: 0.0235
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.47e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00703922,0.04223530
+UPPER,2,0.02815686,0.08540965
+UPPER,3,0.05866013,0.10848350
+UPPER,4,0.27276240,0.13203454
+UPPER,5,0.31352000,0.13741642
+UPPER,6,0.35427760,0.12844662
+UPPER,7,0.35468400,0.10333117
+UPPER,8,0.46136000,0.06567609
+UPPER,9,0.88000000,0.02530883
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00703922,-0.02815686
+LOWER,2,0.02815686,-0.01200193
+LOWER,3,0.05866013,-0.03007439
+LOWER,4,0.27276240,-0.02762794
+LOWER,5,0.31352000,-0.04197962
+LOWER,6,0.35427760,-0.02224605
+LOWER,7,0.35468400,0.00825127
+LOWER,8,0.46136000,0.01702769
+LOWER,9,0.88000000,0.00834168
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Icterus_leucopteryx
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 101.60 mm
+# Secondary1: 79.20 mm
+# Kipps Distance: 23.40 mm
+# Hand-Wing Index: 22.80
+# Tail Length: 86.20 mm
+# Aspect Ratio: 1.283
+# Pointedness Index: 0.2303
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1195
+# Max Thickness Position: 0.3363
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3618
+# Leading Edge Radius: 0.0338
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.69e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01012771,0.06420628
+UPPER,2,0.04051085,0.11210695
+UPPER,3,0.08439761,0.13898205
+UPPER,4,0.29259840,0.16987275
+UPPER,5,0.33632000,0.17704163
+UPPER,6,0.38004160,0.16509351
+UPPER,7,0.38394400,0.13163876
+UPPER,8,0.49176000,0.08238108
+UPPER,9,0.88000000,0.03143145
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01012771,-0.03947885
+LOWER,2,0.04051085,-0.01808785
+LOWER,3,0.08439761,-0.04282133
+LOWER,4,0.29259840,-0.04280383
+LOWER,5,0.33632000,-0.06192083
+LOWER,6,0.38004160,-0.03563496
+LOWER,7,0.38394400,0.00498866
+LOWER,8,0.49176000,0.01896008
+LOWER,9,0.88000000,0.00961085
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

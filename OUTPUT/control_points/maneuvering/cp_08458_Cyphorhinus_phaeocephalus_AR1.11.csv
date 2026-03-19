@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cyphorhinus_phaeocephalus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 63.10 mm
+# Secondary1: 56.60 mm
+# Kipps Distance: 6.70 mm
+# Hand-Wing Index: 10.60
+# Tail Length: 32.60 mm
+# Aspect Ratio: 1.115
+# Pointedness Index: 0.1062
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1312
+# Max Thickness Position: 0.3436
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3715
+# Leading Edge Radius: 0.0371
+# LE Droop: 0.0059
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.08e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01113412,0.07268471
+UPPER,2,0.04453647,0.12178765
+UPPER,3,0.09278432,0.14891353
+UPPER,4,0.29896680,0.18251130
+UPPER,5,0.34364000,0.19038292
+UPPER,6,0.38831320,0.17726354
+UPPER,7,0.39333800,0.14052927
+UPPER,8,0.50152000,0.08704501
+UPPER,9,0.88000000,0.03298736
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01113412,-0.04277247
+LOWER,2,0.04453647,-0.02126584
+LOWER,3,0.09278432,-0.04886543
+LOWER,4,0.29896680,-0.05101371
+LOWER,5,0.34364000,-0.07200472
+LOWER,6,0.38831320,-0.04314208
+LOWER,7,0.39333800,0.00146382
+LOWER,8,0.50152000,0.01833011
+LOWER,9,0.88000000,0.00954952
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

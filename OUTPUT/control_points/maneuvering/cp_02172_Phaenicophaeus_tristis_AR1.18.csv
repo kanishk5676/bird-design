@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phaenicophaeus_tristis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 165.70 mm
+# Secondary1: 141.00 mm
+# Kipps Distance: 27.00 mm
+# Hand-Wing Index: 16.00
+# Tail Length: 333.30 mm
+# Aspect Ratio: 1.175
+# Pointedness Index: 0.1629
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1222
+# Max Thickness Position: 0.3404
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3672
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.20e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01067938,0.06887628
+UPPER,2,0.04271752,0.11565352
+UPPER,3,0.08899483,0.14182683
+UPPER,4,0.29614800,0.17338574
+UPPER,5,0.34040000,0.18071504
+UPPER,6,0.38465200,0.16849954
+UPPER,7,0.38918000,0.13429613
+UPPER,8,0.49720000,0.08397941
+UPPER,9,0.88000000,0.03202520
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01067938,-0.04127752
+LOWER,2,0.04271752,-0.01859361
+LOWER,3,0.08899483,-0.04391232
+LOWER,4,0.29614800,-0.04405023
+LOWER,5,0.34040000,-0.06359504
+LOWER,6,0.38465200,-0.03672093
+LOWER,7,0.38918000,0.00481178
+LOWER,8,0.49720000,0.01920549
+LOWER,9,0.88000000,0.00975380
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

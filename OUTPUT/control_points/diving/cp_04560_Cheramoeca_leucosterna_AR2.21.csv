@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cheramoeca_leucosterna
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 101.60 mm
+# Secondary1: 46.00 mm
+# Kipps Distance: 55.50 mm
+# Hand-Wing Index: 54.70
+# Tail Length: 72.90 mm
+# Aspect Ratio: 2.209
+# Pointedness Index: 0.5463
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0935
+# Max Thickness Position: 0.3172
+# Max Camber/Chord: 0.0498
+# Max Camber Position: 0.3362
+# Leading Edge Radius: 0.0251
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.86e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00754025,0.04524153
+UPPER,2,0.03016102,0.08908900
+UPPER,3,0.06283546,0.11315359
+UPPER,4,0.27594660,0.13771603
+UPPER,5,0.31718000,0.14332866
+UPPER,6,0.35841340,0.13397427
+UPPER,7,0.35938100,0.10778198
+UPPER,8,0.46624000,0.06850935
+UPPER,9,0.88000000,0.02640173
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00754025,-0.03016102
+LOWER,2,0.03016102,-0.01250937
+LOWER,3,0.06283546,-0.03135446
+LOWER,4,0.27594660,-0.02879209
+LOWER,5,0.31718000,-0.04375911
+LOWER,6,0.35841340,-0.02317946
+LOWER,7,0.35938100,0.00862547
+LOWER,8,0.46624000,0.01777042
+LOWER,9,0.88000000,0.00870444
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Mirafra_hypermetra
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 112.40 mm
+# Secondary1: 93.50 mm
+# Kipps Distance: 18.50 mm
+# Hand-Wing Index: 16.60
+# Tail Length: 79.40 mm
+# Aspect Ratio: 1.202
+# Pointedness Index: 0.1646
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1239
+# Max Thickness Position: 0.3400
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3667
+# Leading Edge Radius: 0.0355
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.93e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01065263,0.06859576
+UPPER,2,0.04261051,0.11632646
+UPPER,3,0.08877189,0.14299264
+UPPER,4,0.29583480,0.17492364
+UPPER,5,0.34004000,0.18235614
+UPPER,6,0.38424520,0.16996864
+UPPER,7,0.38871800,0.13528363
+UPPER,8,0.49672000,0.08439395
+UPPER,9,0.88000000,0.03213282
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01065263,-0.04120651
+LOWER,2,0.04261051,-0.01917163
+LOWER,3,0.08877189,-0.04494622
+LOWER,4,0.29583480,-0.04557394
+LOWER,5,0.34004000,-0.06539394
+LOWER,6,0.38424520,-0.03814143
+LOWER,7,0.38871800,0.00397608
+LOWER,8,0.49672000,0.01891578
+LOWER,9,0.88000000,0.00966527
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

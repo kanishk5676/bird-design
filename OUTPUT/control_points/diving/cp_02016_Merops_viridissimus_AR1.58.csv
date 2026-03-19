@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Merops_viridissimus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 90.80 mm
+# Secondary1: 57.30 mm
+# Kipps Distance: 33.50 mm
+# Hand-Wing Index: 36.80
+# Tail Length: 135.30 mm
+# Aspect Ratio: 1.585
+# Pointedness Index: 0.3689
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1089
+# Max Thickness Position: 0.3279
+# Max Camber/Chord: 0.0548
+# Max Camber Position: 0.3506
+# Leading Edge Radius: 0.0300
+# LE Droop: 0.0006
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.46e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00899231,0.05459387
+UPPER,2,0.03596925,0.10165220
+UPPER,3,0.07493593,0.12880615
+UPPER,4,0.28529040,0.15714785
+UPPER,5,0.32792000,0.16368232
+UPPER,6,0.37054960,0.15279153
+UPPER,7,0.37316400,0.12229731
+UPPER,8,0.48056000,0.07705246
+UPPER,9,0.88000000,0.02952691
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00899231,-0.03577725
+LOWER,2,0.03596925,-0.01567950
+LOWER,3,0.07493593,-0.03797037
+LOWER,4,0.28529040,-0.03670825
+LOWER,5,0.32792000,-0.05413352
+LOWER,6,0.37054960,-0.03017378
+LOWER,7,0.37316400,0.00685491
+LOWER,8,0.48056000,0.01871302
+LOWER,9,0.88000000,0.00933728
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bubo_cinerascens
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 299.40 mm
+# Secondary1: 200.60 mm
+# Kipps Distance: 98.20 mm
+# Hand-Wing Index: 32.90
+# Tail Length: 161.80 mm
+# Aspect Ratio: 1.493
+# Pointedness Index: 0.3280
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1052
+# Max Thickness Position: 0.3303
+# Max Camber/Chord: 0.0556
+# Max Camber Position: 0.3537
+# Leading Edge Radius: 0.0311
+# LE Droop: 0.0014
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00932051,0.05734309
+UPPER,2,0.03728206,0.10132630
+UPPER,3,0.07767095,0.12694778
+UPPER,4,0.28732620,0.15454575
+UPPER,5,0.33026000,0.16085831
+UPPER,6,0.37319380,0.15033738
+UPPER,7,0.37616700,0.12087876
+UPPER,8,0.48368000,0.07676024
+UPPER,9,0.88000000,0.02956336
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00932051,-0.03685606
+LOWER,2,0.03728206,-0.01418985
+LOWER,3,0.07767095,-0.03542289
+LOWER,4,0.28732620,-0.03272687
+LOWER,5,0.33026000,-0.04956036
+LOWER,6,0.37319380,-0.02641431
+LOWER,7,0.37616700,0.00935687
+LOWER,8,0.48368000,0.01977306
+LOWER,9,0.88000000,0.00970387
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Oreopsittacus_arfaki
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 110.20 mm
+# Secondary1: 59.90 mm
+# Kipps Distance: 50.40 mm
+# Hand-Wing Index: 45.70
+# Tail Length: 88.00 mm
+# Aspect Ratio: 1.840
+# Pointedness Index: 0.4574
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1007
+# Max Thickness Position: 0.3226
+# Max Camber/Chord: 0.0525
+# Max Camber Position: 0.3434
+# Leading Edge Radius: 0.0276
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.88e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00826909,0.04961456
+UPPER,2,0.03307637,0.09497273
+UPPER,3,0.06890911,0.12080262
+UPPER,4,0.28064460,0.14715745
+UPPER,5,0.32258000,0.15319982
+UPPER,6,0.36451540,0.14312921
+UPPER,7,0.36631100,0.11493152
+UPPER,8,0.47344000,0.07281740
+UPPER,9,0.88000000,0.02800412
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00826909,-0.03307637
+LOWER,2,0.03307637,-0.01385311
+LOWER,3,0.06890911,-0.03426237
+LOWER,4,0.28064460,-0.03209930
+LOWER,5,0.32258000,-0.04821227
+LOWER,6,0.36451540,-0.02605694
+LOWER,7,0.36631100,0.00818312
+LOWER,8,0.47344000,0.01844729
+LOWER,9,0.88000000,0.00909520
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

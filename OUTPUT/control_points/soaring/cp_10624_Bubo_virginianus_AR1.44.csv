@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bubo_virginianus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 371.20 mm
+# Secondary1: 258.50 mm
+# Kipps Distance: 112.70 mm
+# Hand-Wing Index: 30.40
+# Tail Length: 197.00 mm
+# Aspect Ratio: 1.436
+# Pointedness Index: 0.3036
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1059
+# Max Thickness Position: 0.3318
+# Max Camber/Chord: 0.0562
+# Max Camber Position: 0.3557
+# Leading Edge Radius: 0.0317
+# LE Droop: 0.0019
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00952135,0.05904810
+UPPER,2,0.03808540,0.10263632
+UPPER,3,0.07934458,0.12795595
+UPPER,4,0.28863120,0.15575727
+UPPER,5,0.33176000,0.16211393
+UPPER,6,0.37488880,0.15151949
+UPPER,7,0.37809200,0.12185508
+UPPER,8,0.48568000,0.07740857
+UPPER,9,0.88000000,0.02981999
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00952135,-0.03750940
+LOWER,2,0.03808540,-0.01424282
+LOWER,3,0.07934458,-0.03560969
+LOWER,4,0.28863120,-0.03282363
+LOWER,5,0.33176000,-0.04977473
+LOWER,6,0.37488880,-0.02646697
+LOWER,7,0.37809200,0.00955410
+LOWER,8,0.48568000,0.01999295
+LOWER,9,0.88000000,0.00980463
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

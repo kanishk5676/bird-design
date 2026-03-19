@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Amazona_mercenarius
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 214.00 mm
+# Secondary1: 144.80 mm
+# Kipps Distance: 69.30 mm
+# Hand-Wing Index: 32.40
+# Tail Length: 100.80 mm
+# Aspect Ratio: 1.478
+# Pointedness Index: 0.3238
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1076
+# Max Thickness Position: 0.3306
+# Max Camber/Chord: 0.0558
+# Max Camber Position: 0.3541
+# Leading Edge Radius: 0.0312
+# LE Droop: 0.0015
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.48e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00935702,0.05766211
+UPPER,2,0.03742807,0.10269436
+UPPER,3,0.07797515,0.12874138
+UPPER,4,0.28758720,0.15686595
+UPPER,5,0.33056000,0.16331981
+UPPER,6,0.37353280,0.15256339
+UPPER,7,0.37655200,0.12244541
+UPPER,8,0.48408000,0.07751024
+UPPER,9,0.88000000,0.02979226
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00935702,-0.03697207
+LOWER,2,0.03742807,-0.01490609
+LOWER,3,0.07797515,-0.03673966
+LOWER,4,0.28758720,-0.03459833
+LOWER,5,0.33056000,-0.05180861
+LOWER,6,0.37353280,-0.02814448
+LOWER,7,0.37655200,0.00842735
+LOWER,8,0.48408000,0.01950948
+LOWER,9,0.88000000,0.00963633
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

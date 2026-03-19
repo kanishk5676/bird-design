@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phyllastrephus_albigularis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 76.10 mm
+# Secondary1: 68.60 mm
+# Kipps Distance: 7.50 mm
+# Hand-Wing Index: 9.80
+# Tail Length: 75.30 mm
+# Aspect Ratio: 1.109
+# Pointedness Index: 0.0986
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1315
+# Max Thickness Position: 0.3441
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3722
+# Leading Edge Radius: 0.0373
+# LE Droop: 0.0060
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01119749,0.07322495
+UPPER,2,0.04478997,0.12216238
+UPPER,3,0.09331243,0.14919818
+UPPER,4,0.29938440,0.18286668
+UPPER,5,0.34412000,0.19075584
+UPPER,6,0.38885560,0.17760724
+UPPER,7,0.39395400,0.14079118
+UPPER,8,0.50216000,0.08719548
+UPPER,9,0.88000000,0.03304144
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01119749,-0.04297797
+LOWER,2,0.04478997,-0.02133103
+LOWER,3,0.09331243,-0.04899769
+LOWER,4,0.29938440,-0.05117829
+LOWER,5,0.34412000,-0.07221604
+LOWER,6,0.38885560,-0.04328913
+LOWER,7,0.39395400,0.00141609
+LOWER,8,0.50216000,0.01833931
+LOWER,9,0.88000000,0.00955804
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

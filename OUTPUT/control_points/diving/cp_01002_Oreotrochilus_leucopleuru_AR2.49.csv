@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Oreotrochilus_leucopleurus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 68.20 mm
+# Secondary1: 27.40 mm
+# Kipps Distance: 40.50 mm
+# Hand-Wing Index: 59.60
+# Tail Length: 48.00 mm
+# Aspect Ratio: 2.489
+# Pointedness Index: 0.5938
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0907
+# Max Thickness Position: 0.3142
+# Max Camber/Chord: 0.0481
+# Max Camber Position: 0.3323
+# Leading Edge Radius: 0.0238
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.46e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00714765,0.04288589
+UPPER,2,0.02859059,0.08625086
+UPPER,3,0.05956373,0.10956680
+UPPER,4,0.27338880,0.13336413
+UPPER,5,0.31424000,0.13880400
+UPPER,6,0.35509120,0.12973756
+UPPER,7,0.35560800,0.10435153
+UPPER,8,0.46232000,0.06630469
+UPPER,9,0.88000000,0.02554620
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00714765,-0.02859059
+LOWER,2,0.02859059,-0.01216375
+LOWER,3,0.05956373,-0.03044113
+LOWER,4,0.27338880,-0.02801849
+LOWER,5,0.31424000,-0.04252480
+LOWER,6,0.35509120,-0.02257863
+LOWER,7,0.35560800,0.00824727
+LOWER,8,0.46232000,0.01715354
+LOWER,9,0.88000000,0.00840832
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chatarrhaea_gularis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 88.20 mm
+# Secondary1: 79.90 mm
+# Kipps Distance: 8.10 mm
+# Hand-Wing Index: 9.10
+# Tail Length: 149.60 mm
+# Aspect Ratio: 1.104
+# Pointedness Index: 0.0918
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1312
+# Max Thickness Position: 0.3445
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3727
+# Leading Edge Radius: 0.0375
+# LE Droop: 0.0062
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01125317,0.07369904
+UPPER,2,0.04501269,0.12223197
+UPPER,3,0.09377644,0.14907609
+UPPER,4,0.29974980,0.18269359
+UPPER,5,0.34454000,0.19056735
+UPPER,6,0.38933020,0.17744442
+UPPER,7,0.39449300,0.14070019
+UPPER,8,0.50272000,0.08718151
+UPPER,9,0.88000000,0.03304678
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01125317,-0.04315869
+LOWER,2,0.04501269,-0.02122511
+LOWER,3,0.09377644,-0.04881757
+LOWER,4,0.29974980,-0.05089470
+LOWER,5,0.34454000,-0.07189140
+LOWER,6,0.38933020,-0.04302094
+LOWER,7,0.39449300,0.00159705
+LOWER,8,0.50272000,0.01841743
+LOWER,9,0.88000000,0.00958532
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

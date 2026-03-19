@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pogoniulus_atroflavus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 57.90 mm
+# Secondary1: 45.90 mm
+# Kipps Distance: 11.10 mm
+# Hand-Wing Index: 19.40
+# Tail Length: 31.40 mm
+# Aspect Ratio: 1.261
+# Pointedness Index: 0.1917
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1243
+# Max Thickness Position: 0.3384
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3645
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01042864,0.06669184
+UPPER,2,0.04171456,0.11563222
+UPPER,3,0.08690533,0.14291851
+UPPER,4,0.29437320,0.17490570
+UPPER,5,0.33836000,0.18236207
+UPPER,6,0.38234680,0.16993478
+UPPER,7,0.38656200,0.13513834
+UPPER,8,0.49448000,0.08417217
+UPPER,9,0.88000000,0.03201570
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01042864,-0.04047856
+LOWER,2,0.04171456,-0.01943617
+LOWER,3,0.08690533,-0.04535734
+LOWER,4,0.29437320,-0.04630020
+LOWER,5,0.33836000,-0.06618387
+LOWER,6,0.38234680,-0.03884382
+LOWER,7,0.38656200,0.00340899
+LOWER,8,0.49448000,0.01861703
+LOWER,9,0.88000000,0.00955136
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

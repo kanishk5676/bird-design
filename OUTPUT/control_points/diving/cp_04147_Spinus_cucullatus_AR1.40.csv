@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Spinus_cucullatus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 58.10 mm
+# Secondary1: 41.40 mm
+# Kipps Distance: 16.00 mm
+# Hand-Wing Index: 27.90
+# Tail Length: 32.90 mm
+# Aspect Ratio: 1.403
+# Pointedness Index: 0.2754
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1173
+# Max Thickness Position: 0.3333
+# Max Camber/Chord: 0.0567
+# Max Camber Position: 0.3577
+# Leading Edge Radius: 0.0325
+# LE Droop: 0.0024
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00974178,0.06087071
+UPPER,2,0.03896714,0.10924213
+UPPER,3,0.08118154,0.13659953
+UPPER,4,0.28993620,0.16694353
+UPPER,5,0.33326000,0.17398297
+UPPER,6,0.37658380,0.16225057
+UPPER,7,0.38001700,0.12939985
+UPPER,8,0.48768000,0.08101085
+UPPER,9,0.88000000,0.03091633
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00974178,-0.03824114
+LOWER,2,0.03896714,-0.01771304
+LOWER,3,0.08118154,-0.04198479
+LOWER,4,0.28993620,-0.04189318
+LOWER,5,0.33326000,-0.06066502
+LOWER,6,0.37658380,-0.03485374
+LOWER,7,0.38001700,0.00503642
+LOWER,8,0.48768000,0.01870321
+LOWER,9,0.88000000,0.00947178
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

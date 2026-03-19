@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ploceus_taeniopterus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 66.80 mm
+# Secondary1: 53.00 mm
+# Kipps Distance: 12.50 mm
+# Hand-Wing Index: 19.00
+# Tail Length: 43.80 mm
+# Aspect Ratio: 1.260
+# Pointedness Index: 0.1871
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1245
+# Max Thickness Position: 0.3386
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3648
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.06e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01046426,0.06698555
+UPPER,2,0.04185703,0.11589384
+UPPER,3,0.08720216,0.14316228
+UPPER,4,0.29458200,0.17521221
+UPPER,5,0.33860000,0.18268442
+UPPER,6,0.38261800,0.17023073
+UPPER,7,0.38687000,0.13536039
+UPPER,8,0.49480000,0.08429571
+UPPER,9,0.88000000,0.03205900
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01046426,-0.04059703
+LOWER,2,0.04185703,-0.01950019
+LOWER,3,0.08720216,-0.04548356
+LOWER,4,0.29458200,-0.04646351
+LOWER,5,0.33860000,-0.06638942
+LOWER,6,0.38261800,-0.03899130
+LOWER,7,0.38687000,0.00335125
+LOWER,8,0.49480000,0.01861628
+LOWER,9,0.88000000,0.00955540
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

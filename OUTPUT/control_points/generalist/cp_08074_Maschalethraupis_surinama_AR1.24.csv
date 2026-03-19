@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Maschalethraupis_surinama
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 79.90 mm
+# Secondary1: 64.20 mm
+# Kipps Distance: 16.30 mm
+# Hand-Wing Index: 20.20
+# Tail Length: 70.10 mm
+# Aspect Ratio: 1.245
+# Pointedness Index: 0.2040
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1229
+# Max Thickness Position: 0.3379
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3638
+# Leading Edge Radius: 0.0345
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.24e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01034145,0.06600873
+UPPER,2,0.04136582,0.11468288
+UPPER,3,0.08617879,0.14181810
+UPPER,4,0.29395560,0.17349302
+UPPER,5,0.33788000,0.18086684
+UPPER,6,0.38180440,0.16857714
+UPPER,7,0.38594600,0.13416600
+UPPER,8,0.49384000,0.08368556
+UPPER,9,0.88000000,0.03186032
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01034145,-0.04017782
+LOWER,2,0.04136582,-0.01903755
+LOWER,3,0.08617879,-0.04461407
+LOWER,4,0.29395560,-0.04526353
+LOWER,5,0.33788000,-0.06492704
+LOWER,6,0.38180440,-0.03788971
+LOWER,7,0.38594600,0.00389525
+LOWER,8,0.49384000,0.01873577
+LOWER,9,0.88000000,0.00957660
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

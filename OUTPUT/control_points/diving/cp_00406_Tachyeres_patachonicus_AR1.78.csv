@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tachyeres_patachonicus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 287.00 mm
+# Secondary1: 161.50 mm
+# Kipps Distance: 128.70 mm
+# Hand-Wing Index: 44.40
+# Tail Length: 98.00 mm
+# Aspect Ratio: 1.777
+# Pointedness Index: 0.4484
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0963
+# Max Thickness Position: 0.3234
+# Max Camber/Chord: 0.0529
+# Max Camber Position: 0.3445
+# Leading Edge Radius: 0.0278
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.64e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00835436,0.05012614
+UPPER,2,0.03341743,0.09305237
+UPPER,3,0.06961964,0.11792853
+UPPER,4,0.28132320,0.14333320
+UPPER,5,0.32336000,0.14910863
+UPPER,6,0.36539680,0.13948292
+UPPER,7,0.36731200,0.11253096
+UPPER,8,0.47448000,0.07187583
+UPPER,9,0.88000000,0.02778417
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00835436,-0.03341743
+LOWER,2,0.03341743,-0.01230419
+LOWER,3,0.06961964,-0.03151734
+LOWER,4,0.28132320,-0.02800430
+LOWER,5,0.32336000,-0.04340543
+LOWER,6,0.36539680,-0.02222888
+LOWER,7,0.36731200,0.01049851
+LOWER,8,0.47448000,0.01929201
+LOWER,9,0.88000000,0.00936262
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

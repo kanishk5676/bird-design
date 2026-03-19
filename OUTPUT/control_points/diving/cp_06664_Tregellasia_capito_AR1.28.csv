@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tregellasia_capito
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 73.40 mm
+# Secondary1: 57.50 mm
+# Kipps Distance: 19.70 mm
+# Hand-Wing Index: 25.50
+# Tail Length: 50.40 mm
+# Aspect Ratio: 1.277
+# Pointedness Index: 0.2684
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1191
+# Max Thickness Position: 0.3347
+# Max Camber/Chord: 0.0571
+# Max Camber Position: 0.3596
+# Leading Edge Radius: 0.0328
+# LE Droop: 0.0029
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.12e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00985090,0.06200539
+UPPER,2,0.03940360,0.11098280
+UPPER,3,0.08209082,0.13828102
+UPPER,4,0.29118900,0.16905023
+UPPER,5,0.33470000,0.17619603
+UPPER,6,0.37821100,0.16428637
+UPPER,7,0.38186500,0.13093930
+UPPER,8,0.48960000,0.08188153
+UPPER,9,0.88000000,0.03122550
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00985090,-0.03853360
+LOWER,2,0.03940360,-0.01812615
+LOWER,3,0.08209082,-0.04281035
+LOWER,4,0.29118900,-0.04294182
+LOWER,5,0.33470000,-0.06199728
+LOWER,6,0.37821100,-0.03579602
+LOWER,7,0.38186500,0.00469685
+LOWER,8,0.48960000,0.01872808
+LOWER,9,0.88000000,0.00951098
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

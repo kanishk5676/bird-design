@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hylopezus_berlepschi
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 81.20 mm
+# Secondary1: 78.50 mm
+# Kipps Distance: 4.90 mm
+# Hand-Wing Index: 5.80
+# Tail Length: 38.20 mm
+# Aspect Ratio: 1.034
+# Pointedness Index: 0.0603
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1342
+# Max Thickness Position: 0.3465
+# Max Camber/Chord: 0.0596
+# Max Camber Position: 0.3754
+# Leading Edge Radius: 0.0384
+# LE Droop: 0.0068
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01151476,0.07592857
+UPPER,2,0.04605905,0.12459916
+UPPER,3,0.09595634,0.15144691
+UPPER,4,0.30147240,0.18573093
+UPPER,5,0.34652000,0.19378018
+UPPER,6,0.39156760,0.18036476
+UPPER,7,0.39703400,0.14280156
+UPPER,8,0.50536000,0.08824521
+UPPER,9,0.88000000,0.03339018
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01151476,-0.04400705
+LOWER,2,0.04605905,-0.02206031
+LOWER,3,0.09595634,-0.05038157
+LOWER,4,0.30147240,-0.05306370
+LOWER,5,0.34652000,-0.07452838
+LOWER,6,0.39156760,-0.04501444
+LOWER,7,0.39703400,0.00059802
+LOWER,8,0.50536000,0.01818646
+LOWER,9,0.88000000,0.00954030
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

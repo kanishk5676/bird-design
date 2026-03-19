@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lissotis_melanogaster
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 332.00 mm
+# Secondary1: 203.90 mm
+# Kipps Distance: 120.90 mm
+# Hand-Wing Index: 37.20
+# Tail Length: 170.40 mm
+# Aspect Ratio: 1.628
+# Pointedness Index: 0.3642
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1012
+# Max Thickness Position: 0.3277
+# Max Camber/Chord: 0.0547
+# Max Camber Position: 0.3502
+# Leading Edge Radius: 0.0300
+# LE Droop: 0.0006
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00900448,0.05458689
+UPPER,2,0.03601792,0.09761954
+UPPER,3,0.07503734,0.12314290
+UPPER,4,0.28508160,0.14977306
+UPPER,5,0.32768000,0.15584280
+UPPER,6,0.37027840,0.14572656
+UPPER,7,0.37285600,0.11740109
+UPPER,8,0.48024000,0.07480381
+UPPER,9,0.88000000,0.02887154
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00900448,-0.03584992
+LOWER,2,0.03601792,-0.01323383
+LOWER,3,0.07503734,-0.03352121
+LOWER,4,0.28508160,-0.03029602
+LOWER,5,0.32768000,-0.04648200
+LOWER,6,0.37027840,-0.02422627
+LOWER,7,0.37285600,0.01016894
+LOWER,8,0.48024000,0.01973911
+LOWER,9,0.88000000,0.00962360
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Metabolus_takatsukasae
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 67.50 mm
+# Secondary1: 54.70 mm
+# Kipps Distance: 12.80 mm
+# Hand-Wing Index: 18.90
+# Tail Length: 66.70 mm
+# Aspect Ratio: 1.234
+# Pointedness Index: 0.1896
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1249
+# Max Thickness Position: 0.3387
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3649
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01045455,0.06694729
+UPPER,2,0.04181820,0.11609029
+UPPER,3,0.08712124,0.14341198
+UPPER,4,0.29463420,0.17553529
+UPPER,5,0.33866000,0.18302720
+UPPER,6,0.38268580,0.17054068
+UPPER,7,0.38694700,0.13557842
+UPPER,8,0.49488000,0.08439994
+UPPER,9,0.88000000,0.03209077
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01045455,-0.04055220
+LOWER,2,0.04181820,-0.01960018
+LOWER,3,0.08712124,-0.04566732
+LOWER,4,0.29463420,-0.04672482
+LOWER,5,0.33866000,-0.06670325
+LOWER,6,0.38268580,-0.03923290
+LOWER,7,0.38694700,0.00322128
+LOWER,8,0.49488000,0.01857929
+LOWER,9,0.88000000,0.00954588
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

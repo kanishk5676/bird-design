@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Megapodius_eremita
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 212.80 mm
+# Secondary1: 150.90 mm
+# Kipps Distance: 58.10 mm
+# Hand-Wing Index: 28.00
+# Tail Length: 69.40 mm
+# Aspect Ratio: 1.410
+# Pointedness Index: 0.2730
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1111
+# Max Thickness Position: 0.3332
+# Max Camber/Chord: 0.0566
+# Max Camber Position: 0.3576
+# Leading Edge Radius: 0.0325
+# LE Droop: 0.0024
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.45e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00975077,0.06090459
+UPPER,2,0.03900306,0.10610236
+UPPER,3,0.08125638,0.13211283
+UPPER,4,0.28988400,0.16108971
+UPPER,5,0.33320000,0.16775671
+UPPER,6,0.37651600,0.15664504
+UPPER,7,0.37994000,0.12553236
+UPPER,8,0.48760000,0.07925668
+UPPER,9,0.88000000,0.03041254
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00975077,-0.03828306
+LOWER,2,0.03900306,-0.01573335
+LOWER,3,0.08125638,-0.03839329
+LOWER,4,0.28988400,-0.03669804
+LOWER,5,0.33320000,-0.05447671
+LOWER,6,0.37651600,-0.03003104
+LOWER,7,0.37994000,0.00774865
+LOWER,8,0.48760000,0.01956046
+LOWER,9,0.88000000,0.00971533
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

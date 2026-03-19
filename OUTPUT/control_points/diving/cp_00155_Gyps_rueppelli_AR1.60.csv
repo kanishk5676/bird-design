@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gyps_rueppelli
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 627.80 mm
+# Secondary1: 391.80 mm
+# Kipps Distance: 236.00 mm
+# Hand-Wing Index: 37.60
+# Tail Length: 235.80 mm
+# Aspect Ratio: 1.602
+# Pointedness Index: 0.3759
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0971
+# Max Thickness Position: 0.3274
+# Max Camber/Chord: 0.0546
+# Max Camber Position: 0.3499
+# Leading Edge Radius: 0.0298
+# LE Droop: 0.0005
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.94e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00893227,0.05407361
+UPPER,2,0.03572908,0.09540300
+UPPER,3,0.07443557,0.12009509
+UPPER,4,0.28487280,0.14581304
+UPPER,5,0.32744000,0.15163607
+UPPER,6,0.37000720,0.14193102
+UPPER,7,0.37254800,0.11475689
+UPPER,8,0.47992000,0.07357189
+UPPER,9,0.88000000,0.02850657
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00893227,-0.03558508
+LOWER,2,0.03572908,-0.01195119
+LOWER,3,0.07443557,-0.03117990
+LOWER,4,0.28487280,-0.02693680
+LOWER,5,0.32744000,-0.04246487
+LOWER,6,0.37000720,-0.02111377
+LOWER,7,0.37254800,0.01188339
+LOWER,8,0.47992000,0.02025601
+LOWER,9,0.88000000,0.00976438
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

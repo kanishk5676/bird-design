@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Coracias_temminckii
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 183.00 mm
+# Secondary1: 137.00 mm
+# Kipps Distance: 44.50 mm
+# Hand-Wing Index: 24.50
+# Tail Length: 134.50 mm
+# Aspect Ratio: 1.336
+# Pointedness Index: 0.2432
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1148
+# Max Thickness Position: 0.3353
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3604
+# Leading Edge Radius: 0.0334
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.64e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01001014,0.06316082
+UPPER,2,0.04004054,0.10917619
+UPPER,3,0.08341780,0.13533831
+UPPER,4,0.29171100,0.16517317
+UPPER,5,0.33530000,0.17206033
+UPPER,6,0.37888900,0.16058173
+UPPER,7,0.38263500,0.12844166
+UPPER,8,0.49040000,0.08082328
+UPPER,9,0.88000000,0.03094714
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01001014,-0.03911054
+LOWER,2,0.04004054,-0.01668547
+LOWER,3,0.08341780,-0.04022964
+LOWER,4,0.29171100,-0.03914582
+LOWER,5,0.33530000,-0.05751158
+LOWER,6,0.37888900,-0.03225867
+LOWER,7,0.38263500,0.00676856
+LOWER,8,0.49040000,0.01944008
+LOWER,9,0.88000000,0.00972716
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

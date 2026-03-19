@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sterna_sumatrana
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 215.50 mm
+# Secondary1: 73.50 mm
+# Kipps Distance: 142.00 mm
+# Hand-Wing Index: 65.90
+# Tail Length: 120.50 mm
+# Aspect Ratio: 2.932
+# Pointedness Index: 0.6589
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0807
+# Max Thickness Position: 0.3105
+# Max Camber/Chord: 0.0458
+# Max Camber Position: 0.3273
+# Leading Edge Radius: 0.0221
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.52e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00662290,0.03973742
+UPPER,2,0.02649161,0.07933269
+UPPER,3,0.05519086,0.10030129
+UPPER,4,0.27010020,0.12172836
+UPPER,5,0.31046000,0.12657179
+UPPER,6,0.35081980,0.11849941
+UPPER,7,0.35075700,0.09589674
+UPPER,8,0.45728000,0.06157345
+UPPER,9,0.88000000,0.02388014
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00662290,-0.02649161
+LOWER,2,0.02649161,-0.00978483
+LOWER,3,0.05519086,-0.02572975
+LOWER,4,0.27010020,-0.02196003
+LOWER,5,0.31046000,-0.03487584
+LOWER,6,0.35081980,-0.01711660
+LOWER,7,0.35075700,0.01032950
+LOWER,8,0.45728000,0.01712441
+LOWER,9,0.88000000,0.00823304
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

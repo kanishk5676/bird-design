@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Saundersilarus_saundersi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 274.20 mm
+# Secondary1: 105.80 mm
+# Kipps Distance: 164.50 mm
+# Hand-Wing Index: 60.90
+# Tail Length: 95.60 mm
+# Aspect Ratio: 2.592
+# Pointedness Index: 0.5999
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0831
+# Max Thickness Position: 0.3135
+# Max Camber/Chord: 0.0477
+# Max Camber Position: 0.3313
+# Leading Edge Radius: 0.0236
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.50e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00707683,0.04246099
+UPPER,2,0.02830733,0.08210443
+UPPER,3,0.05897360,0.10373476
+UPPER,4,0.27271020,0.12584192
+UPPER,5,0.31346000,0.13083079
+UPPER,6,0.35420980,0.12251601
+UPPER,7,0.35460700,0.09923462
+UPPER,8,0.46128000,0.06381192
+UPPER,9,0.88000000,0.02477136
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00707683,-0.02830733
+LOWER,2,0.02830733,-0.00991826
+LOWER,3,0.05897360,-0.02629156
+LOWER,4,0.27271020,-0.02216119
+LOWER,5,0.31346000,-0.03546484
+LOWER,6,0.35420980,-0.01717232
+LOWER,7,0.35460700,0.01109794
+LOWER,8,0.46128000,0.01792275
+LOWER,9,0.88000000,0.00859483
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

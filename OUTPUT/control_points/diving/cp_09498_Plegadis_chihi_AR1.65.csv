@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Plegadis_chihi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 246.50 mm
+# Secondary1: 149.00 mm
+# Kipps Distance: 93.80 mm
+# Hand-Wing Index: 38.60
+# Tail Length: 95.50 mm
+# Aspect Ratio: 1.654
+# Pointedness Index: 0.3805
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1018
+# Max Thickness Position: 0.3268
+# Max Camber/Chord: 0.0543
+# Max Camber Position: 0.3491
+# Leading Edge Radius: 0.0296
+# LE Droop: 0.0003
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00887815,0.05354890
+UPPER,2,0.03551260,0.09736553
+UPPER,3,0.07398459,0.12328225
+UPPER,4,0.28435080,0.15002242
+UPPER,5,0.32684000,0.15612948
+UPPER,6,0.36932920,0.14595104
+UPPER,7,0.37177800,0.11745142
+UPPER,8,0.47912000,0.07469296
+UPPER,9,0.88000000,0.02879389
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00887815,-0.03542860
+LOWER,2,0.03551260,-0.01355022
+LOWER,3,0.07398459,-0.03403619
+LOWER,4,0.28435080,-0.03115378
+LOWER,5,0.32684000,-0.04743928
+LOWER,6,0.36932920,-0.02504672
+LOWER,7,0.37177800,0.00955997
+LOWER,8,0.47912000,0.01944415
+LOWER,9,0.88000000,0.00951490
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

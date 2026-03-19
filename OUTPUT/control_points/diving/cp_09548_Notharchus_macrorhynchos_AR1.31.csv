@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Notharchus_macrorhynchos
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 109.00 mm
+# Secondary1: 83.00 mm
+# Kipps Distance: 26.80 mm
+# Hand-Wing Index: 24.30
+# Tail Length: 79.00 mm
+# Aspect Ratio: 1.313
+# Pointedness Index: 0.2459
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1179
+# Max Thickness Position: 0.3354
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3606
+# Leading Edge Radius: 0.0333
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.85e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01000248,0.06315485
+UPPER,2,0.04000990,0.11079620
+UPPER,3,0.08335396,0.13760306
+UPPER,4,0.29181540,0.16812301
+UPPER,5,0.33542000,0.17519626
+UPPER,6,0.37902460,0.16340751
+UPPER,7,0.38278900,0.13039901
+UPPER,8,0.49056000,0.08172095
+UPPER,9,0.88000000,0.03120833
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01000248,-0.03906790
+LOWER,2,0.04000990,-0.01766592
+LOWER,3,0.08335396,-0.04201270
+LOWER,4,0.29181540,-0.04171671
+LOWER,5,0.33542000,-0.06057871
+LOWER,6,0.37902460,-0.03464346
+LOWER,7,0.38278900,0.00543828
+LOWER,8,0.49056000,0.01902719
+LOWER,9,0.88000000,0.00961169
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

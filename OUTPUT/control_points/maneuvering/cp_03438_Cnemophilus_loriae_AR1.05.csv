@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cnemophilus_loriae
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 99.80 mm
+# Secondary1: 95.10 mm
+# Kipps Distance: 4.70 mm
+# Hand-Wing Index: 4.70
+# Tail Length: 76.50 mm
+# Aspect Ratio: 1.049
+# Pointedness Index: 0.0471
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1341
+# Max Thickness Position: 0.3472
+# Max Camber/Chord: 0.0597
+# Max Camber Position: 0.3762
+# Leading Edge Radius: 0.0387
+# LE Droop: 0.0071
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.65e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01161600,0.07675600
+UPPER,2,0.04646400,0.12484387
+UPPER,3,0.09680000,0.15145701
+UPPER,4,0.30204660,0.18572724
+UPPER,5,0.34718000,0.19377091
+UPPER,6,0.39231340,0.18036479
+UPPER,7,0.39788100,0.14282768
+UPPER,8,0.50624000,0.08829043
+UPPER,9,0.88000000,0.03341461
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01161600,-0.04434600
+LOWER,2,0.04646400,-0.02200114
+LOWER,3,0.09680000,-0.05028896
+LOWER,4,0.30204660,-0.05290158
+LOWER,5,0.34718000,-0.07435136
+LOWER,6,0.39231340,-0.04485791
+LOWER,7,0.39788100,0.00072288
+LOWER,8,0.50624000,0.01825150
+LOWER,9,0.88000000,0.00956500
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Galbula_pastazae
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 88.20 mm
+# Secondary1: 66.60 mm
+# Kipps Distance: 21.70 mm
+# Hand-Wing Index: 24.50
+# Tail Length: 103.20 mm
+# Aspect Ratio: 1.324
+# Pointedness Index: 0.2460
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1189
+# Max Thickness Position: 0.3353
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3604
+# Leading Edge Radius: 0.0333
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00999554,0.06307323
+UPPER,2,0.03998215,0.11123791
+UPPER,3,0.08329615,0.13830718
+UPPER,4,0.29171100,0.16904919
+UPPER,5,0.33530000,0.17618375
+UPPER,6,0.37888900,0.16429282
+UPPER,7,0.38263500,0.13099819
+UPPER,8,0.49040000,0.08197785
+UPPER,9,0.88000000,0.03127701
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00999554,-0.03905215
+LOWER,2,0.03998215,-0.01800497
+LOWER,3,0.08329615,-0.04262123
+LOWER,4,0.29171100,-0.04260950
+LOWER,5,0.33530000,-0.06163500
+LOWER,6,0.37888900,-0.03547494
+LOWER,7,0.38263500,0.00495425
+LOWER,8,0.49040000,0.01886280
+LOWER,9,0.88000000,0.00956222
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

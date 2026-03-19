@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eriocnemis_vestita
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 58.50 mm
+# Secondary1: 22.50 mm
+# Kipps Distance: 35.90 mm
+# Hand-Wing Index: 61.50
+# Tail Length: 42.10 mm
+# Aspect Ratio: 2.600
+# Pointedness Index: 0.6137
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0896
+# Max Thickness Position: 0.3131
+# Max Camber/Chord: 0.0475
+# Max Camber Position: 0.3308
+# Leading Edge Radius: 0.0233
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00698836,0.04193014
+UPPER,2,0.02795343,0.08515052
+UPPER,3,0.05823630,0.10818606
+UPPER,4,0.27239700,0.13169629
+UPPER,5,0.31310000,0.13707248
+UPPER,6,0.35380300,0.12811217
+UPPER,7,0.35414500,0.10302330
+UPPER,8,0.46080000,0.06543784
+UPPER,9,0.88000000,0.02520661
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00698836,-0.02795343
+LOWER,2,0.02795343,-0.01205871
+LOWER,3,0.05823630,-0.03013389
+LOWER,4,0.27239700,-0.02779723
+LOWER,5,0.31310000,-0.04213373
+LOWER,6,0.35380300,-0.02242104
+LOWER,7,0.35414500,0.00804401
+LOWER,8,0.46080000,0.01688658
+LOWER,9,0.88000000,0.00828322
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

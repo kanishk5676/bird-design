@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chordeiles_pusillus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 125.20 mm
+# Secondary1: 73.40 mm
+# Kipps Distance: 51.10 mm
+# Hand-Wing Index: 41.10
+# Tail Length: 68.40 mm
+# Aspect Ratio: 1.706
+# Pointedness Index: 0.4081
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1037
+# Max Thickness Position: 0.3253
+# Max Camber/Chord: 0.0537
+# Max Camber Position: 0.3471
+# Leading Edge Radius: 0.0289
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.21e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00866079,0.05196474
+UPPER,2,0.03464316,0.09749749
+UPPER,3,0.07217325,0.12406491
+UPPER,4,0.28304580,0.15116954
+UPPER,5,0.32534000,0.15738960
+UPPER,6,0.36763420,0.14702284
+UPPER,7,0.36985300,0.11799590
+UPPER,8,0.47712000,0.07469061
+UPPER,9,0.88000000,0.02870776
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00866079,-0.03464316
+LOWER,2,0.03464316,-0.01437095
+LOWER,3,0.07217325,-0.03541511
+LOWER,4,0.28304580,-0.03335883
+LOWER,5,0.32534000,-0.04994565
+LOWER,6,0.36763420,-0.02713877
+LOWER,7,0.36985300,0.00810822
+LOWER,8,0.47712000,0.01879416
+LOWER,9,0.88000000,0.00928379
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

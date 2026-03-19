@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Actenoides_hombroni
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 120.40 mm
+# Secondary1: 92.40 mm
+# Kipps Distance: 26.90 mm
+# Hand-Wing Index: 22.50
+# Tail Length: 96.00 mm
+# Aspect Ratio: 1.303
+# Pointedness Index: 0.2234
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1188
+# Max Thickness Position: 0.3365
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3620
+# Leading Edge Radius: 0.0339
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.10e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01017205,0.06453229
+UPPER,2,0.04068819,0.11185204
+UPPER,3,0.08476707,0.13851369
+UPPER,4,0.29275500,0.16925144
+UPPER,5,0.33650000,0.17637753
+UPPER,6,0.38024500,0.16450071
+UPPER,7,0.38417500,0.13124563
+UPPER,8,0.49200000,0.08222305
+UPPER,9,0.88000000,0.03139301
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01017205,-0.03963819
+LOWER,2,0.04068819,-0.01784253
+LOWER,3,0.08476707,-0.04238522
+LOWER,4,0.29275500,-0.04215587
+LOWER,5,0.33650000,-0.06115878
+LOWER,6,0.38024500,-0.03502978
+LOWER,7,0.38417500,0.00535139
+LOWER,8,0.49200000,0.01909027
+LOWER,9,0.88000000,0.00965162
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

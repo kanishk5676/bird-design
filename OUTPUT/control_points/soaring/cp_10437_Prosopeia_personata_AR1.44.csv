@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Prosopeia_personata
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 232.20 mm
+# Secondary1: 161.10 mm
+# Kipps Distance: 68.40 mm
+# Hand-Wing Index: 29.80
+# Tail Length: 221.00 mm
+# Aspect Ratio: 1.441
+# Pointedness Index: 0.2946
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1092
+# Max Thickness Position: 0.3321
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3562
+# Leading Edge Radius: 0.0320
+# LE Droop: 0.0020
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00958579,0.05955477
+UPPER,2,0.03834318,0.10447217
+UPPER,3,0.07988162,0.13039019
+UPPER,4,0.28894440,0.15891111
+UPPER,5,0.33212000,0.16546140
+UPPER,6,0.37529560,0.15454425
+UPPER,7,0.37855400,0.12397623
+UPPER,8,0.48616000,0.07841444
+UPPER,9,0.88000000,0.03012388
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00958579,-0.03773118
+LOWER,2,0.03834318,-0.01523342
+LOWER,3,0.07988162,-0.03742612
+LOWER,4,0.28894440,-0.03541416
+LOWER,5,0.33212000,-0.05288160
+LOWER,6,0.37529560,-0.02886387
+LOWER,7,0.37855400,0.00825444
+LOWER,8,0.48616000,0.01961573
+LOWER,9,0.88000000,0.00970561
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

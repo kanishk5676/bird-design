@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Metallura_williami
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 57.50 mm
+# Secondary1: 24.70 mm
+# Kipps Distance: 32.00 mm
+# Hand-Wing Index: 56.40
+# Tail Length: 37.60 mm
+# Aspect Ratio: 2.328
+# Pointedness Index: 0.5565
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0938
+# Max Thickness Position: 0.3162
+# Max Camber/Chord: 0.0492
+# Max Camber Position: 0.3349
+# Leading Edge Radius: 0.0248
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.29e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00743590,0.04461539
+UPPER,2,0.02974360,0.08872918
+UPPER,3,0.06196583,0.11280483
+UPPER,4,0.27505920,0.13737276
+UPPER,5,0.31616000,0.14299904
+UPPER,6,0.35726080,0.13362190
+UPPER,7,0.35807200,0.10736590
+UPPER,8,0.46488000,0.06809946
+UPPER,9,0.88000000,0.02620820
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00743590,-0.02974360
+LOWER,2,0.02974360,-0.01277720
+LOWER,3,0.06196583,-0.03174274
+LOWER,4,0.27505920,-0.02954041
+LOWER,5,0.31616000,-0.04454384
+LOWER,6,0.35726080,-0.02391413
+LOWER,7,0.35807200,0.00796816
+LOWER,8,0.46488000,0.01739311
+LOWER,9,0.88000000,0.00855604
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

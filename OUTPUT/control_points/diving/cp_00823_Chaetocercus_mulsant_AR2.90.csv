@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chaetocercus_mulsant
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 39.20 mm
+# Secondary1: 13.50 mm
+# Kipps Distance: 26.00 mm
+# Hand-Wing Index: 65.90
+# Tail Length: 21.40 mm
+# Aspect Ratio: 2.904
+# Pointedness Index: 0.6633
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0872
+# Max Thickness Position: 0.3105
+# Max Camber/Chord: 0.0458
+# Max Camber Position: 0.3273
+# Leading Edge Radius: 0.0220
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00660081,0.03960484
+UPPER,2,0.02640323,0.08256768
+UPPER,3,0.05500672,0.10495968
+UPPER,4,0.27010020,0.12781016
+UPPER,5,0.31046000,0.13304179
+UPPER,6,0.35081980,0.12432241
+UPPER,7,0.35075700,0.09990814
+UPPER,8,0.45728000,0.06338505
+UPPER,9,0.88000000,0.02439774
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00660081,-0.02640323
+LOWER,2,0.02640323,-0.01185523
+LOWER,3,0.05500672,-0.02948234
+LOWER,4,0.27010020,-0.02739483
+LOWER,5,0.31046000,-0.04134584
+LOWER,6,0.35081980,-0.02216320
+LOWER,7,0.35075700,0.00748270
+LOWER,8,0.45728000,0.01621861
+LOWER,9,0.88000000,0.00797424
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

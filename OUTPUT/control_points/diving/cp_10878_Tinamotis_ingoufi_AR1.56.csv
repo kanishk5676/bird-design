@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tinamotis_ingoufi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 215.20 mm
+# Secondary1: 138.00 mm
+# Kipps Distance: 77.20 mm
+# Hand-Wing Index: 36.00
+# Tail Length: 57.30 mm
+# Aspect Ratio: 1.559
+# Pointedness Index: 0.3587
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1045
+# Max Thickness Position: 0.3284
+# Max Camber/Chord: 0.0550
+# Max Camber Position: 0.3512
+# Leading Edge Radius: 0.0302
+# LE Droop: 0.0008
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.71e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00906885,0.05521308
+UPPER,2,0.03627538,0.09974977
+UPPER,3,0.07557372,0.12577982
+UPPER,4,0.28570800,0.15315948
+UPPER,5,0.32840000,0.15942753
+UPPER,6,0.37109200,0.14898078
+UPPER,7,0.37378000,0.11972987
+UPPER,8,0.48120000,0.07596691
+UPPER,9,0.88000000,0.02924220
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00906885,-0.03603538
+LOWER,2,0.03627538,-0.01419361
+LOWER,3,0.07557372,-0.03530957
+LOWER,4,0.28570800,-0.03279273
+LOWER,5,0.32840000,-0.04950753
+LOWER,6,0.37109200,-0.02652467
+LOWER,7,0.37378000,0.00899429
+LOWER,8,0.48120000,0.01944975
+LOWER,9,0.88000000,0.00956130
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Odontophorus_strophium
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 138.00 mm
+# Secondary1: 112.80 mm
+# Kipps Distance: 21.80 mm
+# Hand-Wing Index: 16.20
+# Tail Length: 59.70 mm
+# Aspect Ratio: 1.223
+# Pointedness Index: 0.1580
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1230
+# Max Thickness Position: 0.3403
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3670
+# Leading Edge Radius: 0.0357
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.51e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01069863,0.06895177
+UPPER,2,0.04279451,0.11603221
+UPPER,3,0.08915523,0.14243767
+UPPER,4,0.29604360,0.17418847
+UPPER,5,0.34028000,0.18157068
+UPPER,6,0.38451640,0.16926700
+UPPER,7,0.38902600,0.13481670
+UPPER,8,0.49704000,0.08420411
+UPPER,9,0.88000000,0.03208582
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01069863,-0.04136651
+LOWER,2,0.04279451,-0.01888490
+LOWER,3,0.08915523,-0.04443574
+LOWER,4,0.29604360,-0.04481700
+LOWER,5,0.34028000,-0.06450288
+LOWER,6,0.38451640,-0.03743479
+LOWER,7,0.38902600,0.00439772
+LOWER,8,0.49704000,0.01906587
+LOWER,9,0.88000000,0.00971200
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

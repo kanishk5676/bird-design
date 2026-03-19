@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pipreola_whitelyi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 95.00 mm
+# Secondary1: 72.90 mm
+# Kipps Distance: 22.10 mm
+# Hand-Wing Index: 23.30
+# Tail Length: 63.20 mm
+# Aspect Ratio: 1.303
+# Pointedness Index: 0.2326
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1195
+# Max Thickness Position: 0.3360
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3614
+# Leading Edge Radius: 0.0337
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.55e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01010060,0.06394359
+UPPER,2,0.04040240,0.11192420
+UPPER,3,0.08417166,0.13888800
+UPPER,4,0.29233740,0.16976658
+UPPER,5,0.33602000,0.17693395
+UPPER,6,0.37970260,0.16498833
+UPPER,7,0.38355900,0.13154061
+UPPER,8,0.49136000,0.08230384
+UPPER,9,0.88000000,0.03139805
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01010060,-0.03940040
+LOWER,2,0.04040240,-0.01810876
+LOWER,3,0.08417166,-0.04284481
+LOWER,4,0.29233740,-0.04286541
+LOWER,5,0.33602000,-0.06197840
+LOWER,6,0.37970260,-0.03569804
+LOWER,7,0.38355900,0.00491706
+LOWER,8,0.49136000,0.01891236
+LOWER,9,0.88000000,0.00959120
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

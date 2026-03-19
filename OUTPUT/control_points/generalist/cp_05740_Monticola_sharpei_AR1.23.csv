@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Monticola_sharpei
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 75.50 mm
+# Secondary1: 61.60 mm
+# Kipps Distance: 14.10 mm
+# Hand-Wing Index: 18.50
+# Tail Length: 58.00 mm
+# Aspect Ratio: 1.226
+# Pointedness Index: 0.1868
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1246
+# Max Thickness Position: 0.3389
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3652
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0043
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.16e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01048145,0.06718870
+UPPER,2,0.04192580,0.11607126
+UPPER,3,0.08734541,0.14325192
+UPPER,4,0.29484300,0.17531477
+UPPER,5,0.33890000,0.18278895
+UPPER,6,0.38295700,0.17033199
+UPPER,7,0.38725500,0.13545251
+UPPER,8,0.49520000,0.08436595
+UPPER,9,0.88000000,0.03208893
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01048145,-0.04063580
+LOWER,2,0.04192580,-0.01948548
+LOWER,3,0.08734541,-0.04546944
+LOWER,4,0.29484300,-0.04641907
+LOWER,5,0.33890000,-0.06635020
+LOWER,6,0.38295700,-0.03894489
+LOWER,7,0.38725500,0.00340876
+LOWER,8,0.49520000,0.01865627
+LOWER,9,0.88000000,0.00957206
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ardeotis_arabs
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 539.50 mm
+# Secondary1: 293.50 mm
+# Kipps Distance: 246.00 mm
+# Hand-Wing Index: 46.00
+# Tail Length: 276.20 mm
+# Aspect Ratio: 1.838
+# Pointedness Index: 0.4560
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0912
+# Max Thickness Position: 0.3224
+# Max Camber/Chord: 0.0524
+# Max Camber Position: 0.3432
+# Leading Edge Radius: 0.0276
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.57e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00826691,0.04960148
+UPPER,2,0.03306765,0.09016861
+UPPER,3,0.06889095,0.11391016
+UPPER,4,0.28048800,0.13817581
+UPPER,5,0.32240000,0.14365022
+UPPER,6,0.36431200,0.13452620
+UPPER,7,0.36608000,0.10897894
+UPPER,8,0.47320000,0.07009576
+UPPER,9,0.88000000,0.02721502
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00826691,-0.03306765
+LOWER,2,0.03306765,-0.01085337
+LOWER,3,0.06889095,-0.02881073
+LOWER,4,0.28048800,-0.02423179
+LOWER,5,0.32240000,-0.03883022
+LOWER,6,0.36431200,-0.01875737
+LOWER,7,0.36608000,0.01226430
+LOWER,8,0.47320000,0.01972057
+LOWER,9,0.88000000,0.00945289
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

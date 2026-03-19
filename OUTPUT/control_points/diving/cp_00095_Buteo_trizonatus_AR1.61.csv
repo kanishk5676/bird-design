@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Buteo_trizonatus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 345.80 mm
+# Secondary1: 214.20 mm
+# Kipps Distance: 131.50 mm
+# Hand-Wing Index: 37.90
+# Tail Length: 184.00 mm
+# Aspect Ratio: 1.614
+# Pointedness Index: 0.3803
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1004
+# Max Thickness Position: 0.3273
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3497
+# Leading Edge Radius: 0.0297
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.55e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00890084,0.05382506
+UPPER,2,0.03560338,0.09693817
+UPPER,3,0.07417370,0.12241392
+UPPER,4,0.28471620,0.14885480
+UPPER,5,0.32726000,0.15487656
+UPPER,6,0.36980380,0.14484030
+UPPER,7,0.37231700,0.11673878
+UPPER,8,0.47968000,0.07443840
+UPPER,9,0.88000000,0.02874432
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00890084,-0.03547738
+LOWER,2,0.03560338,-0.01303614
+LOWER,3,0.07417370,-0.03313387
+LOWER,4,0.28471620,-0.02979060
+LOWER,5,0.32726000,-0.04584861
+LOWER,6,0.36980380,-0.02376884
+LOWER,7,0.37231700,0.01035444
+LOWER,8,0.47968000,0.01974790
+LOWER,9,0.88000000,0.00961399
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

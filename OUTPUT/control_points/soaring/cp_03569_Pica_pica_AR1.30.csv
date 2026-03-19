@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pica_pica
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 194.50 mm
+# Secondary1: 149.90 mm
+# Kipps Distance: 44.60 mm
+# Hand-Wing Index: 22.90
+# Tail Length: 237.40 mm
+# Aspect Ratio: 1.298
+# Pointedness Index: 0.2293
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1157
+# Max Thickness Position: 0.3363
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3617
+# Leading Edge Radius: 0.0338
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.95e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01012980,0.06419880
+UPPER,2,0.04051920,0.11019012
+UPPER,3,0.08441500,0.13625560
+UPPER,4,0.29254620,0.16631652
+UPPER,5,0.33626000,0.17325945
+UPPER,6,0.37997380,0.16168790
+UPPER,7,0.38386700,0.12928757
+UPPER,8,0.49168000,0.08131271
+UPPER,9,0.88000000,0.03112395
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01012980,-0.03949320
+LOWER,2,0.04051920,-0.01688856
+LOWER,3,0.08441500,-0.04064475
+LOWER,4,0.29254620,-0.03965703
+LOWER,5,0.33626000,-0.05817150
+LOWER,6,0.37997380,-0.03271410
+LOWER,7,0.38386700,0.00662917
+LOWER,8,0.49168000,0.01947710
+LOWER,9,0.88000000,0.00975737
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

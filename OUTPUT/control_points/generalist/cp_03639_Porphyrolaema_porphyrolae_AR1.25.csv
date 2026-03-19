@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Porphyrolaema_porphyrolaema
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 96.20 mm
+# Secondary1: 76.70 mm
+# Kipps Distance: 19.50 mm
+# Hand-Wing Index: 20.20
+# Tail Length: 68.20 mm
+# Aspect Ratio: 1.254
+# Pointedness Index: 0.2027
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1219
+# Max Thickness Position: 0.3379
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3638
+# Leading Edge Radius: 0.0345
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.58e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01034810,0.06604858
+UPPER,2,0.04139238,0.11416751
+UPPER,3,0.08623414,0.14107597
+UPPER,4,0.29395560,0.17252412
+UPPER,5,0.33788000,0.17983610
+UPPER,6,0.38180440,0.16764948
+UPPER,7,0.38594600,0.13352694
+UPPER,8,0.49384000,0.08339695
+UPPER,9,0.88000000,0.03177786
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01034810,-0.04020438
+LOWER,2,0.04139238,-0.01870772
+LOWER,3,0.08623414,-0.04401624
+LOWER,4,0.29395560,-0.04439770
+LOWER,5,0.33788000,-0.06389630
+LOWER,6,0.38180440,-0.03708573
+LOWER,7,0.38594600,0.00434877
+LOWER,8,0.49384000,0.01888007
+LOWER,9,0.88000000,0.00961783
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

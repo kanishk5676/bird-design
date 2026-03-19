@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Garritornis_isidorei
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 111.40 mm
+# Secondary1: 99.90 mm
+# Kipps Distance: 10.60 mm
+# Hand-Wing Index: 9.60
+# Tail Length: 114.20 mm
+# Aspect Ratio: 1.115
+# Pointedness Index: 0.0952
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1295
+# Max Thickness Position: 0.3442
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3723
+# Leading Edge Radius: 0.0374
+# LE Droop: 0.0061
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.90e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01122096,0.07340577
+UPPER,2,0.04488385,0.12123878
+UPPER,3,0.09350801,0.14780460
+UPPER,4,0.29948880,0.18104332
+UPPER,5,0.34424000,0.18881484
+UPPER,6,0.38899120,0.17586231
+UPPER,7,0.39410800,0.13959525
+UPPER,8,0.50232000,0.08666323
+UPPER,9,0.88000000,0.03289207
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01122096,-0.04305985
+LOWER,2,0.04488385,-0.02069672
+LOWER,3,0.09350801,-0.04785142
+LOWER,4,0.29948880,-0.04951160
+LOWER,5,0.34424000,-0.07023564
+LOWER,6,0.38899120,-0.04174009
+LOWER,7,0.39410800,0.00229850
+LOWER,8,0.50232000,0.01862602
+LOWER,9,0.88000000,0.00964139
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sitta_neglecta
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 80.00 mm
+# Secondary1: 59.90 mm
+# Kipps Distance: 20.10 mm
+# Hand-Wing Index: 25.10
+# Tail Length: 43.90 mm
+# Aspect Ratio: 1.336
+# Pointedness Index: 0.2512
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1185
+# Max Thickness Position: 0.3349
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3599
+# Leading Edge Radius: 0.0332
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.37e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00995057,0.06268339
+UPPER,2,0.03980226,0.11084634
+UPPER,3,0.08292138,0.13794786
+UPPER,4,0.29139780,0.16860108
+UPPER,5,0.33494000,0.17571371
+UPPER,6,0.37848220,0.16385933
+UPPER,7,0.38217300,0.13066709
+UPPER,8,0.48992000,0.08178672
+UPPER,9,0.88000000,0.03120809
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00995057,-0.03890826
+LOWER,2,0.03980226,-0.01792450
+LOWER,3,0.08292138,-0.04245717
+LOWER,4,0.29139780,-0.04240676
+LOWER,5,0.33494000,-0.06137376
+LOWER,6,0.37848220,-0.03529413
+LOWER,7,0.38217300,0.00501073
+LOWER,8,0.48992000,0.01884926
+LOWER,9,0.88000000,0.00955074
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

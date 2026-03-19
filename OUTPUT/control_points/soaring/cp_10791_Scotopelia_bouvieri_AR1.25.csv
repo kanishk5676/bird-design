@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Scotopelia_bouvieri
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 294.80 mm
+# Secondary1: 236.40 mm
+# Kipps Distance: 58.40 mm
+# Hand-Wing Index: 19.80
+# Tail Length: 162.20 mm
+# Aspect Ratio: 1.247
+# Pointedness Index: 0.1981
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1158
+# Max Thickness Position: 0.3381
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3642
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.89e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01038381,0.06634285
+UPPER,2,0.04153523,0.11125544
+UPPER,3,0.08653173,0.13674914
+UPPER,4,0.29416440,0.16686315
+UPPER,5,0.33812000,0.17380995
+UPPER,6,0.38207560,0.16223194
+UPPER,7,0.38625400,0.12981353
+UPPER,8,0.49416000,0.08174383
+UPPER,9,0.88000000,0.03131377
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01038381,-0.04032323
+LOWER,2,0.04153523,-0.01673915
+LOWER,3,0.08653173,-0.04045867
+LOWER,4,0.29416440,-0.03922534
+LOWER,5,0.33812000,-0.05775015
+LOWER,6,0.38207560,-0.03227854
+LOWER,7,0.38625400,0.00708668
+LOWER,8,0.49416000,0.01976933
+LOWER,9,0.88000000,0.00987627
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Schistolais_leontica
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 53.10 mm
+# Secondary1: 47.50 mm
+# Kipps Distance: 5.10 mm
+# Hand-Wing Index: 9.70
+# Tail Length: 52.20 mm
+# Aspect Ratio: 1.118
+# Pointedness Index: 0.0960
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1322
+# Max Thickness Position: 0.3442
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3722
+# Leading Edge Radius: 0.0374
+# LE Droop: 0.0061
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01121335,0.07334010
+UPPER,2,0.04485340,0.12256781
+UPPER,3,0.09344458,0.14975019
+UPPER,4,0.29943660,0.18358538
+UPPER,5,0.34418000,0.19151978
+UPPER,6,0.38892340,0.17829578
+UPPER,7,0.39403100,0.14126858
+UPPER,8,0.50224000,0.08741501
+UPPER,9,0.88000000,0.03310551
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01121335,-0.04303540
+LOWER,2,0.04485340,-0.02156888
+LOWER,3,0.09344458,-0.04943050
+LOWER,4,0.29943660,-0.05180183
+LOWER,5,0.34418000,-0.07296023
+LOWER,6,0.38892340,-0.04386743
+LOWER,7,0.39403100,0.00109417
+LOWER,8,0.50224000,0.01823986
+LOWER,9,0.88000000,0.00953034
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

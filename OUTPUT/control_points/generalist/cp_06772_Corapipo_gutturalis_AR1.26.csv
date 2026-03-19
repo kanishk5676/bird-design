@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Corapipo_gutturalis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 56.40 mm
+# Secondary1: 44.90 mm
+# Kipps Distance: 11.60 mm
+# Hand-Wing Index: 20.60
+# Tail Length: 27.20 mm
+# Aspect Ratio: 1.256
+# Pointedness Index: 0.2057
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1232
+# Max Thickness Position: 0.3376
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3635
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01032070,0.06580422
+UPPER,2,0.04128282,0.11467925
+UPPER,3,0.08600587,0.14194655
+UPPER,4,0.29374680,0.17367295
+UPPER,5,0.33764000,0.18106213
+UPPER,6,0.38153320,0.16874683
+UPPER,7,0.38563800,0.13426398
+UPPER,8,0.49352000,0.08370558
+UPPER,9,0.88000000,0.03185770
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01032070,-0.04011882
+LOWER,2,0.04128282,-0.01914078
+LOWER,3,0.08600587,-0.04479057
+LOWER,4,0.29374680,-0.04553945
+LOWER,5,0.33764000,-0.06524393
+LOWER,6,0.38153320,-0.03815026
+LOWER,7,0.38563800,0.00372177
+LOWER,8,0.49352000,0.01866222
+LOWER,9,0.88000000,0.00955115
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

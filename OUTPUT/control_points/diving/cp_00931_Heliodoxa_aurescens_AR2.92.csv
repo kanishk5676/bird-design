@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Heliodoxa_aurescens
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 61.00 mm
+# Secondary1: 20.90 mm
+# Kipps Distance: 39.90 mm
+# Hand-Wing Index: 65.60
+# Tail Length: 34.60 mm
+# Aspect Ratio: 2.919
+# Pointedness Index: 0.6541
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0854
+# Max Thickness Position: 0.3106
+# Max Camber/Chord: 0.0460
+# Max Camber Position: 0.3275
+# Leading Edge Radius: 0.0222
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00665674,0.03994043
+UPPER,2,0.02662695,0.08177637
+UPPER,3,0.05547282,0.10378565
+UPPER,4,0.27025680,0.12625454
+UPPER,5,0.31064000,0.13137962
+UPPER,6,0.35102320,0.12283782
+UPPER,7,0.35098800,0.09892077
+UPPER,8,0.45752000,0.06298441
+UPPER,9,0.88000000,0.02429885
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00665674,-0.02662695
+LOWER,2,0.02662695,-0.01124721
+LOWER,3,0.05547282,-0.02840012
+LOWER,4,0.27025680,-0.02578954
+LOWER,5,0.31064000,-0.03945642
+LOWER,6,0.35102320,-0.02066446
+LOWER,7,0.35098800,0.00837767
+LOWER,8,0.45752000,0.01653767
+LOWER,9,0.88000000,0.00807368
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

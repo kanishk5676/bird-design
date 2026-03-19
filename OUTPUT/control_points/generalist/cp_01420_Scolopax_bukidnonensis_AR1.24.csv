@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Scolopax_bukidnonensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 161.00 mm
+# Secondary1: 129.50 mm
+# Kipps Distance: 32.20 mm
+# Hand-Wing Index: 19.60
+# Tail Length: 58.00 mm
+# Aspect Ratio: 1.243
+# Pointedness Index: 0.2000
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1194
+# Max Thickness Position: 0.3382
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3643
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.08e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01038024,0.06636144
+UPPER,2,0.04152096,0.11315040
+UPPER,3,0.08650200,0.13941125
+UPPER,4,0.29426880,0.17033270
+UPPER,5,0.33824000,0.17749907
+UPPER,6,0.38221120,0.16555513
+UPPER,7,0.38640800,0.13211207
+UPPER,8,0.49432000,0.08279371
+UPPER,9,0.88000000,0.03161781
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01038024,-0.04029696
+LOWER,2,0.04152096,-0.01789977
+LOWER,3,0.08650200,-0.04256748
+LOWER,4,0.29426880,-0.04226956
+LOWER,5,0.33824000,-0.06137987
+LOWER,6,0.38221120,-0.03510319
+LOWER,7,0.38640800,0.00550623
+LOWER,8,0.49432000,0.01927543
+LOWER,9,0.88000000,0.00973732
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

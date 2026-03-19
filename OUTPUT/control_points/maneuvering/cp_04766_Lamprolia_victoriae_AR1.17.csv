@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lamprolia_victoriae
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 81.50 mm
+# Secondary1: 69.60 mm
+# Kipps Distance: 12.30 mm
+# Hand-Wing Index: 15.00
+# Tail Length: 45.50 mm
+# Aspect Ratio: 1.171
+# Pointedness Index: 0.1509
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1269
+# Max Thickness Position: 0.3410
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3680
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.29e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01077131,0.06962784
+UPPER,2,0.04308523,0.11832653
+UPPER,3,0.08976089,0.14534921
+UPPER,4,0.29667000,0.17795875
+UPPER,5,0.34100000,0.18557181
+UPPER,6,0.38533000,0.17288338
+UPPER,7,0.38995000,0.13735577
+UPPER,8,0.49800000,0.08541198
+UPPER,9,0.88000000,0.03245200
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01077131,-0.04158523
+LOWER,2,0.04308523,-0.02006236
+LOWER,3,0.08976089,-0.04659665
+LOWER,4,0.29667000,-0.04789532
+LOWER,5,0.34100000,-0.06819681
+LOWER,6,0.38533000,-0.04028226
+LOWER,7,0.38995000,0.00285840
+LOWER,8,0.49800000,0.01862245
+LOWER,9,0.88000000,0.00959650
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

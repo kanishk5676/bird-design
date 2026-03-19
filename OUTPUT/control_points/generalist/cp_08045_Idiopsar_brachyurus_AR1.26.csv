@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Idiopsar_brachyurus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 101.20 mm
+# Secondary1: 80.60 mm
+# Kipps Distance: 20.70 mm
+# Hand-Wing Index: 20.40
+# Tail Length: 70.00 mm
+# Aspect Ratio: 1.256
+# Pointedness Index: 0.2045
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1214
+# Max Thickness Position: 0.3378
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3637
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.68e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01033258,0.06591547
+UPPER,2,0.04133031,0.11388030
+UPPER,3,0.08610482,0.14072920
+UPPER,4,0.29385120,0.17207749
+UPPER,5,0.33776000,0.17936288
+UPPER,6,0.38166880,0.16722055
+UPPER,7,0.38579200,0.13322204
+UPPER,8,0.49368000,0.08324718
+UPPER,9,0.88000000,0.03173091
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01033258,-0.04015431
+LOWER,2,0.04133031,-0.01857659
+LOWER,3,0.08610482,-0.04377329
+LOWER,4,0.29385120,-0.04405596
+LOWER,5,0.33776000,-0.06348368
+LOWER,6,0.38166880,-0.03677056
+LOWER,7,0.38579200,0.00451336
+LOWER,8,0.49368000,0.01892329
+LOWER,9,0.88000000,0.00962797
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

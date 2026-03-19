@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tribonyx_ventralis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 205.40 mm
+# Secondary1: 125.00 mm
+# Kipps Distance: 79.00 mm
+# Hand-Wing Index: 38.80
+# Tail Length: 83.00 mm
+# Aspect Ratio: 1.643
+# Pointedness Index: 0.3846
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1027
+# Max Thickness Position: 0.3267
+# Max Camber/Chord: 0.0543
+# Max Camber Position: 0.3490
+# Leading Edge Radius: 0.0295
+# LE Droop: 0.0002
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.25e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00885118,0.05334709
+UPPER,2,0.03540473,0.09773251
+UPPER,3,0.07375985,0.12388311
+UPPER,4,0.28424640,0.15081667
+UPPER,5,0.32672000,0.15697754
+UPPER,6,0.36919360,0.14670943
+UPPER,7,0.37162400,0.11795871
+UPPER,8,0.47896000,0.07490266
+UPPER,9,0.88000000,0.02884712
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00885118,-0.03533273
+LOWER,2,0.03540473,-0.01385422
+LOWER,3,0.07375985,-0.03457872
+LOWER,4,0.28424640,-0.03195576
+LOWER,5,0.32672000,-0.04838474
+LOWER,6,0.36919360,-0.02579489
+LOWER,7,0.37162400,0.00911670
+LOWER,8,0.47896000,0.01928841
+LOWER,9,0.88000000,0.00946685
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

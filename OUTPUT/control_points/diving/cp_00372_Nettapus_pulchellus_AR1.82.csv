@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nettapus_pulchellus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 168.80 mm
+# Secondary1: 92.80 mm
+# Kipps Distance: 74.40 mm
+# Hand-Wing Index: 44.50
+# Tail Length: 63.20 mm
+# Aspect Ratio: 1.819
+# Pointedness Index: 0.4408
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0989
+# Max Thickness Position: 0.3233
+# Max Camber/Chord: 0.0528
+# Max Camber Position: 0.3444
+# Leading Edge Radius: 0.0280
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.51e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00839043,0.05034260
+UPPER,2,0.03356173,0.09437230
+UPPER,3,0.06992027,0.11983751
+UPPER,4,0.28127100,0.14583096
+UPPER,5,0.32330000,0.15176755
+UPPER,6,0.36532900,0.14187323
+UPPER,7,0.36723500,0.11416914
+UPPER,8,0.47440000,0.07260481
+UPPER,9,0.88000000,0.02798872
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00839043,-0.03356173
+LOWER,2,0.03356173,-0.01317328
+LOWER,3,0.06992027,-0.03308783
+LOWER,4,0.28127100,-0.03028789
+LOWER,5,0.32330000,-0.04611880
+LOWER,6,0.36532900,-0.02435130
+LOWER,7,0.36723500,0.00928938
+LOWER,8,0.47440000,0.01889907
+LOWER,9,0.88000000,0.00924837
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

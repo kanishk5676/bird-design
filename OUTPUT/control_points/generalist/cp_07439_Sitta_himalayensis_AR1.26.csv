@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sitta_himalayensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 72.20 mm
+# Secondary1: 57.10 mm
+# Kipps Distance: 14.70 mm
+# Hand-Wing Index: 20.40
+# Tail Length: 38.40 mm
+# Aspect Ratio: 1.264
+# Pointedness Index: 0.2036
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1227
+# Max Thickness Position: 0.3378
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3637
+# Leading Edge Radius: 0.0345
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.25e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01033739,0.06594437
+UPPER,2,0.04134958,0.11451741
+UPPER,3,0.08614495,0.14164663
+UPPER,4,0.29385120,0.17327524
+UPPER,5,0.33776000,0.18063709
+UPPER,6,0.38166880,0.16836734
+UPPER,7,0.38579200,0.13401204
+UPPER,8,0.49368000,0.08360396
+UPPER,9,0.88000000,0.03183285
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01033739,-0.04017358
+LOWER,2,0.04134958,-0.01898434
+LOWER,3,0.08614495,-0.04451233
+LOWER,4,0.29385120,-0.04512629
+LOWER,5,0.33776000,-0.06475789
+LOWER,6,0.38166880,-0.03776444
+LOWER,7,0.38579200,0.00395270
+LOWER,8,0.49368000,0.01874490
+LOWER,9,0.88000000,0.00957700
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

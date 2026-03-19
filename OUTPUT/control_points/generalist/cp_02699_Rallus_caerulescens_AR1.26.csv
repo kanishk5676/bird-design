@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rallus_caerulescens
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 119.00 mm
+# Secondary1: 94.40 mm
+# Kipps Distance: 21.90 mm
+# Hand-Wing Index: 18.90
+# Tail Length: 42.00 mm
+# Aspect Ratio: 1.261
+# Pointedness Index: 0.1840
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1213
+# Max Thickness Position: 0.3387
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3649
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.27e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01048309,0.06711853
+UPPER,2,0.04193235,0.11431624
+UPPER,3,0.08735907,0.14085735
+UPPER,4,0.29463420,0.17220007
+UPPER,5,0.33866000,0.17947910
+UPPER,6,0.38268580,0.16734739
+UPPER,7,0.38694700,0.13337859
+UPPER,8,0.49488000,0.08340647
+UPPER,9,0.88000000,0.03180692
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01048309,-0.04066635
+LOWER,2,0.04193235,-0.01846479
+LOWER,3,0.08735907,-0.04360942
+LOWER,4,0.29463420,-0.04374441
+LOWER,5,0.33866000,-0.06315515
+LOWER,6,0.38268580,-0.03646538
+LOWER,7,0.38694700,0.00478244
+LOWER,8,0.49488000,0.01907603
+LOWER,9,0.88000000,0.00968781
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

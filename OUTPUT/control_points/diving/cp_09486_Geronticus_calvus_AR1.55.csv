@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geronticus_calvus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 388.20 mm
+# Secondary1: 250.70 mm
+# Kipps Distance: 137.50 mm
+# Hand-Wing Index: 35.40
+# Tail Length: 196.80 mm
+# Aspect Ratio: 1.548
+# Pointedness Index: 0.3542
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1017
+# Max Thickness Position: 0.3288
+# Max Camber/Chord: 0.0551
+# Max Camber Position: 0.3517
+# Leading Edge Radius: 0.0304
+# LE Droop: 0.0009
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00911035,0.05558207
+UPPER,2,0.03644138,0.09859229
+UPPER,3,0.07591955,0.12389858
+UPPER,4,0.28602120,0.15067585
+UPPER,5,0.32876000,0.15677662
+UPPER,6,0.37149880,0.14660867
+UPPER,7,0.37424200,0.11813840
+UPPER,8,0.48168000,0.07530280
+UPPER,9,0.88000000,0.02907126
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00911035,-0.03616538
+LOWER,2,0.03644138,-0.01325346
+LOWER,3,0.07591955,-0.03362945
+LOWER,4,0.28602120,-0.03031370
+LOWER,5,0.32876000,-0.04658242
+LOWER,6,0.37149880,-0.02421292
+LOWER,7,0.37424200,0.01035811
+LOWER,8,0.48168000,0.01992507
+LOWER,9,0.88000000,0.00970709
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

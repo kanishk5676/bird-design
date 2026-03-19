@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Buceros_rhinoceros
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 458.50 mm
+# Secondary1: 353.50 mm
+# Kipps Distance: 97.20 mm
+# Hand-Wing Index: 21.70
+# Tail Length: 365.60 mm
+# Aspect Ratio: 1.297
+# Pointedness Index: 0.2120
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1117
+# Max Thickness Position: 0.3370
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3626
+# Leading Edge Radius: 0.0342
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.26e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01025480,0.06518881
+UPPER,2,0.04101921,0.10856286
+UPPER,3,0.08545669,0.13350783
+UPPER,4,0.29317260,0.16269019
+UPPER,5,0.33698000,0.16938928
+UPPER,6,0.38078740,0.15822413
+UPPER,7,0.38479100,0.12696171
+UPPER,8,0.49264000,0.08033953
+UPPER,9,0.88000000,0.03087247
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01025480,-0.03992121
+LOWER,2,0.04101921,-0.01552026
+LOWER,3,0.08545669,-0.03819849
+LOWER,4,0.29317260,-0.03604949
+LOWER,5,0.33698000,-0.05391373
+LOWER,6,0.38078740,-0.02935040
+LOWER,7,0.38479100,0.00861111
+LOWER,8,0.49264000,0.02016621
+LOWER,9,0.88000000,0.00996838
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

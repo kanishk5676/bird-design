@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bradornis_fuliginosus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 81.20 mm
+# Secondary1: 60.90 mm
+# Kipps Distance: 19.60 mm
+# Hand-Wing Index: 24.40
+# Tail Length: 49.20 mm
+# Aspect Ratio: 1.333
+# Pointedness Index: 0.2414
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1193
+# Max Thickness Position: 0.3354
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3605
+# Leading Edge Radius: 0.0334
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01002233,0.06325395
+UPPER,2,0.04008930,0.11145413
+UPPER,3,0.08351938,0.13858449
+UPPER,4,0.29176320,0.16940778
+UPPER,5,0.33536000,0.17656413
+UPPER,6,0.37895680,0.16463688
+UPPER,7,0.38271200,0.13124057
+UPPER,8,0.49048000,0.08209417
+UPPER,9,0.88000000,0.03131261
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01002233,-0.03915330
+LOWER,2,0.04008930,-0.01811515
+LOWER,3,0.08351938,-0.04282393
+LOWER,4,0.29176320,-0.04289733
+LOWER,5,0.33536000,-0.06198093
+LOWER,6,0.37895680,-0.03574097
+LOWER,7,0.38271200,0.00481169
+LOWER,8,0.49048000,0.01882264
+LOWER,9,0.88000000,0.00955200
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

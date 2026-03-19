@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Avocettula_recurvirostris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 55.80 mm
+# Secondary1: 22.50 mm
+# Kipps Distance: 32.30 mm
+# Hand-Wing Index: 58.90
+# Tail Length: 28.90 mm
+# Aspect Ratio: 2.480
+# Pointedness Index: 0.5789
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0912
+# Max Thickness Position: 0.3147
+# Max Camber/Chord: 0.0484
+# Max Camber Position: 0.3329
+# Leading Edge Radius: 0.0242
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.46e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00724551,0.04347306
+UPPER,2,0.02898204,0.08673751
+UPPER,3,0.06037925,0.11019390
+UPPER,4,0.27375420,0.13413410
+UPPER,5,0.31466000,0.13960764
+UPPER,6,0.35556580,0.13048508
+UPPER,7,0.35614700,0.10494189
+UPPER,8,0.46288000,0.06666787
+UPPER,9,0.88000000,0.02568320
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00724551,-0.02898204
+LOWER,2,0.02898204,-0.01225852
+LOWER,3,0.06037925,-0.03065518
+LOWER,4,0.27375420,-0.02824759
+LOWER,5,0.31466000,-0.04284369
+LOWER,6,0.35556580,-0.02277405
+LOWER,7,0.35614700,0.00824268
+LOWER,8,0.46288000,0.01722523
+LOWER,9,0.88000000,0.00844647
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

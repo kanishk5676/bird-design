@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hirundo_nigrorufa
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 106.80 mm
+# Secondary1: 51.50 mm
+# Kipps Distance: 55.30 mm
+# Hand-Wing Index: 51.80
+# Tail Length: 59.50 mm
+# Aspect Ratio: 2.074
+# Pointedness Index: 0.5178
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0953
+# Max Thickness Position: 0.3189
+# Max Camber/Chord: 0.0507
+# Max Camber Position: 0.3386
+# Leading Edge Radius: 0.0259
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.13e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00777419,0.04664514
+UPPER,2,0.03109676,0.09073675
+UPPER,3,0.06478491,0.11524755
+UPPER,4,0.27746040,0.14026536
+UPPER,5,0.31892000,0.14598218
+UPPER,6,0.36037960,0.13645415
+UPPER,7,0.36161400,0.10977567
+UPPER,8,0.46856000,0.06977509
+UPPER,9,0.88000000,0.02688914
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00777419,-0.03109676
+LOWER,2,0.03109676,-0.01274402
+LOWER,3,0.06478491,-0.03193969
+LOWER,4,0.27746040,-0.02933353
+LOWER,5,0.31892000,-0.04457838
+LOWER,6,0.36037960,-0.02361672
+LOWER,7,0.36161400,0.00877858
+LOWER,8,0.46856000,0.01809594
+LOWER,9,0.88000000,0.00886426
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

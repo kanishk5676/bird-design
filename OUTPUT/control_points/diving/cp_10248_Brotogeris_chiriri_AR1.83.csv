@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Brotogeris_chiriri
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 115.00 mm
+# Secondary1: 62.80 mm
+# Kipps Distance: 51.00 mm
+# Hand-Wing Index: 44.80
+# Tail Length: 89.00 mm
+# Aspect Ratio: 1.831
+# Pointedness Index: 0.4435
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1012
+# Max Thickness Position: 0.3231
+# Max Camber/Chord: 0.0527
+# Max Camber Position: 0.3442
+# Leading Edge Radius: 0.0279
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.98e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00836738,0.05020429
+UPPER,2,0.03346952,0.09542429
+UPPER,3,0.06972817,0.12137729
+UPPER,4,0.28111440,0.14785771
+UPPER,5,0.32312000,0.15392890
+UPPER,6,0.36512560,0.14381025
+UPPER,7,0.36700400,0.11547803
+UPPER,8,0.47416000,0.07316326
+UPPER,9,0.88000000,0.02813703
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00836738,-0.03346952
+LOWER,2,0.03346952,-0.01391984
+LOWER,3,0.06972817,-0.03442667
+LOWER,4,0.28111440,-0.03225426
+LOWER,5,0.32312000,-0.04844410
+LOWER,6,0.36512560,-0.02618307
+LOWER,7,0.36700400,0.00822034
+LOWER,8,0.47416000,0.01853418
+LOWER,9,0.88000000,0.00913814
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

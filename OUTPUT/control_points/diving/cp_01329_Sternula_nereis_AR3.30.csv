@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sternula_nereis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 178.20 mm
+# Secondary1: 54.00 mm
+# Kipps Distance: 126.00 mm
+# Hand-Wing Index: 70.00
+# Tail Length: 80.60 mm
+# Aspect Ratio: 3.300
+# Pointedness Index: 0.7071
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0775
+# Max Thickness Position: 0.3080
+# Max Camber/Chord: 0.0442
+# Max Camber Position: 0.3240
+# Leading Edge Radius: 0.0208
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.50e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00625194,0.03751164
+UPPER,2,0.02500776,0.07634616
+UPPER,3,0.05209949,0.09648647
+UPPER,4,0.26796000,0.11706928
+UPPER,5,0.30800000,0.12171732
+UPPER,6,0.34804000,0.11397058
+UPPER,7,0.34760000,0.09227974
+UPPER,8,0.45400000,0.05930335
+UPPER,9,0.88000000,0.02301239
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00625194,-0.02500776
+LOWER,2,0.02500776,-0.00930204
+LOWER,3,0.05209949,-0.02457604
+LOWER,4,0.26796000,-0.02082254
+LOWER,5,0.30800000,-0.03321732
+LOWER,6,0.34804000,-0.01617451
+LOWER,7,0.34760000,0.01016438
+LOWER,8,0.45400000,0.01658958
+LOWER,9,0.88000000,0.00796381
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pelecanus_philippensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 562.80 mm
+# Secondary1: 329.20 mm
+# Kipps Distance: 233.50 mm
+# Hand-Wing Index: 41.50
+# Tail Length: 173.50 mm
+# Aspect Ratio: 1.710
+# Pointedness Index: 0.4149
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0946
+# Max Thickness Position: 0.3251
+# Max Camber/Chord: 0.0536
+# Max Camber Position: 0.3468
+# Leading Edge Radius: 0.0287
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.66e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00861416,0.05168497
+UPPER,2,0.03445665,0.09286992
+UPPER,3,0.07178468,0.11743240
+UPPER,4,0.28283700,0.14253107
+UPPER,5,0.32510000,0.14820628
+UPPER,6,0.36736300,0.13874759
+UPPER,7,0.36954500,0.11226326
+UPPER,8,0.47680000,0.07206080
+UPPER,9,0.88000000,0.02794232
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00861416,-0.03445665
+LOWER,2,0.03445665,-0.01150103
+LOWER,3,0.07178468,-0.03019549
+LOWER,4,0.28283700,-0.02583363
+LOWER,5,0.32510000,-0.04096753
+LOWER,6,0.36736300,-0.02015841
+LOWER,7,0.36954500,0.01200114
+LOWER,8,0.47680000,0.02000185
+LOWER,9,0.88000000,0.00962137
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

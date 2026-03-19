@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aythya_marila
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 213.50 mm
+# Secondary1: 108.90 mm
+# Kipps Distance: 104.10 mm
+# Hand-Wing Index: 48.90
+# Tail Length: 53.50 mm
+# Aspect Ratio: 1.961
+# Pointedness Index: 0.4876
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0935
+# Max Thickness Position: 0.3207
+# Max Camber/Chord: 0.0516
+# Max Camber Position: 0.3409
+# Leading Edge Radius: 0.0267
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00801696,0.04810177
+UPPER,2,0.03206785,0.09061410
+UPPER,3,0.06680802,0.11480491
+UPPER,4,0.27897420,0.13951148
+UPPER,5,0.32066000,0.14512432
+UPPER,6,0.36234580,0.13576959
+UPPER,7,0.36384700,0.10957633
+UPPER,8,0.47088000,0.07003369
+UPPER,9,0.88000000,0.02708304
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00801696,-0.03206785
+LOWER,2,0.03206785,-0.01188321
+LOWER,3,0.06680802,-0.03053205
+LOWER,4,0.27897420,-0.02700280
+LOWER,5,0.32066000,-0.04197037
+LOWER,6,0.36234580,-0.02138996
+LOWER,7,0.36384700,0.01041614
+LOWER,8,0.47088000,0.01888110
+LOWER,9,0.88000000,0.00915235
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

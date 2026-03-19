@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chrysocolaptes_festivus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 152.60 mm
+# Secondary1: 112.90 mm
+# Kipps Distance: 39.90 mm
+# Hand-Wing Index: 26.10
+# Tail Length: 80.00 mm
+# Aspect Ratio: 1.352
+# Pointedness Index: 0.2615
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1145
+# Max Thickness Position: 0.3343
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3591
+# Leading Edge Radius: 0.0329
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.87e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00986785,0.06198712
+UPPER,2,0.03947142,0.10849574
+UPPER,3,0.08223211,0.13490510
+UPPER,4,0.29087580,0.16466439
+UPPER,5,0.33434000,0.17153710
+UPPER,6,0.37780420,0.16008258
+UPPER,7,0.38140300,0.12800995
+UPPER,8,0.48912000,0.08051581
+UPPER,9,0.88000000,0.03082056
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00986785,-0.03863742
+LOWER,2,0.03947142,-0.01670725
+LOWER,3,0.08223211,-0.04021986
+LOWER,4,0.29087580,-0.03922593
+LOWER,5,0.33434000,-0.05755315
+LOWER,6,0.37780420,-0.03235322
+LOWER,7,0.38140300,0.00659212
+LOWER,8,0.48912000,0.01929871
+LOWER,9,0.88000000,0.00966619
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

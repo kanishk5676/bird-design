@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Colonia_colonus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 80.80 mm
+# Secondary1: 65.00 mm
+# Kipps Distance: 15.00 mm
+# Hand-Wing Index: 18.90
+# Tail Length: 159.70 mm
+# Aspect Ratio: 1.243
+# Pointedness Index: 0.1856
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1239
+# Max Thickness Position: 0.3387
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3649
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.26e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01047488,0.06706927
+UPPER,2,0.04189951,0.11559518
+UPPER,3,0.08729065,0.14269902
+UPPER,4,0.29463420,0.17460449
+UPPER,5,0.33866000,0.18203699
+UPPER,6,0.38268580,0.16964948
+UPPER,7,0.38694700,0.13496448
+UPPER,8,0.49488000,0.08412268
+UPPER,9,0.88000000,0.03201155
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01047488,-0.04063351
+LOWER,2,0.04189951,-0.01928331
+LOWER,3,0.08729065,-0.04509300
+LOWER,4,0.29463420,-0.04589303
+LOWER,5,0.33866000,-0.06571304
+LOWER,6,0.38268580,-0.03846053
+LOWER,7,0.38694700,0.00365697
+LOWER,8,0.49488000,0.01871792
+LOWER,9,0.88000000,0.00958549
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

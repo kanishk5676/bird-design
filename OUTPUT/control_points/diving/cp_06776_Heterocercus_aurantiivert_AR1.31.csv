@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Heterocercus_aurantiivertex
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 81.00 mm
+# Secondary1: 61.80 mm
+# Kipps Distance: 19.20 mm
+# Hand-Wing Index: 23.70
+# Tail Length: 51.00 mm
+# Aspect Ratio: 1.311
+# Pointedness Index: 0.2370
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1200
+# Max Thickness Position: 0.3358
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3610
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01006589,0.06365535
+UPPER,2,0.04026356,0.11203986
+UPPER,3,0.08388243,0.13919013
+UPPER,4,0.29212860,0.17017450
+UPPER,5,0.33578000,0.17737218
+UPPER,6,0.37943140,0.16537604
+UPPER,7,0.38325100,0.13178685
+UPPER,8,0.49104000,0.08238835
+UPPER,9,0.88000000,0.03141301
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01006589,-0.03928556
+LOWER,2,0.04026356,-0.01829388
+LOWER,3,0.08388243,-0.04316866
+LOWER,4,0.29212860,-0.04335681
+LOWER,5,0.33578000,-0.06255063
+LOWER,6,0.37943140,-0.03615912
+LOWER,7,0.38325100,0.00462776
+LOWER,8,0.49104000,0.01880008
+LOWER,9,0.88000000,0.00955424
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

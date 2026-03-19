@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lonchura_montana
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 64.50 mm
+# Secondary1: 50.90 mm
+# Kipps Distance: 13.60 mm
+# Hand-Wing Index: 21.10
+# Tail Length: 43.00 mm
+# Aspect Ratio: 1.267
+# Pointedness Index: 0.2109
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1230
+# Max Thickness Position: 0.3373
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3631
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01027899,0.06545395
+UPPER,2,0.04111596,0.11443567
+UPPER,3,0.08565826,0.14176324
+UPPER,4,0.29348580,0.17344914
+UPPER,5,0.33734000,0.18082896
+UPPER,6,0.38119420,0.16852926
+UPPER,7,0.38525300,0.13409010
+UPPER,8,0.49312000,0.08359633
+UPPER,9,0.88000000,0.03181591
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01027899,-0.03998196
+LOWER,2,0.04111596,-0.01911784
+LOWER,3,0.08565826,-0.04473554
+LOWER,4,0.29348580,-0.04548549
+LOWER,5,0.33734000,-0.06516501
+LOWER,6,0.38119420,-0.03810567
+LOWER,7,0.38525300,0.00371330
+LOWER,8,0.49312000,0.01863625
+LOWER,9,0.88000000,0.00953811
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

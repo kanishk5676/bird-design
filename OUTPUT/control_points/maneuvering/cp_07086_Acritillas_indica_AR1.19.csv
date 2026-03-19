@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Acritillas_indica
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 88.20 mm
+# Secondary1: 73.90 mm
+# Kipps Distance: 13.70 mm
+# Hand-Wing Index: 15.70
+# Tail Length: 80.80 mm
+# Aspect Ratio: 1.194
+# Pointedness Index: 0.1553
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1259
+# Max Thickness Position: 0.3406
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3674
+# Leading Edge Radius: 0.0358
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01072740,0.06922442
+UPPER,2,0.04290961,0.11764365
+UPPER,3,0.08939503,0.14459443
+UPPER,4,0.29630460,0.17699119
+UPPER,5,0.34058000,0.18454815
+UPPER,6,0.38485540,0.17195322
+UPPER,7,0.38941100,0.13668739
+UPPER,8,0.49744000,0.08507479
+UPPER,9,0.88000000,0.03234348
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01072740,-0.04145161
+LOWER,2,0.04290961,-0.01979423
+LOWER,3,0.08939503,-0.04609520
+LOWER,4,0.29630460,-0.04719870
+LOWER,5,0.34058000,-0.06735060
+LOWER,6,0.38485540,-0.03964174
+LOWER,7,0.38941100,0.00318105
+LOWER,8,0.49744000,0.01869833
+LOWER,9,0.88000000,0.00961172
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

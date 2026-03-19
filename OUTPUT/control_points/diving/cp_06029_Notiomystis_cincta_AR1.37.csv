@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Notiomystis_cincta
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 104.30 mm
+# Secondary1: 76.40 mm
+# Kipps Distance: 25.80 mm
+# Hand-Wing Index: 25.20
+# Tail Length: 78.00 mm
+# Aspect Ratio: 1.365
+# Pointedness Index: 0.2474
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1174
+# Max Thickness Position: 0.3349
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3598
+# Leading Edge Radius: 0.0332
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.75e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00996733,0.06276396
+UPPER,2,0.03986931,0.11024678
+UPPER,3,0.08306106,0.13711864
+UPPER,4,0.29134560,0.16752202
+UPPER,5,0.33488000,0.17456689
+UPPER,6,0.37841440,0.16282544
+UPPER,7,0.38209600,0.12994938
+UPPER,8,0.48984000,0.08145560
+UPPER,9,0.88000000,0.03111107
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00996733,-0.03898131
+LOWER,2,0.03986931,-0.01756930
+LOWER,3,0.08306106,-0.04181030
+LOWER,4,0.29134560,-0.04147577
+LOWER,5,0.33488000,-0.06026209
+LOWER,6,0.37841440,-0.03443090
+LOWER,7,0.38209600,0.00549002
+LOWER,8,0.48984000,0.01899646
+LOWER,9,0.88000000,0.00959152
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

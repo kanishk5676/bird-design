@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Malimbus_coronatus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 84.20 mm
+# Secondary1: 70.50 mm
+# Kipps Distance: 13.50 mm
+# Hand-Wing Index: 16.10
+# Tail Length: 61.90 mm
+# Aspect Ratio: 1.194
+# Pointedness Index: 0.1603
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1259
+# Max Thickness Position: 0.3403
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3671
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.33e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01068964,0.06891786
+UPPER,2,0.04275858,0.11748835
+UPPER,3,0.08908037,0.14450174
+UPPER,4,0.29609580,0.17688061
+UPPER,5,0.34034000,0.18443382
+UPPER,6,0.38458420,0.17184513
+UPPER,7,0.38910300,0.13659682
+UPPER,8,0.49712000,0.08501325
+UPPER,9,0.88000000,0.03231880
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01068964,-0.04132458
+LOWER,2,0.04275858,-0.01979235
+LOWER,3,0.08908037,-0.04608276
+LOWER,4,0.29609580,-0.04719797
+LOWER,5,0.34034000,-0.06733987
+LOWER,6,0.38458420,-0.03964476
+LOWER,7,0.38910300,0.00315676
+LOWER,8,0.49712000,0.01867497
+LOWER,9,0.88000000,0.00960127
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

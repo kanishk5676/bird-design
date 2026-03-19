@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Trochalopteron_erythrocephalum
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 97.60 mm
+# Secondary1: 92.90 mm
+# Kipps Distance: 3.80 mm
+# Hand-Wing Index: 4.00
+# Tail Length: 109.40 mm
+# Aspect Ratio: 1.051
+# Pointedness Index: 0.0389
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1347
+# Max Thickness Position: 0.3476
+# Max Camber/Chord: 0.0598
+# Max Camber Position: 0.3768
+# Leading Edge Radius: 0.0389
+# LE Droop: 0.0072
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.60e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01167903,0.07727421
+UPPER,2,0.04671614,0.12536880
+UPPER,3,0.09732529,0.15199603
+UPPER,4,0.30241200,0.18642086
+UPPER,5,0.34760000,0.19450559
+UPPER,6,0.39278800,0.18103103
+UPPER,7,0.39842000,0.14330227
+UPPER,8,0.50680000,0.08852477
+UPPER,9,0.88000000,0.03348845
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01167903,-0.04455614
+LOWER,2,0.04671614,-0.02220259
+LOWER,3,0.09732529,-0.05066284
+LOWER,4,0.30241200,-0.05342630
+LOWER,5,0.34760000,-0.07498559
+LOWER,6,0.39278800,-0.04534156
+LOWER,7,0.39842000,0.00047194
+LOWER,8,0.50680000,0.01818682
+LOWER,9,0.88000000,0.00955018
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

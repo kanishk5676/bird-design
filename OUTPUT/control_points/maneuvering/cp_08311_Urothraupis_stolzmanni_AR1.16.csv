@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Urothraupis_stolzmanni
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 73.50 mm
+# Secondary1: 63.10 mm
+# Kipps Distance: 10.40 mm
+# Hand-Wing Index: 14.20
+# Tail Length: 73.80 mm
+# Aspect Ratio: 1.165
+# Pointedness Index: 0.1415
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1282
+# Max Thickness Position: 0.3415
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3686
+# Leading Edge Radius: 0.0361
+# LE Droop: 0.0052
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.12e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01084385,0.07022308
+UPPER,2,0.04337539,0.11920674
+UPPER,3,0.09036539,0.14635639
+UPPER,4,0.29708760,0.17925391
+UPPER,5,0.34148000,0.18694335
+UPPER,6,0.38587240,0.17412761
+UPPER,7,0.39056600,0.13824352
+UPPER,8,0.49864000,0.08585210
+UPPER,9,0.88000000,0.03259124
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01084385,-0.04182739
+LOWER,2,0.04337539,-0.02043532
+LOWER,3,0.09036539,-0.04728981
+LOWER,4,0.29708760,-0.04886636
+LOWER,5,0.34148000,-0.06937155
+LOWER,6,0.38587240,-0.04117691
+LOWER,7,0.39056600,0.00239662
+LOWER,8,0.49864000,0.01850521
+LOWER,9,0.88000000,0.00957018
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

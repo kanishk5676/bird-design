@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Megabyas_flammulatus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 83.90 mm
+# Secondary1: 68.30 mm
+# Kipps Distance: 15.80 mm
+# Hand-Wing Index: 18.80
+# Tail Length: 62.50 mm
+# Aspect Ratio: 1.228
+# Pointedness Index: 0.1883
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1237
+# Max Thickness Position: 0.3387
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3650
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01046429,0.06702575
+UPPER,2,0.04185716,0.11556325
+UPPER,3,0.08720242,0.14261985
+UPPER,4,0.29468640,0.17449822
+UPPER,5,0.33872000,0.18192302
+UPPER,6,0.38275360,0.16954836
+UPPER,7,0.38702400,0.13489930
+UPPER,8,0.49496000,0.08409899
+UPPER,9,0.88000000,0.03200676
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01046429,-0.04058516
+LOWER,2,0.04185716,-0.01923718
+LOWER,3,0.08720242,-0.04501190
+LOWER,4,0.29468640,-0.04577076
+LOWER,5,0.33872000,-0.06557022
+LOWER,6,0.38275360,-0.03834596
+LOWER,7,0.38702400,0.00372789
+LOWER,8,0.49496000,0.01874484
+LOWER,9,0.88000000,0.00959424
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

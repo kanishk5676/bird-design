@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Calyptomena_viridis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 97.80 mm
+# Secondary1: 82.10 mm
+# Kipps Distance: 16.50 mm
+# Hand-Wing Index: 16.70
+# Tail Length: 51.60 mm
+# Aspect Ratio: 1.191
+# Pointedness Index: 0.1687
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1246
+# Max Thickness Position: 0.3400
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3666
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.61e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01062855,0.06843130
+UPPER,2,0.04251420,0.11664469
+UPPER,3,0.08857125,0.14348376
+UPPER,4,0.29578260,0.17556749
+UPPER,5,0.33998000,0.18304194
+UPPER,6,0.38417740,0.17058453
+UPPER,7,0.38864100,0.13570376
+UPPER,8,0.49664000,0.08457838
+UPPER,9,0.88000000,0.03218369
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01062855,-0.04111620
+LOWER,2,0.04251420,-0.01940001
+LOWER,3,0.08857125,-0.04535784
+LOWER,4,0.29578260,-0.04617453
+LOWER,5,0.33998000,-0.06610639
+LOWER,6,0.38417740,-0.03870008
+LOWER,7,0.38864100,0.00365514
+LOWER,8,0.49664000,0.01880964
+LOWER,9,0.88000000,0.00963398
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

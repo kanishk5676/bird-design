@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tachyphonus_phoenicius
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 71.60 mm
+# Secondary1: 61.70 mm
+# Kipps Distance: 10.30 mm
+# Hand-Wing Index: 14.20
+# Tail Length: 64.60 mm
+# Aspect Ratio: 1.160
+# Pointedness Index: 0.1439
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1283
+# Max Thickness Position: 0.3415
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3686
+# Leading Edge Radius: 0.0361
+# LE Droop: 0.0052
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.08e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01083182,0.07015092
+UPPER,2,0.04332728,0.11927878
+UPPER,3,0.09026517,0.14646013
+UPPER,4,0.29708760,0.17938933
+UPPER,5,0.34148000,0.18708743
+UPPER,6,0.38587240,0.17425727
+UPPER,7,0.39056600,0.13833285
+UPPER,8,0.49864000,0.08589244
+UPPER,9,0.88000000,0.03260276
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01083182,-0.04177928
+LOWER,2,0.04332728,-0.02048142
+LOWER,3,0.09026517,-0.04737337
+LOWER,4,0.29708760,-0.04898738
+LOWER,5,0.34148000,-0.06951563
+LOWER,6,0.38587240,-0.04128929
+LOWER,7,0.39056600,0.00233323
+LOWER,8,0.49864000,0.01848504
+LOWER,9,0.88000000,0.00956441
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

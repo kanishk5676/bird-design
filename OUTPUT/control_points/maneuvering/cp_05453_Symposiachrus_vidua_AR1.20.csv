@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Symposiachrus_vidua
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 75.70 mm
+# Secondary1: 63.10 mm
+# Kipps Distance: 12.60 mm
+# Hand-Wing Index: 16.50
+# Tail Length: 71.10 mm
+# Aspect Ratio: 1.200
+# Pointedness Index: 0.1664
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1262
+# Max Thickness Position: 0.3401
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3668
+# Leading Edge Radius: 0.0355
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.16e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01064622,0.06857734
+UPPER,2,0.04258489,0.11749771
+UPPER,3,0.08871852,0.14464642
+UPPER,4,0.29588700,0.17708007
+UPPER,5,0.34010000,0.18464937
+UPPER,6,0.38431300,0.17203387
+UPPER,7,0.38879500,0.13671047
+UPPER,8,0.49680000,0.08504362
+UPPER,9,0.88000000,0.03232026
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01064622,-0.04117489
+LOWER,2,0.04258489,-0.01989657
+LOWER,3,0.08871852,-0.04626248
+LOWER,4,0.29588700,-0.04747582
+LOWER,5,0.34010000,-0.06766062
+LOWER,6,0.38431300,-0.03990652
+LOWER,7,0.38879500,0.00298618
+LOWER,8,0.49680000,0.01860481
+LOWER,9,0.88000000,0.00957739
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

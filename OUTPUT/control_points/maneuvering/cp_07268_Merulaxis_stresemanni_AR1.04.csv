@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Merulaxis_stresemanni
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 75.00 mm
+# Secondary1: 72.00 mm
+# Kipps Distance: 3.00 mm
+# Hand-Wing Index: 4.00
+# Tail Length: 97.00 mm
+# Aspect Ratio: 1.042
+# Pointedness Index: 0.0400
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1362
+# Max Thickness Position: 0.3476
+# Max Camber/Chord: 0.0598
+# Max Camber Position: 0.3768
+# Leading Edge Radius: 0.0389
+# LE Droop: 0.0072
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.15e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01167360,0.07724160
+UPPER,2,0.04669440,0.12609910
+UPPER,3,0.09728000,0.15304766
+UPPER,4,0.30241200,0.18779382
+UPPER,5,0.34760000,0.19596619
+UPPER,6,0.39278800,0.18234557
+UPPER,7,0.39842000,0.14420784
+UPPER,8,0.50680000,0.08893373
+UPPER,9,0.88000000,0.03360530
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01167360,-0.04453440
+LOWER,2,0.04669440,-0.02266998
+LOWER,3,0.09728000,-0.05150999
+LOWER,4,0.30241200,-0.05465320
+LOWER,5,0.34760000,-0.07644619
+LOWER,6,0.39278800,-0.04648083
+LOWER,7,0.39842000,-0.00017072
+LOWER,8,0.50680000,0.01798233
+LOWER,9,0.88000000,0.00949175
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

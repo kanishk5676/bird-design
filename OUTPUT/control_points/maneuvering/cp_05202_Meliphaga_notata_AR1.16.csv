@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Meliphaga_notata
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 83.70 mm
+# Secondary1: 71.90 mm
+# Kipps Distance: 10.60 mm
+# Hand-Wing Index: 12.80
+# Tail Length: 67.50 mm
+# Aspect Ratio: 1.164
+# Pointedness Index: 0.1266
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1286
+# Max Thickness Position: 0.3423
+# Max Camber/Chord: 0.0590
+# Max Camber Position: 0.3698
+# Leading Edge Radius: 0.0365
+# LE Droop: 0.0054
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.32e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01096244,0.07121465
+UPPER,2,0.04384977,0.11982776
+UPPER,3,0.09135368,0.14679745
+UPPER,4,0.29781840,0.17979665
+UPPER,5,0.34232000,0.18751024
+UPPER,6,0.38682160,0.17465426
+UPPER,7,0.39164400,0.13865750
+UPPER,8,0.49976000,0.08610460
+UPPER,9,0.88000000,0.03268594
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01096244,-0.04221777
+LOWER,2,0.04384977,-0.02050651
+LOWER,3,0.09135368,-0.04744752
+LOWER,4,0.29781840,-0.04903987
+LOWER,5,0.34232000,-0.06960944
+LOWER,6,0.38682160,-0.04132628
+LOWER,7,0.39164400,0.00238407
+LOWER,8,0.49976000,0.01855087
+LOWER,9,0.88000000,0.00959521
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

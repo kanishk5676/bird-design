@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Polyplectron_germaini
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 190.60 mm
+# Secondary1: 147.40 mm
+# Kipps Distance: 39.10 mm
+# Hand-Wing Index: 21.00
+# Tail Length: 241.20 mm
+# Aspect Ratio: 1.293
+# Pointedness Index: 0.2051
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1174
+# Max Thickness Position: 0.3374
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3632
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.84e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01031118,0.06566707
+UPPER,2,0.04124471,0.11164640
+UPPER,3,0.08592648,0.13771318
+UPPER,4,0.29353800,0.16815843
+UPPER,5,0.33740000,0.17519956
+UPPER,6,0.38126200,0.16346435
+UPPER,7,0.38533000,0.13060578
+UPPER,8,0.49320000,0.08202895
+UPPER,9,0.88000000,0.03137021
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01031118,-0.04010471
+LOWER,2,0.04124471,-0.01730603
+LOWER,3,0.08592648,-0.04145434
+LOWER,4,0.29353800,-0.04072823
+LOWER,5,0.33740000,-0.05950456
+LOWER,6,0.38126200,-0.03368710
+LOWER,7,0.38533000,0.00621259
+LOWER,8,0.49320000,0.01943616
+LOWER,9,0.88000000,0.00976779
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

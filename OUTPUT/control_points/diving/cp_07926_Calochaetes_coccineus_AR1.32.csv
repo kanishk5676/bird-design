@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Calochaetes_coccineus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 95.20 mm
+# Secondary1: 72.30 mm
+# Kipps Distance: 22.90 mm
+# Hand-Wing Index: 24.00
+# Tail Length: 58.80 mm
+# Aspect Ratio: 1.317
+# Pointedness Index: 0.2405
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1189
+# Max Thickness Position: 0.3356
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3608
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.55e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01003881,0.06343289
+UPPER,2,0.04015526,0.11139823
+UPPER,3,0.08365679,0.13836801
+UPPER,4,0.29197200,0.16911139
+UPPER,5,0.33560000,0.17624446
+UPPER,6,0.37922800,0.16435601
+UPPER,7,0.38302000,0.13106836
+UPPER,8,0.49080000,0.08204365
+UPPER,9,0.88000000,0.03130756
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01003881,-0.03919526
+LOWER,2,0.04015526,-0.01796703
+LOWER,3,0.08365679,-0.04256738
+LOWER,4,0.29197200,-0.04250294
+LOWER,5,0.33560000,-0.06152446
+LOWER,6,0.37922800,-0.03536988
+LOWER,7,0.38302000,0.00505084
+LOWER,8,0.49080000,0.01891938
+LOWER,9,0.88000000,0.00958462
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Branta_canadensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 422.90 mm
+# Secondary1: 210.90 mm
+# Kipps Distance: 206.50 mm
+# Hand-Wing Index: 49.40
+# Tail Length: 121.60 mm
+# Aspect Ratio: 2.005
+# Pointedness Index: 0.4883
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0900
+# Max Thickness Position: 0.3204
+# Max Camber/Chord: 0.0514
+# Max Camber Position: 0.3405
+# Leading Edge Radius: 0.0267
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.12e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00799805,0.04798833
+UPPER,2,0.03199222,0.08870075
+UPPER,3,0.06665046,0.11209463
+UPPER,4,0.27871320,0.13600280
+UPPER,5,0.32036000,0.14140112
+UPPER,6,0.36200680,0.13240392
+UPPER,7,0.36346200,0.10721176
+UPPER,8,0.47048000,0.06890690
+UPPER,9,0.88000000,0.02674082
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00799805,-0.03199222
+LOWER,2,0.03199222,-0.01079086
+LOWER,3,0.06665046,-0.02852639
+LOWER,4,0.27871320,-0.02414740
+LOWER,5,0.32036000,-0.03854292
+LOWER,6,0.36200680,-0.01874908
+LOWER,7,0.36346200,0.01184141
+LOWER,8,0.47048000,0.01928996
+LOWER,9,0.88000000,0.00925839
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

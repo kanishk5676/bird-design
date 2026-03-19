@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tychaedon_barbata
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 81.50 mm
+# Secondary1: 70.40 mm
+# Kipps Distance: 11.10 mm
+# Hand-Wing Index: 13.60
+# Tail Length: 67.40 mm
+# Aspect Ratio: 1.158
+# Pointedness Index: 0.1362
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1281
+# Max Thickness Position: 0.3418
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3691
+# Leading Edge Radius: 0.0363
+# LE Droop: 0.0053
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.27e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01088924,0.07061543
+UPPER,2,0.04355696,0.11934261
+UPPER,3,0.09074366,0.14635745
+UPPER,4,0.29740080,0.17924086
+UPPER,5,0.34184000,0.18692490
+UPPER,6,0.38627920,0.17411817
+UPPER,7,0.39102800,0.13825932
+UPPER,8,0.49912000,0.08588780
+UPPER,9,0.88000000,0.03261127
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01088924,-0.04197296
+LOWER,2,0.04355696,-0.02038138
+LOWER,3,0.09074366,-0.04720454
+LOWER,4,0.29740080,-0.04871893
+LOWER,5,0.34184000,-0.06920970
+LOWER,6,0.38627920,-0.04103489
+LOWER,7,0.39102800,0.00250799
+LOWER,8,0.49912000,0.01856229
+LOWER,9,0.88000000,0.00959171
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

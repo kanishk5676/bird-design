@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aegolius_acadicus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 135.20 mm
+# Secondary1: 95.00 mm
+# Kipps Distance: 40.20 mm
+# Hand-Wing Index: 29.80
+# Tail Length: 78.00 mm
+# Aspect Ratio: 1.423
+# Pointedness Index: 0.2973
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1123
+# Max Thickness Position: 0.3321
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3562
+# Leading Edge Radius: 0.0319
+# LE Droop: 0.0020
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.45e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00957170,0.05947020
+UPPER,2,0.03828680,0.10602291
+UPPER,3,0.07976417,0.13262326
+UPPER,4,0.28894440,0.16182650
+UPPER,5,0.33212000,0.16856288
+UPPER,6,0.37529560,0.15733559
+UPPER,7,0.37855400,0.12589915
+UPPER,8,0.48616000,0.07928285
+UPPER,9,0.88000000,0.03037200
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00957170,-0.03767480
+LOWER,2,0.03828680,-0.01622589
+LOWER,3,0.07976417,-0.03922498
+LOWER,4,0.28894440,-0.03801941
+LOWER,5,0.33212000,-0.05598308
+LOWER,6,0.37529560,-0.03128303
+LOWER,7,0.37855400,0.00688979
+LOWER,8,0.48616000,0.01918152
+LOWER,9,0.88000000,0.00958156
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

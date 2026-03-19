@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Edolisoma_morio
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 112.90 mm
+# Secondary1: 81.50 mm
+# Kipps Distance: 31.30 mm
+# Hand-Wing Index: 27.70
+# Tail Length: 87.30 mm
+# Aspect Ratio: 1.385
+# Pointedness Index: 0.2772
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1150
+# Max Thickness Position: 0.3334
+# Max Camber/Chord: 0.0567
+# Max Camber Position: 0.3578
+# Leading Edge Radius: 0.0325
+# LE Droop: 0.0025
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.94e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00973847,0.06089084
+UPPER,2,0.03895390,0.10813731
+UPPER,3,0.08115395,0.13493951
+UPPER,4,0.29004060,0.16476867
+UPPER,5,0.33338000,0.17166688
+UPPER,6,0.37671940,0.16016987
+UPPER,7,0.38017100,0.12797824
+UPPER,8,0.48784000,0.08038389
+UPPER,9,0.88000000,0.03074238
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00973847,-0.03821590
+LOWER,2,0.03895390,-0.01694656
+LOWER,3,0.08115395,-0.04060214
+LOWER,4,0.29004060,-0.03987811
+LOWER,5,0.33338000,-0.05827333
+LOWER,6,0.37671940,-0.03297991
+LOWER,7,0.38017100,0.00610993
+LOWER,8,0.48784000,0.01905619
+LOWER,9,0.88000000,0.00957539
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Icterus_gularis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 116.40 mm
+# Secondary1: 94.10 mm
+# Kipps Distance: 22.40 mm
+# Hand-Wing Index: 19.10
+# Tail Length: 102.10 mm
+# Aspect Ratio: 1.237
+# Pointedness Index: 0.1924
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1217
+# Max Thickness Position: 0.3385
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3647
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01043410,0.06678458
+UPPER,2,0.04173639,0.11443224
+UPPER,3,0.08695081,0.14109080
+UPPER,4,0.29452980,0.17251070
+UPPER,5,0.33854000,0.17981140
+UPPER,6,0.38255020,0.16764356
+UPPER,7,0.38679300,0.13357360
+UPPER,8,0.49472000,0.08348299
+UPPER,9,0.88000000,0.03182480
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01043410,-0.04048239
+LOWER,2,0.04173639,-0.01859056
+LOWER,3,0.08695081,-0.04383232
+LOWER,4,0.29452980,-0.04407690
+LOWER,5,0.33854000,-0.06354545
+LOWER,6,0.38255020,-0.03677620
+LOWER,7,0.38679300,0.00459447
+LOWER,8,0.49472000,0.01900746
+LOWER,9,0.88000000,0.00966611
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

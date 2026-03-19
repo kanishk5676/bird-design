@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hypocnemis_flavescens
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 53.50 mm
+# Secondary1: 48.10 mm
+# Kipps Distance: 7.20 mm
+# Hand-Wing Index: 13.30
+# Tail Length: 41.00 mm
+# Aspect Ratio: 1.112
+# Pointedness Index: 0.1346
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1294
+# Max Thickness Position: 0.3420
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3694
+# Leading Edge Radius: 0.0364
+# LE Droop: 0.0053
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01090666,0.07077999
+UPPER,2,0.04362666,0.12007886
+UPPER,3,0.09088887,0.14732055
+UPPER,4,0.29755740,0.18049118
+UPPER,5,0.34202000,0.18825277
+UPPER,6,0.38648260,0.17531677
+UPPER,7,0.39125900,0.13909597
+UPPER,8,0.49936000,0.08627966
+UPPER,9,0.88000000,0.03272805
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01090666,-0.04202466
+LOWER,2,0.04362666,-0.02078273
+LOWER,3,0.09088887,-0.04793812
+LOWER,4,0.29755740,-0.04976962
+LOWER,5,0.34202000,-0.07046723
+LOWER,6,0.38648260,-0.04200803
+LOWER,7,0.39125900,0.00197437
+LOWER,8,0.49936000,0.01840312
+LOWER,9,0.88000000,0.00954879
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

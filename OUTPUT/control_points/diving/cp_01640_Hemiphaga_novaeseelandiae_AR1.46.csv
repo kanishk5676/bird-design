@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hemiphaga_novaeseelandiae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 256.60 mm
+# Secondary1: 175.20 mm
+# Kipps Distance: 81.40 mm
+# Hand-Wing Index: 31.70
+# Tail Length: 193.20 mm
+# Aspect Ratio: 1.465
+# Pointedness Index: 0.3172
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1071
+# Max Thickness Position: 0.3310
+# Max Camber/Chord: 0.0559
+# Max Camber Position: 0.3546
+# Leading Edge Radius: 0.0314
+# LE Droop: 0.0017
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.71e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00941213,0.05813279
+UPPER,2,0.03764852,0.10271269
+UPPER,3,0.07843443,0.12852143
+UPPER,4,0.28795260,0.15654920
+UPPER,5,0.33098000,0.16297344
+UPPER,6,0.37400740,0.15226637
+UPPER,7,0.37709100,0.12228659
+UPPER,8,0.48464000,0.07749714
+UPPER,9,0.88000000,0.02980871
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00941213,-0.03715052
+LOWER,2,0.03764852,-0.01469664
+LOWER,3,0.07843443,-0.03638571
+LOWER,4,0.28795260,-0.03403658
+LOWER,5,0.33098000,-0.05116789
+LOWER,6,0.37400740,-0.02761234
+LOWER,7,0.37709100,0.00879168
+LOWER,8,0.48464000,0.01966983
+LOWER,9,0.88000000,0.00969287
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

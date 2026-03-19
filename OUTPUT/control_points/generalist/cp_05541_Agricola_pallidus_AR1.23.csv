@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Agricola_pallidus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 89.90 mm
+# Secondary1: 73.00 mm
+# Kipps Distance: 17.30 mm
+# Hand-Wing Index: 19.00
+# Tail Length: 72.80 mm
+# Aspect Ratio: 1.232
+# Pointedness Index: 0.1924
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1232
+# Max Thickness Position: 0.3386
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3648
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.44e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01043718,0.06682306
+UPPER,2,0.04174870,0.11522703
+UPPER,3,0.08697647,0.14220208
+UPPER,4,0.29458200,0.17395861
+UPPER,5,0.33860000,0.18135081
+UPPER,6,0.38261800,0.16903048
+UPPER,7,0.38687000,0.13453355
+UPPER,8,0.49480000,0.08392230
+UPPER,9,0.88000000,0.03195231
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01043718,-0.04048870
+LOWER,2,0.04174870,-0.01907343
+LOWER,3,0.08697647,-0.04471007
+LOWER,4,0.29458200,-0.04534328
+LOWER,5,0.33860000,-0.06505581
+LOWER,6,0.38261800,-0.03795108
+LOWER,7,0.38687000,0.00393804
+LOWER,8,0.49480000,0.01880299
+LOWER,9,0.88000000,0.00960874
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

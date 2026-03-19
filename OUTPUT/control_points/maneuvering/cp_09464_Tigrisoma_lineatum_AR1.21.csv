@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tigrisoma_lineatum
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 306.70 mm
+# Secondary1: 253.20 mm
+# Kipps Distance: 50.40 mm
+# Hand-Wing Index: 16.80
+# Tail Length: 135.10 mm
+# Aspect Ratio: 1.211
+# Pointedness Index: 0.1643
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1179
+# Max Thickness Position: 0.3399
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3666
+# Leading Edge Radius: 0.0355
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.26e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01064784,0.06852702
+UPPER,2,0.04259135,0.11330028
+UPPER,3,0.08873198,0.13870067
+UPPER,4,0.29573040,0.16932560
+UPPER,5,0.33992000,0.17640249
+UPPER,6,0.38410960,0.16460768
+UPPER,7,0.38856400,0.13158221
+UPPER,8,0.49656000,0.08271170
+UPPER,9,0.88000000,0.03164852
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01064784,-0.04119935
+LOWER,2,0.04259135,-0.01728435
+LOWER,3,0.08873198,-0.04152087
+LOWER,4,0.29573040,-0.04062199
+LOWER,5,0.33992000,-0.05949369
+LOWER,6,0.38410960,-0.03354511
+LOWER,7,0.38856400,0.00655724
+LOWER,8,0.49656000,0.01972900
+LOWER,9,0.88000000,0.00989568
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

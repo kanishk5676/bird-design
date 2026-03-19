@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Coracina_schistacea
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 158.40 mm
+# Secondary1: 107.30 mm
+# Kipps Distance: 51.10 mm
+# Hand-Wing Index: 32.30
+# Tail Length: 132.10 mm
+# Aspect Ratio: 1.476
+# Pointedness Index: 0.3226
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1094
+# Max Thickness Position: 0.3306
+# Max Camber/Chord: 0.0558
+# Max Camber Position: 0.3542
+# Leading Edge Radius: 0.0312
+# LE Droop: 0.0015
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00936635,0.05773813
+UPPER,2,0.03746542,0.10363647
+UPPER,3,0.07805296,0.13006277
+UPPER,4,0.28763940,0.15858685
+UPPER,5,0.33062000,0.16514919
+UPPER,6,0.37360060,0.15421195
+UPPER,7,0.37662900,0.12358767
+UPPER,8,0.48416000,0.07803454
+UPPER,9,0.88000000,0.02994497
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00936635,-0.03700342
+LOWER,2,0.03746542,-0.01547730
+LOWER,3,0.07805296,-0.03777869
+LOWER,4,0.28763940,-0.03609606
+LOWER,5,0.33062000,-0.05359564
+LOWER,6,0.37360060,-0.02953371
+LOWER,7,0.37662900,0.00765291
+LOWER,8,0.48416000,0.01926946
+LOWER,9,0.88000000,0.00956930
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

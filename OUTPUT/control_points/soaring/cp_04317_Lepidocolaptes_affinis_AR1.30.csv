@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lepidocolaptes_affinis
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 108.40 mm
+# Secondary1: 83.40 mm
+# Kipps Distance: 25.60 mm
+# Hand-Wing Index: 23.40
+# Tail Length: 104.60 mm
+# Aspect Ratio: 1.300
+# Pointedness Index: 0.2362
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1186
+# Max Thickness Position: 0.3360
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3613
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.84e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01007953,0.06379719
+UPPER,2,0.04031813,0.11148116
+UPPER,3,0.08399610,0.13828389
+UPPER,4,0.29228520,0.16898124
+UPPER,5,0.33596000,0.17609954
+UPPER,6,0.37963480,0.16423570
+UPPER,7,0.38348200,0.13101693
+UPPER,8,0.49128000,0.08206070
+UPPER,9,0.88000000,0.03132629
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01007953,-0.03932213
+LOWER,2,0.04031813,-0.01785292
+LOWER,3,0.08399610,-0.04237819
+LOWER,4,0.29228520,-0.04219519
+LOWER,5,0.33596000,-0.06117734
+LOWER,6,0.37963480,-0.03507688
+LOWER,7,0.38348200,0.00526019
+LOWER,8,0.49128000,0.01901650
+LOWER,9,0.88000000,0.00961974
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Trichodere_cockerelli
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 70.70 mm
+# Secondary1: 60.20 mm
+# Kipps Distance: 10.80 mm
+# Hand-Wing Index: 15.20
+# Tail Length: 59.20 mm
+# Aspect Ratio: 1.174
+# Pointedness Index: 0.1528
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1276
+# Max Thickness Position: 0.3409
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3678
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.06e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01075581,0.06949488
+UPPER,2,0.04302325,0.11860856
+UPPER,3,0.08963178,0.14582056
+UPPER,4,0.29656560,0.17857918
+UPPER,5,0.34088000,0.18623344
+UPPER,6,0.38519440,0.17347634
+UPPER,7,0.38979600,0.13775645
+UPPER,8,0.49784000,0.08558293
+UPPER,9,0.88000000,0.03249740
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01075581,-0.04153525
+LOWER,2,0.04302325,-0.02029089
+LOWER,3,0.08963178,-0.04700650
+LOWER,4,0.29656560,-0.04849728
+LOWER,5,0.34088000,-0.06890864
+LOWER,6,0.38519440,-0.04084301
+LOWER,7,0.38979600,0.00253114
+LOWER,8,0.49784000,0.01851074
+LOWER,9,0.88000000,0.00956276
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

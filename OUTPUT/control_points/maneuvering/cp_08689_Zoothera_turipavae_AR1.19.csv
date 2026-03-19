@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Zoothera_turipavae
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 89.50 mm
+# Secondary1: 75.50 mm
+# Kipps Distance: 13.50 mm
+# Hand-Wing Index: 15.20
+# Tail Length: 64.80 mm
+# Aspect Ratio: 1.185
+# Pointedness Index: 0.1508
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1263
+# Max Thickness Position: 0.3409
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3678
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.44e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01076561,0.06955364
+UPPER,2,0.04306243,0.11795709
+UPPER,3,0.08971339,0.14488243
+UPPER,4,0.29656560,0.17735441
+UPPER,5,0.34088000,0.18493049
+UPPER,6,0.38519440,0.17230368
+UPPER,7,0.38979600,0.13694862
+UPPER,8,0.49784000,0.08521811
+UPPER,9,0.88000000,0.03239316
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01076561,-0.04157443
+LOWER,2,0.04306243,-0.01987395
+LOWER,3,0.08971339,-0.04625079
+LOWER,4,0.29656560,-0.04740280
+LOWER,5,0.34088000,-0.06760569
+LOWER,6,0.38519440,-0.03982671
+LOWER,7,0.38979600,0.00310444
+LOWER,8,0.49784000,0.01869316
+LOWER,9,0.88000000,0.00961488
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rhodostethia_rosea
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 251.20 mm
+# Secondary1: 100.50 mm
+# Kipps Distance: 152.20 mm
+# Hand-Wing Index: 60.10
+# Tail Length: 107.40 mm
+# Aspect Ratio: 2.500
+# Pointedness Index: 0.6059
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0845
+# Max Thickness Position: 0.3139
+# Max Camber/Chord: 0.0480
+# Max Camber Position: 0.3319
+# Leading Edge Radius: 0.0236
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.55e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00707089,0.04242535
+UPPER,2,0.02828357,0.08300748
+UPPER,3,0.05892410,0.10494942
+UPPER,4,0.27312780,0.12737101
+UPPER,5,0.31394000,0.13243948
+UPPER,6,0.35475220,0.12399203
+UPPER,7,0.35522300,0.10033917
+UPPER,8,0.46192000,0.06442309
+UPPER,9,0.88000000,0.02498465
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00707089,-0.02828357
+LOWER,2,0.02828357,-0.01024410
+LOWER,3,0.05892410,-0.02693132
+LOWER,4,0.27312780,-0.02299361
+LOWER,5,0.31394000,-0.03650953
+LOWER,6,0.35475220,-0.01792514
+LOWER,7,0.35522300,0.01079619
+LOWER,8,0.46192000,0.01791185
+LOWER,9,0.88000000,0.00861226
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

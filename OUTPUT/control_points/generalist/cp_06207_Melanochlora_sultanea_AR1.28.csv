@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melanochlora_sultanea
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 106.30 mm
+# Secondary1: 83.20 mm
+# Kipps Distance: 21.70 mm
+# Hand-Wing Index: 20.70
+# Tail Length: 89.40 mm
+# Aspect Ratio: 1.278
+# Pointedness Index: 0.2041
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1209
+# Max Thickness Position: 0.3376
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3634
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.79e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01032547,0.06581282
+UPPER,2,0.04130188,0.11352376
+UPPER,3,0.08604558,0.14031611
+UPPER,4,0.29369460,0.17154740
+UPPER,5,0.33758000,0.17880188
+UPPER,6,0.38146540,0.16671107
+UPPER,7,0.38556100,0.13285680
+UPPER,8,0.49344000,0.08306398
+UPPER,9,0.88000000,0.03167228
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01032547,-0.04014388
+LOWER,2,0.04130188,-0.01842777
+LOWER,3,0.08604558,-0.04349557
+LOWER,4,0.29369460,-0.04366904
+LOWER,5,0.33758000,-0.06301433
+LOWER,6,0.38146540,-0.03641455
+LOWER,7,0.38556100,0.00469421
+LOWER,8,0.49344000,0.01896701
+LOWER,9,0.88000000,0.00963712
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Treron_waalia
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 179.40 mm
+# Secondary1: 112.80 mm
+# Kipps Distance: 66.20 mm
+# Hand-Wing Index: 37.00
+# Tail Length: 106.20 mm
+# Aspect Ratio: 1.590
+# Pointedness Index: 0.3690
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1049
+# Max Thickness Position: 0.3278
+# Max Camber/Chord: 0.0547
+# Max Camber Position: 0.3504
+# Leading Edge Radius: 0.0300
+# LE Droop: 0.0006
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.55e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00898586,0.05451516
+UPPER,2,0.03594344,0.09956838
+UPPER,3,0.07488217,0.12587730
+UPPER,4,0.28518600,0.15333350
+UPPER,5,0.32780000,0.15962750
+UPPER,6,0.37041400,0.14913750
+UPPER,7,0.37301000,0.11976550
+UPPER,8,0.48040000,0.07589038
+UPPER,9,0.88000000,0.02918845
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00898586,-0.03576344
+LOWER,2,0.03594344,-0.01441338
+LOWER,3,0.07488217,-0.03566735
+LOWER,4,0.28518600,-0.03338850
+LOWER,5,0.32780000,-0.05017250
+LOWER,6,0.37041400,-0.02709450
+LOWER,7,0.37301000,0.00857150
+LOWER,8,0.48040000,0.01924505
+LOWER,9,0.88000000,0.00948587
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

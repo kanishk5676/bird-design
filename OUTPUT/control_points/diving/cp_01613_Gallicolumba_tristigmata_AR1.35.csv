@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gallicolumba_tristigmata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 159.30 mm
+# Secondary1: 118.10 mm
+# Kipps Distance: 41.20 mm
+# Hand-Wing Index: 25.80
+# Tail Length: 108.00 mm
+# Aspect Ratio: 1.349
+# Pointedness Index: 0.2586
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1145
+# Max Thickness Position: 0.3345
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3594
+# Leading Edge Radius: 0.0330
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00989150,0.06218900
+UPPER,2,0.03956600,0.10859906
+UPPER,3,0.08242916,0.13495109
+UPPER,4,0.29103240,0.16471358
+UPPER,5,0.33452000,0.17158598
+UPPER,6,0.37800760,0.16013197
+UPPER,7,0.38163400,0.12806075
+UPPER,8,0.48936000,0.08056024
+UPPER,9,0.88000000,0.03084065
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00989150,-0.03871400
+LOWER,2,0.03956600,-0.01668676
+LOWER,3,0.08242916,-0.04019213
+LOWER,4,0.29103240,-0.03916777
+LOWER,5,0.33452000,-0.05749418
+LOWER,6,0.37800760,-0.03229536
+LOWER,7,0.38163400,0.00664826
+LOWER,8,0.48936000,0.01933285
+LOWER,9,0.88000000,0.00967987
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

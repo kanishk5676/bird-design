@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Satrapa_icterophrys
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 86.60 mm
+# Secondary1: 67.10 mm
+# Kipps Distance: 19.60 mm
+# Hand-Wing Index: 22.60
+# Tail Length: 68.70 mm
+# Aspect Ratio: 1.291
+# Pointedness Index: 0.2263
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1205
+# Max Thickness Position: 0.3364
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3619
+# Leading Edge Radius: 0.0338
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.38e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01015417,0.06440500
+UPPER,2,0.04061667,0.11269964
+UPPER,3,0.08461806,0.13976798
+UPPER,4,0.29270280,0.17089224
+UPPER,5,0.33644000,0.17812411
+UPPER,6,0.38017720,0.16607100
+UPPER,7,0.38409800,0.13232232
+UPPER,8,0.49192000,0.08270282
+UPPER,9,0.88000000,0.03152786
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01015417,-0.03957267
+LOWER,2,0.04061667,-0.01841234
+LOWER,3,0.08461806,-0.04341516
+LOWER,4,0.29270280,-0.04365294
+LOWER,5,0.33644000,-0.06293791
+LOWER,6,0.38017720,-0.03642108
+LOWER,7,0.38409800,0.00455946
+LOWER,8,0.49192000,0.01883338
+LOWER,9,0.88000000,0.00957703
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

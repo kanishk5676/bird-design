@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Vidua_chalybeata
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 63.80 mm
+# Secondary1: 50.30 mm
+# Kipps Distance: 13.40 mm
+# Hand-Wing Index: 21.00
+# Tail Length: 40.20 mm
+# Aspect Ratio: 1.268
+# Pointedness Index: 0.2100
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1230
+# Max Thickness Position: 0.3374
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3632
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01028624,0.06551744
+UPPER,2,0.04114496,0.11446456
+UPPER,3,0.08571867,0.14177133
+UPPER,4,0.29353800,0.17345658
+UPPER,5,0.33740000,0.18083588
+UPPER,6,0.38126200,0.16853704
+UPPER,7,0.38533000,0.13410030
+UPPER,8,0.49320000,0.08360712
+UPPER,9,0.88000000,0.03182112
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01028624,-0.04000496
+LOWER,2,0.04114496,-0.01910966
+LOWER,3,0.08571867,-0.04472341
+LOWER,4,0.29353800,-0.04546274
+LOWER,5,0.33740000,-0.06514088
+LOWER,6,0.38126200,-0.03808344
+LOWER,7,0.38533000,0.00373261
+LOWER,8,0.49320000,0.01864708
+LOWER,9,0.88000000,0.00954234
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

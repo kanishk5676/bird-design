@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cinclosoma_castanotum
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 100.10 mm
+# Secondary1: 75.10 mm
+# Kipps Distance: 24.10 mm
+# Hand-Wing Index: 24.30
+# Tail Length: 98.30 mm
+# Aspect Ratio: 1.333
+# Pointedness Index: 0.2408
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1184
+# Max Thickness Position: 0.3354
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3606
+# Leading Edge Radius: 0.0334
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.66e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01002855,0.06331129
+UPPER,2,0.04011419,0.11103464
+UPPER,3,0.08357123,0.13794641
+UPPER,4,0.29181540,0.16857128
+UPPER,5,0.33542000,0.17567314
+UPPER,6,0.37902460,0.16383670
+UPPER,7,0.38278900,0.13069468
+UPPER,8,0.49056000,0.08185448
+UPPER,9,0.88000000,0.03124648
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01002855,-0.03917219
+LOWER,2,0.04011419,-0.01781852
+LOWER,3,0.08357123,-0.04228929
+LOWER,4,0.29181540,-0.04211729
+LOWER,5,0.33542000,-0.06105559
+LOWER,6,0.37902460,-0.03501543
+LOWER,7,0.38278900,0.00522846
+LOWER,8,0.49056000,0.01896043
+LOWER,9,0.88000000,0.00959262
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

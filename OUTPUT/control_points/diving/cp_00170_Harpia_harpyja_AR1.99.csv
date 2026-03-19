@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Harpia_harpyja
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 569.50 mm
+# Secondary1: 285.70 mm
+# Kipps Distance: 262.70 mm
+# Hand-Wing Index: 47.90
+# Tail Length: 442.00 mm
+# Aspect Ratio: 1.993
+# Pointedness Index: 0.4613
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0894
+# Max Thickness Position: 0.3213
+# Max Camber/Chord: 0.0519
+# Max Camber Position: 0.3417
+# Leading Edge Radius: 0.0273
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.69e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00818172,0.04909034
+UPPER,2,0.03272689,0.08878660
+UPPER,3,0.06818102,0.11208454
+UPPER,4,0.27949620,0.13590116
+UPPER,5,0.32126000,0.14126492
+UPPER,6,0.36302380,0.13232532
+UPPER,7,0.36461700,0.10729446
+UPPER,8,0.47168000,0.06911949
+UPPER,9,0.88000000,0.02686189
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00818172,-0.03272689
+LOWER,2,0.03272689,-0.01045256
+LOWER,3,0.06818102,-0.02798992
+LOWER,4,0.27949620,-0.02322362
+LOWER,5,0.32126000,-0.03752697
+LOWER,6,0.36302380,-0.01785986
+LOWER,7,0.36461700,0.01253476
+LOWER,8,0.47168000,0.01964333
+LOWER,9,0.88000000,0.00939141
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

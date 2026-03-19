@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Zentrygon_lawrencii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 137.50 mm
+# Secondary1: 104.10 mm
+# Kipps Distance: 33.40 mm
+# Hand-Wing Index: 24.30
+# Tail Length: 74.20 mm
+# Aspect Ratio: 1.321
+# Pointedness Index: 0.2429
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1166
+# Max Thickness Position: 0.3354
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3606
+# Leading Edge Radius: 0.0334
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.50e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01001758,0.06324550
+UPPER,2,0.04007033,0.11014114
+UPPER,3,0.08347986,0.13665978
+UPPER,4,0.29181540,0.16689150
+UPPER,5,0.33542000,0.17388614
+UPPER,6,0.37902460,0.16222840
+UPPER,7,0.38278900,0.12958674
+UPPER,8,0.49056000,0.08135412
+UPPER,9,0.88000000,0.03110352
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01001758,-0.03912833
+LOWER,2,0.04007033,-0.01724669
+LOWER,3,0.08347986,-0.04125284
+LOWER,4,0.29181540,-0.04061621
+LOWER,5,0.33542000,-0.05926859
+LOWER,6,0.37902460,-0.03362157
+LOWER,7,0.38278900,0.00601473
+LOWER,8,0.49056000,0.01921061
+LOWER,9,0.88000000,0.00966410
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

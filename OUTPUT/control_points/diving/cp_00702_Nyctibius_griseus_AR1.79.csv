@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nyctibius_griseus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 256.40 mm
+# Secondary1: 143.00 mm
+# Kipps Distance: 111.00 mm
+# Hand-Wing Index: 43.80
+# Tail Length: 181.80 mm
+# Aspect Ratio: 1.793
+# Pointedness Index: 0.4329
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0974
+# Max Thickness Position: 0.3237
+# Max Camber/Chord: 0.0530
+# Max Camber Position: 0.3450
+# Leading Edge Radius: 0.0282
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.71e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00845184,0.05071105
+UPPER,2,0.03380737,0.09375942
+UPPER,3,0.07043201,0.11889734
+UPPER,4,0.28163640,0.14456539
+UPPER,5,0.32372000,0.15040911
+UPPER,6,0.36580360,0.14066959
+UPPER,7,0.36777400,0.11339893
+UPPER,8,0.47496000,0.07233247
+UPPER,9,0.88000000,0.02793690
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00845184,-0.03380737
+LOWER,2,0.03380737,-0.01261160
+LOWER,3,0.07043201,-0.03210283
+LOWER,4,0.28163640,-0.02879807
+LOWER,5,0.32372000,-0.04438131
+LOWER,6,0.36580360,-0.02295436
+LOWER,7,0.36777400,0.01016001
+LOWER,8,0.47496000,0.01923329
+LOWER,9,0.88000000,0.00935767
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

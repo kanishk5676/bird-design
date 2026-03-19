@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Penelope_barbata
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 241.90 mm
+# Secondary1: 212.20 mm
+# Kipps Distance: 29.60 mm
+# Hand-Wing Index: 12.60
+# Tail Length: 255.20 mm
+# Aspect Ratio: 1.140
+# Pointedness Index: 0.1224
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1227
+# Max Thickness Position: 0.3424
+# Max Camber/Chord: 0.0590
+# Max Camber Position: 0.3699
+# Leading Edge Radius: 0.0366
+# LE Droop: 0.0055
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01099038,0.07142228
+UPPER,2,0.04396152,0.11695408
+UPPER,3,0.09158650,0.14259485
+UPPER,4,0.29792280,0.17430535
+UPPER,5,0.34244000,0.18166699
+UPPER,6,0.38695720,0.16939760
+UPPER,7,0.39179800,0.13504331
+UPPER,8,0.49992000,0.08448142
+UPPER,9,0.88000000,0.03222529
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01099038,-0.04231752
+LOWER,2,0.04396152,-0.01862146
+LOWER,3,0.09158650,-0.04403483
+LOWER,4,0.29792280,-0.04408976
+LOWER,5,0.34244000,-0.06372079
+LOWER,6,0.38695720,-0.03672813
+LOWER,7,0.39179800,0.00498779
+LOWER,8,0.49992000,0.01938618
+LOWER,9,0.88000000,0.00983552
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

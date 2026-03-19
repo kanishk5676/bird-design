@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Attila_phoenicurus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 92.20 mm
+# Secondary1: 73.20 mm
+# Kipps Distance: 19.10 mm
+# Hand-Wing Index: 20.60
+# Tail Length: 76.20 mm
+# Aspect Ratio: 1.260
+# Pointedness Index: 0.2072
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1218
+# Max Thickness Position: 0.3376
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3635
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.49e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01031313,0.06575879
+UPPER,2,0.04125253,0.11399413
+UPPER,3,0.08594277,0.14095999
+UPPER,4,0.29374680,0.17238493
+UPPER,5,0.33764000,0.17969190
+UPPER,6,0.38153320,0.16751362
+UPPER,7,0.38563800,0.13341443
+UPPER,8,0.49352000,0.08332192
+UPPER,9,0.88000000,0.03174808
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01031313,-0.04008853
+LOWER,2,0.04125253,-0.01870231
+LOWER,3,0.08594277,-0.04399584
+LOWER,4,0.29374680,-0.04438845
+LOWER,5,0.33764000,-0.06387370
+LOWER,6,0.38153320,-0.03708148
+LOWER,7,0.38563800,0.00432467
+LOWER,8,0.49352000,0.01885405
+LOWER,9,0.88000000,0.00960596
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

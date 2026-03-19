@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Poeoptera_femoralis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 96.40 mm
+# Secondary1: 72.00 mm
+# Kipps Distance: 23.80 mm
+# Hand-Wing Index: 24.70
+# Tail Length: 69.40 mm
+# Aspect Ratio: 1.339
+# Pointedness Index: 0.2469
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1183
+# Max Thickness Position: 0.3352
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3602
+# Leading Edge Radius: 0.0333
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.58e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00998505,0.06297031
+UPPER,2,0.03994021,0.11084112
+UPPER,3,0.08320876,0.13780391
+UPPER,4,0.29160660,0.16839911
+UPPER,5,0.33518000,0.17549439
+UPPER,6,0.37875340,0.16366893
+UPPER,7,0.38248100,0.13055764
+UPPER,8,0.49024000,0.08176510
+UPPER,9,0.88000000,0.03121148
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00998505,-0.03902221
+LOWER,2,0.03994021,-0.01780756
+LOWER,3,0.08320876,-0.04225738
+LOWER,4,0.29160660,-0.04209410
+LOWER,5,0.33518000,-0.06101484
+LOWER,6,0.37875340,-0.03499882
+LOWER,7,0.38248100,0.00520775
+LOWER,8,0.49024000,0.01893301
+LOWER,9,0.88000000,0.00957976
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

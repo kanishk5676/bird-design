@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Spizixos_semitorques
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 89.80 mm
+# Secondary1: 77.70 mm
+# Kipps Distance: 13.60 mm
+# Hand-Wing Index: 14.80
+# Tail Length: 91.90 mm
+# Aspect Ratio: 1.156
+# Pointedness Index: 0.1514
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1266
+# Max Thickness Position: 0.3411
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3682
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.44e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01077474,0.06968842
+UPPER,2,0.04309895,0.11823029
+UPPER,3,0.08978947,0.14514544
+UPPER,4,0.29677440,0.17768772
+UPPER,5,0.34112000,0.18528189
+UPPER,6,0.38546560,0.17262494
+UPPER,7,0.39010400,0.13718549
+UPPER,8,0.49816000,0.08534500
+UPPER,9,0.88000000,0.03243627
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01077474,-0.04158695
+LOWER,2,0.04309895,-0.01995290
+LOWER,3,0.08978947,-0.04640260
+LOWER,4,0.29677440,-0.04760597
+LOWER,5,0.34112000,-0.06785709
+LOWER,6,0.38546560,-0.04001181
+LOWER,7,0.39010400,0.00302182
+LOWER,8,0.49816000,0.01868196
+LOWER,9,0.88000000,0.00961532
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

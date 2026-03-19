@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eriocnemis_derbyi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 56.20 mm
+# Secondary1: 21.20 mm
+# Kipps Distance: 34.80 mm
+# Hand-Wing Index: 62.10
+# Tail Length: 32.40 mm
+# Aspect Ratio: 2.651
+# Pointedness Index: 0.6192
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0887
+# Max Thickness Position: 0.3127
+# Max Camber/Chord: 0.0473
+# Max Camber Position: 0.3303
+# Leading Edge Radius: 0.0231
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.44e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00694173,0.04165040
+UPPER,2,0.02776693,0.08453106
+UPPER,3,0.05784777,0.10735952
+UPPER,4,0.27208380,0.13066052
+UPPER,5,0.31274000,0.13598434
+UPPER,6,0.35339620,0.12711131
+UPPER,7,0.35368300,0.10226680
+UPPER,8,0.46032000,0.06501038
+UPPER,9,0.88000000,0.02505494
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00694173,-0.02776693
+LOWER,2,0.02776693,-0.01185483
+LOWER,3,0.05784777,-0.02972679
+LOWER,4,0.27208380,-0.02727954
+LOWER,5,0.31274000,-0.04147639
+LOWER,6,0.35339620,-0.02195571
+LOWER,7,0.35368300,0.00821261
+LOWER,8,0.46032000,0.01687521
+LOWER,9,0.88000000,0.00826428
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Agriornis_montanus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 131.30 mm
+# Secondary1: 98.20 mm
+# Kipps Distance: 33.00 mm
+# Hand-Wing Index: 25.10
+# Tail Length: 98.20 mm
+# Aspect Ratio: 1.337
+# Pointedness Index: 0.2513
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1162
+# Max Thickness Position: 0.3349
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3599
+# Leading Edge Radius: 0.0332
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.36e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00995014,0.06268086
+UPPER,2,0.03980057,0.10967384
+UPPER,3,0.08291785,0.13625946
+UPPER,4,0.29139780,0.16639678
+UPPER,5,0.33494000,0.17336870
+UPPER,6,0.37848220,0.16174883
+UPPER,7,0.38217300,0.12921318
+UPPER,8,0.48992000,0.08113012
+UPPER,9,0.88000000,0.03102049
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00995014,-0.03890657
+LOWER,2,0.03980057,-0.01717410
+LOWER,3,0.08291785,-0.04109707
+LOWER,4,0.29139780,-0.04043695
+LOWER,5,0.33494000,-0.05902875
+LOWER,6,0.37848220,-0.03346503
+LOWER,7,0.38217300,0.00604254
+LOWER,8,0.48992000,0.01917756
+LOWER,9,0.88000000,0.00964454
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

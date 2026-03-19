@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Thescelocichla_leucopleura
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 113.00 mm
+# Secondary1: 96.50 mm
+# Kipps Distance: 16.50 mm
+# Hand-Wing Index: 14.60
+# Tail Length: 106.20 mm
+# Aspect Ratio: 1.171
+# Pointedness Index: 0.1460
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1254
+# Max Thickness Position: 0.3412
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3683
+# Leading Edge Radius: 0.0360
+# LE Droop: 0.0051
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.94e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01080855,0.06993130
+UPPER,2,0.04323420,0.11772910
+UPPER,3,0.09007125,0.14435862
+UPPER,4,0.29687880,0.17665552
+UPPER,5,0.34124000,0.18418223
+UPPER,6,0.38560120,0.17163772
+UPPER,7,0.39025800,0.13651308
+UPPER,8,0.49832000,0.08505117
+UPPER,9,0.88000000,0.03235571
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01080855,-0.04171020
+LOWER,2,0.04323420,-0.01958446
+LOWER,3,0.09007125,-0.04573911
+LOWER,4,0.29687880,-0.04663681
+LOWER,5,0.34124000,-0.06670803
+LOWER,6,0.38560120,-0.03911010
+LOWER,7,0.39025800,0.00354124
+LOWER,8,0.49832000,0.01885468
+LOWER,9,0.88000000,0.00966647
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

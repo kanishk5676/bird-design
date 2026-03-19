@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Adelomyia_melanogenys
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 53.10 mm
+# Secondary1: 20.40 mm
+# Kipps Distance: 30.90 mm
+# Hand-Wing Index: 60.20
+# Tail Length: 35.40 mm
+# Aspect Ratio: 2.603
+# Pointedness Index: 0.5819
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0908
+# Max Thickness Position: 0.3139
+# Max Camber/Chord: 0.0479
+# Max Camber Position: 0.3318
+# Leading Edge Radius: 0.0240
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.27e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00719008,0.04314050
+UPPER,2,0.02876033,0.08613547
+UPPER,3,0.05991736,0.10946438
+UPPER,4,0.27307560,0.13327260
+UPPER,5,0.31388000,0.13872000
+UPPER,6,0.35468440,0.12964099
+UPPER,7,0.35514600,0.10421976
+UPPER,8,0.46184000,0.06616164
+UPPER,9,0.88000000,0.02547657
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00719008,-0.02876033
+LOWER,2,0.02876033,-0.01227737
+LOWER,3,0.05991736,-0.03061051
+LOWER,4,0.27307560,-0.02833379
+LOWER,5,0.31388000,-0.04286020
+LOWER,6,0.35468440,-0.02288638
+LOWER,7,0.35514600,0.00798225
+LOWER,8,0.46184000,0.01700592
+LOWER,9,0.88000000,0.00835087
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phylloscartes_gualaquizae
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 49.80 mm
+# Secondary1: 43.30 mm
+# Kipps Distance: 6.40 mm
+# Hand-Wing Index: 13.00
+# Tail Length: 48.60 mm
+# Aspect Ratio: 1.150
+# Pointedness Index: 0.1285
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1296
+# Max Thickness Position: 0.3422
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3696
+# Leading Edge Radius: 0.0365
+# LE Droop: 0.0054
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01094678,0.07108067
+UPPER,2,0.04378711,0.12028838
+UPPER,3,0.09122315,0.14752530
+UPPER,4,0.29771400,0.18075150
+UPPER,5,0.34220000,0.18852750
+UPPER,6,0.38668600,0.17556750
+UPPER,7,0.39149000,0.13927950
+UPPER,8,0.49960000,0.08637638
+UPPER,9,0.88000000,0.03276045
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01094678,-0.04216711
+LOWER,2,0.04378711,-0.02084738
+LOWER,3,0.09122315,-0.04806135
+LOWER,4,0.29771400,-0.04993650
+LOWER,5,0.34220000,-0.07067250
+LOWER,6,0.38668600,-0.04216050
+LOWER,7,0.39149000,0.00190350
+LOWER,8,0.49960000,0.01839105
+LOWER,9,0.88000000,0.00954787
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eupsittula_pertinax
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 136.40 mm
+# Secondary1: 79.90 mm
+# Kipps Distance: 56.10 mm
+# Hand-Wing Index: 41.20
+# Tail Length: 109.00 mm
+# Aspect Ratio: 1.707
+# Pointedness Index: 0.4113
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1031
+# Max Thickness Position: 0.3253
+# Max Camber/Chord: 0.0537
+# Max Camber Position: 0.3470
+# Leading Edge Radius: 0.0288
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.48e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00864170,0.05185020
+UPPER,2,0.03456680,0.09719339
+UPPER,3,0.07201416,0.12363478
+UPPER,4,0.28299360,0.15061313
+UPPER,5,0.32528000,0.15679930
+UPPER,6,0.36756640,0.14648901
+UPPER,7,0.36977600,0.11762020
+UPPER,8,0.47704000,0.07451075
+UPPER,9,0.88000000,0.02865286
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00864170,-0.03456680
+LOWER,2,0.03456680,-0.01419919
+LOWER,3,0.07201416,-0.03509934
+LOWER,4,0.28299360,-0.03291004
+LOWER,5,0.32528000,-0.04940650
+LOWER,6,0.36756640,-0.02672386
+LOWER,7,0.36977600,0.00833112
+LOWER,8,0.47704000,0.01885736
+LOWER,9,0.88000000,0.00929998
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

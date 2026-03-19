@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eupodotis_caerulescens
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 322.80 mm
+# Secondary1: 205.80 mm
+# Kipps Distance: 117.00 mm
+# Hand-Wing Index: 36.20
+# Tail Length: 146.00 mm
+# Aspect Ratio: 1.569
+# Pointedness Index: 0.3625
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1021
+# Max Thickness Position: 0.3283
+# Max Camber/Chord: 0.0549
+# Max Camber Position: 0.3510
+# Leading Edge Radius: 0.0301
+# LE Droop: 0.0008
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.78e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00904377,0.05502260
+UPPER,2,0.03617507,0.09850065
+UPPER,3,0.07536472,0.12405271
+UPPER,4,0.28560360,0.15091390
+UPPER,5,0.32828000,0.15704156
+UPPER,6,0.37095640,0.14682880
+UPPER,7,0.37362600,0.11823305
+UPPER,8,0.48104000,0.07527256
+UPPER,9,0.88000000,0.02903750
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00904377,-0.03594707
+LOWER,2,0.03617507,-0.01346099
+LOWER,3,0.07536472,-0.03397365
+LOWER,4,0.28560360,-0.03087334
+LOWER,5,0.32828000,-0.04721376
+LOWER,6,0.37095640,-0.02474568
+LOWER,7,0.37362600,0.00997773
+LOWER,8,0.48104000,0.01974875
+LOWER,9,0.88000000,0.00964337
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

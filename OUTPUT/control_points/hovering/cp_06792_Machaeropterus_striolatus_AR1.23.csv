@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Machaeropterus_striolatus
+# Flight Category: hovering
+#
+# === Morphological Parameters ===
+# Wing Length: 50.80 mm
+# Secondary1: 41.20 mm
+# Kipps Distance: 10.50 mm
+# Hand-Wing Index: 20.20
+# Tail Length: 22.50 mm
+# Aspect Ratio: 1.233
+# Pointedness Index: 0.2067
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1237
+# Max Thickness Position: 0.3379
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3638
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.04e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01032775,0.06592648
+UPPER,2,0.04131098,0.11506845
+UPPER,3,0.08606455,0.14237332
+UPPER,4,0.29395560,0.17421788
+UPPER,5,0.33788000,0.18163797
+UPPER,6,0.38180440,0.16927116
+UPPER,7,0.38594600,0.13464410
+UPPER,8,0.49384000,0.08390147
+UPPER,9,0.88000000,0.03192201
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01032775,-0.04012298
+LOWER,2,0.04131098,-0.01928432
+LOWER,3,0.08606455,-0.04506132
+LOWER,4,0.29395560,-0.04591128
+LOWER,5,0.33788000,-0.06569817
+LOWER,6,0.38180440,-0.03849119
+LOWER,7,0.38594600,0.00355595
+LOWER,8,0.49384000,0.01862781
+LOWER,9,0.88000000,0.00954575
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

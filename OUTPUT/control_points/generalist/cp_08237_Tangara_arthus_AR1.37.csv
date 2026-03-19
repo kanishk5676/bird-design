@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tangara_arthus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 80.00 mm
+# Secondary1: 58.50 mm
+# Kipps Distance: 17.40 mm
+# Hand-Wing Index: 23.00
+# Tail Length: 59.00 mm
+# Aspect Ratio: 1.368
+# Pointedness Index: 0.2175
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1207
+# Max Thickness Position: 0.3362
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3616
+# Leading Edge Radius: 0.0340
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.24e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01018695,0.06452170
+UPPER,2,0.04074780,0.11262339
+UPPER,3,0.08489125,0.13979332
+UPPER,4,0.29249400,0.17093852
+UPPER,5,0.33620000,0.17817752
+UPPER,6,0.37990600,0.16611252
+UPPER,7,0.38379000,0.13233051
+UPPER,8,0.49160000,0.08268038
+UPPER,9,0.88000000,0.03151245
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01018695,-0.03972780
+LOWER,2,0.04074780,-0.01847338
+LOWER,3,0.08489125,-0.04351436
+LOWER,4,0.29249400,-0.04381852
+LOWER,5,0.33620000,-0.06312252
+LOWER,6,0.37990600,-0.03657952
+LOWER,7,0.38379000,0.00444149
+LOWER,8,0.49160000,0.01877605
+LOWER,9,0.88000000,0.00955587
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

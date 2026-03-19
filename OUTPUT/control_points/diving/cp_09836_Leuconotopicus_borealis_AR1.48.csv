@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Leuconotopicus_borealis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 117.00 mm
+# Secondary1: 78.80 mm
+# Kipps Distance: 37.20 mm
+# Hand-Wing Index: 32.10
+# Tail Length: 85.00 mm
+# Aspect Ratio: 1.485
+# Pointedness Index: 0.3179
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1112
+# Max Thickness Position: 0.3307
+# Max Camber/Chord: 0.0558
+# Max Camber Position: 0.3543
+# Leading Edge Radius: 0.0313
+# LE Droop: 0.0016
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00939620,0.05795721
+UPPER,2,0.03758481,0.10465088
+UPPER,3,0.07830168,0.13145309
+UPPER,4,0.28774380,0.16039350
+UPPER,5,0.33074000,0.16706847
+UPPER,6,0.37373620,0.15594352
+UPPER,7,0.37678300,0.12479366
+UPPER,8,0.48432000,0.07859599
+UPPER,9,0.88000000,0.03011117
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00939620,-0.03711081
+LOWER,2,0.03758481,-0.01606320
+LOWER,3,0.07830168,-0.03884798
+LOWER,4,0.28774380,-0.03763060
+LOWER,5,0.33074000,-0.05543052
+LOWER,6,0.37373620,-0.03095563
+LOWER,7,0.37678300,0.00686920
+LOWER,8,0.48432000,0.01903284
+LOWER,9,0.88000000,0.00950476
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

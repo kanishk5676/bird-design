@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Euphonia_saturata
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 57.70 mm
+# Secondary1: 44.00 mm
+# Kipps Distance: 12.50 mm
+# Hand-Wing Index: 22.20
+# Tail Length: 32.30 mm
+# Aspect Ratio: 1.311
+# Pointedness Index: 0.2166
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1220
+# Max Thickness Position: 0.3367
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3622
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01021583,0.06485496
+UPPER,2,0.04086331,0.11358365
+UPPER,3,0.08513189,0.14090606
+UPPER,4,0.29291160,0.17236504
+UPPER,5,0.33668000,0.17968677
+UPPER,6,0.38044840,0.16748389
+UPPER,7,0.38440600,0.13331580
+UPPER,8,0.49224000,0.08317730
+UPPER,9,0.88000000,0.03167231
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01021583,-0.03979531
+LOWER,2,0.04086331,-0.01886897
+LOWER,3,0.08513189,-0.04425411
+LOWER,4,0.29291160,-0.04484635
+LOWER,5,0.33668000,-0.06437097
+LOWER,6,0.38044840,-0.03752462
+LOWER,7,0.38440600,0.00396520
+LOWER,8,0.49224000,0.01866386
+LOWER,9,0.88000000,0.00953332
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

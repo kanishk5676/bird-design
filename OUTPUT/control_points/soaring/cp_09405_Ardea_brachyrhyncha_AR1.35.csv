@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ardea_brachyrhyncha
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 305.40 mm
+# Secondary1: 226.70 mm
+# Kipps Distance: 78.70 mm
+# Hand-Wing Index: 25.90
+# Tail Length: 120.80 mm
+# Aspect Ratio: 1.347
+# Pointedness Index: 0.2577
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1107
+# Max Thickness Position: 0.3345
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3593
+# Leading Edge Radius: 0.0330
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.22e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00989322,0.06217930
+UPPER,2,0.03957287,0.10664028
+UPPER,3,0.08244347,0.13216470
+UPPER,4,0.29098020,0.16107940
+UPPER,5,0.33446000,0.16772098
+UPPER,6,0.37793980,0.15665168
+UPPER,7,0.38155700,0.12565764
+UPPER,8,0.48928000,0.07946782
+UPPER,9,0.88000000,0.03052607
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00989322,-0.03872687
+LOWER,2,0.03957287,-0.01546197
+LOWER,3,0.08244347,-0.03796907
+LOWER,4,0.29098020,-0.03595415
+LOWER,5,0.33446000,-0.05366503
+LOWER,6,0.37793980,-0.02931257
+LOWER,7,0.38155700,0.00832305
+LOWER,8,0.48928000,0.01986032
+LOWER,9,0.88000000,0.00982927
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

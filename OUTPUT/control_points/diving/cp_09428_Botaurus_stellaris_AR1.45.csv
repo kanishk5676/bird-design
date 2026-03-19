@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Botaurus_stellaris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 323.80 mm
+# Secondary1: 223.80 mm
+# Kipps Distance: 101.20 mm
+# Hand-Wing Index: 31.20
+# Tail Length: 98.30 mm
+# Aspect Ratio: 1.447
+# Pointedness Index: 0.3125
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1061
+# Max Thickness Position: 0.3313
+# Max Camber/Chord: 0.0560
+# Max Camber Position: 0.3550
+# Leading Edge Radius: 0.0315
+# LE Droop: 0.0018
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.82e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00945133,0.05846800
+UPPER,2,0.03780533,0.10242018
+UPPER,3,0.07876111,0.12792471
+UPPER,4,0.28821360,0.15574931
+UPPER,5,0.33128000,0.16211588
+UPPER,6,0.37434640,0.15150493
+UPPER,7,0.37747600,0.12179428
+UPPER,8,0.48504000,0.07731609
+UPPER,9,0.88000000,0.02977119
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00945133,-0.03727733
+LOWER,2,0.03780533,-0.01435279
+LOWER,3,0.07876111,-0.03578056
+LOWER,4,0.28821360,-0.03312556
+LOWER,5,0.33128000,-0.05010308
+LOWER,6,0.37434640,-0.02675900
+LOWER,7,0.37747600,0.00931823
+LOWER,8,0.48504000,0.01986864
+LOWER,9,0.88000000,0.00975722
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

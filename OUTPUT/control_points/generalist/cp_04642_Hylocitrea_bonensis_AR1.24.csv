@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hylocitrea_bonensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 81.20 mm
+# Secondary1: 65.60 mm
+# Kipps Distance: 15.60 mm
+# Hand-Wing Index: 19.20
+# Tail Length: 71.00 mm
+# Aspect Ratio: 1.238
+# Pointedness Index: 0.1921
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1236
+# Max Thickness Position: 0.3385
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3646
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.27e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01043268,0.06675606
+UPPER,2,0.04173071,0.11536449
+UPPER,3,0.08693898,0.14246647
+UPPER,4,0.29447760,0.17430964
+UPPER,5,0.33848000,0.18172610
+UPPER,6,0.38248240,0.16936533
+UPPER,7,0.38671600,0.13475517
+UPPER,8,0.49464000,0.08401080
+UPPER,9,0.88000000,0.03197361
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01043268,-0.04048271
+LOWER,2,0.04173071,-0.01921302
+LOWER,3,0.08693898,-0.04495800
+LOWER,4,0.29447760,-0.04571207
+LOWER,5,0.33848000,-0.06548930
+LOWER,6,0.38248240,-0.03829560
+LOWER,7,0.38671600,0.00373101
+LOWER,8,0.49464000,0.01872833
+LOWER,9,0.88000000,0.00958529
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

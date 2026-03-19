@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cossyphicula_roberti
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 67.80 mm
+# Secondary1: 55.90 mm
+# Kipps Distance: 10.30 mm
+# Hand-Wing Index: 15.60
+# Tail Length: 46.40 mm
+# Aspect Ratio: 1.213
+# Pointedness Index: 0.1519
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1274
+# Max Thickness Position: 0.3406
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3675
+# Leading Edge Radius: 0.0358
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01074786,0.06936717
+UPPER,2,0.04299144,0.11839192
+UPPER,3,0.08956551,0.14563924
+UPPER,4,0.29635680,0.17835267
+UPPER,5,0.34064000,0.18599572
+UPPER,6,0.38492320,0.17325730
+UPPER,7,0.38948800,0.13758975
+UPPER,8,0.49752000,0.08548741
+UPPER,9,0.88000000,0.03246314
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01074786,-0.04152744
+LOWER,2,0.04299144,-0.02024886
+LOWER,3,0.08956551,-0.04692145
+LOWER,4,0.29635680,-0.04839106
+LOWER,5,0.34064000,-0.06877252
+LOWER,6,0.38492320,-0.04074801
+LOWER,7,0.38948800,0.00256259
+LOWER,8,0.49752000,0.01850542
+LOWER,9,0.88000000,0.00955754
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

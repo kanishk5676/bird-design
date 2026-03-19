@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Batis_minima
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 48.60 mm
+# Secondary1: 44.10 mm
+# Kipps Distance: 4.50 mm
+# Hand-Wing Index: 9.20
+# Tail Length: 38.80 mm
+# Aspect Ratio: 1.102
+# Pointedness Index: 0.0926
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1326
+# Max Thickness Position: 0.3445
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3726
+# Leading Edge Radius: 0.0375
+# LE Droop: 0.0062
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01124626,0.07363755
+UPPER,2,0.04498503,0.12290914
+UPPER,3,0.09371881,0.15008293
+UPPER,4,0.29969760,0.18401000
+UPPER,5,0.34448000,0.19196840
+UPPER,6,0.38926240,0.17870440
+UPPER,7,0.39441600,0.14156520
+UPPER,8,0.50264000,0.08756834
+UPPER,9,0.88000000,0.03315599
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01124626,-0.04313703
+LOWER,2,0.04498503,-0.02167986
+LOWER,3,0.09371881,-0.04964014
+LOWER,4,0.29969760,-0.05208920
+LOWER,5,0.34448000,-0.07331160
+LOWER,6,0.38926240,-0.04413080
+LOWER,7,0.39441600,0.00096680
+LOWER,8,0.50264000,0.01821401
+LOWER,9,0.88000000,0.00952650
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

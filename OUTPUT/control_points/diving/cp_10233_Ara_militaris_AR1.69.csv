@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ara_militaris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 366.70 mm
+# Secondary1: 216.80 mm
+# Kipps Distance: 151.20 mm
+# Hand-Wing Index: 41.10
+# Tail Length: 366.10 mm
+# Aspect Ratio: 1.691
+# Pointedness Index: 0.4123
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0975
+# Max Thickness Position: 0.3253
+# Max Camber/Chord: 0.0537
+# Max Camber Position: 0.3471
+# Leading Edge Radius: 0.0288
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.25e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00863948,0.05183686
+UPPER,2,0.03455791,0.09439187
+UPPER,3,0.07199564,0.11959281
+UPPER,4,0.28304580,0.14533097
+UPPER,5,0.32534000,0.15117835
+UPPER,6,0.36763420,0.14143271
+UPPER,7,0.36985300,0.11414493
+UPPER,8,0.47712000,0.07295146
+UPPER,9,0.88000000,0.02821086
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00863948,-0.03455791
+LOWER,2,0.03455791,-0.01238335
+LOWER,3,0.07199564,-0.03181259
+LOWER,4,0.28304580,-0.02814138
+LOWER,5,0.32534000,-0.04373440
+LOWER,6,0.36763420,-0.02229400
+LOWER,7,0.36985300,0.01084117
+LOWER,8,0.47712000,0.01966373
+LOWER,9,0.88000000,0.00953224
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

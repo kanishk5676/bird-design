@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Stephanoxis_lalandi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 48.20 mm
+# Secondary1: 19.40 mm
+# Kipps Distance: 29.30 mm
+# Hand-Wing Index: 60.20
+# Tail Length: 30.40 mm
+# Aspect Ratio: 2.485
+# Pointedness Index: 0.6079
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0911
+# Max Thickness Position: 0.3139
+# Max Camber/Chord: 0.0479
+# Max Camber Position: 0.3318
+# Leading Edge Radius: 0.0235
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.19e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00705767,0.04234604
+UPPER,2,0.02823069,0.08628226
+UPPER,3,0.05881394,0.10967576
+UPPER,4,0.27307560,0.13354856
+UPPER,5,0.31388000,0.13901359
+UPPER,6,0.35468440,0.12990522
+UPPER,7,0.35514600,0.10440178
+UPPER,8,0.46184000,0.06624385
+UPPER,9,0.88000000,0.02550006
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00705767,-0.02823069
+LOWER,2,0.02823069,-0.01237131
+LOWER,3,0.05881394,-0.03078078
+LOWER,4,0.27307560,-0.02858040
+LOWER,5,0.31388000,-0.04315379
+LOWER,6,0.35468440,-0.02311537
+LOWER,7,0.35514600,0.00785308
+LOWER,8,0.46184000,0.01696482
+LOWER,9,0.88000000,0.00833913
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

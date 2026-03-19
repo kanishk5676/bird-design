@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ceratopipra_rubrocapilla
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 61.20 mm
+# Secondary1: 47.00 mm
+# Kipps Distance: 11.50 mm
+# Hand-Wing Index: 19.70
+# Tail Length: 31.40 mm
+# Aspect Ratio: 1.302
+# Pointedness Index: 0.1879
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1237
+# Max Thickness Position: 0.3382
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3642
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.14e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01043885,0.06669308
+UPPER,2,0.04175539,0.11522910
+UPPER,3,0.08699039,0.14243789
+UPPER,4,0.29421660,0.17428714
+UPPER,5,0.33818000,0.18170686
+UPPER,6,0.38214340,0.16934065
+UPPER,7,0.38633100,0.13471527
+UPPER,8,0.49424000,0.08396344
+UPPER,9,0.88000000,0.03194998
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01043885,-0.04053739
+LOWER,2,0.04175539,-0.01925620
+LOWER,3,0.08699039,-0.04502341
+LOWER,4,0.29421660,-0.04583138
+LOWER,5,0.33818000,-0.06561731
+LOWER,6,0.38214340,-0.03841165
+LOWER,7,0.38633100,0.00363346
+LOWER,8,0.49424000,0.01867507
+LOWER,9,0.88000000,0.00956471
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

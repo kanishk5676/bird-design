@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Elanus_caeruleus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 286.30 mm
+# Secondary1: 160.20 mm
+# Kipps Distance: 132.10 mm
+# Hand-Wing Index: 45.20
+# Tail Length: 127.70 mm
+# Aspect Ratio: 1.787
+# Pointedness Index: 0.4614
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0956
+# Max Thickness Position: 0.3229
+# Max Camber/Chord: 0.0526
+# Max Camber Position: 0.3438
+# Leading Edge Radius: 0.0275
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00826372,0.04958231
+UPPER,2,0.03305488,0.09255320
+UPPER,3,0.06886432,0.11727635
+UPPER,4,0.28090560,0.14252583
+UPPER,5,0.32288000,0.14826371
+UPPER,6,0.36485440,0.13870058
+UPPER,7,0.36669600,0.11192381
+UPPER,8,0.47384000,0.07151431
+UPPER,9,0.88000000,0.02765082
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00826372,-0.03305488
+LOWER,2,0.03305488,-0.01218068
+LOWER,3,0.06886432,-0.03125526
+LOWER,4,0.28090560,-0.02769790
+LOWER,5,0.32288000,-0.04299891
+LOWER,6,0.36485440,-0.02196002
+LOWER,7,0.36669600,0.01055462
+LOWER,8,0.47384000,0.01924370
+LOWER,9,0.88000000,0.00933285
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

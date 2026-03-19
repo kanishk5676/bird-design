@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Troglodytes_hiemalis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 45.80 mm
+# Secondary1: 38.00 mm
+# Kipps Distance: 7.70 mm
+# Hand-Wing Index: 17.00
+# Tail Length: 27.60 mm
+# Aspect Ratio: 1.205
+# Pointedness Index: 0.1681
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1264
+# Max Thickness Position: 0.3398
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3664
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01062238,0.06833426
+UPPER,2,0.04248951,0.11746338
+UPPER,3,0.08851980,0.14476130
+UPPER,4,0.29562600,0.17724350
+UPPER,5,0.33980000,0.18482750
+UPPER,6,0.38397400,0.17218750
+UPPER,7,0.38841000,0.13679550
+UPPER,8,0.49640000,0.08505538
+UPPER,9,0.88000000,0.03231445
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01062238,-0.04110951
+LOWER,2,0.04248951,-0.01999838
+LOWER,3,0.08851980,-0.04643535
+LOWER,4,0.29562600,-0.04774850
+LOWER,5,0.33980000,-0.06797250
+LOWER,6,0.38397400,-0.04016450
+LOWER,7,0.38841000,0.00281150
+LOWER,8,0.49640000,0.01852905
+LOWER,9,0.88000000,0.00955088
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

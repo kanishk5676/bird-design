@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lymnocryptes_minimus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 105.60 mm
+# Secondary1: 58.80 mm
+# Kipps Distance: 45.80 mm
+# Hand-Wing Index: 43.80
+# Tail Length: 49.00 mm
+# Aspect Ratio: 1.796
+# Pointedness Index: 0.4337
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1016
+# Max Thickness Position: 0.3237
+# Max Camber/Chord: 0.0530
+# Max Camber Position: 0.3450
+# Leading Edge Radius: 0.0282
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.15e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00844779,0.05068673
+UPPER,2,0.03379115,0.09587900
+UPPER,3,0.07039823,0.12194953
+UPPER,4,0.28163640,0.14855021
+UPPER,5,0.32372000,0.15464827
+UPPER,6,0.36580360,0.14448483
+UPPER,7,0.36777400,0.11602721
+UPPER,8,0.47496000,0.07351944
+UPPER,9,0.88000000,0.02827603
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00844779,-0.03379115
+LOWER,2,0.03379115,-0.01396813
+LOWER,3,0.07039823,-0.03456154
+LOWER,4,0.28163640,-0.03235897
+LOWER,5,0.32372000,-0.04862047
+LOWER,6,0.36580360,-0.02626091
+LOWER,7,0.36777400,0.00829478
+LOWER,8,0.47496000,0.01863981
+LOWER,9,0.88000000,0.00918810
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

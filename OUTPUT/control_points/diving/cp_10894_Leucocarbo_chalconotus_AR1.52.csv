@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Leucocarbo_chalconotus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 283.40 mm
+# Secondary1: 186.70 mm
+# Kipps Distance: 95.60 mm
+# Hand-Wing Index: 33.90
+# Tail Length: 113.60 mm
+# Aspect Ratio: 1.518
+# Pointedness Index: 0.3373
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1047
+# Max Thickness Position: 0.3297
+# Max Camber/Chord: 0.0554
+# Max Camber Position: 0.3529
+# Leading Edge Radius: 0.0308
+# LE Droop: 0.0012
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00924226,0.05667359
+UPPER,2,0.03696906,0.10070261
+UPPER,3,0.07701887,0.12640364
+UPPER,4,0.28680420,0.15387899
+UPPER,5,0.32966000,0.16016284
+UPPER,6,0.37251580,0.14968975
+UPPER,7,0.37539700,0.12036511
+UPPER,8,0.48288000,0.07644182
+UPPER,9,0.88000000,0.02944262
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00924226,-0.03660306
+LOWER,2,0.03696906,-0.01411268
+LOWER,3,0.07701887,-0.03524519
+LOWER,4,0.28680420,-0.03254195
+LOWER,5,0.32966000,-0.04929889
+LOWER,6,0.37251580,-0.02625810
+LOWER,7,0.37539700,0.00935040
+LOWER,8,0.48288000,0.01970550
+LOWER,9,0.88000000,0.00966876
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

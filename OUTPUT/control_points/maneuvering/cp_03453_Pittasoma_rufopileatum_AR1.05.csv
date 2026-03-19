@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pittasoma_rufopileatum
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 92.30 mm
+# Secondary1: 87.60 mm
+# Kipps Distance: 4.40 mm
+# Hand-Wing Index: 4.70
+# Tail Length: 30.50 mm
+# Aspect Ratio: 1.054
+# Pointedness Index: 0.0477
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1338
+# Max Thickness Position: 0.3472
+# Max Camber/Chord: 0.0597
+# Max Camber Position: 0.3762
+# Leading Edge Radius: 0.0387
+# LE Droop: 0.0071
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.76e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01161306,0.07673836
+UPPER,2,0.04645224,0.12471055
+UPPER,3,0.09677550,0.15126502
+UPPER,4,0.30204660,0.18547658
+UPPER,5,0.34718000,0.19350425
+UPPER,6,0.39231340,0.18012480
+UPPER,7,0.39788100,0.14266235
+UPPER,8,0.50624000,0.08821576
+UPPER,9,0.88000000,0.03339327
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01161306,-0.04433424
+LOWER,2,0.04645224,-0.02191581
+LOWER,3,0.09677550,-0.05013430
+LOWER,4,0.30204660,-0.05267758
+LOWER,5,0.34718000,-0.07408470
+LOWER,6,0.39231340,-0.04464992
+LOWER,7,0.39788100,0.00084021
+LOWER,8,0.50624000,0.01828883
+LOWER,9,0.88000000,0.00957566
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

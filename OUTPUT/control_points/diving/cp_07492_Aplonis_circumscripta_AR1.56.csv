@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aplonis_circumscripta
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 105.40 mm
+# Secondary1: 67.50 mm
+# Kipps Distance: 37.90 mm
+# Hand-Wing Index: 36.00
+# Tail Length: 111.90 mm
+# Aspect Ratio: 1.561
+# Pointedness Index: 0.3596
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1087
+# Max Thickness Position: 0.3284
+# Max Camber/Chord: 0.0550
+# Max Camber Position: 0.3512
+# Leading Edge Radius: 0.0302
+# LE Droop: 0.0008
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.77e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00906453,0.05518717
+UPPER,2,0.03625812,0.10187387
+UPPER,3,0.07553774,0.12883853
+UPPER,4,0.28570800,0.15715280
+UPPER,5,0.32840000,0.16367574
+UPPER,6,0.37109200,0.15280417
+UPPER,7,0.37378000,0.12236376
+UPPER,8,0.48120000,0.07715641
+UPPER,9,0.88000000,0.02958206
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00906453,-0.03601812
+LOWER,2,0.03625812,-0.01555304
+LOWER,3,0.07553774,-0.03777353
+LOWER,4,0.28570800,-0.03636122
+LOWER,5,0.32840000,-0.05375574
+LOWER,6,0.37109200,-0.02983828
+LOWER,7,0.37378000,0.00712507
+LOWER,8,0.48120000,0.01885500
+LOWER,9,0.88000000,0.00939137
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

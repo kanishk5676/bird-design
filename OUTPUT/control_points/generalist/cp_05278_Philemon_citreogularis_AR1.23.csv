@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Philemon_citreogularis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 127.20 mm
+# Secondary1: 103.10 mm
+# Kipps Distance: 25.90 mm
+# Hand-Wing Index: 20.00
+# Tail Length: 103.30 mm
+# Aspect Ratio: 1.234
+# Pointedness Index: 0.2036
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1205
+# Max Thickness Position: 0.3380
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3640
+# Leading Edge Radius: 0.0345
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.26e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01034956,0.06609734
+UPPER,2,0.04139823,0.11352905
+UPPER,3,0.08624631,0.14008984
+UPPER,4,0.29406000,0.17123062
+UPPER,5,0.33800000,0.17845811
+UPPER,6,0.38194000,0.16641230
+UPPER,7,0.38610000,0.13268403
+UPPER,8,0.49400000,0.08302827
+UPPER,9,0.88000000,0.03167665
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01034956,-0.04019823
+LOWER,2,0.04139823,-0.01824659
+LOWER,3,0.08624631,-0.04318570
+LOWER,4,0.29406000,-0.04318481
+LOWER,5,0.33800000,-0.06245811
+LOWER,6,0.38194000,-0.03595732
+LOWER,7,0.38610000,0.00499843
+LOWER,8,0.49400000,0.01909586
+LOWER,9,0.88000000,0.00968168
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

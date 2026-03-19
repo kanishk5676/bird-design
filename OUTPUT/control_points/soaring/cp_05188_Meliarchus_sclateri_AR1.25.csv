@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Meliarchus_sclateri
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 124.20 mm
+# Secondary1: 99.40 mm
+# Kipps Distance: 18.40 mm
+# Hand-Wing Index: 15.60
+# Tail Length: 105.40 mm
+# Aspect Ratio: 1.249
+# Pointedness Index: 0.1481
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1241
+# Max Thickness Position: 0.3406
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3675
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.19e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01076708,0.06948251
+UPPER,2,0.04306834,0.11675631
+UPPER,3,0.08972570,0.14328396
+UPPER,4,0.29635680,0.17527772
+UPPER,5,0.34064000,0.18272449
+UPPER,6,0.38492320,0.17031320
+UPPER,7,0.38948800,0.13556159
+UPPER,8,0.49752000,0.08457147
+UPPER,9,0.88000000,0.03220144
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01076708,-0.04160434
+LOWER,2,0.04306834,-0.01920207
+LOWER,3,0.08972570,-0.04502414
+LOWER,4,0.29635680,-0.04564323
+LOWER,5,0.34064000,-0.06550129
+LOWER,6,0.38492320,-0.03819646
+LOWER,7,0.38948800,0.00400193
+LOWER,8,0.49752000,0.01896339
+LOWER,9,0.88000000,0.00968838
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

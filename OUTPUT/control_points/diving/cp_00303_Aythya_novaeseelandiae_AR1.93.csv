@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aythya_novaeseelandiae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 177.00 mm
+# Secondary1: 91.70 mm
+# Kipps Distance: 85.30 mm
+# Hand-Wing Index: 48.20
+# Tail Length: 49.00 mm
+# Aspect Ratio: 1.930
+# Pointedness Index: 0.4819
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0950
+# Max Thickness Position: 0.3211
+# Max Camber/Chord: 0.0518
+# Max Camber Position: 0.3414
+# Leading Edge Radius: 0.0269
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.38e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00806728,0.04840370
+UPPER,2,0.03226913,0.09152958
+UPPER,3,0.06722736,0.11606089
+UPPER,4,0.27933960,0.14111003
+UPPER,5,0.32108000,0.14681182
+UPPER,6,0.36282040,0.13730883
+UPPER,7,0.36438600,0.11070045
+UPPER,8,0.47144000,0.07062299
+UPPER,9,0.88000000,0.02727952
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00806728,-0.03226913
+LOWER,2,0.03226913,-0.01228591
+LOWER,3,0.06722736,-0.03129768
+LOWER,4,0.27933960,-0.02804324
+LOWER,5,0.32108000,-0.04324802
+LOWER,6,0.36282040,-0.02234144
+LOWER,7,0.36438600,0.00996873
+LOWER,8,0.47144000,0.01880059
+LOWER,9,0.88000000,0.00914428
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

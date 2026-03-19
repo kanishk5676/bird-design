@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Strix_aluco
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 264.80 mm
+# Secondary1: 187.10 mm
+# Kipps Distance: 77.70 mm
+# Hand-Wing Index: 29.30
+# Tail Length: 171.10 mm
+# Aspect Ratio: 1.415
+# Pointedness Index: 0.2934
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1088
+# Max Thickness Position: 0.3324
+# Max Camber/Chord: 0.0564
+# Max Camber Position: 0.3566
+# Leading Edge Radius: 0.0320
+# LE Droop: 0.0021
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.96e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00960693,0.05978159
+UPPER,2,0.03842773,0.10447412
+UPPER,3,0.08005777,0.13021894
+UPPER,4,0.28920540,0.15866765
+UPPER,5,0.33242000,0.16519609
+UPPER,6,0.37563460,0.15431536
+UPPER,7,0.37893900,0.12384931
+UPPER,8,0.48656000,0.07839651
+UPPER,9,0.88000000,0.03013232
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00960693,-0.03778573
+LOWER,2,0.03842773,-0.01508227
+LOWER,3,0.08005777,-0.03716941
+LOWER,4,0.28920540,-0.03500937
+LOWER,5,0.33242000,-0.05241854
+LOWER,6,0.37563460,-0.02848093
+LOWER,7,0.37893900,0.00851355
+LOWER,8,0.48656000,0.01972802
+LOWER,9,0.88000000,0.00974490
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

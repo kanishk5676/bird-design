@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gallinula_tenebrosa
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 197.20 mm
+# Secondary1: 134.80 mm
+# Kipps Distance: 67.00 mm
+# Hand-Wing Index: 33.20
+# Tail Length: 72.40 mm
+# Aspect Ratio: 1.463
+# Pointedness Index: 0.3398
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1074
+# Max Thickness Position: 0.3301
+# Max Camber/Chord: 0.0556
+# Max Camber Position: 0.3534
+# Leading Edge Radius: 0.0308
+# LE Droop: 0.0014
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00925132,0.05686793
+UPPER,2,0.03700529,0.10230478
+UPPER,3,0.07709434,0.12846282
+UPPER,4,0.28716960,0.15653671
+UPPER,5,0.33008000,0.16298047
+UPPER,6,0.37299040,0.15224086
+UPPER,7,0.37593600,0.12216996
+UPPER,8,0.48344000,0.07731764
+UPPER,9,0.88000000,0.02971376
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00925132,-0.03659729
+LOWER,2,0.03700529,-0.01491220
+LOWER,3,0.07709434,-0.03672090
+LOWER,4,0.28716960,-0.03462830
+LOWER,5,0.33008000,-0.05181167
+LOWER,6,0.37299040,-0.02818454
+LOWER,7,0.37593600,0.00833013
+LOWER,8,0.48344000,0.01942688
+LOWER,9,0.88000000,0.00960026
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rhinocrypta_lanceolata
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 81.90 mm
+# Secondary1: 76.20 mm
+# Kipps Distance: 5.80 mm
+# Hand-Wing Index: 6.90
+# Tail Length: 81.40 mm
+# Aspect Ratio: 1.075
+# Pointedness Index: 0.0708
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1334
+# Max Thickness Position: 0.3459
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3745
+# Leading Edge Radius: 0.0381
+# LE Droop: 0.0066
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01142769,0.07518613
+UPPER,2,0.04571075,0.12392568
+UPPER,3,0.09523073,0.15082125
+UPPER,4,0.30089820,0.18493217
+UPPER,5,0.34586000,0.19293618
+UPPER,6,0.39082180,0.17959616
+UPPER,7,0.39618700,0.14224410
+UPPER,8,0.50448000,0.08795764
+UPPER,9,0.88000000,0.03329569
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01142769,-0.04372475
+LOWER,2,0.04571075,-0.02185048
+LOWER,3,0.09523073,-0.04998557
+LOWER,4,0.30089820,-0.05252020
+LOWER,5,0.34586000,-0.07386423
+LOWER,6,0.39082180,-0.04451619
+LOWER,7,0.39618700,0.00083988
+LOWER,8,0.50448000,0.01823628
+LOWER,9,0.88000000,0.00954799
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

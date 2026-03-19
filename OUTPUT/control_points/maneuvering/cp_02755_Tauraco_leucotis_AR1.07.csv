@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tauraco_leucotis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 175.80 mm
+# Secondary1: 164.00 mm
+# Kipps Distance: 14.00 mm
+# Hand-Wing Index: 7.90
+# Tail Length: 188.10 mm
+# Aspect Ratio: 1.072
+# Pointedness Index: 0.0796
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1283
+# Max Thickness Position: 0.3453
+# Max Camber/Chord: 0.0594
+# Max Camber Position: 0.3737
+# Leading Edge Radius: 0.0378
+# LE Droop: 0.0064
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.45e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01135212,0.07453270
+UPPER,2,0.04540847,0.12109976
+UPPER,3,0.09460097,0.14706637
+UPPER,4,0.30037620,0.18004747
+UPPER,5,0.34526000,0.18774524
+UPPER,6,0.39014380,0.17491562
+UPPER,7,0.39541700,0.13899266
+UPPER,8,0.50368000,0.08645458
+UPPER,9,0.88000000,0.03285431
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01135212,-0.04348247
+LOWER,2,0.04540847,-0.02024766
+LOWER,3,0.09460097,-0.04706531
+LOWER,4,0.30037620,-0.04831989
+LOWER,5,0.34526000,-0.06884729
+LOWER,6,0.39014380,-0.04062212
+LOWER,7,0.39541700,0.00299862
+LOWER,8,0.50368000,0.01889689
+LOWER,9,0.88000000,0.00973039
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

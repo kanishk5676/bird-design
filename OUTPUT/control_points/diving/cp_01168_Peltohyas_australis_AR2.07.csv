@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Peltohyas_australis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 136.40 mm
+# Secondary1: 66.00 mm
+# Kipps Distance: 69.50 mm
+# Hand-Wing Index: 51.30
+# Tail Length: 63.80 mm
+# Aspect Ratio: 2.067
+# Pointedness Index: 0.5095
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0945
+# Max Thickness Position: 0.3192
+# Max Camber/Chord: 0.0509
+# Max Camber Position: 0.3390
+# Leading Edge Radius: 0.0261
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.82e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00783161,0.04698968
+UPPER,2,0.03132645,0.09045759
+UPPER,3,0.06526344,0.11479877
+UPPER,4,0.27772140,0.13964851
+UPPER,5,0.31922000,0.14531613
+UPPER,6,0.36071860,0.13587009
+UPPER,7,0.36199900,0.10942120
+UPPER,8,0.46896000,0.06967631
+UPPER,9,0.88000000,0.02688202
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00783161,-0.03132645
+LOWER,2,0.03132645,-0.01242779
+LOWER,3,0.06526344,-0.03139335
+LOWER,4,0.27772140,-0.02849092
+LOWER,5,0.31922000,-0.04360458
+LOWER,6,0.36071860,-0.02282330
+LOWER,7,0.36199900,0.00929322
+LOWER,8,0.46896000,0.01830613
+LOWER,9,0.88000000,0.00893553
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

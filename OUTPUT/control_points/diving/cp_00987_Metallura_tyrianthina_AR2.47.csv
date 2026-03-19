@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Metallura_tyrianthina
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 54.20 mm
+# Secondary1: 21.90 mm
+# Kipps Distance: 32.30 mm
+# Hand-Wing Index: 59.70
+# Tail Length: 37.80 mm
+# Aspect Ratio: 2.475
+# Pointedness Index: 0.5959
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0913
+# Max Thickness Position: 0.3142
+# Max Camber/Chord: 0.0481
+# Max Camber Position: 0.3322
+# Leading Edge Radius: 0.0238
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.23e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00713388,0.04280329
+UPPER,2,0.02853552,0.08655455
+UPPER,3,0.05944901,0.11001470
+UPPER,4,0.27333660,0.13395589
+UPPER,5,0.31418000,0.13943575
+UPPER,6,0.35502340,0.13030266
+UPPER,7,0.35553100,0.10472998
+UPPER,8,0.46224000,0.06646173
+UPPER,9,0.88000000,0.02558629
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00713388,-0.02853552
+LOWER,2,0.02853552,-0.01238924
+LOWER,3,0.05944901,-0.03084377
+LOWER,4,0.27333660,-0.02861325
+LOWER,5,0.31418000,-0.04322620
+LOWER,6,0.35502340,-0.02313339
+LOWER,7,0.35553100,0.00791914
+LOWER,8,0.46224000,0.01703862
+LOWER,9,0.88000000,0.00837295
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

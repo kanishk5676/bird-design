@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Legatus_leucophaius
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 78.50 mm
+# Secondary1: 59.20 mm
+# Kipps Distance: 20.10 mm
+# Hand-Wing Index: 25.50
+# Tail Length: 55.20 mm
+# Aspect Ratio: 1.326
+# Pointedness Index: 0.2561
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1188
+# Max Thickness Position: 0.3347
+# Max Camber/Chord: 0.0571
+# Max Camber Position: 0.3596
+# Leading Edge Radius: 0.0330
+# LE Droop: 0.0029
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.21e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00991384,0.06238304
+UPPER,2,0.03965536,0.11081177
+UPPER,3,0.08261533,0.13803474
+UPPER,4,0.29118900,0.16872870
+UPPER,5,0.33470000,0.17585397
+UPPER,6,0.37821100,0.16397851
+UPPER,7,0.38186500,0.13072723
+UPPER,8,0.48960000,0.08178576
+UPPER,9,0.88000000,0.03119813
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00991384,-0.03878536
+LOWER,2,0.03965536,-0.01801669
+LOWER,3,0.08261533,-0.04261195
+LOWER,4,0.29118900,-0.04265449
+LOWER,5,0.33470000,-0.06165522
+LOWER,6,0.37821100,-0.03552921
+LOWER,7,0.38186500,0.00484735
+LOWER,8,0.48960000,0.01877597
+LOWER,9,0.88000000,0.00952466
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Accipiter_rhodogaster
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 172.60 mm
+# Secondary1: 122.40 mm
+# Kipps Distance: 51.60 mm
+# Hand-Wing Index: 29.70
+# Tail Length: 125.80 mm
+# Aspect Ratio: 1.410
+# Pointedness Index: 0.2990
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1110
+# Max Thickness Position: 0.3322
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3562
+# Leading Edge Radius: 0.0319
+# LE Droop: 0.0021
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.37e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00956650,0.05945899
+UPPER,2,0.03826599,0.10540408
+UPPER,3,0.07972082,0.13169730
+UPPER,4,0.28899660,0.16061363
+UPPER,5,0.33218000,0.16727132
+UPPER,6,0.37536340,0.15617516
+UPPER,7,0.37863100,0.12510593
+UPPER,8,0.48624000,0.07893254
+UPPER,9,0.88000000,0.03027464
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00956650,-0.03764799
+LOWER,2,0.03826599,-0.01579927
+LOWER,3,0.07972082,-0.03845520
+LOWER,4,0.28899660,-0.03689792
+LOWER,5,0.33218000,-0.05465177
+LOWER,6,0.37536340,-0.03024023
+LOWER,7,0.37863100,0.00748670
+LOWER,8,0.48624000,0.01937744
+LOWER,9,0.88000000,0.00963898
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

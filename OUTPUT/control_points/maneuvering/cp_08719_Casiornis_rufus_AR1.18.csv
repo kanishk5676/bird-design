@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Casiornis_rufus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 84.90 mm
+# Secondary1: 71.80 mm
+# Kipps Distance: 13.10 mm
+# Hand-Wing Index: 15.40
+# Tail Length: 81.80 mm
+# Aspect Ratio: 1.182
+# Pointedness Index: 0.1543
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1264
+# Max Thickness Position: 0.3408
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3677
+# Leading Edge Radius: 0.0358
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.34e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01074183,0.06937101
+UPPER,2,0.04296734,0.11796201
+UPPER,3,0.08951529,0.14495482
+UPPER,4,0.29646120,0.17745400
+UPPER,5,0.34076000,0.18503806
+UPPER,6,0.38505880,0.17239796
+UPPER,7,0.38964200,0.13700569
+UPPER,8,0.49768000,0.08523380
+UPPER,9,0.88000000,0.03239417
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01074183,-0.04149134
+LOWER,2,0.04296734,-0.01992532
+LOWER,3,0.08951529,-0.04633949
+LOWER,4,0.29646120,-0.04753971
+LOWER,5,0.34076000,-0.06776386
+LOWER,6,0.38505880,-0.03995565
+LOWER,7,0.38964200,0.00302068
+LOWER,8,0.49768000,0.01865887
+LOWER,9,0.88000000,0.00960324
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

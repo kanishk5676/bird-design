@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sterna_vittata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 260.00 mm
+# Secondary1: 84.00 mm
+# Kipps Distance: 178.50 mm
+# Hand-Wing Index: 68.00
+# Tail Length: 133.20 mm
+# Aspect Ratio: 3.095
+# Pointedness Index: 0.6865
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0780
+# Max Thickness Position: 0.3092
+# Max Camber/Chord: 0.0450
+# Max Camber Position: 0.3256
+# Leading Edge Radius: 0.0214
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.82e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00641785,0.03850712
+UPPER,2,0.02567142,0.07726099
+UPPER,3,0.05348212,0.09756366
+UPPER,4,0.26900400,0.11831673
+UPPER,5,0.30920000,0.12299397
+UPPER,6,0.34939600,0.11519857
+UPPER,7,0.34914000,0.09337146
+UPPER,8,0.45560000,0.06011111
+UPPER,9,0.88000000,0.02335152
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00641785,-0.02567142
+LOWER,2,0.02567142,-0.00918127
+LOWER,3,0.05348212,-0.02449490
+LOWER,4,0.26900400,-0.02044134
+LOWER,5,0.30920000,-0.03291397
+LOWER,6,0.34939600,-0.01576410
+LOWER,7,0.34914000,0.01074025
+LOWER,8,0.45560000,0.01701124
+LOWER,9,0.88000000,0.00814184
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

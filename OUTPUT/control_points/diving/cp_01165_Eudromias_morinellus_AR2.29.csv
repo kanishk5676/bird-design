@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eudromias_morinellus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 147.40 mm
+# Secondary1: 64.50 mm
+# Kipps Distance: 81.80 mm
+# Hand-Wing Index: 55.90
+# Tail Length: 66.30 mm
+# Aspect Ratio: 2.285
+# Pointedness Index: 0.5550
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0902
+# Max Thickness Position: 0.3165
+# Max Camber/Chord: 0.0494
+# Max Camber Position: 0.3353
+# Leading Edge Radius: 0.0249
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.22e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00745920,0.04475521
+UPPER,2,0.02983681,0.08708656
+UPPER,3,0.06216002,0.11038919
+UPPER,4,0.27532020,0.13418574
+UPPER,5,0.31646000,0.13959805
+UPPER,6,0.35759980,0.13057754
+UPPER,7,0.35845700,0.10532012
+UPPER,8,0.46528000,0.06724145
+UPPER,9,0.88000000,0.02598574
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00745920,-0.02983681
+LOWER,2,0.02983681,-0.01157808
+LOWER,3,0.06216002,-0.02959817
+LOWER,4,0.27532020,-0.02637929
+LOWER,5,0.31646000,-0.04081210
+LOWER,6,0.35759980,-0.02096698
+LOWER,7,0.35845700,0.00970274
+LOWER,8,0.46528000,0.01799493
+LOWER,9,0.88000000,0.00874004
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

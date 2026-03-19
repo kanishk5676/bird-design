@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Arachnothera_magna
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 88.70 mm
+# Secondary1: 72.50 mm
+# Kipps Distance: 16.50 mm
+# Hand-Wing Index: 18.50
+# Tail Length: 49.60 mm
+# Aspect Ratio: 1.223
+# Pointedness Index: 0.1860
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1237
+# Max Thickness Position: 0.3389
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3652
+# Leading Edge Radius: 0.0350
+# LE Droop: 0.0043
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.42e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01048520,0.06721118
+UPPER,2,0.04194079,0.11562546
+UPPER,3,0.08737664,0.14260997
+UPPER,4,0.29484300,0.17447668
+UPPER,5,0.33890000,0.18189736
+UPPER,6,0.38295700,0.16952956
+UPPER,7,0.38725500,0.13489972
+UPPER,8,0.49520000,0.08411630
+UPPER,9,0.88000000,0.03201760
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01048520,-0.04065079
+LOWER,2,0.04194079,-0.01920017
+LOWER,3,0.08737664,-0.04495232
+LOWER,4,0.29484300,-0.04567013
+LOWER,5,0.33890000,-0.06545861
+LOWER,6,0.38295700,-0.03824945
+LOWER,7,0.38725500,0.00380106
+LOWER,8,0.49520000,0.01878110
+LOWER,9,0.88000000,0.00960772
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

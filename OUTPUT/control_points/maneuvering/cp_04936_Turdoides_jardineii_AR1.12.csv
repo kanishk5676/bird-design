@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Turdoides_jardineii
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 102.60 mm
+# Secondary1: 91.20 mm
+# Kipps Distance: 10.50 mm
+# Hand-Wing Index: 10.30
+# Tail Length: 100.20 mm
+# Aspect Ratio: 1.125
+# Pointedness Index: 0.1023
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1294
+# Max Thickness Position: 0.3438
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3718
+# Leading Edge Radius: 0.0372
+# LE Droop: 0.0059
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.71e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01116289,0.07291734
+UPPER,2,0.04465156,0.12099003
+UPPER,3,0.09302408,0.14766924
+UPPER,4,0.29912340,0.18088064
+UPPER,5,0.34382000,0.18864623
+UPPER,6,0.38851660,0.17570358
+UPPER,7,0.39356900,0.13946418
+UPPER,8,0.50176000,0.08657622
+UPPER,9,0.88000000,0.03285763
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01116289,-0.04286956
+LOWER,2,0.04465156,-0.02068954
+LOWER,3,0.09302408,-0.04782625
+LOWER,4,0.29912340,-0.04949844
+LOWER,5,0.34382000,-0.07020668
+LOWER,6,0.38851660,-0.04173286
+LOWER,7,0.39356900,0.00227214
+LOWER,8,0.50176000,0.01859656
+LOWER,9,0.88000000,0.00962789
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Alcedo_hercules
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 96.00 mm
+# Secondary1: 71.00 mm
+# Kipps Distance: 25.00 mm
+# Hand-Wing Index: 26.00
+# Tail Length: 45.20 mm
+# Aspect Ratio: 1.352
+# Pointedness Index: 0.2604
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1168
+# Max Thickness Position: 0.3344
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3592
+# Leading Edge Radius: 0.0329
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.72e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00987628,0.06205765
+UPPER,2,0.03950510,0.10968256
+UPPER,3,0.08230229,0.13657985
+UPPER,4,0.29092800,0.16684724
+UPPER,5,0.33440000,0.17385813
+UPPER,6,0.37787200,0.16217332
+UPPER,7,0.38148000,0.12945584
+UPPER,8,0.48920000,0.08117598
+UPPER,9,0.88000000,0.03101165
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00987628,-0.03866510
+LOWER,2,0.03950510,-0.01743790
+LOWER,3,0.08230229,-0.04154732
+LOWER,4,0.29092800,-0.04114243
+LOWER,5,0.33440000,-0.05983813
+LOWER,6,0.37787200,-0.03413154
+LOWER,7,0.38148000,0.00559682
+LOWER,8,0.48920000,0.01898746
+LOWER,9,0.88000000,0.00957857
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

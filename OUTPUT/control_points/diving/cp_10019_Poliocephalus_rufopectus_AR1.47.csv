@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Poliocephalus_rufopectus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 111.20 mm
+# Secondary1: 75.60 mm
+# Kipps Distance: 35.60 mm
+# Hand-Wing Index: 32.00
+# Tail Length: 30.80 mm
+# Aspect Ratio: 1.471
+# Pointedness Index: 0.3201
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1102
+# Max Thickness Position: 0.3308
+# Max Camber/Chord: 0.0558
+# Max Camber Position: 0.3544
+# Leading Edge Radius: 0.0313
+# LE Droop: 0.0016
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00938807,0.05792840
+UPPER,2,0.03755226,0.10416893
+UPPER,3,0.07823388,0.13072390
+UPPER,4,0.28779600,0.15943727
+UPPER,5,0.33080000,0.16604987
+UPPER,6,0.37380400,0.15502888
+UPPER,7,0.37686000,0.12417012
+UPPER,8,0.48440000,0.07832276
+UPPER,9,0.88000000,0.03003599
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00938807,-0.03707226
+LOWER,2,0.03755226,-0.01572316
+LOWER,3,0.07823388,-0.03823532
+LOWER,4,0.28779600,-0.03673629
+LOWER,5,0.33080000,-0.05436987
+LOWER,6,0.37380400,-0.03012370
+LOWER,7,0.37686000,0.00734766
+LOWER,8,0.48440000,0.01919142
+LOWER,9,0.88000000,0.00955161
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

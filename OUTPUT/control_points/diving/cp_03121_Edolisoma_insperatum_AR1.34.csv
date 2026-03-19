@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Edolisoma_insperatum
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 106.70 mm
+# Secondary1: 79.60 mm
+# Kipps Distance: 27.10 mm
+# Hand-Wing Index: 25.40
+# Tail Length: 78.90 mm
+# Aspect Ratio: 1.340
+# Pointedness Index: 0.2540
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1171
+# Max Thickness Position: 0.3348
+# Max Camber/Chord: 0.0571
+# Max Camber Position: 0.3597
+# Leading Edge Radius: 0.0331
+# LE Droop: 0.0029
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.80e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00992745,0.06248468
+UPPER,2,0.03970978,0.11003307
+UPPER,3,0.08272872,0.13687922
+UPPER,4,0.29124120,0.16721654
+UPPER,5,0.33476000,0.17424416
+UPPER,6,0.37827880,0.16253146
+UPPER,7,0.38194200,0.12973588
+UPPER,8,0.48968000,0.08134511
+UPPER,9,0.88000000,0.03107466
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00992745,-0.03883378
+LOWER,2,0.03970978,-0.01748967
+LOWER,3,0.08272872,-0.04165983
+LOWER,4,0.29124120,-0.04126963
+LOWER,5,0.33476000,-0.06000996
+LOWER,6,0.37827880,-0.03424201
+LOWER,7,0.38194200,0.00558119
+LOWER,8,0.48968000,0.01901481
+LOWER,9,0.88000000,0.00959419
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

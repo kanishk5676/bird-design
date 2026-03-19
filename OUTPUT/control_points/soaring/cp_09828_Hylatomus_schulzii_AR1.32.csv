@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hylatomus_schulzii
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 172.40 mm
+# Secondary1: 130.90 mm
+# Kipps Distance: 40.40 mm
+# Hand-Wing Index: 23.60
+# Tail Length: 119.80 mm
+# Aspect Ratio: 1.317
+# Pointedness Index: 0.2343
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1158
+# Max Thickness Position: 0.3358
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3611
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.37e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01008271,0.06377627
+UPPER,2,0.04033085,0.11001755
+UPPER,3,0.08402260,0.13624409
+UPPER,4,0.29218080,0.16632489
+UPPER,5,0.33584000,0.17327579
+UPPER,6,0.37949920,0.16169097
+UPPER,7,0.38332800,0.12925347
+UPPER,8,0.49112000,0.08125095
+UPPER,9,0.88000000,0.03109034
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01008271,-0.03934685
+LOWER,2,0.04033085,-0.01697176
+LOWER,3,0.08402260,-0.04077525
+LOWER,4,0.29218080,-0.03988488
+LOWER,5,0.33584000,-0.05842059
+LOWER,6,0.37949920,-0.03293398
+LOWER,7,0.38332800,0.00645440
+LOWER,8,0.49112000,0.01938637
+LOWER,9,0.88000000,0.00972297
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

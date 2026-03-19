@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geophaps_plumifera
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 106.70 mm
+# Secondary1: 75.10 mm
+# Kipps Distance: 30.90 mm
+# Hand-Wing Index: 29.20
+# Tail Length: 68.10 mm
+# Aspect Ratio: 1.421
+# Pointedness Index: 0.2896
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1141
+# Max Thickness Position: 0.3325
+# Max Camber/Chord: 0.0564
+# Max Camber Position: 0.3566
+# Leading Edge Radius: 0.0321
+# LE Droop: 0.0022
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.80e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00962954,0.05993721
+UPPER,2,0.03851814,0.10715067
+UPPER,3,0.08024613,0.13403841
+UPPER,4,0.28925760,0.16365024
+UPPER,5,0.33248000,0.17049546
+UPPER,6,0.37570240,0.15908676
+UPPER,7,0.37901600,0.12714238
+UPPER,8,0.48664000,0.07989152
+UPPER,9,0.88000000,0.03056216
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00962954,-0.03787014
+LOWER,2,0.03851814,-0.01676492
+LOWER,3,0.08024613,-0.04022263
+LOWER,4,0.28925760,-0.03942473
+LOWER,5,0.33248000,-0.05767866
+LOWER,6,0.37570240,-0.03257951
+LOWER,7,0.37901600,0.00621009
+LOWER,8,0.48664000,0.01900102
+LOWER,9,0.88000000,0.00953862
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

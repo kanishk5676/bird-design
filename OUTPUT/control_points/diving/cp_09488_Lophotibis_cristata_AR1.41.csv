@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lophotibis_cristata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 318.80 mm
+# Secondary1: 226.00 mm
+# Kipps Distance: 92.80 mm
+# Hand-Wing Index: 29.00
+# Tail Length: 145.50 mm
+# Aspect Ratio: 1.411
+# Pointedness Index: 0.2911
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1080
+# Max Thickness Position: 0.3326
+# Max Camber/Chord: 0.0564
+# Max Camber Position: 0.3568
+# Leading Edge Radius: 0.0321
+# LE Droop: 0.0022
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.65e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00962803,0.05996820
+UPPER,2,0.03851213,0.10416084
+UPPER,3,0.08023361,0.12966357
+UPPER,4,0.28936200,0.15793078
+UPPER,5,0.33260000,0.16440843
+UPPER,6,0.37583800,0.15361234
+UPPER,7,0.37917000,0.12338328
+UPPER,8,0.48680000,0.07820944
+UPPER,9,0.88000000,0.03008692
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00962803,-0.03785213
+LOWER,2,0.03851213,-0.01479087
+LOWER,3,0.08023361,-0.03665149
+LOWER,4,0.28936200,-0.03423969
+LOWER,5,0.33260000,-0.05151343
+LOWER,6,0.37583800,-0.02776203
+LOWER,7,0.37917000,0.00894469
+LOWER,8,0.48680000,0.01988292
+LOWER,9,0.88000000,0.00979344
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

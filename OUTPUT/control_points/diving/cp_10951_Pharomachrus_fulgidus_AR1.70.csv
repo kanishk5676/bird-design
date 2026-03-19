@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pharomachrus_fulgidus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 182.60 mm
+# Secondary1: 107.60 mm
+# Kipps Distance: 70.90 mm
+# Hand-Wing Index: 39.80
+# Tail Length: 169.80 mm
+# Aspect Ratio: 1.697
+# Pointedness Index: 0.3883
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1026
+# Max Thickness Position: 0.3261
+# Max Camber/Chord: 0.0540
+# Max Camber Position: 0.3482
+# Leading Edge Radius: 0.0293
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.63e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00880189,0.05285134
+UPPER,2,0.03520756,0.09726167
+UPPER,3,0.07334908,0.12356804
+UPPER,4,0.28372440,0.15045491
+UPPER,5,0.32612000,0.15660842
+UPPER,6,0.36851560,0.14635257
+UPPER,7,0.37085400,0.11763618
+UPPER,8,0.47816000,0.07465880
+UPPER,9,0.88000000,0.02874364
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00880189,-0.03519556
+LOWER,2,0.03520756,-0.01390126
+LOWER,3,0.07334908,-0.03462099
+LOWER,4,0.28372440,-0.03209925
+LOWER,5,0.32612000,-0.04850862
+LOWER,6,0.36851560,-0.02594574
+LOWER,7,0.37085400,0.00892415
+LOWER,8,0.47816000,0.01915275
+LOWER,9,0.88000000,0.00941013
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

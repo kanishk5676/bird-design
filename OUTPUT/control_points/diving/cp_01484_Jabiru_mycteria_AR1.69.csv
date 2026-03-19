@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Jabiru_mycteria
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 640.80 mm
+# Secondary1: 380.00 mm
+# Kipps Distance: 260.80 mm
+# Hand-Wing Index: 40.70
+# Tail Length: 239.00 mm
+# Aspect Ratio: 1.686
+# Pointedness Index: 0.4070
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0944
+# Max Thickness Position: 0.3256
+# Max Camber/Chord: 0.0538
+# Max Camber Position: 0.3474
+# Leading Edge Radius: 0.0289
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.99e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00867892,0.05207355
+UPPER,2,0.03471570,0.09297377
+UPPER,3,0.07232437,0.11751980
+UPPER,4,0.28325460,0.14260407
+UPPER,5,0.32558000,0.14827089
+UPPER,6,0.36790540,0.13882618
+UPPER,7,0.37016100,0.11238099
+UPPER,8,0.47744000,0.07219540
+UPPER,9,0.88000000,0.02800880
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00867892,-0.03471570
+LOWER,2,0.03471570,-0.01138476
+LOWER,3,0.07232437,-0.03002039
+LOWER,4,0.28325460,-0.02551180
+LOWER,5,0.32558000,-0.04062334
+LOWER,6,0.36790540,-0.01984498
+LOWER,7,0.37016100,0.01226704
+LOWER,8,0.47744000,0.02014814
+LOWER,9,0.88000000,0.00967806
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

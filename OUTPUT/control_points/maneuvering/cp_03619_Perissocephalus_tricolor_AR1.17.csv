@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Perissocephalus_tricolor
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 211.00 mm
+# Secondary1: 179.80 mm
+# Kipps Distance: 31.40 mm
+# Hand-Wing Index: 14.90
+# Tail Length: 112.60 mm
+# Aspect Ratio: 1.174
+# Pointedness Index: 0.1488
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1216
+# Max Thickness Position: 0.3411
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3681
+# Leading Edge Radius: 0.0360
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.40e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01078510,0.06973062
+UPPER,2,0.04314041,0.11573788
+UPPER,3,0.08987586,0.14158896
+UPPER,4,0.29672220,0.17304703
+UPPER,5,0.34106000,0.18034578
+UPPER,6,0.38539780,0.16818120
+UPPER,7,0.39002700,0.13412037
+UPPER,8,0.49808000,0.08395580
+UPPER,9,0.88000000,0.03203765
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01078510,-0.04163441
+LOWER,2,0.04314041,-0.01838167
+LOWER,3,0.08987586,-0.04355258
+LOWER,4,0.29672220,-0.04348250
+LOWER,5,0.34106000,-0.06294583
+LOWER,6,0.38539780,-0.03618375
+LOWER,7,0.39002700,0.00517582
+LOWER,8,0.49808000,0.01936357
+LOWER,9,0.88000000,0.00980916
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

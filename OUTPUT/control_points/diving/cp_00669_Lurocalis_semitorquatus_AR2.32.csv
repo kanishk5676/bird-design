@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lurocalis_semitorquatus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 185.40 mm
+# Secondary1: 80.00 mm
+# Kipps Distance: 105.20 mm
+# Hand-Wing Index: 56.80
+# Tail Length: 83.80 mm
+# Aspect Ratio: 2.317
+# Pointedness Index: 0.5674
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0887
+# Max Thickness Position: 0.3159
+# Max Camber/Chord: 0.0491
+# Max Camber Position: 0.3346
+# Leading Edge Radius: 0.0246
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.90e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00736807,0.04420841
+UPPER,2,0.02947228,0.08605620
+UPPER,3,0.06140057,0.10899623
+UPPER,4,0.27485040,0.13242721
+UPPER,5,0.31592000,0.13774632
+UPPER,6,0.35698960,0.12888113
+UPPER,7,0.35776400,0.10405859
+UPPER,8,0.46456000,0.06655278
+UPPER,9,0.88000000,0.02574803
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00736807,-0.02947228
+LOWER,2,0.02947228,-0.01118558
+LOWER,3,0.06140057,-0.02883469
+LOWER,4,0.27485040,-0.02537321
+LOWER,5,0.31592000,-0.03955752
+LOWER,6,0.35698960,-0.02005410
+LOWER,7,0.35776400,0.01008755
+LOWER,8,0.46456000,0.01802726
+LOWER,9,0.88000000,0.00872752
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

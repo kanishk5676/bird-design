@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Systellura_roraimae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 164.30 mm
+# Secondary1: 85.10 mm
+# Kipps Distance: 79.20 mm
+# Hand-Wing Index: 48.20
+# Tail Length: 115.60 mm
+# Aspect Ratio: 1.931
+# Pointedness Index: 0.4820
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0964
+# Max Thickness Position: 0.3211
+# Max Camber/Chord: 0.0518
+# Max Camber Position: 0.3414
+# Leading Edge Radius: 0.0269
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.16e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00806665,0.04839990
+UPPER,2,0.03226660,0.09223639
+UPPER,3,0.06722209,0.11707870
+UPPER,4,0.27933960,0.14243884
+UPPER,5,0.32108000,0.14822545
+UPPER,6,0.36282040,0.13858109
+UPPER,7,0.36438600,0.11157690
+UPPER,8,0.47144000,0.07101881
+UPPER,9,0.88000000,0.02739261
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00806665,-0.03226660
+LOWER,2,0.03226660,-0.01273827
+LOWER,3,0.06722209,-0.03211758
+LOWER,4,0.27933960,-0.02923068
+LOWER,5,0.32108000,-0.04466165
+LOWER,6,0.36282040,-0.02344407
+LOWER,7,0.36438600,0.00934674
+LOWER,8,0.47144000,0.01860268
+LOWER,9,0.88000000,0.00908773
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

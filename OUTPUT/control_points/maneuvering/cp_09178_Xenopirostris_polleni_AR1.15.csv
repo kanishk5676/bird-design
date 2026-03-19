@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Xenopirostris_polleni
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 120.00 mm
+# Secondary1: 104.20 mm
+# Kipps Distance: 15.80 mm
+# Hand-Wing Index: 13.20
+# Tail Length: 77.20 mm
+# Aspect Ratio: 1.152
+# Pointedness Index: 0.1317
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1262
+# Max Thickness Position: 0.3421
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3694
+# Leading Edge Radius: 0.0364
+# LE Droop: 0.0054
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.10e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01092458,0.07090748
+UPPER,2,0.04369832,0.11854219
+UPPER,3,0.09103817,0.14507542
+UPPER,4,0.29760960,0.17755769
+UPPER,5,0.34208000,0.18513131
+UPPER,6,0.38655040,0.17250862
+UPPER,7,0.39133600,0.13716508
+UPPER,8,0.49944000,0.08541227
+UPPER,9,0.88000000,0.03248182
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01092458,-0.04209032
+LOWER,2,0.04369832,-0.01977607
+LOWER,3,0.09103817,-0.04611558
+LOWER,4,0.29760960,-0.04712620
+LOWER,5,0.34208000,-0.06732251
+LOWER,6,0.38655040,-0.03955259
+LOWER,7,0.39133600,0.00336456
+LOWER,8,0.49944000,0.01884896
+LOWER,9,0.88000000,0.00967702
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

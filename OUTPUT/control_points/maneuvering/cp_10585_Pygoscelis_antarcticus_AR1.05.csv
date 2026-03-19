@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pygoscelis_antarcticus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 100.50 mm
+# Secondary1: 95.70 mm
+# Kipps Distance: 4.80 mm
+# Hand-Wing Index: 4.80
+# Tail Length: 138.00 mm
+# Aspect Ratio: 1.050
+# Pointedness Index: 0.0478
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1339
+# Max Thickness Position: 0.3471
+# Max Camber/Chord: 0.0597
+# Max Camber Position: 0.3762
+# Leading Edge Radius: 0.0387
+# LE Droop: 0.0070
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.67e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01160954,0.07669723
+UPPER,2,0.04643815,0.12475808
+UPPER,3,0.09674615,0.15136450
+UPPER,4,0.30199440,0.18560795
+UPPER,5,0.34712000,0.19364448
+UPPER,6,0.39224560,0.18025027
+UPPER,7,0.39780400,0.14274649
+UPPER,8,0.50616000,0.08825082
+UPPER,9,0.88000000,0.03340228
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01160954,-0.04432615
+LOWER,2,0.04643815,-0.02196562
+LOWER,3,0.09674615,-0.05022330
+LOWER,4,0.30199440,-0.05280895
+LOWER,5,0.34712000,-0.07423968
+LOWER,6,0.39224560,-0.04477242
+LOWER,7,0.39780400,0.00076789
+LOWER,8,0.50616000,0.01826360
+LOWER,9,0.88000000,0.00956792
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

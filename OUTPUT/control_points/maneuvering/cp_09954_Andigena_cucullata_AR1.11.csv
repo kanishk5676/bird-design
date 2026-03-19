@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Andigena_cucullata
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 178.60 mm
+# Secondary1: 160.40 mm
+# Kipps Distance: 18.10 mm
+# Hand-Wing Index: 10.20
+# Tail Length: 169.50 mm
+# Aspect Ratio: 1.113
+# Pointedness Index: 0.1013
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1264
+# Max Thickness Position: 0.3439
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3718
+# Leading Edge Radius: 0.0372
+# LE Droop: 0.0060
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01117103,0.07298616
+UPPER,2,0.04468411,0.11948824
+UPPER,3,0.09309189,0.14547477
+UPPER,4,0.29917560,0.17801361
+UPPER,5,0.34388000,0.18559555
+UPPER,6,0.38858440,0.17295898
+UPPER,7,0.39364600,0.13757660
+UPPER,8,0.50184000,0.08572780
+UPPER,9,0.88000000,0.03261661
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01117103,-0.04289611
+LOWER,2,0.04468411,-0.01970654
+LOWER,3,0.09309189,-0.04604632
+LOWER,4,0.29917560,-0.04691724
+LOWER,5,0.34388000,-0.06713575
+LOWER,6,0.38858440,-0.03933530
+LOWER,7,0.39364600,0.00362902
+LOWER,8,0.50184000,0.01903135
+LOWER,9,0.88000000,0.00975285
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

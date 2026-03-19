@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Crax_rubra
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 381.20 mm
+# Secondary1: 345.60 mm
+# Kipps Distance: 35.60 mm
+# Hand-Wing Index: 9.30
+# Tail Length: 340.20 mm
+# Aspect Ratio: 1.103
+# Pointedness Index: 0.0934
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1227
+# Max Thickness Position: 0.3444
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3726
+# Leading Edge Radius: 0.0375
+# LE Droop: 0.0061
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.76e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01123913,0.07357481
+UPPER,2,0.04495654,0.11789455
+UPPER,3,0.09365945,0.14289364
+UPPER,4,0.29964540,0.17462592
+UPPER,5,0.34442000,0.18198595
+UPPER,6,0.38919460,0.16971923
+UPPER,7,0.39433900,0.13537242
+UPPER,8,0.50256000,0.08476777
+UPPER,9,0.88000000,0.03235451
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01123913,-0.04311454
+LOWER,2,0.04495654,-0.01849193
+LOWER,3,0.09365945,-0.04386033
+LOWER,4,0.29964540,-0.04372165
+LOWER,5,0.34442000,-0.06334840
+LOWER,6,0.38919460,-0.03636162
+LOWER,7,0.39433900,0.00534522
+LOWER,8,0.50256000,0.01960424
+LOWER,9,0.88000000,0.00992301
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

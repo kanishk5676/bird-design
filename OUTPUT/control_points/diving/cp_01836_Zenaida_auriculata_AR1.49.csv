@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Zenaida_auriculata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 136.20 mm
+# Secondary1: 91.70 mm
+# Kipps Distance: 45.20 mm
+# Hand-Wing Index: 32.70
+# Tail Length: 92.90 mm
+# Aspect Ratio: 1.485
+# Pointedness Index: 0.3319
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1099
+# Max Thickness Position: 0.3304
+# Max Camber/Chord: 0.0557
+# Max Camber Position: 0.3538
+# Leading Edge Radius: 0.0310
+# LE Droop: 0.0015
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.47e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00930687,0.05730121
+UPPER,2,0.03722748,0.10375362
+UPPER,3,0.07755724,0.13037251
+UPPER,4,0.28743060,0.15900832
+UPPER,5,0.33038000,0.16560300
+UPPER,6,0.37332940,0.15461187
+UPPER,7,0.37632100,0.12383673
+UPPER,8,0.48384000,0.07811315
+UPPER,9,0.88000000,0.02995577
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00930687,-0.03678948
+LOWER,2,0.03722748,-0.01567947
+LOWER,3,0.07755724,-0.03813029
+LOWER,4,0.28743060,-0.03663365
+LOWER,5,0.33038000,-0.05421945
+LOWER,6,0.37332940,-0.03003898
+LOWER,7,0.37632100,0.00733084
+LOWER,8,0.48384000,0.01914133
+LOWER,9,0.88000000,0.00952649
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

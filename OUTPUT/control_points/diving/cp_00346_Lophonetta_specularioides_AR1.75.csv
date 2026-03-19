@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lophonetta_specularioides
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 269.20 mm
+# Secondary1: 153.50 mm
+# Kipps Distance: 117.50 mm
+# Hand-Wing Index: 43.50
+# Tail Length: 124.60 mm
+# Aspect Ratio: 1.754
+# Pointedness Index: 0.4365
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0974
+# Max Thickness Position: 0.3239
+# Max Camber/Chord: 0.0531
+# Max Camber Position: 0.3452
+# Leading Edge Radius: 0.0281
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00844286,0.05065716
+UPPER,2,0.03377144,0.09380581
+UPPER,3,0.07035717,0.11893967
+UPPER,4,0.28179300,0.14460448
+UPPER,5,0.32390000,0.15044555
+UPPER,6,0.36600700,0.14071043
+UPPER,7,0.36800500,0.11345210
+UPPER,8,0.47520000,0.07238855
+UPPER,9,0.88000000,0.02796396
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00844286,-0.03377144
+LOWER,2,0.03377144,-0.01256934
+LOWER,3,0.07035717,-0.03204027
+LOWER,4,0.28179300,-0.02868061
+LOWER,5,0.32390000,-0.04425680
+LOWER,6,0.36600700,-0.02283954
+LOWER,7,0.36800500,0.01025986
+LOWER,8,0.47520000,0.01928935
+LOWER,9,0.88000000,0.00937955
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

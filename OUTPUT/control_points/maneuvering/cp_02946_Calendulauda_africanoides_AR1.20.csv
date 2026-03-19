@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Calendulauda_africanoides
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 85.60 mm
+# Secondary1: 71.60 mm
+# Kipps Distance: 13.90 mm
+# Hand-Wing Index: 16.30
+# Tail Length: 62.00 mm
+# Aspect Ratio: 1.196
+# Pointedness Index: 0.1624
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1256
+# Max Thickness Position: 0.3402
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3670
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.36e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01067307,0.06877839
+UPPER,2,0.04269226,0.11730037
+UPPER,3,0.08894221,0.14429662
+UPPER,4,0.29599140,0.17661808
+UPPER,5,0.34022000,0.18415621
+UPPER,6,0.38444860,0.17159266
+UPPER,7,0.38894900,0.13641474
+UPPER,8,0.49696000,0.08492058
+UPPER,9,0.88000000,0.03228873
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01067307,-0.04127026
+LOWER,2,0.04269226,-0.01972107
+LOWER,3,0.08894221,-0.04594899
+LOWER,4,0.29599140,-0.04701299
+LOWER,5,0.34022000,-0.06711466
+LOWER,6,0.38444860,-0.03947486
+LOWER,7,0.38894900,0.00324118
+LOWER,8,0.49696000,0.01869392
+LOWER,9,0.88000000,0.00960478
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

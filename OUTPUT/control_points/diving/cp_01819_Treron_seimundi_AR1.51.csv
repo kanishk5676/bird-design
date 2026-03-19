@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Treron_seimundi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 153.60 mm
+# Secondary1: 101.50 mm
+# Kipps Distance: 52.00 mm
+# Hand-Wing Index: 33.90
+# Tail Length: 141.80 mm
+# Aspect Ratio: 1.513
+# Pointedness Index: 0.3385
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1083
+# Max Thickness Position: 0.3297
+# Max Camber/Chord: 0.0554
+# Max Camber Position: 0.3529
+# Leading Edge Radius: 0.0308
+# LE Droop: 0.0012
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.89e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00923610,0.05663658
+UPPER,2,0.03694439,0.10247113
+UPPER,3,0.07696748,0.12895031
+UPPER,4,0.28680420,0.15720380
+UPPER,5,0.32966000,0.16369988
+UPPER,6,0.37251580,0.15287309
+UPPER,7,0.37539700,0.12255808
+UPPER,8,0.48288000,0.07743219
+UPPER,9,0.88000000,0.02972558
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00923610,-0.03657839
+LOWER,2,0.03694439,-0.01524454
+LOWER,3,0.07696748,-0.03729668
+LOWER,4,0.28680420,-0.03551306
+LOWER,5,0.32966000,-0.05283593
+LOWER,6,0.37251580,-0.02901699
+LOWER,7,0.37539700,0.00779410
+LOWER,8,0.48288000,0.01921032
+LOWER,9,0.88000000,0.00952728
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

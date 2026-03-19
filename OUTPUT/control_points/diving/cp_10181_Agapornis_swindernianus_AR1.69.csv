@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Agapornis_swindernianus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 92.60 mm
+# Secondary1: 54.80 mm
+# Kipps Distance: 38.50 mm
+# Hand-Wing Index: 41.30
+# Tail Length: 35.20 mm
+# Aspect Ratio: 1.690
+# Pointedness Index: 0.4158
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1038
+# Max Thickness Position: 0.3252
+# Max Camber/Chord: 0.0537
+# Max Camber Position: 0.3470
+# Leading Edge Radius: 0.0287
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.08e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00861581,0.05169486
+UPPER,2,0.03446324,0.09751114
+UPPER,3,0.07179841,0.12410013
+UPPER,4,0.28294140,0.15122582
+UPPER,5,0.32522000,0.15745274
+UPPER,6,0.36749860,0.14707454
+UPPER,7,0.36969900,0.11801559
+UPPER,8,0.47696000,0.07467911
+UPPER,9,0.88000000,0.02869745
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00861581,-0.03446324
+LOWER,2,0.03446324,-0.01442546
+LOWER,3,0.07179841,-0.03550498
+LOWER,4,0.28294140,-0.03350607
+LOWER,5,0.32522000,-0.05011119
+LOWER,6,0.36749860,-0.02727916
+LOWER,7,0.36969900,0.00800671
+LOWER,8,0.47696000,0.01874641
+LOWER,9,0.88000000,0.00926642
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

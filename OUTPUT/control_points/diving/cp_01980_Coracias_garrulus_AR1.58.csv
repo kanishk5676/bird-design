@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Coracias_garrulus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 190.80 mm
+# Secondary1: 120.70 mm
+# Kipps Distance: 72.60 mm
+# Hand-Wing Index: 37.50
+# Tail Length: 122.60 mm
+# Aspect Ratio: 1.581
+# Pointedness Index: 0.3805
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1041
+# Max Thickness Position: 0.3275
+# Max Camber/Chord: 0.0546
+# Max Camber Position: 0.3500
+# Leading Edge Radius: 0.0297
+# LE Droop: 0.0005
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.85e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00891193,0.05397160
+UPPER,2,0.03564774,0.09899098
+UPPER,3,0.07426612,0.12522576
+UPPER,4,0.28492500,0.15250664
+UPPER,5,0.32750000,0.15875540
+UPPER,6,0.37007500,0.14834080
+UPPER,7,0.37262500,0.11917991
+UPPER,8,0.48000000,0.07557886
+UPPER,9,0.88000000,0.02908324
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00891193,-0.03549774
+LOWER,2,0.03564774,-0.01421345
+LOWER,3,0.07426612,-0.03528438
+LOWER,4,0.28492500,-0.03287328
+LOWER,5,0.32750000,-0.04953665
+LOWER,6,0.37007500,-0.02662452
+LOWER,7,0.37262500,0.00878512
+LOWER,8,0.48000000,0.01927737
+LOWER,9,0.88000000,0.00948650
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

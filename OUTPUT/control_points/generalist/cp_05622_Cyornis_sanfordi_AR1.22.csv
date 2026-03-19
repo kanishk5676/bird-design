@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cyornis_sanfordi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 83.20 mm
+# Secondary1: 68.40 mm
+# Kipps Distance: 14.90 mm
+# Hand-Wing Index: 17.90
+# Tail Length: 65.20 mm
+# Aspect Ratio: 1.216
+# Pointedness Index: 0.1791
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1245
+# Max Thickness Position: 0.3393
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3657
+# Leading Edge Radius: 0.0351
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.31e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01053892,0.06765351
+UPPER,2,0.04215567,0.11623489
+UPPER,3,0.08782432,0.14328904
+UPPER,4,0.29515620,0.17534622
+UPPER,5,0.33926000,0.18281700
+UPPER,6,0.38336380,0.17036570
+UPPER,7,0.38771700,0.13550205
+UPPER,8,0.49568000,0.08442203
+UPPER,9,0.88000000,0.03211655
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01053892,-0.04082967
+LOWER,2,0.04215567,-0.01943778
+LOWER,3,0.08782432,-0.04539773
+LOWER,4,0.29515620,-0.04628697
+LOWER,5,0.33926000,-0.06620905
+LOWER,6,0.38336380,-0.03881619
+LOWER,7,0.38771700,0.00351824
+LOWER,8,0.49568000,0.01871664
+LOWER,9,0.88000000,0.00959547
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

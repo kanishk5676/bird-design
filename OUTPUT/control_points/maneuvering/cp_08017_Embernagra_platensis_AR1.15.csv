@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Embernagra_platensis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 89.80 mm
+# Secondary1: 78.10 mm
+# Kipps Distance: 11.90 mm
+# Hand-Wing Index: 13.10
+# Tail Length: 92.20 mm
+# Aspect Ratio: 1.150
+# Pointedness Index: 0.1325
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1279
+# Max Thickness Position: 0.3421
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3695
+# Leading Edge Radius: 0.0364
+# LE Droop: 0.0054
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.44e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01092330,0.07091983
+UPPER,2,0.04369322,0.11942333
+UPPER,3,0.09102754,0.14631193
+UPPER,4,0.29766180,0.17916970
+UPPER,5,0.34214000,0.18684547
+UPPER,6,0.38661820,0.17405252
+UPPER,7,0.39141300,0.13823226
+UPPER,8,0.49952000,0.08589884
+UPPER,9,0.88000000,0.03262243
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01092330,-0.04207922
+LOWER,2,0.04369322,-0.02031685
+LOWER,3,0.09102754,-0.04709776
+LOWER,4,0.29766180,-0.04854480
+LOWER,5,0.34214000,-0.06901352
+LOWER,6,0.38661820,-0.04086903
+LOWER,7,0.39141300,0.00262700
+LOWER,8,0.49952000,0.01861778
+LOWER,9,0.88000000,0.00961181
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

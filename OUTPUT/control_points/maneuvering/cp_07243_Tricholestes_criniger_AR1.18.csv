@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tricholestes_criniger
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 73.20 mm
+# Secondary1: 61.80 mm
+# Kipps Distance: 11.10 mm
+# Hand-Wing Index: 15.30
+# Tail Length: 63.40 mm
+# Aspect Ratio: 1.184
+# Pointedness Index: 0.1516
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1273
+# Max Thickness Position: 0.3408
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3678
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.11e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01075846,0.06949076
+UPPER,2,0.04303384,0.11844229
+UPPER,3,0.08965383,0.14561377
+UPPER,4,0.29651340,0.17831174
+UPPER,5,0.34082000,0.18594974
+UPPER,6,0.38512660,0.17321974
+UPPER,7,0.38971900,0.13757575
+UPPER,8,0.49776000,0.08549630
+UPPER,9,0.88000000,0.03247091
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01075846,-0.04155184
+LOWER,2,0.04303384,-0.02020857
+LOWER,3,0.08965383,-0.04685508
+LOWER,4,0.29651340,-0.04828219
+LOWER,5,0.34082000,-0.06865019
+LOWER,6,0.38512660,-0.04064420
+LOWER,7,0.38971900,0.00263779
+LOWER,8,0.49776000,0.01854087
+LOWER,9,0.88000000,0.00957045
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

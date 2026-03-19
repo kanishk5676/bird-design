@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Campephaga_quiscalina
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 97.70 mm
+# Secondary1: 77.50 mm
+# Kipps Distance: 20.60 mm
+# Hand-Wing Index: 21.00
+# Tail Length: 89.40 mm
+# Aspect Ratio: 1.261
+# Pointedness Index: 0.2108
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1211
+# Max Thickness Position: 0.3374
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3632
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.61e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01028207,0.06549240
+UPPER,2,0.04112827,0.11354031
+UPPER,3,0.08568389,0.14044041
+UPPER,4,0.29353800,0.17171899
+UPPER,5,0.33740000,0.17898738
+UPPER,6,0.38126200,0.16687339
+UPPER,7,0.38533000,0.13295423
+UPPER,8,0.49320000,0.08308954
+UPPER,9,0.88000000,0.03167324
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01028207,-0.03998827
+LOWER,2,0.04112827,-0.01851814
+LOWER,3,0.08568389,-0.04365128
+LOWER,4,0.29353800,-0.04391000
+LOWER,5,0.33740000,-0.06329238
+LOWER,6,0.38126200,-0.03664161
+LOWER,7,0.38533000,0.00454595
+LOWER,8,0.49320000,0.01890587
+LOWER,9,0.88000000,0.00961628
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

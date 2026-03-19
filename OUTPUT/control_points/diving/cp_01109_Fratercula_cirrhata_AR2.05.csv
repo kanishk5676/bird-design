@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Fratercula_cirrhata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 194.10 mm
+# Secondary1: 94.90 mm
+# Kipps Distance: 96.60 mm
+# Hand-Wing Index: 50.50
+# Tail Length: 57.00 mm
+# Aspect Ratio: 2.045
+# Pointedness Index: 0.4977
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0929
+# Max Thickness Position: 0.3197
+# Max Camber/Chord: 0.0511
+# Max Camber Position: 0.3396
+# Leading Edge Radius: 0.0264
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.72e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00791652,0.04749914
+UPPER,2,0.03166610,0.08986577
+UPPER,3,0.06597103,0.11387250
+UPPER,4,0.27813900,0.13839023
+UPPER,5,0.31970000,0.14396198
+UPPER,6,0.36126100,0.13467572
+UPPER,7,0.36261500,0.10867419
+UPPER,8,0.46960000,0.06943600
+UPPER,9,0.88000000,0.02684677
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00791652,-0.03166610
+LOWER,2,0.03166610,-0.01183125
+LOWER,3,0.06597103,-0.03035460
+LOWER,4,0.27813900,-0.02690522
+LOWER,5,0.31970000,-0.04176323
+LOWER,6,0.36126100,-0.02133346
+LOWER,7,0.36261500,0.01023983
+LOWER,8,0.46960000,0.01868085
+LOWER,9,0.88000000,0.00906034
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

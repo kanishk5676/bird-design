@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Niltava_davidi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 90.80 mm
+# Secondary1: 70.90 mm
+# Kipps Distance: 19.90 mm
+# Hand-Wing Index: 21.90
+# Tail Length: 68.20 mm
+# Aspect Ratio: 1.281
+# Pointedness Index: 0.2192
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1208
+# Max Thickness Position: 0.3369
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3625
+# Leading Edge Radius: 0.0340
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.46e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01021213,0.06489277
+UPPER,2,0.04084851,0.11308404
+UPPER,3,0.08510107,0.14008560
+UPPER,4,0.29306820,0.17128422
+UPPER,5,0.33686000,0.17853390
+UPPER,6,0.38065180,0.16645110
+UPPER,7,0.38463700,0.13261929
+UPPER,8,0.49248000,0.08288190
+UPPER,9,0.88000000,0.03159450
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01021213,-0.03976251
+LOWER,2,0.04084851,-0.01846784
+LOWER,3,0.08510107,-0.04353545
+LOWER,4,0.29306820,-0.04378948
+LOWER,5,0.33686000,-0.06312195
+LOWER,6,0.38065180,-0.03653980
+LOWER,7,0.38463700,0.00454169
+LOWER,8,0.49248000,0.01886180
+LOWER,9,0.88000000,0.00959338
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Piaya_mexicana
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 148.20 mm
+# Secondary1: 131.00 mm
+# Kipps Distance: 17.30 mm
+# Hand-Wing Index: 11.60
+# Tail Length: 282.30 mm
+# Aspect Ratio: 1.131
+# Pointedness Index: 0.1167
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1263
+# Max Thickness Position: 0.3430
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3707
+# Leading Edge Radius: 0.0368
+# LE Droop: 0.0057
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.76e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01104970,0.07197818
+UPPER,2,0.04419878,0.11905691
+UPPER,3,0.09208080,0.14530134
+UPPER,4,0.29844480,0.17781660
+UPPER,5,0.34304000,0.18539530
+UPPER,6,0.38763520,0.17276413
+UPPER,7,0.39256800,0.13739685
+UPPER,8,0.50072000,0.08558834
+UPPER,9,0.88000000,0.03255670
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01104970,-0.04249478
+LOWER,2,0.04419878,-0.01974048
+LOWER,3,0.09208080,-0.04608233
+LOWER,4,0.29844480,-0.04701823
+LOWER,5,0.34304000,-0.06722810
+LOWER,6,0.38763520,-0.03943953
+LOWER,7,0.39256800,0.00350645
+LOWER,8,0.50072000,0.01894819
+LOWER,9,0.88000000,0.00971843
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

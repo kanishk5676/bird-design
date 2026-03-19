@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Streptoprocne_biscutata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 192.20 mm
+# Secondary1: 67.10 mm
+# Kipps Distance: 125.00 mm
+# Hand-Wing Index: 64.80
+# Tail Length: 68.10 mm
+# Aspect Ratio: 2.864
+# Pointedness Index: 0.6504
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0811
+# Max Thickness Position: 0.3111
+# Max Camber/Chord: 0.0463
+# Max Camber Position: 0.3282
+# Leading Edge Radius: 0.0223
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.04e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00670026,0.04020158
+UPPER,2,0.02680105,0.07989016
+UPPER,3,0.05583552,0.10097806
+UPPER,4,0.27067440,0.12252858
+UPPER,5,0.31112000,0.12739664
+UPPER,6,0.35156560,0.11928321
+UPPER,7,0.35160400,0.09656563
+UPPER,8,0.45816000,0.06204063
+UPPER,9,0.88000000,0.02407045
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00670026,-0.02680105
+LOWER,2,0.02680105,-0.00977112
+LOWER,3,0.05583552,-0.02577715
+LOWER,4,0.27067440,-0.02189036
+LOWER,5,0.31112000,-0.03487184
+LOWER,6,0.35156560,-0.01702230
+LOWER,7,0.35160400,0.01056334
+LOWER,8,0.45816000,0.01732389
+LOWER,9,0.88000000,0.00832023
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

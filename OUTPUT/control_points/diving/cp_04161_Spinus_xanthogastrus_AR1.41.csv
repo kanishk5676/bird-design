@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Spinus_xanthogastrus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 65.20 mm
+# Secondary1: 46.10 mm
+# Kipps Distance: 18.90 mm
+# Hand-Wing Index: 29.10
+# Tail Length: 40.50 mm
+# Aspect Ratio: 1.414
+# Pointedness Index: 0.2899
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1162
+# Max Thickness Position: 0.3325
+# Max Camber/Chord: 0.0564
+# Max Camber Position: 0.3567
+# Leading Edge Radius: 0.0321
+# LE Droop: 0.0022
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.14e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00963117,0.05996699
+UPPER,2,0.03852466,0.10822845
+UPPER,3,0.08025971,0.13555566
+UPPER,4,0.28930980,0.16562715
+UPPER,5,0.33254000,0.17259731
+UPPER,6,0.37577020,0.16098038
+UPPER,7,0.37909300,0.12845297
+UPPER,8,0.48672000,0.08049119
+UPPER,9,0.88000000,0.03073618
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00963117,-0.03787066
+LOWER,2,0.03852466,-0.01742440
+LOWER,3,0.08025971,-0.04142135
+LOWER,4,0.28930980,-0.04115427
+LOWER,5,0.33254000,-0.05974136
+LOWER,6,0.37577020,-0.03418411
+LOWER,7,0.37909300,0.00531347
+LOWER,8,0.48672000,0.01872164
+LOWER,9,0.88000000,0.00946022
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

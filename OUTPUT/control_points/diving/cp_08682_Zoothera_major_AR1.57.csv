@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Zoothera_major
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 160.10 mm
+# Secondary1: 101.80 mm
+# Kipps Distance: 58.40 mm
+# Hand-Wing Index: 36.40
+# Tail Length: 110.50 mm
+# Aspect Ratio: 1.573
+# Pointedness Index: 0.3648
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1060
+# Max Thickness Position: 0.3282
+# Max Camber/Chord: 0.0549
+# Max Camber Position: 0.3509
+# Leading Edge Radius: 0.0301
+# LE Droop: 0.0007
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00902582,0.05487494
+UPPER,2,0.03610329,0.10037320
+UPPER,3,0.07521519,0.12682086
+UPPER,4,0.28549920,0.15453719
+UPPER,5,0.32816000,0.16089908
+UPPER,6,0.37082080,0.15029593
+UPPER,7,0.37347200,0.12060712
+UPPER,8,0.48088000,0.07632628
+UPPER,9,0.88000000,0.02933221
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00902582,-0.03588729
+LOWER,2,0.03610329,-0.01472641
+LOWER,3,0.07521519,-0.03625916
+LOWER,4,0.28549920,-0.03419885
+LOWER,5,0.32816000,-0.05116388
+LOWER,6,0.37082080,-0.02783696
+LOWER,7,0.37347200,0.00821375
+LOWER,8,0.48088000,0.01917350
+LOWER,9,0.88000000,0.00947564
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

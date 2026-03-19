@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phelpsia_inornata
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 98.00 mm
+# Secondary1: 79.00 mm
+# Kipps Distance: 19.00 mm
+# Hand-Wing Index: 19.30
+# Tail Length: 84.50 mm
+# Aspect Ratio: 1.241
+# Pointedness Index: 0.1939
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1225
+# Max Thickness Position: 0.3384
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3646
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.61e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01042064,0.06666387
+UPPER,2,0.04168258,0.11476959
+UPPER,3,0.08683870,0.14164307
+UPPER,4,0.29442540,0.17323758
+UPPER,5,0.33842000,0.18058654
+UPPER,6,0.38241460,0.16833827
+UPPER,7,0.38663900,0.13404309
+UPPER,8,0.49456000,0.08368338
+UPPER,9,0.88000000,0.03187806
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01042064,-0.04044058
+LOWER,2,0.04168258,-0.01885816
+LOWER,3,0.08683870,-0.04431227
+LOWER,4,0.29442540,-0.04478175
+LOWER,5,0.33842000,-0.06437899
+LOWER,6,0.38241460,-0.03743278
+LOWER,7,0.38663900,0.00421136
+LOWER,8,0.49456000,0.01887675
+LOWER,9,0.88000000,0.00962663
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

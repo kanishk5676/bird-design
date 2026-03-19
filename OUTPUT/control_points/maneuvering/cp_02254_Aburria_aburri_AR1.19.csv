@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aburria_aburri
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 337.20 mm
+# Secondary1: 283.10 mm
+# Kipps Distance: 52.50 mm
+# Hand-Wing Index: 15.70
+# Tail Length: 290.40 mm
+# Aspect Ratio: 1.191
+# Pointedness Index: 0.1557
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1183
+# Max Thickness Position: 0.3406
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3674
+# Leading Edge Radius: 0.0358
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.26e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01072554,0.06921325
+UPPER,2,0.04290216,0.11380442
+UPPER,3,0.08937951,0.13906594
+UPPER,4,0.29630460,0.16977345
+UPPER,5,0.34058000,0.17686970
+UPPER,6,0.38485540,0.16504261
+UPPER,7,0.38941100,0.13192675
+UPPER,8,0.49744000,0.08292482
+UPPER,9,0.88000000,0.03172921
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01072554,-0.04144416
+LOWER,2,0.04290216,-0.01733713
+LOWER,3,0.08937951,-0.04164170
+LOWER,4,0.29630460,-0.04074880
+LOWER,5,0.34058000,-0.05967215
+LOWER,6,0.38485540,-0.03365255
+LOWER,7,0.38941100,0.00655957
+LOWER,8,0.49744000,0.01977331
+LOWER,9,0.88000000,0.00991886
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

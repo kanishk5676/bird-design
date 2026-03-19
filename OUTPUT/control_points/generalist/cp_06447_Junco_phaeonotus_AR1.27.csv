@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Junco_phaeonotus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 77.70 mm
+# Secondary1: 61.30 mm
+# Kipps Distance: 16.60 mm
+# Hand-Wing Index: 21.20
+# Tail Length: 68.00 mm
+# Aspect Ratio: 1.268
+# Pointedness Index: 0.2136
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1223
+# Max Thickness Position: 0.3373
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3630
+# Leading Edge Radius: 0.0342
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.20e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01026170,0.06533023
+UPPER,2,0.04104682,0.11402952
+UPPER,3,0.08551421,0.14121192
+UPPER,4,0.29343360,0.17273248
+UPPER,5,0.33728000,0.18006755
+UPPER,6,0.38112640,0.16784244
+UPPER,7,0.38517600,0.13361211
+UPPER,8,0.49304000,0.08337426
+UPPER,9,0.88000000,0.03175032
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01026170,-0.03991882
+LOWER,2,0.04104682,-0.01888463
+LOWER,3,0.08551421,-0.04431012
+LOWER,4,0.29343360,-0.04487457
+LOWER,5,0.33728000,-0.06443475
+LOWER,6,0.38112640,-0.03753950
+LOWER,7,0.38517600,0.00402589
+LOWER,8,0.49304000,0.01873101
+LOWER,9,0.88000000,0.00956405
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

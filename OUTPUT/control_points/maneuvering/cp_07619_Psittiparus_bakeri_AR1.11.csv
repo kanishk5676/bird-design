@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psittiparus_bakeri
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 86.00 mm
+# Secondary1: 77.60 mm
+# Kipps Distance: 8.40 mm
+# Hand-Wing Index: 9.70
+# Tail Length: 79.90 mm
+# Aspect Ratio: 1.108
+# Pointedness Index: 0.0977
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1309
+# Max Thickness Position: 0.3442
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3722
+# Leading Edge Radius: 0.0374
+# LE Droop: 0.0061
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.36e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01120504,0.07329024
+UPPER,2,0.04482016,0.12189260
+UPPER,3,0.09337534,0.14877789
+UPPER,4,0.29943660,0.18231598
+UPPER,5,0.34418000,0.19016935
+UPPER,6,0.38892340,0.17708039
+UPPER,7,0.39403100,0.14043131
+UPPER,8,0.50224000,0.08703689
+UPPER,9,0.88000000,0.03299748
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01120504,-0.04300216
+LOWER,2,0.04482016,-0.02113674
+LOWER,3,0.09337534,-0.04864726
+LOWER,4,0.29943660,-0.05066747
+LOWER,5,0.34418000,-0.07160980
+LOWER,6,0.38892340,-0.04281409
+LOWER,7,0.39403100,0.00168836
+LOWER,8,0.50224000,0.01842892
+LOWER,9,0.88000000,0.00958436
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

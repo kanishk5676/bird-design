@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anthreptes_neglectus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 69.20 mm
+# Secondary1: 58.10 mm
+# Kipps Distance: 9.90 mm
+# Hand-Wing Index: 14.40
+# Tail Length: 54.00 mm
+# Aspect Ratio: 1.191
+# Pointedness Index: 0.1431
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1283
+# Max Thickness Position: 0.3414
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3685
+# Leading Edge Radius: 0.0361
+# LE Droop: 0.0051
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.04e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01082974,0.07009841
+UPPER,2,0.04331894,0.11923176
+UPPER,3,0.09024780,0.14645741
+UPPER,4,0.29698320,0.17939067
+UPPER,5,0.34136000,0.18709040
+UPPER,6,0.38573680,0.17425752
+UPPER,7,0.39041200,0.13832546
+UPPER,8,0.49848000,0.08587942
+UPPER,9,0.88000000,0.03259571
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01082974,-0.04178294
+LOWER,2,0.04331894,-0.02049866
+LOWER,3,0.09024780,-0.04740037
+LOWER,4,0.29698320,-0.04903459
+LOWER,5,0.34136000,-0.06956720
+LOWER,6,0.38573680,-0.04133486
+LOWER,7,0.39041200,0.00229693
+LOWER,8,0.49848000,0.01846616
+LOWER,9,0.88000000,0.00955725
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

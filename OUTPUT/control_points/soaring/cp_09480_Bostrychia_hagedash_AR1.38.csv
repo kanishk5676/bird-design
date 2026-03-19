@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bostrychia_hagedash
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 338.80 mm
+# Secondary1: 245.30 mm
+# Kipps Distance: 91.10 mm
+# Hand-Wing Index: 27.10
+# Tail Length: 162.40 mm
+# Aspect Ratio: 1.381
+# Pointedness Index: 0.2689
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1091
+# Max Thickness Position: 0.3337
+# Max Camber/Chord: 0.0568
+# Max Camber Position: 0.3583
+# Leading Edge Radius: 0.0327
+# LE Droop: 0.0026
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.31e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00979940,0.06137640
+UPPER,2,0.03919760,0.10542916
+UPPER,3,0.08166167,0.13083286
+UPPER,4,0.29035380,0.15938465
+UPPER,5,0.33374000,0.16593203
+UPPER,6,0.37712620,0.15501972
+UPPER,7,0.38063300,0.12446527
+UPPER,8,0.48832000,0.07884208
+UPPER,9,0.88000000,0.03031725
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00979940,-0.03842360
+LOWER,2,0.03919760,-0.01503624
+LOWER,3,0.08166167,-0.03715924
+LOWER,4,0.29035380,-0.03485439
+LOWER,5,0.33374000,-0.05231408
+LOWER,6,0.37712620,-0.02830701
+LOWER,7,0.38063300,0.00879483
+LOWER,8,0.48832000,0.01994434
+LOWER,9,0.88000000,0.00983732
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

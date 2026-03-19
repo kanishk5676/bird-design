@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Acrocephalus_palustris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 68.60 mm
+# Secondary1: 49.60 mm
+# Kipps Distance: 19.20 mm
+# Hand-Wing Index: 27.90
+# Tail Length: 56.50 mm
+# Aspect Ratio: 1.383
+# Pointedness Index: 0.2799
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1176
+# Max Thickness Position: 0.3333
+# Max Camber/Chord: 0.0567
+# Max Camber Position: 0.3577
+# Leading Edge Radius: 0.0324
+# LE Droop: 0.0024
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00971885,0.06073313
+UPPER,2,0.03887542,0.10936842
+UPPER,3,0.08099046,0.13678140
+UPPER,4,0.28993620,0.16718096
+UPPER,5,0.33326000,0.17423556
+UPPER,6,0.37658380,0.16247790
+UPPER,7,0.38001700,0.12955646
+UPPER,8,0.48768000,0.08108157
+UPPER,9,0.88000000,0.03093654
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00971885,-0.03814942
+LOWER,2,0.03887542,-0.01779387
+LOWER,3,0.08099046,-0.04213129
+LOWER,4,0.28993620,-0.04210535
+LOWER,5,0.33326000,-0.06091761
+LOWER,6,0.37658380,-0.03505076
+LOWER,7,0.38001700,0.00492528
+LOWER,8,0.48768000,0.01866784
+LOWER,9,0.88000000,0.00946168
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

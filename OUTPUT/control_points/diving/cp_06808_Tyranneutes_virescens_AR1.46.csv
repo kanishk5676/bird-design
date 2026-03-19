@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tyranneutes_virescens
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 50.20 mm
+# Secondary1: 34.40 mm
+# Kipps Distance: 15.30 mm
+# Hand-Wing Index: 30.90
+# Tail Length: 20.40 mm
+# Aspect Ratio: 1.459
+# Pointedness Index: 0.3048
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1146
+# Max Thickness Position: 0.3315
+# Max Camber/Chord: 0.0561
+# Max Camber Position: 0.3553
+# Leading Edge Radius: 0.0317
+# LE Droop: 0.0018
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00950008,0.05882047
+UPPER,2,0.03800031,0.10677458
+UPPER,3,0.07916731,0.13408993
+UPPER,4,0.28837020,0.16378596
+UPPER,5,0.33146000,0.17066158
+UPPER,6,0.37454980,0.15920222
+UPPER,7,0.37770700,0.12711601
+UPPER,8,0.48528000,0.07974399
+UPPER,9,0.88000000,0.03047332
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00950008,-0.03745431
+LOWER,2,0.03800031,-0.01704616
+LOWER,3,0.07916731,-0.04067302
+LOWER,4,0.28837020,-0.04019065
+LOWER,5,0.33146000,-0.05852563
+LOWER,6,0.37454980,-0.03331503
+LOWER,7,0.37770700,0.00564679
+LOWER,8,0.48528000,0.01871904
+LOWER,9,0.88000000,0.00943325
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

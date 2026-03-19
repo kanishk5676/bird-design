@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dicrurus_lophorinus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 141.60 mm
+# Secondary1: 113.10 mm
+# Kipps Distance: 28.40 mm
+# Hand-Wing Index: 20.00
+# Tail Length: 167.90 mm
+# Aspect Ratio: 1.252
+# Pointedness Index: 0.2006
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1199
+# Max Thickness Position: 0.3380
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3640
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.60e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01036512,0.06619071
+UPPER,2,0.04146047,0.11322532
+UPPER,3,0.08637599,0.13965246
+UPPER,4,0.29406000,0.17065960
+UPPER,5,0.33800000,0.17785064
+UPPER,6,0.38194000,0.16586558
+UPPER,7,0.38610000,0.13230740
+UPPER,8,0.49400000,0.08285818
+UPPER,9,0.88000000,0.03162805
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01036512,-0.04026047
+LOWER,2,0.04146047,-0.01805220
+LOWER,3,0.08637599,-0.04283337
+LOWER,4,0.29406000,-0.04267454
+LOWER,5,0.33800000,-0.06185064
+LOWER,6,0.38194000,-0.03548350
+LOWER,7,0.38610000,0.00526572
+LOWER,8,0.49400000,0.01918091
+LOWER,9,0.88000000,0.00970597
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

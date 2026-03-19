@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melignomon_zenkeri
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 75.80 mm
+# Secondary1: 60.00 mm
+# Kipps Distance: 14.70 mm
+# Hand-Wing Index: 19.70
+# Tail Length: 54.20 mm
+# Aspect Ratio: 1.263
+# Pointedness Index: 0.1939
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1236
+# Max Thickness Position: 0.3382
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3642
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.16e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01040813,0.06650878
+UPPER,2,0.04163252,0.11519192
+UPPER,3,0.08673442,0.14238435
+UPPER,4,0.29421660,0.17421723
+UPPER,5,0.33818000,0.18163249
+UPPER,6,0.38214340,0.16927372
+UPPER,7,0.38633100,0.13466916
+UPPER,8,0.49424000,0.08394262
+UPPER,9,0.88000000,0.03194403
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01040813,-0.04041452
+LOWER,2,0.04163252,-0.01923240
+LOWER,3,0.08673442,-0.04498028
+LOWER,4,0.29421660,-0.04576890
+LOWER,5,0.33818000,-0.06554294
+LOWER,6,0.38214340,-0.03835364
+LOWER,7,0.38633100,0.00366618
+LOWER,8,0.49424000,0.01868548
+LOWER,9,0.88000000,0.00956769
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pomatorhinus_superciliaris
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 75.00 mm
+# Secondary1: 67.70 mm
+# Kipps Distance: 7.30 mm
+# Hand-Wing Index: 9.70
+# Tail Length: 90.00 mm
+# Aspect Ratio: 1.108
+# Pointedness Index: 0.0973
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1316
+# Max Thickness Position: 0.3442
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3722
+# Leading Edge Radius: 0.0374
+# LE Droop: 0.0061
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.15e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01120678,0.07330068
+UPPER,2,0.04482712,0.12227090
+UPPER,3,0.09338983,0.14932265
+UPPER,4,0.29943660,0.18302719
+UPPER,5,0.34418000,0.19092597
+UPPER,6,0.38892340,0.17776135
+UPPER,7,0.39403100,0.14090041
+UPPER,8,0.50224000,0.08724874
+UPPER,9,0.88000000,0.03305801
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01120678,-0.04300912
+LOWER,2,0.04482712,-0.02137886
+LOWER,3,0.09338983,-0.04908609
+LOWER,4,0.29943660,-0.05130303
+LOWER,5,0.34418000,-0.07236642
+LOWER,6,0.38892340,-0.04340425
+LOWER,7,0.39403100,0.00135545
+LOWER,8,0.50224000,0.01832299
+LOWER,9,0.88000000,0.00955410
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

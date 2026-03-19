@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anaplectes_jubaensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 82.80 mm
+# Secondary1: 67.00 mm
+# Kipps Distance: 15.80 mm
+# Hand-Wing Index: 19.10
+# Tail Length: 55.40 mm
+# Aspect Ratio: 1.236
+# Pointedness Index: 0.1908
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1236
+# Max Thickness Position: 0.3385
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3647
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.30e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01044235,0.06683411
+UPPER,2,0.04176941,0.11538289
+UPPER,3,0.08701960,0.14245973
+UPPER,4,0.29452980,0.17429791
+UPPER,5,0.33854000,0.18171269
+UPPER,6,0.38255020,0.16935472
+UPPER,7,0.38679300,0.13475240
+UPPER,8,0.49472000,0.08401535
+UPPER,9,0.88000000,0.03197691
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01044235,-0.04051541
+LOWER,2,0.04176941,-0.01919897
+LOWER,3,0.08701960,-0.04493507
+LOWER,4,0.29452980,-0.04567398
+LOWER,5,0.33854000,-0.06544674
+LOWER,6,0.38255020,-0.03825920
+LOWER,7,0.38679300,0.00375790
+LOWER,8,0.49472000,0.01874128
+LOWER,9,0.88000000,0.00959006
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

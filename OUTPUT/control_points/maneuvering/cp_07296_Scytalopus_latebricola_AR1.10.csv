@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Scytalopus_latebricola
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 58.20 mm
+# Secondary1: 53.10 mm
+# Kipps Distance: 5.70 mm
+# Hand-Wing Index: 9.60
+# Tail Length: 40.70 mm
+# Aspect Ratio: 1.096
+# Pointedness Index: 0.0979
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1323
+# Max Thickness Position: 0.3442
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3723
+# Leading Edge Radius: 0.0374
+# LE Droop: 0.0061
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01120676,0.07332053
+UPPER,2,0.04482702,0.12263616
+UPPER,3,0.09338963,0.14981683
+UPPER,4,0.29948880,0.18367040
+UPPER,5,0.34424000,0.19160960
+UPPER,6,0.38899120,0.17837760
+UPPER,7,0.39410800,0.14132800
+UPPER,8,0.50232000,0.08744576
+UPPER,9,0.88000000,0.03311565
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01120676,-0.04300302
+LOWER,2,0.04482702,-0.02159104
+LOWER,3,0.09338963,-0.04947238
+LOWER,4,0.29948880,-0.05185920
+LOWER,5,0.34424000,-0.07303040
+LOWER,6,0.38899120,-0.04392000
+LOWER,7,0.39410800,0.00106880
+LOWER,8,0.50232000,0.01823475
+LOWER,9,0.88000000,0.00952960
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

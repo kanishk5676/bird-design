@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Thaumatibis_gigantea
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 532.80 mm
+# Secondary1: 348.80 mm
+# Kipps Distance: 184.00 mm
+# Hand-Wing Index: 34.50
+# Tail Length: 229.80 mm
+# Aspect Ratio: 1.528
+# Pointedness Index: 0.3453
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1005
+# Max Thickness Position: 0.3293
+# Max Camber/Chord: 0.0553
+# Max Camber Position: 0.3524
+# Leading Edge Radius: 0.0306
+# LE Droop: 0.0011
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.54e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00918304,0.05619823
+UPPER,2,0.03673215,0.09836198
+UPPER,3,0.07652532,0.12324624
+UPPER,4,0.28649100,0.14978349
+UPPER,5,0.32930000,0.15581440
+UPPER,6,0.37210900,0.14576289
+UPPER,7,0.37493500,0.11761869
+UPPER,8,0.48240000,0.07514867
+UPPER,9,0.88000000,0.02905496
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00918304,-0.03640215
+LOWER,2,0.03673215,-0.01281003
+LOWER,3,0.07652532,-0.03286100
+LOWER,4,0.28649100,-0.02913324
+LOWER,5,0.32930000,-0.04521565
+LOWER,6,0.37210900,-0.02310234
+LOWER,7,0.37493500,0.01107277
+LOWER,8,0.48240000,0.02021351
+LOWER,9,0.88000000,0.00980424
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

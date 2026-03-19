@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Podica_senegalensis
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 186.20 mm
+# Secondary1: 134.80 mm
+# Kipps Distance: 50.00 mm
+# Hand-Wing Index: 27.20
+# Tail Length: 125.00 mm
+# Aspect Ratio: 1.381
+# Pointedness Index: 0.2685
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1125
+# Max Thickness Position: 0.3337
+# Max Camber/Chord: 0.0568
+# Max Camber Position: 0.3582
+# Leading Edge Radius: 0.0327
+# LE Droop: 0.0026
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.73e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00979818,0.06134911
+UPPER,2,0.03919274,0.10709502
+UPPER,3,0.08165154,0.13326615
+UPPER,4,0.29030160,0.16256518
+UPPER,5,0.33368000,0.16931676
+UPPER,6,0.37705840,0.15806412
+UPPER,7,0.38055600,0.12655674
+UPPER,8,0.48824000,0.07977922
+UPPER,9,0.88000000,0.03058246
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00979818,-0.03842474
+LOWER,2,0.03919274,-0.01613179
+LOWER,3,0.08165154,-0.03914170
+LOWER,4,0.29030160,-0.03773174
+LOWER,5,0.33368000,-0.05573596
+LOWER,6,0.37705840,-0.03098016
+LOWER,7,0.38055600,0.00727880
+LOWER,8,0.48824000,0.01945636
+LOWER,9,0.88000000,0.00969655
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

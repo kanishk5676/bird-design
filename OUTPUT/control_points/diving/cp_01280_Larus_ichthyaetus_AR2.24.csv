@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Larus_ichthyaetus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 470.80 mm
+# Secondary1: 210.20 mm
+# Kipps Distance: 255.20 mm
+# Hand-Wing Index: 54.70
+# Tail Length: 172.80 mm
+# Aspect Ratio: 2.240
+# Pointedness Index: 0.5421
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0851
+# Max Thickness Position: 0.3172
+# Max Camber/Chord: 0.0498
+# Max Camber Position: 0.3362
+# Leading Edge Radius: 0.0252
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.30e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00756169,0.04537016
+UPPER,2,0.03024678,0.08486397
+UPPER,3,0.06301412,0.10706954
+UPPER,4,0.27594660,0.12977296
+UPPER,5,0.31718000,0.13487859
+UPPER,6,0.35841340,0.12636921
+UPPER,7,0.35938100,0.10254294
+UPPER,8,0.46624000,0.06614333
+UPPER,9,0.88000000,0.02572572
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00756169,-0.03024678
+LOWER,2,0.03024678,-0.00980535
+LOWER,3,0.06301412,-0.02645342
+LOWER,4,0.27594660,-0.02169403
+LOWER,5,0.31718000,-0.03530904
+LOWER,6,0.35841340,-0.01658840
+LOWER,7,0.35938100,0.01234350
+LOWER,8,0.46624000,0.01895343
+LOWER,9,0.88000000,0.00904244
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

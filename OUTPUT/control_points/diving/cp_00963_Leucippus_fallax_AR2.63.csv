@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Leucippus_fallax
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 60.00 mm
+# Secondary1: 22.80 mm
+# Kipps Distance: 36.40 mm
+# Hand-Wing Index: 61.50
+# Tail Length: 34.60 mm
+# Aspect Ratio: 2.632
+# Pointedness Index: 0.6067
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0890
+# Max Thickness Position: 0.3131
+# Max Camber/Chord: 0.0475
+# Max Camber Position: 0.3308
+# Leading Edge Radius: 0.0234
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.51e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00702410,0.04214460
+UPPER,2,0.02809640,0.08485546
+UPPER,3,0.05853417,0.10776117
+UPPER,4,0.27239700,0.13114157
+UPPER,5,0.31310000,0.13648235
+UPPER,6,0.35380300,0.12758105
+UPPER,7,0.35414500,0.10265742
+UPPER,8,0.46080000,0.06527260
+UPPER,9,0.88000000,0.02515940
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00702410,-0.02809640
+LOWER,2,0.02809640,-0.01186987
+LOWER,3,0.05853417,-0.02979161
+LOWER,4,0.27239700,-0.02730152
+LOWER,5,0.31310000,-0.04154360
+LOWER,6,0.35380300,-0.02196074
+LOWER,7,0.35414500,0.00830367
+LOWER,8,0.46080000,0.01696920
+LOWER,9,0.88000000,0.00830682
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

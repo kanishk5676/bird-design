@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Loriculus_pusillus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 84.80 mm
+# Secondary1: 46.20 mm
+# Kipps Distance: 38.50 mm
+# Hand-Wing Index: 45.40
+# Tail Length: 33.80 mm
+# Aspect Ratio: 1.835
+# Pointedness Index: 0.4540
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1007
+# Max Thickness Position: 0.3228
+# Max Camber/Chord: 0.0526
+# Max Camber Position: 0.3437
+# Leading Edge Radius: 0.0277
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.98e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00829531,0.04977187
+UPPER,2,0.03318125,0.09505204
+UPPER,3,0.06912760,0.12089150
+UPPER,4,0.28080120,0.14725673
+UPPER,5,0.32276000,0.15330011
+UPPER,6,0.36471880,0.14322781
+UPPER,7,0.36654200,0.11502536
+UPPER,8,0.47368000,0.07289298
+UPPER,9,0.88000000,0.02803714
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00829531,-0.03318125
+LOWER,2,0.03318125,-0.01382938
+LOWER,3,0.06912760,-0.03423388
+LOWER,4,0.28080120,-0.03203023
+LOWER,5,0.32276000,-0.04814591
+LOWER,6,0.36471880,-0.02598684
+LOWER,7,0.36654200,0.00825898
+LOWER,8,0.47368000,0.01849658
+LOWER,9,0.88000000,0.00911535
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

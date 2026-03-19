@@ -1,0 +1,293 @@
+========================================================================
+COMPREHENSIVE BIRD AIRFOIL AERODYNAMIC ANALYSIS REPORT
+========================================================================
+
+Total airfoils analysed : 10975
+Categories              : diving, generalist, hovering, maneuvering, soaring
+Alpha sweep             : -4° to 20° in 2° steps
+Reynolds number sweep   : 1e+04, 5e+04, 1e+05, 2e+05, 5e+05, 1e+06
+Conditions per airfoil  : 78
+
+OVERALL PERFORMANCE STATISTICS
+------------------------------------------------------------------------
+Best global L/D : 143.97  (Anodorhynchus_hyacinthinus)
+Average max L/D : 136.01 ± 3.63
+Average CLmax   : 1.027 ± 0.093
+Average stall α : 19.9° ± 0.6°
+
+
+========================================================================
+CATEGORY: DIVING
+========================================================================
+
+  TOP PERFORMER: Buteo_augur
+------------------------------------------------------------------------
+  Maximum L/D          : 143.96
+  Average L/D          : 24.85
+  Cruise L/D (α 0–2°) : 24.78
+  Climb L/D (α 8–12°) : 44.64
+  High-α L/D (α ≥14°) : 11.49
+  Neg-α L/D (α < 0°)  : 6.54
+  CLmax                : 1.074
+  Stall angle          : 20.0°
+  Minimum CD           : 0.00944
+  Estimated Re         : 1.08e+05
+  Design-point L/D     : 7.32  (at Re = 1e+05)
+  Best alpha           : 8.0°
+  Best Re              : 1.00e+06
+  Avg confidence       : 0.875
+
+  WHY THIS AIRFOIL EXCELS:
+  1. Peak L/D of 144.0 is 4% above the category mean (138.5), 
+     indicating an unusually efficient geometry. 
+  2. Positive L/D at negative angles of attack — unusual camber 
+     distribution that extends the usable flight envelope. 
+  3. Low L/D coefficient of variation (1.384), meaning performance is 
+     robust across Re and alpha — important for UAV designs that must 
+     operate across a range of conditions. 
+
+  Category statistics  : n=4430, mean L/D=138.45 ± 4.24, mean CLmax=1.074
+
+  Top 3 — Overall L/D:
+    1. Buteo_augur: L/D = 143.96
+    2. Theristicus_caudatus: L/D = 143.96
+    3. Ardea_alba: L/D = 143.95
+  Top 3 — Cruise L/D:
+    1. Rynchops_albicollis: cruise L/D = 28.86
+    2. Hirundapus_caudacutus: cruise L/D = 28.81
+    3. Thalasseus_bergii: cruise L/D = 28.78
+  Top 3 — CLmax / Stall:
+    1. Leptoptilos_crumenifer: CLmax = 1.669  stall α = 20.0°
+    2. Ardeotis_kori: CLmax = 1.668  stall α = 20.0°
+    3. Pelecanus_crispus: CLmax = 1.668  stall α = 20.0°
+  Top 3 — Most Consistent:
+    1. Hirundapus_caudacutus: L/D CoV = 1.140
+    2. Tachymarptis_melba: L/D CoV = 1.143
+    3. Rynchops_albicollis: L/D CoV = 1.143
+
+========================================================================
+CATEGORY: GENERALIST
+========================================================================
+
+  TOP PERFORMER: Hypotaenidia_woodfordi
+------------------------------------------------------------------------
+  Maximum L/D          : 139.10
+  Average L/D          : 22.11
+  Cruise L/D (α 0–2°) : 22.93
+  Climb L/D (α 8–12°) : 39.86
+  High-α L/D (α ≥14°) : 10.53
+  Neg-α L/D (α < 0°)  : 6.32
+  CLmax                : 1.041
+  Stall angle          : 20.0°
+  Minimum CD           : 0.00928
+  Estimated Re         : 3.24e+04
+  Design-point L/D     : 4.35  (at Re = 5e+04)
+  Best alpha           : 10.0°
+  Best Re              : 1.00e+06
+  Avg confidence       : 0.862
+
+  WHY THIS AIRFOIL EXCELS:
+  1. Peak L/D of 139.1 is 3% above the category mean (134.6), 
+     indicating an unusually efficient geometry. 
+  2. Minimum drag coefficient 0.00928 is in the bottom quartile for the 
+     category, suggesting extensive laminar flow. 
+  3. CLmax = 1.041 (top quartile for category), allowing efficient 
+     flight at lower speeds and higher load factors. 
+  4. Cruise L/D = 22.9 (α = 0–2°), top quartile for the category; well 
+     suited to sustained level flight. 
+  5. Positive L/D at negative angles of attack — unusual camber 
+     distribution that extends the usable flight envelope. 
+  6. Low L/D coefficient of variation (1.544), meaning performance is 
+     robust across Re and alpha — important for UAV designs that must 
+     operate across a range of conditions. 
+
+  Category statistics  : n=1937, mean L/D=134.59 ± 1.01, mean CLmax=0.997
+
+  Top 3 — Overall L/D:
+    1. Hypotaenidia_woodfordi: L/D = 139.10
+    2. Crypturellus_obsoletus: L/D = 139.09
+    3. Otus_everetti: L/D = 139.06
+  Top 3 — Cruise L/D:
+    1. Megapodius_tenimberensis: cruise L/D = 23.33
+    2. Eudromia_formosa: cruise L/D = 23.21
+    3. Tinamus_major: cruise L/D = 23.16
+  Top 3 — CLmax / Stall:
+    1. Megapodius_tenimberensis: CLmax = 1.046  stall α = 20.0°
+    2. Eudromia_formosa: CLmax = 1.044  stall α = 20.0°
+    3. Tinamus_major: CLmax = 1.044  stall α = 20.0°
+  Top 3 — Most Consistent:
+    1. Megapodius_tenimberensis: L/D CoV = 1.516
+    2. Eudromia_formosa: L/D CoV = 1.526
+    3. Tinamus_major: L/D CoV = 1.528
+
+========================================================================
+CATEGORY: HOVERING
+========================================================================
+
+  TOP PERFORMER: Ispidina_lecontei
+------------------------------------------------------------------------
+  Maximum L/D          : 136.91
+  Average L/D          : 21.85
+  Cruise L/D (α 0–2°) : 22.17
+  Climb L/D (α 8–12°) : 40.34
+  High-α L/D (α ≥14°) : 10.40
+  Neg-α L/D (α < 0°)  : 6.12
+  CLmax                : 1.003
+  Stall angle          : 20.0°
+  Minimum CD           : 0.00939
+  Estimated Re         : 1.07e+04
+  Design-point L/D     : 3.71  (at Re = 1e+04)
+  Best alpha           : 10.0°
+  Best Re              : 1.00e+06
+  Avg confidence       : 0.858
+
+  WHY THIS AIRFOIL EXCELS:
+  1. Peak L/D of 136.9 is 2% above the category mean (134.6), 
+     indicating an unusually efficient geometry. 
+  2. Minimum drag coefficient 0.00939 is in the bottom quartile for the 
+     category, suggesting extensive laminar flow. 
+  3. CLmax = 1.003 (top quartile for category), allowing efficient 
+     flight at lower speeds and higher load factors. 
+  4. Cruise L/D = 22.2 (α = 0–2°), top quartile for the category; well 
+     suited to sustained level flight. 
+  5. Low L/D coefficient of variation (1.578), meaning performance is 
+     robust across Re and alpha — important for UAV designs that must 
+     operate across a range of conditions. 
+
+  Category statistics  : n=188, mean L/D=134.60 ± 0.73, mean CLmax=0.996
+
+  Top 3 — Overall L/D:
+    1. Ispidina_lecontei: L/D = 136.91
+    2. Micropsitta_geelvinkiana: L/D = 136.82
+    3. Machaeropterus_regulus: L/D = 136.57
+  Top 3 — Cruise L/D:
+    1. Ispidina_lecontei: cruise L/D = 22.17
+    2. Micropsitta_geelvinkiana: cruise L/D = 22.16
+    3. Machaeropterus_regulus: cruise L/D = 22.12
+  Top 3 — CLmax / Stall:
+    1. Ispidina_lecontei: CLmax = 1.003  stall α = 20.0°
+    2. Micropsitta_geelvinkiana: CLmax = 1.002  stall α = 20.0°
+    3. Machaeropterus_regulus: CLmax = 1.002  stall α = 20.0°
+  Top 3 — Most Consistent:
+    1. Ispidina_lecontei: L/D CoV = 1.578
+    2. Micropsitta_geelvinkiana: L/D CoV = 1.578
+    3. Machaeropterus_regulus: L/D CoV = 1.579
+
+========================================================================
+CATEGORY: MANEUVERING
+========================================================================
+
+  TOP PERFORMER: Anthracoceros_coronatus
+------------------------------------------------------------------------
+  Maximum L/D          : 135.53
+  Average L/D          : 21.77
+  Cruise L/D (α 0–2°) : 22.74
+  Climb L/D (α 8–12°) : 38.56
+  High-α L/D (α ≥14°) : 10.38
+  Neg-α L/D (α < 0°)  : 6.49
+  CLmax                : 1.040
+  Stall angle          : 20.0°
+  Minimum CD           : 0.00930
+  Estimated Re         : 7.25e+04
+  Design-point L/D     : 4.33  (at Re = 5e+04)
+  Best alpha           : 10.0°
+  Best Re              : 1.00e+06
+  Avg confidence       : 0.858
+
+  WHY THIS AIRFOIL EXCELS:
+  1. Peak L/D of 135.5 is 2% above the category mean (133.4), 
+     indicating an unusually efficient geometry. 
+  2. Minimum drag coefficient 0.00930 is in the bottom quartile for the 
+     category, suggesting extensive laminar flow. 
+  3. CLmax = 1.040 (top quartile for category), allowing efficient 
+     flight at lower speeds and higher load factors. 
+  4. Cruise L/D = 22.7 (α = 0–2°), top quartile for the category; well 
+     suited to sustained level flight. 
+  5. Positive L/D at negative angles of attack — unusual camber 
+     distribution that extends the usable flight envelope. 
+  6. Low L/D coefficient of variation (1.546), meaning performance is 
+     robust across Re and alpha — important for UAV designs that must 
+     operate across a range of conditions. 
+
+  Category statistics  : n=3646, mean L/D=133.45 ± 0.51, mean CLmax=0.984
+
+  Top 3 — Overall L/D:
+    1. Anthracoceros_coronatus: L/D = 135.53
+    2. Tigrisoma_lineatum: L/D = 135.34
+    3. Aepypodius_arfakianus: L/D = 135.30
+  Top 3 — Cruise L/D:
+    1. Cathartes_melambrotus: cruise L/D = 23.35
+    2. Rhyticeros_undulatus: cruise L/D = 22.80
+    3. Anthracoceros_coronatus: cruise L/D = 22.74
+  Top 3 — CLmax / Stall:
+    1. Cathartes_melambrotus: CLmax = 1.047  stall α = 20.0°
+    2. Rhyticeros_undulatus: CLmax = 1.040  stall α = 20.0°
+    3. Anthracoceros_coronatus: CLmax = 1.040  stall α = 20.0°
+  Top 3 — Most Consistent:
+    1. Cathartes_melambrotus: L/D CoV = 1.507
+    2. Rhyticeros_undulatus: L/D CoV = 1.539
+    3. Anthracoceros_coronatus: L/D CoV = 1.546
+
+========================================================================
+CATEGORY: SOARING
+========================================================================
+
+  TOP PERFORMER: Anodorhynchus_hyacinthinus
+------------------------------------------------------------------------
+  Maximum L/D          : 143.97
+  Average L/D          : 24.83
+  Cruise L/D (α 0–2°) : 24.79
+  Climb L/D (α 8–12°) : 44.50
+  High-α L/D (α ≥14°) : 11.48
+  Neg-α L/D (α < 0°)  : 6.56
+  CLmax                : 1.074
+  Stall angle          : 20.0°
+  Minimum CD           : 0.00944
+  Estimated Re         : 1.20e+05
+  Design-point L/D     : 7.31  (at Re = 1e+05)
+  Best alpha           : 8.0°
+  Best Re              : 1.00e+06
+  Avg confidence       : 0.874
+
+  WHY THIS AIRFOIL EXCELS:
+  1. Peak L/D of 144.0 is 4% above the category mean (138.0), 
+     indicating an unusually efficient geometry. 
+  2. CLmax = 1.074 (top quartile for category), allowing efficient 
+     flight at lower speeds and higher load factors. 
+  3. Cruise L/D = 24.8 (α = 0–2°), top quartile for the category; well 
+     suited to sustained level flight. 
+  4. Positive L/D at negative angles of attack — unusual camber 
+     distribution that extends the usable flight envelope. 
+  5. Low L/D coefficient of variation (1.383), meaning performance is 
+     robust across Re and alpha — important for UAV designs that must 
+     operate across a range of conditions. 
+
+  Category statistics  : n=774, mean L/D=138.03 ± 2.29, mean CLmax=1.039
+
+  Top 3 — Overall L/D:
+    1. Anodorhynchus_hyacinthinus: L/D = 143.97
+    2. Pernis_ptilorhynchus: L/D = 143.96
+    3. Buteogallus_meridionalis: L/D = 143.94
+  Top 3 — Cruise L/D:
+    1. Leptoptilos_javanicus: cruise L/D = 25.35
+    2. Aquila_verreauxii: cruise L/D = 25.19
+    3. Aquila_gurneyi: cruise L/D = 25.11
+  Top 3 — CLmax / Stall:
+    1. Leptoptilos_javanicus: CLmax = 1.660  stall α = 20.0°
+    2. Aquila_verreauxii: CLmax = 1.658  stall α = 20.0°
+    3. Aquila_gurneyi: CLmax = 1.656  stall α = 20.0°
+  Top 3 — Most Consistent:
+    1. Leptoptilos_javanicus: L/D CoV = 1.350
+    2. Aquila_verreauxii: L/D CoV = 1.358
+    3. Aquila_gurneyi: L/D CoV = 1.362
+
+========================================================================
+CATEGORY CHAMPION SUMMARY  (for paper Table X)
+========================================================================
+Category           Champion                          L/D   CLmax  Stall°     Des-Re
+------------------------------------------------------------------------
+diving             Buteo_augur                     144.0   1.074    20.0      1e+05
+generalist         Hypotaenidia_woodfordi          139.1   1.041    20.0      5e+04
+hovering           Ispidina_lecontei               136.9   1.003    20.0      1e+04
+maneuvering        Anthracoceros_coronatus         135.5   1.040    20.0      5e+04
+soaring            Anodorhynchus_hyacinthinus      144.0   1.074    20.0      1e+05

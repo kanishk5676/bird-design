@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Brachyramphus_marmoratus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 123.50 mm
+# Secondary1: 51.20 mm
+# Kipps Distance: 72.20 mm
+# Hand-Wing Index: 58.40
+# Tail Length: 31.00 mm
+# Aspect Ratio: 2.412
+# Pointedness Index: 0.5846
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0874
+# Max Thickness Position: 0.3150
+# Max Camber/Chord: 0.0486
+# Max Camber Position: 0.3333
+# Leading Edge Radius: 0.0241
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.84e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00723142,0.04338853
+UPPER,2,0.02892569,0.08499022
+UPPER,3,0.06026185,0.10762562
+UPPER,4,0.27401520,0.13074656
+UPPER,5,0.31496000,0.13599291
+UPPER,6,0.35590480,0.12724898
+UPPER,7,0.35653200,0.10276597
+UPPER,8,0.46328000,0.06575357
+UPPER,9,0.88000000,0.02544551
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00723142,-0.02892569
+LOWER,2,0.02892569,-0.01098682
+LOWER,3,0.06026185,-0.02838015
+LOWER,4,0.27401520,-0.02489542
+LOWER,5,0.31496000,-0.03888571
+LOWER,6,0.35590480,-0.01964906
+LOWER,7,0.35653200,0.01008030
+LOWER,8,0.46328000,0.01786173
+LOWER,9,0.88000000,0.00864083
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

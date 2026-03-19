@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Otus_thilohoffmanni
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 124.70 mm
+# Secondary1: 39.90 mm
+# Kipps Distance: 34.80 mm
+# Hand-Wing Index: 27.90
+# Tail Length: 70.60 mm
+# Aspect Ratio: 3.125
+# Pointedness Index: 0.2791
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1130
+# Max Thickness Position: 0.3333
+# Max Camber/Chord: 0.0567
+# Max Camber Position: 0.3577
+# Leading Edge Radius: 0.0324
+# LE Droop: 0.0024
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.93e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00972300,0.06075803
+UPPER,2,0.03889202,0.10708486
+UPPER,3,0.08102503,0.13349308
+UPPER,4,0.28993620,0.16288788
+UPPER,5,0.33326000,0.16966845
+UPPER,6,0.37658380,0.15836750
+UPPER,7,0.38001700,0.12672485
+UPPER,8,0.48768000,0.07980278
+UPPER,9,0.88000000,0.03057117
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00972300,-0.03816602
+LOWER,2,0.03889202,-0.01633239
+LOWER,3,0.08102503,-0.03948236
+LOWER,4,0.28993620,-0.03826898
+LOWER,5,0.33326000,-0.05635050
+LOWER,6,0.37658380,-0.03148841
+LOWER,7,0.38001700,0.00693481
+LOWER,8,0.48768000,0.01930724
+LOWER,9,0.88000000,0.00964436
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

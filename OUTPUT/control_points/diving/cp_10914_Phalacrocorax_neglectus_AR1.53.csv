@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phalacrocorax_neglectus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 261.20 mm
+# Secondary1: 170.50 mm
+# Kipps Distance: 90.80 mm
+# Hand-Wing Index: 34.80
+# Tail Length: 111.20 mm
+# Aspect Ratio: 1.532
+# Pointedness Index: 0.3476
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1045
+# Max Thickness Position: 0.3291
+# Max Camber/Chord: 0.0552
+# Max Camber Position: 0.3522
+# Leading Edge Radius: 0.0305
+# LE Droop: 0.0010
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.85e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00916223,0.05601335
+UPPER,2,0.03664890,0.10023111
+UPPER,3,0.07635188,0.12604454
+UPPER,4,0.28633440,0.15345030
+UPPER,5,0.32912000,0.15971953
+UPPER,6,0.37190560,0.14927082
+UPPER,7,0.37470400,0.12001442
+UPPER,8,0.48216000,0.07620394
+UPPER,9,0.88000000,0.02934728
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00916223,-0.03633690
+LOWER,2,0.03664890,-0.01410454
+LOWER,3,0.07635188,-0.03519563
+LOWER,4,0.28633440,-0.03253679
+LOWER,5,0.32912000,-0.04925473
+LOWER,6,0.37190560,-0.02626756
+LOWER,7,0.37470400,0.00925806
+LOWER,8,0.48216000,0.01961589
+LOWER,9,0.88000000,0.00962861
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

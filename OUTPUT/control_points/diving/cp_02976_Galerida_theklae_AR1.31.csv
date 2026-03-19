@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Galerida_theklae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 98.40 mm
+# Secondary1: 75.30 mm
+# Kipps Distance: 23.00 mm
+# Hand-Wing Index: 23.30
+# Tail Length: 58.80 mm
+# Aspect Ratio: 1.307
+# Pointedness Index: 0.2337
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1193
+# Max Thickness Position: 0.3360
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3614
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01009495,0.06390968
+UPPER,2,0.04037979,0.11182612
+UPPER,3,0.08412456,0.13874677
+UPPER,4,0.29233740,0.16958220
+UPPER,5,0.33602000,0.17673780
+UPPER,6,0.37970260,0.16481180
+UPPER,7,0.38355900,0.13141899
+UPPER,8,0.49136000,0.08224892
+UPPER,9,0.88000000,0.03138236
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01009495,-0.03937779
+LOWER,2,0.04037979,-0.01804599
+LOWER,3,0.08412456,-0.04273104
+LOWER,4,0.29233740,-0.04270065
+LOWER,5,0.33602000,-0.06178225
+LOWER,6,0.37970260,-0.03554505
+LOWER,7,0.38355900,0.00500336
+LOWER,8,0.49136000,0.01893982
+LOWER,9,0.88000000,0.00959904
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

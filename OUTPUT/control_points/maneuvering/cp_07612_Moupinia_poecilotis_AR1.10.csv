@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Moupinia_poecilotis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 52.60 mm
+# Secondary1: 47.90 mm
+# Kipps Distance: 3.90 mm
+# Hand-Wing Index: 7.40
+# Tail Length: 68.60 mm
+# Aspect Ratio: 1.098
+# Pointedness Index: 0.0741
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1341
+# Max Thickness Position: 0.3456
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3741
+# Leading Edge Radius: 0.0380
+# LE Droop: 0.0065
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01139542,0.07489254
+UPPER,2,0.04558169,0.12412914
+UPPER,3,0.09496186,0.15127125
+UPPER,4,0.30063720,0.18552830
+UPPER,5,0.34556000,0.19357310
+UPPER,6,0.39048280,0.18016510
+UPPER,7,0.39580200,0.14262270
+UPPER,8,0.50408000,0.08811154
+UPPER,9,0.88000000,0.03333378
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01139542,-0.04362569
+LOWER,2,0.04558169,-0.02208302
+LOWER,3,0.09496186,-0.05039957
+LOWER,4,0.30063720,-0.05313410
+LOWER,5,0.34556000,-0.07458690
+LOWER,6,0.39048280,-0.04508930
+LOWER,7,0.39580200,0.00049790
+LOWER,8,0.50408000,0.01811452
+LOWER,9,0.88000000,0.00951007
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Alopecoenas_canifrons
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 113.00 mm
+# Secondary1: 83.00 mm
+# Kipps Distance: 30.00 mm
+# Hand-Wing Index: 26.50
+# Tail Length: 63.00 mm
+# Aspect Ratio: 1.361
+# Pointedness Index: 0.2655
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1159
+# Max Thickness Position: 0.3341
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3588
+# Leading Edge Radius: 0.0328
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.94e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00983512,0.06171071
+UPPER,2,0.03934047,0.10904403
+UPPER,3,0.08195931,0.13583192
+UPPER,4,0.29066700,0.16588900
+UPPER,5,0.33410000,0.17284450
+UPPER,6,0.37753300,0.16125199
+UPPER,7,0.38109500,0.12879295
+UPPER,8,0.48880000,0.08084050
+UPPER,9,0.88000000,0.03090337
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00983512,-0.03853047
+LOWER,2,0.03934047,-0.01717426
+LOWER,3,0.08195931,-0.04105366
+LOWER,4,0.29066700,-0.04045773
+LOWER,5,0.33410000,-0.05900575
+LOWER,6,0.37753300,-0.03350223
+LOWER,7,0.38109500,0.00591232
+LOWER,8,0.48880000,0.01906049
+LOWER,9,0.88000000,0.00959284
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

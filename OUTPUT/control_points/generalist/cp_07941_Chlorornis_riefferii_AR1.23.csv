@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chlorornis_riefferii
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 106.90 mm
+# Secondary1: 87.10 mm
+# Kipps Distance: 19.40 mm
+# Hand-Wing Index: 18.20
+# Tail Length: 87.20 mm
+# Aspect Ratio: 1.227
+# Pointedness Index: 0.1815
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1229
+# Max Thickness Position: 0.3391
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3654
+# Leading Edge Radius: 0.0351
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.80e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01051754,0.06746525
+UPPER,2,0.04207017,0.11532090
+UPPER,3,0.08764618,0.14207208
+UPPER,4,0.29499960,0.17376587
+UPPER,5,0.33908000,0.18113847
+UPPER,6,0.38316040,0.16885081
+UPPER,7,0.38748600,0.13444537
+UPPER,8,0.49544000,0.08392805
+UPPER,9,0.88000000,0.03196965
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01051754,-0.04076217
+LOWER,2,0.04207017,-0.01892884
+LOWER,3,0.08764618,-0.04446793
+LOWER,4,0.29499960,-0.04495442
+LOWER,5,0.33908000,-0.06461467
+LOWER,6,0.38316040,-0.03758182
+LOWER,7,0.38748600,0.00419621
+LOWER,8,0.49544000,0.01891966
+LOWER,9,0.88000000,0.00965041
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

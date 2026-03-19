@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nyctiphrynus_yucatanicus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 109.00 mm
+# Secondary1: 71.20 mm
+# Kipps Distance: 37.80 mm
+# Hand-Wing Index: 34.60
+# Tail Length: 100.00 mm
+# Aspect Ratio: 1.531
+# Pointedness Index: 0.3468
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1096
+# Max Thickness Position: 0.3292
+# Max Camber/Chord: 0.0553
+# Max Camber Position: 0.3523
+# Leading Edge Radius: 0.0306
+# LE Droop: 0.0011
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.85e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00917262,0.05611570
+UPPER,2,0.03669046,0.10288928
+UPPER,3,0.07643847,0.12980112
+UPPER,4,0.28643880,0.15834573
+UPPER,5,0.32924000,0.16492458
+UPPER,6,0.37204120,0.15395983
+UPPER,7,0.37485800,0.12325854
+UPPER,8,0.48232000,0.07768683
+UPPER,9,0.88000000,0.02977710
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00917262,-0.03636646
+LOWER,2,0.03669046,-0.01574021
+LOWER,3,0.07643847,-0.03816807
+LOWER,4,0.28643880,-0.03682678
+LOWER,5,0.32924000,-0.05437038
+LOWER,6,0.37204120,-0.03024793
+LOWER,7,0.37485800,0.00703221
+LOWER,8,0.48232000,0.01892115
+LOWER,9,0.88000000,0.00943338
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

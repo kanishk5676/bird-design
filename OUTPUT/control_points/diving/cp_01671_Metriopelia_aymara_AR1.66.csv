@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Metriopelia_aymara
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 116.20 mm
+# Secondary1: 70.00 mm
+# Kipps Distance: 45.20 mm
+# Hand-Wing Index: 39.20
+# Tail Length: 61.60 mm
+# Aspect Ratio: 1.660
+# Pointedness Index: 0.3890
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1054
+# Max Thickness Position: 0.3265
+# Max Camber/Chord: 0.0542
+# Max Camber Position: 0.3486
+# Leading Edge Radius: 0.0294
+# LE Droop: 0.0002
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00881666,0.05305995
+UPPER,2,0.03526664,0.09895122
+UPPER,3,0.07347216,0.12578305
+UPPER,4,0.28403760,0.15331686
+UPPER,5,0.32648000,0.15964357
+UPPER,6,0.36892240,0.14909905
+UPPER,7,0.37131600,0.11957440
+UPPER,8,0.47864000,0.07559329
+UPPER,9,0.88000000,0.02903101
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00881666,-0.03521864
+LOWER,2,0.03526664,-0.01477301
+LOWER,3,0.07347216,-0.03622693
+LOWER,4,0.28403760,-0.03437554
+LOWER,5,0.32648000,-0.05124677
+LOWER,6,0.36892240,-0.02804883
+LOWER,7,0.37131600,0.00780253
+LOWER,8,0.47864000,0.01884068
+LOWER,9,0.88000000,0.00933179
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

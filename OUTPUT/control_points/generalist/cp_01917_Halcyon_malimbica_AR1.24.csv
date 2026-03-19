@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Halcyon_malimbica
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 113.50 mm
+# Secondary1: 91.30 mm
+# Kipps Distance: 22.30 mm
+# Hand-Wing Index: 19.60
+# Tail Length: 78.50 mm
+# Aspect Ratio: 1.243
+# Pointedness Index: 0.1965
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1214
+# Max Thickness Position: 0.3382
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3643
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.95e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01039821,0.06646928
+UPPER,2,0.04159285,0.11414082
+UPPER,3,0.08665178,0.14083746
+UPPER,4,0.29426880,0.17219470
+UPPER,5,0.33824000,0.17947992
+UPPER,6,0.38221120,0.16733788
+UPPER,7,0.38640800,0.13334020
+UPPER,8,0.49432000,0.08334835
+UPPER,9,0.88000000,0.03177627
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01039821,-0.04036885
+LOWER,2,0.04159285,-0.01853364
+LOWER,3,0.08665178,-0.04371637
+LOWER,4,0.29426880,-0.04393347
+LOWER,5,0.33824000,-0.06336072
+LOWER,6,0.38221120,-0.03664825
+LOWER,7,0.38640800,0.00463466
+LOWER,8,0.49432000,0.01899811
+LOWER,9,0.88000000,0.00965809
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

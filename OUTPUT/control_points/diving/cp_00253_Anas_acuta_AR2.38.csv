@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anas_acuta
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 256.70 mm
+# Secondary1: 107.80 mm
+# Kipps Distance: 148.40 mm
+# Hand-Wing Index: 57.80
+# Tail Length: 124.70 mm
+# Aspect Ratio: 2.381
+# Pointedness Index: 0.5781
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0862
+# Max Thickness Position: 0.3153
+# Max Camber/Chord: 0.0488
+# Max Camber Position: 0.3338
+# Leading Edge Radius: 0.0243
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.72e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00728298,0.04369785
+UPPER,2,0.02913190,0.08453841
+UPPER,3,0.06069146,0.10691291
+UPPER,4,0.27432840,0.12977499
+UPPER,5,0.31532000,0.13494630
+UPPER,6,0.35631160,0.12632746
+UPPER,7,0.35699400,0.10219470
+UPPER,8,0.46376000,0.06557697
+UPPER,9,0.88000000,0.02542307
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00728298,-0.02913190
+LOWER,2,0.02913190,-0.01051502
+LOWER,3,0.06069146,-0.02756064
+LOWER,4,0.27432840,-0.02364035
+LOWER,5,0.31532000,-0.03743050
+LOWER,6,0.35631160,-0.01846905
+LOWER,7,0.35699400,0.01083501
+LOWER,8,0.46376000,0.01816352
+LOWER,9,0.88000000,0.00874194
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

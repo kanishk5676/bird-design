@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Muscisaxicola_cinereus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 105.60 mm
+# Secondary1: 74.30 mm
+# Kipps Distance: 31.30 mm
+# Hand-Wing Index: 29.60
+# Tail Length: 66.50 mm
+# Aspect Ratio: 1.421
+# Pointedness Index: 0.2964
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1138
+# Max Thickness Position: 0.3322
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3563
+# Leading Edge Radius: 0.0319
+# LE Droop: 0.0021
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.78e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00958259,0.05957555
+UPPER,2,0.03833037,0.10687272
+UPPER,3,0.07985494,0.13377732
+UPPER,4,0.28904880,0.16332522
+UPPER,5,0.33224000,0.17015472
+UPPER,6,0.37543120,0.15877221
+UPPER,7,0.37870800,0.12690118
+UPPER,8,0.48632000,0.07975119
+UPPER,9,0.88000000,0.03051126
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00958259,-0.03770637
+LOWER,2,0.03833037,-0.01670868
+LOWER,3,0.07985494,-0.04010696
+LOWER,4,0.28904880,-0.03928350
+LOWER,5,0.33224000,-0.05749552
+LOWER,6,0.37543120,-0.03245400
+LOWER,7,0.37870800,0.00624655
+LOWER,8,0.48632000,0.01898883
+LOWER,9,0.88000000,0.00952940
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

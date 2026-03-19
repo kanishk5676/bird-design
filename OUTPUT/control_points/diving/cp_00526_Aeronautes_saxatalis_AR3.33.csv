@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aeronautes_saxatalis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 140.30 mm
+# Secondary1: 42.10 mm
+# Kipps Distance: 98.20 mm
+# Hand-Wing Index: 69.80
+# Tail Length: 63.70 mm
+# Aspect Ratio: 3.333
+# Pointedness Index: 0.6999
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0785
+# Max Thickness Position: 0.3081
+# Max Camber/Chord: 0.0443
+# Max Camber Position: 0.3242
+# Leading Edge Radius: 0.0210
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.72e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00629448,0.03776690
+UPPER,2,0.02517793,0.07691017
+UPPER,3,0.05245403,0.09727436
+UPPER,4,0.26806440,0.11808185
+UPPER,5,0.30812000,0.12278942
+UPPER,6,0.34817560,0.11494347
+UPPER,7,0.34775400,0.09297480
+UPPER,8,0.45416000,0.05964908
+UPPER,9,0.88000000,0.02312212
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00629448,-0.02517793
+LOWER,2,0.02517793,-0.00959158
+LOWER,3,0.05245403,-0.02511477
+LOWER,4,0.26806440,-0.02157610
+LOWER,5,0.30812000,-0.03412962
+LOWER,6,0.34817560,-0.01686853
+LOWER,7,0.34775400,0.00980771
+LOWER,8,0.45416000,0.01650021
+LOWER,9,0.88000000,0.00794409
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Megapodius_tenimberensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 253.00 mm
+# Secondary1: 198.50 mm
+# Kipps Distance: 54.50 mm
+# Hand-Wing Index: 21.50
+# Tail Length: 85.00 mm
+# Aspect Ratio: 1.275
+# Pointedness Index: 0.2154
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1153
+# Max Thickness Position: 0.3371
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3628
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.61e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01024348,0.06516090
+UPPER,2,0.04097393,0.11046044
+UPPER,3,0.08536236,0.13617314
+UPPER,4,0.29327700,0.16616354
+UPPER,5,0.33710000,0.17308232
+UPPER,6,0.38092300,0.16155102
+UPPER,7,0.38494500,0.12926340
+UPPER,8,0.49280000,0.08139159
+UPPER,9,0.88000000,0.03117740
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01024348,-0.03986393
+LOWER,2,0.04097393,-0.01668086
+LOWER,3,0.08536236,-0.04030759
+LOWER,4,0.29327700,-0.03909350
+LOWER,5,0.33710000,-0.05754357
+LOWER,6,0.38092300,-0.03217472
+LOWER,7,0.38494500,0.00703168
+LOWER,8,0.49280000,0.01967320
+LOWER,9,0.88000000,0.00982983
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

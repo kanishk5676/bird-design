@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Perdix_hodgsoniae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 154.00 mm
+# Secondary1: 108.30 mm
+# Kipps Distance: 44.40 mm
+# Hand-Wing Index: 29.00
+# Tail Length: 83.40 mm
+# Aspect Ratio: 1.422
+# Pointedness Index: 0.2883
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1122
+# Max Thickness Position: 0.3326
+# Max Camber/Chord: 0.0564
+# Max Camber Position: 0.3568
+# Leading Edge Radius: 0.0321
+# LE Droop: 0.0022
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.90e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00964221,0.06005326
+UPPER,2,0.03856884,0.10626692
+UPPER,3,0.08035175,0.13269632
+UPPER,4,0.28936200,0.16189020
+UPPER,5,0.33260000,0.16862058
+UPPER,6,0.37583800,0.15740327
+UPPER,7,0.37917000,0.12599481
+UPPER,8,0.48680000,0.07938884
+UPPER,9,0.88000000,0.03042390
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00964221,-0.03790884
+LOWER,2,0.03856884,-0.01613876
+LOWER,3,0.08035175,-0.03909454
+LOWER,4,0.28936200,-0.03777789
+LOWER,5,0.33260000,-0.05572558
+LOWER,6,0.37583800,-0.03104750
+LOWER,7,0.37917000,0.00709134
+LOWER,8,0.48680000,0.01929322
+LOWER,9,0.88000000,0.00962495
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

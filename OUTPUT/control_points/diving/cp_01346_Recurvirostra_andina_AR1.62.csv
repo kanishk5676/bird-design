@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Recurvirostra_andina
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 238.80 mm
+# Secondary1: 147.70 mm
+# Kipps Distance: 91.10 mm
+# Hand-Wing Index: 38.10
+# Tail Length: 91.20 mm
+# Aspect Ratio: 1.617
+# Pointedness Index: 0.3815
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1024
+# Max Thickness Position: 0.3271
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3495
+# Leading Edge Radius: 0.0296
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.19e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00888854,0.05371122
+UPPER,2,0.03555415,0.09786049
+UPPER,3,0.07407114,0.12381424
+UPPER,4,0.28461180,0.15069266
+UPPER,5,0.32714000,0.15683479
+UPPER,6,0.36966820,0.14659791
+UPPER,7,0.37216300,0.11793464
+UPPER,8,0.47952000,0.07495935
+UPPER,9,0.88000000,0.02888658
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00888854,-0.03544015
+LOWER,2,0.03555415,-0.01369493
+LOWER,3,0.07407114,-0.03431956
+LOWER,4,0.28461180,-0.03152383
+LOWER,5,0.32714000,-0.04790284
+LOWER,6,0.36966820,-0.02538170
+LOWER,7,0.37216300,0.00942370
+LOWER,8,0.47952000,0.01943727
+LOWER,9,0.88000000,0.00952174
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Metallura_eupogon
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 59.60 mm
+# Secondary1: 23.00 mm
+# Kipps Distance: 36.60 mm
+# Hand-Wing Index: 61.30
+# Tail Length: 41.80 mm
+# Aspect Ratio: 2.591
+# Pointedness Index: 0.6141
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0897
+# Max Thickness Position: 0.3132
+# Max Camber/Chord: 0.0475
+# Max Camber Position: 0.3310
+# Leading Edge Radius: 0.0233
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.35e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00699234,0.04195404
+UPPER,2,0.02796936,0.08523636
+UPPER,3,0.05826951,0.10828797
+UPPER,4,0.27250140,0.13181498
+UPPER,5,0.31322000,0.13719418
+UPPER,6,0.35393860,0.12822884
+UPPER,7,0.35429900,0.10312589
+UPPER,8,0.46096000,0.06551261
+UPPER,9,0.88000000,0.02523777
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00699234,-0.02796936
+LOWER,2,0.02796936,-0.01204982
+LOWER,3,0.05826951,-0.03013022
+LOWER,4,0.27250140,-0.02776809
+LOWER,5,0.31322000,-0.04211263
+LOWER,6,0.35393860,-0.02238888
+LOWER,7,0.35429900,0.00809327
+LOWER,8,0.46096000,0.01692380
+LOWER,9,0.88000000,0.00829906
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

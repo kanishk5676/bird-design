@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psarocolius_montezuma
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 220.00 mm
+# Secondary1: 162.70 mm
+# Kipps Distance: 51.60 mm
+# Hand-Wing Index: 23.90
+# Tail Length: 167.30 mm
+# Aspect Ratio: 1.352
+# Pointedness Index: 0.2345
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1142
+# Max Thickness Position: 0.3357
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3609
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.65e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01007248,0.06365487
+UPPER,2,0.04028991,0.10909255
+UPPER,3,0.08393732,0.13501388
+UPPER,4,0.29202420,0.16472897
+UPPER,5,0.33566000,0.17158122
+UPPER,6,0.37929580,0.16016080
+UPPER,7,0.38309700,0.12818361
+UPPER,8,0.49088000,0.08074762
+UPPER,9,0.88000000,0.03093959
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01007248,-0.03932391
+LOWER,2,0.04028991,-0.01646342
+LOWER,3,0.08393732,-0.03984506
+LOWER,4,0.29202420,-0.03855459
+LOWER,5,0.33566000,-0.05682727
+LOWER,6,0.37929580,-0.03170234
+LOWER,7,0.38309700,0.00712711
+LOWER,8,0.49088000,0.01958513
+LOWER,9,0.88000000,0.00977607
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

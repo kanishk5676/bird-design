@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chalcites_lucidus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 102.80 mm
+# Secondary1: 57.60 mm
+# Kipps Distance: 45.20 mm
+# Hand-Wing Index: 44.00
+# Tail Length: 67.50 mm
+# Aspect Ratio: 1.785
+# Pointedness Index: 0.4397
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1023
+# Max Thickness Position: 0.3236
+# Max Camber/Chord: 0.0530
+# Max Camber Position: 0.3448
+# Leading Edge Radius: 0.0280
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.76e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00841119,0.05046713
+UPPER,2,0.03364475,0.09618296
+UPPER,3,0.07009323,0.12240362
+UPPER,4,0.28153200,0.14915389
+UPPER,5,0.32360000,0.15529392
+UPPER,6,0.36566800,0.14506053
+UPPER,7,0.36762000,0.11640703
+UPPER,8,0.47480000,0.07366950
+UPPER,9,0.88000000,0.02831151
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00841119,-0.03364475
+LOWER,2,0.03364475,-0.01421086
+LOWER,3,0.07009323,-0.03499208
+LOWER,4,0.28153200,-0.03300050
+LOWER,5,0.32360000,-0.04937392
+LOWER,6,0.36566800,-0.02686046
+LOWER,7,0.36762000,0.00793307
+LOWER,8,0.47480000,0.01850845
+LOWER,9,0.88000000,0.00914664
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

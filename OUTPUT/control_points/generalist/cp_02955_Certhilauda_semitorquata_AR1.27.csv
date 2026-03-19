@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Certhilauda_semitorquata
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 103.00 mm
+# Secondary1: 81.00 mm
+# Kipps Distance: 21.20 mm
+# Hand-Wing Index: 20.70
+# Tail Length: 74.80 mm
+# Aspect Ratio: 1.272
+# Pointedness Index: 0.2058
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1211
+# Max Thickness Position: 0.3376
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3634
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.72e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01031687,0.06576123
+UPPER,2,0.04126749,0.11361205
+UPPER,3,0.08597393,0.14044325
+UPPER,4,0.29369460,0.17171338
+UPPER,5,0.33758000,0.17897846
+UPPER,6,0.38146540,0.16686999
+UPPER,7,0.38556100,0.13296628
+UPPER,8,0.49344000,0.08311342
+UPPER,9,0.88000000,0.03168641
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01031687,-0.04010949
+LOWER,2,0.04126749,-0.01848428
+LOWER,3,0.08597393,-0.04359798
+LOWER,4,0.29369460,-0.04381736
+LOWER,5,0.33758000,-0.06319091
+LOWER,6,0.38146540,-0.03655228
+LOWER,7,0.38556100,0.00461651
+LOWER,8,0.49344000,0.01894228
+LOWER,9,0.88000000,0.00963006
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

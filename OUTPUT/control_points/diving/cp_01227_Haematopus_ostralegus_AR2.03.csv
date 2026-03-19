@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Haematopus_ostralegus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 250.30 mm
+# Secondary1: 123.20 mm
+# Kipps Distance: 129.50 mm
+# Hand-Wing Index: 51.20
+# Tail Length: 106.00 mm
+# Aspect Ratio: 2.032
+# Pointedness Index: 0.5174
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0916
+# Max Thickness Position: 0.3193
+# Max Camber/Chord: 0.0509
+# Max Camber Position: 0.3390
+# Leading Edge Radius: 0.0260
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00779465,0.04676788
+UPPER,2,0.03117859,0.08906113
+UPPER,3,0.06495539,0.11277857
+UPPER,4,0.27777360,0.13700486
+UPPER,5,0.31928000,0.14250179
+UPPER,6,0.36078640,0.13334025
+UPPER,7,0.36207600,0.10768794
+UPPER,8,0.46904000,0.06890575
+UPPER,9,0.88000000,0.02666606
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00779465,-0.03117859
+LOWER,2,0.03117859,-0.01150668
+LOWER,3,0.06495539,-0.02972918
+LOWER,4,0.27777360,-0.02607053
+LOWER,5,0.31928000,-0.04072899
+LOWER,6,0.36078640,-0.02057360
+LOWER,7,0.36207600,0.01057563
+LOWER,8,0.46904000,0.01872341
+LOWER,9,0.88000000,0.00905698
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

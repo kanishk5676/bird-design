@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bubo_philippensis
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 341.20 mm
+# Secondary1: 261.40 mm
+# Kipps Distance: 79.80 mm
+# Hand-Wing Index: 23.40
+# Tail Length: 166.80 mm
+# Aspect Ratio: 1.305
+# Pointedness Index: 0.2339
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1120
+# Max Thickness Position: 0.3360
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3613
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.39e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01009117,0.06386702
+UPPER,2,0.04036468,0.10818268
+UPPER,3,0.08409308,0.13353408
+UPPER,4,0.29228520,0.16278009
+UPPER,5,0.33596000,0.16950258
+UPPER,6,0.37963480,0.15829843
+UPPER,7,0.38348200,0.12692682
+UPPER,8,0.49128000,0.08021355
+UPPER,9,0.88000000,0.03079854
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01009117,-0.03936868
+LOWER,2,0.04036468,-0.01574189
+LOWER,3,0.08409308,-0.03855195
+LOWER,4,0.29228520,-0.03665375
+LOWER,5,0.33596000,-0.05458038
+LOWER,6,0.37963480,-0.02993126
+LOWER,7,0.38348200,0.00816285
+LOWER,8,0.49128000,0.01994007
+LOWER,9,0.88000000,0.00988362
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

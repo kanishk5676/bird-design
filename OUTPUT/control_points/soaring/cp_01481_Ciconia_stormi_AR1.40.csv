@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ciconia_stormi
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 387.50 mm
+# Secondary1: 276.00 mm
+# Kipps Distance: 111.50 mm
+# Hand-Wing Index: 28.80
+# Tail Length: 172.20 mm
+# Aspect Ratio: 1.404
+# Pointedness Index: 0.2877
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1070
+# Max Thickness Position: 0.3327
+# Max Camber/Chord: 0.0565
+# Max Camber Position: 0.3570
+# Leading Edge Radius: 0.0322
+# LE Droop: 0.0022
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 9.98e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00965124,0.06014742
+UPPER,2,0.03860494,0.10373854
+UPPER,3,0.08042697,0.12898603
+UPPER,4,0.28946640,0.15703839
+UPPER,5,0.33272000,0.16345660
+UPPER,6,0.37597360,0.15275958
+UPPER,7,0.37932400,0.12280792
+UPPER,8,0.48696000,0.07796510
+UPPER,9,0.88000000,0.03002245
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00965124,-0.03793294
+LOWER,2,0.03860494,-0.01446022
+LOWER,3,0.08042697,-0.03605897
+LOWER,4,0.28946640,-0.03336857
+LOWER,5,0.33272000,-0.05048380
+LOWER,6,0.37597360,-0.02695036
+LOWER,7,0.37932400,0.00941951
+LOWER,8,0.48696000,0.02004574
+LOWER,9,0.88000000,0.00984279
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

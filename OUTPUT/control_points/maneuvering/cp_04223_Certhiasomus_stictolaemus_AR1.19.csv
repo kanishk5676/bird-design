@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Certhiasomus_stictolaemus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 81.50 mm
+# Secondary1: 68.30 mm
+# Kipps Distance: 14.00 mm
+# Hand-Wing Index: 17.00
+# Tail Length: 82.20 mm
+# Aspect Ratio: 1.193
+# Pointedness Index: 0.1718
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1253
+# Max Thickness Position: 0.3398
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3664
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.27e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01060373,0.06822236
+UPPER,2,0.04241491,0.11693702
+UPPER,3,0.08836439,0.14400335
+UPPER,4,0.29562600,0.17625396
+UPPER,5,0.33980000,0.18377480
+UPPER,6,0.38397400,0.17124007
+UPPER,7,0.38841000,0.13614282
+UPPER,8,0.49640000,0.08476062
+UPPER,9,0.88000000,0.03223023
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01060373,-0.04103491
+LOWER,2,0.04241491,-0.01966151
+LOWER,3,0.08836439,-0.04582478
+LOWER,4,0.29562600,-0.04686423
+LOWER,5,0.33980000,-0.06691980
+LOWER,6,0.38397400,-0.03934339
+LOWER,7,0.38841000,0.00327469
+LOWER,8,0.49640000,0.01867643
+LOWER,9,0.88000000,0.00959298
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

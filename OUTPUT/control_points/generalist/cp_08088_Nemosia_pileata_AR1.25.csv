@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nemosia_pileata
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 68.40 mm
+# Secondary1: 54.80 mm
+# Kipps Distance: 13.80 mm
+# Hand-Wing Index: 20.20
+# Tail Length: 47.40 mm
+# Aspect Ratio: 1.248
+# Pointedness Index: 0.2018
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1236
+# Max Thickness Position: 0.3379
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3638
+# Leading Edge Radius: 0.0345
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01035293,0.06607760
+UPPER,2,0.04141173,0.11505432
+UPPER,3,0.08627444,0.14235297
+UPPER,4,0.29395560,0.17419132
+UPPER,5,0.33788000,0.18160971
+UPPER,6,0.38180440,0.16924573
+UPPER,7,0.38594600,0.13462658
+UPPER,8,0.49384000,0.08389356
+UPPER,9,0.88000000,0.03191975
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01035293,-0.04022373
+LOWER,2,0.04141173,-0.01927528
+LOWER,3,0.08627444,-0.04504494
+LOWER,4,0.29395560,-0.04588754
+LOWER,5,0.33788000,-0.06566991
+LOWER,6,0.38180440,-0.03846915
+LOWER,7,0.38594600,0.00356838
+LOWER,8,0.49384000,0.01863176
+LOWER,9,0.88000000,0.00954688
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

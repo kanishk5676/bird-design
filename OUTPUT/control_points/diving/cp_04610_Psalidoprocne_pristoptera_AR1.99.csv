@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psalidoprocne_pristoptera
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 105.90 mm
+# Secondary1: 53.10 mm
+# Kipps Distance: 52.80 mm
+# Hand-Wing Index: 49.80
+# Tail Length: 80.30 mm
+# Aspect Ratio: 1.994
+# Pointedness Index: 0.4986
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0976
+# Max Thickness Position: 0.3201
+# Max Camber/Chord: 0.0513
+# Max Camber Position: 0.3402
+# Leading Edge Radius: 0.0264
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.78e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00793334,0.04760006
+UPPER,2,0.03173338,0.09243803
+UPPER,3,0.06611120,0.11751255
+UPPER,4,0.27850440,0.14310018
+UPPER,5,0.32012000,0.14895913
+UPPER,6,0.36173560,0.13919421
+UPPER,7,0.36315400,0.11185242
+UPPER,8,0.47016000,0.07095520
+UPPER,9,0.88000000,0.02730970
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00793334,-0.03173338
+LOWER,2,0.03173338,-0.01328929
+LOWER,3,0.06611120,-0.03303400
+LOWER,4,0.27850440,-0.03071545
+LOWER,5,0.32012000,-0.04633933
+LOWER,6,0.36173560,-0.02485650
+LOWER,7,0.36315400,0.00834424
+LOWER,8,0.47016000,0.01814125
+LOWER,9,0.88000000,0.00892151
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

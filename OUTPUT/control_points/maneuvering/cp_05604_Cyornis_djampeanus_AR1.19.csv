@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cyornis_djampeanus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 76.00 mm
+# Secondary1: 63.90 mm
+# Kipps Distance: 12.10 mm
+# Hand-Wing Index: 15.90
+# Tail Length: 66.00 mm
+# Aspect Ratio: 1.189
+# Pointedness Index: 0.1592
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1266
+# Max Thickness Position: 0.3405
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3673
+# Leading Edge Radius: 0.0357
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01070149,0.06902892
+UPPER,2,0.04280595,0.11791362
+UPPER,3,0.08917905,0.14504863
+UPPER,4,0.29620020,0.17758937
+UPPER,5,0.34046000,0.18518616
+UPPER,6,0.38471980,0.17252484
+UPPER,7,0.38925700,0.13707315
+UPPER,8,0.49728000,0.08523872
+UPPER,9,0.88000000,0.03238679
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01070149,-0.04135995
+LOWER,2,0.04280595,-0.02001568
+LOWER,3,0.08917905,-0.04649208
+LOWER,4,0.29620020,-0.04778210
+LOWER,5,0.34046000,-0.06804021
+LOWER,6,0.38471980,-0.04018531
+LOWER,7,0.38925700,0.00286317
+LOWER,8,0.49728000,0.01858940
+LOWER,9,0.88000000,0.00957872
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

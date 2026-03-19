@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Strepera_graculina
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 260.60 mm
+# Secondary1: 182.50 mm
+# Kipps Distance: 76.70 mm
+# Hand-Wing Index: 29.60
+# Tail Length: 193.80 mm
+# Aspect Ratio: 1.428
+# Pointedness Index: 0.2943
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1087
+# Max Thickness Position: 0.3322
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3563
+# Leading Edge Radius: 0.0320
+# LE Droop: 0.0021
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.83e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00959320,0.05963922
+UPPER,2,0.03837282,0.10429043
+UPPER,3,0.07994337,0.13005882
+UPPER,4,0.28904880,0.15847050
+UPPER,5,0.33224000,0.16499014
+UPPER,6,0.37543120,0.15412408
+UPPER,7,0.37870800,0.12369913
+UPPER,8,0.48632000,0.07830511
+UPPER,9,0.88000000,0.03009809
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00959320,-0.03774882
+LOWER,2,0.03837282,-0.01505601
+LOWER,3,0.07994337,-0.03711149
+LOWER,4,0.28904880,-0.03494525
+LOWER,5,0.33224000,-0.05233094
+LOWER,6,0.37543120,-0.02842562
+LOWER,7,0.37870800,0.00851896
+LOWER,8,0.48632000,0.01971188
+LOWER,9,0.88000000,0.00973598
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

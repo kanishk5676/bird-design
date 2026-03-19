@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pseudasthenes_patagonica
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 56.70 mm
+# Secondary1: 48.50 mm
+# Kipps Distance: 8.10 mm
+# Hand-Wing Index: 14.30
+# Tail Length: 65.60 mm
+# Aspect Ratio: 1.169
+# Pointedness Index: 0.1429
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1286
+# Max Thickness Position: 0.3414
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3686
+# Leading Edge Radius: 0.0361
+# LE Droop: 0.0051
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01083385,0.07014309
+UPPER,2,0.04333539,0.11937771
+UPPER,3,0.09028207,0.14663507
+UPPER,4,0.29703540,0.17962017
+UPPER,5,0.34142000,0.18733378
+UPPER,6,0.38580460,0.17447778
+UPPER,7,0.39048900,0.13848098
+UPPER,8,0.49856000,0.08595451
+UPPER,9,0.88000000,0.03261883
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01083385,-0.04179339
+LOWER,2,0.04333539,-0.02056838
+LOWER,3,0.09028207,-0.04752886
+LOWER,4,0.29703540,-0.04921663
+LOWER,5,0.34142000,-0.06978623
+LOWER,6,0.38580460,-0.04150303
+LOWER,7,0.39048900,0.00220737
+LOWER,8,0.49856000,0.01844134
+LOWER,9,0.88000000,0.00955104
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

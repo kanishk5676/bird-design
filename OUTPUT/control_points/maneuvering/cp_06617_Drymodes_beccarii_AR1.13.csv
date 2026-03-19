@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Drymodes_beccarii
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 96.00 mm
+# Secondary1: 84.80 mm
+# Kipps Distance: 17.00 mm
+# Hand-Wing Index: 16.70
+# Tail Length: 99.00 mm
+# Aspect Ratio: 1.132
+# Pointedness Index: 0.1771
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1247
+# Max Thickness Position: 0.3400
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3666
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.57e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01058586,0.06817513
+UPPER,2,0.04234342,0.11669651
+UPPER,3,0.08821546,0.14355837
+UPPER,4,0.29578260,0.17566491
+UPPER,5,0.33998000,0.18314558
+UPPER,6,0.38417740,0.17067780
+UPPER,7,0.38864100,0.13576801
+UPPER,8,0.49664000,0.08460739
+UPPER,9,0.88000000,0.03219198
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01058586,-0.04094542
+LOWER,2,0.04234342,-0.01943318
+LOWER,3,0.08821546,-0.04541795
+LOWER,4,0.29578260,-0.04626158
+LOWER,5,0.33998000,-0.06621003
+LOWER,6,0.38417740,-0.03878091
+LOWER,7,0.38864100,0.00360954
+LOWER,8,0.49664000,0.01879513
+LOWER,9,0.88000000,0.00962983
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

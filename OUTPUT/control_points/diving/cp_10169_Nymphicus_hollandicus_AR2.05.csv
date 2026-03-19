@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nymphicus_hollandicus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 167.30 mm
+# Secondary1: 81.80 mm
+# Kipps Distance: 83.80 mm
+# Hand-Wing Index: 50.60
+# Tail Length: 165.90 mm
+# Aspect Ratio: 2.045
+# Pointedness Index: 0.5009
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0944
+# Max Thickness Position: 0.3196
+# Max Camber/Chord: 0.0511
+# Max Camber Position: 0.3395
+# Leading Edge Radius: 0.0263
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.24e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00789707,0.04738240
+UPPER,2,0.03158827,0.09061877
+UPPER,3,0.06580889,0.11496603
+UPPER,4,0.27808680,0.13982397
+UPPER,5,0.31964000,0.14548918
+UPPER,6,0.36119320,0.13604717
+UPPER,7,0.36253800,0.10960955
+UPPER,8,0.46952000,0.06984636
+UPPER,9,0.88000000,0.02695986
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00789707,-0.03158827
+LOWER,2,0.03158827,-0.01234024
+LOWER,3,0.06580889,-0.03127186
+LOWER,4,0.27808680,-0.02824377
+LOWER,5,0.31964000,-0.04335098
+LOWER,6,0.36119320,-0.02257856
+LOWER,7,0.36253800,0.00952426
+LOWER,8,0.46952000,0.01844403
+LOWER,9,0.88000000,0.00899047
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

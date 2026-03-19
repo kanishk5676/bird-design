@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chaetura_cinereiventris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 104.40 mm
+# Secondary1: 34.40 mm
+# Kipps Distance: 70.10 mm
+# Hand-Wing Index: 67.00
+# Tail Length: 41.40 mm
+# Aspect Ratio: 3.035
+# Pointedness Index: 0.6715
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0816
+# Max Thickness Position: 0.3098
+# Max Camber/Chord: 0.0454
+# Max Camber Position: 0.3264
+# Leading Edge Radius: 0.0218
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00652537,0.03915225
+UPPER,2,0.02610150,0.07942993
+UPPER,3,0.05437812,0.10056914
+UPPER,4,0.26952600,0.12216263
+UPPER,5,0.30980000,0.12706062
+UPPER,6,0.35007400,0.11889730
+UPPER,7,0.34991000,0.09604003
+UPPER,8,0.45640000,0.06147065
+UPPER,9,0.88000000,0.02379310
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00652537,-0.02610150
+LOWER,2,0.02610150,-0.01022297
+LOWER,3,0.05437812,-0.02645056
+LOWER,4,0.26952600,-0.02314432
+LOWER,5,0.30980000,-0.03620562
+LOWER,6,0.35007400,-0.01824633
+LOWER,7,0.34991000,0.00950893
+LOWER,8,0.45640000,0.01673641
+LOWER,9,0.88000000,0.00809155
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

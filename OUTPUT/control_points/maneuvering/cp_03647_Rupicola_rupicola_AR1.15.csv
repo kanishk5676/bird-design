@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rupicola_rupicola
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 177.80 mm
+# Secondary1: 154.20 mm
+# Kipps Distance: 24.60 mm
+# Hand-Wing Index: 13.80
+# Tail Length: 88.80 mm
+# Aspect Ratio: 1.153
+# Pointedness Index: 0.1384
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1235
+# Max Thickness Position: 0.3417
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3690
+# Leading Edge Radius: 0.0362
+# LE Droop: 0.0052
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.51e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01087210,0.07047257
+UPPER,2,0.04348838,0.11700451
+UPPER,3,0.09060080,0.14305540
+UPPER,4,0.29729640,0.17493462
+UPPER,5,0.34172000,0.18234530
+UPPER,6,0.38614360,0.16999416
+UPPER,7,0.39087400,0.13541097
+UPPER,8,0.49896000,0.08459201
+UPPER,9,0.88000000,0.03223779
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01087210,-0.04191638
+LOWER,2,0.04348838,-0.01893178
+LOWER,3,0.09060080,-0.04457302
+LOWER,4,0.29729640,-0.04491568
+LOWER,5,0.34172000,-0.06467750
+LOWER,6,0.38614360,-0.03750499
+LOWER,7,0.39087400,0.00448888
+LOWER,8,0.49896000,0.01918542
+LOWER,9,0.88000000,0.00976802
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

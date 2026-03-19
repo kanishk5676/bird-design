@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rhipidura_perlata
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 83.30 mm
+# Secondary1: 67.20 mm
+# Kipps Distance: 16.30 mm
+# Hand-Wing Index: 19.50
+# Tail Length: 81.60 mm
+# Aspect Ratio: 1.240
+# Pointedness Index: 0.1957
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1232
+# Max Thickness Position: 0.3383
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3644
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.31e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01040534,0.06653204
+UPPER,2,0.04162136,0.11507641
+UPPER,3,0.08671117,0.14215142
+UPPER,4,0.29432100,0.17390717
+UPPER,5,0.33830000,0.18130075
+UPPER,6,0.38227900,0.16897811
+UPPER,7,0.38648500,0.13447473
+UPPER,8,0.49440000,0.08386660
+UPPER,9,0.88000000,0.03192637
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01040534,-0.04039136
+LOWER,2,0.04162136,-0.01910641
+LOWER,3,0.08671117,-0.04475709
+LOWER,4,0.29432100,-0.04543578
+LOWER,5,0.33830000,-0.06515200
+LOWER,6,0.38227900,-0.03804220
+LOWER,7,0.38648500,0.00385477
+LOWER,8,0.49440000,0.01875442
+LOWER,9,0.88000000,0.00958954
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

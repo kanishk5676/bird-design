@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cyanocitta_stelleri
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 145.80 mm
+# Secondary1: 125.80 mm
+# Kipps Distance: 20.00 mm
+# Hand-Wing Index: 13.60
+# Tail Length: 133.20 mm
+# Aspect Ratio: 1.159
+# Pointedness Index: 0.1372
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1248
+# Max Thickness Position: 0.3418
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3691
+# Leading Edge Radius: 0.0363
+# LE Droop: 0.0053
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.70e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01088425,0.07058551
+UPPER,2,0.04353701,0.11771124
+UPPER,3,0.09070210,0.14400828
+UPPER,4,0.29740080,0.17617389
+UPPER,5,0.34184000,0.18366216
+UPPER,6,0.38627920,0.17118171
+UPPER,7,0.39102800,0.13623643
+UPPER,8,0.49912000,0.08497424
+UPPER,9,0.88000000,0.03235025
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01088425,-0.04195301
+LOWER,2,0.04353701,-0.01933730
+LOWER,3,0.09070210,-0.04531215
+LOWER,4,0.29740080,-0.04597823
+LOWER,5,0.34184000,-0.06594696
+LOWER,6,0.38627920,-0.03848996
+LOWER,7,0.39102800,0.00394359
+LOWER,8,0.49912000,0.01901907
+LOWER,9,0.88000000,0.00972222
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dinemellia_dinemelli
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 117.10 mm
+# Secondary1: 94.40 mm
+# Kipps Distance: 22.00 mm
+# Hand-Wing Index: 18.80
+# Tail Length: 76.90 mm
+# Aspect Ratio: 1.240
+# Pointedness Index: 0.1879
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1219
+# Max Thickness Position: 0.3387
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3650
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01046656,0.06703939
+UPPER,2,0.04186626,0.11463228
+UPPER,3,0.08722137,0.14127926
+UPPER,4,0.29468640,0.17274800
+UPPER,5,0.33872000,0.18006108
+UPPER,6,0.38275360,0.16787262
+UPPER,7,0.38702400,0.13374490
+UPPER,8,0.49496000,0.08357765
+UPPER,9,0.88000000,0.03185781
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01046656,-0.04059426
+LOWER,2,0.04186626,-0.01864136
+LOWER,3,0.08722137,-0.04393197
+LOWER,4,0.29468640,-0.04420673
+LOWER,5,0.33872000,-0.06370828
+LOWER,6,0.38275360,-0.03689365
+LOWER,7,0.38702400,0.00454714
+LOWER,8,0.49496000,0.01900551
+LOWER,9,0.88000000,0.00966871
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

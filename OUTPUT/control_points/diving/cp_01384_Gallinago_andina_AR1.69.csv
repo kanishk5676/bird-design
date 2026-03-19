@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gallinago_andina
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 113.00 mm
+# Secondary1: 66.80 mm
+# Kipps Distance: 44.20 mm
+# Hand-Wing Index: 39.90
+# Tail Length: 49.00 mm
+# Aspect Ratio: 1.692
+# Pointedness Index: 0.3912
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1045
+# Max Thickness Position: 0.3261
+# Max Camber/Chord: 0.0540
+# Max Camber Position: 0.3481
+# Leading Edge Radius: 0.0293
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00878419,0.05272516
+UPPER,2,0.03513677,0.09819338
+UPPER,3,0.07320161,0.12494607
+UPPER,4,0.28367220,0.15225902
+UPPER,5,0.32606000,0.15852927
+UPPER,6,0.36844780,0.14807884
+UPPER,7,0.37077700,0.11881764
+UPPER,8,0.47808000,0.07518243
+UPPER,9,0.88000000,0.02888983
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00878419,-0.03513077
+LOWER,2,0.03513677,-0.01453263
+LOWER,3,0.07320161,-0.03576101
+LOWER,4,0.28367220,-0.03375864
+LOWER,5,0.32606000,-0.05047932
+LOWER,6,0.36844780,-0.02748838
+LOWER,7,0.37077700,0.00804308
+LOWER,8,0.47808000,0.01886488
+LOWER,9,0.88000000,0.00932607
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

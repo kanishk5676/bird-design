@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Drepanornis_albertisi
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 147.60 mm
+# Secondary1: 128.90 mm
+# Kipps Distance: 19.30 mm
+# Hand-Wing Index: 13.00
+# Tail Length: 122.20 mm
+# Aspect Ratio: 1.145
+# Pointedness Index: 0.1308
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1252
+# Max Thickness Position: 0.3422
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3696
+# Leading Edge Radius: 0.0365
+# LE Droop: 0.0054
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.74e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01093533,0.07101198
+UPPER,2,0.04374132,0.11809576
+UPPER,3,0.09112775,0.14436794
+UPPER,4,0.29771400,0.17662939
+UPPER,5,0.34220000,0.18414228
+UPPER,6,0.38668600,0.17162080
+UPPER,7,0.39149000,0.13656066
+UPPER,8,0.49960000,0.08514851
+UPPER,9,0.88000000,0.03240963
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01093533,-0.04212132
+LOWER,2,0.04374132,-0.01944410
+LOWER,3,0.09112775,-0.04551792
+LOWER,4,0.29771400,-0.04625291
+LOWER,5,0.34220000,-0.06628728
+LOWER,6,0.38668600,-0.03874003
+LOWER,7,0.39149000,0.00383300
+LOWER,8,0.49960000,0.01900498
+LOWER,9,0.88000000,0.00972328
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

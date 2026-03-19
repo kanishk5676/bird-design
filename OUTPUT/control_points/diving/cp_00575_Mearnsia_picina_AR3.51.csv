@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Mearnsia_picina
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 161.50 mm
+# Secondary1: 46.00 mm
+# Kipps Distance: 115.60 mm
+# Hand-Wing Index: 71.40
+# Tail Length: 26.10 mm
+# Aspect Ratio: 3.511
+# Pointedness Index: 0.7158
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0750
+# Max Thickness Position: 0.3072
+# Max Camber/Chord: 0.0437
+# Max Camber Position: 0.3229
+# Leading Edge Radius: 0.0205
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.18e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00616463,0.03698780
+UPPER,2,0.02465853,0.07461807
+UPPER,3,0.05137195,0.09416975
+UPPER,4,0.26722920,0.11415828
+UPPER,5,0.30716000,0.11865656
+UPPER,6,0.34709080,0.11115942
+UPPER,7,0.34652200,0.09016741
+UPPER,8,0.45288000,0.05812434
+UPPER,9,0.88000000,0.02259806
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00616463,-0.02465853
+LOWER,2,0.02465853,-0.00870108
+LOWER,3,0.05137195,-0.02338830
+LOWER,4,0.26722920,-0.01929093
+LOWER,5,0.30716000,-0.03128636
+LOWER,6,0.34709080,-0.01479264
+LOWER,7,0.34652200,0.01069766
+LOWER,8,0.45288000,0.01658876
+LOWER,9,0.88000000,0.00792242
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

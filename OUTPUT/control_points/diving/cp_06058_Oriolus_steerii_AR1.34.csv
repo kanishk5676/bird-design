@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Oriolus_steerii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 116.40 mm
+# Secondary1: 87.00 mm
+# Kipps Distance: 29.00 mm
+# Hand-Wing Index: 25.00
+# Tail Length: 77.20 mm
+# Aspect Ratio: 1.338
+# Pointedness Index: 0.2491
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1170
+# Max Thickness Position: 0.3350
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3600
+# Leading Edge Radius: 0.0332
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00996438,0.06278629
+UPPER,2,0.03985753,0.11008859
+UPPER,3,0.08303651,0.13682257
+UPPER,4,0.29145000,0.16712842
+UPPER,5,0.33500000,0.17414593
+UPPER,6,0.37855000,0.16245008
+UPPER,7,0.38225000,0.12970173
+UPPER,8,0.49000000,0.08135773
+UPPER,9,0.88000000,0.03108792
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00996438,-0.03895753
+LOWER,2,0.03985753,-0.01741107
+LOWER,3,0.08303651,-0.04152964
+LOWER,4,0.29145000,-0.04105758
+LOWER,5,0.33500000,-0.05977093
+LOWER,6,0.37855000,-0.03404007
+LOWER,7,0.38225000,0.00572579
+LOWER,8,0.49000000,0.01908207
+LOWER,9,0.88000000,0.00961854
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cinclus_mexicanus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 89.10 mm
+# Secondary1: 65.30 mm
+# Kipps Distance: 23.60 mm
+# Hand-Wing Index: 26.50
+# Tail Length: 51.80 mm
+# Aspect Ratio: 1.364
+# Pointedness Index: 0.2649
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1171
+# Max Thickness Position: 0.3341
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3588
+# Leading Edge Radius: 0.0328
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.47e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00983826,0.06172955
+UPPER,2,0.03935303,0.10965122
+UPPER,3,0.08198549,0.13670627
+UPPER,4,0.29066700,0.16703051
+UPPER,5,0.33410000,0.17405889
+UPPER,6,0.37753300,0.16234493
+UPPER,7,0.38109500,0.12954587
+UPPER,8,0.48880000,0.08118053
+UPPER,9,0.88000000,0.03100052
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00983826,-0.03854303
+LOWER,2,0.03935303,-0.01756286
+LOWER,3,0.08198549,-0.04175800
+LOWER,4,0.29066700,-0.04147781
+LOWER,5,0.33410000,-0.06022014
+LOWER,6,0.37753300,-0.03444944
+LOWER,7,0.38109500,0.00537799
+LOWER,8,0.48880000,0.01889048
+LOWER,9,0.88000000,0.00954426
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

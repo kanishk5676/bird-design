@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Motacilla_flava
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 79.50 mm
+# Secondary1: 54.50 mm
+# Kipps Distance: 24.70 mm
+# Hand-Wing Index: 31.10
+# Tail Length: 70.60 mm
+# Aspect Ratio: 1.459
+# Pointedness Index: 0.3107
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1142
+# Max Thickness Position: 0.3313
+# Max Camber/Chord: 0.0560
+# Max Camber Position: 0.3551
+# Leading Edge Radius: 0.0315
+# LE Droop: 0.0018
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.23e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00946381,0.05856287
+UPPER,2,0.03785525,0.10650527
+UPPER,3,0.07886510,0.13377218
+UPPER,4,0.28826580,0.16337937
+UPPER,5,0.33134000,0.17023165
+UPPER,6,0.37441420,0.15881118
+UPPER,7,0.37755300,0.12683387
+UPPER,8,0.48512000,0.07960024
+UPPER,9,0.88000000,0.03042662
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00946381,-0.03732125
+LOWER,2,0.03785525,-0.01693605
+LOWER,3,0.07886510,-0.04046630
+LOWER,4,0.28826580,-0.03990495
+LOWER,5,0.33134000,-0.05817770
+LOWER,6,0.37441420,-0.03305267
+LOWER,7,0.37755300,0.00577692
+LOWER,8,0.48512000,0.01874807
+LOWER,9,0.88000000,0.00943856
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

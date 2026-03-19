@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Caryothraustes_erythromelas
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 99.20 mm
+# Secondary1: 81.10 mm
+# Kipps Distance: 18.10 mm
+# Hand-Wing Index: 18.30
+# Tail Length: 88.80 mm
+# Aspect Ratio: 1.223
+# Pointedness Index: 0.1825
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1232
+# Max Thickness Position: 0.3390
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3654
+# Leading Edge Radius: 0.0350
+# LE Droop: 0.0043
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.64e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01050948,0.06739685
+UPPER,2,0.04203790,0.11545802
+UPPER,3,0.08757896,0.14230262
+UPPER,4,0.29494740,0.17406970
+UPPER,5,0.33902000,0.18146259
+UPPER,6,0.38309260,0.16914111
+UPPER,7,0.38740900,0.13464096
+UPPER,8,0.49536000,0.08401076
+UPPER,9,0.88000000,0.03199134
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01050948,-0.04073590
+LOWER,2,0.04203790,-0.01904202
+LOWER,3,0.08757896,-0.04467062
+LOWER,4,0.29494740,-0.04525267
+LOWER,5,0.33902000,-0.06496704
+LOWER,6,0.38309260,-0.03785978
+LOWER,7,0.38740900,0.00403326
+LOWER,8,0.49536000,0.01886355
+LOWER,9,0.88000000,0.00963335
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Myrmotherula_longicauda
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 48.00 mm
+# Secondary1: 43.30 mm
+# Kipps Distance: 5.20 mm
+# Hand-Wing Index: 11.00
+# Tail Length: 34.50 mm
+# Aspect Ratio: 1.109
+# Pointedness Index: 0.1083
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1312
+# Max Thickness Position: 0.3434
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3712
+# Leading Edge Radius: 0.0370
+# LE Droop: 0.0058
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01111090,0.07246540
+UPPER,2,0.04444360,0.12167538
+UPPER,3,0.09259083,0.14887970
+UPPER,4,0.29875800,0.18247550
+UPPER,5,0.34340000,0.19034750
+UPPER,6,0.38804200,0.17722750
+UPPER,7,0.39303000,0.14049150
+UPPER,8,0.50120000,0.08701138
+UPPER,9,0.88000000,0.03297205
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01111090,-0.04270360
+LOWER,2,0.04444360,-0.02128238
+LOWER,3,0.09259083,-0.04888815
+LOWER,4,0.29875800,-0.05106050
+LOWER,5,0.34340000,-0.07205250
+LOWER,6,0.38804200,-0.04318850
+LOWER,7,0.39303000,0.00141950
+LOWER,8,0.50120000,0.01830345
+LOWER,9,0.88000000,0.00953887
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

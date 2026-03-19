@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Theristicus_caerulescens
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 408.20 mm
+# Secondary1: 259.20 mm
+# Kipps Distance: 149.00 mm
+# Hand-Wing Index: 36.50
+# Tail Length: 161.20 mm
+# Aspect Ratio: 1.575
+# Pointedness Index: 0.3650
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1005
+# Max Thickness Position: 0.3281
+# Max Camber/Chord: 0.0548
+# Max Camber Position: 0.3508
+# Leading Edge Radius: 0.0301
+# LE Droop: 0.0007
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.07e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00902151,0.05482908
+UPPER,2,0.03608605,0.09756868
+UPPER,3,0.07517927,0.12281821
+UPPER,4,0.28544700,0.14931618
+UPPER,5,0.32810000,0.15534630
+UPPER,6,0.37075300,0.14529611
+UPPER,7,0.37339500,0.11715557
+UPPER,8,0.48080000,0.07475826
+UPPER,9,0.88000000,0.02888102
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00902151,-0.03587605
+LOWER,2,0.03608605,-0.01296508
+LOWER,3,0.07517927,-0.03306270
+LOWER,4,0.28544700,-0.02957724
+LOWER,5,0.32810000,-0.04565755
+LOWER,6,0.37075300,-0.02354713
+LOWER,7,0.37339500,0.01062353
+LOWER,8,0.48080000,0.01993324
+LOWER,9,0.88000000,0.00969102
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

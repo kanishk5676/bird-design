@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Laniisoma_elegans
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 103.50 mm
+# Secondary1: 76.60 mm
+# Kipps Distance: 26.90 mm
+# Hand-Wing Index: 26.00
+# Tail Length: 61.00 mm
+# Aspect Ratio: 1.351
+# Pointedness Index: 0.2599
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1168
+# Max Thickness Position: 0.3344
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3592
+# Leading Edge Radius: 0.0329
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.73e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00987889,0.06207336
+UPPER,2,0.03951557,0.10966729
+UPPER,3,0.08232411,0.13655786
+UPPER,4,0.29092800,0.16681853
+UPPER,5,0.33440000,0.17382759
+UPPER,6,0.37787200,0.16214583
+UPPER,7,0.38148000,0.12943690
+UPPER,8,0.48920000,0.08116742
+UPPER,9,0.88000000,0.03100921
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00987889,-0.03867557
+LOWER,2,0.03951557,-0.01742813
+LOWER,3,0.08232411,-0.04152960
+LOWER,4,0.29092800,-0.04111677
+LOWER,5,0.33440000,-0.05980759
+LOWER,6,0.37787200,-0.03410772
+LOWER,7,0.38148000,0.00561026
+LOWER,8,0.48920000,0.01899174
+LOWER,9,0.88000000,0.00957980
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

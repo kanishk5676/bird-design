@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geothlypis_chiriquensis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 56.00 mm
+# Secondary1: 48.90 mm
+# Kipps Distance: 7.10 mm
+# Hand-Wing Index: 12.70
+# Tail Length: 53.00 mm
+# Aspect Ratio: 1.145
+# Pointedness Index: 0.1268
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1298
+# Max Thickness Position: 0.3424
+# Max Camber/Chord: 0.0590
+# Max Camber Position: 0.3698
+# Leading Edge Radius: 0.0365
+# LE Droop: 0.0055
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01096477,0.07124864
+UPPER,2,0.04385909,0.12049751
+UPPER,3,0.09137311,0.14772963
+UPPER,4,0.29787060,0.18101138
+UPPER,5,0.34238000,0.18880178
+UPPER,6,0.38688940,0.17581778
+UPPER,7,0.39172100,0.13946258
+UPPER,8,0.49984000,0.08647271
+UPPER,9,0.88000000,0.03279267
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01096477,-0.04222109
+LOWER,2,0.04385909,-0.02091218
+LOWER,3,0.09137311,-0.04818478
+LOWER,4,0.29787060,-0.05010383
+LOWER,5,0.34238000,-0.07087823
+LOWER,6,0.38688940,-0.04231343
+LOWER,7,0.39172100,0.00183217
+LOWER,8,0.49984000,0.01837870
+LOWER,9,0.88000000,0.00954684
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

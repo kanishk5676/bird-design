@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Malacorhynchus_membranaceus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 183.70 mm
+# Secondary1: 99.10 mm
+# Kipps Distance: 81.60 mm
+# Hand-Wing Index: 45.10
+# Tail Length: 65.50 mm
+# Aspect Ratio: 1.854
+# Pointedness Index: 0.4442
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0980
+# Max Thickness Position: 0.3229
+# Max Camber/Chord: 0.0527
+# Max Camber Position: 0.3439
+# Leading Edge Radius: 0.0278
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.90e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00835451,0.05012704
+UPPER,2,0.03341803,0.09376835
+UPPER,3,0.06962089,0.11901780
+UPPER,4,0.28095780,0.14479384
+UPPER,5,0.32294000,0.15067473
+UPPER,6,0.36492220,0.14087325
+UPPER,7,0.36677300,0.11342912
+UPPER,8,0.47392000,0.07220511
+UPPER,9,0.88000000,0.02785197
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00835451,-0.03341803
+LOWER,2,0.03341803,-0.01293373
+LOWER,3,0.06962089,-0.03262497
+LOWER,4,0.28095780,-0.02967242
+LOWER,5,0.32294000,-0.04535478
+LOWER,6,0.36492220,-0.02379153
+LOWER,7,0.36677300,0.00953348
+LOWER,8,0.47392000,0.01892712
+LOWER,9,0.88000000,0.00924440
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

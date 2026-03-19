@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ara_chloropterus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 402.10 mm
+# Secondary1: 235.90 mm
+# Kipps Distance: 167.40 mm
+# Hand-Wing Index: 41.50
+# Tail Length: 486.40 mm
+# Aspect Ratio: 1.705
+# Pointedness Index: 0.4163
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0966
+# Max Thickness Position: 0.3251
+# Max Camber/Chord: 0.0536
+# Max Camber Position: 0.3468
+# Leading Edge Radius: 0.0287
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00860690,0.05164138
+UPPER,2,0.03442759,0.09387206
+UPPER,3,0.07172414,0.11887547
+UPPER,4,0.28283700,0.14441508
+UPPER,5,0.32510000,0.15021055
+UPPER,6,0.36736300,0.14055143
+UPPER,7,0.36954500,0.11350590
+UPPER,8,0.47680000,0.07262200
+UPPER,9,0.88000000,0.02810266
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00860690,-0.03442759
+LOWER,2,0.03442759,-0.01214239
+LOWER,3,0.07172414,-0.03135797
+LOWER,4,0.28283700,-0.02751721
+LOWER,5,0.32510000,-0.04297180
+LOWER,6,0.36736300,-0.02172174
+LOWER,7,0.36954500,0.01111926
+LOWER,8,0.47680000,0.01972125
+LOWER,9,0.88000000,0.00954120
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geranoaetus_polyosoma
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 402.00 mm
+# Secondary1: 249.80 mm
+# Kipps Distance: 153.30 mm
+# Hand-Wing Index: 38.10
+# Tail Length: 192.80 mm
+# Aspect Ratio: 1.609
+# Pointedness Index: 0.3813
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0993
+# Max Thickness Position: 0.3271
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3495
+# Leading Edge Radius: 0.0296
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00888929,0.05371574
+UPPER,2,0.03555716,0.09633240
+UPPER,3,0.07407741,0.12161380
+UPPER,4,0.28461180,0.14781986
+UPPER,5,0.32714000,0.15377862
+UPPER,6,0.36966820,0.14384736
+UPPER,7,0.37216300,0.11603982
+UPPER,8,0.47952000,0.07410362
+UPPER,9,0.88000000,0.02864208
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00888929,-0.03544316
+LOWER,2,0.03555716,-0.01271696
+LOWER,3,0.07407741,-0.03254699
+LOWER,4,0.28461180,-0.02895665
+LOWER,5,0.32714000,-0.04484667
+LOWER,6,0.36966820,-0.02299789
+LOWER,7,0.37216300,0.01076841
+LOWER,8,0.47952000,0.01986513
+LOWER,9,0.88000000,0.00964399
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

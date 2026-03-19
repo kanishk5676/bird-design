@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hylopezus_macularius
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 83.80 mm
+# Secondary1: 74.80 mm
+# Kipps Distance: 12.10 mm
+# Hand-Wing Index: 13.90
+# Tail Length: 37.30 mm
+# Aspect Ratio: 1.120
+# Pointedness Index: 0.1444
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1273
+# Max Thickness Position: 0.3417
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3689
+# Leading Edge Radius: 0.0361
+# LE Droop: 0.0052
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.45e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01083826,0.07024958
+UPPER,2,0.04335306,0.11885606
+UPPER,3,0.09031887,0.14575404
+UPPER,4,0.29724420,0.17846025
+UPPER,5,0.34166000,0.18609673
+UPPER,6,0.38607580,0.17336926
+UPPER,7,0.39079700,0.13773233
+UPPER,8,0.49888000,0.08563561
+UPPER,9,0.88000000,0.03253433
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01083826,-0.04178706
+LOWER,2,0.04335306,-0.02014023
+LOWER,3,0.09031887,-0.04676125
+LOWER,4,0.29724420,-0.04808882
+LOWER,5,0.34166000,-0.06845278
+LOWER,6,0.38607580,-0.04045234
+LOWER,7,0.39079700,0.00282108
+LOWER,8,0.49888000,0.01865116
+LOWER,9,0.88000000,0.00961450
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

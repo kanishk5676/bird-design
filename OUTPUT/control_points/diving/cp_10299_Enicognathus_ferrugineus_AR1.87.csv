@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Enicognathus_ferrugineus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 183.60 mm
+# Secondary1: 98.20 mm
+# Kipps Distance: 87.50 mm
+# Hand-Wing Index: 47.00
+# Tail Length: 151.00 mm
+# Aspect Ratio: 1.870
+# Pointedness Index: 0.4766
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0968
+# Max Thickness Position: 0.3218
+# Max Camber/Chord: 0.0521
+# Max Camber Position: 0.3424
+# Leading Edge Radius: 0.0271
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.66e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00813124,0.04878747
+UPPER,2,0.03252498,0.09269195
+UPPER,3,0.06776037,0.11762965
+UPPER,4,0.27996600,0.14308862
+UPPER,5,0.32180000,0.14889465
+UPPER,6,0.36363400,0.13921794
+UPPER,7,0.36531000,0.11212313
+UPPER,8,0.47240000,0.07140318
+UPPER,9,0.88000000,0.02754982
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00813124,-0.03252498
+LOWER,2,0.03252498,-0.01272086
+LOWER,3,0.06776037,-0.03214630
+LOWER,4,0.27996600,-0.02915691
+LOWER,5,0.32180000,-0.04463965
+LOWER,6,0.36363400,-0.02335088
+LOWER,7,0.36531000,0.00954995
+LOWER,8,0.47240000,0.01877165
+LOWER,9,0.88000000,0.00916119
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

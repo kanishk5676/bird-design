@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phlogophilus_hemileucurus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 50.00 mm
+# Secondary1: 18.20 mm
+# Kipps Distance: 31.80 mm
+# Hand-Wing Index: 63.60
+# Tail Length: 31.00 mm
+# Aspect Ratio: 2.747
+# Pointedness Index: 0.6360
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0880
+# Max Thickness Position: 0.3118
+# Max Camber/Chord: 0.0467
+# Max Camber Position: 0.3291
+# Leading Edge Radius: 0.0227
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.30e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00681024,0.04086144
+UPPER,2,0.02724096,0.08369649
+UPPER,3,0.05675200,0.10632383
+UPPER,4,0.27130080,0.12941825
+UPPER,5,0.31184000,0.13469765
+UPPER,6,0.35237920,0.12589865
+UPPER,7,0.35252800,0.10126143
+UPPER,8,0.45912000,0.06433867
+UPPER,9,0.88000000,0.02478809
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00681024,-0.02724096
+LOWER,2,0.02724096,-0.01180916
+LOWER,3,0.05675200,-0.02954873
+LOWER,4,0.27130080,-0.02720404
+LOWER,5,0.31184000,-0.04128245
+LOWER,6,0.35237920,-0.02192464
+LOWER,7,0.35252800,0.00799198
+LOWER,8,0.45912000,0.01664010
+LOWER,9,0.88000000,0.00815730
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

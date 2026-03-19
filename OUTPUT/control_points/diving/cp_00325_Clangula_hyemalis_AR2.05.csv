@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Clangula_hyemalis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 215.60 mm
+# Secondary1: 105.00 mm
+# Kipps Distance: 108.50 mm
+# Hand-Wing Index: 50.90
+# Tail Length: 130.80 mm
+# Aspect Ratio: 2.053
+# Pointedness Index: 0.5032
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0927
+# Max Thickness Position: 0.3195
+# Max Camber/Chord: 0.0510
+# Max Camber Position: 0.3393
+# Leading Edge Radius: 0.0263
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00787590,0.04725541
+UPPER,2,0.03150361,0.08969185
+UPPER,3,0.06563251,0.11365895
+UPPER,4,0.27793020,0.13813584
+UPPER,5,0.31946000,0.14369911
+UPPER,6,0.36098980,0.13442700
+UPPER,7,0.36230700,0.10846508
+UPPER,8,0.46928000,0.06929320
+UPPER,9,0.88000000,0.02678932
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00787590,-0.03150361
+LOWER,2,0.03150361,-0.01182847
+LOWER,3,0.06563251,-0.03032839
+LOWER,4,0.27793020,-0.02690778
+LOWER,5,0.31946000,-0.04174316
+LOWER,6,0.36098980,-0.02134451
+LOWER,7,0.36230700,0.01018068
+LOWER,8,0.46928000,0.01862539
+LOWER,9,0.88000000,0.00903565
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

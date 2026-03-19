@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chlorocichla_prigoginei
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 96.00 mm
+# Secondary1: 85.80 mm
+# Kipps Distance: 10.20 mm
+# Hand-Wing Index: 10.60
+# Tail Length: 95.00 mm
+# Aspect Ratio: 1.119
+# Pointedness Index: 0.1062
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1296
+# Max Thickness Position: 0.3436
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3715
+# Leading Edge Radius: 0.0371
+# LE Droop: 0.0059
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.57e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01113377,0.07268259
+UPPER,2,0.04453506,0.12096964
+UPPER,3,0.09278137,0.14773559
+UPPER,4,0.29896680,0.18097343
+UPPER,5,0.34364000,0.18874690
+UPPER,6,0.38831320,0.17579112
+UPPER,7,0.39333800,0.13951494
+UPPER,8,0.50152000,0.08658692
+UPPER,9,0.88000000,0.03285648
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01113377,-0.04277106
+LOWER,2,0.04453506,-0.02074231
+LOWER,3,0.09278137,-0.04791654
+LOWER,4,0.29896680,-0.04963945
+LOWER,5,0.34364000,-0.07036870
+LOWER,6,0.38831320,-0.04186599
+LOWER,7,0.39333800,0.00218367
+LOWER,8,0.50152000,0.01855915
+LOWER,9,0.88000000,0.00961496
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

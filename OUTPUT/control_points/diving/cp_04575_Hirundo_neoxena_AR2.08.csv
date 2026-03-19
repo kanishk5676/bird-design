@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hirundo_neoxena
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 111.50 mm
+# Secondary1: 53.50 mm
+# Kipps Distance: 57.60 mm
+# Hand-Wing Index: 51.80
+# Tail Length: 77.70 mm
+# Aspect Ratio: 2.084
+# Pointedness Index: 0.5166
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0956
+# Max Thickness Position: 0.3189
+# Max Camber/Chord: 0.0507
+# Max Camber Position: 0.3386
+# Leading Edge Radius: 0.0259
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.97e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00778030,0.04668181
+UPPER,2,0.03112120,0.09090031
+UPPER,3,0.06483584,0.11548307
+UPPER,4,0.27746040,0.14057285
+UPPER,5,0.31892000,0.14630930
+UPPER,6,0.36037960,0.13674856
+UPPER,7,0.36161400,0.10997849
+UPPER,8,0.46856000,0.06986669
+UPPER,9,0.88000000,0.02691531
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00778030,-0.03112120
+LOWER,2,0.03112120,-0.01284870
+LOWER,3,0.06483584,-0.03212942
+LOWER,4,0.27746040,-0.02960831
+LOWER,5,0.31892000,-0.04490550
+LOWER,6,0.36037960,-0.02387187
+LOWER,7,0.36161400,0.00863464
+LOWER,8,0.46856000,0.01805014
+LOWER,9,0.88000000,0.00885118
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

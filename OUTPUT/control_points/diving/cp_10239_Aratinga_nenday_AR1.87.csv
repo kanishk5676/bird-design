@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aratinga_nenday
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 182.20 mm
+# Secondary1: 97.50 mm
+# Kipps Distance: 84.80 mm
+# Hand-Wing Index: 46.50
+# Tail Length: 179.50 mm
+# Aspect Ratio: 1.869
+# Pointedness Index: 0.4654
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0972
+# Max Thickness Position: 0.3221
+# Max Camber/Chord: 0.0523
+# Max Camber Position: 0.3428
+# Leading Edge Radius: 0.0273
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00820344,0.04922067
+UPPER,2,0.03281378,0.09303452
+UPPER,3,0.06836204,0.11807982
+UPPER,4,0.28022700,0.14364782
+UPPER,5,0.32210000,0.14948048
+UPPER,6,0.36397300,0.13975937
+UPPER,7,0.36569500,0.11254026
+UPPER,8,0.47280000,0.07164808
+UPPER,9,0.88000000,0.02763925
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00820344,-0.03281378
+LOWER,2,0.03281378,-0.01281327
+LOWER,3,0.06836204,-0.03233853
+LOWER,4,0.28022700,-0.02938796
+LOWER,5,0.32210000,-0.04494173
+LOWER,6,0.36397300,-0.02355529
+LOWER,7,0.36569500,0.00949649
+LOWER,8,0.47280000,0.01879746
+LOWER,9,0.88000000,0.00917890
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

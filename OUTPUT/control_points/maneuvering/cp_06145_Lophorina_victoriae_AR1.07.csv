@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lophorina_victoriae
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 130.00 mm
+# Secondary1: 122.00 mm
+# Kipps Distance: 9.80 mm
+# Hand-Wing Index: 7.50
+# Tail Length: 78.10 mm
+# Aspect Ratio: 1.066
+# Pointedness Index: 0.0754
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1303
+# Max Thickness Position: 0.3455
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3740
+# Leading Edge Radius: 0.0380
+# LE Droop: 0.0065
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.33e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01138604,0.07481623
+UPPER,2,0.04554415,0.12222923
+UPPER,3,0.09488365,0.14856684
+UPPER,4,0.30058500,0.18199929
+UPPER,5,0.34550000,0.18981939
+UPPER,6,0.39041500,0.17678589
+UPPER,7,0.39572500,0.14029209
+UPPER,8,0.50400000,0.08705552
+UPPER,9,0.88000000,0.03303086
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01138604,-0.04359415
+LOWER,2,0.04554415,-0.02088767
+LOWER,3,0.09488365,-0.04823150
+LOWER,4,0.30058500,-0.04999704
+LOWER,5,0.34550000,-0.07085064
+LOWER,6,0.39041500,-0.04217694
+LOWER,7,0.39572500,0.00213697
+LOWER,8,0.50400000,0.01863341
+LOWER,9,0.88000000,0.00965769
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

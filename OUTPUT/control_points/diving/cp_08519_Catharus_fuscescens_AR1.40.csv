@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Catharus_fuscescens
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 97.00 mm
+# Secondary1: 69.40 mm
+# Kipps Distance: 27.70 mm
+# Hand-Wing Index: 28.50
+# Tail Length: 69.30 mm
+# Aspect Ratio: 1.398
+# Pointedness Index: 0.2856
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1152
+# Max Thickness Position: 0.3329
+# Max Camber/Chord: 0.0565
+# Max Camber Position: 0.3572
+# Leading Edge Radius: 0.0322
+# LE Droop: 0.0023
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.59e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00967151,0.06032905
+UPPER,2,0.03868603,0.10795272
+UPPER,3,0.08059590,0.13495043
+UPPER,4,0.28962300,0.16481358
+UPPER,5,0.33290000,0.17172438
+UPPER,6,0.37617700,0.16020638
+UPPER,7,0.37955500,0.12795598
+UPPER,8,0.48720000,0.08031312
+UPPER,9,0.88000000,0.03070126
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00967151,-0.03799603
+LOWER,2,0.03868603,-0.01706707
+LOWER,3,0.08059590,-0.04079399
+LOWER,4,0.28962300,-0.04020683
+LOWER,5,0.33290000,-0.05863563
+LOWER,6,0.37617700,-0.03329603
+LOWER,7,0.37955500,0.00586517
+LOWER,8,0.48720000,0.01893231
+LOWER,9,0.88000000,0.00952889
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

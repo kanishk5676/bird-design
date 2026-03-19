@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Foulehaio_taviunensis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 84.20 mm
+# Secondary1: 83.10 mm
+# Kipps Distance: 19.10 mm
+# Hand-Wing Index: 18.60
+# Tail Length: 81.00 mm
+# Aspect Ratio: 1.013
+# Pointedness Index: 0.2268
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1239
+# Max Thickness Position: 0.3388
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3651
+# Leading Edge Radius: 0.0342
+# LE Droop: 0.0043
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.33e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01027395,0.06592371
+UPPER,2,0.04109581,0.11569776
+UPPER,3,0.08561626,0.14274722
+UPPER,4,0.29479080,0.17465873
+UPPER,5,0.33884000,0.18209194
+UPPER,6,0.38288920,0.16970326
+UPPER,7,0.38717800,0.13501494
+UPPER,8,0.49512000,0.08416265
+UPPER,9,0.88000000,0.03202889
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01027395,-0.03981181
+LOWER,2,0.04109581,-0.01927201
+LOWER,3,0.08561626,-0.04508002
+LOWER,4,0.29479080,-0.04585985
+LOWER,5,0.33884000,-0.06568174
+LOWER,6,0.38288920,-0.03842664
+LOWER,7,0.38717800,0.00369489
+LOWER,8,0.49512000,0.01874300
+LOWER,9,0.88000000,0.00959580
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

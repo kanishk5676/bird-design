@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ceyx_nigrirostris
+# Flight Category: hovering
+#
+# === Morphological Parameters ===
+# Wing Length: 56.00 mm
+# Secondary1: 46.80 mm
+# Kipps Distance: 12.20 mm
+# Hand-Wing Index: 20.70
+# Tail Length: 23.60 mm
+# Aspect Ratio: 1.197
+# Pointedness Index: 0.2179
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1229
+# Max Thickness Position: 0.3376
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3634
+# Leading Edge Radius: 0.0342
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.13e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01025551,0.06539305
+UPPER,2,0.04102203,0.11452414
+UPPER,3,0.08546257,0.14175665
+UPPER,4,0.29369460,0.17342810
+UPPER,5,0.33758000,0.18080263
+UPPER,6,0.38146540,0.16851175
+UPPER,7,0.38556100,0.13409727
+UPPER,8,0.49344000,0.08362419
+UPPER,9,0.88000000,0.03183234
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01025551,-0.03986403
+LOWER,2,0.04102203,-0.01906801
+LOWER,3,0.08546257,-0.04465600
+LOWER,4,0.29369460,-0.04534967
+LOWER,5,0.33758000,-0.06501508
+LOWER,6,0.38146540,-0.03797514
+LOWER,7,0.38556100,0.00381388
+LOWER,8,0.49344000,0.01868690
+LOWER,9,0.88000000,0.00955709
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

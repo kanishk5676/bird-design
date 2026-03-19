@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Agelasticus_xanthophthalmus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 91.20 mm
+# Secondary1: 76.50 mm
+# Kipps Distance: 14.80 mm
+# Hand-Wing Index: 16.10
+# Tail Length: 80.80 mm
+# Aspect Ratio: 1.192
+# Pointedness Index: 0.1623
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1254
+# Max Thickness Position: 0.3403
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3671
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.47e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01067971,0.06885825
+UPPER,2,0.04271883,0.11726667
+UPPER,3,0.08899757,0.14418252
+UPPER,4,0.29609580,0.17646384
+UPPER,5,0.34034000,0.18399045
+UPPER,6,0.38458420,0.17144610
+UPPER,7,0.38910300,0.13632193
+UPPER,8,0.49712000,0.08488910
+UPPER,9,0.88000000,0.03228333
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01067971,-0.04128483
+LOWER,2,0.04271883,-0.01965047
+LOWER,3,0.08899757,-0.04582561
+LOWER,4,0.29609580,-0.04682554
+LOWER,5,0.34034000,-0.06689650
+LOWER,6,0.38458420,-0.03929893
+LOWER,7,0.38910300,0.00335185
+LOWER,8,0.49712000,0.01873704
+LOWER,9,0.88000000,0.00961900
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

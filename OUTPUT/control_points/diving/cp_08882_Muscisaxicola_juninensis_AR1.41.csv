@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Muscisaxicola_juninensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 111.40 mm
+# Secondary1: 79.20 mm
+# Kipps Distance: 32.20 mm
+# Hand-Wing Index: 28.90
+# Tail Length: 72.20 mm
+# Aspect Ratio: 1.407
+# Pointedness Index: 0.2890
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1141
+# Max Thickness Position: 0.3327
+# Max Camber/Chord: 0.0565
+# Max Camber Position: 0.3569
+# Leading Edge Radius: 0.0321
+# LE Droop: 0.0022
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.90e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00964151,0.06006908
+UPPER,2,0.03856605,0.10725955
+UPPER,3,0.08034594,0.13409099
+UPPER,4,0.28941420,0.16370710
+UPPER,5,0.33266000,0.17055221
+UPPER,6,0.37590580,0.15914369
+UPPER,7,0.37924700,0.12719982
+UPPER,8,0.48688000,0.07994080
+UPPER,9,0.88000000,0.03058427
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00964151,-0.03790005
+LOWER,2,0.03856605,-0.01674383
+LOWER,3,0.08034594,-0.04019463
+LOWER,4,0.28941420,-0.03936462
+LOWER,5,0.33266000,-0.05761826
+LOWER,6,0.37590580,-0.03251951
+LOWER,7,0.37924700,0.00626947
+LOWER,8,0.48688000,0.01903759
+LOWER,9,0.88000000,0.00955333
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

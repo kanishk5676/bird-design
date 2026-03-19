@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aptenodytes_patagonicus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 167.20 mm
+# Secondary1: 161.10 mm
+# Kipps Distance: 6.20 mm
+# Hand-Wing Index: 3.70
+# Tail Length: 63.80 mm
+# Aspect Ratio: 1.038
+# Pointedness Index: 0.0371
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1319
+# Max Thickness Position: 0.3478
+# Max Camber/Chord: 0.0598
+# Max Camber Position: 0.3770
+# Leading Edge Radius: 0.0390
+# LE Droop: 0.0073
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.23e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01169767,0.07744599
+UPPER,2,0.04679066,0.12404541
+UPPER,3,0.09748054,0.14999763
+UPPER,4,0.30256860,0.18380766
+UPPER,5,0.34778000,0.19172427
+UPPER,6,0.39299140,0.17852992
+UPPER,7,0.39865100,0.14158574
+UPPER,8,0.50704000,0.08775784
+UPPER,9,0.88000000,0.03327217
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01169767,-0.04461266
+LOWER,2,0.04679066,-0.02129865
+LOWER,3,0.09748054,-0.04902807
+LOWER,4,0.30256860,-0.05105176
+LOWER,5,0.34778000,-0.07216272
+LOWER,6,0.39299140,-0.04313515
+LOWER,7,0.39865100,0.00172564
+LOWER,8,0.50704000,0.01859199
+LOWER,9,0.88000000,0.00966745
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

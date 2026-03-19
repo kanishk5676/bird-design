@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Platalea_regia
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 352.60 mm
+# Secondary1: 223.80 mm
+# Kipps Distance: 129.50 mm
+# Hand-Wing Index: 36.60
+# Tail Length: 108.60 mm
+# Aspect Ratio: 1.576
+# Pointedness Index: 0.3673
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1013
+# Max Thickness Position: 0.3280
+# Max Camber/Chord: 0.0548
+# Max Camber Position: 0.3507
+# Leading Edge Radius: 0.0300
+# LE Droop: 0.0007
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.77e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00900695,0.05472173
+UPPER,2,0.03602782,0.09792183
+UPPER,3,0.07505795,0.12336261
+UPPER,4,0.28539480,0.15003161
+UPPER,5,0.32804000,0.15610888
+UPPER,6,0.37068520,0.14598010
+UPPER,7,0.37331800,0.11761952
+UPPER,8,0.48072000,0.07495851
+UPPER,9,0.88000000,0.02893504
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00900695,-0.03582382
+LOWER,2,0.03602782,-0.01322471
+LOWER,3,0.07505795,-0.03352921
+LOWER,4,0.28539480,-0.03026064
+LOWER,5,0.32804000,-0.04646668
+LOWER,6,0.37068520,-0.02418337
+LOWER,7,0.37331800,0.01025448
+LOWER,8,0.48072000,0.01980879
+LOWER,9,0.88000000,0.00965376
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

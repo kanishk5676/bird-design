@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hapalopsittaca_melanotis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 159.40 mm
+# Secondary1: 99.70 mm
+# Kipps Distance: 59.80 mm
+# Hand-Wing Index: 37.50
+# Tail Length: 86.90 mm
+# Aspect Ratio: 1.599
+# Pointedness Index: 0.3752
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1052
+# Max Thickness Position: 0.3275
+# Max Camber/Chord: 0.0546
+# Max Camber Position: 0.3500
+# Leading Edge Radius: 0.0298
+# LE Droop: 0.0005
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.04e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00893920,0.05413520
+UPPER,2,0.03575680,0.09950622
+UPPER,3,0.07449333,0.12596770
+UPPER,4,0.28492500,0.15347528
+UPPER,5,0.32750000,0.15978587
+UPPER,6,0.37007500,0.14926822
+UPPER,7,0.37262500,0.11981880
+UPPER,8,0.48000000,0.07586739
+UPPER,9,0.88000000,0.02916568
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00893920,-0.03560680
+LOWER,2,0.03575680,-0.01454320
+LOWER,3,0.07449333,-0.03588206
+LOWER,4,0.28492500,-0.03373888
+LOWER,5,0.32750000,-0.05056712
+LOWER,6,0.37007500,-0.02742829
+LOWER,7,0.37262500,0.00833172
+LOWER,8,0.48000000,0.01913310
+LOWER,9,0.88000000,0.00944528
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

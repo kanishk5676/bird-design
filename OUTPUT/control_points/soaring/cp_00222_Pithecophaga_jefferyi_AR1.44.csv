@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pithecophaga_jefferyi
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 585.80 mm
+# Secondary1: 407.10 mm
+# Kipps Distance: 178.70 mm
+# Hand-Wing Index: 30.30
+# Tail Length: 423.00 mm
+# Aspect Ratio: 1.439
+# Pointedness Index: 0.3051
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1033
+# Max Thickness Position: 0.3318
+# Max Camber/Chord: 0.0562
+# Max Camber Position: 0.3558
+# Leading Edge Radius: 0.0317
+# LE Droop: 0.0019
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.76e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00951705,0.05904230
+UPPER,2,0.03806820,0.10135462
+UPPER,3,0.07930875,0.12607536
+UPPER,4,0.28868340,0.15329799
+UPPER,5,0.33182000,0.15949639
+UPPER,6,0.37495660,0.14916573
+UPPER,7,0.37816900,0.12023988
+UPPER,8,0.48576000,0.07668716
+UPPER,9,0.88000000,0.02961664
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00951705,-0.03748620
+LOWER,2,0.03806820,-0.01339170
+LOWER,3,0.07930875,-0.03407054
+LOWER,4,0.28868340,-0.03058778
+LOWER,5,0.33182000,-0.04711684
+LOWER,6,0.37495660,-0.02438938
+LOWER,7,0.37816900,0.01073486
+LOWER,8,0.48576000,0.02037473
+LOWER,9,0.88000000,0.00991518
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

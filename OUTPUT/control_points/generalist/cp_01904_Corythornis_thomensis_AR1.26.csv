@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Corythornis_thomensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 57.80 mm
+# Secondary1: 45.80 mm
+# Kipps Distance: 12.00 mm
+# Hand-Wing Index: 20.70
+# Tail Length: 27.50 mm
+# Aspect Ratio: 1.262
+# Pointedness Index: 0.2076
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1230
+# Max Thickness Position: 0.3376
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3634
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.12e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01030776,0.06570654
+UPPER,2,0.04123103,0.11454641
+UPPER,3,0.08589797,0.14178873
+UPPER,4,0.29369460,0.17346998
+UPPER,5,0.33758000,0.18084718
+UPPER,6,0.38146540,0.16855184
+UPPER,7,0.38556100,0.13412489
+UPPER,8,0.49344000,0.08363666
+UPPER,9,0.88000000,0.03183591
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01030776,-0.04007303
+LOWER,2,0.04123103,-0.01908227
+LOWER,3,0.08589797,-0.04468184
+LOWER,4,0.29369460,-0.04538709
+LOWER,5,0.33758000,-0.06505963
+LOWER,6,0.38146540,-0.03800988
+LOWER,7,0.38556100,0.00379427
+LOWER,8,0.49344000,0.01868066
+LOWER,9,0.88000000,0.00955531
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

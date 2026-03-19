@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Campephilus_splendens
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 180.40 mm
+# Secondary1: 150.30 mm
+# Kipps Distance: 30.20 mm
+# Hand-Wing Index: 16.70
+# Tail Length: 97.50 mm
+# Aspect Ratio: 1.200
+# Pointedness Index: 0.1674
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1211
+# Max Thickness Position: 0.3400
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3666
+# Leading Edge Radius: 0.0355
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.57e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01063521,0.06847126
+UPPER,2,0.04254084,0.11491166
+UPPER,3,0.08862675,0.14098819
+UPPER,4,0.29578260,0.17230939
+UPPER,5,0.33998000,0.17957588
+UPPER,6,0.38417740,0.16746507
+UPPER,7,0.38864100,0.13355480
+UPPER,8,0.49664000,0.08360788
+UPPER,9,0.88000000,0.03190640
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01063521,-0.04114284
+LOWER,2,0.04254084,-0.01829087
+LOWER,3,0.08862675,-0.04334752
+LOWER,4,0.29578260,-0.04326303
+LOWER,5,0.33998000,-0.06264033
+LOWER,6,0.38417740,-0.03599655
+LOWER,7,0.38864100,0.00518021
+LOWER,8,0.49664000,0.01929489
+LOWER,9,0.88000000,0.00977262
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

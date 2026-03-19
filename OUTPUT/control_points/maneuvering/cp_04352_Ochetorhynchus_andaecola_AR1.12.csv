@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ochetorhynchus_andaecola
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 78.40 mm
+# Secondary1: 69.90 mm
+# Kipps Distance: 8.50 mm
+# Hand-Wing Index: 10.90
+# Tail Length: 74.00 mm
+# Aspect Ratio: 1.122
+# Pointedness Index: 0.1084
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1304
+# Max Thickness Position: 0.3435
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3713
+# Leading Edge Radius: 0.0370
+# LE Droop: 0.0058
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.21e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01111353,0.07250116
+UPPER,2,0.04445411,0.12132510
+UPPER,3,0.09261272,0.14834332
+UPPER,4,0.29881020,0.18177311
+UPPER,5,0.34346000,0.18959961
+UPPER,6,0.38810980,0.17655545
+UPPER,7,0.39310700,0.14003179
+UPPER,8,0.50128000,0.08680794
+UPPER,9,0.88000000,0.03291536
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01111353,-0.04270811
+LOWER,2,0.04445411,-0.02103603
+LOWER,3,0.09261272,-0.04844348
+LOWER,4,0.29881020,-0.05041300
+LOWER,5,0.34346000,-0.07128366
+LOWER,6,0.38810980,-0.04258650
+LOWER,7,0.39310700,0.00176365
+LOWER,8,0.50128000,0.01841612
+LOWER,9,0.88000000,0.00957183
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

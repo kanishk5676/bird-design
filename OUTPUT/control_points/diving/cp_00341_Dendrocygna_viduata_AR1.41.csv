@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dendrocygna_viduata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 214.30 mm
+# Secondary1: 151.60 mm
+# Kipps Distance: 58.60 mm
+# Hand-Wing Index: 28.00
+# Tail Length: 67.10 mm
+# Aspect Ratio: 1.414
+# Pointedness Index: 0.2734
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1111
+# Max Thickness Position: 0.3332
+# Max Camber/Chord: 0.0566
+# Max Camber Position: 0.3576
+# Leading Edge Radius: 0.0325
+# LE Droop: 0.0024
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.49e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00974861,0.06089168
+UPPER,2,0.03899445,0.10608205
+UPPER,3,0.08123844,0.13208360
+UPPER,4,0.28988400,0.16105154
+UPPER,5,0.33320000,0.16771611
+UPPER,6,0.37651600,0.15660850
+UPPER,7,0.37994000,0.12550719
+UPPER,8,0.48760000,0.07924531
+UPPER,9,0.88000000,0.03040929
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00974861,-0.03827445
+LOWER,2,0.03899445,-0.01572035
+LOWER,3,0.08123844,-0.03836974
+LOWER,4,0.28988400,-0.03666393
+LOWER,5,0.33320000,-0.05443611
+LOWER,6,0.37651600,-0.02999936
+LOWER,7,0.37994000,0.00776651
+LOWER,8,0.48760000,0.01956614
+LOWER,9,0.88000000,0.00971696
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Mimus_dorsalis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 112.00 mm
+# Secondary1: 91.00 mm
+# Kipps Distance: 21.00 mm
+# Hand-Wing Index: 18.70
+# Tail Length: 106.20 mm
+# Aspect Ratio: 1.231
+# Pointedness Index: 0.1875
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1222
+# Max Thickness Position: 0.3388
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3650
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0043
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.92e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01047153,0.06708918
+UPPER,2,0.04188612,0.11482969
+UPPER,3,0.08726275,0.14153036
+UPPER,4,0.29473860,0.17307294
+UPPER,5,0.33878000,0.18040584
+UPPER,6,0.38282140,0.16818434
+UPPER,7,0.38710100,0.13396412
+UPPER,8,0.49504000,0.08368238
+UPPER,9,0.88000000,0.03188970
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01047153,-0.04060812
+LOWER,2,0.04188612,-0.01874205
+LOWER,3,0.08726275,-0.04411698
+LOWER,4,0.29473860,-0.04446988
+LOWER,5,0.33878000,-0.06402429
+LOWER,6,0.38282140,-0.03713698
+LOWER,7,0.38710100,0.00441614
+LOWER,8,0.49504000,0.01896817
+LOWER,9,0.88000000,0.00965909
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

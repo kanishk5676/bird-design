@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Synthliboramphus_craveri
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 119.50 mm
+# Secondary1: 63.00 mm
+# Kipps Distance: 55.00 mm
+# Hand-Wing Index: 46.60
+# Tail Length: 36.50 mm
+# Aspect Ratio: 1.897
+# Pointedness Index: 0.4603
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0979
+# Max Thickness Position: 0.3220
+# Max Camber/Chord: 0.0522
+# Max Camber Position: 0.3427
+# Leading Edge Radius: 0.0274
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00822676,0.04936056
+UPPER,2,0.03290704,0.09337567
+UPPER,3,0.06855633,0.11857966
+UPPER,4,0.28017480,0.14430607
+UPPER,5,0.32204000,0.15018256
+UPPER,6,0.36390520,0.14038841
+UPPER,7,0.36561800,0.11296481
+UPPER,8,0.47272000,0.07182854
+UPPER,9,0.88000000,0.02768693
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00822676,-0.03290704
+LOWER,2,0.03290704,-0.01305688
+LOWER,3,0.06855633,-0.03277514
+LOWER,4,0.28017480,-0.03002973
+LOWER,5,0.32204000,-0.04570036
+LOWER,6,0.36390520,-0.02415324
+LOWER,7,0.36561800,0.00914686
+LOWER,8,0.47272000,0.01867768
+LOWER,9,0.88000000,0.00914262
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

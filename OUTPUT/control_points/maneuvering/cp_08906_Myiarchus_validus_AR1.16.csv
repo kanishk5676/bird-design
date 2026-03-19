@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Myiarchus_validus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 101.80 mm
+# Secondary1: 87.50 mm
+# Kipps Distance: 14.30 mm
+# Hand-Wing Index: 14.00
+# Tail Length: 98.00 mm
+# Aspect Ratio: 1.163
+# Pointedness Index: 0.1405
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1265
+# Max Thickness Position: 0.3416
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3688
+# Leading Edge Radius: 0.0362
+# LE Droop: 0.0052
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.69e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01085520,0.07033117
+UPPER,2,0.04342078,0.11844362
+UPPER,3,0.09045996,0.14519257
+UPPER,4,0.29719200,0.17772962
+UPPER,5,0.34160000,0.18532023
+UPPER,6,0.38600800,0.17266921
+UPPER,7,0.39072000,0.13724634
+UPPER,8,0.49880000,0.08541136
+UPPER,9,0.88000000,0.03246862
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01085520,-0.04186078
+LOWER,2,0.04342078,-0.01989977
+LOWER,3,0.09045996,-0.04632333
+LOWER,4,0.29719200,-0.04745859
+LOWER,5,0.34160000,-0.06770023
+LOWER,6,0.38600800,-0.03986798
+LOWER,7,0.39072000,0.00314550
+LOWER,8,0.49880000,0.01875077
+LOWER,9,0.88000000,0.00964209
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

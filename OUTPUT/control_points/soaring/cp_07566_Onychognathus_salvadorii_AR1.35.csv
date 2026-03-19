@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Onychognathus_salvadorii
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 154.70 mm
+# Secondary1: 114.20 mm
+# Kipps Distance: 38.50 mm
+# Hand-Wing Index: 25.20
+# Tail Length: 227.60 mm
+# Aspect Ratio: 1.355
+# Pointedness Index: 0.2489
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1152
+# Max Thickness Position: 0.3349
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3598
+# Leading Edge Radius: 0.0332
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.92e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00995965,0.06271790
+UPPER,2,0.03983860,0.10913315
+UPPER,3,0.08299708,0.13551501
+UPPER,4,0.29134560,0.16542840
+UPPER,5,0.33488000,0.17233963
+UPPER,6,0.37841440,0.16082091
+UPPER,7,0.38209600,0.12856848
+UPPER,8,0.48984000,0.08083196
+UPPER,9,0.88000000,0.03093289
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00995965,-0.03895060
+LOWER,2,0.03983860,-0.01685657
+LOWER,3,0.08299708,-0.04051849
+LOWER,4,0.29134560,-0.03960487
+LOWER,5,0.33488000,-0.05803483
+LOWER,6,0.37841440,-0.03269364
+LOWER,7,0.38209600,0.00647002
+LOWER,8,0.48984000,0.01930828
+LOWER,9,0.88000000,0.00968061
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

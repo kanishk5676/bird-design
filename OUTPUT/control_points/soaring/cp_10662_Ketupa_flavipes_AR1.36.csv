@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ketupa_flavipes
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 432.80 mm
+# Secondary1: 318.20 mm
+# Kipps Distance: 110.30 mm
+# Hand-Wing Index: 25.80
+# Tail Length: 206.80 mm
+# Aspect Ratio: 1.360
+# Pointedness Index: 0.2549
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1087
+# Max Thickness Position: 0.3345
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3594
+# Leading Edge Radius: 0.0330
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.16e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00991077,0.06230464
+UPPER,2,0.03964310,0.10568631
+UPPER,3,0.08258978,0.13075673
+UPPER,4,0.29103240,0.15923762
+UPPER,5,0.33452000,0.16576049
+UPPER,6,0.37800760,0.15488903
+UPPER,7,0.38163400,0.12444895
+UPPER,8,0.48936000,0.07892910
+UPPER,9,0.88000000,0.03037461
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00991077,-0.03879110
+LOWER,2,0.03964310,-0.01482260
+LOWER,3,0.08258978,-0.03681335
+LOWER,4,0.29103240,-0.03427436
+LOWER,5,0.33452000,-0.05166869
+LOWER,6,0.37800760,-0.02775148
+LOWER,7,0.38163400,0.00921148
+LOWER,8,0.48936000,0.02014842
+LOWER,9,0.88000000,0.00991289
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

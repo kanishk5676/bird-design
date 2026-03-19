@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hylexetastes_stresemanni
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 129.10 mm
+# Secondary1: 113.80 mm
+# Kipps Distance: 15.40 mm
+# Hand-Wing Index: 11.90
+# Tail Length: 101.50 mm
+# Aspect Ratio: 1.134
+# Pointedness Index: 0.1193
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1269
+# Max Thickness Position: 0.3429
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3705
+# Leading Edge Radius: 0.0368
+# LE Droop: 0.0056
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.30e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01102749,0.07178497
+UPPER,2,0.04410998,0.11924048
+UPPER,3,0.09189579,0.14566200
+UPPER,4,0.29828820,0.17829402
+UPPER,5,0.34286000,0.18590528
+UPPER,6,0.38743180,0.17321985
+UPPER,7,0.39233700,0.13770064
+UPPER,8,0.50048000,0.08571253
+UPPER,9,0.88000000,0.03258771
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01102749,-0.04242398
+LOWER,2,0.04410998,-0.01992554
+LOWER,3,0.09189579,-0.04641205
+LOWER,4,0.29828820,-0.04750664
+LOWER,5,0.34286000,-0.06780333
+LOWER,6,0.38743180,-0.03989538
+LOWER,7,0.39233700,0.00323508
+LOWER,8,0.50048000,0.01885200
+LOWER,9,0.88000000,0.00968857
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

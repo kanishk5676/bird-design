@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Machlolophus_holsti
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 74.50 mm
+# Secondary1: 61.50 mm
+# Kipps Distance: 12.90 mm
+# Hand-Wing Index: 17.40
+# Tail Length: 51.50 mm
+# Aspect Ratio: 1.211
+# Pointedness Index: 0.1732
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1255
+# Max Thickness Position: 0.3396
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3661
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.14e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01058447,0.06802684
+UPPER,2,0.04233789,0.11689866
+UPPER,3,0.08820394,0.14407984
+UPPER,4,0.29541720,0.17636476
+UPPER,5,0.33956000,0.18389614
+UPPER,6,0.38370280,0.17134384
+UPPER,7,0.38810200,0.13619739
+UPPER,8,0.49608000,0.08476359
+UPPER,9,0.88000000,0.03222362
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01058447,-0.04098189
+LOWER,2,0.04233789,-0.01973679
+LOWER,3,0.08820394,-0.04595174
+LOWER,4,0.29541720,-0.04706625
+LOWER,5,0.33956000,-0.06714994
+LOWER,6,0.38370280,-0.03953487
+LOWER,7,0.38810200,0.00314296
+LOWER,8,0.49608000,0.01861810
+LOWER,9,0.88000000,0.00957235
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

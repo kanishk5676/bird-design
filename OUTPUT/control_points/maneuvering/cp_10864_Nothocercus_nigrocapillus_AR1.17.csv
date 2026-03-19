@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nothocercus_nigrocapillus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 187.00 mm
+# Secondary1: 159.50 mm
+# Kipps Distance: 27.50 mm
+# Hand-Wing Index: 14.80
+# Tail Length: 56.00 mm
+# Aspect Ratio: 1.172
+# Pointedness Index: 0.1471
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1224
+# Max Thickness Position: 0.3411
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3682
+# Leading Edge Radius: 0.0360
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.75e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01079712,0.06982272
+UPPER,2,0.04318848,0.11615640
+UPPER,3,0.08997600,0.14215904
+UPPER,4,0.29677440,0.17378881
+UPPER,5,0.34112000,0.18113411
+UPPER,6,0.38546560,0.16889194
+UPPER,7,0.39010400,0.13461386
+UPPER,8,0.49816000,0.08418362
+UPPER,9,0.88000000,0.03210445
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01079712,-0.04167648
+LOWER,2,0.04318848,-0.01862561
+LOWER,3,0.08997600,-0.04399689
+LOWER,4,0.29677440,-0.04412184
+LOWER,5,0.34112000,-0.06370931
+LOWER,6,0.38546560,-0.03677654
+LOWER,7,0.39010400,0.00484685
+LOWER,8,0.49816000,0.01926265
+LOWER,9,0.88000000,0.00978123
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

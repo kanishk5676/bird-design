@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sylvietta_whytii
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 57.90 mm
+# Secondary1: 52.80 mm
+# Kipps Distance: 5.30 mm
+# Hand-Wing Index: 9.20
+# Tail Length: 24.30 mm
+# Aspect Ratio: 1.097
+# Pointedness Index: 0.0915
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1322
+# Max Thickness Position: 0.3445
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3726
+# Leading Edge Radius: 0.0375
+# LE Droop: 0.0062
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.11e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01125164,0.07366984
+UPPER,2,0.04500656,0.12267937
+UPPER,3,0.09376367,0.14975206
+UPPER,4,0.29969760,0.18357804
+UPPER,5,0.34448000,0.19150886
+UPPER,6,0.38926240,0.17829082
+UPPER,7,0.39441600,0.14128029
+UPPER,8,0.50264000,0.08743967
+UPPER,9,0.88000000,0.03311923
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01125164,-0.04315856
+LOWER,2,0.04500656,-0.02153281
+LOWER,3,0.09376367,-0.04937360
+LOWER,4,0.29969760,-0.05170319
+LOWER,5,0.34448000,-0.07285206
+LOWER,6,0.38926240,-0.04377236
+LOWER,7,0.39441600,0.00116900
+LOWER,8,0.50264000,0.01827834
+LOWER,9,0.88000000,0.00954488
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

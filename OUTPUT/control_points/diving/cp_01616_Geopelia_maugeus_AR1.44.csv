@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geopelia_maugeus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 100.40 mm
+# Secondary1: 69.60 mm
+# Kipps Distance: 30.80 mm
+# Hand-Wing Index: 30.70
+# Tail Length: 102.20 mm
+# Aspect Ratio: 1.443
+# Pointedness Index: 0.3068
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1132
+# Max Thickness Position: 0.3316
+# Max Camber/Chord: 0.0561
+# Max Camber Position: 0.3554
+# Leading Edge Radius: 0.0317
+# LE Droop: 0.0019
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.66e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00949604,0.05883623
+UPPER,2,0.03798415,0.10616628
+UPPER,3,0.07913365,0.13314397
+UPPER,4,0.28847460,0.16254276
+UPPER,5,0.33158000,0.16933642
+UPPER,6,0.37468540,0.15801365
+UPPER,7,0.37786100,0.12630991
+UPPER,8,0.48544000,0.07939620
+UPPER,9,0.88000000,0.03037955
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00949604,-0.03742615
+LOWER,2,0.03798415,-0.01659477
+LOWER,3,0.07913365,-0.03986200
+LOWER,4,0.28847460,-0.03900244
+LOWER,5,0.33158000,-0.05711887
+LOWER,6,0.37468540,-0.03220879
+LOWER,7,0.37786100,0.00628861
+LOWER,8,0.48544000,0.01893557
+LOWER,9,0.88000000,0.00949809
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

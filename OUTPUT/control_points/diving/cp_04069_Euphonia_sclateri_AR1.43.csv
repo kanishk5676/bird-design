@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Euphonia_sclateri
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 64.00 mm
+# Secondary1: 44.60 mm
+# Kipps Distance: 19.40 mm
+# Hand-Wing Index: 30.30
+# Tail Length: 36.00 mm
+# Aspect Ratio: 1.435
+# Pointedness Index: 0.3031
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1150
+# Max Thickness Position: 0.3318
+# Max Camber/Chord: 0.0562
+# Max Camber Position: 0.3558
+# Leading Edge Radius: 0.0318
+# LE Droop: 0.0019
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.18e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00952688,0.05910129
+UPPER,2,0.03810753,0.10721315
+UPPER,3,0.07939069,0.13451165
+UPPER,4,0.28868340,0.16431204
+UPPER,5,0.33182000,0.17121346
+UPPER,6,0.37495660,0.15971110
+UPPER,7,0.37816900,0.12750446
+UPPER,8,0.48576000,0.07996794
+UPPER,9,0.88000000,0.03055401
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00952688,-0.03752553
+LOWER,2,0.03810753,-0.01714116
+LOWER,3,0.07939069,-0.04086644
+LOWER,4,0.28868340,-0.04043012
+LOWER,5,0.33182000,-0.05883391
+LOWER,6,0.37495660,-0.03352870
+LOWER,7,0.37816900,0.00557935
+LOWER,8,0.48576000,0.01873434
+LOWER,9,0.88000000,0.00944650
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

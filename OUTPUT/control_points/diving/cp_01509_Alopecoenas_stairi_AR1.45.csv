@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Alopecoenas_stairi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 147.50 mm
+# Secondary1: 101.50 mm
+# Kipps Distance: 46.00 mm
+# Hand-Wing Index: 31.20
+# Tail Length: 89.00 mm
+# Aspect Ratio: 1.453
+# Pointedness Index: 0.3119
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1107
+# Max Thickness Position: 0.3313
+# Max Camber/Chord: 0.0560
+# Max Camber Position: 0.3550
+# Leading Edge Radius: 0.0315
+# LE Droop: 0.0018
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.74e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00945477,0.05848863
+UPPER,2,0.03781909,0.10469476
+UPPER,3,0.07878976,0.13120011
+UPPER,4,0.28821360,0.16002552
+UPPER,5,0.33128000,0.16666503
+UPPER,6,0.37434640,0.15559917
+UPPER,7,0.37747600,0.12461475
+UPPER,8,0.48504000,0.07858986
+UPPER,9,0.88000000,0.03013512
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00945477,-0.03729109
+LOWER,2,0.03781909,-0.01580852
+LOWER,3,0.07878976,-0.03841906
+LOWER,4,0.28821360,-0.03694685
+LOWER,5,0.33128000,-0.05465223
+LOWER,6,0.37434640,-0.03030734
+LOWER,7,0.37747600,0.00731660
+LOWER,8,0.48504000,0.01923176
+LOWER,9,0.88000000,0.00957525
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

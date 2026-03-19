@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Coeligena_torquata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 74.10 mm
+# Secondary1: 29.20 mm
+# Kipps Distance: 47.60 mm
+# Hand-Wing Index: 61.90
+# Tail Length: 46.00 mm
+# Aspect Ratio: 2.538
+# Pointedness Index: 0.6424
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0882
+# Max Thickness Position: 0.3129
+# Max Camber/Chord: 0.0473
+# Max Camber Position: 0.3305
+# Leading Edge Radius: 0.0228
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.68e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00682975,0.04097848
+UPPER,2,0.02731899,0.08434408
+UPPER,3,0.05691456,0.10706838
+UPPER,4,0.27218820,0.13026594
+UPPER,5,0.31286000,0.13555998
+UPPER,6,0.35353180,0.12673658
+UPPER,7,0.35383700,0.10203106
+UPPER,8,0.46048000,0.06493260
+UPPER,9,0.88000000,0.02504259
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00682975,-0.02731899
+LOWER,2,0.02731899,-0.01167079
+LOWER,3,0.05691456,-0.02940577
+LOWER,4,0.27218820,-0.02679059
+LOWER,5,0.31286000,-0.04090803
+LOWER,6,0.35353180,-0.02149655
+LOWER,7,0.35383700,0.00850301
+LOWER,8,0.46048000,0.01698934
+LOWER,9,0.88000000,0.00830213
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

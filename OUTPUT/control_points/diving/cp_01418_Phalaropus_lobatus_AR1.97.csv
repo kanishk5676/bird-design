@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phalaropus_lobatus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 109.00 mm
+# Secondary1: 55.20 mm
+# Kipps Distance: 54.40 mm
+# Hand-Wing Index: 49.60
+# Tail Length: 50.60 mm
+# Aspect Ratio: 1.975
+# Pointedness Index: 0.4991
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0967
+# Max Thickness Position: 0.3202
+# Max Camber/Chord: 0.0514
+# Max Camber Position: 0.3403
+# Leading Edge Radius: 0.0265
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.31e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00793692,0.04762151
+UPPER,2,0.03174768,0.09200441
+UPPER,3,0.06614099,0.11686999
+UPPER,4,0.27860880,0.14224927
+UPPER,5,0.32024000,0.14805010
+UPPER,6,0.36187120,0.13838205
+UPPER,7,0.36330800,0.11131151
+UPPER,8,0.47032000,0.07073470
+UPPER,9,0.88000000,0.02725489
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00793692,-0.03174768
+LOWER,2,0.03174768,-0.01295840
+LOWER,3,0.06614099,-0.03244467
+LOWER,4,0.27860880,-0.02984202
+LOWER,5,0.32024000,-0.04531090
+LOWER,6,0.36187120,-0.02404119
+LOWER,7,0.36330800,0.00883018
+LOWER,8,0.47032000,0.01831388
+LOWER,9,0.88000000,0.00897518
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

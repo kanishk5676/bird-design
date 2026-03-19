@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Spheniscus_mendiculus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 82.80 mm
+# Secondary1: 78.80 mm
+# Kipps Distance: 4.00 mm
+# Hand-Wing Index: 4.80
+# Tail Length: 26.10 mm
+# Aspect Ratio: 1.051
+# Pointedness Index: 0.0483
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1340
+# Max Thickness Position: 0.3471
+# Max Camber/Chord: 0.0597
+# Max Camber Position: 0.3762
+# Leading Edge Radius: 0.0387
+# LE Droop: 0.0070
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.65e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01160674,0.07668046
+UPPER,2,0.04642697,0.12477959
+UPPER,3,0.09672286,0.15139548
+UPPER,4,0.30199440,0.18564839
+UPPER,5,0.34712000,0.19368750
+UPPER,6,0.39224560,0.18028899
+UPPER,7,0.39780400,0.14277316
+UPPER,8,0.50616000,0.08826287
+UPPER,9,0.88000000,0.03340572
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01160674,-0.04431497
+LOWER,2,0.04642697,-0.02197939
+LOWER,3,0.09672286,-0.05024825
+LOWER,4,0.30199440,-0.05284508
+LOWER,5,0.34712000,-0.07428270
+LOWER,6,0.39224560,-0.04480598
+LOWER,7,0.39780400,0.00074896
+LOWER,8,0.50616000,0.01825757
+LOWER,9,0.88000000,0.00956620
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

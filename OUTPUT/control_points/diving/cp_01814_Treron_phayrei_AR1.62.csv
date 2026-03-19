@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Treron_phayrei
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 155.80 mm
+# Secondary1: 96.00 mm
+# Kipps Distance: 61.00 mm
+# Hand-Wing Index: 38.90
+# Tail Length: 85.20 mm
+# Aspect Ratio: 1.623
+# Pointedness Index: 0.3915
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1042
+# Max Thickness Position: 0.3267
+# Max Camber/Chord: 0.0543
+# Max Camber Position: 0.3489
+# Leading Edge Radius: 0.0294
+# LE Droop: 0.0002
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.95e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00881287,0.05309722
+UPPER,2,0.03525148,0.09844459
+UPPER,3,0.07344058,0.12494474
+UPPER,4,0.28419420,0.15220760
+UPPER,5,0.32666000,0.15845881
+UPPER,6,0.36912580,0.14804012
+UPPER,7,0.37154700,0.11886781
+UPPER,8,0.47888000,0.07530349
+UPPER,9,0.88000000,0.02895830
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00881287,-0.03518548
+LOWER,2,0.03525148,-0.01434459
+LOWER,3,0.07344058,-0.03546325
+LOWER,4,0.28419420,-0.03324496
+LOWER,5,0.32666000,-0.04991486
+LOWER,6,0.36912580,-0.02699375
+LOWER,7,0.37154700,0.00842977
+LOWER,8,0.47888000,0.01906247
+LOWER,9,0.88000000,0.00940052
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

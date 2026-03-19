@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Scleroptila_finschi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 162.50 mm
+# Secondary1: 117.50 mm
+# Kipps Distance: 45.00 mm
+# Hand-Wing Index: 27.80
+# Tail Length: 65.50 mm
+# Aspect Ratio: 1.383
+# Pointedness Index: 0.2769
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1128
+# Max Thickness Position: 0.3333
+# Max Camber/Chord: 0.0567
+# Max Camber Position: 0.3578
+# Leading Edge Radius: 0.0325
+# LE Droop: 0.0024
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.11e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00973701,0.06086207
+UPPER,2,0.03894805,0.10702947
+UPPER,3,0.08114177,0.13337875
+UPPER,4,0.28998840,0.16273481
+UPPER,5,0.33332000,0.16950440
+UPPER,6,0.37665160,0.15822175
+UPPER,7,0.38009400,0.12663033
+UPPER,8,0.48776000,0.07976764
+UPPER,9,0.88000000,0.03056372
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00973701,-0.03821605
+LOWER,2,0.03894805,-0.01626722
+LOWER,3,0.08114177,-0.03936754
+LOWER,4,0.28998840,-0.03809636
+LOWER,5,0.33332000,-0.05614860
+LOWER,6,0.37665160,-0.03132677
+LOWER,7,0.38009400,0.00703424
+LOWER,8,0.48776000,0.01934459
+LOWER,9,0.88000000,0.00965641
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

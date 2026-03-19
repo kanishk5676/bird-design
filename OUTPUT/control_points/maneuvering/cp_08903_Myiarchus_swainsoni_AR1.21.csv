@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Myiarchus_swainsoni
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 88.60 mm
+# Secondary1: 73.20 mm
+# Kipps Distance: 15.00 mm
+# Hand-Wing Index: 17.00
+# Tail Length: 82.90 mm
+# Aspect Ratio: 1.210
+# Pointedness Index: 0.1693
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1249
+# Max Thickness Position: 0.3398
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3664
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.42e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01061637,0.06829821
+UPPER,2,0.04246548,0.11670550
+UPPER,3,0.08846974,0.14366996
+UPPER,4,0.29562600,0.17581869
+UPPER,5,0.33980000,0.18331175
+UPPER,6,0.38397400,0.17082332
+UPPER,7,0.38841000,0.13585573
+UPPER,8,0.49640000,0.08463096
+UPPER,9,0.88000000,0.03219319
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01061637,-0.04108548
+LOWER,2,0.04246548,-0.01951333
+LOWER,3,0.08846974,-0.04555621
+LOWER,4,0.29562600,-0.04647527
+LOWER,5,0.33980000,-0.06645675
+LOWER,6,0.38397400,-0.03898221
+LOWER,7,0.38841000,0.00347843
+LOWER,8,0.49640000,0.01874126
+LOWER,9,0.88000000,0.00961151
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Buteogallus_anthracinus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 355.20 mm
+# Secondary1: 239.50 mm
+# Kipps Distance: 106.00 mm
+# Hand-Wing Index: 30.70
+# Tail Length: 206.20 mm
+# Aspect Ratio: 1.483
+# Pointedness Index: 0.2984
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1060
+# Max Thickness Position: 0.3316
+# Max Camber/Chord: 0.0561
+# Max Camber Position: 0.3554
+# Leading Edge Radius: 0.0318
+# LE Droop: 0.0019
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.86e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00953862,0.05909172
+UPPER,2,0.03815448,0.10253468
+UPPER,3,0.07948850,0.12791448
+UPPER,4,0.28847460,0.15571536
+UPPER,5,0.33158000,0.16207322
+UPPER,6,0.37468540,0.15147678
+UPPER,7,0.37786100,0.12180673
+UPPER,8,0.48544000,0.07736250
+UPPER,9,0.88000000,0.02979849
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00953862,-0.03759648
+LOWER,2,0.03815448,-0.01427055
+LOWER,3,0.07948850,-0.03564934
+LOWER,4,0.28847460,-0.03290136
+LOWER,5,0.33158000,-0.04985567
+LOWER,6,0.37468540,-0.02654350
+LOWER,7,0.37786100,0.00948442
+LOWER,8,0.48544000,0.01995242
+LOWER,9,0.88000000,0.00978862
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

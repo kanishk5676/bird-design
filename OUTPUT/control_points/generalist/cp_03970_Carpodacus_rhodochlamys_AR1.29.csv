@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Carpodacus_rhodochlamys
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 88.00 mm
+# Secondary1: 68.40 mm
+# Kipps Distance: 19.70 mm
+# Hand-Wing Index: 22.30
+# Tail Length: 80.20 mm
+# Aspect Ratio: 1.287
+# Pointedness Index: 0.2239
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1207
+# Max Thickness Position: 0.3366
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3622
+# Leading Edge Radius: 0.0339
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01017592,0.06459549
+UPPER,2,0.04070366,0.11287650
+UPPER,3,0.08479930,0.13992146
+UPPER,4,0.29285940,0.17108284
+UPPER,5,0.33662000,0.17832376
+UPPER,6,0.38038060,0.16625556
+UPPER,7,0.38432900,0.13246461
+UPPER,8,0.49216000,0.08278646
+UPPER,9,0.88000000,0.03155843
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01017592,-0.03964166
+LOWER,2,0.04070366,-0.01844361
+LOWER,3,0.08479930,-0.04348034
+LOWER,4,0.29285940,-0.04373109
+LOWER,5,0.33662000,-0.06304021
+LOWER,6,0.38038060,-0.03649017
+LOWER,7,0.38432900,0.00454170
+LOWER,8,0.49216000,0.01884242
+LOWER,9,0.88000000,0.00958316
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

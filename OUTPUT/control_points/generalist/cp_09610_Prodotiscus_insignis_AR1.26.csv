@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Prodotiscus_insignis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 64.70 mm
+# Secondary1: 51.30 mm
+# Kipps Distance: 13.50 mm
+# Hand-Wing Index: 20.80
+# Tail Length: 44.20 mm
+# Aspect Ratio: 1.261
+# Pointedness Index: 0.2087
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1233
+# Max Thickness Position: 0.3375
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3634
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01029938,0.06563627
+UPPER,2,0.04119751,0.11468169
+UPPER,3,0.08582815,0.14201699
+UPPER,4,0.29364240,0.17377109
+UPPER,5,0.33752000,0.18116849
+UPPER,6,0.38139760,0.16883948
+UPPER,7,0.38548400,0.13431826
+UPPER,8,0.49336000,0.08371787
+UPPER,9,0.88000000,0.03185700
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01029938,-0.04004551
+LOWER,2,0.04119751,-0.01919539
+LOWER,3,0.08582815,-0.04488419
+LOWER,4,0.29364240,-0.04568528
+LOWER,5,0.33752000,-0.06541169
+LOWER,6,0.38139760,-0.03828787
+LOWER,7,0.38548400,0.00363076
+LOWER,8,0.49336000,0.01862400
+LOWER,9,0.88000000,0.00953800
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

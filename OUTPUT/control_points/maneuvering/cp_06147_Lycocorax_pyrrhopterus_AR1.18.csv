@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lycocorax_pyrrhopterus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 197.10 mm
+# Secondary1: 167.70 mm
+# Kipps Distance: 29.50 mm
+# Hand-Wing Index: 14.90
+# Tail Length: 141.20 mm
+# Aspect Ratio: 1.175
+# Pointedness Index: 0.1497
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1220
+# Max Thickness Position: 0.3411
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3681
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01078074,0.06970445
+UPPER,2,0.04312297,0.11593448
+UPPER,3,0.08983952,0.14187205
+UPPER,4,0.29672220,0.17341663
+UPPER,5,0.34106000,0.18073897
+UPPER,6,0.38539780,0.16853507
+UPPER,7,0.39002700,0.13436415
+UPPER,8,0.49808000,0.08406590
+UPPER,9,0.88000000,0.03206911
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01078074,-0.04161697
+LOWER,2,0.04312297,-0.01850749
+LOWER,3,0.08983952,-0.04378063
+LOWER,4,0.29672220,-0.04381278
+LOWER,5,0.34106000,-0.06333902
+LOWER,6,0.38539780,-0.03649044
+LOWER,7,0.39002700,0.00500282
+LOWER,8,0.49808000,0.01930853
+LOWER,9,0.88000000,0.00979343
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

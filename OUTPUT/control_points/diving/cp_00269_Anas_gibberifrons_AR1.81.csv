@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anas_gibberifrons
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 193.40 mm
+# Secondary1: 107.00 mm
+# Kipps Distance: 85.20 mm
+# Hand-Wing Index: 44.30
+# Tail Length: 78.60 mm
+# Aspect Ratio: 1.807
+# Pointedness Index: 0.4405
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0986
+# Max Thickness Position: 0.3234
+# Max Camber/Chord: 0.0529
+# Max Camber Position: 0.3446
+# Leading Edge Radius: 0.0280
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.92e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00839768,0.05038606
+UPPER,2,0.03359071,0.09426102
+UPPER,3,0.06998065,0.11966073
+UPPER,4,0.28137540,0.14558922
+UPPER,5,0.32342000,0.15150691
+UPPER,6,0.36546460,0.14164409
+UPPER,7,0.36738900,0.11402822
+UPPER,8,0.47456000,0.07256284
+UPPER,9,0.88000000,0.02798418
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00839768,-0.03359071
+LOWER,2,0.03359071,-0.01305343
+LOWER,3,0.06998065,-0.03288008
+LOWER,4,0.28137540,-0.02996885
+LOWER,5,0.32342000,-0.04574936
+LOWER,6,0.36546460,-0.02405117
+LOWER,7,0.36738900,0.00948240
+LOWER,8,0.47456000,0.01897690
+LOWER,9,0.88000000,0.00927457
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

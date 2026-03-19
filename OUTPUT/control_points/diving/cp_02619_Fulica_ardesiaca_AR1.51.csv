@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Fulica_ardesiaca
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 218.00 mm
+# Secondary1: 144.60 mm
+# Kipps Distance: 70.70 mm
+# Hand-Wing Index: 32.90
+# Tail Length: 58.80 mm
+# Aspect Ratio: 1.508
+# Pointedness Index: 0.3243
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1070
+# Max Thickness Position: 0.3303
+# Max Camber/Chord: 0.0556
+# Max Camber Position: 0.3537
+# Leading Edge Radius: 0.0311
+# LE Droop: 0.0014
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.65e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00933927,0.05745562
+UPPER,2,0.03735708,0.10222275
+UPPER,3,0.07782724,0.12823867
+UPPER,4,0.28732620,0.15623108
+UPPER,5,0.33026000,0.16265122
+UPPER,6,0.37319380,0.15195099
+UPPER,7,0.37616700,0.12199037
+UPPER,8,0.48368000,0.07726226
+UPPER,9,0.88000000,0.02970679
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00933927,-0.03693108
+LOWER,2,0.03735708,-0.01476358
+LOWER,3,0.07782724,-0.03646277
+LOWER,4,0.28732620,-0.03423291
+LOWER,5,0.33026000,-0.05135327
+LOWER,6,0.37319380,-0.02781278
+LOWER,7,0.37616700,0.00856799
+LOWER,8,0.48368000,0.01952205
+LOWER,9,0.88000000,0.00963215
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

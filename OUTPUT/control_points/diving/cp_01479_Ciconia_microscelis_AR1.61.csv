@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ciconia_microscelis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 480.50 mm
+# Secondary1: 297.90 mm
+# Kipps Distance: 182.60 mm
+# Hand-Wing Index: 38.00
+# Tail Length: 193.00 mm
+# Aspect Ratio: 1.613
+# Pointedness Index: 0.3800
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0983
+# Max Thickness Position: 0.3272
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3496
+# Leading Edge Radius: 0.0297
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.34e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00889909,0.05379456
+UPPER,2,0.03559638,0.09588262
+UPPER,3,0.07415912,0.12093001
+UPPER,4,0.28466400,0.14692231
+UPPER,5,0.32720000,0.15282224
+UPPER,6,0.36973600,0.14298902
+UPPER,7,0.37224000,0.11545599
+UPPER,8,0.47960000,0.07384953
+UPPER,9,0.88000000,0.02857278
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00889909,-0.03547638
+LOWER,2,0.03559638,-0.01239482
+LOWER,3,0.07415912,-0.03196730
+LOWER,4,0.28466400,-0.02810908
+LOWER,5,0.32720000,-0.04384224
+LOWER,6,0.36973600,-0.02220915
+LOWER,7,0.37224000,0.01122381
+LOWER,8,0.47960000,0.02001729
+LOWER,9,0.88000000,0.00968921
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

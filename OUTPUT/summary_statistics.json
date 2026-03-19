@@ -1,0 +1,45 @@
+{
+  "total_birds": 10975,
+  "categories": {
+    "diving": {
+      "count": 4430,
+      "percentage": 40.36446469248291,
+      "avg_wing_length": 160.122618510158,
+      "avg_aspect_ratio": 1.754698034995261,
+      "avg_category_score": 3.5614848336821323,
+      "top_bird": "Cypsiurus_parvus"
+    },
+    "soaring": {
+      "count": 774,
+      "percentage": 7.052391799544419,
+      "avg_wing_length": 204.89315245478033,
+      "avg_aspect_ratio": 1.314604923317588,
+      "avg_category_score": 2.9178577104412775,
+      "top_bird": "Leptoptilos_javanicus"
+    },
+    "maneuvering": {
+      "count": 3646,
+      "percentage": 33.22095671981777,
+      "avg_wing_length": 85.29717498628634,
+      "avg_aspect_ratio": 1.1433224768330823,
+      "avg_category_score": 3.2466561164167804,
+      "top_bird": "Casuarius_casuarius"
+    },
+    "generalist": {
+      "count": 1937,
+      "percentage": 17.649202733485193,
+      "avg_wing_length": 85.06577181208056,
+      "avg_aspect_ratio": 1.2460063644952404,
+      "avg_category_score": 2.6939635417707914,
+      "top_bird": "Conopophila_rufogularis"
+    },
+    "hovering": {
+      "count": 188,
+      "percentage": 1.712984054669704,
+      "avg_wing_length": 52.105851063829796,
+      "avg_aspect_ratio": 1.2648272484819334,
+      "avg_category_score": 2.6200974167595596,
+      "top_bird": "Myrmotherula_iheringi"
+    }
+  }
+}

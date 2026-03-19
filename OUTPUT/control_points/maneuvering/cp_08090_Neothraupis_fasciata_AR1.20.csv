@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Neothraupis_fasciata
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 71.50 mm
+# Secondary1: 59.40 mm
+# Kipps Distance: 11.40 mm
+# Hand-Wing Index: 16.20
+# Tail Length: 62.60 mm
+# Aspect Ratio: 1.204
+# Pointedness Index: 0.1594
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1267
+# Max Thickness Position: 0.3403
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3670
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.08e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01069113,0.06890680
+UPPER,2,0.04276453,0.11786842
+UPPER,3,0.08909278,0.14508182
+UPPER,4,0.29604360,0.17764056
+UPPER,5,0.34028000,0.18524311
+UPPER,6,0.38451640,0.17257219
+UPPER,7,0.38902600,0.13709361
+UPPER,8,0.49704000,0.08523239
+UPPER,9,0.88000000,0.03237962
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01069113,-0.04133653
+LOWER,2,0.04276453,-0.02006008
+LOWER,3,0.08909278,-0.04656575
+LOWER,4,0.29604360,-0.04790184
+LOWER,5,0.34028000,-0.06817531
+LOWER,6,0.38451640,-0.04029928
+LOWER,7,0.38902600,0.00278185
+LOWER,8,0.49704000,0.01855173
+LOWER,9,0.88000000,0.00956511
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

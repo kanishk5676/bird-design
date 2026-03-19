@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Arses_telescopthalmus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 81.00 mm
+# Secondary1: 69.10 mm
+# Kipps Distance: 13.40 mm
+# Hand-Wing Index: 16.20
+# Tail Length: 70.00 mm
+# Aspect Ratio: 1.172
+# Pointedness Index: 0.1654
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1260
+# Max Thickness Position: 0.3403
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3670
+# Leading Edge Radius: 0.0355
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.26e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01066058,0.06872346
+UPPER,2,0.04264231,0.11752448
+UPPER,3,0.08883814,0.14458655
+UPPER,4,0.29604360,0.17699396
+UPPER,5,0.34028000,0.18455524
+UPPER,6,0.38451640,0.17195310
+UPPER,7,0.38902600,0.13666713
+UPPER,8,0.49704000,0.08503979
+UPPER,9,0.88000000,0.03232459
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01066058,-0.04121431
+LOWER,2,0.04264231,-0.01983996
+LOWER,3,0.08883814,-0.04616678
+LOWER,4,0.29604360,-0.04732402
+LOWER,5,0.34028000,-0.06748744
+LOWER,6,0.38451640,-0.03976274
+LOWER,7,0.38902600,0.00308451
+LOWER,8,0.49704000,0.01864803
+LOWER,9,0.88000000,0.00959262
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

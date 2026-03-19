@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Accipiter_poliocephalus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 210.50 mm
+# Secondary1: 142.80 mm
+# Kipps Distance: 67.80 mm
+# Hand-Wing Index: 32.10
+# Tail Length: 157.20 mm
+# Aspect Ratio: 1.474
+# Pointedness Index: 0.3221
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1079
+# Max Thickness Position: 0.3307
+# Max Camber/Chord: 0.0558
+# Max Camber Position: 0.3543
+# Leading Edge Radius: 0.0313
+# LE Droop: 0.0016
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.39e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00937508,0.05783048
+UPPER,2,0.03750032,0.10297588
+UPPER,3,0.07812566,0.12904111
+UPPER,4,0.28774380,0.15724452
+UPPER,5,0.33074000,0.16371849
+UPPER,6,0.37373620,0.15292854
+UPPER,7,0.37678300,0.12271667
+UPPER,8,0.48432000,0.07765799
+UPPER,9,0.88000000,0.02984317
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00937508,-0.03702632
+LOWER,2,0.03750032,-0.01499120
+LOWER,3,0.07812566,-0.03690499
+LOWER,4,0.28774380,-0.03481662
+LOWER,5,0.33074000,-0.05208054
+LOWER,6,0.37373620,-0.02834264
+LOWER,7,0.37678300,0.00834319
+LOWER,8,0.48432000,0.01950183
+LOWER,9,0.88000000,0.00963876
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

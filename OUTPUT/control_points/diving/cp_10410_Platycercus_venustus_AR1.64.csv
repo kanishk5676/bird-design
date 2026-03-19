@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Platycercus_venustus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 146.20 mm
+# Secondary1: 89.00 mm
+# Kipps Distance: 57.80 mm
+# Hand-Wing Index: 39.40
+# Tail Length: 146.20 mm
+# Aspect Ratio: 1.643
+# Pointedness Index: 0.3953
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1041
+# Max Thickness Position: 0.3264
+# Max Camber/Chord: 0.0541
+# Max Camber Position: 0.3485
+# Leading Edge Radius: 0.0293
+# LE Droop: 0.0001
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.71e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00877808,0.05278849
+UPPER,2,0.03511232,0.09822123
+UPPER,3,0.07315067,0.12480444
+UPPER,4,0.28393320,0.15204914
+UPPER,5,0.32636000,0.15829808
+UPPER,6,0.36878680,0.14788319
+UPPER,7,0.37116200,0.11872147
+UPPER,8,0.47848000,0.07518845
+UPPER,9,0.88000000,0.02890858
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00877808,-0.03507632
+LOWER,2,0.03511232,-0.01437549
+LOWER,3,0.07315067,-0.03549782
+LOWER,4,0.28393320,-0.03333605
+LOWER,5,0.32636000,-0.04999988
+LOWER,6,0.36878680,-0.02708711
+LOWER,7,0.37116200,0.00832355
+LOWER,8,0.47848000,0.01899158
+LOWER,9,0.88000000,0.00937132
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

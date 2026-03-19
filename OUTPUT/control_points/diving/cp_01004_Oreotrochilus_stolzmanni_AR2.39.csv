@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Oreotrochilus_stolzmanni
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 72.60 mm
+# Secondary1: 30.40 mm
+# Kipps Distance: 42.20 mm
+# Hand-Wing Index: 58.10
+# Tail Length: 51.70 mm
+# Aspect Ratio: 2.388
+# Pointedness Index: 0.5813
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0918
+# Max Thickness Position: 0.3151
+# Max Camber/Chord: 0.0487
+# Max Camber Position: 0.3335
+# Leading Edge Radius: 0.0242
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.50e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00725768,0.04354606
+UPPER,2,0.02903071,0.08724362
+UPPER,3,0.06048064,0.11083940
+UPPER,4,0.27417180,0.13492174
+UPPER,5,0.31514000,0.14042806
+UPPER,6,0.35610820,0.13125085
+UPPER,7,0.35676300,0.10555467
+UPPER,8,0.46352000,0.06705376
+UPPER,9,0.88000000,0.02583104
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00725768,-0.02903071
+LOWER,2,0.02903071,-0.01233748
+LOWER,3,0.06048064,-0.03084606
+LOWER,4,0.27417180,-0.02843258
+LOWER,5,0.31514000,-0.04311611
+LOWER,6,0.35610820,-0.02292625
+LOWER,7,0.35676300,0.00827626
+LOWER,8,0.46352000,0.01731861
+LOWER,9,0.88000000,0.00849311
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

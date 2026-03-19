@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bolborhynchus_orbygnesius
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 106.60 mm
+# Secondary1: 61.60 mm
+# Kipps Distance: 44.90 mm
+# Hand-Wing Index: 42.20
+# Tail Length: 66.90 mm
+# Aspect Ratio: 1.731
+# Pointedness Index: 0.4212
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1036
+# Max Thickness Position: 0.3247
+# Max Camber/Chord: 0.0534
+# Max Camber Position: 0.3462
+# Leading Edge Radius: 0.0285
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.83e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00856056,0.05136334
+UPPER,2,0.03424222,0.09723135
+UPPER,3,0.07133797,0.12376802
+UPPER,4,0.28247160,0.15083907
+UPPER,5,0.32468000,0.15705616
+UPPER,6,0.36688840,0.14669434
+UPPER,7,0.36900600,0.11768122
+UPPER,8,0.47624000,0.07443533
+UPPER,9,0.88000000,0.02859586
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00856056,-0.03424222
+LOWER,2,0.03424222,-0.01445458
+LOWER,3,0.07133797,-0.03551716
+LOWER,4,0.28247160,-0.03360144
+LOWER,5,0.32468000,-0.05018036
+LOWER,6,0.36688840,-0.02738435
+LOWER,7,0.36900600,0.00784586
+LOWER,8,0.47624000,0.01862494
+LOWER,9,0.88000000,0.00921474
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Circus_aeruginosus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 405.70 mm
+# Secondary1: 221.20 mm
+# Kipps Distance: 185.30 mm
+# Hand-Wing Index: 45.60
+# Tail Length: 233.90 mm
+# Aspect Ratio: 1.834
+# Pointedness Index: 0.4567
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0933
+# Max Thickness Position: 0.3226
+# Max Camber/Chord: 0.0525
+# Max Camber Position: 0.3435
+# Leading Edge Radius: 0.0276
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.06e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00827526,0.04965155
+UPPER,2,0.03310103,0.09127253
+UPPER,3,0.06896049,0.11546588
+UPPER,4,0.28069680,0.14018445
+UPPER,5,0.32264000,0.14577995
+UPPER,6,0.36458320,0.13645411
+UPPER,7,0.36638800,0.11034177
+UPPER,8,0.47352000,0.07075570
+UPPER,9,0.88000000,0.02741888
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00827526,-0.03310103
+LOWER,2,0.03310103,-0.01146011
+LOWER,3,0.06896049,-0.02992990
+LOWER,4,0.28069680,-0.02581541
+LOWER,5,0.32264000,-0.04073675
+LOWER,6,0.36458320,-0.02021991
+LOWER,7,0.36638800,0.01148793
+LOWER,8,0.47352000,0.01950722
+LOWER,9,0.88000000,0.00940007
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

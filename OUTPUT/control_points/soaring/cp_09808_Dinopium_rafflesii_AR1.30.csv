@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dinopium_rafflesii
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 134.20 mm
+# Secondary1: 103.30 mm
+# Kipps Distance: 24.20 mm
+# Hand-Wing Index: 19.00
+# Tail Length: 90.50 mm
+# Aspect Ratio: 1.299
+# Pointedness Index: 0.1803
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1210
+# Max Thickness Position: 0.3386
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3648
+# Leading Edge Radius: 0.0350
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.42e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01049893,0.06719357
+UPPER,2,0.04199571,0.11410290
+UPPER,3,0.08749107,0.14058333
+UPPER,4,0.29458200,0.17184524
+UPPER,5,0.33860000,0.17910254
+UPPER,6,0.38261800,0.16700704
+UPPER,7,0.38687000,0.13313963
+UPPER,8,0.49480000,0.08329279
+UPPER,9,0.88000000,0.03177245
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01049893,-0.04073571
+LOWER,2,0.04199571,-0.01835399
+LOWER,3,0.08749107,-0.04340607
+LOWER,4,0.29458200,-0.04345474
+LOWER,5,0.33860000,-0.06280754
+LOWER,6,0.38261800,-0.03619743
+LOWER,7,0.38687000,0.00492728
+LOWER,8,0.49480000,0.01911774
+LOWER,9,0.88000000,0.00969867
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

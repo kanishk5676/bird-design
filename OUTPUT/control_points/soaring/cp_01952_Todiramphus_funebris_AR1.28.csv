@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Todiramphus_funebris
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 112.20 mm
+# Secondary1: 87.50 mm
+# Kipps Distance: 23.80 mm
+# Hand-Wing Index: 21.30
+# Tail Length: 89.40 mm
+# Aspect Ratio: 1.282
+# Pointedness Index: 0.2121
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1201
+# Max Thickness Position: 0.3372
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3630
+# Leading Edge Radius: 0.0342
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.92e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01026640,0.06533841
+UPPER,2,0.04106561,0.11293318
+UPPER,3,0.08555335,0.13966675
+UPPER,4,0.29338140,0.17071832
+UPPER,5,0.33722000,0.17792582
+UPPER,6,0.38105860,0.16591332
+UPPER,7,0.38509900,0.13227830
+UPPER,8,0.49296000,0.08276567
+UPPER,9,0.88000000,0.03157430
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01026640,-0.03994361
+LOWER,2,0.04106561,-0.01820974
+LOWER,3,0.08555335,-0.04308417
+LOWER,4,0.29338140,-0.04310426
+LOWER,5,0.33722000,-0.06232427
+LOWER,6,0.38105860,-0.03589676
+LOWER,7,0.38509900,0.00494575
+LOWER,8,0.49296000,0.01901897
+LOWER,9,0.88000000,0.00964519
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

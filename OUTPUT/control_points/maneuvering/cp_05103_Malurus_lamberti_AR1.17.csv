@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Malurus_lamberti
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 47.80 mm
+# Secondary1: 41.00 mm
+# Kipps Distance: 5.50 mm
+# Hand-Wing Index: 11.80
+# Tail Length: 75.90 mm
+# Aspect Ratio: 1.166
+# Pointedness Index: 0.1151
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1306
+# Max Thickness Position: 0.3429
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3706
+# Leading Edge Radius: 0.0368
+# LE Droop: 0.0056
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01105210,0.07195260
+UPPER,2,0.04420840,0.12112262
+UPPER,3,0.09210083,0.14834015
+UPPER,4,0.29834040,0.18178830
+UPPER,5,0.34292000,0.18962190
+UPPER,6,0.38749960,0.17656590
+UPPER,7,0.39241400,0.14000910
+UPPER,8,0.50056000,0.08675942
+UPPER,9,0.88000000,0.03288832
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01105210,-0.04251640
+LOWER,2,0.04420840,-0.02110754
+LOWER,3,0.09210083,-0.04855633
+LOWER,4,0.29834040,-0.05060850
+LOWER,5,0.34292000,-0.07149810
+LOWER,6,0.38749960,-0.04277490
+LOWER,7,0.39241400,0.00161550
+LOWER,8,0.50056000,0.01833998
+LOWER,9,0.88000000,0.00954307
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

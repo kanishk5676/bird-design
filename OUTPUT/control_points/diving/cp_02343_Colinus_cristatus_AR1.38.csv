@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Colinus_cristatus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 99.80 mm
+# Secondary1: 72.40 mm
+# Kipps Distance: 26.10 mm
+# Hand-Wing Index: 26.60
+# Tail Length: 57.30 mm
+# Aspect Ratio: 1.378
+# Pointedness Index: 0.2615
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1165
+# Max Thickness Position: 0.3340
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3587
+# Leading Edge Radius: 0.0328
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.65e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00985227,0.06179363
+UPPER,2,0.03940909,0.10931650
+UPPER,3,0.08210227,0.13625863
+UPPER,4,0.29061480,0.16644976
+UPPER,5,0.33404000,0.17344223
+UPPER,6,0.37746520,0.16178812
+UPPER,7,0.38101800,0.12915660
+UPPER,8,0.48872000,0.08099745
+UPPER,9,0.88000000,0.03094571
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00985227,-0.03860509
+LOWER,2,0.03940909,-0.01737778
+LOWER,3,0.08210227,-0.04141935
+LOWER,4,0.29061480,-0.04099345
+LOWER,5,0.33404000,-0.05964003
+LOWER,6,0.37746520,-0.03400098
+LOWER,7,0.38101800,0.00562300
+LOWER,8,0.48872000,0.01896292
+LOWER,9,0.88000000,0.00956363
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

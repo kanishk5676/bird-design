@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Myiagra_ferrocyanea
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 69.00 mm
+# Secondary1: 59.00 mm
+# Kipps Distance: 10.10 mm
+# Hand-Wing Index: 14.60
+# Tail Length: 61.90 mm
+# Aspect Ratio: 1.169
+# Pointedness Index: 0.1464
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1282
+# Max Thickness Position: 0.3412
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3683
+# Leading Edge Radius: 0.0360
+# LE Droop: 0.0051
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01080672,0.06992031
+UPPER,2,0.04322687,0.11909888
+UPPER,3,0.09005599,0.14633110
+UPPER,4,0.29687880,0.17923070
+UPPER,5,0.34124000,0.18692178
+UPPER,6,0.38560120,0.17410332
+UPPER,7,0.39025800,0.13821160
+UPPER,8,0.49832000,0.08581825
+UPPER,9,0.88000000,0.03257487
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01080672,-0.04170287
+LOWER,2,0.04322687,-0.02046111
+LOWER,3,0.09005599,-0.04732805
+LOWER,4,0.29687880,-0.04893803
+LOWER,5,0.34124000,-0.06944758
+LOWER,6,0.38560120,-0.04124695
+LOWER,7,0.39025800,0.00233584
+LOWER,8,0.49832000,0.01847115
+LOWER,9,0.88000000,0.00955689
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

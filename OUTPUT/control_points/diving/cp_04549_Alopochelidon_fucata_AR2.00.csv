@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Alopochelidon_fucata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 99.00 mm
+# Secondary1: 49.50 mm
+# Kipps Distance: 49.20 mm
+# Hand-Wing Index: 49.90
+# Tail Length: 43.60 mm
+# Aspect Ratio: 2.000
+# Pointedness Index: 0.4970
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0966
+# Max Thickness Position: 0.3201
+# Max Camber/Chord: 0.0513
+# Max Camber Position: 0.3401
+# Leading Edge Radius: 0.0265
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.21e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00793851,0.04763109
+UPPER,2,0.03175406,0.09190201
+UPPER,3,0.06615429,0.11674979
+UPPER,4,0.27845220,0.14211036
+UPPER,5,0.32006000,0.14790804
+UPPER,6,0.36166780,0.13824524
+UPPER,7,0.36307700,0.11118938
+UPPER,8,0.47008000,0.07064384
+UPPER,9,0.88000000,0.02721664
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00793851,-0.03175406
+LOWER,2,0.03175406,-0.01297299
+LOWER,3,0.06615429,-0.03245549
+LOWER,4,0.27845220,-0.02988760
+LOWER,5,0.32006000,-0.04534809
+LOWER,6,0.36166780,-0.02408992
+LOWER,7,0.36307700,0.00876362
+LOWER,8,0.47008000,0.01826565
+LOWER,9,0.88000000,0.00895487
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

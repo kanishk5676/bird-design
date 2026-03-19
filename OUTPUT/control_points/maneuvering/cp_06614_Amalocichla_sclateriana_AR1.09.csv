@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Amalocichla_sclateriana
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 102.40 mm
+# Secondary1: 94.30 mm
+# Kipps Distance: 8.10 mm
+# Hand-Wing Index: 7.90
+# Tail Length: 77.50 mm
+# Aspect Ratio: 1.086
+# Pointedness Index: 0.0791
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1314
+# Max Thickness Position: 0.3453
+# Max Camber/Chord: 0.0594
+# Max Camber Position: 0.3737
+# Leading Edge Radius: 0.0378
+# LE Droop: 0.0064
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.71e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01135484,0.07454905
+UPPER,2,0.04541937,0.12263031
+UPPER,3,0.09462368,0.14927036
+UPPER,4,0.30037620,0.18292490
+UPPER,5,0.34526000,0.19080634
+UPPER,6,0.39014380,0.17767060
+UPPER,7,0.39541700,0.14089054
+UPPER,8,0.50368000,0.08731169
+UPPER,9,0.88000000,0.03309920
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01135484,-0.04349337
+LOWER,2,0.04541937,-0.02122722
+LOWER,3,0.09462368,-0.04884074
+LOWER,4,0.30037620,-0.05089121
+LOWER,5,0.34526000,-0.07190839
+LOWER,6,0.39014380,-0.04300977
+LOWER,7,0.39541700,0.00165173
+LOWER,8,0.50368000,0.01846833
+LOWER,9,0.88000000,0.00960795
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

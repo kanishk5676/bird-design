@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Laterallus_jamaicensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 65.30 mm
+# Secondary1: 51.30 mm
+# Kipps Distance: 14.10 mm
+# Hand-Wing Index: 21.50
+# Tail Length: 28.80 mm
+# Aspect Ratio: 1.273
+# Pointedness Index: 0.2159
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1217
+# Max Thickness Position: 0.3371
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3628
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01024087,0.06514525
+UPPER,2,0.04096350,0.11366867
+UPPER,3,0.08534062,0.14079299
+UPPER,4,0.29327700,0.17219501
+UPPER,5,0.33710000,0.17949877
+UPPER,6,0.38092300,0.16732583
+UPPER,7,0.38494500,0.13324160
+UPPER,8,0.49280000,0.08318820
+UPPER,9,0.88000000,0.03169071
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01024087,-0.03985350
+LOWER,2,0.04096350,-0.01873412
+LOWER,3,0.08534062,-0.04402914
+LOWER,4,0.29327700,-0.04448332
+LOWER,5,0.33710000,-0.06396002
+LOWER,6,0.38092300,-0.03717955
+LOWER,7,0.38494500,0.00420844
+LOWER,8,0.49280000,0.01877490
+LOWER,9,0.88000000,0.00957317
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

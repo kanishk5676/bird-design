@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hemitesia_neumanni
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 62.00 mm
+# Secondary1: 57.20 mm
+# Kipps Distance: 4.80 mm
+# Hand-Wing Index: 7.70
+# Tail Length: 31.00 mm
+# Aspect Ratio: 1.084
+# Pointedness Index: 0.0774
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1336
+# Max Thickness Position: 0.3454
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3738
+# Leading Edge Radius: 0.0379
+# LE Droop: 0.0065
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.07e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01136954,0.07467725
+UPPER,2,0.04547817,0.12378759
+UPPER,3,0.09474618,0.15087383
+UPPER,4,0.30048060,0.18501474
+UPPER,5,0.34538000,0.19302844
+UPPER,6,0.39027940,0.17967228
+UPPER,7,0.39557100,0.14227501
+UPPER,8,0.50384000,0.08794403
+UPPER,9,0.88000000,0.03328231
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01136954,-0.04354017
+LOWER,2,0.04547817,-0.02192636
+LOWER,3,0.09474618,-0.05011105
+LOWER,4,0.30048060,-0.05272503
+LOWER,5,0.34538000,-0.07409489
+LOWER,6,0.39027940,-0.04471133
+LOWER,7,0.39557100,0.00069964
+LOWER,8,0.50384000,0.01817077
+LOWER,9,0.88000000,0.00952423
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

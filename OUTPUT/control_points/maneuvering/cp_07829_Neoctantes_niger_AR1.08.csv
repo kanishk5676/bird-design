@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Neoctantes_niger
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 74.20 mm
+# Secondary1: 68.70 mm
+# Kipps Distance: 8.10 mm
+# Hand-Wing Index: 10.70
+# Tail Length: 54.30 mm
+# Aspect Ratio: 1.080
+# Pointedness Index: 0.1092
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1309
+# Max Thickness Position: 0.3436
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3714
+# Leading Edge Radius: 0.0371
+# LE Droop: 0.0059
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.13e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01111584,0.07255505
+UPPER,2,0.04446337,0.12161459
+UPPER,3,0.09263201,0.14869626
+UPPER,4,0.29891460,0.18222972
+UPPER,5,0.34358000,0.19008404
+UPPER,6,0.38824540,0.17699351
+UPPER,7,0.39326100,0.14034004
+UPPER,8,0.50144000,0.08695543
+UPPER,9,0.88000000,0.03296036
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01111584,-0.04270537
+LOWER,2,0.04446337,-0.02117711
+LOWER,3,0.09263201,-0.04870282
+LOWER,4,0.29891460,-0.05078165
+LOWER,5,0.34358000,-0.07172649
+LOWER,6,0.38824540,-0.04292733
+LOWER,7,0.39326100,0.00158046
+LOWER,8,0.50144000,0.01836410
+LOWER,9,0.88000000,0.00955848
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

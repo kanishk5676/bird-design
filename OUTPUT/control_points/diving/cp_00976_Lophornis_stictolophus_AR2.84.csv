@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lophornis_stictolophus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 38.40 mm
+# Secondary1: 13.50 mm
+# Kipps Distance: 25.00 mm
+# Hand-Wing Index: 64.90
+# Tail Length: 24.10 mm
+# Aspect Ratio: 2.844
+# Pointedness Index: 0.6510
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0881
+# Max Thickness Position: 0.3111
+# Max Camber/Chord: 0.0462
+# Max Camber Position: 0.3281
+# Leading Edge Radius: 0.0223
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00669375,0.04016248
+UPPER,2,0.02677499,0.08333123
+UPPER,3,0.05578123,0.10594458
+UPPER,4,0.27062220,0.12902018
+UPPER,5,0.31106000,0.13430498
+UPPER,6,0.35149780,0.12549698
+UPPER,7,0.35152700,0.10083458
+UPPER,8,0.45808000,0.06395363
+UPPER,9,0.88000000,0.02461189
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00669375,-0.02677499
+LOWER,2,0.02677499,-0.01200686
+LOWER,3,0.05578123,-0.02982291
+LOWER,4,0.27062220,-0.02776223
+LOWER,5,0.31106000,-0.04185503
+LOWER,6,0.35149780,-0.02247743
+LOWER,7,0.35152700,0.00746977
+LOWER,8,0.45808000,0.01632828
+LOWER,9,0.88000000,0.00803304
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

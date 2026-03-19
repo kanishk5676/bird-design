@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Columba_hodgsonii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 226.00 mm
+# Secondary1: 137.50 mm
+# Kipps Distance: 92.80 mm
+# Hand-Wing Index: 40.30
+# Tail Length: 136.60 mm
+# Aspect Ratio: 1.644
+# Pointedness Index: 0.4106
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1009
+# Max Thickness Position: 0.3258
+# Max Camber/Chord: 0.0539
+# Max Camber Position: 0.3478
+# Leading Edge Radius: 0.0289
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.82e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00867266,0.05203596
+UPPER,2,0.03469064,0.09630027
+UPPER,3,0.07227217,0.12227925
+UPPER,4,0.28346340,0.14879749
+UPPER,5,0.32582000,0.15485319
+UPPER,6,0.36817660,0.14476035
+UPPER,7,0.37046900,0.11650039
+UPPER,8,0.47776000,0.07409602
+UPPER,9,0.88000000,0.02856569
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00867266,-0.03469064
+LOWER,2,0.03469064,-0.01342342
+LOWER,3,0.07227217,-0.03373308
+LOWER,4,0.28346340,-0.03085509
+LOWER,5,0.32582000,-0.04700364
+LOWER,6,0.36817660,-0.02479939
+LOWER,7,0.37046900,0.00951627
+LOWER,8,0.47776000,0.01930338
+LOWER,9,0.88000000,0.00944406
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

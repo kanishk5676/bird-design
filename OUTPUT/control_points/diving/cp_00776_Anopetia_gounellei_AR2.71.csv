@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anopetia_gounellei
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 49.30 mm
+# Secondary1: 18.20 mm
+# Kipps Distance: 30.40 mm
+# Hand-Wing Index: 62.60
+# Tail Length: 44.00 mm
+# Aspect Ratio: 2.709
+# Pointedness Index: 0.6166
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0897
+# Max Thickness Position: 0.3124
+# Max Camber/Chord: 0.0471
+# Max Camber Position: 0.3299
+# Leading Edge Radius: 0.0231
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.06e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00693961,0.04163767
+UPPER,2,0.02775845,0.08484075
+UPPER,3,0.05783010,0.10786046
+UPPER,4,0.27182280,0.13135090
+UPPER,5,0.31244000,0.13673033
+UPPER,6,0.35305720,0.12776461
+UPPER,7,0.35329800,0.10266058
+UPPER,8,0.45992000,0.06511616
+UPPER,9,0.88000000,0.02506036
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00693961,-0.02775845
+LOWER,2,0.02775845,-0.01221473
+LOWER,3,0.05783010,-0.03034757
+LOWER,4,0.27182280,-0.02823897
+LOWER,5,0.31244000,-0.04258413
+LOWER,6,0.35305720,-0.02285954
+LOWER,7,0.35329800,0.00762392
+LOWER,8,0.45992000,0.01663331
+LOWER,9,0.88000000,0.00818199
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

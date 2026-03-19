@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sitta_krueperi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 71.20 mm
+# Secondary1: 53.90 mm
+# Kipps Distance: 16.40 mm
+# Hand-Wing Index: 23.30
+# Tail Length: 43.00 mm
+# Aspect Ratio: 1.321
+# Pointedness Index: 0.2303
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1206
+# Max Thickness Position: 0.3360
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3614
+# Leading Edge Radius: 0.0337
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.19e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01011230,0.06401381
+UPPER,2,0.04044920,0.11249856
+UPPER,3,0.08426917,0.13971509
+UPPER,4,0.29233740,0.17084639
+UPPER,5,0.33602000,0.17808268
+UPPER,6,0.37970260,0.16602219
+UPPER,7,0.38355900,0.13225282
+UPPER,8,0.49136000,0.08262548
+UPPER,9,0.88000000,0.03148995
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01011230,-0.03944720
+LOWER,2,0.04044920,-0.01847635
+LOWER,3,0.08426917,-0.04351107
+LOWER,4,0.29233740,-0.04383035
+LOWER,5,0.33602000,-0.06312713
+LOWER,6,0.37970260,-0.03659405
+LOWER,7,0.38355900,0.00441162
+LOWER,8,0.49136000,0.01875153
+LOWER,9,0.88000000,0.00954525
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

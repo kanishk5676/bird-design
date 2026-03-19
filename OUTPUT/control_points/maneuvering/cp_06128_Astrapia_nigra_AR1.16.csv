@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Astrapia_nigra
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 179.20 mm
+# Secondary1: 154.20 mm
+# Kipps Distance: 25.00 mm
+# Hand-Wing Index: 14.00
+# Tail Length: 488.80 mm
+# Aspect Ratio: 1.162
+# Pointedness Index: 0.1395
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1233
+# Max Thickness Position: 0.3416
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3688
+# Leading Edge Radius: 0.0362
+# LE Droop: 0.0052
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.54e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01086010,0.07036063
+UPPER,2,0.04344042,0.11684170
+UPPER,3,0.09050087,0.14288581
+UPPER,4,0.29719200,0.17471802
+UPPER,5,0.34160000,0.18211641
+UPPER,6,0.38600800,0.16978576
+UPPER,7,0.39072000,0.13525997
+UPPER,8,0.49880000,0.08451429
+UPPER,9,0.88000000,0.03221231
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01086010,-0.04188042
+LOWER,2,0.04344042,-0.01887455
+LOWER,3,0.09050087,-0.04446512
+LOWER,4,0.29719200,-0.04476738
+LOWER,5,0.34160000,-0.06449641
+LOWER,6,0.38600800,-0.03736900
+LOWER,7,0.39072000,0.00455518
+LOWER,8,0.49880000,0.01919930
+LOWER,9,0.88000000,0.00977024
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

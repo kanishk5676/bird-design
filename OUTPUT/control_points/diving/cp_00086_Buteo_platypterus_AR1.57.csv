@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Buteo_platypterus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 277.70 mm
+# Secondary1: 177.40 mm
+# Kipps Distance: 103.70 mm
+# Hand-Wing Index: 36.90
+# Tail Length: 178.80 mm
+# Aspect Ratio: 1.565
+# Pointedness Index: 0.3734
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1024
+# Max Thickness Position: 0.3279
+# Max Camber/Chord: 0.0548
+# Max Camber Position: 0.3505
+# Leading Edge Radius: 0.0299
+# LE Droop: 0.0006
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.35e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00896639,0.05441837
+UPPER,2,0.03586558,0.09838315
+UPPER,3,0.07471996,0.12413463
+UPPER,4,0.28523820,0.15105363
+UPPER,5,0.32786000,0.15720061
+UPPER,6,0.37048180,0.14695565
+UPPER,7,0.37308700,0.11826975
+UPPER,8,0.48048000,0.07522423
+UPPER,9,0.88000000,0.02900134
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00896639,-0.03567958
+LOWER,2,0.03586558,-0.01362104
+LOWER,3,0.07471996,-0.03423534
+LOWER,4,0.28523820,-0.03130672
+LOWER,5,0.32786000,-0.04769866
+LOWER,6,0.37048180,-0.02515974
+LOWER,7,0.37308700,0.00967314
+LOWER,8,0.48048000,0.01960266
+LOWER,9,0.88000000,0.00958976
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

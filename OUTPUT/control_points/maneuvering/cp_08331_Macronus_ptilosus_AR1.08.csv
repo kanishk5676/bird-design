@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Macronus_ptilosus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 70.80 mm
+# Secondary1: 65.60 mm
+# Kipps Distance: 7.00 mm
+# Hand-Wing Index: 9.60
+# Tail Length: 62.60 mm
+# Aspect Ratio: 1.079
+# Pointedness Index: 0.0989
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1320
+# Max Thickness Position: 0.3442
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3723
+# Leading Edge Radius: 0.0373
+# LE Droop: 0.0061
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.07e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01120200,0.07329202
+UPPER,2,0.04480801,0.12249780
+UPPER,3,0.09335002,0.14961759
+UPPER,4,0.29948880,0.18341028
+UPPER,5,0.34424000,0.19133288
+UPPER,6,0.38899120,0.17812855
+UPPER,7,0.39410800,0.14115643
+UPPER,8,0.50232000,0.08736828
+UPPER,9,0.88000000,0.03309351
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01120200,-0.04298401
+LOWER,2,0.04480801,-0.02150249
+LOWER,3,0.09335002,-0.04931189
+LOWER,4,0.29948880,-0.05162675
+LOWER,5,0.34424000,-0.07275368
+LOWER,6,0.38899120,-0.04370416
+LOWER,7,0.39410800,0.00119056
+LOWER,8,0.50232000,0.01827349
+LOWER,9,0.88000000,0.00954067
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hypsipetes_siquijorensis
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 119.50 mm
+# Secondary1: 96.70 mm
+# Kipps Distance: 22.80 mm
+# Hand-Wing Index: 19.10
+# Tail Length: 115.80 mm
+# Aspect Ratio: 1.236
+# Pointedness Index: 0.1908
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1215
+# Max Thickness Position: 0.3385
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3647
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.08e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01044249,0.06683491
+UPPER,2,0.04176994,0.11435825
+UPPER,3,0.08702071,0.14098425
+UPPER,4,0.29452980,0.17237158
+UPPER,5,0.33854000,0.17966341
+UPPER,6,0.38255020,0.16751036
+UPPER,7,0.38679300,0.13348184
+UPPER,8,0.49472000,0.08344155
+UPPER,9,0.88000000,0.03181297
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01044249,-0.04051594
+LOWER,2,0.04176994,-0.01854320
+LOWER,3,0.08702071,-0.04374648
+LOWER,4,0.29452980,-0.04395259
+LOWER,5,0.33854000,-0.06339746
+LOWER,6,0.38255020,-0.03666076
+LOWER,7,0.38679300,0.00465958
+LOWER,8,0.49472000,0.01902818
+LOWER,9,0.88000000,0.00967203
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

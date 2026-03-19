@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Monticola_saxatilis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 120.80 mm
+# Secondary1: 77.00 mm
+# Kipps Distance: 43.80 mm
+# Hand-Wing Index: 36.20
+# Tail Length: 62.00 mm
+# Aspect Ratio: 1.569
+# Pointedness Index: 0.3626
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1078
+# Max Thickness Position: 0.3283
+# Max Camber/Chord: 0.0549
+# Max Camber Position: 0.3510
+# Leading Edge Radius: 0.0301
+# LE Droop: 0.0008
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.13e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00904311,0.05501865
+UPPER,2,0.03617243,0.10131843
+UPPER,3,0.07535923,0.12811032
+UPPER,4,0.28560360,0.15621134
+UPPER,5,0.32828000,0.16267713
+UPPER,6,0.37095640,0.15190081
+UPPER,7,0.37362600,0.12172711
+UPPER,8,0.48104000,0.07685052
+UPPER,9,0.88000000,0.02948834
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00904311,-0.03594443
+LOWER,2,0.03617243,-0.01526437
+LOWER,3,0.07535923,-0.03724228
+LOWER,4,0.28560360,-0.03560722
+LOWER,5,0.32828000,-0.05284933
+LOWER,6,0.37095640,-0.02914142
+LOWER,7,0.37362600,0.00749808
+LOWER,8,0.48104000,0.01895977
+LOWER,9,0.88000000,0.00941795
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

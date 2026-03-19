@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cursorius_coromandelicus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 145.00 mm
+# Secondary1: 82.80 mm
+# Kipps Distance: 62.50 mm
+# Hand-Wing Index: 43.00
+# Tail Length: 52.80 mm
+# Aspect Ratio: 1.751
+# Pointedness Index: 0.4310
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1007
+# Max Thickness Position: 0.3242
+# Max Camber/Chord: 0.0532
+# Max Camber Position: 0.3456
+# Leading Edge Radius: 0.0283
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00848592,0.05091554
+UPPER,2,0.03394370,0.09559439
+UPPER,3,0.07071603,0.12147476
+UPPER,4,0.28205400,0.14788740
+UPPER,5,0.32420000,0.15392952
+UPPER,6,0.36634600,0.14385932
+UPPER,7,0.36839000,0.11566275
+UPPER,8,0.47560000,0.07343994
+UPPER,9,0.88000000,0.02828261
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00848592,-0.03394370
+LOWER,2,0.03394370,-0.01359502
+LOWER,3,0.07071603,-0.03392252
+LOWER,4,0.28205400,-0.03136220
+LOWER,5,0.32420000,-0.04747452
+LOWER,6,0.36634600,-0.02532008
+LOWER,7,0.36839000,0.00891861
+LOWER,8,0.47560000,0.01890277
+LOWER,9,0.88000000,0.00927879
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

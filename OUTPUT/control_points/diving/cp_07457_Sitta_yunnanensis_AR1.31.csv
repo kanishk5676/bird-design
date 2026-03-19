@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sitta_yunnanensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 72.00 mm
+# Secondary1: 54.90 mm
+# Kipps Distance: 16.90 mm
+# Hand-Wing Index: 23.50
+# Tail Length: 41.70 mm
+# Aspect Ratio: 1.311
+# Pointedness Index: 0.2347
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1203
+# Max Thickness Position: 0.3359
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3612
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.22e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01008382,0.06380290
+UPPER,2,0.04033527,0.11229396
+UPPER,3,0.08403181,0.13948821
+UPPER,4,0.29223300,0.17055690
+UPPER,5,0.33590000,0.17777685
+UPPER,6,0.37956700,0.16574360
+UPPER,7,0.38340500,0.13205051
+UPPER,8,0.49120000,0.08252081
+UPPER,9,0.88000000,0.03145546
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01008382,-0.03934527
+LOWER,2,0.04033527,-0.01840086
+LOWER,3,0.08403181,-0.04336842
+LOWER,4,0.29223300,-0.04363490
+LOWER,5,0.33590000,-0.06288810
+LOWER,6,0.37956700,-0.03641496
+LOWER,7,0.38340500,0.00449809
+LOWER,8,0.49120000,0.01876897
+LOWER,9,0.88000000,0.00954779
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

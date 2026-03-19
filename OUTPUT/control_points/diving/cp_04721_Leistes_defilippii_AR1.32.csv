@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Leistes_defilippii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 120.40 mm
+# Secondary1: 91.30 mm
+# Kipps Distance: 30.20 mm
+# Hand-Wing Index: 24.90
+# Tail Length: 77.80 mm
+# Aspect Ratio: 1.319
+# Pointedness Index: 0.2508
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1168
+# Max Thickness Position: 0.3351
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3601
+# Leading Edge Radius: 0.0332
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.10e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00995882,0.06277294
+UPPER,2,0.03983530,0.11006830
+UPPER,3,0.08299020,0.13675925
+UPPER,4,0.29150220,0.16704224
+UPPER,5,0.33506000,0.17405313
+UPPER,6,0.37861780,0.16236831
+UPPER,7,0.38232700,0.12965083
+UPPER,8,0.49008000,0.08134171
+UPPER,9,0.88000000,0.03108574
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00995882,-0.03892930
+LOWER,2,0.03983530,-0.01736967
+LOWER,3,0.08299020,-0.04145764
+LOWER,4,0.29150220,-0.04094747
+LOWER,5,0.33506000,-0.05964318
+LOWER,6,0.37861780,-0.03393658
+LOWER,7,0.38232700,0.00579179
+LOWER,8,0.49008000,0.01910834
+LOWER,9,0.88000000,0.00962732
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tityra_inquisitor
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 105.70 mm
+# Secondary1: 77.90 mm
+# Kipps Distance: 28.10 mm
+# Hand-Wing Index: 26.50
+# Tail Length: 65.60 mm
+# Aspect Ratio: 1.357
+# Pointedness Index: 0.2658
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1163
+# Max Thickness Position: 0.3341
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3588
+# Leading Edge Radius: 0.0328
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.78e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00983328,0.06169969
+UPPER,2,0.03933313,0.10923138
+UPPER,3,0.08194401,0.13610170
+UPPER,4,0.29066700,0.16624121
+UPPER,5,0.33410000,0.17321920
+UPPER,6,0.37753300,0.16158921
+UPPER,7,0.38109500,0.12902526
+UPPER,8,0.48880000,0.08094542
+UPPER,9,0.88000000,0.03093335
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00983328,-0.03852313
+LOWER,2,0.03933313,-0.01729416
+LOWER,3,0.08194401,-0.04127098
+LOWER,4,0.29066700,-0.04077247
+LOWER,5,0.33410000,-0.05938045
+LOWER,6,0.37753300,-0.03379449
+LOWER,7,0.38109500,0.00574745
+LOWER,8,0.48880000,0.01900804
+LOWER,9,0.88000000,0.00957785
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

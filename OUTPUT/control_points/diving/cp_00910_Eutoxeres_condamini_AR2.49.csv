@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eutoxeres_condamini
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 68.50 mm
+# Secondary1: 27.50 mm
+# Kipps Distance: 40.10 mm
+# Hand-Wing Index: 59.30
+# Tail Length: 56.60 mm
+# Aspect Ratio: 2.491
+# Pointedness Index: 0.5854
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0912
+# Max Thickness Position: 0.3144
+# Max Camber/Chord: 0.0482
+# Max Camber Position: 0.3326
+# Leading Edge Radius: 0.0240
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.36e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00719987,0.04319924
+UPPER,2,0.02879949,0.08662550
+UPPER,3,0.05999894,0.11007461
+UPPER,4,0.27354540,0.13400616
+UPPER,5,0.31442000,0.13948035
+UPPER,6,0.35529460,0.13035670
+UPPER,7,0.35583900,0.10481045
+UPPER,8,0.46256000,0.06655345
+UPPER,9,0.88000000,0.02563156
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00719987,-0.02879949
+LOWER,2,0.02879949,-0.01231038
+LOWER,3,0.05999894,-0.03072508
+LOWER,4,0.27354540,-0.02839495
+LOWER,5,0.31442000,-0.04299280
+LOWER,6,0.35529460,-0.02292076
+LOWER,7,0.35583900,0.00809968
+LOWER,8,0.46256000,0.01713802
+LOWER,9,0.88000000,0.00841148
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

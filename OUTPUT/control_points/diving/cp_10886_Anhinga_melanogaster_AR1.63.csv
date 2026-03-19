@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anhinga_melanogaster
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 342.20 mm
+# Secondary1: 209.80 mm
+# Kipps Distance: 135.70 mm
+# Hand-Wing Index: 39.20
+# Tail Length: 237.80 mm
+# Aspect Ratio: 1.631
+# Pointedness Index: 0.3966
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0994
+# Max Thickness Position: 0.3265
+# Max Camber/Chord: 0.0542
+# Max Camber Position: 0.3486
+# Leading Edge Radius: 0.0293
+# LE Droop: 0.0002
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.43e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00877807,0.05282840
+UPPER,2,0.03511226,0.09592076
+UPPER,3,0.07315055,0.12141918
+UPPER,4,0.28403760,0.14761959
+UPPER,5,0.32648000,0.15358264
+UPPER,6,0.36892240,0.14364422
+UPPER,7,0.37131600,0.11581663
+UPPER,8,0.47864000,0.07389623
+UPPER,9,0.88000000,0.02854613
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00877807,-0.03506426
+LOWER,2,0.03511226,-0.01283352
+LOWER,3,0.07315055,-0.03271160
+LOWER,4,0.28403760,-0.02928437
+LOWER,5,0.32648000,-0.04518584
+LOWER,6,0.36892240,-0.02332131
+LOWER,7,0.37131600,0.01046933
+LOWER,8,0.47864000,0.01968921
+LOWER,9,0.88000000,0.00957423
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

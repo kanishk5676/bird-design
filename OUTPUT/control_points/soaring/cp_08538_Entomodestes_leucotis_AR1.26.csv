@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Entomodestes_leucotis
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 112.50 mm
+# Secondary1: 89.60 mm
+# Kipps Distance: 23.50 mm
+# Hand-Wing Index: 20.80
+# Tail Length: 115.90 mm
+# Aspect Ratio: 1.256
+# Pointedness Index: 0.2089
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1205
+# Max Thickness Position: 0.3375
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3634
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.93e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01029819,0.06562912
+UPPER,2,0.04119275,0.11329166
+UPPER,3,0.08581822,0.14001536
+UPPER,4,0.29364240,0.17115784
+UPPER,5,0.33752000,0.17838845
+UPPER,6,0.38139760,0.16633744
+UPPER,7,0.38548400,0.13259463
+UPPER,8,0.49336000,0.08293945
+UPPER,9,0.88000000,0.03163460
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01029819,-0.04004075
+LOWER,2,0.04119275,-0.01830577
+LOWER,3,0.08581822,-0.04327176
+LOWER,4,0.29364240,-0.04335004
+LOWER,5,0.33752000,-0.06263165
+LOWER,6,0.38139760,-0.03611944
+LOWER,7,0.38548400,0.00485398
+LOWER,8,0.49336000,0.01901320
+LOWER,9,0.88000000,0.00964920
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

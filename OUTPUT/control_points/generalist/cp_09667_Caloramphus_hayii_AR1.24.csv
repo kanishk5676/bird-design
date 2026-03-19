@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Caloramphus_hayii
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 81.00 mm
+# Secondary1: 65.30 mm
+# Kipps Distance: 15.60 mm
+# Hand-Wing Index: 19.30
+# Tail Length: 47.10 mm
+# Aspect Ratio: 1.240
+# Pointedness Index: 0.1926
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1234
+# Max Thickness Position: 0.3384
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3646
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.30e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01042720,0.06670319
+UPPER,2,0.04170879,0.11524235
+UPPER,3,0.08689331,0.14232384
+UPPER,4,0.29442540,0.17412636
+UPPER,5,0.33842000,0.18153206
+UPPER,6,0.38241460,0.16918923
+UPPER,7,0.38663900,0.13462931
+UPPER,8,0.49456000,0.08394813
+UPPER,9,0.88000000,0.03195370
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01042720,-0.04046679
+LOWER,2,0.04170879,-0.01916073
+LOWER,3,0.08689331,-0.04486067
+LOWER,4,0.29442540,-0.04557598
+LOWER,5,0.33842000,-0.06532451
+LOWER,6,0.38241460,-0.03817029
+LOWER,7,0.38663900,0.00379533
+LOWER,8,0.49456000,0.01874438
+LOWER,9,0.88000000,0.00958881
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

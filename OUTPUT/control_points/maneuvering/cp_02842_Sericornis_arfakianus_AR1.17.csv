@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sericornis_arfakianus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 53.80 mm
+# Secondary1: 45.80 mm
+# Kipps Distance: 6.40 mm
+# Hand-Wing Index: 12.30
+# Tail Length: 38.20 mm
+# Aspect Ratio: 1.175
+# Pointedness Index: 0.1190
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1302
+# Max Thickness Position: 0.3426
+# Max Camber/Chord: 0.0590
+# Max Camber Position: 0.3702
+# Leading Edge Radius: 0.0367
+# LE Droop: 0.0055
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01101693,0.07164157
+UPPER,2,0.04406771,0.12077576
+UPPER,3,0.09180774,0.14800143
+UPPER,4,0.29807940,0.18135717
+UPPER,5,0.34262000,0.18916678
+UPPER,6,0.38716060,0.17615077
+UPPER,7,0.39202900,0.13970597
+UPPER,8,0.50016000,0.08660056
+UPPER,9,0.88000000,0.03283537
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01101693,-0.04240571
+LOWER,2,0.04406771,-0.02099883
+LOWER,3,0.09180774,-0.04834968
+LOWER,4,0.29807940,-0.05032763
+LOWER,5,0.34262000,-0.07115323
+LOWER,6,0.38716060,-0.04251803
+LOWER,7,0.39202900,0.00173637
+LOWER,8,0.50016000,0.01836180
+LOWER,9,0.88000000,0.00954529
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

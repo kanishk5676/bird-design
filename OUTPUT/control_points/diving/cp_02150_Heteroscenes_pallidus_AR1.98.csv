@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Heteroscenes_pallidus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 186.20 mm
+# Secondary1: 94.00 mm
+# Kipps Distance: 92.50 mm
+# Hand-Wing Index: 49.60
+# Tail Length: 162.00 mm
+# Aspect Ratio: 1.981
+# Pointedness Index: 0.4968
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0946
+# Max Thickness Position: 0.3202
+# Max Camber/Chord: 0.0514
+# Max Camber Position: 0.3403
+# Leading Edge Radius: 0.0265
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.73e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00794867,0.04769204
+UPPER,2,0.03179470,0.09096734
+UPPER,3,0.06623895,0.11537661
+UPPER,4,0.27860880,0.14029958
+UPPER,5,0.32024000,0.14597596
+UPPER,6,0.36187120,0.13651532
+UPPER,7,0.36330800,0.11002554
+UPPER,8,0.47032000,0.07015394
+UPPER,9,0.88000000,0.02708896
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00794867,-0.03179470
+LOWER,2,0.03179470,-0.01229467
+LOWER,3,0.06623895,-0.03124167
+LOWER,4,0.27860880,-0.02809974
+LOWER,5,0.32024000,-0.04323676
+LOWER,6,0.36187120,-0.02242336
+LOWER,7,0.36330800,0.00974280
+LOWER,8,0.47032000,0.01860426
+LOWER,9,0.88000000,0.00905815
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melaniparus_carpi
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 78.00 mm
+# Secondary1: 64.90 mm
+# Kipps Distance: 13.10 mm
+# Hand-Wing Index: 16.80
+# Tail Length: 68.20 mm
+# Aspect Ratio: 1.202
+# Pointedness Index: 0.1679
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1257
+# Max Thickness Position: 0.3399
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3666
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.21e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01062938,0.06841629
+UPPER,2,0.04251753,0.11720118
+UPPER,3,0.08857818,0.14431796
+UPPER,4,0.29573040,0.17665929
+UPPER,5,0.33992000,0.18420428
+UPPER,6,0.38410960,0.17162929
+UPPER,7,0.38856400,0.13641932
+UPPER,8,0.49656000,0.08489621
+UPPER,9,0.88000000,0.03227266
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01062938,-0.04112553
+LOWER,2,0.04251753,-0.01978092
+LOWER,3,0.08857818,-0.04604591
+LOWER,4,0.29573040,-0.04717550
+LOWER,5,0.33992000,-0.06729548
+LOWER,6,0.38410960,-0.03963051
+LOWER,7,0.38856400,0.00312445
+LOWER,8,0.49656000,0.01863675
+LOWER,9,0.88000000,0.00958360
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Campethera_caroli
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 101.40 mm
+# Secondary1: 84.00 mm
+# Kipps Distance: 17.80 mm
+# Hand-Wing Index: 17.50
+# Tail Length: 58.60 mm
+# Aspect Ratio: 1.207
+# Pointedness Index: 0.1755
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1237
+# Max Thickness Position: 0.3395
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3660
+# Leading Edge Radius: 0.0352
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.69e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01056923,0.06791540
+UPPER,2,0.04227693,0.11597159
+UPPER,3,0.08807695,0.14277784
+UPPER,4,0.29536500,0.17466769
+UPPER,5,0.33950000,0.18209162
+UPPER,6,0.38363500,0.16971840
+UPPER,7,0.38802500,0.13507337
+UPPER,8,0.49600000,0.08425050
+UPPER,9,0.88000000,0.03207514
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01056923,-0.04092693
+LOWER,2,0.04227693,-0.01916854
+LOWER,3,0.08807695,-0.04491939
+LOWER,4,0.29536500,-0.04557571
+LOWER,5,0.33950000,-0.06537287
+LOWER,6,0.38363500,-0.03815178
+LOWER,7,0.38802500,0.00391719
+LOWER,8,0.49600000,0.01886030
+LOWER,9,0.88000000,0.00964055
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

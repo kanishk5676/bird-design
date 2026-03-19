@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Spheniscus_humboldti
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 105.20 mm
+# Secondary1: 100.70 mm
+# Kipps Distance: 4.60 mm
+# Hand-Wing Index: 4.40
+# Tail Length: 28.10 mm
+# Aspect Ratio: 1.045
+# Pointedness Index: 0.0437
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1331
+# Max Thickness Position: 0.3474
+# Max Camber/Chord: 0.0597
+# Max Camber Position: 0.3765
+# Leading Edge Radius: 0.0388
+# LE Droop: 0.0071
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.16e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01164236,0.07697414
+UPPER,2,0.04656942,0.12446420
+UPPER,3,0.09701963,0.15081724
+UPPER,4,0.30220320,0.18488760
+UPPER,5,0.34736000,0.19287628
+UPPER,6,0.39251680,0.17956181
+UPPER,7,0.39811200,0.14228130
+UPPER,8,0.50648000,0.08805237
+UPPER,9,0.88000000,0.03334958
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01164236,-0.04443342
+LOWER,2,0.04656942,-0.02170024
+LOWER,3,0.09701963,-0.04974738
+LOWER,4,0.30220320,-0.05210993
+LOWER,5,0.34736000,-0.07341308
+LOWER,6,0.39251680,-0.04412125
+LOWER,7,0.39811200,0.00114794
+LOWER,8,0.50648000,0.01839334
+LOWER,9,0.88000000,0.00960711
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Morus_capensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 449.80 mm
+# Secondary1: 180.80 mm
+# Kipps Distance: 269.00 mm
+# Hand-Wing Index: 59.80
+# Tail Length: 173.00 mm
+# Aspect Ratio: 2.488
+# Pointedness Index: 0.5980
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0813
+# Max Thickness Position: 0.3141
+# Max Camber/Chord: 0.0481
+# Max Camber Position: 0.3322
+# Leading Edge Radius: 0.0237
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.22e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00712010,0.04272059
+UPPER,2,0.02848039,0.08150218
+UPPER,3,0.05933415,0.10274988
+UPPER,4,0.27328440,0.12447829
+UPPER,5,0.31412000,0.12935542
+UPPER,6,0.35495560,0.12122687
+UPPER,7,0.35545400,0.09846692
+UPPER,8,0.46216000,0.06361936
+UPPER,9,0.88000000,0.02476940
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00712010,-0.02848039
+LOWER,2,0.02848039,-0.00918690
+LOWER,3,0.05933415,-0.02503345
+LOWER,4,0.27328440,-0.02020994
+LOWER,5,0.31412000,-0.03321562
+LOWER,6,0.35495560,-0.01533281
+LOWER,7,0.35545400,0.01230427
+LOWER,8,0.46216000,0.01842337
+LOWER,9,0.88000000,0.00876605
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

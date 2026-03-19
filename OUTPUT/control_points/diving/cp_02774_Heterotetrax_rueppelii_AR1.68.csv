@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Heterotetrax_rueppelii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 315.60 mm
+# Secondary1: 187.50 mm
+# Kipps Distance: 125.50 mm
+# Hand-Wing Index: 40.10
+# Tail Length: 136.00 mm
+# Aspect Ratio: 1.683
+# Pointedness Index: 0.3977
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0991
+# Max Thickness Position: 0.3259
+# Max Camber/Chord: 0.0540
+# Max Camber Position: 0.3479
+# Leading Edge Radius: 0.0291
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.55e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00874490,0.05246939
+UPPER,2,0.03497959,0.09544882
+UPPER,3,0.07287415,0.12103791
+UPPER,4,0.28356780,0.14716676
+UPPER,5,0.32594000,0.15311517
+UPPER,6,0.36831220,0.14320115
+UPPER,7,0.37062300,0.11544189
+UPPER,8,0.47792000,0.07363798
+UPPER,9,0.88000000,0.02844171
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00874490,-0.03497959
+LOWER,2,0.03497959,-0.01283362
+LOWER,3,0.07287415,-0.03267282
+LOWER,4,0.28356780,-0.02930279
+LOWER,5,0.32594000,-0.04516522
+LOWER,6,0.36831220,-0.02335437
+LOWER,7,0.37062300,0.01035329
+LOWER,8,0.47792000,0.01958486
+LOWER,9,0.88000000,0.00952814
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Margarobyas_lawrencii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 143.80 mm
+# Secondary1: 107.50 mm
+# Kipps Distance: 36.30 mm
+# Hand-Wing Index: 25.20
+# Tail Length: 76.80 mm
+# Aspect Ratio: 1.338
+# Pointedness Index: 0.2524
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1156
+# Max Thickness Position: 0.3349
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3598
+# Leading Edge Radius: 0.0331
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.65e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00994147,0.06260880
+UPPER,2,0.03976587,0.10934107
+UPPER,3,0.08284556,0.13581442
+UPPER,4,0.29134560,0.16581929
+UPPER,5,0.33488000,0.17275547
+UPPER,6,0.37841440,0.16119516
+UPPER,7,0.38209600,0.12882630
+UPPER,8,0.48984000,0.08094840
+UPPER,9,0.88000000,0.03096616
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00994147,-0.03887787
+LOWER,2,0.03976587,-0.01698964
+LOWER,3,0.08284556,-0.04075968
+LOWER,4,0.29134560,-0.03995418
+LOWER,5,0.33488000,-0.05845067
+LOWER,6,0.37841440,-0.03301799
+LOWER,7,0.38209600,0.00628705
+LOWER,8,0.48984000,0.01925006
+LOWER,9,0.88000000,0.00966398
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

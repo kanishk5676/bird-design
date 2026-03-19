@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Setophaga_pitiayumi
+# Flight Category: hovering
+#
+# === Morphological Parameters ===
+# Wing Length: 52.70 mm
+# Secondary1: 42.70 mm
+# Kipps Distance: 10.80 mm
+# Hand-Wing Index: 20.10
+# Tail Length: 41.10 mm
+# Aspect Ratio: 1.234
+# Pointedness Index: 0.2049
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1239
+# Max Thickness Position: 0.3379
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3639
+# Leading Edge Radius: 0.0345
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01033978,0.06601867
+UPPER,2,0.04135911,0.11522723
+UPPER,3,0.08616482,0.14256858
+UPPER,4,0.29400780,0.17446977
+UPPER,5,0.33794000,0.18190498
+UPPER,6,0.38187220,0.16951298
+UPPER,7,0.38602300,0.13481538
+UPPER,8,0.49392000,0.08398483
+UPPER,9,0.88000000,0.03194789
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01033978,-0.04016511
+LOWER,2,0.04135911,-0.01935966
+LOWER,3,0.08616482,-0.04520051
+LOWER,4,0.29400780,-0.04610783
+LOWER,5,0.33794000,-0.06593503
+LOWER,6,0.38187220,-0.03867263
+LOWER,7,0.38602300,0.00346017
+LOWER,8,0.49392000,0.01860188
+LOWER,9,0.88000000,0.00953944
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

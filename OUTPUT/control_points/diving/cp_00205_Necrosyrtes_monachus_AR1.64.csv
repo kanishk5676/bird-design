@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Necrosyrtes_monachus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 471.40 mm
+# Secondary1: 288.00 mm
+# Kipps Distance: 181.50 mm
+# Hand-Wing Index: 38.70
+# Tail Length: 223.00 mm
+# Aspect Ratio: 1.637
+# Pointedness Index: 0.3850
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0979
+# Max Thickness Position: 0.3268
+# Max Camber/Chord: 0.0543
+# Max Camber Position: 0.3490
+# Leading Edge Radius: 0.0295
+# LE Droop: 0.0003
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.30e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00885216,0.05337297
+UPPER,2,0.03540864,0.09537577
+UPPER,3,0.07376801,0.12045320
+UPPER,4,0.28429860,0.14633383
+UPPER,5,0.32678000,0.15220700
+UPPER,6,0.36926140,0.14241838
+UPPER,7,0.37170100,0.11501024
+UPPER,8,0.47904000,0.07358080
+UPPER,9,0.88000000,0.02847279
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00885216,-0.03533064
+LOWER,2,0.03540864,-0.01231132
+LOWER,3,0.07376801,-0.03178645
+LOWER,4,0.28429860,-0.02790365
+LOWER,5,0.32678000,-0.04356545
+LOWER,6,0.36926140,-0.02203048
+LOWER,7,0.37170100,0.01125084
+LOWER,8,0.47904000,0.01997481
+LOWER,9,0.88000000,0.00966474
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

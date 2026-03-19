@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gallinago_jamesoni
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 148.00 mm
+# Secondary1: 98.00 mm
+# Kipps Distance: 49.50 mm
+# Hand-Wing Index: 33.50
+# Tail Length: 52.40 mm
+# Aspect Ratio: 1.510
+# Pointedness Index: 0.3345
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1085
+# Max Thickness Position: 0.3299
+# Max Camber/Chord: 0.0555
+# Max Camber Position: 0.3532
+# Leading Edge Radius: 0.0309
+# LE Droop: 0.0013
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.96e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00926916,0.05691494
+UPPER,2,0.03707663,0.10273675
+UPPER,3,0.07724297,0.12919103
+UPPER,4,0.28701300,0.15750050
+UPPER,5,0.32990000,0.16400994
+UPPER,6,0.37278700,0.15316088
+UPPER,7,0.37570500,0.12278352
+UPPER,8,0.48320000,0.07756883
+UPPER,9,0.88000000,0.02977661
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00926916,-0.03668663
+LOWER,2,0.03707663,-0.01528520
+LOWER,3,0.07724297,-0.03738561
+LOWER,4,0.28701300,-0.03561270
+LOWER,5,0.32990000,-0.05297119
+LOWER,6,0.37278700,-0.02910326
+LOWER,7,0.37570500,0.00778353
+LOWER,8,0.48320000,0.01923333
+LOWER,9,0.88000000,0.00954022
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

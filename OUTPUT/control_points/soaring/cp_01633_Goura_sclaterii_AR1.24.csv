@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Goura_sclaterii
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 359.00 mm
+# Secondary1: 290.20 mm
+# Kipps Distance: 68.80 mm
+# Hand-Wing Index: 19.10
+# Tail Length: 263.90 mm
+# Aspect Ratio: 1.237
+# Pointedness Index: 0.1916
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1152
+# Max Thickness Position: 0.3385
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3647
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.99e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01043816,0.06680895
+UPPER,2,0.04175263,0.11118386
+UPPER,3,0.08698465,0.13641313
+UPPER,4,0.29452980,0.16640374
+UPPER,5,0.33854000,0.17331464
+UPPER,6,0.38255020,0.16179647
+UPPER,7,0.38679300,0.12954561
+UPPER,8,0.49472000,0.08166389
+UPPER,9,0.88000000,0.03130506
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01043816,-0.04049863
+LOWER,2,0.04175263,-0.01651159
+LOWER,3,0.08698465,-0.04006420
+LOWER,4,0.29452980,-0.03861962
+LOWER,5,0.33854000,-0.05704869
+LOWER,6,0.38255020,-0.03170872
+LOWER,7,0.38679300,0.00745304
+LOWER,8,0.49472000,0.01991701
+LOWER,9,0.88000000,0.00992598
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

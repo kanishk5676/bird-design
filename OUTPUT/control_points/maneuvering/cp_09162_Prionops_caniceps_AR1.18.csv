@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Prionops_caniceps
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 116.00 mm
+# Secondary1: 98.30 mm
+# Kipps Distance: 18.10 mm
+# Hand-Wing Index: 15.60
+# Tail Length: 78.60 mm
+# Aspect Ratio: 1.180
+# Pointedness Index: 0.1560
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1245
+# Max Thickness Position: 0.3406
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3675
+# Leading Edge Radius: 0.0358
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01072686,0.06924118
+UPPER,2,0.04290746,0.11694876
+UPPER,3,0.08939053,0.14356109
+UPPER,4,0.29635680,0.17563953
+UPPER,5,0.34064000,0.18310940
+UPPER,6,0.38492320,0.17065962
+UPPER,7,0.38948800,0.13580023
+UPPER,8,0.49752000,0.08467924
+UPPER,9,0.88000000,0.03223223
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01072686,-0.04144346
+LOWER,2,0.04290746,-0.01932523
+LOWER,3,0.08939053,-0.04524739
+LOWER,4,0.29635680,-0.04596655
+LOWER,5,0.34064000,-0.06588620
+LOWER,6,0.38492320,-0.03849668
+LOWER,7,0.38948800,0.00383257
+LOWER,8,0.49752000,0.01890950
+LOWER,9,0.88000000,0.00967299
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

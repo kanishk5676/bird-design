@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chloropsis_venusta
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 70.20 mm
+# Secondary1: 60.00 mm
+# Kipps Distance: 10.30 mm
+# Hand-Wing Index: 14.70
+# Tail Length: 52.20 mm
+# Aspect Ratio: 1.170
+# Pointedness Index: 0.1467
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1280
+# Max Thickness Position: 0.3412
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3682
+# Leading Edge Radius: 0.0360
+# LE Droop: 0.0051
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01080189,0.06987134
+UPPER,2,0.04320756,0.11898107
+UPPER,3,0.09001575,0.14619401
+UPPER,4,0.29682660,0.17905420
+UPPER,5,0.34118000,0.18673481
+UPPER,6,0.38553340,0.17393380
+UPPER,7,0.39018100,0.13809099
+UPPER,8,0.49824000,0.08575887
+UPPER,9,0.88000000,0.03255622
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01080189,-0.04168956
+LOWER,2,0.04320756,-0.02040954
+LOWER,3,0.09001575,-0.04723242
+LOWER,4,0.29682660,-0.04880365
+LOWER,5,0.34118000,-0.06928526
+LOWER,6,0.38553340,-0.04112305
+LOWER,7,0.39018100,0.00240036
+LOWER,8,0.49824000,0.01848796
+LOWER,9,0.88000000,0.00956079
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Charmosyna_diadema
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 93.00 mm
+# Secondary1: 55.00 mm
+# Kipps Distance: 38.00 mm
+# Hand-Wing Index: 40.90
+# Tail Length: 84.50 mm
+# Aspect Ratio: 1.691
+# Pointedness Index: 0.4086
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1055
+# Max Thickness Position: 0.3255
+# Max Camber/Chord: 0.0538
+# Max Camber Position: 0.3473
+# Leading Edge Radius: 0.0289
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.51e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00866459,0.05198753
+UPPER,2,0.03465836,0.09845438
+UPPER,3,0.07220491,0.12542732
+UPPER,4,0.28315020,0.15293800
+UPPER,5,0.32546000,0.15926768
+UPPER,6,0.36776980,0.14871821
+UPPER,7,0.37000700,0.11917969
+UPPER,8,0.47728000,0.07524555
+UPPER,9,0.88000000,0.02887331
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00866459,-0.03465836
+LOWER,2,0.03465836,-0.01493776
+LOWER,3,0.07220491,-0.03645136
+LOWER,4,0.28315020,-0.03484258
+LOWER,5,0.32546000,-0.05172173
+LOWER,6,0.36776980,-0.02851290
+LOWER,7,0.37000700,0.00735530
+LOWER,8,0.47728000,0.01856999
+LOWER,9,0.88000000,0.00922346
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

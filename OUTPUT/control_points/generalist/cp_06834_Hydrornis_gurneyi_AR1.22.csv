@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hydrornis_gurneyi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 99.40 mm
+# Secondary1: 81.50 mm
+# Kipps Distance: 16.80 mm
+# Hand-Wing Index: 17.00
+# Tail Length: 46.60 mm
+# Aspect Ratio: 1.220
+# Pointedness Index: 0.1690
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1241
+# Max Thickness Position: 0.3398
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3664
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.68e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01061783,0.06830697
+UPPER,2,0.04247131,0.11633540
+UPPER,3,0.08848190,0.14313702
+UPPER,4,0.29562600,0.17512291
+UPPER,5,0.33980000,0.18257155
+UPPER,6,0.38397400,0.17015715
+UPPER,7,0.38841000,0.13539681
+UPPER,8,0.49640000,0.08442371
+UPPER,9,0.88000000,0.03213397
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01061783,-0.04109131
+LOWER,2,0.04247131,-0.01927647
+LOWER,3,0.08848190,-0.04512690
+LOWER,4,0.29562600,-0.04585350
+LOWER,5,0.33980000,-0.06571655
+LOWER,6,0.38397400,-0.03840486
+LOWER,7,0.38841000,0.00380412
+LOWER,8,0.49640000,0.01884488
+LOWER,9,0.88000000,0.00964111
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

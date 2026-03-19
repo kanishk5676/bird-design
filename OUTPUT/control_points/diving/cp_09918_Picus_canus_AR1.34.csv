@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Picus_canus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 146.60 mm
+# Secondary1: 109.10 mm
+# Kipps Distance: 37.90 mm
+# Hand-Wing Index: 25.80
+# Tail Length: 106.70 mm
+# Aspect Ratio: 1.344
+# Pointedness Index: 0.2585
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1150
+# Max Thickness Position: 0.3345
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3594
+# Leading Edge Radius: 0.0330
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.72e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00989203,0.06219221
+UPPER,2,0.03956814,0.10883574
+UPPER,3,0.08243362,0.13529191
+UPPER,4,0.29103240,0.16515854
+UPPER,5,0.33452000,0.17205935
+UPPER,6,0.37800760,0.16055800
+UPPER,7,0.38163400,0.12835424
+UPPER,8,0.48936000,0.08069278
+UPPER,9,0.88000000,0.03087852
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00989203,-0.03871614
+LOWER,2,0.03956814,-0.01683824
+LOWER,3,0.08243362,-0.04046668
+LOWER,4,0.29103240,-0.03956540
+LOWER,5,0.33452000,-0.05796755
+LOWER,6,0.37800760,-0.03266459
+LOWER,7,0.38163400,0.00643998
+LOWER,8,0.48936000,0.01926658
+LOWER,9,0.88000000,0.00966094
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

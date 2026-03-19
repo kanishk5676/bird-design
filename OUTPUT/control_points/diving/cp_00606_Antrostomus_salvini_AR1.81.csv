@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Antrostomus_salvini
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 169.00 mm
+# Secondary1: 93.60 mm
+# Kipps Distance: 75.40 mm
+# Hand-Wing Index: 44.60
+# Tail Length: 120.80 mm
+# Aspect Ratio: 1.806
+# Pointedness Index: 0.4462
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0992
+# Max Thickness Position: 0.3232
+# Max Camber/Chord: 0.0528
+# Max Camber Position: 0.3443
+# Leading Edge Radius: 0.0279
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00835986,0.05015913
+UPPER,2,0.03343942,0.09445865
+UPPER,3,0.06966546,0.11997014
+UPPER,4,0.28121880,0.14600960
+UPPER,5,0.32324000,0.15195933
+UPPER,6,0.36526120,0.14204311
+UPPER,7,0.36715800,0.11427768
+UPPER,8,0.47432000,0.07264296
+UPPER,9,0.88000000,0.02799588
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00835986,-0.03343942
+LOWER,2,0.03343942,-0.01325293
+LOWER,3,0.06966546,-0.03322743
+LOWER,4,0.28121880,-0.03049917
+LOWER,5,0.32324000,-0.04636513
+LOWER,6,0.36526120,-0.02454944
+LOWER,7,0.36715800,0.00916572
+LOWER,8,0.47432000,0.01885149
+LOWER,9,0.88000000,0.00923279
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

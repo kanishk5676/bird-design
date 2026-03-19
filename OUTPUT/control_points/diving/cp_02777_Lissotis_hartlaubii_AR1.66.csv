@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lissotis_hartlaubii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 328.40 mm
+# Secondary1: 198.10 mm
+# Kipps Distance: 126.20 mm
+# Hand-Wing Index: 38.90
+# Tail Length: 150.40 mm
+# Aspect Ratio: 1.658
+# Pointedness Index: 0.3843
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0999
+# Max Thickness Position: 0.3267
+# Max Camber/Chord: 0.0543
+# Max Camber Position: 0.3489
+# Leading Edge Radius: 0.0295
+# LE Droop: 0.0002
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.97e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00884979,0.05331876
+UPPER,2,0.03539918,0.09628445
+UPPER,3,0.07374828,0.12183412
+UPPER,4,0.28419420,0.14814652
+UPPER,5,0.32666000,0.15413851
+UPPER,6,0.36912580,0.14415186
+UPPER,7,0.37154700,0.11618923
+UPPER,8,0.47888000,0.07409381
+UPPER,9,0.88000000,0.02861267
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00884979,-0.03533318
+LOWER,2,0.03539918,-0.01296210
+LOWER,3,0.07374828,-0.03295748
+LOWER,4,0.28419420,-0.02961592
+LOWER,5,0.32666000,-0.04559456
+LOWER,6,0.36912580,-0.02362392
+LOWER,7,0.37154700,0.01033070
+LOWER,8,0.47888000,0.01966731
+LOWER,9,0.88000000,0.00957333
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

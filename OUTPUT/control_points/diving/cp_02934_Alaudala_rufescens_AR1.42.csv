@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Alaudala_rufescens
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 86.30 mm
+# Secondary1: 60.70 mm
+# Kipps Distance: 25.50 mm
+# Hand-Wing Index: 29.60
+# Tail Length: 59.20 mm
+# Aspect Ratio: 1.422
+# Pointedness Index: 0.2955
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1150
+# Max Thickness Position: 0.3322
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3563
+# Leading Edge Radius: 0.0320
+# LE Droop: 0.0021
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.37e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00958729,0.05960373
+UPPER,2,0.03834915,0.10743529
+UPPER,3,0.07989406,0.13458742
+UPPER,4,0.28904880,0.16438284
+UPPER,5,0.33224000,0.17127986
+UPPER,6,0.37543120,0.15978483
+UPPER,7,0.37870800,0.12759876
+UPPER,8,0.48632000,0.08006623
+UPPER,9,0.88000000,0.03060127
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00958729,-0.03772515
+LOWER,2,0.03834915,-0.01706872
+LOWER,3,0.07989406,-0.04075953
+LOWER,4,0.28904880,-0.04022862
+LOWER,5,0.33224000,-0.05862066
+LOWER,6,0.37543120,-0.03333160
+LOWER,7,0.37870800,0.00575149
+LOWER,8,0.48632000,0.01883132
+LOWER,9,0.88000000,0.00948439
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

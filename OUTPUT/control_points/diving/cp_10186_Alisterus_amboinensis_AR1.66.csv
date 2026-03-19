@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Alisterus_amboinensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 204.80 mm
+# Secondary1: 123.50 mm
+# Kipps Distance: 81.20 mm
+# Hand-Wing Index: 39.70
+# Tail Length: 227.50 mm
+# Aspect Ratio: 1.658
+# Pointedness Index: 0.3965
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1020
+# Max Thickness Position: 0.3262
+# Max Camber/Chord: 0.0541
+# Max Camber Position: 0.3482
+# Leading Edge Radius: 0.0292
+# LE Droop: 0.0001
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.23e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00876311,0.05263866
+UPPER,2,0.03505244,0.09701257
+UPPER,3,0.07302591,0.12317297
+UPPER,4,0.28377660,0.14993412
+UPPER,5,0.32618000,0.15605280
+UPPER,6,0.36858340,0.14585499
+UPPER,7,0.37093100,0.11730115
+UPPER,8,0.47824000,0.07451740
+UPPER,9,0.88000000,0.02870666
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00876311,-0.03503444
+LOWER,2,0.03505244,-0.01370680
+LOWER,3,0.07302591,-0.03427286
+LOWER,4,0.28377660,-0.03158676
+LOWER,5,0.32618000,-0.04790325
+LOWER,6,0.36858340,-0.02546808
+LOWER,7,0.37093100,0.00920445
+LOWER,8,0.47824000,0.01924944
+LOWER,9,0.88000000,0.00943957
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

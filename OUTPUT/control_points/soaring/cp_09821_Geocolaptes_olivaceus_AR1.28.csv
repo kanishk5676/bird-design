@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geocolaptes_olivaceus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 128.20 mm
+# Secondary1: 99.80 mm
+# Kipps Distance: 27.50 mm
+# Hand-Wing Index: 21.60
+# Tail Length: 91.80 mm
+# Aspect Ratio: 1.285
+# Pointedness Index: 0.2145
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1191
+# Max Thickness Position: 0.3370
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3627
+# Leading Edge Radius: 0.0342
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01024505,0.06515028
+UPPER,2,0.04098018,0.11233749
+UPPER,3,0.08537539,0.13890969
+UPPER,4,0.29322480,0.16973942
+UPPER,5,0.33704000,0.17688745
+UPPER,6,0.38085520,0.16497407
+UPPER,7,0.38486800,0.13161659
+UPPER,8,0.49272000,0.08244804
+UPPER,9,0.88000000,0.03147708
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01024505,-0.03987618
+LOWER,2,0.04098018,-0.01790907
+LOWER,3,0.08537539,-0.04253098
+LOWER,4,0.29322480,-0.04231884
+LOWER,5,0.33704000,-0.06138025
+LOWER,6,0.38085520,-0.03517080
+LOWER,7,0.38486800,0.00533470
+LOWER,8,0.49272000,0.01912849
+LOWER,9,0.88000000,0.00967305
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

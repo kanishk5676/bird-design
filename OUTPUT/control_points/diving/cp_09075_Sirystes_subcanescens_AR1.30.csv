@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sirystes_subcanescens
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 99.00 mm
+# Secondary1: 76.20 mm
+# Kipps Distance: 22.80 mm
+# Hand-Wing Index: 23.00
+# Tail Length: 84.00 mm
+# Aspect Ratio: 1.299
+# Pointedness Index: 0.2303
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1195
+# Max Thickness Position: 0.3362
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3616
+# Leading Edge Radius: 0.0337
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.63e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01012165,0.06412993
+UPPER,2,0.04048662,0.11203142
+UPPER,3,0.08434712,0.13894088
+UPPER,4,0.29249400,0.16982562
+UPPER,5,0.33620000,0.17699359
+UPPER,6,0.37990600,0.16504698
+UPPER,7,0.38379000,0.13159647
+UPPER,8,0.49160000,0.08234888
+UPPER,9,0.88000000,0.03141774
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01012165,-0.03946662
+LOWER,2,0.04048662,-0.01809452
+LOWER,3,0.08434712,-0.04282768
+LOWER,4,0.29249400,-0.04282401
+LOWER,5,0.33620000,-0.06193859
+LOWER,6,0.37990600,-0.03565605
+LOWER,7,0.38379000,0.00496242
+LOWER,8,0.49160000,0.01894180
+LOWER,9,0.88000000,0.00960323
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

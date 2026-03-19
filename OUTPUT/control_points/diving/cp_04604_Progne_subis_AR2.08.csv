@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Progne_subis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 147.20 mm
+# Secondary1: 70.70 mm
+# Kipps Distance: 76.60 mm
+# Hand-Wing Index: 52.00
+# Tail Length: 72.40 mm
+# Aspect Ratio: 2.082
+# Pointedness Index: 0.5204
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0937
+# Max Thickness Position: 0.3188
+# Max Camber/Chord: 0.0506
+# Max Camber Position: 0.3384
+# Leading Edge Radius: 0.0258
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.93e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00775486,0.04652916
+UPPER,2,0.03101944,0.08990708
+UPPER,3,0.06462383,0.11407164
+UPPER,4,0.27735600,0.13874260
+UPPER,5,0.31880000,0.14436617
+UPPER,6,0.36024400,0.13499355
+UPPER,7,0.36146000,0.10875022
+UPPER,8,0.46840000,0.06928733
+UPPER,9,0.88000000,0.02674129
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00775486,-0.03101944
+LOWER,2,0.03101944,-0.01226837
+LOWER,3,0.06462383,-0.03106678
+LOWER,4,0.27735600,-0.02808998
+LOWER,5,0.31880000,-0.04308617
+LOWER,6,0.36024400,-0.02246641
+LOWER,7,0.36146000,0.00940049
+LOWER,8,0.46840000,0.01827514
+LOWER,9,0.88000000,0.00891095
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

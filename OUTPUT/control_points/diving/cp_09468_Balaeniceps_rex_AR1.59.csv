@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Balaeniceps_rex
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 642.20 mm
+# Secondary1: 404.00 mm
+# Kipps Distance: 233.80 mm
+# Hand-Wing Index: 36.70
+# Tail Length: 282.30 mm
+# Aspect Ratio: 1.590
+# Pointedness Index: 0.3641
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0976
+# Max Thickness Position: 0.3280
+# Max Camber/Chord: 0.0548
+# Max Camber Position: 0.3506
+# Leading Edge Radius: 0.0301
+# LE Droop: 0.0007
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.00e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00902027,0.05478161
+UPPER,2,0.03608107,0.09605510
+UPPER,3,0.07516891,0.12071042
+UPPER,4,0.28534260,0.14657371
+UPPER,5,0.32798000,0.15243175
+UPPER,6,0.37061740,0.14266836
+UPPER,7,0.37324100,0.11533084
+UPPER,8,0.48064000,0.07391562
+UPPER,9,0.88000000,0.02863387
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00902027,-0.03588307
+LOWER,2,0.03608107,-0.01206365
+LOWER,3,0.07516891,-0.03142073
+LOWER,4,0.28534260,-0.02721477
+LOWER,5,0.32798000,-0.04283620
+LOWER,6,0.37061740,-0.02135673
+LOWER,7,0.37324100,0.01183882
+LOWER,8,0.48064000,0.02030586
+LOWER,9,0.88000000,0.00979408
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Antigone_rubicunda
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 572.50 mm
+# Secondary1: 339.50 mm
+# Kipps Distance: 233.00 mm
+# Hand-Wing Index: 40.70
+# Tail Length: 223.80 mm
+# Aspect Ratio: 1.686
+# Pointedness Index: 0.4070
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0951
+# Max Thickness Position: 0.3256
+# Max Camber/Chord: 0.0538
+# Max Camber Position: 0.3474
+# Leading Edge Radius: 0.0289
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.70e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00867895,0.05207368
+UPPER,2,0.03471579,0.09331242
+UPPER,3,0.07232456,0.11800746
+UPPER,4,0.28325460,0.14324074
+UPPER,5,0.32558000,0.14894820
+UPPER,6,0.36790540,0.13943576
+UPPER,7,0.37016100,0.11280092
+UPPER,8,0.47744000,0.07238505
+UPPER,9,0.88000000,0.02806299
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00867895,-0.03471579
+LOWER,2,0.03471579,-0.01160150
+LOWER,3,0.07232456,-0.03041323
+LOWER,4,0.28325460,-0.02608075
+LOWER,5,0.32558000,-0.04130065
+LOWER,6,0.36790540,-0.02037328
+LOWER,7,0.37016100,0.01196903
+LOWER,8,0.47744000,0.02005332
+LOWER,9,0.88000000,0.00965097
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

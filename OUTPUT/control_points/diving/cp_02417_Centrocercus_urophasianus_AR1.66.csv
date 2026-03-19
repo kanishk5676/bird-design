@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Centrocercus_urophasianus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 306.00 mm
+# Secondary1: 184.10 mm
+# Kipps Distance: 115.60 mm
+# Hand-Wing Index: 38.70
+# Tail Length: 242.00 mm
+# Aspect Ratio: 1.662
+# Pointedness Index: 0.3778
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1004
+# Max Thickness Position: 0.3268
+# Max Camber/Chord: 0.0543
+# Max Camber Position: 0.3490
+# Leading Edge Radius: 0.0296
+# LE Droop: 0.0003
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.24e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00888911,0.05359468
+UPPER,2,0.03555645,0.09665340
+UPPER,3,0.07407594,0.12229299
+UPPER,4,0.28429860,0.14873578
+UPPER,5,0.32678000,0.15476227
+UPPER,6,0.36926140,0.14471812
+UPPER,7,0.37170100,0.11659450
+UPPER,8,0.47904000,0.07429628
+UPPER,9,0.88000000,0.02867721
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00888911,-0.03547845
+LOWER,2,0.03555645,-0.01312901
+LOWER,3,0.07407594,-0.03326851
+LOWER,4,0.28429860,-0.03005008
+LOWER,5,0.32678000,-0.04612072
+LOWER,6,0.36926140,-0.02402359
+LOWER,7,0.37170100,0.01012652
+LOWER,8,0.47904000,0.01961707
+LOWER,9,0.88000000,0.00956253
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Psilopogon_rafflesii
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 116.60 mm
+# Secondary1: 95.40 mm
+# Kipps Distance: 20.90 mm
+# Hand-Wing Index: 18.00
+# Tail Length: 62.00 mm
+# Aspect Ratio: 1.222
+# Pointedness Index: 0.1792
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1225
+# Max Thickness Position: 0.3392
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3656
+# Leading Edge Radius: 0.0351
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01053505,0.06761029
+UPPER,2,0.04214020,0.11522088
+UPPER,3,0.08779208,0.14186191
+UPPER,4,0.29510400,0.17348584
+UPPER,5,0.33920000,0.18083877
+UPPER,6,0.38329600,0.16858389
+UPPER,7,0.38764000,0.13427024
+UPPER,8,0.49560000,0.08386015
+UPPER,9,0.88000000,0.03195410
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01053505,-0.04082020
+LOWER,2,0.04214020,-0.01881411
+LOWER,3,0.08779208,-0.04426488
+LOWER,4,0.29510400,-0.04465096
+LOWER,5,0.33920000,-0.06425877
+LOWER,6,0.38329600,-0.03729804
+LOWER,7,0.38764000,0.00436854
+LOWER,8,0.49560000,0.01898297
+LOWER,9,0.88000000,0.00967055
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

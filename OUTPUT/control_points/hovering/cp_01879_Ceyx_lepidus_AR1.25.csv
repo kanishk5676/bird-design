@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ceyx_lepidus
+# Flight Category: hovering
+#
+# === Morphological Parameters ===
+# Wing Length: 59.60 mm
+# Secondary1: 47.50 mm
+# Kipps Distance: 13.00 mm
+# Hand-Wing Index: 21.50
+# Tail Length: 24.00 mm
+# Aspect Ratio: 1.255
+# Pointedness Index: 0.2181
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1219
+# Max Thickness Position: 0.3371
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3628
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.24e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01022968,0.06507810
+UPPER,2,0.04091874,0.11373568
+UPPER,3,0.08524737,0.14088948
+UPPER,4,0.29327700,0.17232098
+UPPER,5,0.33710000,0.17963279
+UPPER,6,0.38092300,0.16744645
+UPPER,7,0.38494500,0.13332469
+UPPER,8,0.49280000,0.08322572
+UPPER,9,0.88000000,0.03170144
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01022968,-0.03980874
+LOWER,2,0.04091874,-0.01877701
+LOWER,3,0.08524737,-0.04410687
+LOWER,4,0.29327700,-0.04459589
+LOWER,5,0.33710000,-0.06409404
+LOWER,6,0.38092300,-0.03728409
+LOWER,7,0.38494500,0.00414947
+LOWER,8,0.49280000,0.01875613
+LOWER,9,0.88000000,0.00956781
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

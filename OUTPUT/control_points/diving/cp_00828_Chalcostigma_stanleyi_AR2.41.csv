@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chalcostigma_stanleyi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 66.10 mm
+# Secondary1: 27.40 mm
+# Kipps Distance: 38.20 mm
+# Hand-Wing Index: 58.30
+# Tail Length: 56.60 mm
+# Aspect Ratio: 2.412
+# Pointedness Index: 0.5779
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0923
+# Max Thickness Position: 0.3150
+# Max Camber/Chord: 0.0486
+# Max Camber Position: 0.3334
+# Leading Edge Radius: 0.0242
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00726867,0.04361201
+UPPER,2,0.02907467,0.08745040
+UPPER,3,0.06057223,0.11115789
+UPPER,4,0.27406740,0.13535126
+UPPER,5,0.31502000,0.14088936
+UPPER,6,0.35597260,0.13165920
+UPPER,7,0.35660900,0.10581476
+UPPER,8,0.46336000,0.06714405
+UPPER,9,0.88000000,0.02584748
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00726867,-0.02907467
+LOWER,2,0.02907467,-0.01253078
+LOWER,3,0.06057223,-0.03118454
+LOWER,4,0.27406740,-0.02894555
+LOWER,5,0.31502000,-0.04371381
+LOWER,6,0.35597260,-0.02340746
+LOWER,7,0.35660900,0.00797508
+LOWER,8,0.46336000,0.01720220
+LOWER,9,0.88000000,0.00845488
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

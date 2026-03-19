@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Megascops_clarkii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 180.80 mm
+# Secondary1: 130.50 mm
+# Kipps Distance: 48.80 mm
+# Hand-Wing Index: 27.20
+# Tail Length: 90.00 mm
+# Aspect Ratio: 1.385
+# Pointedness Index: 0.2699
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1127
+# Max Thickness Position: 0.3337
+# Max Camber/Chord: 0.0568
+# Max Camber Position: 0.3582
+# Leading Edge Radius: 0.0326
+# LE Droop: 0.0026
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.58e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00979113,0.06130679
+UPPER,2,0.03916453,0.10717954
+UPPER,3,0.08159276,0.13338785
+UPPER,4,0.29030160,0.16272407
+UPPER,5,0.33368000,0.16948579
+UPPER,6,0.37705840,0.15821625
+UPPER,7,0.38055600,0.12666154
+UPPER,8,0.48824000,0.07982655
+UPPER,9,0.88000000,0.03059598
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00979113,-0.03839653
+LOWER,2,0.03916453,-0.01618589
+LOWER,3,0.08159276,-0.03923974
+LOWER,4,0.29030160,-0.03787373
+LOWER,5,0.33368000,-0.05590499
+LOWER,6,0.37705840,-0.03111201
+LOWER,7,0.38055600,0.00720443
+LOWER,8,0.48824000,0.01943269
+LOWER,9,0.88000000,0.00968978
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

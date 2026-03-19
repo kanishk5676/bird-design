@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Thamnistes_aequatorialis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 73.30 mm
+# Secondary1: 62.40 mm
+# Kipps Distance: 11.10 mm
+# Hand-Wing Index: 16.20
+# Tail Length: 69.20 mm
+# Aspect Ratio: 1.175
+# Pointedness Index: 0.1514
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1266
+# Max Thickness Position: 0.3403
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3670
+# Leading Edge Radius: 0.0358
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.11e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01073197,0.06915185
+UPPER,2,0.04292790,0.11780004
+UPPER,3,0.08943312,0.14498335
+UPPER,4,0.29604360,0.17751200
+UPPER,5,0.34028000,0.18510635
+UPPER,6,0.38451640,0.17244911
+UPPER,7,0.38902600,0.13700882
+UPPER,8,0.49704000,0.08519410
+UPPER,9,0.88000000,0.03236868
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01073197,-0.04149990
+LOWER,2,0.04292790,-0.02001632
+LOWER,3,0.08943312,-0.04648643
+LOWER,4,0.29604360,-0.04778696
+LOWER,5,0.34028000,-0.06803855
+LOWER,6,0.38451640,-0.04019261
+LOWER,7,0.38902600,0.00284202
+LOWER,8,0.49704000,0.01857087
+LOWER,9,0.88000000,0.00957058
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

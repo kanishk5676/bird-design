@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pionus_chalcopterus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 189.80 mm
+# Secondary1: 130.60 mm
+# Kipps Distance: 59.20 mm
+# Hand-Wing Index: 31.10
+# Tail Length: 77.50 mm
+# Aspect Ratio: 1.453
+# Pointedness Index: 0.3119
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1093
+# Max Thickness Position: 0.3313
+# Max Camber/Chord: 0.0560
+# Max Camber Position: 0.3551
+# Leading Edge Radius: 0.0315
+# LE Droop: 0.0018
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.82e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00945761,0.05852568
+UPPER,2,0.03783045,0.10405106
+UPPER,3,0.07881344,0.13023812
+UPPER,4,0.28826580,0.15876545
+UPPER,5,0.33134000,0.16532323
+UPPER,6,0.37441420,0.15439360
+UPPER,7,0.37755300,0.12379065
+UPPER,8,0.48512000,0.07822588
+UPPER,9,0.88000000,0.03003395
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00945761,-0.03729645
+LOWER,2,0.03783045,-0.01536536
+LOWER,3,0.07881344,-0.03761942
+LOWER,4,0.28826580,-0.03578188
+LOWER,5,0.33134000,-0.05326928
+LOWER,6,0.37441420,-0.02922410
+LOWER,7,0.37755300,0.00793662
+LOWER,8,0.48512000,0.01943525
+LOWER,9,0.88000000,0.00963489
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

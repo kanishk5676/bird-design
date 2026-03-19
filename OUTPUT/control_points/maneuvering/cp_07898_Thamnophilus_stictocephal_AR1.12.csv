@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Thamnophilus_stictocephalus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 69.50 mm
+# Secondary1: 61.80 mm
+# Kipps Distance: 8.20 mm
+# Hand-Wing Index: 11.80
+# Tail Length: 63.70 mm
+# Aspect Ratio: 1.125
+# Pointedness Index: 0.1180
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1304
+# Max Thickness Position: 0.3429
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3706
+# Leading Edge Radius: 0.0368
+# LE Droop: 0.0056
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.04e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01103719,0.07186316
+UPPER,2,0.04414877,0.12103514
+UPPER,3,0.09197661,0.14821419
+UPPER,4,0.29834040,0.18162385
+UPPER,5,0.34292000,0.18944696
+UPPER,6,0.38749960,0.17640845
+UPPER,7,0.39241400,0.13990063
+UPPER,8,0.50056000,0.08671043
+UPPER,9,0.88000000,0.03287433
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01103719,-0.04245677
+LOWER,2,0.04414877,-0.02105155
+LOWER,3,0.09197661,-0.04845486
+LOWER,4,0.29834040,-0.05046155
+LOWER,5,0.34292000,-0.07132316
+LOWER,6,0.38749960,-0.04263844
+LOWER,7,0.39241400,0.00169248
+LOWER,8,0.50056000,0.01836447
+LOWER,9,0.88000000,0.00955007
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Probosciger_aterrimus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 344.20 mm
+# Secondary1: 241.20 mm
+# Kipps Distance: 103.10 mm
+# Hand-Wing Index: 29.90
+# Tail Length: 229.20 mm
+# Aspect Ratio: 1.427
+# Pointedness Index: 0.2995
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1068
+# Max Thickness Position: 0.3321
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3561
+# Leading Edge Radius: 0.0319
+# LE Droop: 0.0020
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.49e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00955743,0.05936458
+UPPER,2,0.03822972,0.10324443
+UPPER,3,0.07964526,0.12865711
+UPPER,4,0.28889220,0.15665249
+UPPER,5,0.33206000,0.16305989
+UPPER,6,0.37522780,0.15238090
+UPPER,7,0.37847700,0.12247972
+UPPER,8,0.48608000,0.07773065
+UPPER,9,0.88000000,0.02992578
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00955743,-0.03762372
+LOWER,2,0.03822972,-0.01447828
+LOWER,3,0.07964526,-0.03605396
+LOWER,4,0.28889220,-0.03343355
+LOWER,5,0.33206000,-0.05051994
+LOWER,6,0.37522780,-0.02702616
+LOWER,7,0.37847700,0.00928241
+LOWER,8,0.48608000,0.01993680
+LOWER,9,0.88000000,0.00979590
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

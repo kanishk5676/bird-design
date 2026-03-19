@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tangara_heinei
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 74.00 mm
+# Secondary1: 55.50 mm
+# Kipps Distance: 18.60 mm
+# Hand-Wing Index: 25.10
+# Tail Length: 48.30 mm
+# Aspect Ratio: 1.333
+# Pointedness Index: 0.2514
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1192
+# Max Thickness Position: 0.3349
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3599
+# Leading Edge Radius: 0.0332
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.18e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00995005,0.06268029
+UPPER,2,0.03980019,0.11116691
+UPPER,3,0.08291707,0.13840948
+UPPER,4,0.29139780,0.16920375
+UPPER,5,0.33494000,0.17635484
+UPPER,6,0.37848220,0.16443636
+UPPER,7,0.38217300,0.13106459
+UPPER,8,0.48992000,0.08196624
+UPPER,9,0.88000000,0.03125938
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00995005,-0.03890619
+LOWER,2,0.03980019,-0.01812967
+LOWER,3,0.08291707,-0.04282904
+LOWER,4,0.29139780,-0.04294532
+LOWER,5,0.33494000,-0.06201489
+LOWER,6,0.37848220,-0.03579422
+LOWER,7,0.38217300,0.00472863
+LOWER,8,0.48992000,0.01875950
+LOWER,9,0.88000000,0.00952510
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

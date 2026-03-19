@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Corythornis_nais
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 55.40 mm
+# Secondary1: 44.30 mm
+# Kipps Distance: 11.10 mm
+# Hand-Wing Index: 20.00
+# Tail Length: 24.00 mm
+# Aspect Ratio: 1.251
+# Pointedness Index: 0.2004
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1235
+# Max Thickness Position: 0.3380
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3640
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.13e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01036616,0.06619695
+UPPER,2,0.04146464,0.11503401
+UPPER,3,0.08638466,0.14225698
+UPPER,4,0.29406000,0.17405994
+UPPER,5,0.33800000,0.18146802
+UPPER,6,0.38194000,0.16912122
+UPPER,7,0.38610000,0.13455017
+UPPER,8,0.49400000,0.08387105
+UPPER,9,0.88000000,0.03191744
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01036616,-0.04026464
+LOWER,2,0.04146464,-0.01920977
+LOWER,3,0.08638466,-0.04493145
+LOWER,4,0.29406000,-0.04571314
+LOWER,5,0.33800000,-0.06546802
+LOWER,6,0.38194000,-0.03830506
+LOWER,7,0.38610000,0.00367407
+LOWER,8,0.49400000,0.01867448
+LOWER,9,0.88000000,0.00956128
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Passer_montanus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 67.90 mm
+# Secondary1: 51.20 mm
+# Kipps Distance: 16.70 mm
+# Hand-Wing Index: 24.60
+# Tail Length: 51.00 mm
+# Aspect Ratio: 1.326
+# Pointedness Index: 0.2459
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1202
+# Max Thickness Position: 0.3352
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3603
+# Leading Edge Radius: 0.0333
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00999290,0.06303737
+UPPER,2,0.03997158,0.11184223
+UPPER,3,0.08327413,0.13921145
+UPPER,4,0.29165880,0.17023324
+UPPER,5,0.33524000,0.17744449
+UPPER,6,0.37882120,0.16542575
+UPPER,7,0.38255800,0.13177328
+UPPER,8,0.49032000,0.08232100
+UPPER,9,0.88000000,0.03137269
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00999290,-0.03904758
+LOWER,2,0.03997158,-0.01841998
+LOWER,3,0.08327413,-0.04337042
+LOWER,4,0.29165880,-0.04370030
+LOWER,5,0.33524000,-0.06293029
+LOWER,6,0.37882120,-0.03648906
+LOWER,7,0.38255800,0.00437465
+LOWER,8,0.49032000,0.01867317
+LOWER,9,0.88000000,0.00950678
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

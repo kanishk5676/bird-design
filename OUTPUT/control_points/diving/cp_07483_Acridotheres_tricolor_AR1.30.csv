@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Acridotheres_tricolor
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 124.20 mm
+# Secondary1: 95.60 mm
+# Kipps Distance: 28.40 mm
+# Hand-Wing Index: 22.90
+# Tail Length: 72.60 mm
+# Aspect Ratio: 1.299
+# Pointedness Index: 0.2287
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1183
+# Max Thickness Position: 0.3363
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3617
+# Leading Edge Radius: 0.0338
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.19e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01013308,0.06421846
+UPPER,2,0.04053231,0.11146883
+UPPER,3,0.08444230,0.13809694
+UPPER,4,0.29254620,0.16872050
+UPPER,5,0.33626000,0.17581687
+UPPER,6,0.37997380,0.16398958
+UPPER,7,0.38386700,0.13087317
+UPPER,8,0.49168000,0.08202879
+UPPER,9,0.88000000,0.03132854
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01013308,-0.03950631
+LOWER,2,0.04053231,-0.01770693
+LOWER,3,0.08444230,-0.04212805
+LOWER,4,0.29254620,-0.04180526
+LOWER,5,0.33626000,-0.06072892
+LOWER,6,0.37997380,-0.03470888
+LOWER,7,0.38386700,0.00550390
+LOWER,8,0.49168000,0.01911906
+LOWER,9,0.88000000,0.00965508
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

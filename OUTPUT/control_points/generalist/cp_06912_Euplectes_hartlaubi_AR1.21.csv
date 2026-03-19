@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Euplectes_hartlaubi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 101.50 mm
+# Secondary1: 83.70 mm
+# Kipps Distance: 17.90 mm
+# Hand-Wing Index: 17.70
+# Tail Length: 129.50 mm
+# Aspect Ratio: 1.213
+# Pointedness Index: 0.1764
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1236
+# Max Thickness Position: 0.3394
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3658
+# Leading Edge Radius: 0.0352
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.69e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01055897,0.06781383
+UPPER,2,0.04223588,0.11582538
+UPPER,3,0.08799143,0.14263328
+UPPER,4,0.29526060,0.17448450
+UPPER,5,0.33938000,0.18189851
+UPPER,6,0.38349940,0.16954184
+UPPER,7,0.38787100,0.13494315
+UPPER,8,0.49584000,0.08418069
+UPPER,9,0.88000000,0.03205141
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01055897,-0.04089788
+LOWER,2,0.04223588,-0.01912523
+LOWER,3,0.08799143,-0.04483609
+LOWER,4,0.29526060,-0.04546428
+LOWER,5,0.33938000,-0.06523496
+LOWER,6,0.38349940,-0.03805028
+LOWER,7,0.38787100,0.00396241
+LOWER,8,0.49584000,0.01886636
+LOWER,9,0.88000000,0.00964027
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

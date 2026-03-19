@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Oenanthe_lugens
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 85.70 mm
+# Secondary1: 64.70 mm
+# Kipps Distance: 20.70 mm
+# Hand-Wing Index: 23.90
+# Tail Length: 58.60 mm
+# Aspect Ratio: 1.325
+# Pointedness Index: 0.2415
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1195
+# Max Thickness Position: 0.3357
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3609
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.36e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01003680,0.06344083
+UPPER,2,0.04014722,0.11176491
+UPPER,3,0.08364004,0.13886207
+UPPER,4,0.29202420,0.16975300
+UPPER,5,0.33566000,0.17692593
+UPPER,6,0.37929580,0.16497104
+UPPER,7,0.38309700,0.13149733
+UPPER,8,0.49088000,0.08224414
+UPPER,9,0.88000000,0.03136717
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01003680,-0.03918122
+LOWER,2,0.04014722,-0.01817373
+LOWER,3,0.08364004,-0.04294499
+LOWER,4,0.29202420,-0.04304415
+LOWER,5,0.33566000,-0.06217198
+LOWER,6,0.37929580,-0.03587121
+LOWER,7,0.38309700,0.00477543
+LOWER,8,0.49088000,0.01883687
+LOWER,9,0.88000000,0.00956229
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

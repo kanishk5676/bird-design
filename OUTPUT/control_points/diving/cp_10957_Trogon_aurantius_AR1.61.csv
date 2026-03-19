@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Trogon_aurantius
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 128.80 mm
+# Secondary1: 80.20 mm
+# Kipps Distance: 48.60 mm
+# Hand-Wing Index: 37.80
+# Tail Length: 125.80 mm
+# Aspect Ratio: 1.606
+# Pointedness Index: 0.3773
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1061
+# Max Thickness Position: 0.3273
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3498
+# Leading Edge Radius: 0.0297
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.30e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00891894,0.05395365
+UPPER,2,0.03567576,0.09987094
+UPPER,3,0.07432451,0.12660104
+UPPER,4,0.28476840,0.15431651
+UPPER,5,0.32732000,0.16068536
+UPPER,6,0.36987160,0.15007061
+UPPER,7,0.37239400,0.12034932
+UPPER,8,0.47976000,0.07607850
+UPPER,9,0.88000000,0.02921620
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00891894,-0.03554376
+LOWER,2,0.03567576,-0.01487892
+LOWER,3,0.07432451,-0.03647809
+LOWER,4,0.28476840,-0.03462596
+LOWER,5,0.32732000,-0.05160956
+LOWER,6,0.36987160,-0.02825712
+LOWER,7,0.37239400,0.00783302
+LOWER,8,0.47976000,0.01895285
+LOWER,9,0.88000000,0.00938858
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

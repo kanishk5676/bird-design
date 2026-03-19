@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Xiphocolaptes_promeropirhynchus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 135.30 mm
+# Secondary1: 113.80 mm
+# Kipps Distance: 20.80 mm
+# Hand-Wing Index: 15.40
+# Tail Length: 122.60 mm
+# Aspect Ratio: 1.189
+# Pointedness Index: 0.1537
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1238
+# Max Thickness Position: 0.3408
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3677
+# Leading Edge Radius: 0.0358
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.45e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01074472,0.06938835
+UPPER,2,0.04297890,0.11665593
+UPPER,3,0.08953937,0.14307406
+UPPER,4,0.29646120,0.17499857
+UPPER,5,0.34076000,0.18242589
+UPPER,6,0.38505880,0.17004701
+UPPER,7,0.38964200,0.13538615
+UPPER,8,0.49768000,0.08450240
+UPPER,9,0.88000000,0.03218520
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01074472,-0.04150290
+LOWER,2,0.04297890,-0.01908943
+LOWER,3,0.08953937,-0.04482443
+LOWER,4,0.29646120,-0.04534549
+LOWER,5,0.34076000,-0.06515169
+LOWER,6,0.38505880,-0.03791816
+LOWER,7,0.38964200,0.00417003
+LOWER,8,0.49768000,0.01902457
+LOWER,9,0.88000000,0.00970772
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

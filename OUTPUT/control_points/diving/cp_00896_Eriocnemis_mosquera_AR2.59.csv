@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eriocnemis_mosquera
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 73.00 mm
+# Secondary1: 28.20 mm
+# Kipps Distance: 44.80 mm
+# Hand-Wing Index: 61.30
+# Tail Length: 56.80 mm
+# Aspect Ratio: 2.589
+# Pointedness Index: 0.6137
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0892
+# Max Thickness Position: 0.3132
+# Max Camber/Chord: 0.0475
+# Max Camber Position: 0.3310
+# Leading Edge Radius: 0.0233
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.50e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00699436,0.04196614
+UPPER,2,0.02797743,0.08501521
+UPPER,3,0.05828631,0.10796950
+UPPER,4,0.27250140,0.13139920
+UPPER,5,0.31322000,0.13675187
+UPPER,6,0.35393860,0.12783076
+UPPER,7,0.35429900,0.10285165
+UPPER,8,0.46096000,0.06538876
+UPPER,9,0.88000000,0.02520238
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00699436,-0.02797743
+LOWER,2,0.02797743,-0.01190828
+LOWER,3,0.05828631,-0.02987368
+LOWER,4,0.27250140,-0.02739654
+LOWER,5,0.31322000,-0.04167032
+LOWER,6,0.35393860,-0.02204388
+LOWER,7,0.35429900,0.00828789
+LOWER,8,0.46096000,0.01698573
+LOWER,9,0.88000000,0.00831675
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Burhinus_senegalensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 207.20 mm
+# Secondary1: 117.00 mm
+# Kipps Distance: 90.30 mm
+# Hand-Wing Index: 43.50
+# Tail Length: 103.20 mm
+# Aspect Ratio: 1.771
+# Pointedness Index: 0.4358
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0989
+# Max Thickness Position: 0.3239
+# Max Camber/Chord: 0.0531
+# Max Camber Position: 0.3452
+# Leading Edge Radius: 0.0282
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.29e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00844626,0.05067759
+UPPER,2,0.03378506,0.09456560
+UPPER,3,0.07038554,0.12003378
+UPPER,4,0.28179300,0.14603290
+UPPER,5,0.32390000,0.15196515
+UPPER,6,0.36600700,0.14207807
+UPPER,7,0.36800500,0.11439425
+UPPER,8,0.47520000,0.07281404
+UPPER,9,0.88000000,0.02808552
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00844626,-0.03378506
+LOWER,2,0.03378506,-0.01305562
+LOWER,3,0.07038554,-0.03292164
+LOWER,4,0.28179300,-0.02995707
+LOWER,5,0.32390000,-0.04577640
+LOWER,6,0.36600700,-0.02402483
+LOWER,7,0.36800500,0.00959124
+LOWER,8,0.47520000,0.01907660
+LOWER,9,0.88000000,0.00931876
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

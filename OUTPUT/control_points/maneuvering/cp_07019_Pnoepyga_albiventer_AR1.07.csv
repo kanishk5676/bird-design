@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pnoepyga_albiventer
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 61.50 mm
+# Secondary1: 57.50 mm
+# Kipps Distance: 4.00 mm
+# Hand-Wing Index: 6.40
+# Tail Length: 26.20 mm
+# Aspect Ratio: 1.070
+# Pointedness Index: 0.0650
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1343
+# Max Thickness Position: 0.3462
+# Max Camber/Chord: 0.0596
+# Max Camber Position: 0.3749
+# Leading Edge Radius: 0.0382
+# LE Droop: 0.0067
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.14e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01147245,0.07555472
+UPPER,2,0.04588981,0.12451571
+UPPER,3,0.09560377,0.15151423
+UPPER,4,0.30115920,0.18582853
+UPPER,5,0.34616000,0.19388710
+UPPER,6,0.39116080,0.18045615
+UPPER,7,0.39657200,0.14284949
+UPPER,8,0.50488000,0.08824762
+UPPER,9,0.88000000,0.03338425
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01147245,-0.04387381
+LOWER,2,0.04588981,-0.02212688
+LOWER,3,0.09560377,-0.05049381
+LOWER,4,0.30115920,-0.05324238
+LOWER,5,0.34616000,-0.07473190
+LOWER,6,0.39116080,-0.04518381
+LOWER,7,0.39657200,0.00048142
+LOWER,8,0.50488000,0.01813478
+LOWER,9,0.88000000,0.00952202
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

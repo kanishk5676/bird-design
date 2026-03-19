@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Calidris_tenuirostris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 175.60 mm
+# Secondary1: 75.50 mm
+# Kipps Distance: 101.20 mm
+# Hand-Wing Index: 57.30
+# Tail Length: 63.80 mm
+# Aspect Ratio: 2.326
+# Pointedness Index: 0.5763
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0880
+# Max Thickness Position: 0.3156
+# Max Camber/Chord: 0.0489
+# Max Camber Position: 0.3342
+# Leading Edge Radius: 0.0244
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00730744,0.04384464
+UPPER,2,0.02922976,0.08556961
+UPPER,3,0.06089533,0.10834650
+UPPER,4,0.27458940,0.13161266
+UPPER,5,0.31562000,0.13689049
+UPPER,6,0.35665060,0.12809411
+UPPER,7,0.35737900,0.10346428
+UPPER,8,0.46416000,0.06621760
+UPPER,9,0.88000000,0.02562927
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00730744,-0.02922976
+LOWER,2,0.02922976,-0.01102402
+LOWER,3,0.06089533,-0.02851264
+LOWER,4,0.27458940,-0.02496274
+LOWER,5,0.31562000,-0.03903694
+LOWER,6,0.35665060,-0.01968492
+LOWER,7,0.35737900,0.01022274
+LOWER,8,0.46416000,0.01801968
+LOWER,9,0.88000000,0.00871315
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

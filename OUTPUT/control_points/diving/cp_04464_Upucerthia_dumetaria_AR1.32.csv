@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Upucerthia_dumetaria
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 100.10 mm
+# Secondary1: 75.90 mm
+# Kipps Distance: 24.10 mm
+# Hand-Wing Index: 24.10
+# Tail Length: 83.30 mm
+# Aspect Ratio: 1.319
+# Pointedness Index: 0.2408
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1185
+# Max Thickness Position: 0.3355
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3607
+# Leading Edge Radius: 0.0334
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.66e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01003467,0.06338801
+UPPER,2,0.04013867,0.11118371
+UPPER,3,0.08362223,0.13809308
+UPPER,4,0.29191980,0.16875588
+UPPER,5,0.33554000,0.17586734
+UPPER,6,0.37916020,0.16401490
+UPPER,7,0.38294300,0.13082808
+UPPER,8,0.49072000,0.08192835
+UPPER,9,0.88000000,0.03127228
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01003467,-0.03918467
+LOWER,2,0.04013867,-0.01785775
+LOWER,3,0.08362223,-0.04236636
+LOWER,4,0.29191980,-0.04221749
+LOWER,5,0.33554000,-0.06118139
+LOWER,6,0.37916020,-0.03510603
+LOWER,7,0.38294300,0.00519226
+LOWER,8,0.49072000,0.01895923
+LOWER,9,0.88000000,0.00959477
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

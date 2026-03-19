@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Islerothraupis_cristata
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 76.20 mm
+# Secondary1: 60.00 mm
+# Kipps Distance: 14.20 mm
+# Hand-Wing Index: 19.20
+# Tail Length: 70.40 mm
+# Aspect Ratio: 1.270
+# Pointedness Index: 0.1864
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1240
+# Max Thickness Position: 0.3385
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3646
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01046209,0.06693252
+UPPER,2,0.04184835,0.11553999
+UPPER,3,0.08718405,0.14271919
+UPPER,4,0.29447760,0.17463957
+UPPER,5,0.33848000,0.18207710
+UPPER,6,0.38248240,0.16968123
+UPPER,7,0.38671600,0.13497279
+UPPER,8,0.49464000,0.08410907
+UPPER,9,0.88000000,0.03200169
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01046209,-0.04060035
+LOWER,2,0.04184835,-0.01932534
+LOWER,3,0.08718405,-0.04516158
+LOWER,4,0.29447760,-0.04600690
+LOWER,5,0.33848000,-0.06584030
+LOWER,6,0.38248240,-0.03856938
+LOWER,7,0.38671600,0.00357657
+LOWER,8,0.49464000,0.01867919
+LOWER,9,0.88000000,0.00957125
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

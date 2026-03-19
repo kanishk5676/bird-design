@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hydrocoloeus_minutus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 218.90 mm
+# Secondary1: 92.30 mm
+# Kipps Distance: 126.60 mm
+# Hand-Wing Index: 57.90
+# Tail Length: 88.80 mm
+# Aspect Ratio: 2.372
+# Pointedness Index: 0.5783
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0869
+# Max Thickness Position: 0.3153
+# Max Camber/Chord: 0.0487
+# Max Camber Position: 0.3337
+# Leading Edge Radius: 0.0243
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.78e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00727869,0.04367216
+UPPER,2,0.02911478,0.08486028
+UPPER,3,0.06065578,0.10738671
+UPPER,4,0.27427620,0.13040039
+UPPER,5,0.31526000,0.13561378
+UPPER,6,0.35624380,0.12692480
+UPPER,7,0.35691700,0.10259565
+UPPER,8,0.46368000,0.06574452
+UPPER,9,0.88000000,0.02546629
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00727869,-0.02911478
+LOWER,2,0.02911478,-0.01075135
+LOWER,3,0.06065578,-0.02798306
+LOWER,4,0.27427620,-0.02426346
+LOWER,5,0.31526000,-0.03816583
+LOWER,6,0.35624380,-0.01905007
+LOWER,7,0.35691700,0.01049246
+LOWER,8,0.46368000,0.01804429
+LOWER,9,0.88000000,0.00870540
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

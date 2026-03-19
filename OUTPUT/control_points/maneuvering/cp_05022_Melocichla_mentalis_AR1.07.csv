@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melocichla_mentalis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 75.20 mm
+# Secondary1: 70.30 mm
+# Kipps Distance: 4.70 mm
+# Hand-Wing Index: 6.20
+# Tail Length: 93.40 mm
+# Aspect Ratio: 1.070
+# Pointedness Index: 0.0625
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1344
+# Max Thickness Position: 0.3463
+# Max Camber/Chord: 0.0596
+# Max Camber Position: 0.3750
+# Leading Edge Radius: 0.0383
+# LE Droop: 0.0068
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.15e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01149153,0.07570918
+UPPER,2,0.04596612,0.12463057
+UPPER,3,0.09576275,0.15161708
+UPPER,4,0.30126360,0.18595953
+UPPER,5,0.34628000,0.19402542
+UPPER,6,0.39129640,0.18058226
+UPPER,7,0.39672600,0.14294144
+UPPER,8,0.50504000,0.08829564
+UPPER,9,0.88000000,0.03340020
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01149153,-0.04393812
+LOWER,2,0.04596612,-0.02216022
+LOWER,3,0.09576275,-0.05055709
+LOWER,4,0.30126360,-0.05332857
+LOWER,5,0.34628000,-0.07483762
+LOWER,6,0.39129640,-0.04526268
+LOWER,7,0.39672600,0.00044403
+LOWER,8,0.50504000,0.01812781
+LOWER,9,0.88000000,0.00952121
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

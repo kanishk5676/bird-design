@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pelecanus_thagus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 615.00 mm
+# Secondary1: 313.80 mm
+# Kipps Distance: 295.50 mm
+# Hand-Wing Index: 48.50
+# Tail Length: 151.60 mm
+# Aspect Ratio: 1.960
+# Pointedness Index: 0.4805
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0885
+# Max Thickness Position: 0.3209
+# Max Camber/Chord: 0.0517
+# Max Camber Position: 0.3412
+# Leading Edge Radius: 0.0269
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.88e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00806541,0.04839247
+UPPER,2,0.03226165,0.08816740
+UPPER,3,0.06721177,0.11124597
+UPPER,4,0.27918300,0.13484148
+UPPER,5,0.32090000,0.14014874
+UPPER,6,0.36261700,0.13130331
+UPPER,7,0.36415500,0.10653608
+UPPER,8,0.47120000,0.06870744
+UPPER,9,0.88000000,0.02672021
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00806541,-0.03226165
+LOWER,2,0.03226165,-0.01021237
+LOWER,3,0.06721177,-0.02752412
+LOWER,4,0.27918300,-0.02260729
+LOWER,5,0.32090000,-0.03675999
+LOWER,6,0.36261700,-0.01730003
+LOWER,7,0.36415500,0.01277445
+LOWER,8,0.47120000,0.01966690
+LOWER,9,0.88000000,0.00938542
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

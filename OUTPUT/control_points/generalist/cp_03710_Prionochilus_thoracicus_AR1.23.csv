@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Prionochilus_thoracicus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 62.20 mm
+# Secondary1: 50.40 mm
+# Kipps Distance: 12.10 mm
+# Hand-Wing Index: 19.30
+# Tail Length: 29.60 mm
+# Aspect Ratio: 1.234
+# Pointedness Index: 0.1945
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1239
+# Max Thickness Position: 0.3384
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3646
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01041730,0.06664379
+UPPER,2,0.04166919,0.11546917
+UPPER,3,0.08681082,0.14265045
+UPPER,4,0.29442540,0.17455278
+UPPER,5,0.33842000,0.18198569
+UPPER,6,0.38241460,0.16959750
+UPPER,7,0.38663900,0.13491056
+UPPER,8,0.49456000,0.08407515
+UPPER,9,0.88000000,0.03198999
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01041730,-0.04042719
+LOWER,2,0.04166919,-0.01930589
+LOWER,3,0.08681082,-0.04512378
+LOWER,4,0.29442540,-0.04595703
+LOWER,5,0.33842000,-0.06577814
+LOWER,6,0.38241460,-0.03852412
+LOWER,7,0.38663900,0.00359573
+LOWER,8,0.49456000,0.01868087
+LOWER,9,0.88000000,0.00957067
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

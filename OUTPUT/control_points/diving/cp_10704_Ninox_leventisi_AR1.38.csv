@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ninox_leventisi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 163.80 mm
+# Secondary1: 119.00 mm
+# Kipps Distance: 44.80 mm
+# Hand-Wing Index: 27.20
+# Tail Length: 72.90 mm
+# Aspect Ratio: 1.376
+# Pointedness Index: 0.2735
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1133
+# Max Thickness Position: 0.3337
+# Max Camber/Chord: 0.0568
+# Max Camber Position: 0.3582
+# Leading Edge Radius: 0.0326
+# LE Droop: 0.0026
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.15e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00977281,0.06119685
+UPPER,2,0.03909123,0.10746232
+UPPER,3,0.08144007,0.13379507
+UPPER,4,0.29030160,0.16325571
+UPPER,5,0.33368000,0.17005137
+UPPER,6,0.37705840,0.15872527
+UPPER,7,0.38055600,0.12701220
+UPPER,8,0.48824000,0.07998491
+UPPER,9,0.88000000,0.03064123
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00977281,-0.03832323
+LOWER,2,0.03909123,-0.01636687
+LOWER,3,0.08144007,-0.03956778
+LOWER,4,0.29030160,-0.03834881
+LOWER,5,0.33368000,-0.05647057
+LOWER,6,0.37705840,-0.03155316
+LOWER,7,0.38055600,0.00695557
+LOWER,8,0.48824000,0.01935351
+LOWER,9,0.88000000,0.00966716
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

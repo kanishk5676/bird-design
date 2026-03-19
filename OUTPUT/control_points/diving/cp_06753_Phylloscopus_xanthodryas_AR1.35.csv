@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phylloscopus_xanthodryas
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 66.20 mm
+# Secondary1: 48.90 mm
+# Kipps Distance: 17.00 mm
+# Hand-Wing Index: 25.80
+# Tail Length: 47.00 mm
+# Aspect Ratio: 1.354
+# Pointedness Index: 0.2568
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1191
+# Max Thickness Position: 0.3345
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3594
+# Leading Edge Radius: 0.0330
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00990085,0.06224511
+UPPER,2,0.03960341,0.11090112
+UPPER,3,0.08250710,0.13826607
+UPPER,4,0.29103240,0.16904147
+UPPER,5,0.33452000,0.17619012
+UPPER,6,0.37800760,0.16427570
+UPPER,7,0.38163400,0.13091532
+UPPER,8,0.48936000,0.08184940
+UPPER,9,0.88000000,0.03120898
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00990085,-0.03875141
+LOWER,2,0.03960341,-0.01816008
+LOWER,3,0.08250710,-0.04286253
+LOWER,4,0.29103240,-0.04303524
+LOWER,5,0.33452000,-0.06209832
+LOWER,6,0.37800760,-0.03588659
+LOWER,7,0.38163400,0.00462244
+LOWER,8,0.48936000,0.01868827
+LOWER,9,0.88000000,0.00949571
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

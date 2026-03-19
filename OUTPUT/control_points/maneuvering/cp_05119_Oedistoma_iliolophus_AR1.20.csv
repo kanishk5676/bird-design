@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Oedistoma_iliolophus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 60.20 mm
+# Secondary1: 50.00 mm
+# Kipps Distance: 10.20 mm
+# Hand-Wing Index: 17.00
+# Tail Length: 32.10 mm
+# Aspect Ratio: 1.204
+# Pointedness Index: 0.1694
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1261
+# Max Thickness Position: 0.3398
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3664
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.06e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01061568,0.06829408
+UPPER,2,0.04246272,0.11732834
+UPPER,3,0.08846400,0.14456685
+UPPER,4,0.29562600,0.17698963
+UPPER,5,0.33980000,0.18455743
+UPPER,6,0.38397400,0.17194444
+UPPER,7,0.38841000,0.13662806
+UPPER,8,0.49640000,0.08497976
+UPPER,9,0.88000000,0.03229284
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01061568,-0.04108272
+LOWER,2,0.04246272,-0.01991195
+LOWER,3,0.08846400,-0.04627871
+LOWER,4,0.29562600,-0.04752164
+LOWER,5,0.33980000,-0.06770243
+LOWER,6,0.38397400,-0.03995385
+LOWER,7,0.38841000,0.00293033
+LOWER,8,0.49640000,0.01856686
+LOWER,9,0.88000000,0.00956168
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

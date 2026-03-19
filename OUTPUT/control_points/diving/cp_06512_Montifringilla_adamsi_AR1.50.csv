@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Montifringilla_adamsi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 107.20 mm
+# Secondary1: 71.50 mm
+# Kipps Distance: 36.80 mm
+# Hand-Wing Index: 34.00
+# Tail Length: 67.00 mm
+# Aspect Ratio: 1.499
+# Pointedness Index: 0.3433
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1102
+# Max Thickness Position: 0.3296
+# Max Camber/Chord: 0.0554
+# Max Camber Position: 0.3528
+# Leading Edge Radius: 0.0307
+# LE Droop: 0.0012
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.81e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00920885,0.05645312
+UPPER,2,0.03683541,0.10340893
+UPPER,3,0.07674045,0.13033622
+UPPER,4,0.28675200,0.15901761
+UPPER,5,0.32960000,0.16563086
+UPPER,6,0.37244800,0.15460877
+UPPER,7,0.37532000,0.12374693
+UPPER,8,0.48280000,0.07796034
+UPPER,9,0.88000000,0.02987347
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00920885,-0.03647541
+LOWER,2,0.03683541,-0.01587717
+LOWER,3,0.07674045,-0.03843950
+LOWER,4,0.28675200,-0.03717552
+LOWER,5,0.32960000,-0.05481086
+LOWER,6,0.37244800,-0.03056227
+LOWER,7,0.37532000,0.00691282
+LOWER,8,0.48280000,0.01892328
+LOWER,9,0.88000000,0.00944367
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

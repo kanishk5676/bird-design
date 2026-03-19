@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Biatas_nigropectus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 74.80 mm
+# Secondary1: 68.20 mm
+# Kipps Distance: 7.30 mm
+# Hand-Wing Index: 9.90
+# Tail Length: 76.60 mm
+# Aspect Ratio: 1.097
+# Pointedness Index: 0.0976
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1315
+# Max Thickness Position: 0.3441
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3721
+# Leading Edge Radius: 0.0373
+# LE Droop: 0.0060
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.14e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01119933,0.07321600
+UPPER,2,0.04479733,0.12214143
+UPPER,3,0.09332777,0.14919983
+UPPER,4,0.29933220,0.18287082
+UPPER,5,0.34406000,0.19076088
+UPPER,6,0.38878780,0.17761079
+UPPER,7,0.39387700,0.14079054
+UPPER,8,0.50208000,0.08719123
+UPPER,9,0.88000000,0.03303886
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01119933,-0.04299133
+LOWER,2,0.04479733,-0.02133930
+LOWER,3,0.09332777,-0.04901094
+LOWER,4,0.29933220,-0.05120078
+LOWER,5,0.34406000,-0.07224093
+LOWER,6,0.38878780,-0.04331073
+LOWER,7,0.39387700,0.00139958
+LOWER,8,0.50208000,0.01833106
+LOWER,9,0.88000000,0.00955496
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

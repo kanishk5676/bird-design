@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Leptasthenura_andicola
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 71.80 mm
+# Secondary1: 58.50 mm
+# Kipps Distance: 13.30 mm
+# Hand-Wing Index: 18.50
+# Tail Length: 92.20 mm
+# Aspect Ratio: 1.227
+# Pointedness Index: 0.1852
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1248
+# Max Thickness Position: 0.3389
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3652
+# Leading Edge Radius: 0.0350
+# LE Droop: 0.0043
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.08e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01048919,0.06723515
+UPPER,2,0.04195677,0.11620956
+UPPER,3,0.08740994,0.14345108
+UPPER,4,0.29484300,0.17557479
+UPPER,5,0.33890000,0.18306557
+UPPER,6,0.38295700,0.17058095
+UPPER,7,0.38725500,0.13562401
+UPPER,8,0.49520000,0.08444340
+UPPER,9,0.88000000,0.03211106
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01048919,-0.04066677
+LOWER,2,0.04195677,-0.01957400
+LOWER,3,0.08740994,-0.04562988
+LOWER,4,0.29484300,-0.04665142
+LOWER,5,0.33890000,-0.06662682
+LOWER,6,0.38295700,-0.03916065
+LOWER,7,0.38725500,0.00328705
+LOWER,8,0.49520000,0.01861755
+LOWER,9,0.88000000,0.00956100
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cacatua_goffiniana
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 210.90 mm
+# Secondary1: 149.10 mm
+# Kipps Distance: 61.80 mm
+# Hand-Wing Index: 29.30
+# Tail Length: 112.00 mm
+# Aspect Ratio: 1.414
+# Pointedness Index: 0.2930
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1101
+# Max Thickness Position: 0.3324
+# Max Camber/Chord: 0.0564
+# Max Camber Position: 0.3566
+# Leading Edge Radius: 0.0320
+# LE Droop: 0.0021
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.40e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00960897,0.05979381
+UPPER,2,0.03843587,0.10513473
+UPPER,3,0.08007473,0.13117022
+UPPER,4,0.28920540,0.15990961
+UPPER,5,0.33242000,0.16651732
+UPPER,6,0.37563460,0.15550446
+UPPER,7,0.37893900,0.12466847
+UPPER,8,0.48656000,0.07876645
+UPPER,9,0.88000000,0.03023802
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00960897,-0.03779387
+LOWER,2,0.03843587,-0.01550506
+LOWER,3,0.08007473,-0.03793572
+LOWER,4,0.28920540,-0.03611920
+LOWER,5,0.33242000,-0.05373977
+LOWER,6,0.37563460,-0.02951149
+LOWER,7,0.37893900,0.00793222
+LOWER,8,0.48656000,0.01954304
+LOWER,9,0.88000000,0.00969205
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

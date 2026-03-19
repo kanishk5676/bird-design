@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Leiothlypis_luciae
+# Flight Category: hovering
+#
+# === Morphological Parameters ===
+# Wing Length: 55.60 mm
+# Secondary1: 42.40 mm
+# Kipps Distance: 13.20 mm
+# Hand-Wing Index: 23.70
+# Tail Length: 43.40 mm
+# Aspect Ratio: 1.311
+# Pointedness Index: 0.2374
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1210
+# Max Thickness Position: 0.3358
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3610
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01006399,0.06364393
+UPPER,2,0.04025595,0.11257916
+UPPER,3,0.08386657,0.13996671
+UPPER,4,0.29212860,0.17118838
+UPPER,5,0.33578000,0.17845078
+UPPER,6,0.37943140,0.16634678
+UPPER,7,0.38325100,0.13245557
+UPPER,8,0.49104000,0.08269036
+UPPER,9,0.88000000,0.03149929
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01006399,-0.03927795
+LOWER,2,0.04025595,-0.01863903
+LOWER,3,0.08386657,-0.04379424
+LOWER,4,0.29212860,-0.04426283
+LOWER,5,0.33578000,-0.06362923
+LOWER,6,0.37943140,-0.03700043
+LOWER,7,0.38325100,0.00415317
+LOWER,8,0.49104000,0.01864908
+LOWER,9,0.88000000,0.00951109
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

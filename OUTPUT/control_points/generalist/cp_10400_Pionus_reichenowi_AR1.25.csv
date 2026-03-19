@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pionus_reichenowi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 171.20 mm
+# Secondary1: 136.60 mm
+# Kipps Distance: 34.70 mm
+# Hand-Wing Index: 20.20
+# Tail Length: 76.20 mm
+# Aspect Ratio: 1.253
+# Pointedness Index: 0.2027
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1186
+# Max Thickness Position: 0.3379
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3638
+# Leading Edge Radius: 0.0345
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.34e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01034818,0.06604906
+UPPER,2,0.04139271,0.11253851
+UPPER,3,0.08623481,0.13873020
+UPPER,4,0.29395560,0.16946160
+UPPER,5,0.33788000,0.17657809
+UPPER,6,0.38180440,0.16471727
+UPPER,7,0.38594600,0.13150698
+UPPER,8,0.49384000,0.08248471
+UPPER,9,0.88000000,0.03151722
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01034818,-0.04020471
+LOWER,2,0.04139271,-0.01766516
+LOWER,3,0.08623481,-0.04212660
+LOWER,4,0.29395560,-0.04166098
+LOWER,5,0.33788000,-0.06063829
+LOWER,6,0.38180440,-0.03454449
+LOWER,7,0.38594600,0.00578230
+LOWER,8,0.49384000,0.01933619
+LOWER,9,0.88000000,0.00974815
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

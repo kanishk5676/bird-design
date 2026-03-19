@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Touit_huetii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 111.20 mm
+# Secondary1: 65.10 mm
+# Kipps Distance: 46.10 mm
+# Hand-Wing Index: 41.40
+# Tail Length: 50.40 mm
+# Aspect Ratio: 1.708
+# Pointedness Index: 0.4146
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1034
+# Max Thickness Position: 0.3252
+# Max Camber/Chord: 0.0536
+# Max Camber Position: 0.3469
+# Leading Edge Radius: 0.0287
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.21e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00861886,0.05171317
+UPPER,2,0.03447545,0.09731562
+UPPER,3,0.07182385,0.12382638
+UPPER,4,0.28288920,0.15087359
+UPPER,5,0.32516000,0.15707966
+UPPER,6,0.36743080,0.14673621
+UPPER,7,0.36962200,0.11777453
+UPPER,8,0.47688000,0.07456001
+UPPER,9,0.88000000,0.02865990
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00861886,-0.03447545
+LOWER,2,0.03447545,-0.01432327
+LOWER,3,0.07182385,-0.03531530
+LOWER,4,0.28288920,-0.03323993
+LOWER,5,0.32516000,-0.04978946
+LOWER,6,0.36743080,-0.02703386
+LOWER,7,0.36962200,0.00813389
+LOWER,8,0.47688000,0.01877912
+LOWER,9,0.88000000,0.00927389
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

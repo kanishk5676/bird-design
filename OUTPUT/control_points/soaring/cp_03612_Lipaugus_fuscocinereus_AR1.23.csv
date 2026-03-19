@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lipaugus_fuscocinereus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 182.20 mm
+# Secondary1: 148.70 mm
+# Kipps Distance: 33.60 mm
+# Hand-Wing Index: 18.50
+# Tail Length: 158.20 mm
+# Aspect Ratio: 1.225
+# Pointedness Index: 0.1844
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1196
+# Max Thickness Position: 0.3389
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3652
+# Leading Edge Radius: 0.0350
+# LE Droop: 0.0043
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01049340,0.06726037
+UPPER,2,0.04197358,0.11359202
+UPPER,3,0.08744496,0.13968182
+UPPER,4,0.29484300,0.17065382
+UPPER,5,0.33890000,0.17783048
+UPPER,6,0.38295700,0.16586937
+UPPER,7,0.38725500,0.13237826
+UPPER,8,0.49520000,0.08297758
+UPPER,9,0.88000000,0.03169225
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01049340,-0.04068358
+LOWER,2,0.04197358,-0.01789877
+LOWER,3,0.08744496,-0.04259353
+LOWER,4,0.29484300,-0.04225396
+LOWER,5,0.33890000,-0.06139173
+LOWER,6,0.38295700,-0.03507729
+LOWER,7,0.38725500,0.00559049
+LOWER,8,0.49520000,0.01935046
+LOWER,9,0.88000000,0.00977040
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

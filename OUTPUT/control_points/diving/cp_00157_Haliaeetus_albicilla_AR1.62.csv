@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Haliaeetus_albicilla
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 599.50 mm
+# Secondary1: 370.90 mm
+# Kipps Distance: 227.20 mm
+# Hand-Wing Index: 38.00
+# Tail Length: 294.20 mm
+# Aspect Ratio: 1.616
+# Pointedness Index: 0.3790
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0970
+# Max Thickness Position: 0.3272
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3496
+# Leading Edge Radius: 0.0297
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.82e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00890439,0.05382634
+UPPER,2,0.03561756,0.09522039
+UPPER,3,0.07420324,0.11997640
+UPPER,4,0.28466400,0.14567732
+UPPER,5,0.32720000,0.15149778
+UPPER,6,0.36973600,0.14179701
+UPPER,7,0.37224000,0.11463483
+UPPER,8,0.47960000,0.07347868
+UPPER,9,0.88000000,0.02846682
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00890439,-0.03549756
+LOWER,2,0.03561756,-0.01197099
+LOWER,3,0.07420324,-0.03119912
+LOWER,4,0.28466400,-0.02699654
+LOWER,5,0.32720000,-0.04251778
+LOWER,6,0.36973600,-0.02117607
+LOWER,7,0.37224000,0.01180657
+LOWER,8,0.47960000,0.02020271
+LOWER,9,0.88000000,0.00974219
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

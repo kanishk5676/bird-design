@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Microstilbon_burmeisteri
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 29.90 mm
+# Secondary1: 11.80 mm
+# Kipps Distance: 18.10 mm
+# Hand-Wing Index: 60.80
+# Tail Length: 15.80 mm
+# Aspect Ratio: 2.534
+# Pointedness Index: 0.6054
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0914
+# Max Thickness Position: 0.3135
+# Max Camber/Chord: 0.0477
+# Max Camber Position: 0.3314
+# Leading Edge Radius: 0.0235
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00705223,0.04231337
+UPPER,2,0.02820892,0.08624064
+UPPER,3,0.05876858,0.10968013
+UPPER,4,0.27276240,0.13359680
+UPPER,5,0.31352000,0.13907840
+UPPER,6,0.35427760,0.12994240
+UPPER,7,0.35468400,0.10436160
+UPPER,8,0.46136000,0.06614144
+UPPER,9,0.88000000,0.02544179
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00705223,-0.02820892
+LOWER,2,0.02820892,-0.01253376
+LOWER,3,0.05876858,-0.03103834
+LOWER,4,0.27276240,-0.02902400
+LOWER,5,0.31352000,-0.04364160
+LOWER,6,0.35427760,-0.02354240
+LOWER,7,0.35468400,0.00752000
+LOWER,8,0.46136000,0.01679501
+LOWER,9,0.88000000,0.00827520
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

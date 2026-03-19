@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Trochalopteron_elliotii
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 96.60 mm
+# Secondary1: 91.30 mm
+# Kipps Distance: 6.00 mm
+# Hand-Wing Index: 6.10
+# Tail Length: 130.70 mm
+# Aspect Ratio: 1.058
+# Pointedness Index: 0.0621
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1331
+# Max Thickness Position: 0.3463
+# Max Camber/Chord: 0.0596
+# Max Camber Position: 0.3751
+# Leading Edge Radius: 0.0383
+# LE Droop: 0.0068
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.58e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01149657,0.07575942
+UPPER,2,0.04598628,0.12400321
+UPPER,3,0.09580475,0.15068242
+UPPER,4,0.30131580,0.18473765
+UPPER,5,0.34634000,0.19272503
+UPPER,6,0.39136420,0.17941272
+UPPER,7,0.39680300,0.14213827
+UPPER,8,0.50512000,0.08793613
+UPPER,9,0.88000000,0.03329859
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01149657,-0.04395228
+LOWER,2,0.04598628,-0.02173869
+LOWER,3,0.09580475,-0.04979446
+LOWER,4,0.30131580,-0.05222139
+LOWER,5,0.34634000,-0.07352108
+LOWER,6,0.39136420,-0.04423401
+LOWER,7,0.39680300,0.00102783
+LOWER,8,0.50512000,0.01831600
+LOWER,9,0.88000000,0.00957557
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

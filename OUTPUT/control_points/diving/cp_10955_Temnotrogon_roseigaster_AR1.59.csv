@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Temnotrogon_roseigaster
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 132.50 mm
+# Secondary1: 83.30 mm
+# Kipps Distance: 49.20 mm
+# Hand-Wing Index: 37.10
+# Tail Length: 156.20 mm
+# Aspect Ratio: 1.591
+# Pointedness Index: 0.3713
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1065
+# Max Thickness Position: 0.3277
+# Max Camber/Chord: 0.0547
+# Max Camber Position: 0.3503
+# Leading Edge Radius: 0.0299
+# LE Droop: 0.0006
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.38e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00897100,0.05440602
+UPPER,2,0.03588402,0.10035199
+UPPER,3,0.07475837,0.12704166
+UPPER,4,0.28513380,0.15485837
+UPPER,5,0.32774000,0.16125121
+UPPER,6,0.37034620,0.15059648
+UPPER,7,0.37293300,0.12076326
+UPPER,8,0.48032000,0.07633160
+UPPER,9,0.88000000,0.02931129
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00897100,-0.03571002
+LOWER,2,0.03588402,-0.01494872
+LOWER,3,0.07475837,-0.03663357
+LOWER,4,0.28513380,-0.03479570
+LOWER,5,0.32774000,-0.05184326
+LOWER,6,0.37034620,-0.02840287
+LOWER,7,0.37293300,0.00782319
+LOWER,8,0.48032000,0.01899985
+LOWER,9,0.88000000,0.00941410
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

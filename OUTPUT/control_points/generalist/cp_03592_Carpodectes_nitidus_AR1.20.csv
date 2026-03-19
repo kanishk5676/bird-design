@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Carpodectes_nitidus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 133.70 mm
+# Secondary1: 111.60 mm
+# Kipps Distance: 25.10 mm
+# Hand-Wing Index: 19.00
+# Tail Length: 73.40 mm
+# Aspect Ratio: 1.198
+# Pointedness Index: 0.1877
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1210
+# Max Thickness Position: 0.3386
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3648
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01046116,0.06696695
+UPPER,2,0.04184463,0.11411347
+UPPER,3,0.08717632,0.14059855
+UPPER,4,0.29458200,0.17186511
+UPPER,5,0.33860000,0.17912368
+UPPER,6,0.38261800,0.16702606
+UPPER,7,0.38687000,0.13315273
+UPPER,8,0.49480000,0.08329871
+UPPER,9,0.88000000,0.03177414
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01046116,-0.04058463
+LOWER,2,0.04184463,-0.01836075
+LOWER,3,0.08717632,-0.04341834
+LOWER,4,0.29458200,-0.04347249
+LOWER,5,0.33860000,-0.06282868
+LOWER,6,0.38261800,-0.03621392
+LOWER,7,0.38687000,0.00491798
+LOWER,8,0.49480000,0.01911478
+LOWER,9,0.88000000,0.00969783
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

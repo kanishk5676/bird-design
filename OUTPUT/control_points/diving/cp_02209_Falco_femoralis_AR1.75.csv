@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Falco_femoralis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 245.10 mm
+# Secondary1: 139.70 mm
+# Kipps Distance: 112.70 mm
+# Hand-Wing Index: 44.60
+# Tail Length: 167.60 mm
+# Aspect Ratio: 1.754
+# Pointedness Index: 0.4598
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0970
+# Max Thickness Position: 0.3232
+# Max Camber/Chord: 0.0528
+# Max Camber Position: 0.3443
+# Leading Edge Radius: 0.0276
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.37e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00829020,0.04974118
+UPPER,2,0.03316079,0.09338628
+UPPER,3,0.06908498,0.11842593
+UPPER,4,0.28121880,0.14399355
+UPPER,5,0.32324000,0.14981460
+UPPER,6,0.36526120,0.14011285
+UPPER,7,0.36715800,0.11294795
+UPPER,8,0.47432000,0.07204243
+UPPER,9,0.88000000,0.02782430
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00829020,-0.03316079
+LOWER,2,0.03316079,-0.01256661
+LOWER,3,0.06908498,-0.03198348
+LOWER,4,0.28121880,-0.02869760
+LOWER,5,0.32324000,-0.04422040
+LOWER,6,0.36526120,-0.02287655
+LOWER,7,0.36715800,0.01010940
+LOWER,8,0.47432000,0.01915175
+LOWER,9,0.88000000,0.00931858
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

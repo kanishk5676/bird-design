@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eurostopodus_exul
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 182.00 mm
+# Secondary1: 116.00 mm
+# Kipps Distance: 136.20 mm
+# Hand-Wing Index: 54.00
+# Tail Length: 142.00 mm
+# Aspect Ratio: 1.569
+# Pointedness Index: 0.7484
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0912
+# Max Thickness Position: 0.3176
+# Max Camber/Chord: 0.0500
+# Max Camber Position: 0.3368
+# Leading Edge Radius: 0.0218
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00653101,0.03918604
+UPPER,2,0.02612403,0.08811721
+UPPER,3,0.05442505,0.11168574
+UPPER,4,0.27631200,0.13575437
+UPPER,5,0.31760000,0.14122742
+UPPER,6,0.35888800,0.13210567
+UPPER,7,0.35992000,0.10656480
+UPPER,8,0.46680000,0.06804938
+UPPER,9,0.88000000,0.02630119
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00653101,-0.02612403
+LOWER,2,0.02612403,-0.01168607
+LOWER,3,0.05442505,-0.02990150
+LOWER,4,0.27631200,-0.02661263
+LOWER,5,0.31760000,-0.04120742
+LOWER,6,0.35888800,-0.02113958
+LOWER,7,0.35992000,0.00987434
+LOWER,8,0.46680000,0.01823576
+LOWER,9,0.88000000,0.00885380
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

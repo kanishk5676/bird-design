@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Podiceps_grisegena
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 167.10 mm
+# Secondary1: 96.40 mm
+# Kipps Distance: 66.80 mm
+# Hand-Wing Index: 40.90
+# Tail Length: 32.00 mm
+# Aspect Ratio: 1.733
+# Pointedness Index: 0.3998
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1005
+# Max Thickness Position: 0.3255
+# Max Camber/Chord: 0.0538
+# Max Camber Position: 0.3473
+# Leading Edge Radius: 0.0290
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.76e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00870968,0.05225808
+UPPER,2,0.03483872,0.09596097
+UPPER,3,0.07258067,0.12183681
+UPPER,4,0.28315020,0.14825038
+UPPER,5,0.32546000,0.15428085
+UPPER,6,0.36776980,0.14423006
+UPPER,7,0.37000700,0.11608786
+UPPER,8,0.47728000,0.07384923
+UPPER,9,0.88000000,0.02847436
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00870968,-0.03483872
+LOWER,2,0.03483872,-0.01334198
+LOWER,3,0.07258067,-0.03355900
+LOWER,4,0.28315020,-0.03065364
+LOWER,5,0.32546000,-0.04673490
+LOWER,6,0.36776980,-0.02462317
+LOWER,7,0.37000700,0.00954951
+LOWER,8,0.47728000,0.01926814
+LOWER,9,0.88000000,0.00942293
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

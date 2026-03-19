@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anas_gracilis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 192.20 mm
+# Secondary1: 102.00 mm
+# Kipps Distance: 91.80 mm
+# Hand-Wing Index: 47.30
+# Tail Length: 72.00 mm
+# Aspect Ratio: 1.884
+# Pointedness Index: 0.4776
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0962
+# Max Thickness Position: 0.3216
+# Max Camber/Chord: 0.0520
+# Max Camber Position: 0.3422
+# Leading Edge Radius: 0.0271
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.98e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00811672,0.04870032
+UPPER,2,0.03246688,0.09231778
+UPPER,3,0.06763933,0.11711691
+UPPER,4,0.27980940,0.14243645
+UPPER,5,0.32162000,0.14820633
+UPPER,6,0.36343060,0.13858987
+UPPER,7,0.36507900,0.11166380
+UPPER,8,0.47216000,0.07116158
+UPPER,9,0.88000000,0.02746904
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00811672,-0.03246688
+LOWER,2,0.03246688,-0.01255804
+LOWER,3,0.06763933,-0.03183622
+LOWER,4,0.27980940,-0.02873645
+LOWER,5,0.32162000,-0.04412278
+LOWER,6,0.36343060,-0.02296658
+LOWER,7,0.36507900,0.00972937
+LOWER,8,0.47216000,0.01880286
+LOWER,9,0.88000000,0.00916386
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

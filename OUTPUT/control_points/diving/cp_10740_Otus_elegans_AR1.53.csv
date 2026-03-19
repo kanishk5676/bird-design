@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Otus_elegans
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 169.00 mm
+# Secondary1: 110.30 mm
+# Kipps Distance: 58.70 mm
+# Hand-Wing Index: 34.70
+# Tail Length: 74.70 mm
+# Aspect Ratio: 1.532
+# Pointedness Index: 0.3473
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1071
+# Max Thickness Position: 0.3292
+# Max Camber/Chord: 0.0553
+# Max Camber Position: 0.3522
+# Leading Edge Radius: 0.0306
+# LE Droop: 0.0011
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.28e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00916676,0.05606056
+UPPER,2,0.03666704,0.10156767
+UPPER,3,0.07638967,0.12793360
+UPPER,4,0.28638660,0.15591207
+UPPER,5,0.32918000,0.16233701
+UPPER,6,0.37197340,0.15162878
+UPPER,7,0.37478100,0.12164576
+UPPER,8,0.48224000,0.07694958
+UPPER,9,0.88000000,0.02956339
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00916676,-0.03634904
+LOWER,2,0.03666704,-0.01492714
+LOWER,3,0.07638967,-0.03669050
+LOWER,4,0.28638660,-0.03469430
+LOWER,5,0.32918000,-0.05182746
+LOWER,6,0.37197340,-0.02826937
+LOWER,7,0.37478100,0.00813859
+LOWER,8,0.48224000,0.01926645
+LOWER,9,0.88000000,0.00953040
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

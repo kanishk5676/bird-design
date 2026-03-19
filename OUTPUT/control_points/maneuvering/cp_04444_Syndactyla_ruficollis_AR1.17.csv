@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Syndactyla_ruficollis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 83.30 mm
+# Secondary1: 71.50 mm
+# Kipps Distance: 12.00 mm
+# Hand-Wing Index: 14.40
+# Tail Length: 79.20 mm
+# Aspect Ratio: 1.165
+# Pointedness Index: 0.1441
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1273
+# Max Thickness Position: 0.3414
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3685
+# Leading Edge Radius: 0.0361
+# LE Droop: 0.0051
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.31e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01082467,0.07006800
+UPPER,2,0.04329866,0.11872055
+UPPER,3,0.09020555,0.14572126
+UPPER,4,0.29698320,0.17842959
+UPPER,5,0.34136000,0.18606798
+UPPER,6,0.38573680,0.17333734
+UPPER,7,0.39041200,0.13769155
+UPPER,8,0.49848000,0.08559315
+UPPER,9,0.88000000,0.03251392
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01082467,-0.04176266
+LOWER,2,0.04329866,-0.02017148
+LOWER,3,0.09020555,-0.04680736
+LOWER,4,0.29698320,-0.04817576
+LOWER,5,0.34136000,-0.06854478
+LOWER,6,0.38573680,-0.04053737
+LOWER,7,0.39041200,0.00274679
+LOWER,8,0.49848000,0.01860930
+LOWER,9,0.88000000,0.00959814
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

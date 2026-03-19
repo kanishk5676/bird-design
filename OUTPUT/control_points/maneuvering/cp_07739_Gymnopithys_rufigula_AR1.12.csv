@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gymnopithys_rufigula
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 75.30 mm
+# Secondary1: 67.50 mm
+# Kipps Distance: 8.50 mm
+# Hand-Wing Index: 11.20
+# Tail Length: 47.90 mm
+# Aspect Ratio: 1.116
+# Pointedness Index: 0.1129
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1304
+# Max Thickness Position: 0.3433
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3710
+# Leading Edge Radius: 0.0369
+# LE Droop: 0.0058
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.15e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01108158,0.07224950
+UPPER,2,0.04432633,0.12122954
+UPPER,3,0.09234652,0.14830171
+UPPER,4,0.29865360,0.18172514
+UPPER,5,0.34328000,0.18955059
+UPPER,6,0.38790640,0.17650817
+UPPER,7,0.39287600,0.13998940
+UPPER,8,0.50104000,0.08677621
+UPPER,9,0.88000000,0.03290197
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01108158,-0.04259833
+LOWER,2,0.04432633,-0.02104150
+LOWER,3,0.09234652,-0.04844789
+LOWER,4,0.29865360,-0.05042992
+LOWER,5,0.34328000,-0.07129779
+LOWER,6,0.38790640,-0.04260447
+LOWER,7,0.39287600,0.00173975
+LOWER,8,0.50104000,0.01839898
+LOWER,9,0.88000000,0.00956463
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

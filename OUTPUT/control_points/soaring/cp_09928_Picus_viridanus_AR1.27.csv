@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Picus_viridanus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 137.80 mm
+# Secondary1: 108.80 mm
+# Kipps Distance: 26.20 mm
+# Hand-Wing Index: 19.50
+# Tail Length: 107.40 mm
+# Aspect Ratio: 1.267
+# Pointedness Index: 0.1901
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1204
+# Max Thickness Position: 0.3383
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3644
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.51e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01043363,0.06670180
+UPPER,2,0.04173454,0.11366572
+UPPER,3,0.08694695,0.14012003
+UPPER,4,0.29432100,0.17125508
+UPPER,5,0.33830000,0.17847938
+UPPER,6,0.38227900,0.16643888
+UPPER,7,0.38648500,0.13272548
+UPPER,8,0.49440000,0.08307662
+UPPER,9,0.88000000,0.03170066
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01043363,-0.04050454
+LOWER,2,0.04173454,-0.01820357
+LOWER,3,0.08694695,-0.04312069
+LOWER,4,0.29432100,-0.04306583
+LOWER,5,0.33830000,-0.06233063
+LOWER,6,0.38227900,-0.03584153
+LOWER,7,0.38648500,0.00509617
+LOWER,8,0.49440000,0.01914941
+LOWER,9,0.88000000,0.00970239
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

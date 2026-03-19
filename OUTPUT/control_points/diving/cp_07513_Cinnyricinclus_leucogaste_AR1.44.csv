@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cinnyricinclus_leucogaster
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 105.10 mm
+# Secondary1: 73.00 mm
+# Kipps Distance: 32.00 mm
+# Hand-Wing Index: 30.50
+# Tail Length: 61.00 mm
+# Aspect Ratio: 1.440
+# Pointedness Index: 0.3045
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1131
+# Max Thickness Position: 0.3317
+# Max Camber/Chord: 0.0561
+# Max Camber Position: 0.3556
+# Leading Edge Radius: 0.0317
+# LE Droop: 0.0019
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.77e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00951389,0.05898336
+UPPER,2,0.03805557,0.10619282
+UPPER,3,0.07928244,0.13311225
+UPPER,4,0.28857900,0.16249318
+UPPER,5,0.33170000,0.16928108
+UPPER,6,0.37482100,0.15796791
+UPPER,7,0.37801500,0.12629103
+UPPER,8,0.48560000,0.07940385
+UPPER,9,0.88000000,0.03038730
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00951389,-0.03748557
+LOWER,2,0.03805557,-0.01654986
+LOWER,3,0.07928244,-0.03978768
+LOWER,4,0.28857900,-0.03888126
+LOWER,5,0.33170000,-0.05698233
+LOWER,6,0.37482100,-0.03209336
+LOWER,7,0.37801500,0.00637142
+LOWER,8,0.48560000,0.01897417
+LOWER,9,0.88000000,0.00951208
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

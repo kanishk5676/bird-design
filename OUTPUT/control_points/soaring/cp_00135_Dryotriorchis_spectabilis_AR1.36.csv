@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dryotriorchis_spectabilis
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 290.50 mm
+# Secondary1: 213.50 mm
+# Kipps Distance: 77.00 mm
+# Hand-Wing Index: 26.50
+# Tail Length: 240.20 mm
+# Aspect Ratio: 1.361
+# Pointedness Index: 0.2651
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1105
+# Max Thickness Position: 0.3341
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3588
+# Leading Edge Radius: 0.0328
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.75e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00983729,0.06172376
+UPPER,2,0.03934917,0.10633451
+UPPER,3,0.08197744,0.13193021
+UPPER,4,0.29066700,0.16079510
+UPPER,5,0.33410000,0.16742546
+UPPER,6,0.37753300,0.15637485
+UPPER,7,0.38109500,0.12543315
+UPPER,8,0.48880000,0.07932317
+UPPER,9,0.88000000,0.03046985
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00983729,-0.03853917
+LOWER,2,0.03934917,-0.01544017
+LOWER,3,0.08197744,-0.03791062
+LOWER,4,0.29066700,-0.03590574
+LOWER,5,0.33410000,-0.05358671
+LOWER,6,0.37753300,-0.02927537
+LOWER,7,0.38109500,0.00829670
+LOWER,8,0.48880000,0.01981916
+LOWER,9,0.88000000,0.00980960
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

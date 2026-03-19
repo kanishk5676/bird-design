@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Puffinus_elegans
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 184.10 mm
+# Secondary1: 87.00 mm
+# Kipps Distance: 97.20 mm
+# Hand-Wing Index: 53.00
+# Tail Length: 64.80 mm
+# Aspect Ratio: 2.116
+# Pointedness Index: 0.5280
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0914
+# Max Thickness Position: 0.3182
+# Max Camber/Chord: 0.0503
+# Max Camber Position: 0.3376
+# Leading Edge Radius: 0.0256
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.20e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00768553,0.04611320
+UPPER,2,0.03074213,0.08846409
+UPPER,3,0.06404611,0.11208873
+UPPER,4,0.27683400,0.13621665
+UPPER,5,0.31820000,0.14169893
+UPPER,6,0.35956600,0.13256179
+UPPER,7,0.36069000,0.10697779
+UPPER,8,0.46760000,0.06836238
+UPPER,9,0.88000000,0.02643416
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00768553,-0.03074213
+LOWER,2,0.03074213,-0.01162423
+LOWER,3,0.06404611,-0.02984478
+LOWER,4,0.27683400,-0.02642450
+LOWER,5,0.31820000,-0.04104393
+LOWER,6,0.35956600,-0.02094222
+LOWER,7,0.36069000,0.01012407
+LOWER,8,0.46760000,0.01841105
+LOWER,9,0.88000000,0.00892702
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

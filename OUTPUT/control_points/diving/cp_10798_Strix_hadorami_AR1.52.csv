@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Strix_hadorami
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 251.00 mm
+# Secondary1: 165.20 mm
+# Kipps Distance: 85.80 mm
+# Hand-Wing Index: 34.20
+# Tail Length: 144.00 mm
+# Aspect Ratio: 1.519
+# Pointedness Index: 0.3418
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1052
+# Max Thickness Position: 0.3295
+# Max Camber/Chord: 0.0554
+# Max Camber Position: 0.3526
+# Leading Edge Radius: 0.0307
+# LE Droop: 0.0012
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.55e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00921013,0.05642080
+UPPER,2,0.03684053,0.10082058
+UPPER,3,0.07675111,0.12668001
+UPPER,4,0.28664760,0.15425309
+UPPER,5,0.32948000,0.16056504
+UPPER,6,0.37231240,0.15004512
+UPPER,7,0.37516600,0.12058936
+UPPER,8,0.48264000,0.07651677
+UPPER,9,0.88000000,0.02945497
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00921013,-0.03649253
+LOWER,2,0.03684053,-0.01428566
+LOWER,3,0.07675111,-0.03554718
+LOWER,4,0.28664760,-0.03300137
+LOWER,5,0.32948000,-0.04983324
+LOWER,6,0.37231240,-0.02668943
+LOWER,7,0.37516600,0.00907828
+LOWER,8,0.48264000,0.01959898
+LOWER,9,0.88000000,0.00963351
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

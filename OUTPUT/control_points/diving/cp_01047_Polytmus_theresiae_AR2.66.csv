@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Polytmus_theresiae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 56.60 mm
+# Secondary1: 21.30 mm
+# Kipps Distance: 35.30 mm
+# Hand-Wing Index: 62.50
+# Tail Length: 32.10 mm
+# Aspect Ratio: 2.657
+# Pointedness Index: 0.6237
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0883
+# Max Thickness Position: 0.3125
+# Max Camber/Chord: 0.0471
+# Max Camber Position: 0.3300
+# Leading Edge Radius: 0.0230
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.46e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00690676,0.04144055
+UPPER,2,0.02762703,0.08421620
+UPPER,3,0.05755632,0.10695007
+UPPER,4,0.27187500,0.13015504
+UPPER,5,0.31250000,0.13545583
+UPPER,6,0.35312500,0.12662119
+UPPER,7,0.35337500,0.10188418
+UPPER,8,0.46000000,0.06477998
+UPPER,9,0.88000000,0.02496928
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00690676,-0.02762703
+LOWER,2,0.02762703,-0.01178259
+LOWER,3,0.05755632,-0.02957063
+LOWER,4,0.27187500,-0.02710165
+LOWER,5,0.31250000,-0.04123708
+LOWER,6,0.35312500,-0.02180086
+LOWER,7,0.35337500,0.00823693
+LOWER,8,0.46000000,0.01683931
+LOWER,9,0.88000000,0.00824349
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

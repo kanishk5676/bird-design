@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chiroxiphia_boliviana
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 68.00 mm
+# Secondary1: 56.40 mm
+# Kipps Distance: 11.40 mm
+# Hand-Wing Index: 16.80
+# Tail Length: 45.60 mm
+# Aspect Ratio: 1.206
+# Pointedness Index: 0.1676
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1264
+# Max Thickness Position: 0.3399
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3666
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.04e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01063092,0.06842552
+UPPER,2,0.04252368,0.11751781
+UPPER,3,0.08859100,0.14477391
+UPPER,4,0.29573040,0.17725455
+UPPER,5,0.33992000,0.18483754
+UPPER,6,0.38410960,0.17219923
+UPPER,7,0.38856400,0.13681195
+UPPER,8,0.49656000,0.08507352
+UPPER,9,0.88000000,0.03232332
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01063092,-0.04113168
+LOWER,2,0.04252368,-0.01998356
+LOWER,3,0.08859100,-0.04641320
+LOWER,4,0.29573040,-0.04770744
+LOWER,5,0.33992000,-0.06792874
+LOWER,6,0.38410960,-0.04012445
+LOWER,7,0.38856400,0.00284582
+LOWER,8,0.49656000,0.01854809
+LOWER,9,0.88000000,0.00955827
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

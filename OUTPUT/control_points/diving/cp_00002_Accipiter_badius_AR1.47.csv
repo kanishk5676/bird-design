@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Accipiter_badius
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 186.70 mm
+# Secondary1: 127.40 mm
+# Kipps Distance: 62.50 mm
+# Hand-Wing Index: 32.90
+# Tail Length: 140.60 mm
+# Aspect Ratio: 1.465
+# Pointedness Index: 0.3348
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1080
+# Max Thickness Position: 0.3303
+# Max Camber/Chord: 0.0556
+# Max Camber Position: 0.3537
+# Leading Edge Radius: 0.0310
+# LE Droop: 0.0014
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.74e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00928598,0.05713585
+UPPER,2,0.03714390,0.10269710
+UPPER,3,0.07738313,0.12892174
+UPPER,4,0.28732620,0.15712286
+UPPER,5,0.33026000,0.16359992
+UPPER,6,0.37319380,0.15280482
+UPPER,7,0.37616700,0.12257856
+UPPER,8,0.48368000,0.07752789
+UPPER,9,0.88000000,0.02978269
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00928598,-0.03671790
+LOWER,2,0.03714390,-0.01506716
+LOWER,3,0.07738313,-0.03701302
+LOWER,4,0.28732620,-0.03502982
+LOWER,5,0.33026000,-0.05230197
+LOWER,6,0.37319380,-0.02855276
+LOWER,7,0.37616700,0.00815056
+LOWER,8,0.48368000,0.01938923
+LOWER,9,0.88000000,0.00959421
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

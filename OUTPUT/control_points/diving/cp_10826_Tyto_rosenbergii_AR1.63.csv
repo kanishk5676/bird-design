@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tyto_rosenbergii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 310.20 mm
+# Secondary1: 190.80 mm
+# Kipps Distance: 117.50 mm
+# Hand-Wing Index: 38.10
+# Tail Length: 135.20 mm
+# Aspect Ratio: 1.626
+# Pointedness Index: 0.3788
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1008
+# Max Thickness Position: 0.3271
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3495
+# Leading Edge Radius: 0.0297
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.38e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00890232,0.05379393
+UPPER,2,0.03560929,0.09709683
+UPPER,3,0.07418602,0.12271458
+UPPER,4,0.28461180,0.14925699
+UPPER,5,0.32714000,0.15530748
+UPPER,6,0.36966820,0.14522333
+UPPER,7,0.37216300,0.11698771
+UPPER,8,0.47952000,0.07453170
+UPPER,9,0.88000000,0.02876439
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00890232,-0.03549529
+LOWER,2,0.03560929,-0.01320619
+LOWER,3,0.07418602,-0.03343373
+LOWER,4,0.28461180,-0.03024089
+LOWER,5,0.32714000,-0.04637553
+LOWER,6,0.36966820,-0.02419040
+LOWER,7,0.37216300,0.01009571
+LOWER,8,0.47952000,0.01965109
+LOWER,9,0.88000000,0.00958283
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

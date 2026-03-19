@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Alectroenas_madagascariensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 171.00 mm
+# Secondary1: 113.50 mm
+# Kipps Distance: 57.50 mm
+# Hand-Wing Index: 33.60
+# Tail Length: 81.50 mm
+# Aspect Ratio: 1.507
+# Pointedness Index: 0.3363
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1079
+# Max Thickness Position: 0.3298
+# Max Camber/Chord: 0.0555
+# Max Camber Position: 0.3531
+# Leading Edge Radius: 0.0309
+# LE Droop: 0.0013
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.33e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00925693,0.05682157
+UPPER,2,0.03702771,0.10240040
+UPPER,3,0.07714106,0.12874211
+UPPER,4,0.28696080,0.15691879
+UPPER,5,0.32984000,0.16339248
+UPPER,6,0.37271920,0.15260299
+UPPER,7,0.37562800,0.12239243
+UPPER,8,0.48312000,0.07738353
+UPPER,9,0.88000000,0.02972068
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00925693,-0.03664371
+LOWER,2,0.03702771,-0.01510220
+LOWER,3,0.07714106,-0.03705014
+LOWER,4,0.28696080,-0.03513410
+LOWER,5,0.32984000,-0.05239728
+LOWER,6,0.37271920,-0.02866041
+LOWER,7,0.37562800,0.00802385
+LOWER,8,0.48312000,0.01930323
+LOWER,9,0.88000000,0.00955860
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

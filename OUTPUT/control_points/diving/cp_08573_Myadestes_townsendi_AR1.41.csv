@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Myadestes_townsendi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 113.30 mm
+# Secondary1: 80.60 mm
+# Kipps Distance: 34.30 mm
+# Hand-Wing Index: 29.90
+# Tail Length: 103.00 mm
+# Aspect Ratio: 1.406
+# Pointedness Index: 0.3027
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1132
+# Max Thickness Position: 0.3321
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3561
+# Leading Edge Radius: 0.0318
+# LE Droop: 0.0020
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.95e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00954111,0.05926664
+UPPER,2,0.03816442,0.10644459
+UPPER,3,0.07950922,0.13326534
+UPPER,4,0.28889220,0.16266879
+UPPER,5,0.33206000,0.16946020
+UPPER,6,0.37522780,0.15814118
+UPPER,7,0.37847700,0.12644792
+UPPER,8,0.48608000,0.07952274
+UPPER,9,0.88000000,0.03043781
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00954111,-0.03755842
+LOWER,2,0.03816442,-0.01652638
+LOWER,3,0.07950922,-0.03976614
+LOWER,4,0.28889220,-0.03880982
+LOWER,5,0.33206000,-0.05692025
+LOWER,6,0.37522780,-0.03201840
+LOWER,7,0.37847700,0.00646627
+LOWER,8,0.48608000,0.01904075
+LOWER,9,0.88000000,0.00953988
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

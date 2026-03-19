@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Apus_unicolor
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 149.50 mm
+# Secondary1: 42.30 mm
+# Kipps Distance: 107.20 mm
+# Hand-Wing Index: 71.70
+# Tail Length: 69.50 mm
+# Aspect Ratio: 3.534
+# Pointedness Index: 0.7171
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0766
+# Max Thickness Position: 0.3070
+# Max Camber/Chord: 0.0436
+# Max Camber Position: 0.3226
+# Leading Edge Radius: 0.0205
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.98e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00614899,0.03689394
+UPPER,2,0.02459596,0.07534842
+UPPER,3,0.05124158,0.09525864
+UPPER,4,0.26707260,0.11560448
+UPPER,5,0.30698000,0.12020289
+UPPER,6,0.34688740,0.11253888
+UPPER,7,0.34629100,0.09107965
+UPPER,8,0.45264000,0.05848759
+UPPER,9,0.88000000,0.02268506
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00614899,-0.02459596
+LOWER,2,0.02459596,-0.00927787
+LOWER,3,0.05124158,-0.02441239
+LOWER,4,0.26707260,-0.02081492
+LOWER,5,0.30698000,-0.03307734
+LOWER,6,0.34688740,-0.01621652
+LOWER,7,0.34629100,0.00984112
+LOWER,8,0.45264000,0.01627930
+LOWER,9,0.88000000,0.00782509
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

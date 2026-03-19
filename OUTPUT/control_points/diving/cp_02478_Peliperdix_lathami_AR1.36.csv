@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Peliperdix_lathami
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 135.20 mm
+# Secondary1: 99.20 mm
+# Kipps Distance: 35.80 mm
+# Hand-Wing Index: 26.50
+# Tail Length: 61.00 mm
+# Aspect Ratio: 1.363
+# Pointedness Index: 0.2648
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1149
+# Max Thickness Position: 0.3341
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3588
+# Leading Edge Radius: 0.0328
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.45e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00983866,0.06173194
+UPPER,2,0.03935462,0.10853796
+UPPER,3,0.08198880,0.13510317
+UPPER,4,0.29066700,0.16493758
+UPPER,5,0.33410000,0.17183236
+UPPER,6,0.37753300,0.16034106
+UPPER,7,0.38109500,0.12816542
+UPPER,8,0.48880000,0.08055710
+UPPER,9,0.88000000,0.03082240
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00983866,-0.03854462
+LOWER,2,0.03935462,-0.01685037
+LOWER,3,0.08198880,-0.04046662
+LOWER,4,0.29066700,-0.03960753
+LOWER,5,0.33410000,-0.05799361
+LOWER,6,0.37753300,-0.03271275
+LOWER,7,0.38109500,0.00635766
+LOWER,8,0.48880000,0.01920219
+LOWER,9,0.88000000,0.00963332
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

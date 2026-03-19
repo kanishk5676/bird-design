@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Limnodromus_semipalmatus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 174.20 mm
+# Secondary1: 83.50 mm
+# Kipps Distance: 91.80 mm
+# Hand-Wing Index: 52.40
+# Tail Length: 61.20 mm
+# Aspect Ratio: 2.086
+# Pointedness Index: 0.5270
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0921
+# Max Thickness Position: 0.3186
+# Max Camber/Chord: 0.0505
+# Max Camber Position: 0.3381
+# Leading Edge Radius: 0.0257
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.99e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00770896,0.04625376
+UPPER,2,0.03083584,0.08897592
+UPPER,3,0.06424133,0.11276859
+UPPER,4,0.27714720,0.13706640
+UPPER,5,0.31856000,0.14259092
+UPPER,6,0.35997280,0.13338339
+UPPER,7,0.36115200,0.10760230
+UPPER,8,0.46808000,0.06871935
+UPPER,9,0.88000000,0.02656195
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00770896,-0.03083584
+LOWER,2,0.03083584,-0.01178364
+LOWER,3,0.06424133,-0.03016651
+LOWER,4,0.27714720,-0.02682767
+LOWER,5,0.31856000,-0.04155972
+LOWER,6,0.35997280,-0.02130315
+LOWER,7,0.36115200,0.01000246
+LOWER,8,0.46808000,0.01842913
+LOWER,9,0.88000000,0.00894589
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

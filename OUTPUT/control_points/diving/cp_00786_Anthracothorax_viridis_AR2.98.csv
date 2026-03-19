@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anthracothorax_viridis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 62.80 mm
+# Secondary1: 21.10 mm
+# Kipps Distance: 41.70 mm
+# Hand-Wing Index: 66.40
+# Tail Length: 37.00 mm
+# Aspect Ratio: 2.976
+# Pointedness Index: 0.6640
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0847
+# Max Thickness Position: 0.3102
+# Max Camber/Chord: 0.0457
+# Max Camber Position: 0.3269
+# Leading Edge Radius: 0.0219
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.64e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00658170,0.03949017
+UPPER,2,0.02632678,0.08117019
+UPPER,3,0.05484746,0.10300516
+UPPER,4,0.26983920,0.12529671
+UPPER,5,0.31016000,0.13038006
+UPPER,6,0.35048080,0.12190781
+UPPER,7,0.35037200,0.09818552
+UPPER,8,0.45688000,0.06253125
+UPPER,9,0.88000000,0.02412768
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00658170,-0.02632678
+LOWER,2,0.02632678,-0.01113103
+LOWER,3,0.05484746,-0.02813653
+LOWER,4,0.26983920,-0.02550926
+LOWER,5,0.31016000,-0.03906486
+LOWER,6,0.35048080,-0.02042592
+LOWER,7,0.35037200,0.00837972
+LOWER,8,0.45688000,0.01644657
+LOWER,9,0.88000000,0.00802550
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

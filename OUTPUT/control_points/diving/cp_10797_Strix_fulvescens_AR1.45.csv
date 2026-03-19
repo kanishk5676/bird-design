@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Strix_fulvescens
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 304.20 mm
+# Secondary1: 210.50 mm
+# Kipps Distance: 93.80 mm
+# Hand-Wing Index: 30.80
+# Tail Length: 174.70 mm
+# Aspect Ratio: 1.445
+# Pointedness Index: 0.3083
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1068
+# Max Thickness Position: 0.3315
+# Max Camber/Chord: 0.0561
+# Max Camber Position: 0.3554
+# Leading Edge Radius: 0.0316
+# LE Droop: 0.0018
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.18e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00948494,0.05874962
+UPPER,2,0.03793974,0.10291319
+UPPER,3,0.07904113,0.12849452
+UPPER,4,0.28842240,0.15647673
+UPPER,5,0.33152000,0.16288449
+UPPER,6,0.37461760,0.15220488
+UPPER,7,0.37778400,0.12230198
+UPPER,8,0.48536000,0.07757805
+UPPER,9,0.88000000,0.02985728
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00948494,-0.03738774
+LOWER,2,0.03793974,-0.01454381
+LOWER,3,0.07904113,-0.03614107
+LOWER,4,0.28842240,-0.03362032
+LOWER,5,0.33152000,-0.05070769
+LOWER,6,0.37461760,-0.02721255
+LOWER,7,0.37778400,0.00909812
+LOWER,8,0.48536000,0.01982335
+LOWER,9,0.88000000,0.00975026
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

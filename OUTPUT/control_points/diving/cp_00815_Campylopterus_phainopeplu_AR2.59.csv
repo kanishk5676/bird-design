@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Campylopterus_phainopeplus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 68.10 mm
+# Secondary1: 26.30 mm
+# Kipps Distance: 41.80 mm
+# Hand-Wing Index: 61.40
+# Tail Length: 40.00 mm
+# Aspect Ratio: 2.589
+# Pointedness Index: 0.6138
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0888
+# Max Thickness Position: 0.3132
+# Max Camber/Chord: 0.0475
+# Max Camber Position: 0.3309
+# Leading Edge Radius: 0.0233
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.63e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00699076,0.04194458
+UPPER,2,0.02796305,0.08475471
+UPPER,3,0.05825636,0.10760523
+UPPER,4,0.27244920,0.13093080
+UPPER,5,0.31316000,0.13625585
+UPPER,6,0.35387080,0.12738077
+UPPER,7,0.35422200,0.10253056
+UPPER,8,0.46088000,0.06522954
+UPPER,9,0.88000000,0.02515200
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00699076,-0.02796305
+LOWER,2,0.02796305,-0.01177345
+LOWER,3,0.05825636,-0.02962309
+LOWER,4,0.27244920,-0.02704553
+LOWER,5,0.31316000,-0.04124565
+LOWER,6,0.35387080,-0.02172048
+LOWER,7,0.35422200,0.00845477
+LOWER,8,0.46088000,0.01702806
+LOWER,9,0.88000000,0.00832625
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Trochalopteron_melanostigma
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 97.80 mm
+# Secondary1: 91.00 mm
+# Kipps Distance: 7.00 mm
+# Hand-Wing Index: 7.00
+# Tail Length: 112.20 mm
+# Aspect Ratio: 1.075
+# Pointedness Index: 0.0716
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1323
+# Max Thickness Position: 0.3458
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3744
+# Leading Edge Radius: 0.0381
+# LE Droop: 0.0066
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.61e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01142077,0.07512462
+UPPER,2,0.04568308,0.12336546
+UPPER,3,0.09517308,0.15004590
+UPPER,4,0.30084600,0.18392162
+UPPER,5,0.34580000,0.19186167
+UPPER,6,0.39075400,0.17862825
+UPPER,7,0.39611000,0.14157469
+UPPER,8,0.50440000,0.08765194
+UPPER,9,0.88000000,0.03320718
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01142077,-0.04370308
+LOWER,2,0.04568308,-0.02151231
+LOWER,3,0.09517308,-0.04937117
+LOWER,4,0.30084600,-0.05163320
+LOWER,5,0.34580000,-0.07280667
+LOWER,6,0.39075400,-0.04369315
+LOWER,7,0.39611000,0.00130047
+LOWER,8,0.50440000,0.01838027
+LOWER,9,0.88000000,0.00958851
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

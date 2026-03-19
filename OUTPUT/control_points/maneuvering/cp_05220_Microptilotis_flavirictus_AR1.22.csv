@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Microptilotis_flavirictus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 77.90 mm
+# Secondary1: 64.10 mm
+# Kipps Distance: 11.70 mm
+# Hand-Wing Index: 15.40
+# Tail Length: 64.90 mm
+# Aspect Ratio: 1.215
+# Pointedness Index: 0.1502
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1269
+# Max Thickness Position: 0.3408
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3677
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0049
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.20e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01076278,0.06949667
+UPPER,2,0.04305111,0.11820002
+UPPER,3,0.08968982,0.14529754
+UPPER,4,0.29646120,0.17790144
+UPPER,5,0.34076000,0.18551406
+UPPER,6,0.38505880,0.17282636
+UPPER,7,0.38964200,0.13730082
+UPPER,8,0.49768000,0.08536708
+UPPER,9,0.88000000,0.03243225
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01076278,-0.04157511
+LOWER,2,0.04305111,-0.02007764
+LOWER,3,0.08968982,-0.04661557
+LOWER,4,0.29646120,-0.04793955
+LOWER,5,0.34076000,-0.06823986
+LOWER,6,0.38505880,-0.04032693
+LOWER,7,0.38964200,0.00281124
+LOWER,8,0.49768000,0.01859223
+LOWER,9,0.88000000,0.00958420
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

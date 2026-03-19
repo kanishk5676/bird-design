@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nonnula_rubecula
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 65.50 mm
+# Secondary1: 51.00 mm
+# Kipps Distance: 14.50 mm
+# Hand-Wing Index: 22.20
+# Tail Length: 59.00 mm
+# Aspect Ratio: 1.284
+# Pointedness Index: 0.2214
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1222
+# Max Thickness Position: 0.3367
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3622
+# Leading Edge Radius: 0.0340
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01019167,0.06471003
+UPPER,2,0.04076669,0.11368922
+UPPER,3,0.08493060,0.14105807
+UPPER,4,0.29291160,0.17256350
+UPPER,5,0.33668000,0.17989790
+UPPER,6,0.38044840,0.16767390
+UPPER,7,0.38440600,0.13344670
+UPPER,8,0.49224000,0.08323642
+UPPER,9,0.88000000,0.03168920
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01019167,-0.03969869
+LOWER,2,0.04076669,-0.01893654
+LOWER,3,0.08493060,-0.04437657
+LOWER,4,0.29291160,-0.04502370
+LOWER,5,0.33668000,-0.06458210
+LOWER,6,0.38044840,-0.03768930
+LOWER,7,0.38440600,0.00387230
+LOWER,8,0.49224000,0.01863430
+LOWER,9,0.88000000,0.00952487
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

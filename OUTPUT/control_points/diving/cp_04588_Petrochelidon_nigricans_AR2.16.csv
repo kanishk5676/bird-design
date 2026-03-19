@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Petrochelidon_nigricans
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 107.60 mm
+# Secondary1: 49.90 mm
+# Kipps Distance: 56.80 mm
+# Hand-Wing Index: 53.20
+# Tail Length: 58.10 mm
+# Aspect Ratio: 2.156
+# Pointedness Index: 0.5279
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0940
+# Max Thickness Position: 0.3181
+# Max Camber/Chord: 0.0503
+# Max Camber Position: 0.3374
+# Leading Edge Radius: 0.0256
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.22e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00767989,0.04607932
+UPPER,2,0.03071955,0.08971574
+UPPER,3,0.06399906,0.11391029
+UPPER,4,0.27672960,0.13860748
+UPPER,5,0.31808000,0.14424640
+UPPER,6,0.35943040,0.13484820
+UPPER,7,0.36053600,0.10853324
+UPPER,8,0.46744000,0.06903970
+UPPER,9,0.88000000,0.02661903
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00767989,-0.03071955
+LOWER,2,0.03071955,-0.01248170
+LOWER,3,0.06399906,-0.03138794
+LOWER,4,0.27672960,-0.02868048
+LOWER,5,0.31808000,-0.04371760
+LOWER,6,0.35943040,-0.02304156
+LOWER,7,0.36053600,0.00891232
+LOWER,8,0.46744000,0.01800645
+LOWER,9,0.88000000,0.00880682
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

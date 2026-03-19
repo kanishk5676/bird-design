@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Euptilotus_eutilotus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 91.50 mm
+# Secondary1: 73.40 mm
+# Kipps Distance: 17.60 mm
+# Hand-Wing Index: 19.30
+# Tail Length: 77.30 mm
+# Aspect Ratio: 1.247
+# Pointedness Index: 0.1923
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1229
+# Max Thickness Position: 0.3384
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3646
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.48e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01042844,0.06671062
+UPPER,2,0.04171375,0.11496081
+UPPER,3,0.08690364,0.14191842
+UPPER,4,0.29442540,0.17359707
+UPPER,5,0.33842000,0.18096898
+UPPER,6,0.38241460,0.16868246
+UPPER,7,0.38663900,0.13428020
+UPPER,8,0.49456000,0.08379047
+UPPER,9,0.88000000,0.03190865
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01042844,-0.04047175
+LOWER,2,0.04171375,-0.01898054
+LOWER,3,0.08690364,-0.04453408
+LOWER,4,0.29442540,-0.04510300
+LOWER,5,0.33842000,-0.06476143
+LOWER,6,0.38241460,-0.03773108
+LOWER,7,0.38663900,0.00404308
+LOWER,8,0.49456000,0.01882321
+LOWER,9,0.88000000,0.00961134
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

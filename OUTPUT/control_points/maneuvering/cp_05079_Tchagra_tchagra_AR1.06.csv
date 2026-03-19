@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tchagra_tchagra
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 79.30 mm
+# Secondary1: 74.70 mm
+# Kipps Distance: 4.60 mm
+# Hand-Wing Index: 5.80
+# Tail Length: 86.80 mm
+# Aspect Ratio: 1.062
+# Pointedness Index: 0.0580
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1345
+# Max Thickness Position: 0.3465
+# Max Camber/Chord: 0.0596
+# Max Camber Position: 0.3754
+# Leading Edge Radius: 0.0384
+# LE Droop: 0.0068
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.23e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01152668,0.07600009
+UPPER,2,0.04610673,0.12475131
+UPPER,3,0.09605568,0.15166601
+UPPER,4,0.30147240,0.18601697
+UPPER,5,0.34652000,0.19408449
+UPPER,6,0.39156760,0.18063863
+UPPER,7,0.39703400,0.14299023
+UPPER,8,0.50536000,0.08833042
+UPPER,9,0.88000000,0.03341453
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01152668,-0.04405473
+LOWER,2,0.04610673,-0.02215768
+LOWER,3,0.09605568,-0.05055807
+LOWER,4,0.30147240,-0.05331932
+LOWER,5,0.34652000,-0.07483269
+LOWER,6,0.39156760,-0.04525180
+LOWER,7,0.39703400,0.00046412
+LOWER,8,0.50536000,0.01814386
+LOWER,9,0.88000000,0.00952813
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

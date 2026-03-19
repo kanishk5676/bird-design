@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tangara_florida
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 65.20 mm
+# Secondary1: 49.20 mm
+# Kipps Distance: 16.00 mm
+# Hand-Wing Index: 24.50
+# Tail Length: 36.20 mm
+# Aspect Ratio: 1.325
+# Pointedness Index: 0.2454
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1197
+# Max Thickness Position: 0.3353
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3604
+# Leading Edge Radius: 0.0333
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.16e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00999877,0.06309260
+UPPER,2,0.03999507,0.11165668
+UPPER,3,0.08332305,0.13891021
+UPPER,4,0.29171100,0.16983649
+UPPER,5,0.33530000,0.17702130
+UPPER,6,0.37888900,0.16504661
+UPPER,7,0.38263500,0.13151747
+UPPER,8,0.49040000,0.08221236
+UPPER,9,0.88000000,0.03134402
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00999877,-0.03906507
+LOWER,2,0.03999507,-0.01827299
+LOWER,3,0.08332305,-0.04310701
+LOWER,4,0.29171100,-0.04331304
+LOWER,5,0.33530000,-0.06247255
+LOWER,6,0.37888900,-0.03612823
+LOWER,7,0.38263500,0.00458573
+LOWER,8,0.49040000,0.01874554
+LOWER,9,0.88000000,0.00952872
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

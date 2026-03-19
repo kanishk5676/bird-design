@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ognorhynchus_icterotis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 220.00 mm
+# Secondary1: 111.50 mm
+# Kipps Distance: 108.50 mm
+# Hand-Wing Index: 49.40
+# Tail Length: 173.20 mm
+# Aspect Ratio: 1.973
+# Pointedness Index: 0.4932
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0938
+# Max Thickness Position: 0.3204
+# Max Camber/Chord: 0.0514
+# Max Camber Position: 0.3405
+# Leading Edge Radius: 0.0266
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.65e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00797313,0.04783880
+UPPER,2,0.03189253,0.09061686
+UPPER,3,0.06644277,0.11485383
+UPPER,4,0.27871320,0.13960509
+UPPER,5,0.32036000,0.14523335
+UPPER,6,0.36200680,0.13585292
+UPPER,7,0.36346200,0.10958773
+UPPER,8,0.47048000,0.06997992
+UPPER,9,0.88000000,0.02704740
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00797313,-0.03189253
+LOWER,2,0.03189253,-0.01201717
+LOWER,3,0.06644277,-0.03074908
+LOWER,4,0.27871320,-0.02736647
+LOWER,5,0.32036000,-0.04237515
+LOWER,6,0.36200680,-0.02173821
+LOWER,7,0.36346200,0.01015523
+LOWER,8,0.47048000,0.01875345
+LOWER,9,0.88000000,0.00910511
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

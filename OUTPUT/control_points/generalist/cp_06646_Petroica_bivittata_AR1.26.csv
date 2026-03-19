@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Petroica_bivittata
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 74.00 mm
+# Secondary1: 58.50 mm
+# Kipps Distance: 15.40 mm
+# Hand-Wing Index: 20.90
+# Tail Length: 49.20 mm
+# Aspect Ratio: 1.265
+# Pointedness Index: 0.2081
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1227
+# Max Thickness Position: 0.3375
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3633
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.14e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01029911,0.06561465
+UPPER,2,0.04119643,0.11435317
+UPPER,3,0.08582591,0.14157741
+UPPER,4,0.29359020,0.17320029
+UPPER,5,0.33746000,0.18056225
+UPPER,6,0.38132980,0.16829232
+UPPER,7,0.38540700,0.13393652
+UPPER,8,0.49328000,0.08353933
+UPPER,9,0.88000000,0.03180387
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01029911,-0.04005043
+LOWER,2,0.04119643,-0.01901173
+LOWER,3,0.08582591,-0.04454861
+LOWER,4,0.29359020,-0.04520442
+LOWER,5,0.33746000,-0.06483630
+LOWER,6,0.38132980,-0.03784246
+LOWER,7,0.38540700,0.00387529
+LOWER,8,0.49328000,0.01869715
+LOWER,9,0.88000000,0.00955777
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

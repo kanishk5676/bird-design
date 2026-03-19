@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Centropus_chalybeus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 195.70 mm
+# Secondary1: 176.30 mm
+# Kipps Distance: 17.80 mm
+# Hand-Wing Index: 9.20
+# Tail Length: 268.70 mm
+# Aspect Ratio: 1.110
+# Pointedness Index: 0.0910
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1266
+# Max Thickness Position: 0.3445
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3726
+# Leading Edge Radius: 0.0375
+# LE Droop: 0.0062
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.98e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01125461,0.07368764
+UPPER,2,0.04501843,0.11990917
+UPPER,3,0.09378839,0.14576297
+UPPER,4,0.29969760,0.17837005
+UPPER,5,0.34448000,0.18596846
+UPPER,6,0.38926240,0.17330445
+UPPER,7,0.39441600,0.13784523
+UPPER,8,0.50264000,0.08588836
+UPPER,9,0.88000000,0.03267600
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01125461,-0.04317043
+LOWER,2,0.04501843,-0.01975988
+LOWER,3,0.09378839,-0.04616017
+LOWER,4,0.29969760,-0.04704925
+LOWER,5,0.34448000,-0.06731166
+LOWER,6,0.38926240,-0.03945084
+LOWER,7,0.39441600,0.00360678
+LOWER,8,0.50264000,0.01905400
+LOWER,9,0.88000000,0.00976650
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

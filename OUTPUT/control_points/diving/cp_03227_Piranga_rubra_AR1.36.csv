@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Piranga_rubra
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 92.00 mm
+# Secondary1: 67.40 mm
+# Kipps Distance: 27.90 mm
+# Hand-Wing Index: 29.20
+# Tail Length: 71.30 mm
+# Aspect Ratio: 1.365
+# Pointedness Index: 0.3033
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1149
+# Max Thickness Position: 0.3325
+# Max Camber/Chord: 0.0564
+# Max Camber Position: 0.3566
+# Leading Edge Radius: 0.0319
+# LE Droop: 0.0022
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.49e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00955985,0.05951910
+UPPER,2,0.03823940,0.10756458
+UPPER,3,0.07966541,0.13463444
+UPPER,4,0.28925760,0.16442839
+UPPER,5,0.33248000,0.17132328
+UPPER,6,0.37570240,0.15983179
+UPPER,7,0.37901600,0.12765563
+UPPER,8,0.48664000,0.08012331
+UPPER,9,0.88000000,0.03062838
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00955985,-0.03759140
+LOWER,2,0.03823940,-0.01702982
+LOWER,3,0.07966541,-0.04070277
+LOWER,4,0.28925760,-0.04012010
+LOWER,5,0.33248000,-0.05850648
+LOWER,6,0.37570240,-0.03322521
+LOWER,7,0.37901600,0.00584585
+LOWER,8,0.48664000,0.01888512
+LOWER,9,0.88000000,0.00950550
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

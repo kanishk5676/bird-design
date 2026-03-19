@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Celeus_elegans
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 161.30 mm
+# Secondary1: 132.50 mm
+# Kipps Distance: 28.80 mm
+# Hand-Wing Index: 17.80
+# Tail Length: 99.90 mm
+# Aspect Ratio: 1.217
+# Pointedness Index: 0.1785
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1209
+# Max Thickness Position: 0.3393
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3658
+# Leading Edge Radius: 0.0351
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.08e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01054472,0.06770831
+UPPER,2,0.04217887,0.11444464
+UPPER,3,0.08787266,0.14067803
+UPPER,4,0.29520840,0.17193461
+UPPER,5,0.33932000,0.17918674
+UPPER,6,0.38343160,0.16709986
+UPPER,7,0.38779400,0.13325658
+UPPER,8,0.49576000,0.08341349
+UPPER,9,0.88000000,0.03183031
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01054472,-0.04084687
+LOWER,2,0.04217887,-0.01826676
+LOWER,3,0.08787266,-0.04327769
+LOWER,4,0.29520840,-0.04321193
+LOWER,5,0.33932000,-0.06255094
+LOWER,6,0.38343160,-0.03595980
+LOWER,7,0.38779400,0.00513561
+LOWER,8,0.49576000,0.01923546
+LOWER,9,0.88000000,0.00974472
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Turdus_philomelos
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 116.00 mm
+# Secondary1: 80.50 mm
+# Kipps Distance: 35.70 mm
+# Hand-Wing Index: 30.70
+# Tail Length: 81.70 mm
+# Aspect Ratio: 1.441
+# Pointedness Index: 0.3078
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1124
+# Max Thickness Position: 0.3316
+# Max Camber/Chord: 0.0561
+# Max Camber Position: 0.3554
+# Leading Edge Radius: 0.0316
+# LE Droop: 0.0019
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00949101,0.05880607
+UPPER,2,0.03796404,0.10576136
+UPPER,3,0.07909176,0.13256089
+UPPER,4,0.28847460,0.16178150
+UPPER,5,0.33158000,0.16852657
+UPPER,6,0.37468540,0.15728479
+UPPER,7,0.37786100,0.12580781
+UPPER,8,0.48544000,0.07916944
+UPPER,9,0.88000000,0.03031476
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00949101,-0.03740604
+LOWER,2,0.03796404,-0.01633562
+LOWER,3,0.07909176,-0.03939229
+LOWER,4,0.28847460,-0.03832217
+LOWER,5,0.33158000,-0.05630902
+LOWER,6,0.37468540,-0.03157711
+LOWER,7,0.37786100,0.00664494
+LOWER,8,0.48544000,0.01904895
+LOWER,9,0.88000000,0.00953048
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

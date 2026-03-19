@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pitta_superba
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 122.60 mm
+# Secondary1: 113.80 mm
+# Kipps Distance: 8.50 mm
+# Hand-Wing Index: 7.00
+# Tail Length: 48.40 mm
+# Aspect Ratio: 1.077
+# Pointedness Index: 0.0693
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1311
+# Max Thickness Position: 0.3458
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3744
+# Leading Edge Radius: 0.0381
+# LE Droop: 0.0066
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.15e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01143221,0.07519327
+UPPER,2,0.04572884,0.12273140
+UPPER,3,0.09526843,0.14913286
+UPPER,4,0.30084600,0.18272959
+UPPER,5,0.34580000,0.19059355
+UPPER,6,0.39075400,0.17748695
+UPPER,7,0.39611000,0.14078845
+UPPER,8,0.50440000,0.08729687
+UPPER,9,0.88000000,0.03310573
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01143221,-0.04374884
+LOWER,2,0.04572884,-0.02110651
+LOWER,3,0.09526843,-0.04863566
+LOWER,4,0.30084600,-0.05056799
+LOWER,5,0.34580000,-0.07153855
+LOWER,6,0.39075400,-0.04270402
+LOWER,7,0.39611000,0.00185844
+LOWER,8,0.50440000,0.01855780
+LOWER,9,0.88000000,0.00963923
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

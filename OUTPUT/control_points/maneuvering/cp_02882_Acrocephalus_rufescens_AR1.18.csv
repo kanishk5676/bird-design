@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Acrocephalus_rufescens
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 72.30 mm
+# Secondary1: 61.50 mm
+# Kipps Distance: 10.80 mm
+# Hand-Wing Index: 14.90
+# Tail Length: 69.00 mm
+# Aspect Ratio: 1.176
+# Pointedness Index: 0.1494
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1277
+# Max Thickness Position: 0.3411
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3681
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01078223,0.06971341
+UPPER,2,0.04312894,0.11875899
+UPPER,3,0.08985195,0.14593936
+UPPER,4,0.29672220,0.17872672
+UPPER,5,0.34106000,0.18638800
+UPPER,6,0.38539780,0.17361920
+UPPER,7,0.39002700,0.13786655
+UPPER,8,0.49808000,0.08564763
+UPPER,9,0.88000000,0.03252103
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01078223,-0.04162294
+LOWER,2,0.04312894,-0.02031518
+LOWER,3,0.08985195,-0.04705707
+LOWER,4,0.29672220,-0.04855797
+LOWER,5,0.34106000,-0.06898805
+LOWER,6,0.38539780,-0.04089669
+LOWER,7,0.39002700,0.00251724
+LOWER,8,0.49808000,0.01851766
+LOWER,9,0.88000000,0.00956747
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

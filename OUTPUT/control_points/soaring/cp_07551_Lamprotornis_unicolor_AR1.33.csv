@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lamprotornis_unicolor
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 123.20 mm
+# Secondary1: 92.80 mm
+# Kipps Distance: 30.80 mm
+# Hand-Wing Index: 25.00
+# Tail Length: 162.70 mm
+# Aspect Ratio: 1.328
+# Pointedness Index: 0.2500
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1166
+# Max Thickness Position: 0.3350
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3600
+# Leading Edge Radius: 0.0332
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00996000,0.06276000
+UPPER,2,0.03984000,0.10992863
+UPPER,3,0.08300000,0.13659223
+UPPER,4,0.29145000,0.16682770
+UPPER,5,0.33500000,0.17382601
+UPPER,6,0.37855000,0.16216216
+UPPER,7,0.38225000,0.12950338
+UPPER,8,0.49000000,0.08126816
+UPPER,9,0.88000000,0.03106233
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00996000,-0.03894000
+LOWER,2,0.03984000,-0.01730870
+LOWER,3,0.08300000,-0.04134409
+LOWER,4,0.29145000,-0.04078885
+LOWER,5,0.33500000,-0.05945101
+LOWER,6,0.37855000,-0.03379054
+LOWER,7,0.38225000,0.00586655
+LOWER,8,0.49000000,0.01912686
+LOWER,9,0.88000000,0.00963133
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

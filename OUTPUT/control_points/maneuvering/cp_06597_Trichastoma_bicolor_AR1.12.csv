@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Trichastoma_bicolor
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 84.30 mm
+# Secondary1: 75.00 mm
+# Kipps Distance: 9.10 mm
+# Hand-Wing Index: 10.80
+# Tail Length: 65.20 mm
+# Aspect Ratio: 1.124
+# Pointedness Index: 0.1079
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1301
+# Max Thickness Position: 0.3435
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3714
+# Leading Edge Radius: 0.0371
+# LE Droop: 0.0058
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.33e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01111899,0.07255392
+UPPER,2,0.04447594,0.12119327
+UPPER,3,0.09265822,0.14812152
+UPPER,4,0.29886240,0.18148145
+UPPER,5,0.34352000,0.18928867
+UPPER,6,0.38817760,0.17627664
+UPPER,7,0.39318400,0.13984297
+UPPER,8,0.50136000,0.08672681
+UPPER,9,0.88000000,0.03289361
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01111899,-0.04272394
+LOWER,2,0.04447594,-0.02092955
+LOWER,3,0.09265822,-0.04825229
+LOWER,4,0.29886240,-0.05013262
+LOWER,5,0.34352000,-0.07095187
+LOWER,6,0.38817760,-0.04232541
+LOWER,7,0.39318400,0.00191548
+LOWER,8,0.50136000,0.01846757
+LOWER,9,0.88000000,0.00958729
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Coccycua_cinerea
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 109.80 mm
+# Secondary1: 82.80 mm
+# Kipps Distance: 26.90 mm
+# Hand-Wing Index: 24.60
+# Tail Length: 106.00 mm
+# Aspect Ratio: 1.326
+# Pointedness Index: 0.2450
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1176
+# Max Thickness Position: 0.3352
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3603
+# Leading Edge Radius: 0.0333
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.87e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00999779,0.06306672
+UPPER,2,0.03999115,0.11055176
+UPPER,3,0.08331489,0.13735318
+UPPER,4,0.29165880,0.16780716
+UPPER,5,0.33524000,0.17486355
+UPPER,6,0.37882120,0.16310291
+UPPER,7,0.38255800,0.13017310
+UPPER,8,0.49032000,0.08159834
+UPPER,9,0.88000000,0.03116621
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00999779,-0.03906715
+LOWER,2,0.03999115,-0.01759408
+LOWER,3,0.08331489,-0.04187348
+LOWER,4,0.29165880,-0.04153232
+LOWER,5,0.33524000,-0.06034935
+LOWER,6,0.37882120,-0.03447593
+LOWER,7,0.38255800,0.00551026
+LOWER,8,0.49032000,0.01903450
+LOWER,9,0.88000000,0.00961002
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

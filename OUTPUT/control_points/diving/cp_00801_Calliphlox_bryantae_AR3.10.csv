@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Calliphlox_bryantae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 41.60 mm
+# Secondary1: 13.40 mm
+# Kipps Distance: 28.20 mm
+# Hand-Wing Index: 67.70
+# Tail Length: 30.00 mm
+# Aspect Ratio: 3.104
+# Pointedness Index: 0.6779
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0854
+# Max Thickness Position: 0.3094
+# Max Camber/Chord: 0.0452
+# Max Camber Position: 0.3258
+# Leading Edge Radius: 0.0216
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.10e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00647117,0.03882701
+UPPER,2,0.02588467,0.08110144
+UPPER,3,0.05392640,0.10305841
+UPPER,4,0.26916060,0.12546695
+UPPER,5,0.30938000,0.13059313
+UPPER,6,0.34959940,0.12204949
+UPPER,7,0.34937100,0.09812731
+UPPER,8,0.45584000,0.06230544
+UPPER,9,0.88000000,0.02399448
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00647117,-0.02588467
+LOWER,2,0.02588467,-0.01153476
+LOWER,3,0.05392640,-0.02878097
+LOWER,4,0.26916060,-0.02660976
+LOWER,5,0.30938000,-0.04027958
+LOWER,6,0.34959940,-0.02148358
+LOWER,7,0.34937100,0.00756478
+LOWER,8,0.45584000,0.01603611
+LOWER,9,0.88000000,0.00787174
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Kupeornis_rufocinctus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 100.80 mm
+# Secondary1: 92.20 mm
+# Kipps Distance: 8.60 mm
+# Hand-Wing Index: 8.50
+# Tail Length: 79.00 mm
+# Aspect Ratio: 1.093
+# Pointedness Index: 0.0853
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1310
+# Max Thickness Position: 0.3449
+# Max Camber/Chord: 0.0594
+# Max Camber Position: 0.3732
+# Leading Edge Radius: 0.0377
+# LE Droop: 0.0063
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.67e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01130478,0.07412869
+UPPER,2,0.04521912,0.12226793
+UPPER,3,0.09420651,0.14893793
+UPPER,4,0.30006300,0.18250187
+UPPER,5,0.34490000,0.19035979
+UPPER,6,0.38973700,0.17726325
+UPPER,7,0.39495500,0.14059294
+UPPER,8,0.50320000,0.08715554
+UPPER,9,0.88000000,0.03304710
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01130478,-0.04332912
+LOWER,2,0.04521912,-0.02112090
+LOWER,3,0.09420651,-0.04863853
+LOWER,4,0.30006300,-0.05061658
+LOWER,5,0.34490000,-0.07157104
+LOWER,6,0.38973700,-0.04275865
+LOWER,7,0.39495500,0.00176959
+LOWER,8,0.50320000,0.01848935
+LOWER,9,0.88000000,0.00960998
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

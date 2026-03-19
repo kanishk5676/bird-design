@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Clanga_clanga
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 510.60 mm
+# Secondary1: 314.80 mm
+# Kipps Distance: 192.20 mm
+# Hand-Wing Index: 37.90
+# Tail Length: 261.40 mm
+# Aspect Ratio: 1.622
+# Pointedness Index: 0.3764
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0980
+# Max Thickness Position: 0.3273
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3497
+# Leading Edge Radius: 0.0297
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.46e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00892052,0.05394311
+UPPER,2,0.03568207,0.09578164
+UPPER,3,0.07433765,0.12074852
+UPPER,4,0.28471620,0.14668053
+UPPER,5,0.32726000,0.15256351
+UPPER,6,0.36980380,0.14275855
+UPPER,7,0.37231700,0.11530468
+UPPER,8,0.47968000,0.07379075
+UPPER,9,0.88000000,0.02855927
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00892052,-0.03555607
+LOWER,2,0.03568207,-0.01229596
+LOWER,3,0.07433765,-0.03179230
+LOWER,4,0.28471620,-0.02784763
+LOWER,5,0.32726000,-0.04353556
+LOWER,6,0.36980380,-0.02196466
+LOWER,7,0.37231700,0.01137218
+LOWER,8,0.47968000,0.02007173
+LOWER,9,0.88000000,0.00970651
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

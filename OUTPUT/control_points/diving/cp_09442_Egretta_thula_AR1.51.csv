@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Egretta_thula
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 252.80 mm
+# Secondary1: 167.30 mm
+# Kipps Distance: 79.80 mm
+# Hand-Wing Index: 31.90
+# Tail Length: 110.30 mm
+# Aspect Ratio: 1.511
+# Pointedness Index: 0.3157
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1070
+# Max Thickness Position: 0.3309
+# Max Camber/Chord: 0.0559
+# Max Camber Position: 0.3545
+# Leading Edge Radius: 0.0314
+# LE Droop: 0.0016
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.60e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00941397,0.05810382
+UPPER,2,0.03765588,0.10260060
+UPPER,3,0.07844976,0.12843033
+UPPER,4,0.28784820,0.15643867
+UPPER,5,0.33086000,0.16285852
+UPPER,6,0.37387180,0.15215876
+UPPER,7,0.37693700,0.12219945
+UPPER,8,0.48448000,0.07744114
+UPPER,9,0.88000000,0.02978697
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00941397,-0.03716988
+LOWER,2,0.03765588,-0.01468787
+LOWER,3,0.07844976,-0.03636253
+LOWER,4,0.28784820,-0.03401696
+LOWER,5,0.33086000,-0.05113657
+LOWER,6,0.37387180,-0.02759711
+LOWER,7,0.37693700,0.00878206
+LOWER,8,0.48448000,0.01965415
+LOWER,9,0.88000000,0.00968534
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

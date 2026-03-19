@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Penelope_perspicax
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 325.00 mm
+# Secondary1: 309.00 mm
+# Kipps Distance: 43.00 mm
+# Hand-Wing Index: 12.20
+# Tail Length: 333.50 mm
+# Aspect Ratio: 1.052
+# Pointedness Index: 0.1323
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1213
+# Max Thickness Position: 0.3427
+# Max Camber/Chord: 0.0590
+# Max Camber Position: 0.3702
+# Leading Edge Radius: 0.0365
+# LE Droop: 0.0056
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.86e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01095191,0.07127146
+UPPER,2,0.04380764,0.11636908
+UPPER,3,0.09126592,0.14162364
+UPPER,4,0.29813160,0.17302837
+UPPER,5,0.34268000,0.18030564
+UPPER,6,0.38722840,0.16817686
+UPPER,7,0.39210600,0.13421630
+UPPER,8,0.50024000,0.08412578
+UPPER,9,0.88000000,0.03212982
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01095191,-0.04213964
+LOWER,2,0.04380764,-0.01815581
+LOWER,3,0.09126592,-0.04319865
+LOWER,4,0.29813160,-0.04286380
+LOWER,5,0.34268000,-0.06226984
+LOWER,6,0.38722840,-0.03558653
+LOWER,7,0.39210600,0.00565130
+LOWER,8,0.50024000,0.01961082
+LOWER,9,0.88000000,0.00990297
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

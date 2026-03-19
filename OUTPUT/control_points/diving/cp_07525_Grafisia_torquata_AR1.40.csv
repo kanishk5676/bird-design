@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Grafisia_torquata
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 119.60 mm
+# Secondary1: 85.70 mm
+# Kipps Distance: 35.80 mm
+# Hand-Wing Index: 29.40
+# Tail Length: 89.00 mm
+# Aspect Ratio: 1.396
+# Pointedness Index: 0.2993
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1133
+# Max Thickness Position: 0.3324
+# Max Camber/Chord: 0.0564
+# Max Camber Position: 0.3565
+# Leading Edge Radius: 0.0319
+# LE Droop: 0.0021
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.09e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00957377,0.05956263
+UPPER,2,0.03829509,0.10667660
+UPPER,3,0.07978143,0.13342529
+UPPER,4,0.28915320,0.16285768
+UPPER,5,0.33236000,0.16965482
+UPPER,6,0.37556680,0.15832625
+UPPER,7,0.37886200,0.12660625
+UPPER,8,0.48648000,0.07963374
+UPPER,9,0.88000000,0.03048312
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00957377,-0.03765909
+LOWER,2,0.03829509,-0.01652225
+LOWER,3,0.07978143,-0.03977593
+LOWER,4,0.28915320,-0.03879090
+LOWER,5,0.33236000,-0.05691662
+LOWER,6,0.37556680,-0.03199376
+LOWER,7,0.37886200,0.00652338
+LOWER,8,0.48648000,0.01908884
+LOWER,9,0.88000000,0.00956085
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

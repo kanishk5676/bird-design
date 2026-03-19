@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Euplectes_jacksoni
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 86.60 mm
+# Secondary1: 71.90 mm
+# Kipps Distance: 14.10 mm
+# Hand-Wing Index: 16.40
+# Tail Length: 50.80 mm
+# Aspect Ratio: 1.204
+# Pointedness Index: 0.1628
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1255
+# Max Thickness Position: 0.3402
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3669
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.38e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01066779,0.06872674
+UPPER,2,0.04267116,0.11719696
+UPPER,3,0.08889825,0.14418052
+UPPER,4,0.29593920,0.17646914
+UPPER,5,0.34016000,0.18399861
+UPPER,6,0.38438080,0.17144950
+UPPER,7,0.38887200,0.13631202
+UPPER,8,0.49688000,0.08486894
+UPPER,9,0.88000000,0.03227217
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01066779,-0.04125516
+LOWER,2,0.04267116,-0.01967946
+LOWER,3,0.08889825,-0.04587129
+LOWER,4,0.29593920,-0.04690484
+LOWER,5,0.34016000,-0.06698341
+LOWER,6,0.38438080,-0.03937538
+LOWER,7,0.38887200,0.00329156
+LOWER,8,0.49688000,0.01870597
+LOWER,9,0.88000000,0.00960726
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

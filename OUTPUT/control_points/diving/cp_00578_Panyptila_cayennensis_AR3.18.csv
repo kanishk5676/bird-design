@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Panyptila_cayennensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 118.80 mm
+# Secondary1: 37.30 mm
+# Kipps Distance: 81.20 mm
+# Hand-Wing Index: 68.50
+# Tail Length: 52.40 mm
+# Aspect Ratio: 3.185
+# Pointedness Index: 0.6835
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0801
+# Max Thickness Position: 0.3089
+# Max Camber/Chord: 0.0448
+# Max Camber Position: 0.3252
+# Leading Edge Radius: 0.0214
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.23e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00641804,0.03850825
+UPPER,2,0.02567217,0.07817489
+UPPER,3,0.05348368,0.09893915
+UPPER,4,0.26874300,0.12015186
+UPPER,5,0.30890000,0.12495872
+UPPER,6,0.34905700,0.11694729
+UPPER,7,0.34875500,0.09451527
+UPPER,8,0.45520000,0.06054974
+UPPER,9,0.88000000,0.02345001
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00641804,-0.02567217
+LOWER,2,0.02567217,-0.00994106
+LOWER,3,0.05348368,-0.02583791
+LOWER,4,0.26874300,-0.02245168
+LOWER,5,0.30890000,-0.03526997
+LOWER,6,0.34905700,-0.01764482
+LOWER,7,0.34875500,0.00959406
+LOWER,8,0.45520000,0.01658750
+LOWER,9,0.88000000,0.00800652
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

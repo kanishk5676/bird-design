@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Passer_hemileucus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 69.50 mm
+# Secondary1: 57.00 mm
+# Kipps Distance: 12.50 mm
+# Hand-Wing Index: 17.90
+# Tail Length: 55.50 mm
+# Aspect Ratio: 1.219
+# Pointedness Index: 0.1799
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1255
+# Max Thickness Position: 0.3393
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3657
+# Leading Edge Radius: 0.0351
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.04e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01053499,0.06762996
+UPPER,2,0.04213998,0.11673091
+UPPER,3,0.08779162,0.14400330
+UPPER,4,0.29515620,0.17627873
+UPPER,5,0.33926000,0.18380903
+UPPER,6,0.38336380,0.17125853
+UPPER,7,0.38771700,0.13611711
+UPPER,8,0.49568000,0.08469979
+UPPER,9,0.88000000,0.03219591
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01053499,-0.04081398
+LOWER,2,0.04213998,-0.01975523
+LOWER,3,0.08779162,-0.04597310
+LOWER,4,0.29515620,-0.04712027
+LOWER,5,0.33926000,-0.06720108
+LOWER,6,0.38336380,-0.03958997
+LOWER,7,0.38771700,0.00308175
+LOWER,8,0.49568000,0.01857776
+LOWER,9,0.88000000,0.00955579
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

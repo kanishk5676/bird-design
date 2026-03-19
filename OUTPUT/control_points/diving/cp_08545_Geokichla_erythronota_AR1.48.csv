@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geokichla_erythronota
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 115.50 mm
+# Secondary1: 77.90 mm
+# Kipps Distance: 33.40 mm
+# Hand-Wing Index: 30.00
+# Tail Length: 79.80 mm
+# Aspect Ratio: 1.483
+# Pointedness Index: 0.2892
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1130
+# Max Thickness Position: 0.3320
+# Max Camber/Chord: 0.0562
+# Max Camber Position: 0.3560
+# Leading Edge Radius: 0.0320
+# LE Droop: 0.0020
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.99e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00960719,0.05964317
+UPPER,2,0.03842878,0.10631355
+UPPER,3,0.08005996,0.13311151
+UPPER,4,0.28884000,0.16247197
+UPPER,5,0.33200000,0.16925210
+UPPER,6,0.37516000,0.15795189
+UPPER,7,0.37840000,0.12631130
+UPPER,8,0.48600000,0.07945309
+UPPER,9,0.88000000,0.03041517
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00960719,-0.03782878
+LOWER,2,0.03842878,-0.01647317
+LOWER,3,0.08005996,-0.03966622
+LOWER,4,0.28884000,-0.03867176
+LOWER,5,0.33200000,-0.05675210
+LOWER,6,0.37516000,-0.03189164
+LOWER,7,0.37840000,0.00652908
+LOWER,8,0.48600000,0.01905471
+LOWER,9,0.88000000,0.00954242
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

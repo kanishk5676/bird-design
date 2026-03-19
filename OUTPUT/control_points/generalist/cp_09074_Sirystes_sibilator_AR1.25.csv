@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sirystes_sibilator
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 93.90 mm
+# Secondary1: 75.20 mm
+# Kipps Distance: 18.60 mm
+# Hand-Wing Index: 19.80
+# Tail Length: 81.20 mm
+# Aspect Ratio: 1.249
+# Pointedness Index: 0.1981
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1223
+# Max Thickness Position: 0.3381
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3642
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01038390,0.06634338
+UPPER,2,0.04153559,0.11452595
+UPPER,3,0.08653247,0.14145868
+UPPER,4,0.29416440,0.17301171
+UPPER,5,0.33812000,0.18035097
+UPPER,6,0.38207560,0.16811886
+UPPER,7,0.38625400,0.13386896
+UPPER,8,0.49416000,0.08357531
+UPPER,9,0.88000000,0.03183705
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01038390,-0.04032359
+LOWER,2,0.04153559,-0.01883228
+LOWER,3,0.08653247,-0.04425247
+LOWER,4,0.29416440,-0.04471980
+LOWER,5,0.33812000,-0.06429117
+LOWER,6,0.38207560,-0.03738053
+LOWER,7,0.38625400,0.00420863
+LOWER,8,0.49416000,0.01885359
+LOWER,9,0.88000000,0.00961463
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

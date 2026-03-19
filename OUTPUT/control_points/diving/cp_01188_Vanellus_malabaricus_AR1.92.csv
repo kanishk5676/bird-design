@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Vanellus_malabaricus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 192.40 mm
+# Secondary1: 100.00 mm
+# Kipps Distance: 92.00 mm
+# Hand-Wing Index: 47.90
+# Tail Length: 74.80 mm
+# Aspect Ratio: 1.924
+# Pointedness Index: 0.4782
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0957
+# Max Thickness Position: 0.3213
+# Max Camber/Chord: 0.0519
+# Max Camber Position: 0.3417
+# Leading Edge Radius: 0.0270
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.95e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00809559,0.04857354
+UPPER,2,0.03238236,0.09194671
+UPPER,3,0.06746325,0.11663509
+UPPER,4,0.27949620,0.14184216
+UPPER,5,0.32126000,0.14758513
+UPPER,6,0.36302380,0.13801351
+UPPER,7,0.36461700,0.11121299
+UPPER,8,0.47168000,0.07088915
+UPPER,9,0.88000000,0.02736750
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00809559,-0.03238236
+LOWER,2,0.03238236,-0.01247503
+LOWER,3,0.06746325,-0.03165564
+LOWER,4,0.27949620,-0.02853259
+LOWER,5,0.32126000,-0.04384718
+LOWER,6,0.36302380,-0.02278962
+LOWER,7,0.36461700,0.00975387
+LOWER,8,0.47168000,0.01875850
+LOWER,9,0.88000000,0.00913860
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

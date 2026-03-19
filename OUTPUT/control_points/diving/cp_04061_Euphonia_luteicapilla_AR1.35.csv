@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Euphonia_luteicapilla
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 53.90 mm
+# Secondary1: 39.80 mm
+# Kipps Distance: 14.30 mm
+# Hand-Wing Index: 26.50
+# Tail Length: 29.80 mm
+# Aspect Ratio: 1.354
+# Pointedness Index: 0.2653
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1187
+# Max Thickness Position: 0.3341
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3588
+# Leading Edge Radius: 0.0328
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00983604,0.06171623
+UPPER,2,0.03934416,0.11043844
+UPPER,3,0.08196699,0.13783986
+UPPER,4,0.29066700,0.16851048
+UPPER,5,0.33410000,0.17563331
+UPPER,6,0.37753300,0.16376192
+UPPER,7,0.38109500,0.13052202
+UPPER,8,0.48880000,0.08162137
+UPPER,9,0.88000000,0.03112648
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00983604,-0.03853416
+LOWER,2,0.03934416,-0.01806668
+LOWER,3,0.08196699,-0.04267117
+LOWER,4,0.29066700,-0.04280033
+LOWER,5,0.33410000,-0.06179456
+LOWER,6,0.37753300,-0.03567750
+LOWER,7,0.38109500,0.00468524
+LOWER,8,0.48880000,0.01867006
+LOWER,9,0.88000000,0.00948129
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

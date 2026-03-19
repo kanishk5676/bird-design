@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Alexandrinus_eques
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 177.80 mm
+# Secondary1: 104.50 mm
+# Kipps Distance: 73.20 mm
+# Hand-Wing Index: 41.20
+# Tail Length: 186.40 mm
+# Aspect Ratio: 1.701
+# Pointedness Index: 0.4117
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1016
+# Max Thickness Position: 0.3253
+# Max Camber/Chord: 0.0537
+# Max Camber Position: 0.3470
+# Leading Edge Radius: 0.0288
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.51e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00863962,0.05183770
+UPPER,2,0.03455847,0.09643764
+UPPER,3,0.07199681,0.12254650
+UPPER,4,0.28299360,0.14919232
+UPPER,5,0.32528000,0.15528780
+UPPER,6,0.36756640,0.14512866
+UPPER,7,0.36977600,0.11668307
+UPPER,8,0.47704000,0.07408753
+UPPER,9,0.88000000,0.02853194
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00863962,-0.03455847
+LOWER,2,0.03455847,-0.01371551
+LOWER,3,0.07199681,-0.03422267
+LOWER,4,0.28299360,-0.03164038
+LOWER,5,0.32528000,-0.04789500
+LOWER,6,0.36756640,-0.02554489
+LOWER,7,0.36977600,0.00899618
+LOWER,8,0.47704000,0.01906897
+LOWER,9,0.88000000,0.00936044
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

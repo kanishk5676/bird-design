@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sphecotheres_vieilloti
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 146.80 mm
+# Secondary1: 109.00 mm
+# Kipps Distance: 39.60 mm
+# Hand-Wing Index: 26.60
+# Tail Length: 104.50 mm
+# Aspect Ratio: 1.347
+# Pointedness Index: 0.2698
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1144
+# Max Thickness Position: 0.3340
+# Max Camber/Chord: 0.0569
+# Max Camber Position: 0.3587
+# Leading Edge Radius: 0.0327
+# LE Droop: 0.0027
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.73e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00981029,0.06154174
+UPPER,2,0.03924116,0.10822878
+UPPER,3,0.08175242,0.13469231
+UPPER,4,0.29061480,0.16440485
+UPPER,5,0.33404000,0.17126679
+UPPER,6,0.37746520,0.15983022
+UPPER,7,0.38101800,0.12780783
+UPPER,8,0.48872000,0.08038833
+UPPER,9,0.88000000,0.03077167
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00981029,-0.03843716
+LOWER,2,0.03924116,-0.01668164
+LOWER,3,0.08175242,-0.04015760
+LOWER,4,0.29061480,-0.03916608
+LOWER,5,0.33404000,-0.05746459
+LOWER,6,0.37746520,-0.03230414
+LOWER,7,0.38101800,0.00658020
+LOWER,8,0.48872000,0.01926748
+LOWER,9,0.88000000,0.00965065
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

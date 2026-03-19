@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Leucogeranus_leucogeranus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 579.20 mm
+# Secondary1: 323.20 mm
+# Kipps Distance: 256.00 mm
+# Hand-Wing Index: 44.20
+# Tail Length: 198.50 mm
+# Aspect Ratio: 1.792
+# Pointedness Index: 0.4420
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0923
+# Max Thickness Position: 0.3235
+# Max Camber/Chord: 0.0529
+# Max Camber Position: 0.3446
+# Leading Edge Radius: 0.0280
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.73e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00839334,0.05036002
+UPPER,2,0.03357335,0.09109733
+UPPER,3,0.06994447,0.11509676
+UPPER,4,0.28142760,0.13962524
+UPPER,5,0.32348000,0.14516052
+UPPER,6,0.36553240,0.13593506
+UPPER,7,0.36746600,0.11010377
+UPPER,8,0.47464000,0.07080131
+UPPER,9,0.88000000,0.02748461
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00839334,-0.03357335
+LOWER,2,0.03357335,-0.01100441
+LOWER,3,0.06994447,-0.02917097
+LOWER,4,0.28142760,-0.02458798
+LOWER,5,0.32348000,-0.03934872
+LOWER,6,0.36553240,-0.01905270
+LOWER,7,0.36746600,0.01231387
+LOWER,8,0.47464000,0.01988601
+LOWER,9,0.88000000,0.00953629
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

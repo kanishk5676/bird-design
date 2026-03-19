@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Thalasseus_bernsteini
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 319.10 mm
+# Secondary1: 105.30 mm
+# Kipps Distance: 213.90 mm
+# Hand-Wing Index: 67.00
+# Tail Length: 160.70 mm
+# Aspect Ratio: 3.030
+# Pointedness Index: 0.6703
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0776
+# Max Thickness Position: 0.3098
+# Max Camber/Chord: 0.0454
+# Max Camber Position: 0.3264
+# Leading Edge Radius: 0.0218
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.66e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00653115,0.03918692
+UPPER,2,0.02612462,0.07739108
+UPPER,3,0.05442628,0.09763319
+UPPER,4,0.26952600,0.11832958
+UPPER,5,0.30980000,0.12298291
+UPPER,6,0.35007400,0.11522737
+UPPER,7,0.34991000,0.09351185
+UPPER,8,0.45640000,0.06032889
+UPPER,9,0.88000000,0.02346688
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00653115,-0.02612462
+LOWER,2,0.02612462,-0.00891811
+LOWER,3,0.05442628,-0.02408549
+LOWER,4,0.26952600,-0.01971904
+LOWER,5,0.30980000,-0.03212791
+LOWER,6,0.35007400,-0.01506572
+LOWER,7,0.34991000,0.01130312
+LOWER,8,0.45640000,0.01730729
+LOWER,9,0.88000000,0.00825466
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

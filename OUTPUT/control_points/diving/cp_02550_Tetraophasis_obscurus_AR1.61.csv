@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tetraophasis_obscurus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 206.20 mm
+# Secondary1: 127.90 mm
+# Kipps Distance: 78.40 mm
+# Hand-Wing Index: 38.00
+# Tail Length: 146.20 mm
+# Aspect Ratio: 1.612
+# Pointedness Index: 0.3802
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1033
+# Max Thickness Position: 0.3272
+# Max Camber/Chord: 0.0545
+# Max Camber Position: 0.3496
+# Leading Edge Radius: 0.0297
+# LE Droop: 0.0004
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.27e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00889811,0.05378867
+UPPER,2,0.03559245,0.09836585
+UPPER,3,0.07415093,0.12450587
+UPPER,4,0.28466400,0.15159078
+UPPER,5,0.32720000,0.15778870
+UPPER,6,0.36973600,0.14745883
+UPPER,7,0.37224000,0.11853520
+UPPER,8,0.47960000,0.07524014
+UPPER,9,0.88000000,0.02897010
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00889811,-0.03547245
+LOWER,2,0.03559245,-0.01398408
+LOWER,3,0.07415093,-0.03484785
+LOWER,4,0.28466400,-0.03228091
+LOWER,5,0.32720000,-0.04880870
+LOWER,6,0.36973600,-0.02608299
+LOWER,7,0.37224000,0.00903857
+LOWER,8,0.47960000,0.01932198
+LOWER,9,0.88000000,0.00949055
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

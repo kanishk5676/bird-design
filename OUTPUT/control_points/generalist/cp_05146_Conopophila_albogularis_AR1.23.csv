@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Conopophila_albogularis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 65.90 mm
+# Secondary1: 53.40 mm
+# Kipps Distance: 12.30 mm
+# Hand-Wing Index: 18.80
+# Tail Length: 43.70 mm
+# Aspect Ratio: 1.234
+# Pointedness Index: 0.1866
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1248
+# Max Thickness Position: 0.3387
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3650
+# Leading Edge Radius: 0.0349
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01047282,0.06707694
+UPPER,2,0.04189129,0.11609596
+UPPER,3,0.08727353,0.14338695
+UPPER,4,0.29468640,0.17549971
+UPPER,5,0.33872000,0.18298843
+UPPER,6,0.38275360,0.17050723
+UPPER,7,0.38702400,0.13555986
+UPPER,8,0.49496000,0.08439731
+UPPER,9,0.88000000,0.03209199
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01047282,-0.04061929
+LOWER,2,0.04189129,-0.01957811
+LOWER,3,0.08727353,-0.04562983
+LOWER,4,0.29468640,-0.04666571
+LOWER,5,0.33872000,-0.06663563
+LOWER,6,0.38275360,-0.03917698
+LOWER,7,0.38702400,0.00325911
+LOWER,8,0.49496000,0.01859568
+LOWER,9,0.88000000,0.00955162
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Colaptes_rubiginosus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 123.70 mm
+# Secondary1: 94.70 mm
+# Kipps Distance: 30.10 mm
+# Hand-Wing Index: 24.10
+# Tail Length: 76.30 mm
+# Aspect Ratio: 1.306
+# Pointedness Index: 0.2433
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1173
+# Max Thickness Position: 0.3355
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3607
+# Leading Edge Radius: 0.0334
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.18e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01002155,0.06330932
+UPPER,2,0.04008621,0.11058936
+UPPER,3,0.08351295,0.13723721
+UPPER,4,0.29191980,0.16763850
+UPPER,5,0.33554000,0.17467863
+UPPER,6,0.37916020,0.16294507
+UPPER,7,0.38294300,0.13009108
+UPPER,8,0.49072000,0.08159551
+UPPER,9,0.88000000,0.03117718
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01002155,-0.03913221
+LOWER,2,0.04008621,-0.01747737
+LOWER,3,0.08351295,-0.04167691
+LOWER,4,0.29191980,-0.04121898
+LOWER,5,0.33554000,-0.05999268
+LOWER,6,0.37916020,-0.03417884
+LOWER,7,0.38294300,0.00571528
+LOWER,8,0.49072000,0.01912565
+LOWER,9,0.88000000,0.00964232
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

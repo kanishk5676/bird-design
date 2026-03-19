@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Philohydor_lictor
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 86.80 mm
+# Secondary1: 70.80 mm
+# Kipps Distance: 14.70 mm
+# Hand-Wing Index: 17.20
+# Tail Length: 74.20 mm
+# Aspect Ratio: 1.226
+# Pointedness Index: 0.1694
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1248
+# Max Thickness Position: 0.3397
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3662
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.38e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01060997,0.06821982
+UPPER,2,0.04243988,0.11661944
+UPPER,3,0.08841642,0.14361188
+UPPER,4,0.29552160,0.17574831
+UPPER,5,0.33968000,0.18323860
+UPPER,6,0.38383840,0.17075478
+UPPER,7,0.38825600,0.13580009
+UPPER,8,0.49624000,0.08459504
+UPPER,9,0.88000000,0.03217921
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01060997,-0.04107188
+LOWER,2,0.04243988,-0.01950809
+LOWER,3,0.08841642,-0.04554197
+LOWER,4,0.29552160,-0.04646369
+LOWER,5,0.33968000,-0.06643780
+LOWER,6,0.38383840,-0.03897340
+LOWER,7,0.38825600,0.00347159
+LOWER,8,0.49624000,0.01873090
+LOWER,9,0.88000000,0.00960657
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

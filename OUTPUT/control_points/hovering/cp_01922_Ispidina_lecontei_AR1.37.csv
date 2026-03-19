@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ispidina_lecontei
+# Flight Category: hovering
+#
+# === Morphological Parameters ===
+# Wing Length: 47.70 mm
+# Secondary1: 34.80 mm
+# Kipps Distance: 11.20 mm
+# Hand-Wing Index: 24.30
+# Tail Length: 20.30 mm
+# Aspect Ratio: 1.371
+# Pointedness Index: 0.2348
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1203
+# Max Thickness Position: 0.3354
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3606
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.07e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01005894,0.06349361
+UPPER,2,0.04023574,0.11198972
+UPPER,3,0.08382446,0.13932173
+UPPER,4,0.29181540,0.17036682
+UPPER,5,0.33542000,0.17758330
+UPPER,6,0.37902460,0.16555584
+UPPER,7,0.38278900,0.13187898
+UPPER,8,0.49056000,0.08238932
+UPPER,9,0.88000000,0.03139930
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01005894,-0.03929374
+LOWER,2,0.04023574,-0.01842978
+LOWER,3,0.08382446,-0.04339719
+LOWER,4,0.29181540,-0.04372182
+LOWER,5,0.33542000,-0.06296575
+LOWER,6,0.37902460,-0.03650535
+LOWER,7,0.38278900,0.00438799
+LOWER,8,0.49056000,0.01869301
+LOWER,9,0.88000000,0.00951621
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cygnus_buccinator
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 625.50 mm
+# Secondary1: 358.50 mm
+# Kipps Distance: 267.00 mm
+# Hand-Wing Index: 42.70
+# Tail Length: 178.00 mm
+# Aspect Ratio: 1.745
+# Pointedness Index: 0.4269
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0930
+# Max Thickness Position: 0.3244
+# Max Camber/Chord: 0.0533
+# Max Camber Position: 0.3458
+# Leading Edge Radius: 0.0284
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.93e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00851640,0.05109841
+UPPER,2,0.03406561,0.09180704
+UPPER,3,0.07097001,0.11599687
+UPPER,4,0.28221060,0.14071977
+UPPER,5,0.32438000,0.14629933
+UPPER,6,0.36654940,0.13700007
+UPPER,7,0.36862100,0.11096216
+UPPER,8,0.47584000,0.07134867
+UPPER,9,0.88000000,0.02769598
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00851640,-0.03406561
+LOWER,2,0.03406561,-0.01110025
+LOWER,3,0.07097001,-0.02941456
+LOWER,4,0.28221060,-0.02480697
+LOWER,5,0.32438000,-0.03968578
+LOWER,6,0.36654940,-0.01922742
+LOWER,7,0.36862100,0.01239005
+LOWER,8,0.47584000,0.02003124
+LOWER,9,0.88000000,0.00960699
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

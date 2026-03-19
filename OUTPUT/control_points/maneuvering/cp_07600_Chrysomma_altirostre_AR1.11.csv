@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chrysomma_altirostre
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 60.00 mm
+# Secondary1: 54.10 mm
+# Kipps Distance: 5.70 mm
+# Hand-Wing Index: 9.50
+# Tail Length: 90.80 mm
+# Aspect Ratio: 1.109
+# Pointedness Index: 0.0950
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1324
+# Max Thickness Position: 0.3443
+# Max Camber/Chord: 0.0593
+# Max Camber Position: 0.3724
+# Leading Edge Radius: 0.0374
+# LE Droop: 0.0061
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01122480,0.07344880
+UPPER,2,0.04489920,0.12270447
+UPPER,3,0.09354000,0.14988343
+UPPER,4,0.29954100,0.18375537
+UPPER,5,0.34430000,0.19169938
+UPPER,6,0.38905900,0.17845938
+UPPER,7,0.39418500,0.14138738
+UPPER,8,0.50240000,0.08747647
+UPPER,9,0.88000000,0.03312576
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01122480,-0.04306920
+LOWER,2,0.04489920,-0.02161322
+LOWER,3,0.09354000,-0.04951429
+LOWER,4,0.29954100,-0.05191663
+LOWER,5,0.34430000,-0.07310063
+LOWER,6,0.38905900,-0.04397263
+LOWER,7,0.39418500,0.00104337
+LOWER,8,0.50240000,0.01822961
+LOWER,9,0.88000000,0.00952884
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

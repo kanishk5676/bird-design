@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lafresnaya_lafresnayi
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 63.60 mm
+# Secondary1: 23.30 mm
+# Kipps Distance: 38.70 mm
+# Hand-Wing Index: 62.40
+# Tail Length: 40.20 mm
+# Aspect Ratio: 2.730
+# Pointedness Index: 0.6085
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0882
+# Max Thickness Position: 0.3126
+# Max Camber/Chord: 0.0471
+# Max Camber Position: 0.3301
+# Leading Edge Radius: 0.0233
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00698726,0.04192355
+UPPER,2,0.02794903,0.08418441
+UPPER,3,0.05822715,0.10689329
+UPPER,4,0.27192720,0.13007362
+UPPER,5,0.31256000,0.13536690
+UPPER,6,0.35319280,0.12654477
+UPPER,7,0.35345200,0.10184280
+UPPER,8,0.46008000,0.06477572
+UPPER,9,0.88000000,0.02497303
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00698726,-0.02794903
+LOWER,2,0.02794903,-0.01172986
+LOWER,3,0.05822715,-0.02948138
+LOWER,4,0.27192720,-0.02696029
+LOWER,5,0.31256000,-0.04107570
+LOWER,6,0.35319280,-0.02166701
+LOWER,7,0.35345200,0.00832823
+LOWER,8,0.46008000,0.01687929
+LOWER,9,0.88000000,0.00825755
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

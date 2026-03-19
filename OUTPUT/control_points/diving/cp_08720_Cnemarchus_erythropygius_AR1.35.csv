@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cnemarchus_erythropygius
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 142.70 mm
+# Secondary1: 105.90 mm
+# Kipps Distance: 37.00 mm
+# Hand-Wing Index: 25.90
+# Tail Length: 102.50 mm
+# Aspect Ratio: 1.347
+# Pointedness Index: 0.2593
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1151
+# Max Thickness Position: 0.3345
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3593
+# Leading Edge Radius: 0.0330
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.63e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00988511,0.06213063
+UPPER,2,0.03954042,0.10883713
+UPPER,3,0.08237588,0.13532816
+UPPER,4,0.29098020,0.16520947
+UPPER,5,0.33446000,0.17211467
+UPPER,6,0.37793980,0.16060600
+UPPER,7,0.38155700,0.12838173
+UPPER,8,0.48928000,0.08069805
+UPPER,9,0.88000000,0.03087757
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00988511,-0.03869442
+LOWER,2,0.03954042,-0.01686795
+LOWER,3,0.08237588,-0.04051741
+LOWER,4,0.29098020,-0.03964485
+LOWER,5,0.33446000,-0.05805872
+LOWER,6,0.37793980,-0.03273965
+LOWER,7,0.38155700,0.00638983
+LOWER,8,0.48928000,0.01924521
+LOWER,9,0.88000000,0.00965353
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

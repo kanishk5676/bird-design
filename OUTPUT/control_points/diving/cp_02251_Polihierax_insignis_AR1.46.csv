@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Polihierax_insignis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 142.00 mm
+# Secondary1: 97.20 mm
+# Kipps Distance: 45.20 mm
+# Hand-Wing Index: 31.80
+# Tail Length: 117.80 mm
+# Aspect Ratio: 1.461
+# Pointedness Index: 0.3183
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1104
+# Max Thickness Position: 0.3309
+# Max Camber/Chord: 0.0559
+# Max Camber Position: 0.3546
+# Leading Edge Radius: 0.0313
+# LE Droop: 0.0016
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.61e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00940354,0.05806124
+UPPER,2,0.03761416,0.10433693
+UPPER,3,0.07836283,0.13089548
+UPPER,4,0.28790040,0.15965284
+UPPER,5,0.33092000,0.16627652
+UPPER,6,0.37393960,0.15523706
+UPPER,7,0.37701400,0.12432657
+UPPER,8,0.48456000,0.07841011
+UPPER,9,0.88000000,0.03006669
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00940354,-0.03712216
+LOWER,2,0.03761416,-0.01576761
+LOWER,3,0.07836283,-0.03832321
+LOWER,4,0.28790040,-0.03684958
+LOWER,5,0.33092000,-0.05451272
+LOWER,6,0.37393960,-0.03022591
+LOWER,7,0.37701400,0.00730827
+LOWER,8,0.48456000,0.01919153
+LOWER,9,0.88000000,0.00955469
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

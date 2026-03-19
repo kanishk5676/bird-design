@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Loxigilla_barbadensis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 68.20 mm
+# Secondary1: 56.40 mm
+# Kipps Distance: 11.30 mm
+# Hand-Wing Index: 16.80
+# Tail Length: 49.00 mm
+# Aspect Ratio: 1.209
+# Pointedness Index: 0.1657
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1265
+# Max Thickness Position: 0.3399
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3666
+# Leading Edge Radius: 0.0355
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01064091,0.06848543
+UPPER,2,0.04256362,0.11757057
+UPPER,3,0.08867421,0.14484988
+UPPER,4,0.29573040,0.17735374
+UPPER,5,0.33992000,0.18494306
+UPPER,6,0.38410960,0.17229419
+UPPER,7,0.38856400,0.13687737
+UPPER,8,0.49656000,0.08510306
+UPPER,9,0.88000000,0.03233176
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01064091,-0.04117162
+LOWER,2,0.04256362,-0.02001733
+LOWER,3,0.08867421,-0.04647440
+LOWER,4,0.29573040,-0.04779607
+LOWER,5,0.33992000,-0.06803426
+LOWER,6,0.38410960,-0.04020675
+LOWER,7,0.38856400,0.00279939
+LOWER,8,0.49656000,0.01853332
+LOWER,9,0.88000000,0.00955405
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

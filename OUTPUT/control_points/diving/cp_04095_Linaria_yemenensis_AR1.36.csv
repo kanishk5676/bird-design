@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Linaria_yemenensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 72.40 mm
+# Secondary1: 53.40 mm
+# Kipps Distance: 19.00 mm
+# Hand-Wing Index: 26.10
+# Tail Length: 53.80 mm
+# Aspect Ratio: 1.356
+# Pointedness Index: 0.2624
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1187
+# Max Thickness Position: 0.3343
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3591
+# Leading Edge Radius: 0.0329
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.10e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00986294,0.06195765
+UPPER,2,0.03945177,0.11057470
+UPPER,3,0.08219119,0.13789881
+UPPER,4,0.29087580,0.16857284
+UPPER,5,0.33434000,0.17569503
+UPPER,6,0.37780420,0.16382472
+UPPER,7,0.38140300,0.13058787
+UPPER,8,0.48912000,0.08168003
+UPPER,9,0.88000000,0.03115319
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00986294,-0.03861777
+LOWER,2,0.03945177,-0.01803778
+LOWER,3,0.08219119,-0.04263146
+LOWER,4,0.29087580,-0.04271859
+LOWER,5,0.33434000,-0.06171108
+LOWER,6,0.37780420,-0.03559640
+LOWER,7,0.38140300,0.00476263
+LOWER,8,0.48912000,0.01871660
+LOWER,9,0.88000000,0.00949987
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

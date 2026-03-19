@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Poospiza_garleppi
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 86.80 mm
+# Secondary1: 77.90 mm
+# Kipps Distance: 8.80 mm
+# Hand-Wing Index: 10.20
+# Tail Length: 81.50 mm
+# Aspect Ratio: 1.114
+# Pointedness Index: 0.1014
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1304
+# Max Thickness Position: 0.3439
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3718
+# Leading Edge Radius: 0.0372
+# LE Droop: 0.0060
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.38e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01117083,0.07298498
+UPPER,2,0.04468332,0.12152452
+UPPER,3,0.09309024,0.14840702
+UPPER,4,0.29917560,0.18184181
+UPPER,5,0.34388000,0.18966810
+UPPER,6,0.38858440,0.17662428
+UPPER,7,0.39364600,0.14010159
+UPPER,8,0.50184000,0.08686811
+UPPER,9,0.88000000,0.03294242
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01117083,-0.04289532
+LOWER,2,0.04468332,-0.02100976
+LOWER,3,0.09309024,-0.04840840
+LOWER,4,0.29917560,-0.05033819
+LOWER,5,0.34388000,-0.07120830
+LOWER,6,0.38858440,-0.04251190
+LOWER,7,0.39364600,0.00183709
+LOWER,8,0.50184000,0.01846119
+LOWER,9,0.88000000,0.00958995
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

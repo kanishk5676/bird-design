@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Carpodacus_sipahi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 100.30 mm
+# Secondary1: 78.30 mm
+# Kipps Distance: 21.60 mm
+# Hand-Wing Index: 21.60
+# Tail Length: 68.00 mm
+# Aspect Ratio: 1.281
+# Pointedness Index: 0.2154
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1205
+# Max Thickness Position: 0.3370
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3627
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.66e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01024073,0.06512441
+UPPER,2,0.04096294,0.11302716
+UPPER,3,0.08533946,0.13990282
+UPPER,4,0.29322480,0.17103602
+UPPER,5,0.33704000,0.17826681
+UPPER,6,0.38085520,0.16621549
+UPPER,7,0.38486800,0.13247179
+UPPER,8,0.49272000,0.08283426
+UPPER,9,0.88000000,0.03158742
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01024073,-0.03985894
+LOWER,2,0.04096294,-0.01835047
+LOWER,3,0.08533946,-0.04333101
+LOWER,4,0.29322480,-0.04347750
+LOWER,5,0.33704000,-0.06275961
+LOWER,6,0.38085520,-0.03624670
+LOWER,7,0.38486800,0.00472779
+LOWER,8,0.49272000,0.01893538
+LOWER,9,0.88000000,0.00961787
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

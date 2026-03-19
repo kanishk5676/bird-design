@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Eurochelidon_sirintarae
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 117.00 mm
+# Secondary1: 57.30 mm
+# Kipps Distance: 59.70 mm
+# Hand-Wing Index: 51.00
+# Tail Length: 39.00 mm
+# Aspect Ratio: 2.042
+# Pointedness Index: 0.5103
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0945
+# Max Thickness Position: 0.3194
+# Max Camber/Chord: 0.0509
+# Max Camber Position: 0.3392
+# Leading Edge Radius: 0.0261
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.93e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00783709,0.04702255
+UPPER,2,0.03134837,0.09056755
+UPPER,3,0.06530910,0.11492924
+UPPER,4,0.27787800,0.13980040
+UPPER,5,0.31940000,0.14547186
+UPPER,6,0.36092200,0.13601942
+UPPER,7,0.36223000,0.10955260
+UPPER,8,0.46920000,0.06977220
+UPPER,9,0.88000000,0.02692200
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00783709,-0.03134837
+LOWER,2,0.03134837,-0.01241617
+LOWER,3,0.06530910,-0.03138828
+LOWER,4,0.27787800,-0.02845296
+LOWER,5,0.31940000,-0.04357686
+LOWER,6,0.36092200,-0.02278150
+LOWER,7,0.36223000,0.00935678
+LOWER,8,0.46920000,0.01835404
+LOWER,9,0.88000000,0.00895590
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

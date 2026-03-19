@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hypocryptadius_cinnamomeus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 91.10 mm
+# Secondary1: 69.90 mm
+# Kipps Distance: 19.70 mm
+# Hand-Wing Index: 22.00
+# Tail Length: 63.20 mm
+# Aspect Ratio: 1.303
+# Pointedness Index: 0.2162
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1207
+# Max Thickness Position: 0.3368
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3624
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.47e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01022395,0.06494368
+UPPER,2,0.04089578,0.11300129
+UPPER,3,0.08519955,0.14000010
+UPPER,4,0.29301600,0.17117580
+UPPER,5,0.33680000,0.17841958
+UPPER,6,0.38058400,0.16634662
+UPPER,7,0.38456000,0.13254234
+UPPER,8,0.49240000,0.08284078
+UPPER,9,0.88000000,0.03158057
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01022395,-0.03981578
+LOWER,2,0.04089578,-0.01844196
+LOWER,3,0.08519955,-0.04348575
+LOWER,4,0.29301600,-0.04372284
+LOWER,5,0.33680000,-0.06303958
+LOWER,6,0.38058400,-0.03647907
+LOWER,7,0.38456000,0.00456899
+LOWER,8,0.49240000,0.01886566
+LOWER,9,0.88000000,0.00959332
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

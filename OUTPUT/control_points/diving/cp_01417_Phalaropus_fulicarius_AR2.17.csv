@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phalaropus_fulicarius
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 126.30 mm
+# Secondary1: 58.30 mm
+# Kipps Distance: 65.40 mm
+# Hand-Wing Index: 52.80
+# Tail Length: 51.80 mm
+# Aspect Ratio: 2.166
+# Pointedness Index: 0.5178
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0931
+# Max Thickness Position: 0.3183
+# Max Camber/Chord: 0.0504
+# Max Camber Position: 0.3378
+# Leading Edge Radius: 0.0258
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.90e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00774346,0.04646079
+UPPER,2,0.03097386,0.08940229
+UPPER,3,0.06452887,0.11342061
+UPPER,4,0.27693840,0.13794284
+UPPER,5,0.31832000,0.14353130
+UPPER,6,0.35970160,0.13421721
+UPPER,7,0.36084400,0.10813776
+UPPER,8,0.46776000,0.06891129
+UPPER,9,0.88000000,0.02659962
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00774346,-0.03097386
+LOWER,2,0.03097386,-0.01216845
+LOWER,3,0.06452887,-0.03084214
+LOWER,4,0.27693840,-0.02784795
+LOWER,5,0.31832000,-0.04275050
+LOWER,6,0.35970160,-0.02225950
+LOWER,7,0.36084400,0.00940841
+LOWER,8,0.46776000,0.01820232
+LOWER,9,0.88000000,0.00887196
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Grallaria_alticola
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 87.70 mm
+# Secondary1: 88.80 mm
+# Kipps Distance: 7.40 mm
+# Hand-Wing Index: 7.70
+# Tail Length: 51.30 mm
+# Aspect Ratio: 0.988
+# Pointedness Index: 0.0844
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1324
+# Max Thickness Position: 0.3454
+# Max Camber/Chord: 0.0595
+# Max Camber Position: 0.3738
+# Leading Edge Radius: 0.0378
+# LE Droop: 0.0065
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.40e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01133405,0.07446430
+UPPER,2,0.04533620,0.12319723
+UPPER,3,0.09445041,0.15002372
+UPPER,4,0.30048060,0.18390487
+UPPER,5,0.34538000,0.19184772
+UPPER,6,0.39027940,0.17860963
+UPPER,7,0.39557100,0.14154296
+UPPER,8,0.50384000,0.08761342
+UPPER,9,0.88000000,0.03318785
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01133405,-0.04339820
+LOWER,2,0.04533620,-0.02154853
+LOWER,3,0.09445041,-0.04942623
+LOWER,4,0.30048060,-0.05173322
+LOWER,5,0.34538000,-0.07291417
+LOWER,6,0.39027940,-0.04379036
+LOWER,7,0.39557100,0.00121916
+LOWER,8,0.50384000,0.01833607
+LOWER,9,0.88000000,0.00957146
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

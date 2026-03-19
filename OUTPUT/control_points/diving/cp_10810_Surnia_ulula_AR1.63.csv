@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Surnia_ulula
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 231.40 mm
+# Secondary1: 142.00 mm
+# Kipps Distance: 89.50 mm
+# Hand-Wing Index: 38.60
+# Tail Length: 186.40 mm
+# Aspect Ratio: 1.630
+# Pointedness Index: 0.3868
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1022
+# Max Thickness Position: 0.3268
+# Max Camber/Chord: 0.0543
+# Max Camber Position: 0.3491
+# Leading Edge Radius: 0.0295
+# LE Droop: 0.0003
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.98e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00884628,0.05335769
+UPPER,2,0.03538513,0.09754910
+UPPER,3,0.07371901,0.12354659
+UPPER,4,0.28435080,0.15036753
+UPPER,5,0.32684000,0.15649662
+UPPER,6,0.36932920,0.14628147
+UPPER,7,0.37177800,0.11767904
+UPPER,8,0.47912000,0.07479576
+UPPER,9,0.88000000,0.02882326
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00884628,-0.03530113
+LOWER,2,0.03538513,-0.01366770
+LOWER,3,0.07371901,-0.03424914
+LOWER,4,0.28435080,-0.03146218
+LOWER,5,0.32684000,-0.04780642
+LOWER,6,0.36932920,-0.02533309
+LOWER,7,0.37177800,0.00939843
+LOWER,8,0.47912000,0.01939275
+LOWER,9,0.88000000,0.00950021
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

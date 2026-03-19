@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Guaruba_guarouba
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 204.70 mm
+# Secondary1: 127.80 mm
+# Kipps Distance: 75.60 mm
+# Hand-Wing Index: 36.80
+# Tail Length: 154.80 mm
+# Aspect Ratio: 1.602
+# Pointedness Index: 0.3693
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1043
+# Max Thickness Position: 0.3279
+# Max Camber/Chord: 0.0548
+# Max Camber Position: 0.3506
+# Leading Edge Radius: 0.0300
+# LE Droop: 0.0006
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.23e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00899038,0.05458230
+UPPER,2,0.03596153,0.09934866
+UPPER,3,0.07491986,0.12548905
+UPPER,4,0.28529040,0.15281719
+UPPER,5,0.32792000,0.15907524
+UPPER,6,0.37054960,0.14864516
+UPPER,7,0.37316400,0.11944092
+UPPER,8,0.48056000,0.07576248
+UPPER,9,0.88000000,0.02915834
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00899038,-0.03576953
+LOWER,2,0.03596153,-0.01420523
+LOWER,3,0.07491986,-0.03529826
+LOWER,4,0.28529040,-0.03283831
+LOWER,5,0.32792000,-0.04952644
+LOWER,6,0.37054960,-0.02658026
+LOWER,7,0.37316400,0.00888203
+LOWER,8,0.48056000,0.01935801
+LOWER,9,0.88000000,0.00952157
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

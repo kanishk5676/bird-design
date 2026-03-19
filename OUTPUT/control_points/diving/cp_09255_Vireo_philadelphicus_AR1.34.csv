@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Vireo_philadelphicus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 66.20 mm
+# Secondary1: 49.40 mm
+# Kipps Distance: 17.00 mm
+# Hand-Wing Index: 25.60
+# Tail Length: 47.10 mm
+# Aspect Ratio: 1.340
+# Pointedness Index: 0.2568
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1193
+# Max Thickness Position: 0.3346
+# Max Camber/Chord: 0.0571
+# Max Camber Position: 0.3595
+# Leading Edge Radius: 0.0330
+# LE Droop: 0.0029
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.04e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00990697,0.06232183
+UPPER,2,0.03962789,0.11106482
+UPPER,3,0.08255810,0.13843334
+UPPER,4,0.29113680,0.16925267
+UPPER,5,0.33464000,0.17641252
+UPPER,6,0.37814320,0.16447943
+UPPER,7,0.38178800,0.13106677
+UPPER,8,0.48952000,0.08193202
+UPPER,9,0.88000000,0.03123748
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00990697,-0.03876389
+LOWER,2,0.03962789,-0.01820734
+LOWER,3,0.08255810,-0.04295440
+LOWER,4,0.29113680,-0.04315638
+LOWER,5,0.33464000,-0.06224932
+LOWER,6,0.37814320,-0.03599652
+LOWER,7,0.38178800,0.00457599
+LOWER,8,0.48952000,0.01868426
+LOWER,9,0.88000000,0.00949716
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

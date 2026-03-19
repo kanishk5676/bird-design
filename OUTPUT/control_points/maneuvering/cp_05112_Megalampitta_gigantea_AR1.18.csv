@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Megalampitta_gigantea
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 129.00 mm
+# Secondary1: 109.50 mm
+# Kipps Distance: 19.50 mm
+# Hand-Wing Index: 15.00
+# Tail Length: 113.50 mm
+# Aspect Ratio: 1.178
+# Pointedness Index: 0.1512
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1244
+# Max Thickness Position: 0.3410
+# Max Camber/Chord: 0.0587
+# Max Camber Position: 0.3680
+# Leading Edge Radius: 0.0359
+# LE Droop: 0.0050
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.30e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01077007,0.06962042
+UPPER,2,0.04308028,0.11707372
+UPPER,3,0.08975058,0.14354515
+UPPER,4,0.29667000,0.17560346
+UPPER,5,0.34100000,0.18306618
+UPPER,6,0.38533000,0.17062832
+UPPER,7,0.38995000,0.13580228
+UPPER,8,0.49800000,0.08471041
+UPPER,9,0.88000000,0.03225154
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01077007,-0.04158028
+LOWER,2,0.04308028,-0.01926055
+LOWER,3,0.08975058,-0.04514339
+LOWER,4,0.29667000,-0.04579060
+LOWER,5,0.34100000,-0.06569118
+LOWER,6,0.38533000,-0.03832787
+LOWER,7,0.38995000,0.00396088
+LOWER,8,0.49800000,0.01897323
+LOWER,9,0.88000000,0.00969673
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

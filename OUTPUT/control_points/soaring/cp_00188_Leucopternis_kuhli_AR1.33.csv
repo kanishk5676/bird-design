@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Leucopternis_kuhli
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 207.60 mm
+# Secondary1: 156.60 mm
+# Kipps Distance: 54.50 mm
+# Hand-Wing Index: 25.80
+# Tail Length: 148.60 mm
+# Aspect Ratio: 1.326
+# Pointedness Index: 0.2625
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1130
+# Max Thickness Position: 0.3345
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3594
+# Leading Edge Radius: 0.0329
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.31e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00987165,0.06206988
+UPPER,2,0.03948659,0.10783883
+UPPER,3,0.08226373,0.13385637
+UPPER,4,0.29103240,0.16328436
+UPPER,5,0.33452000,0.17006554
+UPPER,6,0.37800760,0.15876357
+UPPER,7,0.38163400,0.12711807
+UPPER,8,0.48936000,0.08013451
+UPPER,9,0.88000000,0.03071901
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00987165,-0.03863459
+LOWER,2,0.03948659,-0.01620022
+LOWER,3,0.08226373,-0.03931028
+LOWER,4,0.29103240,-0.03789059
+LOWER,5,0.33452000,-0.05597374
+LOWER,6,0.37800760,-0.03110942
+LOWER,7,0.38163400,0.00731726
+LOWER,8,0.48936000,0.01954571
+LOWER,9,0.88000000,0.00974069
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

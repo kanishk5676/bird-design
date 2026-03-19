@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Malacoptila_panamensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 87.40 mm
+# Secondary1: 68.00 mm
+# Kipps Distance: 19.90 mm
+# Hand-Wing Index: 22.50
+# Tail Length: 71.80 mm
+# Aspect Ratio: 1.285
+# Pointedness Index: 0.2277
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1206
+# Max Thickness Position: 0.3365
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3620
+# Leading Edge Radius: 0.0338
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.39e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01015029,0.06440172
+UPPER,2,0.04060115,0.11274795
+UPPER,3,0.08458573,0.13980380
+UPPER,4,0.29275500,0.17093575
+UPPER,5,0.33650000,0.17816935
+UPPER,6,0.38024500,0.16611335
+UPPER,7,0.38417500,0.13235656
+UPPER,8,0.49200000,0.08272476
+UPPER,9,0.88000000,0.03153636
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01015029,-0.03955115
+LOWER,2,0.04060115,-0.01841591
+LOWER,3,0.08458573,-0.04342447
+LOWER,4,0.29275500,-0.04366100
+LOWER,5,0.33650000,-0.06295060
+LOWER,6,0.38024500,-0.03642740
+LOWER,7,0.38417500,0.00456299
+LOWER,8,0.49200000,0.01883942
+LOWER,9,0.88000000,0.00957994
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

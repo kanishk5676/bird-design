@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Mackenziaena_leachii
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 89.50 mm
+# Secondary1: 85.30 mm
+# Kipps Distance: 4.60 mm
+# Hand-Wing Index: 5.00
+# Tail Length: 130.40 mm
+# Aspect Ratio: 1.049
+# Pointedness Index: 0.0514
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1344
+# Max Thickness Position: 0.3470
+# Max Camber/Chord: 0.0597
+# Max Camber Position: 0.3760
+# Leading Edge Radius: 0.0386
+# LE Droop: 0.0070
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.44e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01158488,0.07650926
+UPPER,2,0.04633951,0.12494842
+UPPER,3,0.09654064,0.15170073
+UPPER,4,0.30189000,0.18604991
+UPPER,5,0.34700000,0.19411559
+UPPER,6,0.39211000,0.18067278
+UPPER,7,0.39765000,0.14303292
+UPPER,8,0.50600000,0.08837424
+UPPER,9,0.88000000,0.03343550
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01158488,-0.04423951
+LOWER,2,0.04633951,-0.02212636
+LOWER,3,0.09654064,-0.05051204
+LOWER,4,0.30189000,-0.05323210
+LOWER,5,0.34700000,-0.07474059
+LOWER,6,0.39211000,-0.04516641
+LOWER,7,0.39765000,0.00053914
+LOWER,8,0.50600000,0.01818632
+LOWER,9,0.88000000,0.00954475
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

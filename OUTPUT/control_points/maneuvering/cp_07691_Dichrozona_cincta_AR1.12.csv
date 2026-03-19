@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Dichrozona_cincta
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 59.40 mm
+# Secondary1: 52.80 mm
+# Kipps Distance: 6.80 mm
+# Hand-Wing Index: 11.40
+# Tail Length: 26.40 mm
+# Aspect Ratio: 1.125
+# Pointedness Index: 0.1145
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1304
+# Max Thickness Position: 0.3432
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3709
+# Leading Edge Radius: 0.0369
+# LE Droop: 0.0057
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.12e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01106732,0.07212393
+UPPER,2,0.04426929,0.12116218
+UPPER,3,0.09222768,0.14826879
+UPPER,4,0.29854920,0.18168645
+UPPER,5,0.34316000,0.18951079
+UPPER,6,0.38777080,0.17647022
+UPPER,7,0.39272200,0.13995663
+UPPER,8,0.50088000,0.08675293
+UPPER,9,0.88000000,0.03289239
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01106732,-0.04255329
+LOWER,2,0.04426929,-0.02104304
+LOWER,3,0.09222768,-0.04844695
+LOWER,4,0.29854920,-0.05043568
+LOWER,5,0.34316000,-0.07130059
+LOWER,6,0.38777080,-0.04261134
+LOWER,7,0.39272200,0.00172660
+LOWER,8,0.50088000,0.01838837
+LOWER,9,0.88000000,0.00956005
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

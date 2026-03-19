@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pycnonotus_xanthorrhous
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 90.60 mm
+# Secondary1: 75.30 mm
+# Kipps Distance: 14.20 mm
+# Hand-Wing Index: 15.80
+# Tail Length: 94.60 mm
+# Aspect Ratio: 1.203
+# Pointedness Index: 0.1567
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1257
+# Max Thickness Position: 0.3405
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3674
+# Leading Edge Radius: 0.0357
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.46e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01071718,0.06914309
+UPPER,2,0.04286873,0.11749811
+UPPER,3,0.08930985,0.14441756
+UPPER,4,0.29625240,0.17676287
+UPPER,5,0.34052000,0.18430608
+UPPER,6,0.38478760,0.17173407
+UPPER,7,0.38933400,0.13653241
+UPPER,8,0.49736000,0.08499967
+UPPER,9,0.88000000,0.03232026
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01071718,-0.04141673
+LOWER,2,0.04286873,-0.01972539
+LOWER,3,0.08930985,-0.04596819
+LOWER,4,0.29625240,-0.04701906
+LOWER,5,0.34052000,-0.06713428
+LOWER,6,0.38478760,-0.03947584
+LOWER,7,0.38933400,0.00326902
+LOWER,8,0.49736000,0.01872243
+LOWER,9,0.88000000,0.00961767
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

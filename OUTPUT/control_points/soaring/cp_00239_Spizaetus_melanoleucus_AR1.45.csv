@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Spizaetus_melanoleucus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 400.60 mm
+# Secondary1: 275.40 mm
+# Kipps Distance: 124.30 mm
+# Hand-Wing Index: 31.10
+# Tail Length: 249.00 mm
+# Aspect Ratio: 1.455
+# Pointedness Index: 0.3103
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1049
+# Max Thickness Position: 0.3313
+# Max Camber/Chord: 0.0560
+# Max Camber Position: 0.3551
+# Leading Edge Radius: 0.0316
+# LE Droop: 0.0018
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.04e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00946589,0.05857533
+UPPER,2,0.03786355,0.10186959
+UPPER,3,0.07888241,0.12709681
+UPPER,4,0.28826580,0.15466430
+UPPER,5,0.33134000,0.16096029
+UPPER,6,0.37441420,0.15046696
+UPPER,7,0.37755300,0.12108563
+UPPER,8,0.48512000,0.07700426
+UPPER,9,0.88000000,0.02968492
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00946589,-0.03732955
+LOWER,2,0.03786355,-0.01396922
+LOWER,3,0.07888241,-0.03508892
+LOWER,4,0.28826580,-0.03211701
+LOWER,5,0.33134000,-0.04890634
+LOWER,6,0.37441420,-0.02582101
+LOWER,7,0.37755300,0.00985631
+LOWER,8,0.48512000,0.02004606
+LOWER,9,0.88000000,0.00980941
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

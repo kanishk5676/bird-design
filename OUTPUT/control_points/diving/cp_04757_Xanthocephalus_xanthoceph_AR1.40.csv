@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Xanthocephalus_xanthocephalus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 129.40 mm
+# Secondary1: 92.60 mm
+# Kipps Distance: 34.20 mm
+# Hand-Wing Index: 27.00
+# Tail Length: 101.90 mm
+# Aspect Ratio: 1.397
+# Pointedness Index: 0.2643
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1148
+# Max Thickness Position: 0.3338
+# Max Camber/Chord: 0.0568
+# Max Camber Position: 0.3584
+# Leading Edge Radius: 0.0328
+# LE Droop: 0.0026
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.31e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00982589,0.06155532
+UPPER,2,0.03930355,0.10828396
+UPPER,3,0.08188239,0.13490935
+UPPER,4,0.29040600,0.16470301
+UPPER,5,0.33380000,0.17158868
+UPPER,6,0.37719400,0.16011256
+UPPER,7,0.38071000,0.12797943
+UPPER,8,0.48840000,0.08043651
+UPPER,9,0.88000000,0.03077534
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00982589,-0.03852355
+LOWER,2,0.03930355,-0.01683395
+LOWER,3,0.08188239,-0.04042083
+LOWER,4,0.29040600,-0.03957189
+LOWER,5,0.33380000,-0.05793368
+LOWER,6,0.37719400,-0.03268622
+LOWER,7,0.38071000,0.00633258
+LOWER,8,0.48840000,0.01916648
+LOWER,9,0.88000000,0.00961643
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

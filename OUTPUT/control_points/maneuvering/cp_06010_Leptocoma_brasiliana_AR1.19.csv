@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Leptocoma_brasiliana
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 47.00 mm
+# Secondary1: 39.40 mm
+# Kipps Distance: 7.70 mm
+# Hand-Wing Index: 16.30
+# Tail Length: 31.00 mm
+# Aspect Ratio: 1.193
+# Pointedness Index: 0.1638
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1270
+# Max Thickness Position: 0.3402
+# Max Camber/Chord: 0.0585
+# Max Camber Position: 0.3670
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0047
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01066569,0.06873413
+UPPER,2,0.04266275,0.11796266
+UPPER,3,0.08888073,0.14525031
+UPPER,4,0.29599140,0.17786318
+UPPER,5,0.34022000,0.18548078
+UPPER,6,0.38444860,0.17278478
+UPPER,7,0.38894900,0.13723598
+UPPER,8,0.49696000,0.08529146
+UPPER,9,0.88000000,0.03239469
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01066569,-0.04124075
+LOWER,2,0.04266275,-0.02014493
+LOWER,3,0.08888073,-0.04671724
+LOWER,4,0.29599140,-0.04812563
+LOWER,5,0.34022000,-0.06843923
+LOWER,6,0.38444860,-0.04050803
+LOWER,7,0.38894900,0.00265837
+LOWER,8,0.49696000,0.01850848
+LOWER,9,0.88000000,0.00955179
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

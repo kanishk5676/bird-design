@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Northiella_haematogaster
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 128.60 mm
+# Secondary1: 83.90 mm
+# Kipps Distance: 44.40 mm
+# Hand-Wing Index: 34.60
+# Tail Length: 166.90 mm
+# Aspect Ratio: 1.533
+# Pointedness Index: 0.3453
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1087
+# Max Thickness Position: 0.3292
+# Max Camber/Chord: 0.0553
+# Max Camber Position: 0.3523
+# Leading Edge Radius: 0.0306
+# LE Droop: 0.0011
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.29e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00918043,0.05616259
+UPPER,2,0.03672173,0.10242366
+UPPER,3,0.07650359,0.12913063
+UPPER,4,0.28643880,0.15747037
+UPPER,5,0.32924000,0.16399334
+UPPER,6,0.37204120,0.15312172
+UPPER,7,0.37485800,0.12268117
+UPPER,8,0.48232000,0.07742608
+UPPER,9,0.88000000,0.02970260
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00918043,-0.03639773
+LOWER,2,0.03672173,-0.01544221
+LOWER,3,0.07650359,-0.03762795
+LOWER,4,0.28643880,-0.03604454
+LOWER,5,0.32924000,-0.05343914
+LOWER,6,0.37204120,-0.02952157
+LOWER,7,0.37485800,0.00744195
+LOWER,8,0.48232000,0.01905153
+LOWER,9,0.88000000,0.00947063
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

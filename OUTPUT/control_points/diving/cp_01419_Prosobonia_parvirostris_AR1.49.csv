@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Prosobonia_parvirostris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 104.60 mm
+# Secondary1: 70.20 mm
+# Kipps Distance: 34.50 mm
+# Hand-Wing Index: 33.00
+# Tail Length: 54.30 mm
+# Aspect Ratio: 1.490
+# Pointedness Index: 0.3298
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1110
+# Max Thickness Position: 0.3302
+# Max Camber/Chord: 0.0556
+# Max Camber Position: 0.3536
+# Leading Edge Radius: 0.0310
+# LE Droop: 0.0014
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.84e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00930808,0.05724847
+UPPER,2,0.03723231,0.10416144
+UPPER,3,0.07756731,0.13106572
+UPPER,4,0.28727400,0.15992627
+UPPER,5,0.33020000,0.16658364
+UPPER,6,0.37312600,0.15548802
+UPPER,7,0.37609000,0.12442030
+UPPER,8,0.48360000,0.07835109
+UPPER,9,0.88000000,0.03001494
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00930808,-0.03681231
+LOWER,2,0.03723231,-0.01603634
+LOWER,3,0.07756731,-0.03876591
+LOWER,4,0.28727400,-0.03757565
+LOWER,5,0.33020000,-0.05532864
+LOWER,6,0.37312600,-0.03091829
+LOWER,7,0.37609000,0.00680680
+LOWER,8,0.48360000,0.01895519
+LOWER,9,0.88000000,0.00946863
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

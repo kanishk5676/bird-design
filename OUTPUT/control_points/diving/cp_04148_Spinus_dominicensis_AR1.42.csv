@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Spinus_dominicensis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 66.50 mm
+# Secondary1: 46.90 mm
+# Kipps Distance: 19.60 mm
+# Hand-Wing Index: 29.50
+# Tail Length: 40.50 mm
+# Aspect Ratio: 1.418
+# Pointedness Index: 0.2947
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1157
+# Max Thickness Position: 0.3323
+# Max Camber/Chord: 0.0563
+# Max Camber Position: 0.3564
+# Leading Edge Radius: 0.0320
+# LE Droop: 0.0021
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00959414,0.05966485
+UPPER,2,0.03837657,0.10786484
+UPPER,3,0.07995118,0.13517116
+UPPER,4,0.28910100,0.16514097
+UPPER,5,0.33230000,0.17208512
+UPPER,6,0.37549900,0.16051154
+UPPER,7,0.37878500,0.12810554
+UPPER,8,0.48640000,0.08030298
+UPPER,9,0.88000000,0.03067162
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00959414,-0.03774657
+LOWER,2,0.03837657,-0.01731316
+LOWER,3,0.07995118,-0.04120602
+LOWER,4,0.28910100,-0.04086865
+LOWER,5,0.33230000,-0.05938637
+LOWER,6,0.37549900,-0.03392450
+LOWER,7,0.37878500,0.00542565
+LOWER,8,0.48640000,0.01873361
+LOWER,9,0.88000000,0.00945791
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

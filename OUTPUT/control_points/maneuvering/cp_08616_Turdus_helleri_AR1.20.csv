@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Turdus_helleri
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 116.00 mm
+# Secondary1: 96.40 mm
+# Kipps Distance: 19.60 mm
+# Hand-Wing Index: 16.90
+# Tail Length: 89.80 mm
+# Aspect Ratio: 1.203
+# Pointedness Index: 0.1690
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1235
+# Max Thickness Position: 0.3399
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3665
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01062114,0.06834682
+UPPER,2,0.04248454,0.11602373
+UPPER,3,0.08850947,0.14265531
+UPPER,4,0.29567820,0.17449130
+UPPER,5,0.33986000,0.18189877
+UPPER,6,0.38404180,0.16955299
+UPPER,7,0.38848700,0.13498481
+UPPER,8,0.49648000,0.08424301
+UPPER,9,0.88000000,0.03208419
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01062114,-0.04109854
+LOWER,2,0.04248454,-0.01905215
+LOWER,3,0.08850947,-0.04472267
+LOWER,4,0.29567820,-0.04526357
+LOWER,5,0.33986000,-0.06501682
+LOWER,6,0.38404180,-0.03785611
+LOWER,7,0.38848700,0.00411954
+LOWER,8,0.49648000,0.01894931
+LOWER,9,0.88000000,0.00967193
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

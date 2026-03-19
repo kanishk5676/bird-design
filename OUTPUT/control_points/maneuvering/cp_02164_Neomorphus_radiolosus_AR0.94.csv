@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Neomorphus_radiolosus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 152.00 mm
+# Secondary1: 161.50 mm
+# Kipps Distance: 9.00 mm
+# Hand-Wing Index: 5.20
+# Tail Length: 234.00 mm
+# Aspect Ratio: 0.941
+# Pointedness Index: 0.0592
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1313
+# Max Thickness Position: 0.3469
+# Max Camber/Chord: 0.0597
+# Max Camber Position: 0.3758
+# Leading Edge Radius: 0.0385
+# LE Droop: 0.0070
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.85e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01153891,0.07619344
+UPPER,2,0.04615563,0.12332532
+UPPER,3,0.09615755,0.14942565
+UPPER,4,0.30178560,0.18308271
+UPPER,5,0.34688000,0.19095996
+UPPER,6,0.39197440,0.17783121
+UPPER,7,0.39749600,0.14107069
+UPPER,8,0.50584000,0.08748206
+UPPER,9,0.88000000,0.03317852
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01153891,-0.04406763
+LOWER,2,0.04615563,-0.02112668
+LOWER,3,0.09615755,-0.04869748
+LOWER,4,0.30178560,-0.05060915
+LOWER,5,0.34688000,-0.07161516
+LOWER,6,0.39197440,-0.04273190
+LOWER,7,0.39749600,0.00190587
+LOWER,8,0.50584000,0.01861663
+LOWER,9,0.88000000,0.00966660
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

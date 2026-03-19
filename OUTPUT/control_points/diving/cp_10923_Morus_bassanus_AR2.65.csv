@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Morus_bassanus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 485.80 mm
+# Secondary1: 183.50 mm
+# Kipps Distance: 300.50 mm
+# Hand-Wing Index: 62.10
+# Tail Length: 206.20 mm
+# Aspect Ratio: 2.647
+# Pointedness Index: 0.6186
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0790
+# Max Thickness Position: 0.3127
+# Max Camber/Chord: 0.0473
+# Max Camber Position: 0.3303
+# Leading Edge Radius: 0.0232
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.36e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00694505,0.04167028
+UPPER,2,0.02778019,0.07965928
+UPPER,3,0.05787539,0.10034416
+UPPER,4,0.27208380,0.12150158
+UPPER,5,0.31274000,0.12624079
+UPPER,6,0.35339620,0.11834211
+UPPER,7,0.35368300,0.09622580
+UPPER,8,0.46032000,0.06228219
+UPPER,9,0.88000000,0.02427546
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00694505,-0.02778019
+LOWER,2,0.02778019,-0.00873689
+LOWER,3,0.05787539,-0.02407552
+LOWER,4,0.27208380,-0.01909495
+LOWER,5,0.31274000,-0.03173284
+LOWER,6,0.35339620,-0.01435574
+LOWER,7,0.35368300,0.01249978
+LOWER,8,0.46032000,0.01823931
+LOWER,9,0.88000000,0.00865402
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

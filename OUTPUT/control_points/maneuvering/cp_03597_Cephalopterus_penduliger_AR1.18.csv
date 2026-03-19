@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cephalopterus_penduliger
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 249.60 mm
+# Secondary1: 211.60 mm
+# Kipps Distance: 35.40 mm
+# Hand-Wing Index: 14.40
+# Tail Length: 138.60 mm
+# Aspect Ratio: 1.180
+# Pointedness Index: 0.1418
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1211
+# Max Thickness Position: 0.3414
+# Max Camber/Chord: 0.0588
+# Max Camber Position: 0.3685
+# Leading Edge Radius: 0.0361
+# LE Droop: 0.0051
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.51e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01083604,0.07013626
+UPPER,2,0.04334417,0.11560320
+UPPER,3,0.09030036,0.14123228
+UPPER,4,0.29698320,0.17256898
+UPPER,5,0.34136000,0.17983328
+UPPER,6,0.38573680,0.16772612
+UPPER,7,0.39041200,0.13382604
+UPPER,8,0.49848000,0.08384743
+UPPER,9,0.88000000,0.03201514
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01083604,-0.04180817
+LOWER,2,0.04334417,-0.01817638
+LOWER,3,0.09030036,-0.04319124
+LOWER,4,0.29698320,-0.04293861
+LOWER,5,0.34136000,-0.06231008
+LOWER,6,0.38573680,-0.03567431
+LOWER,7,0.39041200,0.00549006
+LOWER,8,0.49848000,0.01948216
+LOWER,9,0.88000000,0.00984753
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

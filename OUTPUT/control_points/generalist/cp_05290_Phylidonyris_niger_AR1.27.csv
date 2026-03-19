@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phylidonyris_niger
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 76.20 mm
+# Secondary1: 59.90 mm
+# Kipps Distance: 15.40 mm
+# Hand-Wing Index: 20.40
+# Tail Length: 71.30 mm
+# Aspect Ratio: 1.272
+# Pointedness Index: 0.2021
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1230
+# Max Thickness Position: 0.3378
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3637
+# Leading Edge Radius: 0.0345
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.17e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01034505,0.06599031
+UPPER,2,0.04138021,0.11466801
+UPPER,3,0.08620876,0.14186349
+UPPER,4,0.29385120,0.17355837
+UPPER,5,0.33776000,0.18093830
+UPPER,6,0.38166880,0.16863843
+UPPER,7,0.38579200,0.13419879
+UPPER,8,0.49368000,0.08368829
+UPPER,9,0.88000000,0.03185694
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01034505,-0.04020421
+LOWER,2,0.04138021,-0.01908072
+LOWER,3,0.08620876,-0.04468703
+LOWER,4,0.29385120,-0.04537930
+LOWER,5,0.33776000,-0.06505910
+LOWER,6,0.38166880,-0.03799938
+LOWER,7,0.38579200,0.00382017
+LOWER,8,0.49368000,0.01870273
+LOWER,9,0.88000000,0.00956495
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

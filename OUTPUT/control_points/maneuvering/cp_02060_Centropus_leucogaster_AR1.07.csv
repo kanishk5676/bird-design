@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Centropus_leucogaster
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 196.00 mm
+# Secondary1: 183.00 mm
+# Kipps Distance: 13.00 mm
+# Hand-Wing Index: 6.70
+# Tail Length: 301.00 mm
+# Aspect Ratio: 1.071
+# Pointedness Index: 0.0663
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1286
+# Max Thickness Position: 0.3460
+# Max Camber/Chord: 0.0596
+# Max Camber Position: 0.3746
+# Leading Edge Radius: 0.0382
+# LE Droop: 0.0067
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.99e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01145671,0.07540029
+UPPER,2,0.04582686,0.12159548
+UPPER,3,0.09547262,0.14740304
+UPPER,4,0.30100260,0.18046613
+UPPER,5,0.34598000,0.18818401
+UPPER,6,0.39095740,0.17532088
+UPPER,7,0.39634100,0.13930414
+UPPER,8,0.50464000,0.08663660
+UPPER,9,0.88000000,0.03292055
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01145671,-0.04382886
+LOWER,2,0.04582686,-0.02031852
+LOWER,3,0.09547262,-0.04721184
+LOWER,4,0.30100260,-0.04849746
+LOWER,5,0.34598000,-0.06907846
+LOWER,6,0.39095740,-0.04077959
+LOWER,7,0.39634100,0.00295503
+LOWER,8,0.50464000,0.01891435
+LOWER,9,0.88000000,0.00974294
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

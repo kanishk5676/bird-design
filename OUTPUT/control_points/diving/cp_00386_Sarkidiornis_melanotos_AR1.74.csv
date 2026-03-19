@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sarkidiornis_melanotos
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 321.00 mm
+# Secondary1: 184.40 mm
+# Kipps Distance: 136.60 mm
+# Hand-Wing Index: 42.70
+# Tail Length: 113.00 mm
+# Aspect Ratio: 1.741
+# Pointedness Index: 0.4255
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0970
+# Max Thickness Position: 0.3244
+# Max Camber/Chord: 0.0533
+# Max Camber Position: 0.3458
+# Leading Edge Radius: 0.0284
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 7.73e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00852310,0.05113860
+UPPER,2,0.03409240,0.09379102
+UPPER,3,0.07102583,0.11885381
+UPPER,4,0.28221060,0.14444967
+UPPER,5,0.32438000,0.15026730
+UPPER,6,0.36654940,0.14057125
+UPPER,7,0.36862100,0.11342230
+UPPER,8,0.47584000,0.07245971
+UPPER,9,0.88000000,0.02801342
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00852310,-0.03409240
+LOWER,2,0.03409240,-0.01237000
+LOWER,3,0.07102583,-0.03171599
+LOWER,4,0.28221060,-0.02814007
+LOWER,5,0.32438000,-0.04365375
+LOWER,6,0.36654940,-0.02232244
+LOWER,7,0.36862100,0.01064414
+LOWER,8,0.47584000,0.01947573
+LOWER,9,0.88000000,0.00944827
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Formicarius_colma
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 85.00 mm
+# Secondary1: 69.30 mm
+# Kipps Distance: 16.30 mm
+# Hand-Wing Index: 19.00
+# Tail Length: 53.40 mm
+# Aspect Ratio: 1.227
+# Pointedness Index: 0.1918
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1235
+# Max Thickness Position: 0.3386
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3648
+# Leading Edge Radius: 0.0348
+# LE Droop: 0.0042
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.34e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01044060,0.06684360
+UPPER,2,0.04176240,0.11538259
+UPPER,3,0.08700500,0.14242609
+UPPER,4,0.29458200,0.17425107
+UPPER,5,0.33860000,0.18166193
+UPPER,6,0.38261800,0.16931049
+UPPER,7,0.38687000,0.13472645
+UPPER,8,0.49480000,0.08400942
+UPPER,9,0.88000000,0.03197720
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01044060,-0.04050240
+LOWER,2,0.04176240,-0.01917299
+LOWER,3,0.08700500,-0.04489052
+LOWER,4,0.29458200,-0.04560462
+LOWER,5,0.33860000,-0.06536693
+LOWER,6,0.38261800,-0.03819376
+LOWER,7,0.38687000,0.00380115
+LOWER,8,0.49480000,0.01875943
+LOWER,9,0.88000000,0.00959630
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

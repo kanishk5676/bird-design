@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Oriolus_brachyrynchus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 113.70 mm
+# Secondary1: 86.30 mm
+# Kipps Distance: 28.20 mm
+# Hand-Wing Index: 24.60
+# Tail Length: 82.80 mm
+# Aspect Ratio: 1.317
+# Pointedness Index: 0.2480
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1174
+# Max Thickness Position: 0.3352
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3603
+# Leading Edge Radius: 0.0333
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.95e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00998233,0.06297399
+UPPER,2,0.03992933,0.11045375
+UPPER,3,0.08318610,0.13721203
+UPPER,4,0.29165880,0.16762290
+UPPER,5,0.33524000,0.17466752
+UPPER,6,0.37882120,0.16292648
+UPPER,7,0.38255800,0.13005156
+UPPER,8,0.49032000,0.08154345
+UPPER,9,0.88000000,0.03115053
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00998233,-0.03900533
+LOWER,2,0.03992933,-0.01753135
+LOWER,3,0.08318610,-0.04175978
+LOWER,4,0.29165880,-0.04136765
+LOWER,5,0.33524000,-0.06015332
+LOWER,6,0.37882120,-0.03432303
+LOWER,7,0.38255800,0.00559651
+LOWER,8,0.49032000,0.01906194
+LOWER,9,0.88000000,0.00961786
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

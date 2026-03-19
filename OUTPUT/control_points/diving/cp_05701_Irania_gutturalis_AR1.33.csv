@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Irania_gutturalis
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 94.00 mm
+# Secondary1: 70.80 mm
+# Kipps Distance: 23.10 mm
+# Hand-Wing Index: 24.60
+# Tail Length: 72.90 mm
+# Aspect Ratio: 1.328
+# Pointedness Index: 0.2457
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1185
+# Max Thickness Position: 0.3352
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3603
+# Leading Edge Radius: 0.0333
+# LE Droop: 0.0031
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00999394,0.06304365
+UPPER,2,0.03997577,0.11098611
+UPPER,3,0.08328285,0.13797863
+UPPER,4,0.29165880,0.16862373
+UPPER,5,0.33524000,0.17573224
+UPPER,6,0.37882120,0.16388473
+UPPER,7,0.38255800,0.13071169
+UPPER,8,0.49032000,0.08184157
+UPPER,9,0.88000000,0.03123571
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00999394,-0.03905177
+LOWER,2,0.03997577,-0.01787206
+LOWER,3,0.08328285,-0.04237732
+LOWER,4,0.29165880,-0.04226202
+LOWER,5,0.33524000,-0.06121804
+LOWER,6,0.37882120,-0.03515351
+LOWER,7,0.38255800,0.00512804
+LOWER,8,0.49032000,0.01891288
+LOWER,9,0.88000000,0.00957527
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

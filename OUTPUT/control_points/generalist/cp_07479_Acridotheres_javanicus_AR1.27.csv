@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Acridotheres_javanicus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 122.60 mm
+# Secondary1: 96.50 mm
+# Kipps Distance: 26.10 mm
+# Hand-Wing Index: 21.30
+# Tail Length: 70.50 mm
+# Aspect Ratio: 1.270
+# Pointedness Index: 0.2129
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1196
+# Max Thickness Position: 0.3372
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3630
+# Leading Edge Radius: 0.0342
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.15e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01026249,0.06531496
+UPPER,2,0.04104998,0.11268369
+UPPER,3,0.08552078,0.13930747
+UPPER,4,0.29338140,0.17024927
+UPPER,5,0.33722000,0.17742683
+UPPER,6,0.38105860,0.16546422
+UPPER,7,0.38509900,0.13196893
+UPPER,8,0.49296000,0.08262595
+UPPER,9,0.88000000,0.03153438
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01026249,-0.03992798
+LOWER,2,0.04104998,-0.01805007
+LOWER,3,0.08552078,-0.04279476
+LOWER,4,0.29338140,-0.04268511
+LOWER,5,0.33722000,-0.06182528
+LOWER,6,0.38105860,-0.03550755
+LOWER,7,0.38509900,0.00516531
+LOWER,8,0.49296000,0.01908883
+LOWER,9,0.88000000,0.00966515
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

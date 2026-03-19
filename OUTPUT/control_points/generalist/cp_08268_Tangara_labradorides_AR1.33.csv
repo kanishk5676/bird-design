@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tangara_labradorides
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 65.00 mm
+# Secondary1: 49.00 mm
+# Kipps Distance: 13.50 mm
+# Hand-Wing Index: 21.50
+# Tail Length: 47.80 mm
+# Aspect Ratio: 1.327
+# Pointedness Index: 0.2077
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1228
+# Max Thickness Position: 0.3371
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3628
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01028287,0.06539722
+UPPER,2,0.04113148,0.11418655
+UPPER,3,0.08569058,0.14153874
+UPPER,4,0.29327700,0.17316863
+UPPER,5,0.33710000,0.18053454
+UPPER,6,0.38092300,0.16825802
+UPPER,7,0.38494500,0.13388377
+UPPER,8,0.49280000,0.08347821
+UPPER,9,0.88000000,0.03177358
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01028287,-0.04002148
+LOWER,2,0.04113148,-0.01906557
+LOWER,3,0.08569058,-0.04462988
+LOWER,4,0.29327700,-0.04535336
+LOWER,5,0.33710000,-0.06499579
+LOWER,6,0.38092300,-0.03798745
+LOWER,7,0.38494500,0.00375270
+LOWER,8,0.49280000,0.01862989
+LOWER,9,0.88000000,0.00953174
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

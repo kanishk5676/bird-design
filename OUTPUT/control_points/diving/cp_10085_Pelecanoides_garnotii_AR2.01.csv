@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Pelecanoides_garnotii
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 134.20 mm
+# Secondary1: 66.80 mm
+# Kipps Distance: 67.40 mm
+# Hand-Wing Index: 50.20
+# Tail Length: 39.20 mm
+# Aspect Ratio: 2.009
+# Pointedness Index: 0.5022
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0944
+# Max Thickness Position: 0.3199
+# Max Camber/Chord: 0.0512
+# Max Camber Position: 0.3398
+# Leading Edge Radius: 0.0263
+# LE Droop: 0.0000
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.47e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00790248,0.04741487
+UPPER,2,0.03160992,0.09072956
+UPPER,3,0.06585399,0.11508884
+UPPER,4,0.27829560,0.13996001
+UPPER,5,0.31988000,0.14562619
+UPPER,6,0.36146440,0.13618256
+UPPER,7,0.36284600,0.10974040
+UPPER,8,0.46984000,0.06995358
+UPPER,9,0.88000000,0.02700707
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00790248,-0.03160992
+LOWER,2,0.03160992,-0.01230315
+LOWER,3,0.06585399,-0.03122570
+LOWER,4,0.27829560,-0.02813659
+LOWER,5,0.31988000,-0.04324639
+LOWER,6,0.36146440,-0.02247041
+LOWER,7,0.36284600,0.00963793
+LOWER,8,0.46984000,0.01851666
+LOWER,9,0.88000000,0.00902002
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

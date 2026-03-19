@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Agriornis_albicauda
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 141.30 mm
+# Secondary1: 106.00 mm
+# Kipps Distance: 35.20 mm
+# Hand-Wing Index: 24.90
+# Tail Length: 113.10 mm
+# Aspect Ratio: 1.333
+# Pointedness Index: 0.2491
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1159
+# Max Thickness Position: 0.3351
+# Max Camber/Chord: 0.0572
+# Max Camber Position: 0.3601
+# Leading Edge Radius: 0.0332
+# LE Droop: 0.0030
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.59e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00996757,0.06282543
+UPPER,2,0.03987029,0.10961557
+UPPER,3,0.08306310,0.13610731
+UPPER,4,0.29150220,0.16619110
+UPPER,5,0.33506000,0.17314766
+UPPER,6,0.37861780,0.16155339
+UPPER,7,0.38232700,0.12908944
+UPPER,8,0.49008000,0.08108818
+UPPER,9,0.88000000,0.03101331
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00996757,-0.03896429
+LOWER,2,0.03987029,-0.01707992
+LOWER,3,0.08306310,-0.04093247
+LOWER,4,0.29150220,-0.04018688
+LOWER,5,0.33506000,-0.05873771
+LOWER,6,0.37861780,-0.03323032
+LOWER,7,0.38232700,0.00619019
+LOWER,8,0.49008000,0.01923511
+LOWER,9,0.88000000,0.00966354
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

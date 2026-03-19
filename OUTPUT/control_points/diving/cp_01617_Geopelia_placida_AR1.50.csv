@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geopelia_placida
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 99.00 mm
+# Secondary1: 66.00 mm
+# Kipps Distance: 32.80 mm
+# Hand-Wing Index: 33.20
+# Tail Length: 89.70 mm
+# Aspect Ratio: 1.500
+# Pointedness Index: 0.3313
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1113
+# Max Thickness Position: 0.3301
+# Max Camber/Chord: 0.0556
+# Max Camber Position: 0.3534
+# Leading Edge Radius: 0.0310
+# LE Droop: 0.0014
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.63e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00929438,0.05712630
+UPPER,2,0.03717753,0.10425978
+UPPER,3,0.07745319,0.13127803
+UPPER,4,0.28716960,0.16021212
+UPPER,5,0.33008000,0.16689049
+UPPER,6,0.37299040,0.15575988
+UPPER,7,0.37593600,0.12459417
+UPPER,8,0.48344000,0.07841244
+UPPER,9,0.88000000,0.03002656
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00929438,-0.03676953
+LOWER,2,0.03717753,-0.01616341
+LOWER,3,0.07745319,-0.03898871
+LOWER,4,0.28716960,-0.03791271
+LOWER,5,0.33008000,-0.05572169
+LOWER,6,0.37299040,-0.03123435
+LOWER,7,0.37593600,0.00660972
+LOWER,8,0.48344000,0.01887948
+LOWER,9,0.88000000,0.00944386
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

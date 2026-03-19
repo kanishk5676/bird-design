@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Batrachostomus_septimus
+# Flight Category: soaring
+#
+# === Morphological Parameters ===
+# Wing Length: 156.40 mm
+# Secondary1: 119.70 mm
+# Kipps Distance: 37.00 mm
+# Hand-Wing Index: 23.60
+# Tail Length: 107.80 mm
+# Aspect Ratio: 1.307
+# Pointedness Index: 0.2366
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1164
+# Max Thickness Position: 0.3358
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3611
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.96e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01007132,0.06370791
+UPPER,2,0.04028527,0.11029592
+UPPER,3,0.08392765,0.13664493
+UPPER,4,0.29218080,0.16684822
+UPPER,5,0.33584000,0.17383251
+UPPER,6,0.37949920,0.16219202
+UPPER,7,0.38332800,0.12959864
+UPPER,8,0.49112000,0.08140683
+UPPER,9,0.88000000,0.03113488
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01007132,-0.03930127
+LOWER,2,0.04028527,-0.01714991
+LOWER,3,0.08392765,-0.04109815
+LOWER,4,0.29218080,-0.04035252
+LOWER,5,0.33584000,-0.05897731
+LOWER,6,0.37949920,-0.03336823
+LOWER,7,0.38332800,0.00620944
+LOWER,8,0.49112000,0.01930842
+LOWER,9,0.88000000,0.00970070
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

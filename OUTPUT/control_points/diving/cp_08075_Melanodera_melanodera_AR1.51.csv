@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melanodera_melanodera
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 88.60 mm
+# Secondary1: 58.80 mm
+# Kipps Distance: 29.20 mm
+# Hand-Wing Index: 33.20
+# Tail Length: 60.40 mm
+# Aspect Ratio: 1.507
+# Pointedness Index: 0.3296
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1119
+# Max Thickness Position: 0.3301
+# Max Camber/Chord: 0.0556
+# Max Camber Position: 0.3534
+# Leading Edge Radius: 0.0310
+# LE Droop: 0.0014
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.42e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00930327,0.05717960
+UPPER,2,0.03721307,0.10456886
+UPPER,3,0.07752723,0.13172311
+UPPER,4,0.28716960,0.16079319
+UPPER,5,0.33008000,0.16750865
+UPPER,6,0.37299040,0.15631622
+UPPER,7,0.37593600,0.12497743
+UPPER,8,0.48344000,0.07858553
+UPPER,9,0.88000000,0.03007601
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00930327,-0.03680507
+LOWER,2,0.03721307,-0.01636122
+LOWER,3,0.07752723,-0.03934724
+LOWER,4,0.28716960,-0.03843197
+LOWER,5,0.33008000,-0.05633985
+LOWER,6,0.37299040,-0.03171651
+LOWER,7,0.37593600,0.00633773
+LOWER,8,0.48344000,0.01879293
+LOWER,9,0.88000000,0.00941913
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

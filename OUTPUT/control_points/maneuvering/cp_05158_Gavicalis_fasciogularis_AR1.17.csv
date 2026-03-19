@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Gavicalis_fasciogularis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 91.40 mm
+# Secondary1: 77.80 mm
+# Kipps Distance: 14.70 mm
+# Hand-Wing Index: 15.90
+# Tail Length: 80.40 mm
+# Aspect Ratio: 1.175
+# Pointedness Index: 0.1608
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1256
+# Max Thickness Position: 0.3405
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3673
+# Leading Edge Radius: 0.0356
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.48e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01069322,0.06897932
+UPPER,2,0.04277288,0.11740267
+UPPER,3,0.08911016,0.14431286
+UPPER,4,0.29620020,0.17662879
+UPPER,5,0.34046000,0.18416426
+UPPER,6,0.38471980,0.17160513
+UPPER,7,0.38925700,0.13643957
+UPPER,8,0.49728000,0.08495259
+UPPER,9,0.88000000,0.03230503
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01069322,-0.04132688
+LOWER,2,0.04277288,-0.01968867
+LOWER,3,0.08911016,-0.04589938
+LOWER,4,0.29620020,-0.04692371
+LOWER,5,0.34046000,-0.06701831
+LOWER,6,0.38471980,-0.03938823
+LOWER,7,0.38925700,0.00331281
+LOWER,8,0.49728000,0.01873246
+LOWER,9,0.88000000,0.00961959
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Athene_superciliaris
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 194.00 mm
+# Secondary1: 140.60 mm
+# Kipps Distance: 53.40 mm
+# Hand-Wing Index: 27.60
+# Tail Length: 118.20 mm
+# Aspect Ratio: 1.380
+# Pointedness Index: 0.2753
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1120
+# Max Thickness Position: 0.3334
+# Max Camber/Chord: 0.0567
+# Max Camber Position: 0.3579
+# Leading Edge Radius: 0.0325
+# LE Droop: 0.0025
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.94e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00975163,0.06098975
+UPPER,2,0.03900650,0.10667341
+UPPER,3,0.08126355,0.13279697
+UPPER,4,0.29009280,0.16196768
+UPPER,5,0.33344000,0.16868590
+UPPER,6,0.37678720,0.15748887
+UPPER,7,0.38024800,0.12613718
+UPPER,8,0.48792000,0.07955994
+UPPER,9,0.88000000,0.03050955
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00975163,-0.03826250
+LOWER,2,0.03900650,-0.01598004
+LOWER,3,0.08126355,-0.03885360
+LOWER,4,0.29009280,-0.03733945
+LOWER,5,0.33344000,-0.05525470
+LOWER,6,0.37678720,-0.03062123
+LOWER,7,0.38024800,0.00744867
+LOWER,8,0.48792000,0.01948783
+LOWER,9,0.88000000,0.00970009
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

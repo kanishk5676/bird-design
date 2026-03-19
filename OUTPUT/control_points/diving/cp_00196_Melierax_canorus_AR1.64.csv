@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melierax_canorus
+# Flight Category: diving
+#
+# === Morphological Parameters ===
+# Wing Length: 353.00 mm
+# Secondary1: 215.80 mm
+# Kipps Distance: 141.50 mm
+# Hand-Wing Index: 39.70
+# Tail Length: 230.00 mm
+# Aspect Ratio: 1.636
+# Pointedness Index: 0.4008
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.0988
+# Max Thickness Position: 0.3262
+# Max Camber/Chord: 0.0541
+# Max Camber Position: 0.3482
+# Leading Edge Radius: 0.0291
+# LE Droop: 0.0001
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.79e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00874085,0.05250507
+UPPER,2,0.03496338,0.09542411
+UPPER,3,0.07284038,0.12088558
+UPPER,4,0.28377660,0.14694780
+UPPER,5,0.32618000,0.15287587
+UPPER,6,0.36858340,0.14299576
+UPPER,7,0.37093100,0.11533145
+UPPER,8,0.47824000,0.07362787
+UPPER,9,0.88000000,0.02845250
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00874085,-0.03494538
+LOWER,2,0.03496338,-0.01269018
+LOWER,3,0.07284038,-0.03243024
+LOWER,4,0.28377660,-0.02891814
+LOWER,5,0.32618000,-0.04472632
+LOWER,6,0.36858340,-0.02299008
+LOWER,7,0.37093100,0.01060229
+LOWER,8,0.47824000,0.01969421
+LOWER,9,0.88000000,0.00956665
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

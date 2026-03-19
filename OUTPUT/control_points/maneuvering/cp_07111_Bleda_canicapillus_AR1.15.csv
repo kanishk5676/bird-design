@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bleda_canicapillus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 98.40 mm
+# Secondary1: 85.30 mm
+# Kipps Distance: 13.40 mm
+# Hand-Wing Index: 13.50
+# Tail Length: 91.30 mm
+# Aspect Ratio: 1.154
+# Pointedness Index: 0.1362
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1271
+# Max Thickness Position: 0.3419
+# Max Camber/Chord: 0.0589
+# Max Camber Position: 0.3692
+# Leading Edge Radius: 0.0363
+# LE Droop: 0.0053
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01089239,0.07065433
+UPPER,2,0.04356955,0.11888898
+UPPER,3,0.09076990,0.14567185
+UPPER,4,0.29745300,0.17834340
+UPPER,5,0.34190000,0.18596940
+UPPER,6,0.38634700,0.17325940
+UPPER,7,0.39110500,0.13767139
+UPPER,8,0.49920000,0.08562698
+UPPER,9,0.88000000,0.03253836
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01089239,-0.04197955
+LOWER,2,0.04356955,-0.02006773
+LOWER,3,0.09076990,-0.04663810
+LOWER,4,0.29745300,-0.04789465
+LOWER,5,0.34190000,-0.06823065
+LOWER,6,0.38634700,-0.04026865
+LOWER,7,0.39110500,0.00294536
+LOWER,8,0.49920000,0.01870501
+LOWER,9,0.88000000,0.00963334
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

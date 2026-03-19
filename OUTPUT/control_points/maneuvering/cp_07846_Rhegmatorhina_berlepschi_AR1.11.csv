@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Rhegmatorhina_berlepschi
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 78.70 mm
+# Secondary1: 70.90 mm
+# Kipps Distance: 9.40 mm
+# Hand-Wing Index: 11.70
+# Tail Length: 53.30 mm
+# Aspect Ratio: 1.110
+# Pointedness Index: 0.1194
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1298
+# Max Thickness Position: 0.3430
+# Max Camber/Chord: 0.0591
+# Max Camber Position: 0.3706
+# Leading Edge Radius: 0.0368
+# LE Droop: 0.0057
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.22e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01103283,0.07185699
+UPPER,2,0.04413133,0.12076213
+UPPER,3,0.09194026,0.14778895
+UPPER,4,0.29839260,0.18106649
+UPPER,5,0.34298000,0.18885332
+UPPER,6,0.38756740,0.17587527
+UPPER,7,0.39249100,0.13953671
+UPPER,8,0.50064000,0.08655041
+UPPER,9,0.88000000,0.03283010
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01103283,-0.04243333
+LOWER,2,0.04413133,-0.02085430
+LOWER,3,0.09194026,-0.04809924
+LOWER,4,0.29839260,-0.04994288
+LOWER,5,0.34298000,-0.07070777
+LOWER,6,0.38756740,-0.04215605
+LOWER,7,0.39249100,0.00196934
+LOWER,8,0.50064000,0.01845584
+LOWER,9,0.88000000,0.00957697
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

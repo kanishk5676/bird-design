@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hafferia_fortis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 81.50 mm
+# Secondary1: 74.40 mm
+# Kipps Distance: 9.00 mm
+# Hand-Wing Index: 10.70
+# Tail Length: 62.90 mm
+# Aspect Ratio: 1.095
+# Pointedness Index: 0.1104
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1304
+# Max Thickness Position: 0.3436
+# Max Camber/Chord: 0.0592
+# Max Camber Position: 0.3714
+# Leading Edge Radius: 0.0370
+# LE Droop: 0.0059
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.27e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01110939,0.07251634
+UPPER,2,0.04443756,0.12135561
+UPPER,3,0.09257825,0.14832333
+UPPER,4,0.29891460,0.18174284
+UPPER,5,0.34358000,0.18956607
+UPPER,6,0.38824540,0.17652734
+UPPER,7,0.39326100,0.14001890
+UPPER,8,0.50144000,0.08681040
+UPPER,9,0.88000000,0.03291892
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01110939,-0.04267956
+LOWER,2,0.04443756,-0.02101136
+LOWER,3,0.09257825,-0.04840240
+LOWER,4,0.29891460,-0.05034656
+LOWER,5,0.34358000,-0.07120852
+LOWER,6,0.38824540,-0.04252332
+LOWER,7,0.39326100,0.00180836
+LOWER,8,0.50144000,0.01843662
+LOWER,9,0.88000000,0.00957920
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000
