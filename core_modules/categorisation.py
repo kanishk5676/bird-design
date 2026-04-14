@@ -239,7 +239,7 @@ def score_birds_for_categories(df: pd.DataFrame) -> pd.DataFrame:
     p_efficiency  = _percentile_rank(df['efficiency_index'])     # high = aerodynamically efficient
     p_size_inv    = 1 - _percentile_rank(df['Wing.Length'])      # high = small absolute wing size
 
-    # ------------------------------------------------------------------
+# ------------------------------------------------------------------
     # SOARING  (target ~10-15% of dataset)
     # Archetype: albatross, vulture, stork, frigatebird
     # Key traits: highest aspect ratios + broadest wings (low loading)
@@ -315,26 +315,32 @@ def score_birds_for_categories(df: pd.DataFrame) -> pd.DataFrame:
         'score_cruising', 'score_hovering'
     ]
     max_specialist = scored[specialist_cols].max(axis=1)
-
-    # Generalist score peaks for birds where ALL specialist scores are middling
-    # (around 2.5 on a 0-5 scale). Birds with very high OR very low specialist
-    # scores get a lower generalist score.
-    scored['score_generalist'] = 5.0 - max_specialist  # inverse of best specialist fit
-
+    
     # ------------------------------------------------------------------
-    # ASSIGN EXCLUSIVE CATEGORY: highest score wins
+    # ASSIGN CATEGORY WITH THRESHOLD (KEY FIX)
     # ------------------------------------------------------------------
-    all_score_cols = specialist_cols + ['score_generalist']
-    category_map = {col: col.replace('score_', '') for col in all_score_cols}
 
-    scored['flight_category'] = (
-        scored[all_score_cols]
+    threshold = 2 # 🔥 tune this (2.6–3.0 range works best)
+
+    # Max specialist score
+    max_specialist = scored[specialist_cols].max(axis=1)
+
+    # Get best specialist category
+    best_specialist = (
+        scored[specialist_cols]
         .idxmax(axis=1)
-        .map(category_map)
+        .str.replace('score_', '')
     )
 
-    # Winning score (useful for ranking within category, e.g. picking top airfoil)
-    scored['category_score'] = scored[all_score_cols].max(axis=1)
+    # Apply threshold logic
+    scored['flight_category'] = np.where(
+        max_specialist < threshold,
+        'generalist',
+        best_specialist
+    )
+
+    # Category score = best specialist score (not including generalist)
+    scored['category_score'] = max_specialist
 
     return scored
 

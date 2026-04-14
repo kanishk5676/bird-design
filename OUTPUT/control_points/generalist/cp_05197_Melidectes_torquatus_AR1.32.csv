@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melidectes_torquatus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 110.50 mm
+# Secondary1: 83.90 mm
+# Kipps Distance: 22.50 mm
+# Hand-Wing Index: 21.20
+# Tail Length: 95.40 mm
+# Aspect Ratio: 1.317
+# Pointedness Index: 0.2036
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1203
+# Max Thickness Position: 0.3373
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3630
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.88e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01031282,0.06563691
+UPPER,2,0.04125127,0.11304933
+UPPER,3,0.08594015,0.13980045
+UPPER,4,0.29343360,0.17088973
+UPPER,5,0.33728000,0.17810718
+UPPER,6,0.38112640,0.16607810
+UPPER,7,0.38517600,0.13239668
+UPPER,8,0.49304000,0.08282536
+UPPER,9,0.88000000,0.03159349
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01031282,-0.04012327
+LOWER,2,0.04125127,-0.01825731
+LOWER,3,0.08594015,-0.04317311
+LOWER,4,0.29343360,-0.04322786
+LOWER,5,0.33728000,-0.06247438
+LOWER,6,0.38112640,-0.03601041
+LOWER,7,0.38517600,0.00488846
+LOWER,8,0.49304000,0.01900546
+LOWER,9,0.88000000,0.00964247
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

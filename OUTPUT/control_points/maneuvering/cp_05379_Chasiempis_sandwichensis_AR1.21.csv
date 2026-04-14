@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chasiempis_sandwichensis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 73.70 mm
+# Secondary1: 60.70 mm
+# Kipps Distance: 12.90 mm
+# Hand-Wing Index: 17.50
+# Tail Length: 61.50 mm
+# Aspect Ratio: 1.214
+# Pointedness Index: 0.1750
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1255
+# Max Thickness Position: 0.3395
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3660
+# Leading Edge Radius: 0.0352
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.12e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01057183,0.06793096
+UPPER,2,0.04228731,0.11685672
+UPPER,3,0.08809856,0.14405242
+UPPER,4,0.29536500,0.17633172
+UPPER,5,0.33950000,0.18386187
+UPPER,6,0.38363500,0.17131162
+UPPER,7,0.38802500,0.13617092
+UPPER,8,0.49600000,0.08474617
+UPPER,9,0.88000000,0.03221676
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01057183,-0.04093731
+LOWER,2,0.04228731,-0.01973502
+LOWER,3,0.08809856,-0.04594613
+LOWER,4,0.29536500,-0.04706272
+LOWER,5,0.33950000,-0.06714312
+LOWER,6,0.38363500,-0.03953257
+LOWER,7,0.38802500,0.00313828
+LOWER,8,0.49600000,0.01861246
+LOWER,9,0.88000000,0.00956974
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

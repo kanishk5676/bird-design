@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Edolisoma_pygmaeum
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 111.00 mm
+# Secondary1: 85.10 mm
+# Kipps Distance: 25.90 mm
+# Hand-Wing Index: 23.20
+# Tail Length: 92.20 mm
+# Aspect Ratio: 1.304
+# Pointedness Index: 0.2333
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1187
+# Max Thickness Position: 0.3361
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3614
+# Leading Edge Radius: 0.0337
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.89e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01010008,0.06396048
+UPPER,2,0.04040032,0.11156296
+UPPER,3,0.08416733,0.13833396
+UPPER,4,0.29238960,0.16903991
+UPPER,5,0.33608000,0.17615984
+UPPER,6,0.37977040,0.16429329
+UPPER,7,0.38363600,0.13106697
+UPPER,8,0.49144000,0.08209656
+UPPER,9,0.88000000,0.03134111
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01010008,-0.03939232
+LOWER,2,0.04040032,-0.01784990
+LOWER,3,0.08416733,-0.04237853
+LOWER,4,0.29238960,-0.04218457
+LOWER,5,0.33608000,-0.06117104
+LOWER,6,0.37977040,-0.03506464
+LOWER,7,0.38363600,0.00528161
+LOWER,8,0.49144000,0.01903337
+LOWER,9,0.88000000,0.00962698
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

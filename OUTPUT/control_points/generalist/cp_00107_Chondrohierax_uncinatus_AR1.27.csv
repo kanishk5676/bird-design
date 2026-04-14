@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Chondrohierax_uncinatus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 285.30 mm
+# Secondary1: 224.20 mm
+# Kipps Distance: 59.80 mm
+# Hand-Wing Index: 21.00
+# Tail Length: 197.60 mm
+# Aspect Ratio: 1.273
+# Pointedness Index: 0.2096
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1150
+# Max Thickness Position: 0.3374
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3632
+# Leading Edge Radius: 0.0343
+# LE Droop: 0.0038
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.59e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01028842,0.06553052
+UPPER,2,0.04115368,0.11047627
+UPPER,3,0.08573683,0.13602818
+UPPER,4,0.29353800,0.16595857
+UPPER,5,0.33740000,0.17285928
+UPPER,6,0.38126200,0.16135810
+UPPER,7,0.38533000,0.12915480
+UPPER,8,0.49320000,0.08137367
+UPPER,9,0.88000000,0.03118299
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01028842,-0.04001368
+LOWER,2,0.04115368,-0.01655715
+LOWER,3,0.08573683,-0.04009698
+LOWER,4,0.29353800,-0.03876240
+LOWER,5,0.33740000,-0.05716428
+LOWER,6,0.38126200,-0.03186169
+LOWER,7,0.38533000,0.00724232
+LOWER,8,0.49320000,0.01976380
+LOWER,9,0.88000000,0.00986140
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

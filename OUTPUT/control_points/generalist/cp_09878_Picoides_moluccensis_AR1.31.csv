@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Picoides_moluccensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 72.60 mm
+# Secondary1: 55.60 mm
+# Kipps Distance: 16.70 mm
+# Hand-Wing Index: 23.00
+# Tail Length: 39.60 mm
+# Aspect Ratio: 1.306
+# Pointedness Index: 0.2300
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1206
+# Max Thickness Position: 0.3362
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3616
+# Leading Edge Radius: 0.0337
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.26e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01012306,0.06413836
+UPPER,2,0.04049224,0.11259043
+UPPER,3,0.08435883,0.13974586
+UPPER,4,0.29249400,0.17087657
+UPPER,5,0.33620000,0.17811162
+UPPER,6,0.37990600,0.16605321
+UPPER,7,0.38379000,0.13228965
+UPPER,8,0.49160000,0.08266193
+UPPER,9,0.88000000,0.03150718
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01012306,-0.03947224
+LOWER,2,0.04049224,-0.01845229
+LOWER,3,0.08435883,-0.04347614
+LOWER,4,0.29249400,-0.04376316
+LOWER,5,0.33620000,-0.06305662
+LOWER,6,0.37990600,-0.03652811
+LOWER,7,0.38379000,0.00447049
+LOWER,8,0.49160000,0.01878527
+LOWER,9,0.88000000,0.00955851
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

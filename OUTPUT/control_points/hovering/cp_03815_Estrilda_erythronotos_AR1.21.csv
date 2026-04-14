@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Estrilda_erythronotos
+# Flight Category: hovering
+#
+# === Morphological Parameters ===
+# Wing Length: 52.60 mm
+# Secondary1: 43.30 mm
+# Kipps Distance: 9.30 mm
+# Hand-Wing Index: 17.80
+# Tail Length: 61.00 mm
+# Aspect Ratio: 1.215
+# Pointedness Index: 0.1768
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1258
+# Max Thickness Position: 0.3393
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3658
+# Leading Edge Radius: 0.0352
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.00e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01055361,0.06776165
+UPPER,2,0.04221444,0.11689022
+UPPER,3,0.08794674,0.14419967
+UPPER,4,0.29520840,0.17653230
+UPPER,5,0.33932000,0.18407790
+UPPER,6,0.38343160,0.17150190
+UPPER,7,0.38779400,0.13628910
+UPPER,8,0.49576000,0.08478302
+UPPER,9,0.88000000,0.03222160
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01055361,-0.04088244
+LOWER,2,0.04221444,-0.01983194
+LOWER,3,0.08794674,-0.04611457
+LOWER,4,0.29520840,-0.04732050
+LOWER,5,0.33932000,-0.06744210
+LOWER,6,0.38343160,-0.03977490
+LOWER,7,0.38779400,0.00298350
+LOWER,8,0.49576000,0.01855070
+LOWER,9,0.88000000,0.00954907
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

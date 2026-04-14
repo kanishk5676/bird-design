@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hypothymis_puella
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 74.30 mm
+# Secondary1: 58.60 mm
+# Kipps Distance: 11.10 mm
+# Hand-Wing Index: 16.00
+# Tail Length: 72.00 mm
+# Aspect Ratio: 1.268
+# Pointedness Index: 0.1494
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1267
+# Max Thickness Position: 0.3404
+# Max Camber/Chord: 0.0586
+# Max Camber Position: 0.3672
+# Leading Edge Radius: 0.0358
+# LE Droop: 0.0048
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.13e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01074849,0.06929093
+UPPER,2,0.04299396,0.11790492
+UPPER,3,0.08957074,0.14506885
+UPPER,4,0.29614800,0.17761838
+UPPER,5,0.34040000,0.18521785
+UPPER,6,0.38465200,0.17255206
+UPPER,7,0.38918000,0.13708787
+UPPER,8,0.49720000,0.08524020
+UPPER,9,0.88000000,0.03238543
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01074849,-0.04155396
+LOWER,2,0.04299396,-0.02003451
+LOWER,3,0.08957074,-0.04652395
+LOWER,4,0.29614800,-0.04783259
+LOWER,5,0.34040000,-0.06809785
+LOWER,6,0.38465200,-0.04023312
+LOWER,7,0.38918000,0.00283055
+LOWER,8,0.49720000,0.01857510
+LOWER,9,0.88000000,0.00957369
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

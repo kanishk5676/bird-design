@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Passerina_caerulea
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 86.10 mm
+# Secondary1: 67.20 mm
+# Kipps Distance: 19.90 mm
+# Hand-Wing Index: 22.90
+# Tail Length: 64.40 mm
+# Aspect Ratio: 1.281
+# Pointedness Index: 0.2311
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1203
+# Max Thickness Position: 0.3363
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3617
+# Leading Edge Radius: 0.0337
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.37e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01012051,0.06414309
+UPPER,2,0.04048206,0.11249394
+UPPER,3,0.08433762,0.13957311
+UPPER,4,0.29254620,0.17064772
+UPPER,5,0.33626000,0.17786710
+UPPER,6,0.37997380,0.16583479
+UPPER,7,0.38386700,0.13214432
+UPPER,8,0.49168000,0.08260286
+UPPER,9,0.88000000,0.03149256
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01012051,-0.03945606
+LOWER,2,0.04048206,-0.01836301
+LOWER,3,0.08433762,-0.04331719
+LOWER,4,0.29254620,-0.04352745
+LOWER,5,0.33626000,-0.06277915
+LOWER,6,0.37997380,-0.03630807
+LOWER,7,0.38386700,0.00460180
+LOWER,8,0.49168000,0.01883203
+LOWER,9,0.88000000,0.00957307
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

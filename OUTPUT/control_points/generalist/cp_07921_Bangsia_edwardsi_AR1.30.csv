@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Bangsia_edwardsi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 90.00 mm
+# Secondary1: 69.40 mm
+# Kipps Distance: 20.60 mm
+# Hand-Wing Index: 22.90
+# Tail Length: 54.10 mm
+# Aspect Ratio: 1.297
+# Pointedness Index: 0.2289
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1201
+# Max Thickness Position: 0.3363
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3617
+# Leading Edge Radius: 0.0338
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.45e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01013193,0.06421156
+UPPER,2,0.04052771,0.11237094
+UPPER,3,0.08443272,0.13939599
+UPPER,4,0.29254620,0.17041647
+UPPER,5,0.33626000,0.17762110
+UPPER,6,0.37997380,0.16561339
+UPPER,7,0.38386700,0.13199179
+UPPER,8,0.49168000,0.08253397
+UPPER,9,0.88000000,0.03147288
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01013193,-0.03950171
+LOWER,2,0.04052771,-0.01828429
+LOWER,3,0.08443272,-0.04317451
+LOWER,4,0.29254620,-0.04332081
+LOWER,5,0.33626000,-0.06253315
+LOWER,6,0.37997380,-0.03611618
+LOWER,7,0.38386700,0.00471004
+LOWER,8,0.49168000,0.01886647
+LOWER,9,0.88000000,0.00958291
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melidectes_rufocrissalis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 138.00 mm
+# Secondary1: 106.30 mm
+# Kipps Distance: 31.70 mm
+# Hand-Wing Index: 23.00
+# Tail Length: 109.70 mm
+# Aspect Ratio: 1.298
+# Pointedness Index: 0.2297
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1176
+# Max Thickness Position: 0.3362
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3616
+# Leading Edge Radius: 0.0337
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.51e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01012468,0.06414807
+UPPER,2,0.04049871,0.11109677
+UPPER,3,0.08437232,0.13759498
+UPPER,4,0.29249400,0.16806847
+UPPER,5,0.33620000,0.17512428
+UPPER,6,0.37990600,0.16336460
+UPPER,7,0.38379000,0.13043750
+UPPER,8,0.49160000,0.08182547
+UPPER,9,0.88000000,0.03126819
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01012468,-0.03947871
+LOWER,2,0.04049871,-0.01749634
+LOWER,3,0.08437232,-0.04174348
+LOWER,4,0.29249400,-0.04125380
+LOWER,5,0.33620000,-0.06006928
+LOWER,6,0.37990600,-0.03419799
+LOWER,7,0.38379000,0.00578492
+LOWER,8,0.49160000,0.01920350
+LOWER,9,0.88000000,0.00967800
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

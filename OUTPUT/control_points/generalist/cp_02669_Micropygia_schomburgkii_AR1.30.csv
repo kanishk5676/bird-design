@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Micropygia_schomburgkii
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 74.50 mm
+# Secondary1: 57.20 mm
+# Kipps Distance: 17.30 mm
+# Hand-Wing Index: 23.20
+# Tail Length: 28.50 mm
+# Aspect Ratio: 1.302
+# Pointedness Index: 0.2322
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1196
+# Max Thickness Position: 0.3361
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3614
+# Leading Edge Radius: 0.0337
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.54e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01010578,0.06399471
+UPPER,2,0.04042314,0.11201682
+UPPER,3,0.08421487,0.13898753
+UPPER,4,0.29238960,0.16989317
+UPPER,5,0.33608000,0.17706756
+UPPER,6,0.37977040,0.16511025
+UPPER,7,0.38363600,0.13162976
+UPPER,8,0.49144000,0.08235073
+UPPER,9,0.88000000,0.03141373
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01010578,-0.03941514
+LOWER,2,0.04042314,-0.01814037
+LOWER,3,0.08421487,-0.04290501
+LOWER,4,0.29238960,-0.04294706
+LOWER,5,0.33608000,-0.06207876
+LOWER,6,0.37977040,-0.03577267
+LOWER,7,0.38363600,0.00488221
+LOWER,8,0.49144000,0.01890628
+LOWER,9,0.88000000,0.00959067
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

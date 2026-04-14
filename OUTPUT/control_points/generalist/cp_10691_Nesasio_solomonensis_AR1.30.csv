@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nesasio_solomonensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 263.40 mm
+# Secondary1: 203.10 mm
+# Kipps Distance: 60.30 mm
+# Hand-Wing Index: 23.00
+# Tail Length: 123.80 mm
+# Aspect Ratio: 1.297
+# Pointedness Index: 0.2289
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1139
+# Max Thickness Position: 0.3362
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3616
+# Leading Edge Radius: 0.0338
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.92e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01012866,0.06417196
+UPPER,2,0.04051464,0.10923749
+UPPER,3,0.08440550,0.13491763
+UPPER,4,0.29249400,0.16457304
+UPPER,5,0.33620000,0.17140573
+UPPER,6,0.37990600,0.16001791
+UPPER,7,0.38379000,0.12813200
+UPPER,8,0.49160000,0.08078428
+UPPER,9,0.88000000,0.03097071
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01012866,-0.03949464
+LOWER,2,0.04051464,-0.01630641
+LOWER,3,0.08440550,-0.03958673
+LOWER,4,0.29249400,-0.03813022
+LOWER,5,0.33620000,-0.05635073
+LOWER,6,0.37990600,-0.03129752
+LOWER,7,0.38379000,0.00742108
+LOWER,8,0.49160000,0.01972410
+LOWER,9,0.88000000,0.00982675
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

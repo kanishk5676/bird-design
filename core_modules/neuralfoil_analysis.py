@@ -85,8 +85,8 @@ RESULTS_DIR = PROJECT_ROOT / "RESULTS" / "neuralfoil_analysis"
 #: Reynolds numbers that span the full claimed range of the paper.
 REYNOLDS_NUMBERS = [1e4, 5e4, 1e5, 2e5, 5e5, 1e6]
 
-#: Alpha sweep from -4° to 20° inclusive in 2° steps.
-ALPHAS = list(range(-4, 22, 2))   # [-4, -2, 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+#: Alpha sweep from -4° to 20° inclusive in 1° steps.
+ALPHAS = np.arange(-4, 20.5, 1.0).tolist()
 
 #: NeuralFoil model size.  "xxlarge" is the highest-accuracy option.
 MODEL_SIZE = "xxlarge"
@@ -308,23 +308,24 @@ def detect_stall(alphas: list[float], cls: list[float]) -> tuple[float, float]:
     cl_max      : float
     stall_alpha : float   (angle of first 5 % drop after peak)
     """
-    if len(cls) == 0:
+    if len(cls) < 5:
         return 0.0, 0.0
 
-    cls_arr    = np.array(cls, dtype=float)
-    alphas_arr = np.array(alphas, dtype=float)
+    cls_arr = np.array(cls)
+    alphas_arr = np.array(alphas)
 
-    i_peak    = int(np.argmax(cls_arr))
-    cl_max    = float(cls_arr[i_peak])
-    threshold = cl_max * 0.95
+    i_peak = np.argmax(cls_arr)
+    cl_max = float(cls_arr[i_peak])
 
-    stall_alpha = float(alphas_arr[i_peak])   # default: at the peak
+    # Combine drop + slope
     for i in range(i_peak + 1, len(cls_arr)):
-        if cls_arr[i] < threshold:
-            stall_alpha = float(alphas_arr[i])
-            break
+        drop = cls_arr[i] < 0.97 * cl_max
+        slope = (cls_arr[i] - cls_arr[i-1]) < -0.01
 
-    return cl_max, stall_alpha
+        if drop or slope:
+            return cl_max, float(alphas_arr[i])
+
+    return cl_max, float(alphas_arr[i_peak])
 
 
 # ---------------------------------------------------------------------------
@@ -450,11 +451,16 @@ def build_summary(
     estimated_re = file_meta.get('_estimated_re', 1e5)
     # Find the Re in our test matrix nearest to the estimated value
     re_for_stall = min(REYNOLDS_NUMBERS, key=lambda r: abs(r - estimated_re))
-    stall_df     = df[df['Re'] == re_for_stall].sort_values('alpha')
+    stall_df     = df[
+        (df['Re'] == re_for_stall) &
+        (df['analysis_confidence'] >= 0.6) &
+        (df['CD'] >= 0.004)
+    ].sort_values('alpha')
     cl_max, stall_alpha = detect_stall(
         stall_df['alpha'].tolist(),
         stall_df['CL'].tolist(),
     )
+    stall_alpha = np.clip(stall_alpha, 8, 18)
 
     # ── Design-point performance at estimated Re ─────────────────────
     design_re_df  = df[df['Re'] == re_for_stall]

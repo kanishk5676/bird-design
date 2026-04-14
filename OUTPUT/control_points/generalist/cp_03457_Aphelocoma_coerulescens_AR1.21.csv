@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aphelocoma_coerulescens
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 116.70 mm
+# Secondary1: 96.20 mm
+# Kipps Distance: 20.60 mm
+# Hand-Wing Index: 17.50
+# Tail Length: 140.50 mm
+# Aspect Ratio: 1.213
+# Pointedness Index: 0.1765
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1229
+# Max Thickness Position: 0.3395
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3660
+# Leading Edge Radius: 0.0352
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.02e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01056424,0.06788546
+UPPER,2,0.04225697,0.11557744
+UPPER,3,0.08803536,0.14221026
+UPPER,4,0.29536500,0.17392668
+UPPER,5,0.33950000,0.18130332
+UPPER,6,0.38363500,0.16900892
+UPPER,7,0.38802500,0.13458462
+UPPER,8,0.49600000,0.08402977
+UPPER,9,0.88000000,0.03201208
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01056424,-0.04090697
+LOWER,2,0.04225697,-0.01891628
+LOWER,3,0.08803536,-0.04446217
+LOWER,4,0.29536500,-0.04491354
+LOWER,5,0.33950000,-0.06458457
+LOWER,6,0.38363500,-0.03753690
+LOWER,7,0.38802500,0.00426404
+LOWER,8,0.49600000,0.01897066
+LOWER,9,0.88000000,0.00967209
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Stizorhina_fraseri
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 94.10 mm
+# Secondary1: 73.00 mm
+# Kipps Distance: 21.30 mm
+# Hand-Wing Index: 22.60
+# Tail Length: 77.90 mm
+# Aspect Ratio: 1.289
+# Pointedness Index: 0.2264
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1201
+# Max Thickness Position: 0.3364
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3619
+# Leading Edge Radius: 0.0338
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.53e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01015403,0.06440418
+UPPER,2,0.04061612,0.11246874
+UPPER,3,0.08461691,0.13943549
+UPPER,4,0.29270280,0.17045816
+UPPER,5,0.33644000,0.17766232
+UPPER,6,0.38017720,0.16565540
+UPPER,7,0.38409800,0.13203602
+UPPER,8,0.49192000,0.08257352
+UPPER,9,0.88000000,0.03149092
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01015403,-0.03957212
+LOWER,2,0.04061612,-0.01826456
+LOWER,3,0.08461691,-0.04314732
+LOWER,4,0.29270280,-0.04326504
+LOWER,5,0.33644000,-0.06247612
+LOWER,6,0.38017720,-0.03606089
+LOWER,7,0.38409800,0.00476264
+LOWER,8,0.49192000,0.01889803
+LOWER,9,0.88000000,0.00959551
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

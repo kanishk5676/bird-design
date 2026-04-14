@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Horizocerus_hartlaubi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 147.20 mm
+# Secondary1: 120.00 mm
+# Kipps Distance: 24.70 mm
+# Hand-Wing Index: 16.90
+# Tail Length: 164.00 mm
+# Aspect Ratio: 1.227
+# Pointedness Index: 0.1678
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1221
+# Max Thickness Position: 0.3399
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3665
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.74e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01062709,0.06838251
+UPPER,2,0.04250834,0.11534994
+UPPER,3,0.08855905,0.14168505
+UPPER,4,0.29567820,0.17322458
+UPPER,5,0.33986000,0.18055119
+UPPER,6,0.38404180,0.16834017
+UPPER,7,0.38848700,0.13414931
+UPPER,8,0.49648000,0.08386569
+UPPER,9,0.88000000,0.03197639
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01062709,-0.04112234
+LOWER,2,0.04250834,-0.01862093
+LOWER,3,0.08855905,-0.04394108
+LOWER,4,0.29567820,-0.04413161
+LOWER,5,0.33986000,-0.06366924
+LOWER,6,0.38404180,-0.03680499
+LOWER,7,0.38848700,0.00471248
+LOWER,8,0.49648000,0.01913797
+LOWER,9,0.88000000,0.00972584
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

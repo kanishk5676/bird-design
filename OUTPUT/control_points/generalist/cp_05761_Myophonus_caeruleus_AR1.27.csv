@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Myophonus_caeruleus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 169.40 mm
+# Secondary1: 133.80 mm
+# Kipps Distance: 35.00 mm
+# Hand-Wing Index: 20.70
+# Tail Length: 119.40 mm
+# Aspect Ratio: 1.266
+# Pointedness Index: 0.2066
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1183
+# Max Thickness Position: 0.3376
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3634
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.29e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01031286,0.06573717
+UPPER,2,0.04125144,0.11220406
+UPPER,3,0.08594051,0.13841574
+UPPER,4,0.29369460,0.16906635
+UPPER,5,0.33758000,0.17616248
+UPPER,6,0.38146540,0.16433561
+UPPER,7,0.38556100,0.13122037
+UPPER,8,0.49344000,0.08232494
+UPPER,9,0.88000000,0.03146113
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01031286,-0.04009344
+LOWER,2,0.04125144,-0.01758316
+LOWER,3,0.08594051,-0.04196471
+LOWER,4,0.29369460,-0.04145193
+LOWER,5,0.33758000,-0.06037493
+LOWER,6,0.38146540,-0.03435581
+LOWER,7,0.38556100,0.00585555
+LOWER,8,0.49344000,0.01933652
+LOWER,9,0.88000000,0.00974270
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

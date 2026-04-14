@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Euplectes_capensis
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 75.60 mm
+# Secondary1: 61.40 mm
+# Kipps Distance: 12.80 mm
+# Hand-Wing Index: 17.00
+# Tail Length: 54.20 mm
+# Aspect Ratio: 1.231
+# Pointedness Index: 0.1693
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1258
+# Max Thickness Position: 0.3398
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3664
+# Leading Edge Radius: 0.0354
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.16e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01061631,0.06829785
+UPPER,2,0.04246523,0.11714451
+UPPER,3,0.08846923,0.14430214
+UPPER,4,0.29562600,0.17664404
+UPPER,5,0.33980000,0.18418978
+UPPER,6,0.38397400,0.17161355
+UPPER,7,0.38841000,0.13640011
+UPPER,8,0.49640000,0.08487681
+UPPER,9,0.88000000,0.03226343
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01061631,-0.04108523
+LOWER,2,0.04246523,-0.01979430
+LOWER,3,0.08846923,-0.04606547
+LOWER,4,0.29562600,-0.04721281
+LOWER,5,0.33980000,-0.06733478
+LOWER,6,0.38397400,-0.03966708
+LOWER,7,0.38841000,0.00309210
+LOWER,8,0.49640000,0.01861833
+LOWER,9,0.88000000,0.00957638
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

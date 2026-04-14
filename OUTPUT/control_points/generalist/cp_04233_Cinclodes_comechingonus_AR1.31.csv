@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cinclodes_comechingonus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 88.10 mm
+# Secondary1: 67.20 mm
+# Kipps Distance: 21.00 mm
+# Hand-Wing Index: 23.80
+# Tail Length: 71.00 mm
+# Aspect Ratio: 1.311
+# Pointedness Index: 0.2384
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1195
+# Max Thickness Position: 0.3357
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3610
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.41e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01005606,0.06357634
+UPPER,2,0.04022422,0.11176265
+UPPER,3,0.08380047,0.13882488
+UPPER,4,0.29207640,0.16970104
+UPPER,5,0.33572000,0.17686958
+UPPER,6,0.37936360,0.16492201
+UPPER,7,0.38317400,0.13146882
+UPPER,8,0.49096000,0.08223801
+UPPER,9,0.88000000,0.03136774
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01005606,-0.03925222
+LOWER,2,0.04022422,-0.01814435
+LOWER,3,0.08380047,-0.04289470
+LOWER,4,0.29207640,-0.04296567
+LOWER,5,0.33572000,-0.06208178
+LOWER,6,0.37936360,-0.03579713
+LOWER,7,0.38317400,0.00482460
+LOWER,8,0.49096000,0.01885762
+LOWER,9,0.88000000,0.00956945
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Otus_fuliginosus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 140.90 mm
+# Secondary1: 108.50 mm
+# Kipps Distance: 32.30 mm
+# Hand-Wing Index: 22.90
+# Tail Length: 72.20 mm
+# Aspect Ratio: 1.299
+# Pointedness Index: 0.2292
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1176
+# Max Thickness Position: 0.3363
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3617
+# Leading Edge Radius: 0.0338
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.58e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01013013,0.06420080
+UPPER,2,0.04052053,0.11111177
+UPPER,3,0.08441777,0.13758278
+UPPER,4,0.29254620,0.16804923
+UPPER,5,0.33626000,0.17510275
+UPPER,6,0.37997380,0.16334687
+UPPER,7,0.38386700,0.13043042
+UPPER,8,0.49168000,0.08182884
+UPPER,9,0.88000000,0.03127141
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01013013,-0.03949453
+LOWER,2,0.04052053,-0.01747842
+LOWER,3,0.08441777,-0.04171386
+LOWER,4,0.29254620,-0.04120540
+LOWER,5,0.33626000,-0.06001480
+LOWER,6,0.37997380,-0.03415187
+LOWER,7,0.38386700,0.00581811
+LOWER,8,0.49168000,0.01921904
+LOWER,9,0.88000000,0.00968364
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

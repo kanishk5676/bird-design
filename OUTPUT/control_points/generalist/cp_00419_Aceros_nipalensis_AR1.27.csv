@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Aceros_nipalensis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 431.70 mm
+# Secondary1: 338.60 mm
+# Kipps Distance: 93.10 mm
+# Hand-Wing Index: 21.60
+# Tail Length: 457.70 mm
+# Aspect Ratio: 1.275
+# Pointedness Index: 0.2157
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1121
+# Max Thickness Position: 0.3370
+# Max Camber/Chord: 0.0578
+# Max Camber Position: 0.3627
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0037
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.16e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01023918,0.06511507
+UPPER,2,0.04095672,0.10881542
+UPPER,3,0.08532649,0.13383790
+UPPER,4,0.29322480,0.16311793
+UPPER,5,0.33704000,0.16984331
+UPPER,6,0.38085520,0.15863434
+UPPER,7,0.38486800,0.12724922
+UPPER,8,0.49272000,0.08047568
+UPPER,9,0.88000000,0.03091354
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01023918,-0.03985272
+LOWER,2,0.04095672,-0.01565495
+LOWER,3,0.08532649,-0.03844538
+LOWER,4,0.29322480,-0.03640176
+LOWER,5,0.33704000,-0.05433611
+LOWER,6,0.38085520,-0.02967638
+LOWER,7,0.38486800,0.00843413
+LOWER,8,0.49272000,0.02011467
+LOWER,9,0.88000000,0.00995481
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

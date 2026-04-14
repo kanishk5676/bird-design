@@ -1,0 +1,9 @@
+{
+  "threshold": 2.4,
+  "pointedness_q": 0.6,
+  "hwi_q": 0.55,
+  "ar_q": 0.6,
+  "thr_pointed": 0.24059888480131636,
+  "thr_hwi": 22.4,
+  "thr_ar": 1.3189061502447328
+}

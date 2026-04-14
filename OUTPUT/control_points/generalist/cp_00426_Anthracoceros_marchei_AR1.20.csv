@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Anthracoceros_marchei
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 274.60 mm
+# Secondary1: 228.90 mm
+# Kipps Distance: 47.40 mm
+# Hand-Wing Index: 17.10
+# Tail Length: 249.10 mm
+# Aspect Ratio: 1.200
+# Pointedness Index: 0.1726
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1184
+# Max Thickness Position: 0.3397
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3663
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0046
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 6.26e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01059640,0.06815843
+UPPER,2,0.04238562,0.11340949
+UPPER,3,0.08830337,0.13895661
+UPPER,4,0.29557380,0.16966788
+UPPER,5,0.33974000,0.17676919
+UPPER,6,0.38390620,0.16493367
+UPPER,7,0.38833300,0.13179421
+UPPER,8,0.49632000,0.08279134
+UPPER,9,0.88000000,0.03166573
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01059640,-0.04101162
+LOWER,2,0.04238562,-0.01742878
+LOWER,3,0.08830337,-0.04177560
+LOWER,4,0.29557380,-0.04100441
+LOWER,5,0.33974000,-0.05994124
+LOWER,6,0.38390620,-0.03390309
+LOWER,7,0.38833300,0.00633768
+LOWER,8,0.49632000,0.01964693
+LOWER,9,0.88000000,0.00986929
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

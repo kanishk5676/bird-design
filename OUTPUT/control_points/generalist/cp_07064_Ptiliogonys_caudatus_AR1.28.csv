@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Ptiliogonys_caudatus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 96.40 mm
+# Secondary1: 75.60 mm
+# Kipps Distance: 21.70 mm
+# Hand-Wing Index: 22.30
+# Tail Length: 125.00 mm
+# Aspect Ratio: 1.275
+# Pointedness Index: 0.2251
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1202
+# Max Thickness Position: 0.3366
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3622
+# Leading Edge Radius: 0.0339
+# LE Droop: 0.0035
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.58e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01016959,0.06455755
+UPPER,2,0.04067836,0.11262282
+UPPER,3,0.08474659,0.13955615
+UPPER,4,0.29285940,0.17060591
+UPPER,5,0.33662000,0.17781639
+UPPER,6,0.38038060,0.16579893
+UPPER,7,0.38432900,0.13215004
+UPPER,8,0.49216000,0.08264440
+UPPER,9,0.88000000,0.03151784
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01016959,-0.03961636
+LOWER,2,0.04067836,-0.01828126
+LOWER,3,0.08474659,-0.04318606
+LOWER,4,0.29285940,-0.04330490
+LOWER,5,0.33662000,-0.06253284
+LOWER,6,0.38038060,-0.03609442
+LOWER,7,0.38432900,0.00476495
+LOWER,8,0.49216000,0.01891345
+LOWER,9,0.88000000,0.00960346
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

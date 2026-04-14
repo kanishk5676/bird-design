@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Melanerpes_uropygialis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 131.40 mm
+# Secondary1: 102.70 mm
+# Kipps Distance: 28.60 mm
+# Hand-Wing Index: 21.80
+# Tail Length: 90.60 mm
+# Aspect Ratio: 1.279
+# Pointedness Index: 0.2177
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1188
+# Max Thickness Position: 0.3369
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3626
+# Leading Edge Radius: 0.0341
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.36e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01022287,0.06497725
+UPPER,2,0.04089150,0.11212082
+UPPER,3,0.08519062,0.13866493
+UPPER,4,0.29312040,0.16942625
+UPPER,5,0.33692000,0.17655632
+UPPER,6,0.38071960,0.16467287
+UPPER,7,0.38471400,0.13139924
+UPPER,8,0.49256000,0.08233725
+UPPER,9,0.88000000,0.03144108
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01022287,-0.03979950
+LOWER,2,0.04089150,-0.01782435
+LOWER,3,0.08519062,-0.04237189
+LOWER,4,0.29312040,-0.04209901
+LOWER,5,0.33692000,-0.06111252
+LOWER,6,0.38071960,-0.03496894
+LOWER,7,0.38471400,0.00543476
+LOWER,8,0.49256000,0.01915076
+LOWER,9,0.88000000,0.00967710
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

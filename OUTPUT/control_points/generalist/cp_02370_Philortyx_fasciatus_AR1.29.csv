@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Philortyx_fasciatus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 98.60 mm
+# Secondary1: 76.60 mm
+# Kipps Distance: 22.90 mm
+# Hand-Wing Index: 23.00
+# Tail Length: 57.20 mm
+# Aspect Ratio: 1.287
+# Pointedness Index: 0.2323
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1195
+# Max Thickness Position: 0.3362
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3616
+# Leading Edge Radius: 0.0337
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.63e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01011172,0.06407030
+UPPER,2,0.04044687,0.11204272
+UPPER,3,0.08426431,0.13895716
+UPPER,4,0.29249400,0.16984687
+UPPER,5,0.33620000,0.17701619
+UPPER,6,0.37990600,0.16506732
+UPPER,7,0.38379000,0.13161049
+UPPER,8,0.49160000,0.08235521
+UPPER,9,0.88000000,0.03141955
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01011172,-0.03942687
+LOWER,2,0.04044687,-0.01810176
+LOWER,3,0.08426431,-0.04284079
+LOWER,4,0.29249400,-0.04284300
+LOWER,5,0.33620000,-0.06196119
+LOWER,6,0.37990600,-0.03567368
+LOWER,7,0.38379000,0.00495248
+LOWER,8,0.49160000,0.01893863
+LOWER,9,0.88000000,0.00960233
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

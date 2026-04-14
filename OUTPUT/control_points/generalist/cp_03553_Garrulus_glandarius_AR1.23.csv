@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Garrulus_glandarius
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 181.10 mm
+# Secondary1: 147.30 mm
+# Kipps Distance: 35.40 mm
+# Hand-Wing Index: 19.40
+# Tail Length: 150.20 mm
+# Aspect Ratio: 1.229
+# Pointedness Index: 0.1955
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1189
+# Max Thickness Position: 0.3384
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3645
+# Leading Edge Radius: 0.0347
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.59e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01040945,0.06657671
+UPPER,2,0.04163781,0.11295867
+UPPER,3,0.08674544,0.13906860
+UPPER,4,0.29437320,0.16987942
+UPPER,5,0.33836000,0.17701498
+UPPER,6,0.38234680,0.16512239
+UPPER,7,0.38656200,0.13182314
+UPPER,8,0.49448000,0.08267498
+UPPER,9,0.88000000,0.03158793
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01040945,-0.04040181
+LOWER,2,0.04163781,-0.01772510
+LOWER,3,0.08674544,-0.04225602
+LOWER,4,0.29437320,-0.04180864
+LOWER,5,0.33836000,-0.06083678
+LOWER,6,0.38234680,-0.03467308
+LOWER,7,0.38656200,0.00576171
+LOWER,8,0.49448000,0.01936562
+LOWER,9,0.88000000,0.00976524
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

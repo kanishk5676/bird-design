@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Vidua_nigeriae
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 63.20 mm
+# Secondary1: 49.10 mm
+# Kipps Distance: 14.70 mm
+# Hand-Wing Index: 23.00
+# Tail Length: 40.00 mm
+# Aspect Ratio: 1.287
+# Pointedness Index: 0.2326
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1214
+# Max Thickness Position: 0.3362
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3616
+# Leading Edge Radius: 0.0337
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.05e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01010997,0.06405979
+UPPER,2,0.04043986,0.11299701
+UPPER,3,0.08424972,0.14033134
+UPPER,4,0.29249400,0.17164094
+UPPER,5,0.33620000,0.17892477
+UPPER,6,0.37990600,0.16678504
+UPPER,7,0.38379000,0.13279381
+UPPER,8,0.49160000,0.08288961
+UPPER,9,0.88000000,0.03157223
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01010997,-0.03941986
+LOWER,2,0.04043986,-0.01871250
+LOWER,3,0.08424972,-0.04394777
+LOWER,4,0.29249400,-0.04444621
+LOWER,5,0.33620000,-0.06386977
+LOWER,6,0.37990600,-0.03716237
+LOWER,7,0.38379000,0.00411270
+LOWER,8,0.49160000,0.01867143
+LOWER,9,0.88000000,0.00952598
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

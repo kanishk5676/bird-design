@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Tockus_leucomelas
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 188.70 mm
+# Secondary1: 152.70 mm
+# Kipps Distance: 37.50 mm
+# Hand-Wing Index: 19.60
+# Tail Length: 206.00 mm
+# Aspect Ratio: 1.236
+# Pointedness Index: 0.1987
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1185
+# Max Thickness Position: 0.3382
+# Max Camber/Chord: 0.0581
+# Max Camber Position: 0.3643
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0041
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 3.79e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01038673,0.06640036
+UPPER,2,0.04154691,0.11269550
+UPPER,3,0.08655605,0.13875620
+UPPER,4,0.29426880,0.16947750
+UPPER,5,0.33824000,0.17658928
+UPPER,6,0.38221120,0.16473631
+UPPER,7,0.38640800,0.13154800
+UPPER,8,0.49432000,0.08253897
+UPPER,9,0.88000000,0.03154502
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01038673,-0.04032291
+LOWER,2,0.04154691,-0.01760864
+LOWER,3,0.08655605,-0.04203980
+LOWER,4,0.29426880,-0.04150533
+LOWER,5,0.33824000,-0.06047008
+LOWER,6,0.38221120,-0.03439355
+LOWER,7,0.38640800,0.00590654
+LOWER,8,0.49432000,0.01940280
+LOWER,9,0.88000000,0.00977371
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

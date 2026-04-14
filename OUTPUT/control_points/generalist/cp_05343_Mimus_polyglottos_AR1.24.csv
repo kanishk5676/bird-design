@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Mimus_polyglottos
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 112.30 mm
+# Secondary1: 90.50 mm
+# Kipps Distance: 23.10 mm
+# Hand-Wing Index: 20.60
+# Tail Length: 117.60 mm
+# Aspect Ratio: 1.241
+# Pointedness Index: 0.2057
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1207
+# Max Thickness Position: 0.3376
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3635
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.92e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01032057,0.06580345
+UPPER,2,0.04128230,0.11344276
+UPPER,3,0.08600479,0.14016600
+UPPER,4,0.29374680,0.17134834
+UPPER,5,0.33764000,0.17858914
+UPPER,6,0.38153320,0.16652114
+UPPER,7,0.38563800,0.13273073
+UPPER,8,0.49352000,0.08301315
+UPPER,9,0.88000000,0.03165986
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01032057,-0.04011830
+LOWER,2,0.04128230,-0.01834943
+LOWER,3,0.08600479,-0.04335624
+LOWER,4,0.29374680,-0.04346214
+LOWER,5,0.33764000,-0.06277094
+LOWER,6,0.38153320,-0.03622133
+LOWER,7,0.38563800,0.00480988
+LOWER,8,0.49352000,0.01900844
+LOWER,9,0.88000000,0.00965007
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

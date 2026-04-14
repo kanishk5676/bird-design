@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Hypsipetes_crassirostris
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 135.00 mm
+# Secondary1: 104.70 mm
+# Kipps Distance: 29.80 mm
+# Hand-Wing Index: 22.20
+# Tail Length: 109.20 mm
+# Aspect Ratio: 1.289
+# Pointedness Index: 0.2207
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1184
+# Max Thickness Position: 0.3367
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3622
+# Leading Edge Radius: 0.0340
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.44e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01019490,0.06472941
+UPPER,2,0.04077961,0.11174990
+UPPER,3,0.08495752,0.13826546
+UPPER,4,0.29291160,0.16891759
+UPPER,5,0.33668000,0.17601927
+UPPER,6,0.38044840,0.16418313
+UPPER,7,0.38440600,0.13104195
+UPPER,8,0.49224000,0.08215040
+UPPER,9,0.88000000,0.03137891
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01019490,-0.03971161
+LOWER,2,0.04077961,-0.01769537
+LOWER,3,0.08495752,-0.04212696
+LOWER,4,0.29291160,-0.04176565
+LOWER,5,0.33668000,-0.06070347
+LOWER,6,0.38044840,-0.03466397
+LOWER,7,0.38440600,0.00557890
+LOWER,8,0.49224000,0.01917731
+LOWER,9,0.88000000,0.00968002
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

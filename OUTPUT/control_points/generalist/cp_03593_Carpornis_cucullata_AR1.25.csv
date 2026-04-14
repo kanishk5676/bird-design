@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Carpornis_cucullata
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 113.60 mm
+# Secondary1: 90.90 mm
+# Kipps Distance: 22.40 mm
+# Hand-Wing Index: 19.80
+# Tail Length: 101.80 mm
+# Aspect Ratio: 1.250
+# Pointedness Index: 0.1972
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1213
+# Max Thickness Position: 0.3381
+# Max Camber/Chord: 0.0580
+# Max Camber Position: 0.3642
+# Leading Edge Radius: 0.0346
+# LE Droop: 0.0040
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.95e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01038849,0.06637092
+UPPER,2,0.04155394,0.11399310
+UPPER,3,0.08657072,0.14069137
+UPPER,4,0.29416440,0.17200994
+UPPER,5,0.33812000,0.17928527
+UPPER,6,0.38207560,0.16715973
+UPPER,7,0.38625400,0.13320823
+UPPER,8,0.49416000,0.08327692
+UPPER,9,0.88000000,0.03175179
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01038849,-0.04034194
+LOWER,2,0.04155394,-0.01849125
+LOWER,3,0.08657072,-0.04363436
+LOWER,4,0.29416440,-0.04382461
+LOWER,5,0.33812000,-0.06322547
+LOWER,6,0.38207560,-0.03654929
+LOWER,7,0.38625400,0.00467754
+LOWER,8,0.49416000,0.01900279
+LOWER,9,0.88000000,0.00965726
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lophura_erythrophthalma
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 220.80 mm
+# Secondary1: 172.10 mm
+# Kipps Distance: 48.60 mm
+# Hand-Wing Index: 22.20
+# Tail Length: 134.20 mm
+# Aspect Ratio: 1.283
+# Pointedness Index: 0.2201
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1155
+# Max Thickness Position: 0.3367
+# Max Camber/Chord: 0.0577
+# Max Camber Position: 0.3622
+# Leading Edge Radius: 0.0340
+# LE Droop: 0.0036
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.67e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01019813,0.06474875
+UPPER,2,0.04079250,0.11034083
+UPPER,3,0.08498438,0.13623640
+UPPER,4,0.29291160,0.16626854
+UPPER,5,0.33668000,0.17320114
+UPPER,6,0.38044840,0.16164681
+UPPER,7,0.38440600,0.12929471
+UPPER,8,0.49224000,0.08136132
+UPPER,9,0.88000000,0.03115346
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01019813,-0.03972450
+LOWER,2,0.04079250,-0.01679357
+LOWER,3,0.08498438,-0.04049244
+LOWER,4,0.29291160,-0.03939842
+LOWER,5,0.33668000,-0.05788534
+LOWER,6,0.38044840,-0.03246582
+LOWER,7,0.38440600,0.00681888
+LOWER,8,0.49224000,0.01957184
+LOWER,9,0.88000000,0.00979275
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

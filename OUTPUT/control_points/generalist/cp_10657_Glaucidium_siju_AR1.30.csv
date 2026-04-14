@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Glaucidium_siju
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 97.20 mm
+# Secondary1: 74.50 mm
+# Kipps Distance: 22.80 mm
+# Hand-Wing Index: 23.40
+# Tail Length: 62.00 mm
+# Aspect Ratio: 1.305
+# Pointedness Index: 0.2346
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1192
+# Max Thickness Position: 0.3360
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3613
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.60e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01008766,0.06384598
+UPPER,2,0.04035065,0.11178619
+UPPER,3,0.08406386,0.13872314
+UPPER,4,0.29228520,0.16955470
+UPPER,5,0.33596000,0.17670961
+UPPER,6,0.37963480,0.16478476
+UPPER,7,0.38348200,0.13139518
+UPPER,8,0.49128000,0.08223152
+UPPER,9,0.88000000,0.03137510
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01008766,-0.03935465
+LOWER,2,0.04035065,-0.01804814
+LOWER,3,0.08406386,-0.04273203
+LOWER,4,0.29228520,-0.04270765
+LOWER,5,0.33596000,-0.06178741
+LOWER,6,0.37963480,-0.03555274
+LOWER,7,0.38348200,0.00499176
+LOWER,8,0.49128000,0.01893109
+LOWER,9,0.88000000,0.00959533
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

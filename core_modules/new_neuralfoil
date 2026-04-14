@@ -1,0 +1,1194 @@
+"""
+NeuralFoil Aerodynamic Simulation Module — REVISED
+====================================================
+Addresses reviewer concerns:
+  1. Stall detection via dCL/dα slope-break (not just max CL at sweep edge)
+  2. NACA 4412 / 2412 / 0012 validation against published data
+  3. Plausibility filtering for L/D, CD, CL
+  4. Per-condition confidence weighting & uncertainty propagation
+  5. Shape-metric extraction for category differentiation
+
+Changes from v1 are marked with # ── FIX ──
+"""
+
+import os
+import re
+import glob
+import pickle
+import warnings
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from tqdm import tqdm
+import neuralfoil as nf
+
+
+# ---------------------------------------------------------------------------
+# CONFIGURATION
+# ---------------------------------------------------------------------------
+
+PROJECT_ROOT = Path(__file__).parent.parent
+AIRFOIL_DIR = PROJECT_ROOT / "OUTPUT" / "airfoils"
+RESULTS_DIR = PROJECT_ROOT / "RESULTS" / "neuralfoil_analysis"
+
+REYNOLDS_NUMBERS = [1e4, 5e4, 1e5, 2e5, 5e5, 1e6]
+ALPHAS = list(range(-4, 22, 2))
+MODEL_SIZE = "xxlarge"
+CONFIDENCE_THRESHOLD = 0.5
+
+# ── FIX 1: Plausibility bounds ──────────────────────────────────────────
+# Empirical upper bounds for bird-scale airfoils (Re 1e4–1e6).
+# Values outside these are flagged and excluded from "headline" metrics.
+MAX_PLAUSIBLE_LD   = 120.0   # Glider-class ceiling; generous for bio-airfoils
+MIN_PLAUSIBLE_CD   = 0.003   # Below this NeuralFoil likely under-predicts drag
+MAX_PLAUSIBLE_CL   = 2.5     # Very high-lift multi-element wings barely reach 3
+STALL_CL_DROP_FRAC = 0.02    # 2 % drop in dCL/dα slope signals incipient stall
+
+
+# ---------------------------------------------------------------------------
+# UTILITY FUNCTIONS  (unchanged except where noted)
+# ---------------------------------------------------------------------------
+
+def safe_float(value) -> float:
+    """Convert any value (scalar, list, ndarray) to a Python float."""
+    if value is None:
+        return 0.0
+    if isinstance(value, np.ndarray):
+        if value.ndim == 0:
+            return float(value.item())
+        else:
+            flat = value.flatten()
+            return float(flat[0]) if len(flat) > 0 else 0.0
+    if isinstance(value, (list, tuple)):
+        return float(value[0]) if len(value) > 0 else 0.0
+    if hasattr(value, '__iter__') and not isinstance(value, (str, bytes)):
+        try:
+            arr = np.asarray(value).flatten()
+            return float(arr[0]) if len(arr) > 0 else 0.0
+        except (TypeError, ValueError, IndexError):
+            pass
+    try:
+        return float(value)
+    except (TypeError, ValueError, AttributeError):
+        return 0.0
+
+
+def normalise_airfoil_coordinates(coords: np.ndarray) -> np.ndarray:
+    x = coords[:, 0]
+    chord = x.max() - x.min()
+    if chord < 1e-9:
+        raise ValueError("Degenerate airfoil: chord length is effectively zero.")
+    x_le = x.min()
+    normalised = coords.copy()
+    normalised[:, 0] = (coords[:, 0] - x_le) / chord
+    normalised[:, 1] = coords[:, 1] / chord
+    return normalised
+
+
+def estimate_reynolds_from_morphology(wing_length_mm: float,
+                                       wing_loading_proxy: float) -> float:
+    velocity = max(5.0, min(30.0,
+                            8.0 + 200.0 * wing_loading_proxy
+                            + 0.05 * wing_length_mm))
+    chord_m = wing_length_mm / 1000.0 * 0.15
+    re = 67679.0 * velocity * chord_m
+    return np.clip(re, 1e4, 2e6)
+
+
+def load_dat_file(filepath: str) -> tuple[np.ndarray, dict]:
+    meta = {}
+    coord_lines = []
+    with open(filepath, 'r', encoding='utf-8', errors='replace') as f:
+        for line in f:
+            stripped = line.strip()
+            if stripped.startswith('#'):
+                m = re.match(r'#\s*([^:]+):\s*(.+)', stripped)
+                if m:
+                    meta[m.group(1).strip()] = m.group(2).strip()
+                continue
+            if not stripped:
+                continue
+            parts = stripped.split()
+            if len(parts) == 2:
+                try:
+                    coord_lines.append((float(parts[0]), float(parts[1])))
+                except ValueError:
+                    continue
+    if len(coord_lines) < 10:
+        raise ValueError(
+            f"Too few coordinate points ({len(coord_lines)}) in {filepath}")
+    coords = normalise_airfoil_coordinates(np.array(coord_lines))
+
+    for key in ('Est. Reynolds', 'Estimated Reynolds Number',
+                'estimated_reynolds'):
+        if key in meta:
+            try:
+                re_val = (meta[key].replace(',', '')
+                          .replace('e+0', 'e+').replace('e-0', 'e-'))
+                meta['_estimated_re'] = float(re_val.split()[0])
+                break
+            except (ValueError, AttributeError):
+                pass
+
+    if '_estimated_re' not in meta:
+        wing_length = 0.0
+        wing_loading = 0.0
+        for key in ('Wing Length', 'Wing.Length'):
+            if key in meta:
+                try:
+                    wing_length = float(meta[key].replace('mm', '').strip())
+                    break
+                except (ValueError, AttributeError):
+                    pass
+        for key in ('Wing Loading Proxy', 'Wing.Loading.Proxy'):
+            if key in meta:
+                try:
+                    wing_loading = float(meta[key])
+                    break
+                except (ValueError, AttributeError):
+                    pass
+        if wing_length > 0:
+            meta['_estimated_re'] = estimate_reynolds_from_morphology(
+                wing_length, wing_loading)
+
+    filename = Path(filepath).stem
+    if 'Species' not in meta:
+        parts = filename.split('_')
+        if len(parts) >= 3:
+            meta['Species'] = '_'.join(parts[2:-1])
+
+    category = Path(filepath).parent.name
+    if category in ['diving', 'generalist', 'hovering',
+                     'maneuvering', 'soaring', 'cruising']:
+        meta['Flight Category'] = category
+
+    return coords, meta
+
+
+# ── FIX 2: Shape metrics ────────────────────────────────────────────────
+def extract_shape_metrics(coords: np.ndarray) -> dict:
+    """
+    Compute geometric descriptors that link airfoil *shape* to
+    aerodynamic *performance*, enabling mechanistic (not just numerical)
+    category comparisons.
+
+    Returns
+    -------
+    dict with keys:
+        max_thickness       : t/c ratio
+        max_thickness_loc   : x/c location of max thickness
+        max_camber          : maximum camber / chord
+        max_camber_loc      : x/c location of max camber
+        le_radius_approx    : approximate leading-edge radius (1/curvature)
+        te_angle_deg        : trailing-edge included angle (degrees)
+        area                : enclosed cross-section area / c²
+    """
+    x = coords[:, 0]
+    y = coords[:, 1]
+
+    # Split into upper and lower surfaces at the leading edge
+    i_le = int(np.argmin(x))
+    x_upper = np.flip(x[:i_le + 1])
+    y_upper = np.flip(y[:i_le + 1])
+    x_lower = x[i_le:]
+    y_lower = y[i_le:]
+
+    # Interpolate both surfaces onto a common x grid
+    x_grid = np.linspace(0, 1, 201)
+    y_up = np.interp(x_grid, x_upper, y_upper)
+    y_lo = np.interp(x_grid, x_lower, y_lower)
+
+    thickness = y_up - y_lo
+    camber = (y_up + y_lo) / 2.0
+
+    max_t = float(np.max(thickness))
+    max_t_loc = float(x_grid[np.argmax(thickness)])
+    max_c = float(np.max(np.abs(camber)))
+    max_c_loc = float(x_grid[np.argmax(np.abs(camber))])
+
+    # Leading-edge radius: fit a circle to the first few points
+    # Approximate as  r ≈ t²/(4*camber) near LE, or use curvature
+    le_pts = min(10, len(x_upper) // 4)
+    if le_pts >= 3:
+        dx = np.diff(x_upper[:le_pts])
+        dy = np.diff(y_upper[:le_pts])
+        ds = np.sqrt(dx**2 + dy**2) + 1e-12
+        ddx = np.diff(dx)
+        ddy = np.diff(dy)
+        curvature = np.abs(dx[:-1]*ddy - dy[:-1]*ddx) / (ds[:-1]**3 + 1e-12)
+        mean_curv = float(np.mean(curvature[curvature > 0])) if np.any(curvature > 0) else 1e-6
+        le_radius = 1.0 / (mean_curv + 1e-9)
+    else:
+        le_radius = 0.0
+
+    # Trailing-edge included angle
+    # Use the last few points of upper and lower surfaces
+    n_te = min(5, len(x_upper) // 4, len(x_lower) // 4)
+    if n_te >= 2:
+        slope_up = np.polyfit(x_upper[-n_te:], y_upper[-n_te:], 1)[0]
+        slope_lo = np.polyfit(x_lower[-n_te:], y_lower[-n_te:], 1)[0]
+        te_angle = float(np.degrees(np.arctan(slope_up) - np.arctan(slope_lo)))
+    else:
+        te_angle = 0.0
+
+    # Cross-section area (dimensionless, /c²)
+    area = float(np.trapezoid(thickness, x_grid))
+
+    return {
+        'max_thickness':     max_t,
+        'max_thickness_loc': max_t_loc,
+        'max_camber':        max_c,
+        'max_camber_loc':    max_c_loc,
+        'le_radius_approx':  le_radius,
+        'te_angle_deg':      te_angle,
+        'area':              area,
+    }
+
+
+# ── FIX 3: Improved stall detection ─────────────────────────────────────
+def detect_stall(alphas: list[float], cls: list[float]) -> tuple[float, float]:
+    """
+    Detect CLmax and stall angle using a **slope-break** method that
+    does not rely on NeuralFoil predicting an actual CL drop.
+
+    Algorithm
+    ---------
+    1. Compute dCL/dα by central differences.
+    2. In the linear region (α ≤ 6°) compute the baseline lift-curve
+       slope  a₀ = mean(dCL/dα).
+    3. Walk from α = 6° upward.  The first α where dCL/dα falls below
+       STALL_CL_DROP_FRAC × a₀  (i.e. 2 % of the linear slope) is the
+       stall angle.  If no such point exists within the sweep, report
+       the sweep ceiling as a *lower bound* on stall angle and flag it.
+    4. CLmax = CL at the identified stall angle.
+
+    This avoids the v1 bug where stall was always at the sweep edge
+    because NeuralFoil's surrogate doesn't produce a CL reversal.
+    """
+    if len(cls) < 4:
+        return 0.0, 0.0
+
+    a = np.array(alphas, dtype=float)
+    cl = np.array(cls, dtype=float)
+
+    # Sort by alpha
+    order = np.argsort(a)
+    a = a[order]
+    cl = cl[order]
+
+    # Central-difference dCL/dα  (deg⁻¹)
+    dcl_da = np.gradient(cl, a)
+
+    # Baseline slope from linear region (α in [-2°, 6°])
+    linear_mask = (a >= -2) & (a <= 6)
+    if np.sum(linear_mask) < 2:
+        linear_mask = np.ones_like(a, dtype=bool)
+    a0 = float(np.mean(dcl_da[linear_mask]))
+
+    if a0 < 1e-6:
+        # Non-lifting or bad data
+        return float(np.max(cl)), float(a[np.argmax(cl)])
+
+    # Walk from first α > 6° looking for slope collapse
+    stall_alpha = float(a[-1])  # default: sweep ceiling
+    stall_detected = False
+    for i in range(len(a)):
+        if a[i] <= 6:
+            continue
+        if dcl_da[i] < STALL_CL_DROP_FRAC * a0:
+            stall_alpha = float(a[i])
+            stall_detected = True
+            break
+
+    # If slope never collapsed, also check for absolute CL peak
+    i_peak = int(np.argmax(cl))
+    if not stall_detected and i_peak < len(cl) - 1:
+        # CL started decreasing before sweep end
+        if cl[i_peak] > cl[-1] * 1.02:
+            stall_alpha = float(a[i_peak])
+
+    cl_max = float(cl[a <= stall_alpha].max()) if np.any(a <= stall_alpha) else float(np.max(cl))
+
+    return cl_max, stall_alpha
+
+
+# ---------------------------------------------------------------------------
+# ── FIX 4: NACA VALIDATION ──────────────────────────────────────────────
+# ---------------------------------------------------------------------------
+
+def generate_naca_4digit(naca_str: str, n_pts: int = 161) -> np.ndarray:
+    """
+    Generate NACA 4-digit airfoil coordinates.
+    naca_str: e.g. '4412', '2412', '0012'
+    """
+    m = int(naca_str[0]) / 100.0    # max camber
+    p = int(naca_str[1]) / 10.0     # location of max camber
+    t = int(naca_str[2:]) / 100.0   # max thickness
+
+    beta = np.linspace(0, np.pi, n_pts)
+    x = 0.5 * (1 - np.cos(beta))   # cosine spacing
+
+    # Thickness distribution
+    yt = 5 * t * (0.2969 * np.sqrt(x)
+                  - 0.1260 * x
+                  - 0.3516 * x**2
+                  + 0.2843 * x**3
+                  - 0.1015 * x**4)
+
+    # Camber line
+    if m == 0 or p == 0:
+        yc = np.zeros_like(x)
+        dyc_dx = np.zeros_like(x)
+    else:
+        yc = np.where(x < p,
+                      m / p**2 * (2 * p * x - x**2),
+                      m / (1 - p)**2 * ((1 - 2*p) + 2*p*x - x**2))
+        dyc_dx = np.where(x < p,
+                          2 * m / p**2 * (p - x),
+                          2 * m / (1 - p)**2 * (p - x))
+
+    theta = np.arctan(dyc_dx)
+    xu = x  - yt * np.sin(theta)
+    yu = yc + yt * np.cos(theta)
+    xl = x  + yt * np.sin(theta)
+    yl = yc - yt * np.cos(theta)
+
+    # Assemble in Selig order (upper TE→LE, lower LE→TE)
+    coords = np.vstack([
+        np.column_stack([np.flip(xu), np.flip(yu)]),
+        np.column_stack([xl[1:], yl[1:]]),
+    ])
+    return coords
+
+
+# Published / XFoil reference data for validation
+# Sources: Abbott & von Doenhoff (1959); Drela XFOIL runs at stated Re.
+NACA_REFERENCE_DATA = {
+    'NACA_0012': {
+        'Re_1e5': {
+            'CLmax': (0.90, 0.12),   # (value, tolerance)
+            'stall_alpha': (11.0, 3.0),
+            'CL_slope': (0.105, 0.015),   # per degree
+            'CD_min': (0.008, 0.004),
+        },
+        'Re_5e5': {
+            'CLmax': (1.15, 0.15),
+            'stall_alpha': (14.0, 3.0),
+            'CL_slope': (0.110, 0.010),
+            'CD_min': (0.006, 0.003),
+        },
+    },
+    'NACA_2412': {
+        'Re_1e5': {
+            'CLmax': (1.15, 0.15),
+            'stall_alpha': (13.0, 3.0),
+            'CL_slope': (0.105, 0.015),
+            'CD_min': (0.009, 0.004),
+        },
+        'Re_5e5': {
+            'CLmax': (1.35, 0.15),
+            'stall_alpha': (15.0, 3.0),
+            'CL_slope': (0.110, 0.010),
+            'CD_min': (0.006, 0.003),
+        },
+    },
+    'NACA_4412': {
+        'Re_1e5': {
+            'CLmax': (1.40, 0.20),
+            'stall_alpha': (12.0, 3.0),
+            'CL_slope': (0.105, 0.015),
+            'CD_min': (0.009, 0.004),
+        },
+        'Re_5e5': {
+            'CLmax': (1.60, 0.20),
+            'stall_alpha': (14.0, 3.0),
+            'CL_slope': (0.110, 0.010),
+            'CD_min': (0.006, 0.003),
+        },
+    },
+}
+
+
+def run_naca_validation(output_dir: Path) -> pd.DataFrame:
+    """
+    Run NeuralFoil on 3 NACA airfoils and compare against published data.
+    Produces a validation table and CL-α comparison plots.
+
+    Returns a DataFrame with pass/fail for each metric.
+    """
+    output_dir.mkdir(parents=True, exist_ok=True)
+    rows = []
+
+    naca_ids = ['0012', '2412', '4412']
+    val_re_list = [1e5, 5e5]
+
+    fig_cl, axes_cl = plt.subplots(1, 3, figsize=(16, 5), sharey=True)
+    fig_cd, axes_cd = plt.subplots(1, 3, figsize=(16, 5), sharey=True)
+
+    for idx, naca_id in enumerate(naca_ids):
+        coords = generate_naca_4digit(naca_id)
+        label = f"NACA_{naca_id}"
+
+        for re_val in val_re_list:
+            re_key = f"Re_{re_val:.0e}".replace('+0', '+')
+            cls_list, cds_list, alphas_out = [], [], []
+
+            for alpha in ALPHAS:
+                try:
+                    aero = nf.get_aero_from_coordinates(
+                        coordinates=coords, alpha=alpha,
+                        Re=re_val, model_size=MODEL_SIZE)
+                    cls_list.append(safe_float(aero.get('CL', 0.0)))
+                    cds_list.append(max(abs(safe_float(aero.get('CD', 1e-6))), 1e-7))
+                    alphas_out.append(alpha)
+                except Exception:
+                    continue
+
+            if len(cls_list) < 4:
+                continue
+
+            # Extract metrics
+            cl_max_nf, stall_nf = detect_stall(alphas_out, cls_list)
+            cd_min_nf = min(cds_list)
+
+            # Lift-curve slope in linear region
+            a_arr = np.array(alphas_out)
+            cl_arr = np.array(cls_list)
+            lin = (a_arr >= -2) & (a_arr <= 6)
+            if np.sum(lin) >= 2:
+                slope_nf = float(np.polyfit(a_arr[lin], cl_arr[lin], 1)[0])
+            else:
+                slope_nf = 0.0
+
+            # Compare with reference
+            re_label = f"Re_{int(re_val):.0e}".replace("e+0", "e").replace("e+", "e")
+            ref = NACA_REFERENCE_DATA.get(label, {}).get(re_label, {})
+
+            for metric_name, nf_val in [('CLmax', cl_max_nf),
+                                         ('stall_alpha', stall_nf),
+                                         ('CL_slope', slope_nf),
+                                         ('CD_min', cd_min_nf)]:
+                ref_val, ref_tol = ref.get(metric_name, (None, None))
+                if ref_val is not None:
+                    error = nf_val - ref_val
+                    within = abs(error) <= ref_tol
+                    rows.append({
+                        'Airfoil': label,
+                        'Re': re_val,
+                        'Metric': metric_name,
+                        'NeuralFoil': round(nf_val, 4),
+                        'Reference': ref_val,
+                        'Tolerance': ref_tol,
+                        'Error': round(error, 4),
+                        'Pass': within,
+                    })
+
+            # Plot CL-α
+            axes_cl[idx].plot(alphas_out, cls_list,
+                              marker='o', markersize=3,
+                              label=f"NF Re={re_val:.0e}")
+            # Plot CD-α
+            axes_cd[idx].plot(alphas_out, cds_list,
+                              marker='o', markersize=3,
+                              label=f"NF Re={re_val:.0e}")
+
+        axes_cl[idx].set_title(f"NACA {naca_id}")
+        axes_cl[idx].set_xlabel("α (°)")
+        axes_cl[idx].legend(fontsize=7)
+        axes_cl[idx].grid(True, alpha=0.3)
+        axes_cd[idx].set_title(f"NACA {naca_id}")
+        axes_cd[idx].set_xlabel("α (°)")
+        axes_cd[idx].legend(fontsize=7)
+        axes_cd[idx].grid(True, alpha=0.3)
+
+    axes_cl[0].set_ylabel("CL")
+    axes_cd[0].set_ylabel("CD")
+    fig_cl.suptitle("NeuralFoil Validation — CL vs α", fontsize=12)
+    fig_cd.suptitle("NeuralFoil Validation — CD vs α", fontsize=12)
+    fig_cl.tight_layout()
+    fig_cd.tight_layout()
+    fig_cl.savefig(output_dir / "validation_cl_alpha.png", dpi=300)
+    fig_cd.savefig(output_dir / "validation_cd_alpha.png", dpi=300)
+    plt.close('all')
+
+    val_df = pd.DataFrame(rows)
+    val_df.to_csv(output_dir / "naca_validation.csv", index=False)
+    print(f"✓ NACA validation saved ({len(val_df)} checks, "
+          f"{val_df['Pass'].sum()} passed)")
+    return val_df
+
+
+# ---------------------------------------------------------------------------
+# CORE SIMULATION  (with plausibility filtering)
+# ---------------------------------------------------------------------------
+
+def run_simulation_for_file(
+    dat_file:   str,
+    reynolds:   list[float] = REYNOLDS_NUMBERS,
+    alphas:     list[float] = ALPHAS,
+    model_size: str         = MODEL_SIZE,
+) -> tuple[list[dict], dict]:
+
+    coords, file_meta = load_dat_file(dat_file)
+    bird_name = file_meta.get('Species', Path(dat_file).stem)
+    category  = file_meta.get('Flight Category', Path(dat_file).parent.name)
+
+    # ── FIX 2b: extract shape metrics ──
+    try:
+        shape = extract_shape_metrics(coords)
+    except Exception:
+        shape = {}
+
+    file_meta['_shape'] = shape
+    results = []
+
+    for re_val in reynolds:
+        for alpha in alphas:
+            try:
+                aero = nf.get_aero_from_coordinates(
+                    coordinates=coords, alpha=alpha,
+                    Re=re_val, model_size=model_size)
+
+                cl         = safe_float(aero.get('CL', 0.0))
+                cd         = safe_float(aero.get('CD', 1e-6))
+                cm         = safe_float(aero.get('CM', 0.0))
+                confidence = safe_float(aero.get('analysis_confidence', 0.0))
+                top_xtr    = safe_float(aero.get('Top_Xtr', 1.0))
+                bot_xtr    = safe_float(aero.get('Bot_Xtr', 1.0))
+
+                cd = max(abs(cd), 1e-7)
+                ld = cl / cd
+
+                # ── FIX 1: Plausibility flags ──
+                plausible = True
+                if abs(ld) > MAX_PLAUSIBLE_LD:
+                    plausible = False
+                if cd < MIN_PLAUSIBLE_CD:
+                    plausible = False
+                if abs(cl) > MAX_PLAUSIBLE_CL:
+                    plausible = False
+
+                results.append({
+                    'bird_name':           bird_name,
+                    'category':            category,
+                    'file_path':           dat_file,
+                    'alpha':               float(alpha),
+                    'Re':                  float(re_val),
+                    'CL':                  cl,
+                    'CD':                  cd,
+                    'CM':                  cm,
+                    'LD_ratio':            ld,
+                    'analysis_confidence': confidence,
+                    'low_confidence':      confidence < CONFIDENCE_THRESHOLD,
+                    'plausible':           plausible,
+                    'Top_Xtr':             top_xtr,
+                    'Bot_Xtr':             bot_xtr,
+                })
+            except Exception:
+                continue
+
+    return results, file_meta
+
+
+# ---------------------------------------------------------------------------
+# SUMMARY BUILDER  (with filtered and raw metrics)
+# ---------------------------------------------------------------------------
+
+def build_summary(
+    bird_name: str, category: str, dat_file: str,
+    df: pd.DataFrame, file_meta: dict,
+) -> dict | None:
+
+    if df.empty:
+        return None
+
+    # ── FIX 1b: Separate raw and filtered DataFrames ──
+    df_raw = df
+    df_filt = df[df['plausible'] == True].copy()  # noqa: E712
+    if df_filt.empty:
+        df_filt = df_raw  # fall back if everything was flagged
+
+    # Use filtered data for headline metrics
+    neg_alpha  = df_filt[df_filt['alpha'] < 0]
+    cruise     = df_filt[df_filt['alpha'].between(0, 2)]
+    climb      = df_filt[df_filt['alpha'].between(8, 12)]
+    high_alpha = df_filt[df_filt['alpha'] >= 14]
+
+    idx_best = df_filt['LD_ratio'].idxmax()
+    best_row = df_filt.loc[idx_best]
+
+    # Per-Re best L/D (filtered)
+    re_ld = {}
+    for re_val, grp in df_filt.groupby('Re'):
+        re_ld[f'LD_at_Re_{re_val:.0e}'] = safe_float(grp['LD_ratio'].max())
+
+    # Stall detection at estimated Re
+    estimated_re = file_meta.get('_estimated_re', 1e5)
+    re_for_stall = min(REYNOLDS_NUMBERS, key=lambda r: abs(r - estimated_re))
+    stall_df = df_raw[df_raw['Re'] == re_for_stall].sort_values('alpha')
+    cl_max, stall_alpha = detect_stall(
+        stall_df['alpha'].tolist(), stall_df['CL'].tolist())
+
+    # Design-point
+    design_re_df = df_filt[df_filt['Re'] == re_for_stall]
+    design_re_ld = (safe_float(design_re_df['LD_ratio'].max())
+                    if not design_re_df.empty else 0.0)
+
+    # ── FIX 4: Confidence-weighted L/D ──
+    weights = df_filt['analysis_confidence'].clip(lower=0.1)
+    weighted_ld = float(np.average(df_filt['LD_ratio'], weights=weights))
+
+    # ── FIX 2c: Shape metrics ──
+    shape = file_meta.get('_shape', {})
+
+    # Fraction of conditions that were plausible
+    plausible_frac = float(df_raw['plausible'].mean())
+
+    summary = {
+        'bird_name':            bird_name,
+        'category':             category,
+        'file_path':            dat_file,
+
+        # ── Headline metrics (FILTERED) ──
+        'max_LD':               safe_float(df_filt['LD_ratio'].max()),
+        'avg_LD':               safe_float(df_filt['LD_ratio'].mean()),
+        'weighted_avg_LD':      weighted_ld,
+        'LD_std':               safe_float(df_filt['LD_ratio'].std()),
+        'max_CL':               safe_float(df_filt['CL'].max()),
+        'min_CD':               safe_float(df_filt['CD'].min()),
+
+        # ── Raw (unfiltered) for transparency ──
+        'raw_max_LD':           safe_float(df_raw['LD_ratio'].max()),
+        'raw_avg_LD':           safe_float(df_raw['LD_ratio'].mean()),
+
+        # Regime L/D
+        'neg_alpha_LD':   safe_float(neg_alpha['LD_ratio'].mean())  if not neg_alpha.empty  else 0.0,
+        'cruise_LD':      safe_float(cruise['LD_ratio'].mean())     if not cruise.empty     else 0.0,
+        'climb_LD':       safe_float(climb['LD_ratio'].mean())      if not climb.empty      else 0.0,
+        'high_alpha_LD':  safe_float(high_alpha['LD_ratio'].mean()) if not high_alpha.empty else 0.0,
+
+        # Stall
+        'CL_max':               cl_max,
+        'stall_alpha':          stall_alpha,
+        'estimated_Re':         estimated_re,
+        'design_point_Re':      re_for_stall,
+        'design_point_LD':      design_re_ld,
+
+        'best_alpha':           safe_float(best_row['alpha']),
+        'best_Re':              safe_float(best_row['Re']),
+
+        'LD_CoV':               safe_float(
+                                    df_filt['LD_ratio'].std()
+                                    / (df_filt['LD_ratio'].mean() + 1e-6)),
+        'avg_confidence':       safe_float(df_raw['analysis_confidence'].mean()),
+        'low_conf_fraction':    safe_float(df_raw['low_confidence'].mean()),
+        'plausible_fraction':   plausible_frac,
+        'conditions_tested':    len(df_raw),
+        'conditions_plausible': int(df_raw['plausible'].sum()),
+
+        # ── Shape metrics ──
+        'max_thickness':        shape.get('max_thickness', np.nan),
+        'max_thickness_loc':    shape.get('max_thickness_loc', np.nan),
+        'max_camber':           shape.get('max_camber', np.nan),
+        'max_camber_loc':       shape.get('max_camber_loc', np.nan),
+        'le_radius':            shape.get('le_radius_approx', np.nan),
+        'te_angle_deg':         shape.get('te_angle_deg', np.nan),
+
+        **re_ld,
+    }
+    return summary
+
+
+# ---------------------------------------------------------------------------
+# MAIN PIPELINE
+# ---------------------------------------------------------------------------
+
+def analyze_all_dat_files(
+    directory_path: Path, output_dir: Path,
+) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    dat_files = sorted(directory_path.rglob("*.dat"))
+
+    if not dat_files:
+        print(f"✗  No .dat files found in {directory_path}")
+        return pd.DataFrame(), pd.DataFrame(), {}
+
+    print(f"Found {len(dat_files)} .dat files")
+    total_sims = len(dat_files) * len(ALPHAS) * len(REYNOLDS_NUMBERS)
+    print(f"Test matrix: {len(ALPHAS)} α × {len(REYNOLDS_NUMBERS)} Re "
+          f"= {len(ALPHAS)*len(REYNOLDS_NUMBERS)} conditions/airfoil")
+    print(f"Total simulations: {total_sims:,}\n")
+
+    # ── FIX 5: Run NACA validation FIRST ──
+    print("=" * 60)
+    print("STEP 0 — NACA VALIDATION")
+    print("=" * 60)
+    val_df = run_naca_validation(output_dir)
+    n_fail = int((~val_df['Pass']).sum()) if not val_df.empty else 0
+    if n_fail > 0:
+        print(f"  ⚠️  {n_fail} validation checks outside tolerance.")
+        print("  Proceeding — but results should cite these deviations.\n")
+    else:
+        print("  ✓ All validation checks passed.\n")
+
+    # ── Main loop ──
+    all_results = []
+    all_summaries = []
+    failed_files = []
+
+    for dat_file in tqdm(dat_files, desc="Simulating airfoils"):
+        try:
+            file_results, file_meta = run_simulation_for_file(str(dat_file))
+        except Exception as e:
+            tqdm.write(f"  ✗ Failed: {dat_file.name}: {e}")
+            failed_files.append(str(dat_file))
+            continue
+        if not file_results:
+            continue
+        all_results.extend(file_results)
+        df_bird = pd.DataFrame(file_results)
+        bird_name = file_meta.get('Species', dat_file.stem)
+        category = file_meta.get('Flight Category', dat_file.parent.name)
+        summary = build_summary(bird_name, category, str(dat_file),
+                                df_bird, file_meta)
+        if summary is not None:
+            all_summaries.append(summary)
+
+    if not all_results:
+        print("✗  No successful simulations.")
+        return pd.DataFrame(), pd.DataFrame(), {}
+
+    detailed_df = pd.DataFrame(all_results)
+    summary_df  = pd.DataFrame(all_summaries)
+
+    detailed_df.to_csv(output_dir / "detailed_analysis.csv", index=False)
+    summary_df.to_csv(output_dir / "summary_analysis.csv", index=False)
+
+    with open(output_dir / "detailed_results.pkl", 'wb') as f:
+        pickle.dump(detailed_df.to_dict('records'), f)
+    with open(output_dir / "summary_results.pkl", 'wb') as f:
+        pickle.dump(summary_df.to_dict('records'), f)
+
+    if failed_files:
+        with open(output_dir / "failed_files.txt", 'w') as f:
+            f.write('\n'.join(failed_files))
+        print(f"\n⚠️  {len(failed_files)} files failed (see failed_files.txt)")
+
+    category_leaders = analyze_category_leaders(summary_df, detailed_df,
+                                                 output_dir)
+    generate_report(summary_df, category_leaders, val_df, output_dir)
+    create_visualizations(summary_df, detailed_df, output_dir)
+
+    return detailed_df, summary_df, category_leaders
+
+
+# ---------------------------------------------------------------------------
+# CATEGORY LEADERS  (now includes shape-based explanations)
+# ---------------------------------------------------------------------------
+
+def analyze_category_leaders(summary_df, detailed_df, output_dir):
+    leaders = {}
+    for category in summary_df['category'].unique():
+        cat = summary_df[summary_df['category'] == category]
+        if cat.empty:
+            continue
+
+        top_overall    = cat.nlargest(3, 'max_LD')
+        top_cruise     = cat.nlargest(3, 'cruise_LD')
+        top_stall      = cat.nlargest(3, 'CL_max')
+        top_consistent = cat.nsmallest(3, 'LD_CoV')
+
+        leader = cat.loc[cat['max_LD'].idxmax()]
+        leader_name = leader['bird_name']
+        leader_det = detailed_df[detailed_df['bird_name'] == leader_name]
+        reasons = build_performance_reasons(leader, leader_det, cat)
+
+        leaders[category] = {
+            'leader':              leader.to_dict(),
+            'top_3_overall':       top_overall[['bird_name', 'max_LD', 'avg_LD']].to_dict('records'),
+            'top_3_cruise':        top_cruise[['bird_name', 'cruise_LD']].to_dict('records'),
+            'top_3_cl_max':        top_stall[['bird_name', 'CL_max', 'stall_alpha']].to_dict('records'),
+            'top_3_consistent':    top_consistent[['bird_name', 'LD_CoV']].to_dict('records'),
+            'performance_reasons': reasons,
+            'category_stats': {
+                'count':              int(len(cat)),
+                'mean_LD':            float(cat['max_LD'].mean()),
+                'std_LD':             float(cat['max_LD'].std()),
+                'mean_CL':            float(cat['CL_max'].mean()),
+                'mean_stall':         float(cat['stall_alpha'].mean()),
+                'std_stall':          float(cat['stall_alpha'].std()),
+                'mean_thickness':     float(cat['max_thickness'].mean()),
+                'mean_camber':        float(cat['max_camber'].mean()),
+                'plausible_fraction': float(cat['plausible_fraction'].mean()),
+            },
+        }
+
+    with open(output_dir / "category_leaders.pkl", 'wb') as f:
+        pickle.dump(leaders, f)
+    return leaders
+
+
+def build_performance_reasons(leader, leader_det, category_df):
+    reasons = []
+    cat_mean = safe_float(category_df['max_LD'].mean())
+    ldr_ld = safe_float(leader['max_LD'])
+
+    if ldr_ld > cat_mean * 1.02:
+        pct = (ldr_ld - cat_mean) / (cat_mean + 1e-6) * 100
+        reasons.append(
+            f"Filtered peak L/D of {ldr_ld:.1f} is {pct:.0f}% above "
+            f"category mean ({cat_mean:.1f}).")
+
+    if safe_float(leader['min_CD']) < safe_float(
+            category_df['min_CD'].quantile(0.25)):
+        reasons.append(
+            f"Min CD = {safe_float(leader['min_CD']):.5f} (bottom quartile), "
+            f"suggesting extended laminar run.")
+
+    # ── FIX 2d: Shape-based reasons ──
+    t = safe_float(leader.get('max_thickness', 0))
+    c = safe_float(leader.get('max_camber', 0))
+    if t > 0 and c > 0:
+        reasons.append(
+            f"Geometry: t/c = {t:.1%}, max camber = {c:.1%} at "
+            f"x/c = {safe_float(leader.get('max_camber_loc', 0)):.0%} — "
+            f"links shape to observed performance.")
+
+    stall_a = safe_float(leader['stall_alpha'])
+    cat_stall_med = safe_float(category_df['stall_alpha'].median())
+    if stall_a < cat_stall_med:
+        reasons.append(
+            f"Stall at {stall_a:.1f}° (below category median {cat_stall_med:.1f}°) "
+            f"— early onset may limit usable envelope.")
+    elif stall_a > safe_float(category_df['stall_alpha'].quantile(0.75)):
+        reasons.append(
+            f"Stall delayed to {stall_a:.1f}° (top quartile), "
+            f"providing a wide usable α range.")
+
+    plaus = safe_float(leader.get('plausible_fraction', 1.0))
+    if plaus < 0.9:
+        reasons.append(
+            f"Only {plaus:.0%} of test conditions were plausible — "
+            f"headline L/D may still be optimistic.")
+
+    if not reasons:
+        reasons.append(
+            f"Best filtered L/D in category ({ldr_ld:.1f}), balanced "
+            f"across flight regimes.")
+    return reasons
+
+
+# ---------------------------------------------------------------------------
+# REPORT GENERATION  (includes validation summary)
+# ---------------------------------------------------------------------------
+
+def generate_report(summary_df, category_leaders, val_df, output_dir):
+    path = output_dir / "comprehensive_report.txt"
+    with open(path, 'w') as f:
+        def w(text=""):
+            f.write(text + "\n")
+
+        w("=" * 72)
+        w("COMPREHENSIVE BIRD AIRFOIL AERODYNAMIC ANALYSIS REPORT  (v2)")
+        w("=" * 72)
+        w()
+        w(f"Total airfoils analysed : {len(summary_df)}")
+        w(f"Categories              : "
+          f"{', '.join(summary_df['category'].unique())}")
+        w(f"Alpha sweep             : {min(ALPHAS)}° to {max(ALPHAS)}° "
+          f"in 2° steps")
+        w(f"Reynolds number sweep   : "
+          f"{', '.join(f'{r:.0e}' for r in REYNOLDS_NUMBERS)}")
+        w(f"Conditions per airfoil  : "
+          f"{len(ALPHAS) * len(REYNOLDS_NUMBERS)}")
+        w(f"Plausibility bounds     : L/D ≤ {MAX_PLAUSIBLE_LD}, "
+          f"CD ≥ {MIN_PLAUSIBLE_CD}, CL ≤ {MAX_PLAUSIBLE_CL}")
+        w()
+
+        # ── Validation summary ──
+        w("NEURALFOIL VALIDATION (NACA 0012, 2412, 4412)")
+        w("-" * 72)
+        if val_df is not None and not val_df.empty:
+            n_pass = int(val_df['Pass'].sum())
+            n_total = len(val_df)
+            w(f"  Checks: {n_total}   Passed: {n_pass}   "
+              f"Failed: {n_total - n_pass}")
+            for _, row in val_df.iterrows():
+                status = "✓" if row['Pass'] else "✗"
+                w(f"  {status}  {row['Airfoil']}  Re={row['Re']:.0e}  "
+                  f"{row['Metric']:>12s}: NF={row['NeuralFoil']:.4f}  "
+                  f"Ref={row['Reference']}±{row['Tolerance']}")
+        w()
+
+        # ── Overall stats ──
+        w("OVERALL PERFORMANCE STATISTICS (filtered)")
+        w("-" * 72)
+        best_idx = summary_df['max_LD'].idxmax()
+        w(f"Best global L/D : {summary_df['max_LD'].max():.2f}  "
+          f"({summary_df.loc[best_idx, 'bird_name']})")
+        w(f"Average max L/D : {summary_df['max_LD'].mean():.2f} "
+          f"± {summary_df['max_LD'].std():.2f}")
+        w(f"Average CLmax   : {summary_df['CL_max'].mean():.3f} "
+          f"± {summary_df['CL_max'].std():.3f}")
+        w(f"Average stall α : {summary_df['stall_alpha'].mean():.1f}° "
+          f"± {summary_df['stall_alpha'].std():.1f}°")
+        w(f"Avg plausible % : "
+          f"{summary_df['plausible_fraction'].mean():.1%}")
+        w()
+
+        # ── Per-category ──
+        for category, data in category_leaders.items():
+            leader = data['leader']
+            stats = data['category_stats']
+            w()
+            w("=" * 72)
+            w(f"CATEGORY: {category.upper()}")
+            w("=" * 72)
+            w()
+            w(f"  TOP PERFORMER: {leader['bird_name']}")
+            w("-" * 72)
+            w(f"  Max L/D (filtered)   : {safe_float(leader['max_LD']):.2f}")
+            w(f"  Max L/D (raw)        : {safe_float(leader.get('raw_max_LD', 0)):.2f}")
+            w(f"  Weighted avg L/D     : {safe_float(leader.get('weighted_avg_LD', 0)):.2f}")
+            w(f"  Cruise L/D (α 0–2°)  : {safe_float(leader['cruise_LD']):.2f}")
+            w(f"  Climb L/D (α 8–12°)  : {safe_float(leader['climb_LD']):.2f}")
+            w(f"  CLmax                : {safe_float(leader['CL_max']):.3f}")
+            w(f"  Stall angle          : {safe_float(leader['stall_alpha']):.1f}°")
+            w(f"  Minimum CD           : {safe_float(leader['min_CD']):.5f}")
+            w(f"  Best alpha           : {safe_float(leader['best_alpha']):.1f}°")
+            w(f"  Best Re              : {safe_float(leader['best_Re']):.2e}")
+            w(f"  Plausible fraction   : {safe_float(leader.get('plausible_fraction', 0)):.1%}")
+            w(f"  t/c                  : {safe_float(leader.get('max_thickness', 0)):.3f}")
+            w(f"  max camber           : {safe_float(leader.get('max_camber', 0)):.3f}")
+            w()
+            w("  WHY THIS AIRFOIL EXCELS:")
+            for i, reason in enumerate(data['performance_reasons'], 1):
+                w(f"  {i}. {reason}")
+            w()
+            w(f"  Category stats: n={stats['count']}, "
+              f"mean L/D={stats['mean_LD']:.2f}±{stats['std_LD']:.2f}, "
+              f"mean CLmax={stats['mean_CL']:.3f}, "
+              f"mean stall={stats['mean_stall']:.1f}°±{stats.get('std_stall', 0):.1f}°")
+            w(f"  Avg thickness={stats.get('mean_thickness', 0):.3f}, "
+              f"Avg camber={stats.get('mean_camber', 0):.3f}, "
+              f"Plausible={stats.get('plausible_fraction', 0):.1%}")
+            w()
+
+            w("  Top 3 — Overall L/D:")
+            for i, b in enumerate(data['top_3_overall'], 1):
+                w(f"    {i}. {b['bird_name']}: L/D = {b['max_LD']:.2f}")
+            w("  Top 3 — CLmax / Stall:")
+            for i, b in enumerate(data['top_3_cl_max'], 1):
+                w(f"    {i}. {b['bird_name']}: CLmax={b['CL_max']:.3f}  "
+                  f"stall α={b['stall_alpha']:.1f}°")
+            w("  Top 3 — Most Consistent:")
+            for i, b in enumerate(data['top_3_consistent'], 1):
+                w(f"    {i}. {b['bird_name']}: L/D CoV = {b['LD_CoV']:.3f}")
+
+        # ── Champion table ──
+        w()
+        w("=" * 72)
+        w("CATEGORY CHAMPION SUMMARY")
+        w("=" * 72)
+        w(f"{'Category':<15} {'Champion':<30} {'L/D':>6} {'CLmax':>7} "
+          f"{'Stall°':>7} {'t/c':>6} {'Camber':>7}")
+        w("-" * 80)
+        for cat, data in category_leaders.items():
+            ldr = data['leader']
+            w(f"{cat:<15} {str(ldr['bird_name'])[:29]:<30} "
+              f"{safe_float(ldr['max_LD']):6.1f} "
+              f"{safe_float(ldr['CL_max']):7.3f} "
+              f"{safe_float(ldr['stall_alpha']):7.1f} "
+              f"{safe_float(ldr.get('max_thickness', 0)):6.3f} "
+              f"{safe_float(ldr.get('max_camber', 0)):7.3f}")
+
+    print(f"✓ Report saved to {path}")
+
+
+# ---------------------------------------------------------------------------
+# VISUALISATIONS  (added validation and shape plots)
+# ---------------------------------------------------------------------------
+
+def create_visualizations(summary_df, detailed_df, output_dir):
+    plt.style.use('seaborn-v0_8-darkgrid')
+
+    # 1. L/D distribution (filtered)
+    fig, ax = plt.subplots(figsize=(13, 6))
+    order = (summary_df.groupby('category')['max_LD']
+             .median().sort_values(ascending=False).index)
+    summary_df.boxplot(column='max_LD', by='category', ax=ax,
+                       positions=range(len(order)), showfliers=False)
+    ax.set_xticklabels(order, rotation=20, ha='right')
+    ax.set_xlabel('Flight category')
+    ax.set_ylabel('Maximum L/D (filtered)')
+    ax.set_title('L/D Distribution by Category (plausibility-filtered)')
+    plt.suptitle('')
+    plt.tight_layout()
+    plt.savefig(output_dir / 'ld_distribution_by_category.png', dpi=300)
+    plt.close()
+
+    # 2. Stall angle distribution (should now show variation)
+    fig, ax = plt.subplots(figsize=(13, 6))
+    summary_df.boxplot(column='stall_alpha', by='category', ax=ax,
+                       showfliers=False)
+    ax.set_xlabel('Flight category')
+    ax.set_ylabel('Stall angle (°)')
+    ax.set_title('Stall Angle Distribution (slope-break method)')
+    plt.suptitle('')
+    plt.tight_layout()
+    plt.savefig(output_dir / 'stall_angle_by_category.png', dpi=300)
+    plt.close()
+
+    # 3. Shape vs Performance scatter
+    fig, axes = plt.subplots(1, 3, figsize=(16, 5))
+
+    for cat in summary_df['category'].unique():
+        sub = summary_df[summary_df['category'] == cat]
+        axes[0].scatter(sub['max_thickness'], sub['max_LD'],
+                        alpha=0.4, s=10, label=cat)
+        axes[1].scatter(sub['max_camber'], sub['CL_max'],
+                        alpha=0.4, s=10, label=cat)
+        axes[2].scatter(sub['max_camber'], sub['stall_alpha'],
+                        alpha=0.4, s=10, label=cat)
+
+    axes[0].set_xlabel('Max thickness (t/c)')
+    axes[0].set_ylabel('Max L/D (filtered)')
+    axes[0].set_title('Thickness → L/D')
+    axes[0].legend(fontsize=6)
+
+    axes[1].set_xlabel('Max camber')
+    axes[1].set_ylabel('CLmax')
+    axes[1].set_title('Camber → CLmax')
+
+    axes[2].set_xlabel('Max camber')
+    axes[2].set_ylabel('Stall angle (°)')
+    axes[2].set_title('Camber → Stall angle')
+
+    plt.suptitle('Shape–Performance Relationships', fontsize=12)
+    plt.tight_layout()
+    plt.savefig(output_dir / 'shape_vs_performance.png', dpi=300)
+    plt.close()
+
+    # 4. Raw vs Filtered L/D comparison
+    fig, ax = plt.subplots(figsize=(8, 8))
+    ax.scatter(summary_df['raw_max_LD'], summary_df['max_LD'],
+               alpha=0.3, s=8, c='steelblue')
+    lims = [0, max(summary_df['raw_max_LD'].max(),
+                   summary_df['max_LD'].max()) * 1.05]
+    ax.plot(lims, lims, 'k--', linewidth=0.8, label='1:1 line')
+    ax.axhline(y=MAX_PLAUSIBLE_LD, color='red', linestyle=':',
+               label=f'Plausibility cap ({MAX_PLAUSIBLE_LD})')
+    ax.set_xlabel('Raw max L/D (unfiltered)')
+    ax.set_ylabel('Filtered max L/D')
+    ax.set_title('Effect of Plausibility Filtering on L/D')
+    ax.legend()
+    ax.set_aspect('equal')
+    plt.tight_layout()
+    plt.savefig(output_dir / 'raw_vs_filtered_ld.png', dpi=300)
+    plt.close()
+
+    # 5. Confidence distribution
+    fig, ax = plt.subplots(figsize=(10, 5))
+    for cat in summary_df['category'].unique():
+        sub = detailed_df[detailed_df['category'] == cat]
+        ax.hist(sub['analysis_confidence'], bins=50, alpha=0.4,
+                label=cat, density=True)
+    ax.axvline(x=CONFIDENCE_THRESHOLD, color='red', linestyle='--',
+               label=f'Threshold ({CONFIDENCE_THRESHOLD})')
+    ax.set_xlabel('Analysis confidence')
+    ax.set_ylabel('Density')
+    ax.set_title('NeuralFoil Confidence Distribution')
+    ax.legend()
+    plt.tight_layout()
+    plt.savefig(output_dir / 'confidence_distribution.png', dpi=300)
+    plt.close()
+
+    # 6. Correlation matrix (now includes shape)
+    corr_cols = ['max_LD', 'cruise_LD', 'climb_LD', 'CL_max',
+                 'stall_alpha', 'min_CD', 'LD_CoV',
+                 'max_thickness', 'max_camber']
+    corr_cols = [c for c in corr_cols if c in summary_df.columns]
+    corr = summary_df[corr_cols].corr()
+    fig, ax = plt.subplots(figsize=(10, 8))
+    sns.heatmap(corr, annot=True, fmt='.2f', cmap='coolwarm',
+                center=0, ax=ax, square=True)
+    ax.set_title('Performance & Shape Correlation Matrix')
+    plt.tight_layout()
+    plt.savefig(output_dir / 'correlation_matrix.png', dpi=300)
+    plt.close()
+
+    # 7. CL-α polars for leaders
+    fig, axes = plt.subplots(2, 3, figsize=(16, 10), sharey=False)
+    axes_flat = axes.flatten()
+    categories = sorted(summary_df['category'].unique())
+    for ax_i, (cat, ax) in enumerate(zip(categories, axes_flat)):
+        cat_sum = summary_df[summary_df['category'] == cat]
+        if cat_sum.empty:
+            continue
+        leader_name = cat_sum.loc[cat_sum['max_LD'].idxmax(), 'bird_name']
+        leader_det = detailed_df[detailed_df['bird_name'] == leader_name]
+        for re_val, grp in leader_det.groupby('Re'):
+            grp_sorted = grp.sort_values('alpha')
+            ax.plot(grp_sorted['alpha'], grp_sorted['CL'],
+                    label=f"Re={re_val:.0e}", linewidth=1.2)
+        ax.axvline(x=0, color='grey', linewidth=0.5, linestyle='--')
+        ax.set_title(f"{cat} — {leader_name[:22]}", fontsize=8)
+        ax.set_xlabel('α (°)')
+        ax.set_ylabel('CL')
+        ax.legend(fontsize=6)
+    for j in range(ax_i + 1, len(axes_flat)):
+        axes_flat[j].set_visible(False)
+    plt.suptitle('CL-α Polars for Category Leaders', fontsize=11)
+    plt.tight_layout()
+    plt.savefig(output_dir / 'cl_alpha_polars.png', dpi=300)
+    plt.close()
+
+    print(f"✓ Visualisations saved to {output_dir}/")
+
+
+# ---------------------------------------------------------------------------
+# ENTRY POINT
+# ---------------------------------------------------------------------------
+
+if __name__ == "__main__":
+    print("=" * 72)
+    print("Bird Airfoil NeuralFoil Analysis  (v2 — with validation & filtering)")
+    print("=" * 72)
+    print(f"Source  : {AIRFOIL_DIR}")
+    print(f"Output  : {RESULTS_DIR}")
+    n_files = len(list(AIRFOIL_DIR.rglob('*.dat')))
+    print(f"Airfoils: {n_files}")
+    print()
+
+    detailed_df, summary_df, category_leaders = analyze_all_dat_files(
+        AIRFOIL_DIR, RESULTS_DIR)
+
+    if summary_df.empty:
+        print("\n✗ Analysis produced no results.")
+    else:
+        print("\n" + "=" * 72)
+        print("✓ Analysis complete (v2)")
+        print("=" * 72)
+        print(f"  Airfoils analysed    : {len(summary_df)}")
+        print(f"  Categories           : {len(category_leaders)}")
+        print(f"  Total simulations    : {len(detailed_df)}")
+        print(f"  Best filtered L/D    : {summary_df['max_LD'].max():.2f}")
+        print(f"  Mean CLmax           : {summary_df['CL_max'].mean():.3f}")
+        print(f"  Mean stall angle     : {summary_df['stall_alpha'].mean():.1f}°"
+              f" ± {summary_df['stall_alpha'].std():.1f}°")
+        print(f"  Avg plausible frac   : "
+              f"{summary_df['plausible_fraction'].mean():.1%}")
+        print()
+        print("  Category champions:")
+        for cat, data in category_leaders.items():
+            ldr = data['leader']
+            print(f"    {cat:<18} {str(ldr['bird_name'])[:30]:<30}  "
+                  f"L/D={safe_float(ldr['max_LD']):.1f}  "
+                  f"CLmax={safe_float(ldr['CL_max']):.3f}  "
+                  f"Stall={safe_float(ldr['stall_alpha']):.1f}°")
+        print(f"\n  Results: {RESULTS_DIR}")
+        print("=" * 72)

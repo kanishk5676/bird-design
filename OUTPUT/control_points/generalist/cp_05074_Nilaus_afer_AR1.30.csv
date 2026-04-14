@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Nilaus_afer
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 77.50 mm
+# Secondary1: 59.80 mm
+# Kipps Distance: 17.60 mm
+# Hand-Wing Index: 22.80
+# Tail Length: 49.60 mm
+# Aspect Ratio: 1.296
+# Pointedness Index: 0.2271
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1209
+# Max Thickness Position: 0.3363
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3618
+# Leading Edge Radius: 0.0338
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.22e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01014413,0.06430476
+UPPER,2,0.04057651,0.11281108
+UPPER,3,0.08453439,0.13999599
+UPPER,4,0.29259840,0.17119651
+UPPER,5,0.33632000,0.17844988
+UPPER,6,0.38004160,0.16636093
+UPPER,7,0.38394400,0.13251188
+UPPER,8,0.49176000,0.08277539
+UPPER,9,0.88000000,0.03154411
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01014413,-0.03954451
+LOWER,2,0.04057651,-0.01853849
+LOWER,3,0.08453439,-0.04363811
+LOWER,4,0.29259840,-0.04398676
+LOWER,5,0.33632000,-0.06332908
+LOWER,6,0.38004160,-0.03673339
+LOWER,7,0.38394400,0.00436903
+LOWER,8,0.49176000,0.01876292
+LOWER,9,0.88000000,0.00955452
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

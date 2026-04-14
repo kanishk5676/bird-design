@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Arborophila_cambodiana
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 142.30 mm
+# Secondary1: 109.60 mm
+# Kipps Distance: 32.70 mm
+# Hand-Wing Index: 23.00
+# Tail Length: 52.00 mm
+# Aspect Ratio: 1.298
+# Pointedness Index: 0.2298
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1174
+# Max Thickness Position: 0.3362
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3616
+# Leading Edge Radius: 0.0337
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.62e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01012424,0.06414544
+UPPER,2,0.04049696,0.11100969
+UPPER,3,0.08436866,0.13746960
+UPPER,4,0.29249400,0.16790478
+UPPER,5,0.33620000,0.17495014
+UPPER,6,0.37990600,0.16320787
+UPPER,7,0.38379000,0.13032953
+UPPER,8,0.49160000,0.08177671
+UPPER,9,0.88000000,0.03125426
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01012424,-0.03947696
+LOWER,2,0.04049696,-0.01744062
+LOWER,3,0.08436866,-0.04164248
+LOWER,4,0.29249400,-0.04110751
+LOWER,5,0.33620000,-0.05989514
+LOWER,6,0.37990600,-0.03406216
+LOWER,7,0.38379000,0.00586154
+LOWER,8,0.49160000,0.01922788
+LOWER,9,0.88000000,0.00968497
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

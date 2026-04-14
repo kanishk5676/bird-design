@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Geokichla_crossleyi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 107.60 mm
+# Secondary1: 83.40 mm
+# Kipps Distance: 24.60 mm
+# Hand-Wing Index: 22.80
+# Tail Length: 74.80 mm
+# Aspect Ratio: 1.290
+# Pointedness Index: 0.2286
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1192
+# Max Thickness Position: 0.3363
+# Max Camber/Chord: 0.0576
+# Max Camber Position: 0.3618
+# Leading Edge Radius: 0.0338
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.82e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01013633,0.06425801
+UPPER,2,0.04054534,0.11194633
+UPPER,3,0.08446946,0.13875075
+UPPER,4,0.29259840,0.16957078
+UPPER,5,0.33632000,0.17672038
+UPPER,6,0.38004160,0.16480438
+UPPER,7,0.38394400,0.13143959
+UPPER,8,0.49176000,0.08229113
+UPPER,9,0.88000000,0.03140575
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01013633,-0.03951334
+LOWER,2,0.04054534,-0.01798505
+LOWER,3,0.08446946,-0.04263500
+LOWER,4,0.29259840,-0.04253398
+LOWER,5,0.33632000,-0.06159958
+LOWER,6,0.38004160,-0.03538438
+LOWER,7,0.38394400,0.00513001
+LOWER,8,0.49176000,0.01900505
+LOWER,9,0.88000000,0.00962370
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

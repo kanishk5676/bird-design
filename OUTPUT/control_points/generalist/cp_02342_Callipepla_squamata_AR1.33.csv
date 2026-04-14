@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Callipepla_squamata
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 116.00 mm
+# Secondary1: 87.40 mm
+# Kipps Distance: 27.80 mm
+# Hand-Wing Index: 24.20
+# Tail Length: 79.40 mm
+# Aspect Ratio: 1.327
+# Pointedness Index: 0.2397
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1176
+# Max Thickness Position: 0.3355
+# Max Camber/Chord: 0.0573
+# Max Camber Position: 0.3606
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.01e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01003724,0.06338343
+UPPER,2,0.04014895,0.11069591
+UPPER,3,0.08364366,0.13742464
+UPPER,4,0.29186760,0.16788663
+UPPER,5,0.33548000,0.17494370
+UPPER,6,0.37909240,0.16318192
+UPPER,7,0.38286600,0.13024893
+UPPER,8,0.49064000,0.08166000
+UPPER,9,0.88000000,0.03119327
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01003724,-0.03920095
+LOWER,2,0.04014895,-0.01757363
+LOWER,3,0.08364366,-0.04184841
+LOWER,4,0.29186760,-0.04147305
+LOWER,5,0.33548000,-0.06029190
+LOWER,6,0.37909240,-0.03441598
+LOWER,7,0.38286600,0.00557407
+LOWER,8,0.49064000,0.01907557
+LOWER,9,0.88000000,0.00962676
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

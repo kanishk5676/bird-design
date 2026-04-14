@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Stactolaema_anchietae
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 89.20 mm
+# Secondary1: 67.50 mm
+# Kipps Distance: 21.20 mm
+# Hand-Wing Index: 24.00
+# Tail Length: 50.20 mm
+# Aspect Ratio: 1.321
+# Pointedness Index: 0.2377
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1191
+# Max Thickness Position: 0.3356
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3608
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.47e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01005349,0.06352095
+UPPER,2,0.04021397,0.11152333
+UPPER,3,0.08377910,0.13854816
+UPPER,4,0.29197200,0.16934658
+UPPER,5,0.33560000,0.17649466
+UPPER,6,0.37922800,0.16458120
+UPPER,7,0.38302000,0.13122349
+UPPER,8,0.49080000,0.08211371
+UPPER,9,0.88000000,0.03132757
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01005349,-0.03925397
+LOWER,2,0.04021397,-0.01804709
+LOWER,3,0.08377910,-0.04271251
+LOWER,4,0.29197200,-0.04271312
+LOWER,5,0.33560000,-0.06177466
+LOWER,6,0.37922800,-0.03556504
+LOWER,7,0.38302000,0.00494075
+LOWER,8,0.49080000,0.01888435
+LOWER,9,0.88000000,0.00957461
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

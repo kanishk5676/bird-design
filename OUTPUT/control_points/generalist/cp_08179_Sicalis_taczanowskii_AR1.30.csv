@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Sicalis_taczanowskii
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 69.90 mm
+# Secondary1: 53.70 mm
+# Kipps Distance: 16.10 mm
+# Hand-Wing Index: 23.10
+# Tail Length: 44.00 mm
+# Aspect Ratio: 1.302
+# Pointedness Index: 0.2303
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1209
+# Max Thickness Position: 0.3361
+# Max Camber/Chord: 0.0575
+# Max Camber Position: 0.3615
+# Leading Edge Radius: 0.0337
+# LE Droop: 0.0034
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.14e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01011846,0.06409077
+UPPER,2,0.04047385,0.11273833
+UPPER,3,0.08432052,0.13999266
+UPPER,4,0.29244180,0.17120209
+UPPER,5,0.33614000,0.17845897
+UPPER,6,0.37983820,0.16636417
+UPPER,7,0.38371300,0.13249873
+UPPER,8,0.49152000,0.08274977
+UPPER,9,0.88000000,0.03153001
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01011846,-0.03945985
+LOWER,2,0.04047385,-0.01857452
+LOWER,3,0.08432052,-0.04369479
+LOWER,4,0.29244180,-0.04408534
+LOWER,5,0.33614000,-0.06343702
+LOWER,6,0.37983820,-0.03682846
+LOWER,7,0.38371300,0.00429386
+LOWER,8,0.49152000,0.01872408
+LOWER,9,0.88000000,0.00953982
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

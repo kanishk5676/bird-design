@@ -1,0 +1,2 @@
+species,Wing.Length,Secondary1,Kipps.Distance,Tail.Length,Hand-Wing.Index,aspect_ratio,wing_loading_proxy,pointedness_index,efficiency_index,score_soaring,score_diving,score_maneuvering,score_cruising,score_hovering,flight_category,category_score
+Alcedo_euryzona,85.6,62.7,17.1,35.1,21.4,1.365231259968102,0.03889547749196872,0.19976635514018695,0.04275,1.5234168564920274,2.1667881548974943,1.4793166287015946,2.172255125284738,1.7302961275626427,cruising,2.172255125284738

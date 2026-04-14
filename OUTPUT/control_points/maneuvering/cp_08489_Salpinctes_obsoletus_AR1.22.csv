@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Salpinctes_obsoletus
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 69.00 mm
+# Secondary1: 56.60 mm
+# Kipps Distance: 11.80 mm
+# Hand-Wing Index: 17.30
+# Tail Length: 55.60 mm
+# Aspect Ratio: 1.219
+# Pointedness Index: 0.1710
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1260
+# Max Thickness Position: 0.3396
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3662
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.03e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01059845,0.06813068
+UPPER,2,0.04239378,0.11718110
+UPPER,3,0.08832038,0.14445361
+UPPER,4,0.29546940,0.17684998
+UPPER,5,0.33962000,0.18441146
+UPPER,6,0.38377060,0.17180899
+UPPER,7,0.38817900,0.13652208
+UPPER,8,0.49616000,0.08491567
+UPPER,9,0.88000000,0.03226895
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01059845,-0.04103178
+LOWER,2,0.04239378,-0.01989253
+LOWER,3,0.08832038,-0.04623640
+LOWER,4,0.29546940,-0.04747396
+LOWER,5,0.33962000,-0.06763791
+LOWER,6,0.38377060,-0.03991248
+LOWER,7,0.38817900,0.00293591
+LOWER,8,0.49616000,0.01855634
+LOWER,9,0.88000000,0.00955571
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

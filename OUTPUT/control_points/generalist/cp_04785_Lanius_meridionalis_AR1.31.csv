@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Lanius_meridionalis
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 104.10 mm
+# Secondary1: 79.20 mm
+# Kipps Distance: 24.80 mm
+# Hand-Wing Index: 23.80
+# Tail Length: 106.20 mm
+# Aspect Ratio: 1.314
+# Pointedness Index: 0.2382
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1185
+# Max Thickness Position: 0.3357
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3610
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.74e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01005673,0.06358041
+UPPER,2,0.04022694,0.11129743
+UPPER,3,0.08380612,0.13815496
+UPPER,4,0.29207640,0.16882642
+UPPER,5,0.33572000,0.17593913
+UPPER,6,0.37936360,0.16408461
+UPPER,7,0.38317400,0.13089194
+UPPER,8,0.49096000,0.08197748
+UPPER,9,0.88000000,0.03129330
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01005673,-0.03925494
+LOWER,2,0.04022694,-0.01784661
+LOWER,3,0.08380612,-0.04235504
+LOWER,4,0.29207640,-0.04218410
+LOWER,5,0.33572000,-0.06115133
+LOWER,6,0.37936360,-0.03507138
+LOWER,7,0.38317400,0.00523400
+LOWER,8,0.49096000,0.01898789
+LOWER,9,0.88000000,0.00960667
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

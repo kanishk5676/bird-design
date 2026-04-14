@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Podoces_biddulphi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 148.60 mm
+# Secondary1: 112.90 mm
+# Kipps Distance: 35.60 mm
+# Hand-Wing Index: 24.00
+# Tail Length: 99.30 mm
+# Aspect Ratio: 1.316
+# Pointedness Index: 0.2396
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1164
+# Max Thickness Position: 0.3356
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3608
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 2.77e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01004380,0.06346278
+UPPER,2,0.04017519,0.11014418
+UPPER,3,0.08369830,0.13656218
+UPPER,4,0.29197200,0.16675378
+UPPER,5,0.33560000,0.17373636
+UPPER,6,0.37922800,0.16209873
+UPPER,7,0.38302000,0.12951334
+UPPER,8,0.49080000,0.08134138
+UPPER,9,0.88000000,0.03110691
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01004380,-0.03921519
+LOWER,2,0.04017519,-0.01716444
+LOWER,3,0.08369830,-0.04111269
+LOWER,4,0.29197200,-0.04039614
+LOWER,5,0.33560000,-0.05901636
+LOWER,6,0.37922800,-0.03341356
+LOWER,7,0.38302000,0.00615440
+LOWER,8,0.49080000,0.01927051
+LOWER,9,0.88000000,0.00968495
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Buceros_hydrocorax
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 392.50 mm
+# Secondary1: 318.20 mm
+# Kipps Distance: 70.60 mm
+# Hand-Wing Index: 18.10
+# Tail Length: 350.20 mm
+# Aspect Ratio: 1.234
+# Pointedness Index: 0.1799
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1155
+# Max Thickness Position: 0.3391
+# Max Camber/Chord: 0.0583
+# Max Camber Position: 0.3655
+# Leading Edge Radius: 0.0351
+# LE Droop: 0.0044
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.02e+05
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01052879,0.06755274
+UPPER,2,0.04211516,0.11164173
+UPPER,3,0.08773991,0.13674100
+UPPER,4,0.29505180,0.16680302
+UPPER,5,0.33914000,0.17373028
+UPPER,6,0.38322820,0.16218485
+UPPER,7,0.38756300,0.12985765
+UPPER,8,0.49552000,0.08186179
+UPPER,9,0.88000000,0.03138122
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01052879,-0.04080116
+LOWER,2,0.04211516,-0.01654879
+LOWER,3,0.08773991,-0.04015655
+LOWER,4,0.29505180,-0.03870564
+LOWER,5,0.33914000,-0.05717833
+LOWER,6,0.38322820,-0.03177839
+LOWER,7,0.38756300,0.00747608
+LOWER,8,0.49552000,0.01996750
+LOWER,9,0.88000000,0.00995082
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

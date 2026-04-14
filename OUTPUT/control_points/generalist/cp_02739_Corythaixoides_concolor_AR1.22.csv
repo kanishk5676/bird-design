@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Corythaixoides_concolor
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 215.40 mm
+# Secondary1: 177.20 mm
+# Kipps Distance: 39.80 mm
+# Hand-Wing Index: 18.30
+# Tail Length: 241.00 mm
+# Aspect Ratio: 1.216
+# Pointedness Index: 0.1848
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1188
+# Max Thickness Position: 0.3390
+# Max Camber/Chord: 0.0582
+# Max Camber Position: 0.3654
+# Leading Edge Radius: 0.0350
+# LE Droop: 0.0043
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 4.52e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01049768,0.06732608
+UPPER,2,0.04199072,0.11325386
+UPPER,3,0.08748067,0.13912863
+UPPER,4,0.29494740,0.16992589
+UPPER,5,0.33902000,0.17705428
+UPPER,6,0.38309260,0.16517363
+UPPER,7,0.38740900,0.13190781
+UPPER,8,0.49536000,0.08277643
+UPPER,9,0.88000000,0.03163867
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01049768,-0.04068872
+LOWER,2,0.04199072,-0.01763136
+LOWER,3,0.08748067,-0.04211379
+LOWER,4,0.29494740,-0.04154969
+LOWER,5,0.33902000,-0.06055873
+LOWER,6,0.38309260,-0.03442130
+LOWER,7,0.38740900,0.00597291
+LOWER,8,0.49536000,0.01948071
+LOWER,9,0.88000000,0.00980968
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Colinus_leucopogon
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 102.80 mm
+# Secondary1: 78.20 mm
+# Kipps Distance: 24.30 mm
+# Hand-Wing Index: 23.90
+# Tail Length: 52.80 mm
+# Aspect Ratio: 1.315
+# Pointedness Index: 0.2364
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1185
+# Max Thickness Position: 0.3357
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3609
+# Leading Edge Radius: 0.0335
+# LE Droop: 0.0032
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.72e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01006312,0.06359869
+UPPER,2,0.04025246,0.11125821
+UPPER,3,0.08385929,0.13813242
+UPPER,4,0.29202420,0.16880040
+UPPER,5,0.33566000,0.17591253
+UPPER,6,0.37929580,0.16405898
+UPPER,7,0.38309700,0.13086902
+UPPER,8,0.49088000,0.08196038
+UPPER,9,0.88000000,0.03128610
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01006312,-0.03928646
+LOWER,2,0.04025246,-0.01784944
+LOWER,3,0.08385929,-0.04235721
+LOWER,4,0.29202420,-0.04219289
+LOWER,5,0.33566000,-0.06115858
+LOWER,6,0.37929580,-0.03508076
+LOWER,7,0.38309700,0.00522133
+LOWER,8,0.49088000,0.01897875
+LOWER,9,0.88000000,0.00960282
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

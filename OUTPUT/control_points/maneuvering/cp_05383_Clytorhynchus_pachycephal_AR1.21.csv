@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Clytorhynchus_pachycephaloides
+# Flight Category: maneuvering
+#
+# === Morphological Parameters ===
+# Wing Length: 89.10 mm
+# Secondary1: 73.60 mm
+# Kipps Distance: 15.50 mm
+# Hand-Wing Index: 17.40
+# Tail Length: 80.00 mm
+# Aspect Ratio: 1.211
+# Pointedness Index: 0.1740
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1245
+# Max Thickness Position: 0.3396
+# Max Camber/Chord: 0.0584
+# Max Camber Position: 0.3661
+# Leading Edge Radius: 0.0353
+# LE Droop: 0.0045
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.43e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01058035,0.06800213
+UPPER,2,0.04232142,0.11640363
+UPPER,3,0.08816962,0.14336700
+UPPER,4,0.29541720,0.17543410
+UPPER,5,0.33956000,0.18290608
+UPPER,6,0.38370280,0.17045279
+UPPER,7,0.38810200,0.13558355
+UPPER,8,0.49608000,0.08448637
+UPPER,9,0.88000000,0.03214442
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01058035,-0.04096542
+LOWER,2,0.04232142,-0.01941997
+LOWER,3,0.08816962,-0.04537750
+LOWER,4,0.29541720,-0.04623461
+LOWER,5,0.33956000,-0.06615988
+LOWER,6,0.38370280,-0.03876263
+LOWER,7,0.38810200,0.00357859
+LOWER,8,0.49608000,0.01875670
+LOWER,9,0.88000000,0.00961196
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

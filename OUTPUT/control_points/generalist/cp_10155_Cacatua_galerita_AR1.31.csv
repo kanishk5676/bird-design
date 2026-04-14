@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Cacatua_galerita
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 347.30 mm
+# Secondary1: 266.00 mm
+# Kipps Distance: 93.20 mm
+# Hand-Wing Index: 25.90
+# Tail Length: 198.40 mm
+# Aspect Ratio: 1.306
+# Pointedness Index: 0.2684
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1099
+# Max Thickness Position: 0.3345
+# Max Camber/Chord: 0.0570
+# Max Camber Position: 0.3593
+# Leading Edge Radius: 0.0328
+# LE Droop: 0.0028
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 8.60e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.00983884,0.06185307
+UPPER,2,0.03935538,0.10626232
+UPPER,3,0.08199037,0.13162043
+UPPER,4,0.29098020,0.16036882
+UPPER,5,0.33446000,0.16696505
+UPPER,6,0.37793980,0.15597134
+UPPER,7,0.38155700,0.12518896
+UPPER,8,0.48928000,0.07925616
+UPPER,9,0.88000000,0.03046560
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.00983884,-0.03850938
+LOWER,2,0.03935538,-0.01522007
+LOWER,3,0.08199037,-0.03753063
+LOWER,4,0.29098020,-0.03531917
+LOWER,5,0.33446000,-0.05290910
+LOWER,6,0.37793980,-0.02872294
+LOWER,7,0.38155700,0.00865566
+LOWER,8,0.48928000,0.01996615
+LOWER,9,0.88000000,0.00985951
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Phoenicurus_erythrogastrus
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 96.60 mm
+# Secondary1: 73.80 mm
+# Kipps Distance: 22.90 mm
+# Hand-Wing Index: 23.60
+# Tail Length: 74.00 mm
+# Aspect Ratio: 1.309
+# Pointedness Index: 0.2371
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1191
+# Max Thickness Position: 0.3358
+# Max Camber/Chord: 0.0574
+# Max Camber Position: 0.3611
+# Leading Edge Radius: 0.0336
+# LE Droop: 0.0033
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 1.58e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01006883,0.06369300
+UPPER,2,0.04027534,0.11165499
+UPPER,3,0.08390695,0.13860199
+UPPER,4,0.29218080,0.16940327
+UPPER,5,0.33584000,0.17655065
+UPPER,6,0.37949920,0.16463835
+UPPER,7,0.38332800,0.13128389
+UPPER,8,0.49112000,0.08216792
+UPPER,9,0.88000000,0.03135233
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01006883,-0.03929134
+LOWER,2,0.04027534,-0.01801972
+LOWER,3,0.08390695,-0.04267468
+LOWER,4,0.29218080,-0.04263577
+LOWER,5,0.33584000,-0.06169545
+LOWER,6,0.37949920,-0.03548838
+LOWER,7,0.38332800,0.00501346
+LOWER,8,0.49112000,0.01892788
+LOWER,9,0.88000000,0.00959198
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000

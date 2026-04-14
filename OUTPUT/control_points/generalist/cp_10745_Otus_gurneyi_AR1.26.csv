@@ -1,0 +1,57 @@
+# Bird-inspired Airfoil Bézier Control Points
+# Generated from AVONET morphological database
+#
+# Species: Otus_gurneyi
+# Flight Category: generalist
+#
+# === Morphological Parameters ===
+# Wing Length: 240.40 mm
+# Secondary1: 191.00 mm
+# Kipps Distance: 49.40 mm
+# Hand-Wing Index: 20.50
+# Tail Length: 113.60 mm
+# Aspect Ratio: 1.259
+# Pointedness Index: 0.2055
+#
+# === Airfoil Geometric Properties ===
+# Max Thickness/Chord: 0.1164
+# Max Thickness Position: 0.3377
+# Max Camber/Chord: 0.0579
+# Max Camber Position: 0.3636
+# Leading Edge Radius: 0.0344
+# LE Droop: 0.0039
+# Trailing Edge Thickness: 0.0020
+# Estimated Reynolds Number: 5.24e+04
+#
+# Total Upper CP: 12
+# Total Lower CP: 12
+#
+# UPPER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+UPPER,0,0.00000000,0.00000000
+UPPER,1,0.01032470,0.06584818
+UPPER,2,0.04129879,0.11134073
+UPPER,3,0.08603914,0.13710564
+UPPER,4,0.29379900,0.16734980
+UPPER,5,0.33770000,0.17433440
+UPPER,6,0.38160100,0.16269340
+UPPER,7,0.38571500,0.13009859
+UPPER,8,0.49360000,0.08183053
+UPPER,9,0.88000000,0.03132406
+UPPER,10,0.98500000,0.00200000
+UPPER,11,1.00000000,0.00000000
+#
+# LOWER SURFACE CONTROL POINTS
+Surface,Point_Index,X,Y
+LOWER,0,0.00000000,0.00000000
+LOWER,1,0.01032470,-0.04012879
+LOWER,2,0.04129879,-0.01697768
+LOWER,3,0.08603914,-0.04087260
+LOWER,4,0.29379900,-0.03986005
+LOWER,5,0.33770000,-0.05848565
+LOWER,6,0.38160100,-0.03287545
+LOWER,7,0.38571500,0.00670396
+LOWER,8,0.49360000,0.01961571
+LOWER,9,0.88000000,0.00982469
+LOWER,10,0.98500000,-0.00100000
+LOWER,11,1.00000000,0.00000000
