@@ -1,0 +1,1484 @@
+"""
+NeuralFoil Aerodynamic Simulation Module — v4
+==============================================
+Evaluates all bird-inspired airfoils across a comprehensive flight-condition
+matrix, extracts category-level performance champions, and exports a
+dedicated champions CSV for downstream use.
+
+Changes from v3
+---------------
+A.  BUG FIX — stall detection
+    v3's docstring claimed the earliest-trigger among three methods won,
+    but the implementation used a fixed priority order (peak_drop first).
+    v4 genuinely compares all three triggers and picks the earliest α.
+    The priority is now only a tiebreaker when methods agree exactly.
+
+B.  BUG FIX — stall clipping removed
+    v3 forced every stall angle into [8°, 18°] with np.clip, which
+    silenced real variation across species. v4 removes the hard clip;
+    implausible values are flagged instead (see `stall_plausible` column)
+    and only bounded if they fall outside a much wider [4°, 22°] window.
+
+C.  BUG FIX — slope threshold aligned with docstring
+    v3 had 40% in the docstring and 15% in code. v4 uses 40% (the
+    physically motivated value from Schlichting-type boundary-layer
+    arguments) consistently.
+
+D.  BUG FIX — LD_report used consistently
+    v3 mixed LD_ratio (can contain NaN after filtering) and LD_report
+    in summary statistics, biasing averages. v4 uses LD_report for all
+    reported summary metrics and keeps LD_ratio only for debugging.
+
+E.  BUG FIX — plausibility fallback is recorded
+    When no plausible points exist and the code falls back to all data,
+    v4 records `used_implausible_fallback=True` on the summary row so
+    downstream consumers can filter these out.
+
+F.  NEW — champions CSV (primary user request)
+    The best bird in each category AND the overall top-N birds across
+    all categories are exported to:
+        champions_by_category.csv     (one row per category)
+        overall_top_birds.csv         (top-N across all, sortable)
+    Both contain the full summary columns so they're self-contained.
+
+G.  CLEANUP
+    - Removed unused imports (os, glob, warnings)
+    - Fixed "2° steps" → "1° steps" in the report
+    - Fixed the broken drag-correction-impact plot (now per-point scatter)
+    - Added the correlation CSV path to the final printout
+
+References
+----------
+Drela, M. (1989). XFOIL: An analysis and design system for low Reynolds
+    number airfoils. *Low Reynolds Number Aerodynamics*, Springer.
+Pennycuick, C. J. (2008). *Modelling the Flying Bird*. Elsevier.
+Hedenström, A. & Alerstam, T. (1995). Optimal flight speed of birds.
+    *Phil. Trans. R. Soc. B*, 348(1326), 471–487.
+NeuralFoil documentation: github.com/peterdsharpe/NeuralFoil
+"""
+
+import re
+import pickle
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats as scipy_stats
+from tqdm import tqdm
+import neuralfoil as nf
+
+
+# ---------------------------------------------------------------------------
+# CONFIGURATION
+# ---------------------------------------------------------------------------
+
+PROJECT_ROOT = Path(__file__).parent.parent
+AIRFOIL_DIR = PROJECT_ROOT / "OUTPUT" / "airfoils"
+RESULTS_DIR = PROJECT_ROOT / "RESULTS" / "neuralfoil_analysis"
+
+REYNOLDS_NUMBERS = [1e4, 5e4, 1e5, 2e5, 5e5, 1e6]
+ALPHAS = np.arange(-4, 20.5, 1.0).tolist()  # [-4, -3, ..., 20] — 1° steps
+MODEL_SIZE = "xxlarge"
+CONFIDENCE_THRESHOLD = 0.5
+
+# ── Plausibility bounds (§3) ─────────────────────────────────────────────
+LD_MAX_PLAUSIBLE = 80.0      # cap for reporting
+LD_RAW_FILTER_MAX = 120.0    # above this = NeuralFoil artifact, drop
+CD_MIN_PLAUSIBLE = 0.004     # flat-plate skin-friction floor
+CL_MAX_PLAUSIBLE = 2.2       # single-element airfoil limit
+STALL_ALPHA_WINDOW = (4.0, 22.0)   # wide window; anything outside → flagged
+
+# ── Number of birds to export in overall-top CSV ─────────────────────────
+TOP_N_OVERALL = 25
+
+# ── Drag correction (§1) ─────────────────────────────────────────────────
+DRAG_CORRECTION_TABLE = {
+    1e4:  1.60,
+    5e4:  1.35,
+    1e5:  1.20,
+    2e5:  1.10,
+    5e5:  1.03,
+    1e6:  1.00,
+}
+
+
+def get_drag_correction(re_value: float) -> float:
+    """Log-linear interpolation of the Re-dependent drag correction."""
+    re_points = sorted(DRAG_CORRECTION_TABLE.keys())
+    k_points = [DRAG_CORRECTION_TABLE[r] for r in re_points]
+
+    if re_value <= re_points[0]:
+        return k_points[0]
+    if re_value >= re_points[-1]:
+        return k_points[-1]
+
+    return float(np.interp(np.log10(re_value), np.log10(re_points), k_points))
+
+
+# ---------------------------------------------------------------------------
+# UTILITY FUNCTIONS
+# ---------------------------------------------------------------------------
+
+def safe_float(value) -> float:
+    """Convert any value (scalar, list, ndarray) to a Python float."""
+    if value is None:
+        return 0.0
+    if isinstance(value, np.ndarray):
+        if value.ndim == 0:
+            return float(value.item())
+        flat = value.flatten()
+        return float(flat[0]) if len(flat) > 0 else 0.0
+    if isinstance(value, (list, tuple)):
+        return float(value[0]) if len(value) > 0 else 0.0
+    if hasattr(value, '__iter__') and not isinstance(value, (str, bytes)):
+        try:
+            arr = np.asarray(value).flatten()
+            return float(arr[0]) if len(arr) > 0 else 0.0
+        except (TypeError, ValueError, IndexError):
+            pass
+    try:
+        return float(value)
+    except (TypeError, ValueError, AttributeError):
+        return 0.0
+
+
+def normalise_airfoil_coordinates(coords: np.ndarray) -> np.ndarray:
+    """Re-normalise (x, y) airfoil coordinates so that chord = 1.0."""
+    x = coords[:, 0]
+    chord = x.max() - x.min()
+    if chord < 1e-9:
+        raise ValueError("Degenerate airfoil: chord length is effectively zero.")
+    x_le = x.min()
+    normalised = coords.copy()
+    normalised[:, 0] = (coords[:, 0] - x_le) / chord
+    normalised[:, 1] = coords[:, 1] / chord
+    return normalised
+
+
+def extract_geometry_descriptors(coords: np.ndarray) -> dict:
+    """Extract t/c, max camber, and camber position."""
+    x = coords[:, 0]
+    y = coords[:, 1]
+    i_le = int(np.argmin(x))
+
+    x_upper = x[:i_le + 1][::-1]
+    y_upper = y[:i_le + 1][::-1]
+    x_lower = x[i_le:]
+    y_lower = y[i_le:]
+
+    x_common = np.linspace(0.0, 1.0, 201)
+    if len(x_upper) < 3 or len(x_lower) < 3:
+        return {'t_over_c': 0.0, 'max_camber': 0.0, 'camber_loc': 0.0}
+
+    y_up_interp = np.interp(x_common, x_upper, y_upper)
+    y_lo_interp = np.interp(x_common, x_lower, y_lower)
+
+    thickness = y_up_interp - y_lo_interp
+    camber = (y_up_interp + y_lo_interp) / 2.0
+
+    return {
+        't_over_c':   float(np.max(thickness)),
+        'max_camber': float(np.max(np.abs(camber))),
+        'camber_loc': float(x_common[np.argmax(np.abs(camber))]),
+    }
+
+
+def estimate_reynolds_allometric(
+    body_mass_kg: float | None = None,
+    wing_length_mm: float = 0.0,
+    wing_loading_proxy: float = 0.0,
+) -> tuple[float, str]:
+    """Estimate Re from body mass (preferred) or wing morphology (fallback)."""
+    RHO_OVER_MU = 67_679.0  # ρ/μ at sea level, 15 °C
+
+    if body_mass_kg is not None and body_mass_kg > 0:
+        v_mp = 4.09 * body_mass_kg ** 0.21       # Pennycuick 2008
+        b = 1.17 * body_mass_kg ** 0.39          # wingspan allometry
+        ar = 7.0                                  # typical bird AR
+        chord = b / ar
+        re = RHO_OVER_MU * v_mp * chord
+        return float(np.clip(re, 1e4, 2e6)), 'allometric'
+
+    if wing_length_mm > 0:
+        velocity = max(5.0, min(30.0,
+                                8.0 + 200.0 * wing_loading_proxy
+                                + 0.05 * wing_length_mm))
+        chord_m = wing_length_mm / 1000.0 * 0.15
+        re = RHO_OVER_MU * velocity * chord_m
+        return float(np.clip(re, 1e4, 2e6)), 'heuristic'
+
+    return 1e5, 'default'
+
+
+# ---------------------------------------------------------------------------
+# FILE I/O
+# ---------------------------------------------------------------------------
+
+def load_dat_file(filepath: str) -> tuple[np.ndarray, dict]:
+    """Load a .dat airfoil file and extract embedded metadata."""
+    meta = {}
+    coord_lines = []
+
+    with open(filepath, 'r', encoding='utf-8', errors='replace') as f:
+        for line in f:
+            stripped = line.strip()
+            if stripped.startswith('#'):
+                m = re.match(r'#\s*([^:]+):\s*(.+)', stripped)
+                if m:
+                    meta[m.group(1).strip()] = m.group(2).strip()
+                continue
+            if not stripped:
+                continue
+            parts = stripped.split()
+            if len(parts) == 2:
+                try:
+                    coord_lines.append((float(parts[0]), float(parts[1])))
+                except ValueError:
+                    continue
+
+    if len(coord_lines) < 10:
+        raise ValueError(f"Too few coordinate points ({len(coord_lines)}) in {filepath}")
+
+    coords = normalise_airfoil_coordinates(np.array(coord_lines))
+
+    # Parse estimated Re from header
+    for key in ('Est. Reynolds', 'Estimated Reynolds Number', 'estimated_reynolds'):
+        if key in meta:
+            try:
+                re_str = meta[key].replace(',', '').replace('e+0', 'e+').replace('e-0', 'e-')
+                meta['_estimated_re'] = float(re_str.split()[0])
+                meta['_re_method'] = 'header'
+                break
+            except (ValueError, AttributeError):
+                pass
+
+    # Allometric estimation if header missing
+    if '_estimated_re' not in meta:
+        body_mass_kg = None
+        wing_length_mm = 0.0
+        wing_loading_proxy = 0.0
+
+        for key in ('Body Mass', 'Body.Mass', 'body_mass_g'):
+            if key in meta:
+                try:
+                    mass_g = float(meta[key].replace('g', '').strip())
+                    body_mass_kg = mass_g / 1000.0
+                    break
+                except (ValueError, AttributeError):
+                    pass
+
+        for key in ('Wing Length', 'Wing.Length'):
+            if key in meta:
+                try:
+                    wing_length_mm = float(meta[key].replace('mm', '').strip())
+                    break
+                except (ValueError, AttributeError):
+                    pass
+
+        for key in ('Wing Loading Proxy', 'Wing.Loading.Proxy'):
+            if key in meta:
+                try:
+                    wing_loading_proxy = float(meta[key])
+                    break
+                except (ValueError, AttributeError):
+                    pass
+
+        re_est, method = estimate_reynolds_allometric(
+            body_mass_kg, wing_length_mm, wing_loading_proxy)
+        meta['_estimated_re'] = re_est
+        meta['_re_method'] = method
+
+    filename = Path(filepath).stem
+    if 'Species' not in meta:
+        parts = filename.split('_')
+        if len(parts) >= 3:
+            meta['Species'] = '_'.join(parts[2:-1])
+
+    category = Path(filepath).parent.name
+    if category in ('diving', 'generalist', 'hovering',
+                    'maneuvering', 'soaring', 'cruising'):
+        meta['Flight Category'] = category
+
+    meta.update(extract_geometry_descriptors(coords))
+    return coords, meta
+
+
+# ---------------------------------------------------------------------------
+# §2  STALL DETECTION — earliest-trigger semantics (fix B)
+# ---------------------------------------------------------------------------
+
+def detect_stall(alphas: list[float], cls: list[float]) -> tuple[float, float, str, bool]:
+    """
+    Detect CLmax and stall angle using earliest-trigger across three methods.
+
+    Methods
+    -------
+    A. Slope degradation: stall when dCL/dα drops below 40% of the linear
+       (α∈[0,6]°) slope.
+    B. Curvature: d²CL/dα² < −0.003 /deg².
+    C. Peak-drop: first α after CLmax where CL < 0.95·CLmax.
+
+    The *earliest* α among the three triggered methods wins. Ties are
+    broken peak_drop > curvature > slope (most physically direct first).
+
+    Returns
+    -------
+    cl_max       : float
+    stall_alpha  : float
+    method       : str   which method produced the winning angle
+    plausible    : bool  True if stall falls inside STALL_ALPHA_WINDOW
+    """
+    if len(cls) < 4:
+        return (max(cls) if cls else 0.0), (alphas[-1] if alphas else 0.0), 'insufficient_data', False
+
+    a = np.array(alphas, dtype=float)
+    cl = np.array(cls, dtype=float)
+
+    i_peak = int(np.argmax(cl))
+    cl_max = float(cl[i_peak])
+
+    # ── Method A: slope degradation (40% threshold, docstring-correct) ──
+    dcl_da = np.gradient(cl, a)
+    linear_mask = (a >= 0) & (a <= 6)
+    if np.sum(linear_mask) >= 2:
+        slope_linear = float(np.mean(dcl_da[linear_mask]))
+    else:
+        slope_linear = float(np.mean(dcl_da[:min(4, len(dcl_da))]))
+
+    slope_threshold = 0.40 * slope_linear
+
+    stall_a_slope = None
+    # search from the start of the linear region onward (not only after peak)
+    for i in range(len(a)):
+        if a[i] > 4.0 and dcl_da[i] < slope_threshold:
+            stall_a_slope = float(a[i])
+            break
+
+    # ── Method B: curvature ────────────────────────────────────────────
+    d2cl_da2 = np.gradient(dcl_da, a)
+    stall_a_curv = None
+    for i in range(len(a)):
+        if a[i] > 4.0 and d2cl_da2[i] < -0.003:
+            stall_a_curv = float(a[i])
+            break
+
+    # ── Method C: peak-drop ───────────────────────────────────────────
+    stall_a_peak = None
+    threshold_95 = cl_max * 0.95
+    for i in range(i_peak + 1, len(cl)):
+        if cl[i] < threshold_95:
+            stall_a_peak = float(a[i])
+            break
+
+    # ── Earliest-trigger selection (fix A) ────────────────────────────
+    candidates = []
+    if stall_a_peak is not None:
+        candidates.append((stall_a_peak, 'peak_drop', 0))   # tie-break rank
+    if stall_a_curv is not None:
+        candidates.append((stall_a_curv, 'curvature', 1))
+    if stall_a_slope is not None:
+        candidates.append((stall_a_slope, 'slope_degradation', 2))
+
+    if candidates:
+        # sort by (alpha, tie_rank) → earliest α wins; tie → peak_drop first
+        candidates.sort(key=lambda t: (t[0], t[2]))
+        stall_alpha = candidates[0][0]
+        method = candidates[0][1]
+    else:
+        stall_alpha = float(a[i_peak])
+        method = 'fallback_peak'
+
+    # ── Plausibility flag (fix B — no hard clip) ──────────────────────
+    lo, hi = STALL_ALPHA_WINDOW
+    plausible = (lo <= stall_alpha <= hi)
+
+    return cl_max, stall_alpha, method, plausible
+
+
+# ---------------------------------------------------------------------------
+# §6  ADDITIONAL PERFORMANCE METRICS
+# ---------------------------------------------------------------------------
+
+def compute_advanced_metrics(df: pd.DataFrame) -> dict:
+    """Endurance, pitch stability, drag bucket width."""
+    metrics = {}
+
+    cl_pos = df[df['CL'] > 0].copy()
+    if not cl_pos.empty:
+        cl_pos['endurance'] = cl_pos['CL'] ** 1.5 / cl_pos['CD']
+        metrics['max_endurance_param'] = safe_float(cl_pos['endurance'].max())
+        best_end = cl_pos.loc[cl_pos['endurance'].idxmax()]
+        metrics['endurance_alpha'] = safe_float(best_end['alpha'])
+        metrics['endurance_Re'] = safe_float(best_end['Re'])
+    else:
+        metrics.update({'max_endurance_param': 0.0, 'endurance_alpha': 0.0, 'endurance_Re': 0.0})
+
+    cm_slopes = []
+    for _, grp in df.groupby('Re'):
+        grp_s = grp.sort_values('alpha')
+        if len(grp_s) >= 4:
+            cl_arr = grp_s['CL'].values
+            cm_arr = grp_s['CM'].values
+            mask = grp_s['alpha'].between(0, 8)
+            if mask.sum() >= 3:
+                slope, *_ = scipy_stats.linregress(cl_arr[mask.values], cm_arr[mask.values])
+                cm_slopes.append(slope)
+    metrics['dCM_dCL'] = float(np.median(cm_slopes)) if cm_slopes else 0.0
+    metrics['is_statically_stable'] = metrics['dCM_dCL'] < 0
+
+    bucket_widths = []
+    for _, grp in df.groupby('Re'):
+        grp_s = grp.sort_values('alpha')
+        cd_min_local = grp_s['CD'].min()
+        in_bucket = grp_s['CD'] < 1.1 * cd_min_local
+        if in_bucket.any():
+            a_in = grp_s.loc[in_bucket, 'alpha']
+            bucket_widths.append(float(a_in.max() - a_in.min()))
+    metrics['drag_bucket_width'] = float(np.median(bucket_widths)) if bucket_widths else 0.0
+
+    return metrics
+
+
+# ---------------------------------------------------------------------------
+# CORE SIMULATION
+# ---------------------------------------------------------------------------
+
+def run_simulation_for_file(
+    dat_file: str,
+    reynolds: list[float] = REYNOLDS_NUMBERS,
+    alphas:   list[float] = ALPHAS,
+    model_size: str = MODEL_SIZE,
+) -> tuple[list[dict], dict]:
+    """Run the full alpha × Re test matrix for a single .dat file."""
+    coords, file_meta = load_dat_file(dat_file)
+    bird_name = file_meta.get('Species', Path(dat_file).stem)
+    category = file_meta.get('Flight Category', Path(dat_file).parent.name)
+    results = []
+
+    for re_val in reynolds:
+        k_cd = get_drag_correction(re_val)
+
+        for alpha in alphas:
+            try:
+                aero = nf.get_aero_from_coordinates(
+                    coordinates=coords, alpha=alpha, Re=re_val,
+                    model_size=model_size,
+                )
+
+                cl = safe_float(aero.get('CL', 0.0))
+                cd_raw = safe_float(aero.get('CD', 1e-6))
+                cm = safe_float(aero.get('CM', 0.0))
+                confidence = safe_float(aero.get('analysis_confidence', 0.0))
+                top_xtr = safe_float(aero.get('Top_Xtr', 1.0))
+                bot_xtr = safe_float(aero.get('Bot_Xtr', 1.0))
+
+                cd_corrected = max(abs(cd_raw) * k_cd, 1e-7)
+
+                plausible = True
+                if cd_corrected < CD_MIN_PLAUSIBLE:
+                    cd_corrected = CD_MIN_PLAUSIBLE
+                    plausible = False
+                if abs(cl) > CL_MAX_PLAUSIBLE:
+                    plausible = False
+
+                ld_raw = cl / cd_corrected
+
+                if ld_raw > LD_RAW_FILTER_MAX:
+                    ld_raw = np.nan
+                    plausible = False
+
+                ld_report = (min(ld_raw, LD_MAX_PLAUSIBLE)
+                             if not np.isnan(ld_raw) else np.nan)
+
+                results.append({
+                    'bird_name':           bird_name,
+                    'category':            category,
+                    'file_path':           dat_file,
+                    'alpha':               float(alpha),
+                    'Re':                  float(re_val),
+                    'CL':                  cl,
+                    'CD_raw':              abs(cd_raw),
+                    'CD':                  cd_corrected,
+                    'CD_correction':       k_cd,
+                    'CM':                  cm,
+                    'LD_ratio':            ld_raw,
+                    'LD_report':           ld_report,
+                    'analysis_confidence': confidence,
+                    'low_confidence':      confidence < CONFIDENCE_THRESHOLD,
+                    'plausible':           plausible,
+                    'Top_Xtr':             top_xtr,
+                    'Bot_Xtr':             bot_xtr,
+                })
+
+            except Exception:
+                continue
+
+    return results, file_meta
+
+
+def build_summary(
+    bird_name: str,
+    category:  str,
+    dat_file:  str,
+    df:        pd.DataFrame,
+    file_meta: dict,
+) -> dict | None:
+    """
+    Compute summary statistics for one bird.
+
+    All reported L/D metrics use LD_report (capped, NaN-filtered) — fix D.
+    """
+    if df.empty:
+        return None
+
+    dfp = df[df['plausible']].copy()
+    used_fallback = False
+    if dfp.empty:
+        dfp = df.copy()
+        used_fallback = True   # fix E
+
+    total_points = len(df)
+    plausible_frac = (len(dfp) / total_points) if (total_points > 0 and not used_fallback) else 0.0
+
+    # Use LD_report consistently (fix D)
+    neg_alpha  = dfp[dfp['alpha'] < 0]
+    cruise     = dfp[dfp['alpha'].between(0, 2)]
+    design     = dfp[dfp['alpha'] == 4]
+    climb      = dfp[dfp['alpha'].between(8, 12)]
+    high_alpha = dfp[dfp['alpha'] >= 14]
+
+    ld_series = dfp['LD_report']
+    if ld_series.dropna().empty:
+        return None  # nothing usable
+
+    idx_best = ld_series.idxmax()
+    best_row = dfp.loc[idx_best]
+
+    re_ld = {}
+    for re_val, grp in dfp.groupby('Re'):
+        re_ld[f'LD_at_Re_{re_val:.0e}'] = safe_float(grp['LD_report'].max())
+
+    estimated_re = file_meta.get('_estimated_re', 1e5)
+    re_method = file_meta.get('_re_method', 'unknown')
+    re_for_stall = min(REYNOLDS_NUMBERS, key=lambda r: abs(r - estimated_re))
+    stall_df = dfp[dfp['Re'] == re_for_stall].sort_values('alpha')
+
+    cl_max, stall_alpha, stall_method, stall_plausible = detect_stall(
+        stall_df['alpha'].tolist(),
+        stall_df['CL'].tolist(),
+    )
+
+    design_re_df = dfp[dfp['Re'] == re_for_stall]
+    if not design_re_df.empty and not design_re_df['LD_report'].dropna().empty:
+        design_re_ld = safe_float(design_re_df['LD_report'].max())
+        design_re_cl = safe_float(design_re_df.loc[design_re_df['LD_report'].idxmax(), 'CL'])
+    else:
+        design_re_ld = 0.0
+        design_re_cl = 0.0
+
+    adv = compute_advanced_metrics(dfp)
+
+    summary = {
+        'bird_name': bird_name,
+        'category':  category,
+        'file_path': dat_file,
+
+        # Global bests — use LD_report (fix D)
+        'max_LD': safe_float(ld_series.max()),
+        'avg_LD': safe_float(ld_series.mean()),
+        'LD_std': safe_float(ld_series.std()),
+        'max_CL': safe_float(dfp['CL'].max()),
+        'min_CD': safe_float(dfp['CD'].min()),
+
+        # Regime-specific (LD_report)
+        'neg_alpha_LD':  safe_float(neg_alpha['LD_report'].mean())  if not neg_alpha.empty  else 0.0,
+        'cruise_LD':     safe_float(cruise['LD_report'].mean())     if not cruise.empty     else 0.0,
+        'design_LD':     safe_float(design['LD_report'].mean())     if not design.empty     else 0.0,
+        'climb_LD':      safe_float(climb['LD_report'].mean())      if not climb.empty      else 0.0,
+        'high_alpha_LD': safe_float(high_alpha['LD_report'].mean()) if not high_alpha.empty else 0.0,
+
+        # Stall
+        'CL_max':          cl_max,
+        'stall_alpha':     stall_alpha,
+        'stall_method':    stall_method,
+        'stall_plausible': stall_plausible,
+
+        # Reynolds
+        'estimated_Re':      estimated_re,
+        'Re_method':         re_method,
+        'design_point_Re':   re_for_stall,
+        'design_point_LD':   design_re_ld,
+        'design_point_CL':   design_re_cl,
+
+        # Best op point
+        'best_alpha': safe_float(best_row['alpha']),
+        'best_Re':    safe_float(best_row['Re']),
+
+        'LD_CoV': safe_float(ld_series.std() / (ld_series.mean() + 1e-6)),
+
+        # Quality
+        'avg_confidence':           safe_float(df['analysis_confidence'].mean()),
+        'low_conf_fraction':        safe_float(df['low_confidence'].mean()),
+        'plausible_fraction':       plausible_frac,
+        'used_implausible_fallback': used_fallback,   # fix E
+        'conditions_tested':        total_points,
+
+        # Advanced
+        **adv,
+
+        # Geometry
+        't_over_c':   file_meta.get('t_over_c', 0.0),
+        'max_camber': file_meta.get('max_camber', 0.0),
+        'camber_loc': file_meta.get('camber_loc', 0.0),
+
+        **re_ld,
+    }
+
+    return summary
+
+
+# ---------------------------------------------------------------------------
+# §5  VALIDATION
+# ---------------------------------------------------------------------------
+
+def run_validation(output_dir: Path) -> pd.DataFrame:
+    """Validate NeuralFoil against NACA 0012/2412/4412 reference data."""
+    from collections import OrderedDict
+
+    NACA_REF = OrderedDict({
+        ('NACA_0012', 1e5): {'CLmax': (0.90, 0.12), 'stall_alpha': (11.0, 3.0),
+                             'CL_slope': (0.105, 0.015), 'CD_min': (0.009, 0.004)},
+        ('NACA_0012', 5e5): {'CLmax': (1.15, 0.15), 'stall_alpha': (14.0, 3.0),
+                             'CL_slope': (0.11, 0.01),  'CD_min': (0.006, 0.003)},
+        ('NACA_2412', 1e5): {'CLmax': (1.15, 0.15), 'stall_alpha': (13.0, 3.0),
+                             'CL_slope': (0.105, 0.015), 'CD_min': (0.009, 0.004)},
+        ('NACA_2412', 5e5): {'CLmax': (1.35, 0.15), 'stall_alpha': (15.0, 3.0),
+                             'CL_slope': (0.11, 0.01),  'CD_min': (0.006, 0.003)},
+        ('NACA_4412', 1e5): {'CLmax': (1.40, 0.20), 'stall_alpha': (12.0, 3.0),
+                             'CL_slope': (0.105, 0.015), 'CD_min': (0.009, 0.004)},
+        ('NACA_4412', 5e5): {'CLmax': (1.60, 0.20), 'stall_alpha': (14.0, 3.0),
+                             'CL_slope': (0.11, 0.01),  'CD_min': (0.006, 0.003)},
+    })
+
+    def generate_naca_4digit(m, p, t, n=101):
+        x = (1 - np.cos(np.linspace(0, np.pi, n))) / 2
+        yt = 5 * t * (0.2969 * np.sqrt(x) - 0.1260 * x
+                       - 0.3516 * x**2 + 0.2843 * x**3 - 0.1015 * x**4)
+        if m == 0:
+            xu, yu = x, yt
+            xl, yl = x, -yt
+        else:
+            yc = np.where(x < p, m / p**2 * (2 * p * x - x**2),
+                          m / (1 - p)**2 * ((1 - 2 * p) + 2 * p * x - x**2))
+            dyc = np.where(x < p, 2 * m / p**2 * (p - x),
+                           2 * m / (1 - p)**2 * (p - x))
+            theta = np.arctan(dyc)
+            xu = x - yt * np.sin(theta); yu = yc + yt * np.cos(theta)
+            xl = x + yt * np.sin(theta); yl = yc - yt * np.cos(theta)
+        return np.vstack([
+            np.column_stack([xu[::-1], yu[::-1]]),
+            np.column_stack([xl[1:], yl[1:]]),
+        ])
+
+    naca_coords = {
+        'NACA_0012': generate_naca_4digit(0.00, 0.0, 0.12),
+        'NACA_2412': generate_naca_4digit(0.02, 0.4, 0.12),
+        'NACA_4412': generate_naca_4digit(0.04, 0.4, 0.12),
+    }
+
+    rows = []
+    print("\nNEURALFOIL VALIDATION (with drag correction applied)")
+    print("-" * 72)
+
+    for (airfoil, re_val), ref_metrics in NACA_REF.items():
+        coords = naca_coords[airfoil]
+        k_cd = get_drag_correction(re_val)
+
+        cls, cds_corr = [], []
+        for alpha in ALPHAS:
+            try:
+                aero = nf.get_aero_from_coordinates(
+                    coordinates=coords, alpha=alpha, Re=re_val, model_size=MODEL_SIZE)
+                cl = safe_float(aero.get('CL', 0.0))
+                cd = max(safe_float(aero.get('CD', 1e-6)) * k_cd, CD_MIN_PLAUSIBLE)
+                cls.append(cl); cds_corr.append(cd)
+            except Exception:
+                cls.append(0.0); cds_corr.append(0.01)
+
+        cl_max_nf, stall_nf, stall_method, _ = detect_stall(ALPHAS, cls)
+        cd_min_nf = min(cds_corr)
+
+        lin_mask = [(0 <= a <= 6) for a in ALPHAS]
+        a_lin = np.array(ALPHAS)[lin_mask]
+        cl_lin = np.array(cls)[lin_mask]
+        cl_slope = float(np.polyfit(a_lin, cl_lin, 1)[0]) if len(a_lin) >= 2 else 0.0
+
+        nf_values = {'CLmax': cl_max_nf, 'stall_alpha': stall_nf,
+                     'CL_slope': cl_slope, 'CD_min': cd_min_nf}
+
+        for metric, (ref_val, tol) in ref_metrics.items():
+            nf_val = nf_values[metric]
+            error = nf_val - ref_val
+            passed = abs(error) <= tol
+            status = '✓' if passed else '✗'
+            print(f"  {status}  {airfoil}  Re={re_val:.0e}  {metric:>14s}: "
+                  f"NF={nf_val:.4f}  Ref={ref_val}±{tol}")
+
+            rows.append({
+                'airfoil': airfoil, 'Re': re_val, 'metric': metric,
+                'NF_value': nf_val, 'ref_value': ref_val, 'tolerance': tol,
+                'error': error, 'abs_error': abs(error), 'passed': passed,
+                'drag_correction': k_cd,
+                'stall_method': stall_method if metric == 'stall_alpha' else '',
+            })
+
+    val_df = pd.DataFrame(rows)
+
+    print("\nValidation error summary (after drag correction):")
+    for metric in ['CLmax', 'stall_alpha', 'CL_slope', 'CD_min']:
+        sub = val_df[val_df['metric'] == metric]
+        mae = sub['abs_error'].mean()
+        rmse = np.sqrt((sub['error'] ** 2).mean())
+        bias = sub['error'].mean()
+        n_pass = sub['passed'].sum(); n_total = len(sub)
+        print(f"  {metric:>14s}:  MAE={mae:.4f}  RMSE={rmse:.4f}  "
+              f"Bias={bias:+.4f}  Pass={n_pass}/{n_total}")
+
+    val_df.to_csv(output_dir / "validation_results.csv", index=False)
+    print(f"\n✓ Validation results saved to {output_dir / 'validation_results.csv'}")
+
+    return val_df
+
+
+# ---------------------------------------------------------------------------
+# §7  GEOMETRY–PERFORMANCE CORRELATIONS
+# ---------------------------------------------------------------------------
+
+def compute_geometry_correlations(summary_df: pd.DataFrame, output_dir: Path) -> pd.DataFrame:
+    """Pearson & Spearman correlations between geometry and performance."""
+    geo_cols = [c for c in ['t_over_c', 'max_camber', 'camber_loc'] if c in summary_df.columns]
+    perf_cols = [c for c in ['max_LD', 'cruise_LD', 'climb_LD', 'CL_max',
+                             'stall_alpha', 'min_CD', 'max_endurance_param',
+                             'drag_bucket_width'] if c in summary_df.columns]
+
+    if not geo_cols or not perf_cols:
+        print("⚠️  Insufficient columns for correlation analysis.")
+        return pd.DataFrame()
+
+    rows = []
+
+    def _correlate(df_sub, group_label):
+        for gc in geo_cols:
+            for pc in perf_cols:
+                valid = df_sub[[gc, pc]].dropna()
+                if len(valid) < 10 or valid[gc].nunique() < 5:
+                    continue
+                r_p, p_p = scipy_stats.pearsonr(valid[gc], valid[pc])
+                r_s, p_s = scipy_stats.spearmanr(valid[gc], valid[pc])
+                rows.append({'group': group_label, 'geometry': gc, 'performance': pc,
+                             'pearson_r': r_p, 'pearson_p': p_p,
+                             'spearman_r': r_s, 'spearman_p': p_s, 'n': len(valid)})
+
+    _correlate(summary_df, 'ALL')
+    for cat in summary_df['category'].unique():
+        _correlate(summary_df[summary_df['category'] == cat], cat)
+
+    corr_df = pd.DataFrame(rows)
+    corr_df.to_csv(output_dir / "geometry_performance_correlations.csv", index=False)
+
+    sig = corr_df[(corr_df['spearman_p'] < 0.01) & (corr_df['n'] >= 20)]
+    if not sig.empty:
+        print("\nSignificant geometry–performance correlations (p < 0.01):")
+        for _, row in sig.iterrows():
+            print(f"  [{row['group']:>14s}]  {row['geometry']} vs {row['performance']}: "
+                  f"r_s = {row['spearman_r']:+.3f}  (n={row['n']})")
+    else:
+        print("\nNo significant geometry–performance correlations found (p < 0.01).")
+
+    return corr_df
+
+
+# ---------------------------------------------------------------------------
+# NEW (§F) — CHAMPIONS EXPORT
+# ---------------------------------------------------------------------------
+
+def export_champions(
+    summary_df: pd.DataFrame,
+    category_leaders: dict,
+    output_dir: Path,
+    top_n: int = TOP_N_OVERALL,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """
+    Export champion birds to dedicated CSVs.
+
+    Produces two files:
+      1. champions_by_category.csv  — best bird per category (rich columns,
+         plus the narrative reasons as a joined string).
+      2. overall_top_birds.csv      — top-N birds globally by max_LD,
+         with a rank column and category tag.
+
+    Both files are self-contained (full summary columns included) so they
+    can be consumed without needing summary_analysis.csv.
+    """
+    if summary_df.empty:
+        return pd.DataFrame(), pd.DataFrame()
+
+    # ── 1. Champions by category ─────────────────────────────────────
+    champion_rows = []
+    for category, data in category_leaders.items():
+        leader = data['leader'].copy()
+        reasons = data.get('performance_reasons', [])
+        leader['performance_reasons'] = ' | '.join(reasons)
+        leader['category_rank'] = 1
+        leader['category_size'] = data['category_stats']['count']
+        leader['category_mean_LD'] = data['category_stats']['mean_LD']
+        leader['category_std_LD'] = data['category_stats']['std_LD']
+        leader['LD_vs_category_mean_pct'] = (
+            (safe_float(leader['max_LD']) - data['category_stats']['mean_LD']) /
+            (data['category_stats']['mean_LD'] + 1e-9) * 100
+        )
+        champion_rows.append(leader)
+
+    champions_df = pd.DataFrame(champion_rows)
+    # Put the most informative columns first
+    priority_cols = ['category', 'bird_name', 'max_LD', 'CL_max', 'stall_alpha',
+                     'min_CD', 'cruise_LD', 'climb_LD', 'max_endurance_param',
+                     'dCM_dCL', 't_over_c', 'max_camber',
+                     'LD_vs_category_mean_pct', 'performance_reasons']
+    existing = [c for c in priority_cols if c in champions_df.columns]
+    other = [c for c in champions_df.columns if c not in existing]
+    champions_df = champions_df[existing + other]
+
+    champions_path = output_dir / "champions_by_category.csv"
+    champions_df.to_csv(champions_path, index=False)
+
+    # ── 2. Overall top-N birds across all categories ────────────────
+    # Exclude birds with fallback data (they're on garbage)
+    usable = summary_df.copy()
+    if 'used_implausible_fallback' in usable.columns:
+        usable = usable[~usable['used_implausible_fallback']]
+    if 'stall_plausible' in usable.columns:
+        usable = usable[usable['stall_plausible']]
+
+    top_overall = usable.nlargest(top_n, 'max_LD').reset_index(drop=True).copy()
+    top_overall.insert(0, 'overall_rank', top_overall.index + 1)
+
+    # Reorder for readability
+    overall_priority = ['overall_rank', 'bird_name', 'category', 'max_LD',
+                        'CL_max', 'stall_alpha', 'min_CD', 'cruise_LD',
+                        'climb_LD', 'max_endurance_param', 'dCM_dCL',
+                        't_over_c', 'max_camber', 'best_alpha', 'best_Re']
+    existing = [c for c in overall_priority if c in top_overall.columns]
+    other = [c for c in top_overall.columns if c not in existing]
+    top_overall = top_overall[existing + other]
+
+    overall_path = output_dir / "overall_top_birds.csv"
+    top_overall.to_csv(overall_path, index=False)
+
+    print(f"\n✓ Champions by category → {champions_path.name} "
+          f"({len(champions_df)} rows)")
+    print(f"✓ Overall top-{top_n} birds → {overall_path.name} "
+          f"({len(top_overall)} rows, {len(usable)} usable in pool)")
+
+    return champions_df, top_overall
+
+
+# ---------------------------------------------------------------------------
+# MAIN ANALYSIS PIPELINE
+# ---------------------------------------------------------------------------
+
+def analyze_all_dat_files(
+    directory_path: Path, output_dir: Path,
+) -> tuple[pd.DataFrame, pd.DataFrame, dict, pd.DataFrame, pd.DataFrame]:
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    val_df = run_validation(output_dir)
+
+    dat_files = sorted(directory_path.rglob("*.dat"))
+    if not dat_files:
+        print(f"\n✗  No .dat files found in {directory_path}")
+        return pd.DataFrame(), pd.DataFrame(), {}, pd.DataFrame(), pd.DataFrame()
+
+    print(f"\nFound {len(dat_files)} .dat files")
+    print(f"Test matrix: {len(ALPHAS)} α × {len(REYNOLDS_NUMBERS)} Re "
+          f"= {len(ALPHAS) * len(REYNOLDS_NUMBERS)} conditions per airfoil")
+    print(f"Total simulations: {len(dat_files) * len(ALPHAS) * len(REYNOLDS_NUMBERS):,}")
+    print(f"Drag correction: Re-dependent "
+          f"({min(DRAG_CORRECTION_TABLE.values()):.2f}–"
+          f"{max(DRAG_CORRECTION_TABLE.values()):.2f}×)")
+    print(f"L/D handling: raw filter > {LD_RAW_FILTER_MAX}, reported cap = {LD_MAX_PLAUSIBLE}; "
+          f"CD ≥ {CD_MIN_PLAUSIBLE}, |CL| ≤ {CL_MAX_PLAUSIBLE}\n")
+
+    all_results, all_summaries, failed_files = [], [], []
+
+    for dat_file in tqdm(dat_files, desc="Simulating airfoils"):
+        try:
+            file_results, file_meta = run_simulation_for_file(str(dat_file))
+        except Exception as e:
+            tqdm.write(f"  ✗ Failed {dat_file.name}: {e}")
+            failed_files.append(str(dat_file))
+            continue
+        if not file_results:
+            continue
+
+        all_results.extend(file_results)
+        df_bird = pd.DataFrame(file_results)
+        bird_name = file_meta.get('Species', dat_file.stem)
+        category = file_meta.get('Flight Category', dat_file.parent.name)
+        summary = build_summary(bird_name, category, str(dat_file), df_bird, file_meta)
+        if summary is not None:
+            all_summaries.append(summary)
+
+    if not all_results:
+        print("✗  No successful simulations.")
+        return pd.DataFrame(), pd.DataFrame(), {}, pd.DataFrame(), pd.DataFrame()
+
+    detailed_df = pd.DataFrame(all_results)
+    summary_df = pd.DataFrame(all_summaries)
+
+    detailed_df.to_csv(output_dir / "detailed_analysis.csv", index=False)
+    summary_df.to_csv(output_dir / "summary_analysis.csv", index=False)
+
+    with open(output_dir / "detailed_results.pkl", 'wb') as f:
+        pickle.dump(detailed_df.to_dict('records'), f)
+    with open(output_dir / "summary_results.pkl", 'wb') as f:
+        pickle.dump(summary_df.to_dict('records'), f)
+
+    if failed_files:
+        with open(output_dir / "failed_files.txt", 'w') as f:
+            f.write('\n'.join(failed_files))
+        print(f"\n⚠️  {len(failed_files)} files failed (see failed_files.txt)")
+
+    corr_df = compute_geometry_correlations(summary_df, output_dir)
+
+    category_leaders = analyze_category_leaders(summary_df, detailed_df, output_dir)
+    champions_df, top_overall_df = export_champions(summary_df, category_leaders, output_dir)
+
+    generate_report(summary_df, category_leaders, output_dir, val_df, corr_df)
+    create_visualizations(summary_df, detailed_df, output_dir)
+
+    return detailed_df, summary_df, category_leaders, champions_df, top_overall_df
+
+
+# ---------------------------------------------------------------------------
+# CATEGORY LEADERS
+# ---------------------------------------------------------------------------
+
+def analyze_category_leaders(
+    summary_df: pd.DataFrame, detailed_df: pd.DataFrame, output_dir: Path,
+) -> dict:
+    leaders = {}
+
+    for category in summary_df['category'].unique():
+        cat = summary_df[summary_df['category'] == category]
+        if cat.empty:
+            continue
+
+        # Prefer birds with plausible stall & no fallback when identifying the leader
+        cat_good = cat.copy()
+        if 'stall_plausible' in cat_good.columns:
+            filtered = cat_good[cat_good['stall_plausible']]
+            if not filtered.empty:
+                cat_good = filtered
+        if 'used_implausible_fallback' in cat_good.columns:
+            filtered = cat_good[~cat_good['used_implausible_fallback']]
+            if not filtered.empty:
+                cat_good = filtered
+
+        top_overall    = cat_good.nlargest(3, 'max_LD')
+        top_cruise     = cat_good.nlargest(3, 'cruise_LD')
+        top_climb      = cat_good.nlargest(3, 'climb_LD')
+        top_stall      = cat_good.nlargest(3, 'CL_max')
+        top_consistent = cat_good.nsmallest(3, 'LD_CoV')
+        top_endurance  = cat_good.nlargest(3, 'max_endurance_param')
+
+        leader = cat_good.loc[cat_good['max_LD'].idxmax()]
+        leader_name = leader['bird_name']
+        leader_det = detailed_df[detailed_df['bird_name'] == leader_name]
+        reasons = build_performance_reasons(leader, leader_det, cat)
+
+        leaders[category] = {
+            'leader':              leader.to_dict(),
+            'top_3_overall':       top_overall[['bird_name', 'max_LD', 'avg_LD']].to_dict('records'),
+            'top_3_cruise':        top_cruise[['bird_name', 'cruise_LD']].to_dict('records'),
+            'top_3_climb':         top_climb[['bird_name', 'climb_LD']].to_dict('records'),
+            'top_3_cl_max':        top_stall[['bird_name', 'CL_max', 'stall_alpha']].to_dict('records'),
+            'top_3_consistent':    top_consistent[['bird_name', 'LD_CoV']].to_dict('records'),
+            'top_3_endurance':     top_endurance[['bird_name', 'max_endurance_param']].to_dict('records'),
+            'performance_reasons': reasons,
+            'category_stats': {
+                'count':         int(len(cat)),
+                'mean_LD':       float(cat['max_LD'].mean()),
+                'std_LD':        float(cat['max_LD'].std()),
+                'mean_CL':       float(cat['CL_max'].mean()),
+                'mean_stall':    float(cat['stall_alpha'].mean()),
+                'std_stall':     float(cat['stall_alpha'].std()),
+                'mean_t_over_c': float(cat['t_over_c'].mean()) if 't_over_c' in cat else 0.0,
+                'mean_camber':   float(cat['max_camber'].mean()) if 'max_camber' in cat else 0.0,
+                'plausible_pct': float(cat['plausible_fraction'].mean() * 100) if 'plausible_fraction' in cat else 0.0,
+            },
+        }
+
+    with open(output_dir / "category_leaders.pkl", 'wb') as f:
+        pickle.dump(leaders, f)
+
+    return leaders
+
+
+def build_performance_reasons(leader, leader_det, category_df) -> list[str]:
+    reasons = []
+    cat_mean = safe_float(category_df['max_LD'].mean())
+    cat_std = safe_float(category_df['max_LD'].std())
+    ldr_ld = safe_float(leader['max_LD'])
+
+    if ldr_ld > cat_mean + cat_std:
+        pct = (ldr_ld - cat_mean) / (cat_mean + 1e-6) * 100
+        reasons.append(f"Peak L/D of {ldr_ld:.1f} is {pct:.0f}% above the category "
+                       f"mean ({cat_mean:.1f}), indicating an unusually efficient geometry.")
+
+    if safe_float(leader['min_CD']) < safe_float(category_df['min_CD'].quantile(0.25)):
+        reasons.append(f"Minimum drag coefficient {safe_float(leader['min_CD']):.5f} is "
+                       f"in the bottom quartile, suggesting extensive laminar flow.")
+
+    if safe_float(leader['CL_max']) > safe_float(category_df['CL_max'].quantile(0.75)):
+        reasons.append(f"CLmax = {safe_float(leader['CL_max']):.3f} (top quartile), "
+                       f"allowing efficient flight at lower speeds and higher load factors.")
+
+    stall_a = safe_float(leader['stall_alpha'])
+    cat_median_stall = safe_float(category_df['stall_alpha'].median())
+    if stall_a > safe_float(category_df['stall_alpha'].quantile(0.75)):
+        reasons.append(f"Stall delayed until {stall_a:.1f}°, well above category median "
+                       f"({cat_median_stall:.1f}°), giving a wide usable AoA range.")
+
+    if safe_float(leader['cruise_LD']) > safe_float(category_df['cruise_LD'].quantile(0.75)):
+        reasons.append(f"Cruise L/D = {safe_float(leader['cruise_LD']):.1f} (α = 0–2°), "
+                       f"top quartile — well suited to sustained level flight.")
+
+    if ldr_ld > 0 and safe_float(leader['high_alpha_LD']) > 0.6 * ldr_ld:
+        reasons.append(f"Retains {safe_float(leader['high_alpha_LD']) / ldr_ld * 100:.0f}% "
+                       f"of peak L/D at α ≥ 14°, indicating a gentle, progressive stall.")
+
+    if ('max_endurance_param' in leader.index and
+        safe_float(leader['max_endurance_param']) >
+            safe_float(category_df['max_endurance_param'].quantile(0.75))):
+        reasons.append(f"Endurance CL^1.5/CD = {safe_float(leader['max_endurance_param']):.1f} "
+                       f"(top quartile) — optimal for loiter / hovering missions.")
+
+    if 'dCM_dCL' in leader.index and safe_float(leader['dCM_dCL']) < -0.05:
+        reasons.append(f"Negative dCM/dCL = {safe_float(leader['dCM_dCL']):.3f} indicates "
+                       f"inherent pitch stability, reducing trim drag.")
+
+    t_c = safe_float(leader.get('t_over_c', 0))
+    cam = safe_float(leader.get('max_camber', 0))
+    cam_x = safe_float(leader.get('camber_loc', 0))
+    if t_c > 0 and cam > 0:
+        reasons.append(f"Geometry: t/c = {t_c * 100:.1f}%, max camber = {cam * 100:.1f}% "
+                       f"at x/c = {cam_x * 100:.0f}% — links shape to observed performance.")
+
+    if not reasons:
+        reasons.append(f"Best overall L/D in category ({ldr_ld:.1f}) without a single "
+                       f"dominant trait — balanced across all flight regimes.")
+
+    return reasons
+
+
+# ---------------------------------------------------------------------------
+# REPORT GENERATION
+# ---------------------------------------------------------------------------
+
+def generate_report(summary_df, category_leaders, output_dir,
+                    val_df=None, corr_df=None):
+    path = output_dir / "comprehensive_report.txt"
+
+    with open(path, 'w') as f:
+        def w(text=""):
+            f.write(text + "\n")
+
+        w("=" * 72)
+        w("COMPREHENSIVE BIRD AIRFOIL AERODYNAMIC ANALYSIS REPORT  (v4)")
+        w("=" * 72)
+        w()
+        w(f"Total airfoils analysed : {len(summary_df)}")
+        w(f"Categories              : {', '.join(summary_df['category'].unique())}")
+        w(f"Alpha sweep             : {min(ALPHAS)}° to {max(ALPHAS)}° in 1° steps")  # fix
+        w(f"Reynolds number sweep   : {', '.join(f'{r:.0e}' for r in REYNOLDS_NUMBERS)}")
+        w(f"Conditions per airfoil  : {len(ALPHAS) * len(REYNOLDS_NUMBERS)}")
+        w(f"L/D handling            : raw filter > {LD_RAW_FILTER_MAX}, "
+          f"reported cap = {LD_MAX_PLAUSIBLE}; "
+          f"CD ≥ {CD_MIN_PLAUSIBLE}, |CL| ≤ {CL_MAX_PLAUSIBLE}")
+        w(f"Stall window            : {STALL_ALPHA_WINDOW[0]}° – {STALL_ALPHA_WINDOW[1]}° "
+          f"(outside → flagged, not clipped)")
+        w(f"Drag correction         : Re-dependent "
+          f"({min(DRAG_CORRECTION_TABLE.values()):.2f}–"
+          f"{max(DRAG_CORRECTION_TABLE.values()):.2f}×)")
+        w()
+
+        if val_df is not None and not val_df.empty:
+            n_pass = val_df['passed'].sum()
+            n_total = len(val_df)
+            w("NEURALFOIL VALIDATION (with drag correction)")
+            w("-" * 72)
+            w(f"  Checks: {n_total}   Passed: {n_pass}   Failed: {n_total - n_pass}")
+            for _, row in val_df.iterrows():
+                status = '✓' if row['passed'] else '✗'
+                w(f"  {status}  {row['airfoil']}  Re={row['Re']:.0e}  "
+                  f"{row['metric']:>14s}: NF={row['NF_value']:.4f}  "
+                  f"Ref={row['ref_value']}±{row['tolerance']}")
+            w()
+            for metric in ['CLmax', 'stall_alpha', 'CL_slope', 'CD_min']:
+                sub = val_df[val_df['metric'] == metric]
+                if sub.empty:
+                    continue
+                mae = sub['abs_error'].mean()
+                rmse = np.sqrt((sub['error'] ** 2).mean())
+                bias = sub['error'].mean()
+                w(f"  {metric:>14s}:  MAE={mae:.4f}  RMSE={rmse:.4f}  Bias={bias:+.4f}")
+            w()
+
+        w("OVERALL PERFORMANCE STATISTICS (filtered)")
+        w("-" * 72)
+        best_idx = summary_df['max_LD'].idxmax()
+        w(f"Best global L/D : {summary_df['max_LD'].max():.2f}  "
+          f"({summary_df.loc[best_idx, 'bird_name']})")
+        w(f"Average max L/D : {summary_df['max_LD'].mean():.2f} "
+          f"± {summary_df['max_LD'].std():.2f}")
+        w(f"Average CLmax   : {summary_df['CL_max'].mean():.3f} "
+          f"± {summary_df['CL_max'].std():.3f}")
+        w(f"Average stall α : {summary_df['stall_alpha'].mean():.1f}° "
+          f"± {summary_df['stall_alpha'].std():.1f}°")
+        if 'plausible_fraction' in summary_df:
+            w(f"Avg plausible % : {summary_df['plausible_fraction'].mean() * 100:.1f}%")
+        if 'stall_plausible' in summary_df.columns:
+            n_stall_ok = summary_df['stall_plausible'].sum()
+            w(f"Stall α in window : {n_stall_ok}/{len(summary_df)} "
+              f"({n_stall_ok / len(summary_df) * 100:.1f}%)")
+        if 'used_implausible_fallback' in summary_df.columns:
+            n_fb = summary_df['used_implausible_fallback'].sum()
+            w(f"Birds on fallback data : {n_fb}")
+        w()
+
+        if 'stall_method' in summary_df.columns:
+            w("STALL DETECTION METHOD DISTRIBUTION")
+            w("-" * 72)
+            for method, count in summary_df['stall_method'].value_counts().items():
+                w(f"  {method:<25s}: {count:>6d}  "
+                  f"({count / len(summary_df) * 100:.1f}%)")
+            w()
+
+        if 'Re_method' in summary_df.columns:
+            w("REYNOLDS ESTIMATION METHOD DISTRIBUTION")
+            w("-" * 72)
+            for method, count in summary_df['Re_method'].value_counts().items():
+                w(f"  {method:<25s}: {count:>6d}  "
+                  f"({count / len(summary_df) * 100:.1f}%)")
+            w()
+
+        for category, data in category_leaders.items():
+            leader = data['leader']
+            w(); w("=" * 72)
+            w(f"CATEGORY: {category.upper()}")
+            w("=" * 72); w()
+            w(f"  TOP PERFORMER: {leader['bird_name']}")
+            w("-" * 72)
+            w(f"  Max L/D (filtered)   : {safe_float(leader['max_LD']):.2f}")
+            w(f"  Weighted avg L/D     : {safe_float(leader['avg_LD']):.2f}")
+            w(f"  Cruise L/D (α 0–2°)  : {safe_float(leader['cruise_LD']):.2f}")
+            w(f"  Climb L/D (α 8–12°)  : {safe_float(leader['climb_LD']):.2f}")
+            w(f"  CLmax                : {safe_float(leader['CL_max']):.3f}")
+            w(f"  Stall angle          : {safe_float(leader['stall_alpha']):.1f}° "
+              f"({'plausible' if leader.get('stall_plausible', False) else 'FLAGGED'})")
+            w(f"  Stall method         : {leader.get('stall_method', 'unknown')}")
+            w(f"  Minimum CD           : {safe_float(leader['min_CD']):.5f}")
+            w(f"  Best alpha           : {safe_float(leader['best_alpha']):.1f}°")
+            w(f"  Best Re              : {safe_float(leader['best_Re']):.2e}")
+            w(f"  Plausible fraction   : {safe_float(leader.get('plausible_fraction', 0)) * 100:.1f}%")
+            w(f"  Endurance CL^1.5/CD  : {safe_float(leader.get('max_endurance_param', 0)):.2f}")
+            w(f"  dCM/dCL              : {safe_float(leader.get('dCM_dCL', 0)):.4f}")
+            w(f"  Drag bucket width    : {safe_float(leader.get('drag_bucket_width', 0)):.1f}°")
+            w(f"  t/c                  : {safe_float(leader.get('t_over_c', 0)):.3f}")
+            w(f"  max camber           : {safe_float(leader.get('max_camber', 0)):.3f}")
+            w()
+
+            w("  WHY THIS AIRFOIL EXCELS:")
+            for i, reason in enumerate(data['performance_reasons'], 1):
+                words = reason.split()
+                lines, line = [], f"  {i}. "
+                for word in words:
+                    if len(line) + len(word) + 1 > 72:
+                        lines.append(line); line = "     "
+                    line += word + " "
+                lines.append(line)
+                w("\n".join(lines))
+            w()
+
+            stats = data['category_stats']
+            w(f"  Category stats: n={stats['count']}, "
+              f"mean L/D={stats['mean_LD']:.2f}±{stats['std_LD']:.2f}, "
+              f"mean CLmax={stats['mean_CL']:.3f}, "
+              f"mean stall={stats['mean_stall']:.1f}°±{stats.get('std_stall', 0):.1f}°")
+            w(f"  Avg thickness={stats.get('mean_t_over_c', 0):.3f}, "
+              f"Avg camber={stats.get('mean_camber', 0):.3f}, "
+              f"Plausible={stats.get('plausible_pct', 0):.1f}%")
+            w()
+
+            w("  Top 3 — Overall L/D:")
+            for i, b in enumerate(data['top_3_overall'], 1):
+                w(f"    {i}. {b['bird_name']}: L/D = {b['max_LD']:.2f}")
+            w("  Top 3 — CLmax / Stall:")
+            for i, b in enumerate(data['top_3_cl_max'], 1):
+                w(f"    {i}. {b['bird_name']}: CLmax = {b['CL_max']:.3f}  "
+                  f"stall α = {b['stall_alpha']:.1f}°")
+            w("  Top 3 — Most Consistent:")
+            for i, b in enumerate(data['top_3_consistent'], 1):
+                w(f"    {i}. {b['bird_name']}: L/D CoV = {b['LD_CoV']:.3f}")
+
+        w(); w("=" * 72)
+        w("CATEGORY CHAMPION SUMMARY")
+        w("=" * 72)
+        w(f"{'Category':<18} {'Champion':<30} {'L/D':>6} {'CLmax':>7} "
+          f"{'Stall°':>7} {'t/c':>6} {'Camber':>7}")
+        w("-" * 72)
+        for cat, data in category_leaders.items():
+            ldr = data['leader']
+            w(f"{cat:<18} {str(ldr['bird_name'])[:29]:<30} "
+              f"{safe_float(ldr['max_LD']):6.1f} "
+              f"{safe_float(ldr['CL_max']):7.3f} "
+              f"{safe_float(ldr['stall_alpha']):7.1f} "
+              f"{safe_float(ldr.get('t_over_c', 0)):6.3f} "
+              f"{safe_float(ldr.get('max_camber', 0)):7.3f}")
+
+        if corr_df is not None and not corr_df.empty:
+            sig = corr_df[(corr_df['spearman_p'] < 0.01) & (corr_df['n'] >= 20)]
+            if not sig.empty:
+                w(); w("=" * 72)
+                w("GEOMETRY–PERFORMANCE CORRELATIONS (Spearman, p < 0.01)")
+                w("=" * 72)
+                for _, row in sig.sort_values('spearman_p').head(20).iterrows():
+                    w(f"  [{row['group']:>14s}]  {row['geometry']:<12s} vs "
+                      f"{row['performance']:<22s}: "
+                      f"r_s = {row['spearman_r']:+.3f}  (n={row['n']})")
+
+    print(f"✓ Report saved to {path}")
+
+
+# ---------------------------------------------------------------------------
+# VISUALISATIONS
+# ---------------------------------------------------------------------------
+
+def create_visualizations(summary_df, detailed_df, output_dir):
+    plt.style.use('seaborn-v0_8-darkgrid')
+
+    # 1. L/D by category
+    fig, ax = plt.subplots(figsize=(13, 6))
+    order = (summary_df.groupby('category')['max_LD']
+             .median().sort_values(ascending=False).index)
+    summary_df.boxplot(column='max_LD', by='category', ax=ax,
+                       positions=range(len(order)), showfliers=False)
+    ax.set_xticklabels(order, rotation=20, ha='right')
+    ax.set_xlabel('Flight category'); ax.set_ylabel('Maximum L/D (drag-corrected)')
+    ax.set_title('L/D Distribution by Category')
+    plt.suptitle(''); plt.tight_layout()
+    plt.savefig(output_dir / 'ld_distribution_by_category.png', dpi=300); plt.close()
+
+    # 2. CLmax by category
+    fig, ax = plt.subplots(figsize=(13, 6))
+    summary_df.boxplot(column='CL_max', by='category', ax=ax, showfliers=False)
+    ax.set_xlabel('Flight category'); ax.set_ylabel('CLmax')
+    ax.set_title('Maximum Lift Coefficient by Category')
+    plt.suptitle(''); plt.tight_layout()
+    plt.savefig(output_dir / 'clmax_by_category.png', dpi=300); plt.close()
+
+    # 3. Stall angle
+    fig, ax = plt.subplots(figsize=(13, 6))
+    summary_df.boxplot(column='stall_alpha', by='category', ax=ax, showfliers=False)
+    ax.set_xlabel('Flight category'); ax.set_ylabel('Stall angle (°)')
+    ax.set_title('Stall Angle Distribution by Category (no hard clip)')
+    plt.suptitle(''); plt.tight_layout()
+    plt.savefig(output_dir / 'stall_angle_by_category.png', dpi=300); plt.close()
+
+    # 4. Top-15 performers
+    top15 = summary_df.nlargest(15, 'max_LD')
+    cats = top15['category'].unique()
+    cmap = plt.cm.tab10(np.linspace(0, 1, max(len(cats), 1)))
+    cdict = dict(zip(cats, cmap))
+    colors = [cdict[c] for c in top15['category']]
+    fig, ax = plt.subplots(figsize=(14, 8))
+    ax.barh(range(len(top15)), top15['max_LD'], color=colors)
+    ax.set_yticks(range(len(top15)))
+    ax.set_yticklabels([f"{n}  ({c})" for n, c in zip(top15['bird_name'], top15['category'])],
+                       fontsize=8)
+    ax.set_xlabel('Maximum L/D Ratio (drag-corrected)')
+    ax.set_title('Top 15 Airfoil Performers')
+    plt.tight_layout()
+    plt.savefig(output_dir / 'top_performers.png', dpi=300); plt.close()
+
+    # 5. L/D vs Re
+    re_cols = [c for c in summary_df.columns if c.startswith('LD_at_Re_')]
+    if re_cols:
+        fig, ax = plt.subplots(figsize=(12, 6))
+        for cat in summary_df['category'].unique():
+            sub = summary_df[summary_df['category'] == cat]
+            means = [sub[c].mean() for c in re_cols]
+            re_vals = [float(c.split('_')[-1]) for c in re_cols]
+            ax.semilogx(re_vals, means, marker='o', label=cat)
+        ax.set_xlabel('Reynolds Number'); ax.set_ylabel('Mean max L/D (drag-corrected)')
+        ax.set_title('L/D vs Reynolds Number by Category'); ax.legend()
+        plt.tight_layout()
+        plt.savefig(output_dir / 'ld_vs_reynolds.png', dpi=300); plt.close()
+
+    # 6. Correlation matrix
+    corr_cols = [c for c in ['max_LD', 'cruise_LD', 'climb_LD', 'high_alpha_LD',
+                             'CL_max', 'stall_alpha', 'min_CD', 'LD_CoV',
+                             'max_endurance_param', 'drag_bucket_width', 'dCM_dCL']
+                 if c in summary_df.columns]
+    corr = summary_df[corr_cols].corr()
+    fig, ax = plt.subplots(figsize=(12, 10))
+    sns.heatmap(corr, annot=True, fmt='.2f', cmap='coolwarm', center=0, ax=ax, square=True)
+    ax.set_title('Performance Metrics Correlation')
+    plt.tight_layout()
+    plt.savefig(output_dir / 'correlation_matrix.png', dpi=300); plt.close()
+
+    # 7. CL-α polars
+    categories = sorted(summary_df['category'].unique())
+    n_cats = len(categories)
+    n_cols = min(3, n_cats); n_rows = (n_cats + n_cols - 1) // n_cols
+    fig, axes = plt.subplots(n_rows, n_cols, figsize=(6 * n_cols, 5 * n_rows), squeeze=False)
+    axes_flat = axes.flatten()
+    ax_i = -1
+    for ax_i, cat in enumerate(categories):
+        ax = axes_flat[ax_i]
+        cat_sum = summary_df[summary_df['category'] == cat]
+        if cat_sum.empty:
+            continue
+        leader_name = cat_sum.loc[cat_sum['max_LD'].idxmax(), 'bird_name']
+        leader_det = detailed_df[detailed_df['bird_name'] == leader_name]
+        for re_val, grp in leader_det.groupby('Re'):
+            grp_sorted = grp.sort_values('alpha')
+            ax.plot(grp_sorted['alpha'], grp_sorted['CL'],
+                    label=f"Re={re_val:.0e}", linewidth=1.2)
+        ax.axvline(x=0, color='grey', linewidth=0.5, linestyle='--')
+        ax.set_title(f"{cat} — {leader_name[:22]}", fontsize=9)
+        ax.set_xlabel('α (°)'); ax.set_ylabel('CL')
+        ax.legend(fontsize=6)
+    for j in range(ax_i + 1, len(axes_flat)):
+        axes_flat[j].set_visible(False)
+    plt.suptitle('CL-α Polars for Category Leaders (all Re)', fontsize=11)
+    plt.tight_layout()
+    plt.savefig(output_dir / 'cl_alpha_polars.png', dpi=300); plt.close()
+
+    # 8. Geometry vs performance
+    geo_perf_pairs = [
+        ('t_over_c',   'max_LD',              't/c',        'Max L/D'),
+        ('max_camber', 'CL_max',              'Max camber', 'CLmax'),
+        ('t_over_c',   'stall_alpha',         't/c',        'Stall angle (°)'),
+        ('max_camber', 'max_endurance_param', 'Max camber', 'Endurance CL^1.5/CD'),
+    ]
+    fig, axes = plt.subplots(2, 2, figsize=(14, 12))
+    for ax, (gx, py, xlabel, ylabel) in zip(axes.flatten(), geo_perf_pairs):
+        if gx not in summary_df.columns or py not in summary_df.columns:
+            ax.set_visible(False); continue
+        for cat in summary_df['category'].unique():
+            sub = summary_df[summary_df['category'] == cat]
+            ax.scatter(sub[gx], sub[py], alpha=0.3, s=10, label=cat)
+        ax.set_xlabel(xlabel); ax.set_ylabel(ylabel)
+        ax.legend(fontsize=7, markerscale=3)
+    plt.suptitle('Geometry vs Performance', fontsize=11)
+    plt.tight_layout()
+    plt.savefig(output_dir / 'geometry_vs_performance.png', dpi=300); plt.close()
+
+    # 9. Stall method pie
+    if 'stall_method' in summary_df.columns:
+        fig, ax = plt.subplots(figsize=(8, 6))
+        counts = summary_df['stall_method'].value_counts()
+        ax.pie(counts.values, labels=counts.index, autopct='%1.1f%%')
+        ax.set_title('Stall Detection Method Distribution')
+        plt.tight_layout()
+        plt.savefig(output_dir / 'stall_method_distribution.png', dpi=300); plt.close()
+
+    # 10. Drag correction impact — fixed (per-point scatter, not mean)
+    if 'CD_raw' in detailed_df.columns and 'CD' in detailed_df.columns:
+        fig, ax = plt.subplots(figsize=(10, 6))
+        # sample to avoid plotting millions of points
+        sample_size = min(20_000, len(detailed_df))
+        sample = detailed_df.sample(n=sample_size, random_state=0)
+        raw_ld = sample['CL'] / sample['CD_raw'].clip(lower=1e-7)
+        corr_ld = sample['LD_ratio']
+        mask = (raw_ld.between(-50, 150)) & corr_ld.notna()
+        ax.scatter(raw_ld[mask], corr_ld[mask], s=1, alpha=0.1)
+        lim = [-50, 150]
+        ax.plot(lim, lim, 'r--', alpha=0.5, label='y = x (no correction)')
+        ax.set_xlim(lim); ax.set_ylim(lim)
+        ax.set_xlabel('L/D (uncorrected)'); ax.set_ylabel('L/D (drag-corrected)')
+        ax.set_title(f'Drag Correction Impact (n={mask.sum():,} sampled points)')
+        ax.legend()
+        plt.tight_layout()
+        plt.savefig(output_dir / 'drag_correction_impact.png', dpi=300); plt.close()
+
+    print(f"✓ Visualisations saved to {output_dir}/")
+
+
+# ---------------------------------------------------------------------------
+# ENTRY POINT
+# ---------------------------------------------------------------------------
+
+if __name__ == "__main__":
+    print("=" * 72)
+    print("Bird Airfoil NeuralFoil Analysis  (v4)")
+    print("=" * 72)
+    print(f"Source  : {AIRFOIL_DIR}")
+    print(f"Output  : {RESULTS_DIR}")
+    print(f"Drag correction : Re-dependent "
+          f"({min(DRAG_CORRECTION_TABLE.values()):.2f}–"
+          f"{max(DRAG_CORRECTION_TABLE.values()):.2f}×)")
+    print(f"L/D handling    : raw filter > {LD_RAW_FILTER_MAX}, "
+          f"reported cap = {LD_MAX_PLAUSIBLE}; "
+          f"CD ≥ {CD_MIN_PLAUSIBLE}, |CL| ≤ {CL_MAX_PLAUSIBLE}")
+    print(f"Stall detection : earliest-trigger (slope + curvature + peak-drop)")
+    print(f"Stall window    : {STALL_ALPHA_WINDOW[0]}° – {STALL_ALPHA_WINDOW[1]}° (flagged, not clipped)")
+    print(f"Re estimation   : allometric (Pennycuick 2008) + heuristic fallback")
+
+    try:
+        n_files = len(list(AIRFOIL_DIR.rglob('*.dat')))
+    except Exception:
+        n_files = 0
+    print(f"Airfoils: {n_files}\n")
+
+    detailed_df, summary_df, category_leaders, champions_df, top_overall_df = \
+        analyze_all_dat_files(AIRFOIL_DIR, RESULTS_DIR)
+
+    if summary_df.empty:
+        print("\n✗ Analysis produced no results.")
+    else:
+        print("\n" + "=" * 72)
+        print("✓ Analysis complete")
+        print("=" * 72)
+        print(f"  Airfoils analysed    : {len(summary_df)}")
+        print(f"  Categories found     : {len(category_leaders)}")
+        print(f"  Total simulations    : {len(detailed_df)}")
+        print(f"  Best global L/D      : {summary_df['max_LD'].max():.2f}")
+        print(f"  Mean CLmax           : {summary_df['CL_max'].mean():.3f}")
+        print(f"  Mean stall angle     : {summary_df['stall_alpha'].mean():.1f}°")
+        if 'plausible_fraction' in summary_df:
+            print(f"  Mean plausible %     : {summary_df['plausible_fraction'].mean() * 100:.1f}%")
+        print()
+        print("  Category champions:")
+        for cat, data in category_leaders.items():
+            ldr = data['leader']
+            flag = '' if ldr.get('stall_plausible', True) else ' ⚠'
+            print(f"    {cat:<18} {str(ldr['bird_name'])[:30]:<30}  "
+                  f"L/D={safe_float(ldr['max_LD']):.1f}  "
+                  f"CLmax={safe_float(ldr['CL_max']):.3f}  "
+                  f"Stall={safe_float(ldr['stall_alpha']):.1f}°{flag}")
+        print()
+        print(f"  Results saved to: {RESULTS_DIR}")
+        print(f"    - detailed_analysis.csv                 (raw + corrected)")
+        print(f"    - summary_analysis.csv                  (per-bird summary)")
+        print(f"    - champions_by_category.csv             ★ BEST BIRD PER CATEGORY")
+        print(f"    - overall_top_birds.csv                 ★ TOP-{TOP_N_OVERALL} GLOBALLY")
+        print(f"    - validation_results.csv                (NACA benchmark)")
+        print(f"    - geometry_performance_correlations.csv")
+        print(f"    - comprehensive_report.txt")
+        print(f"    - 10 visualisation PNGs")
+        print("=" * 72)

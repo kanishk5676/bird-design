@@ -26,7 +26,8 @@ Changes from v2
 3.  PLAUSIBILITY FILTERING (§3)
     Physical plausibility bounds reject individual (α, Re) data-points
     whose values fall outside published envelopes:
-      • L/D ≤ 80   (even high-performance sailplanes rarely exceed this)
+            • Raw L/D > 120 are treated as NeuralFoil artifacts and filtered
+            • Reported L/D is separately capped at 80 for conservative ranking
       • CD  ≥ 0.004 (skin-friction floor for turbulent boundary layers)
       • |CL| ≤ 2.2  (realistic single-element airfoil limit)
     Implausible points are flagged and excluded from summary statistics.
@@ -106,9 +107,11 @@ MODEL_SIZE = "xxlarge"
 CONFIDENCE_THRESHOLD = 0.5
 
 # ── §3  PLAUSIBILITY BOUNDS ──────────────────────────────────────────────
-#: Maximum credible L/D for a single-element airfoil at any Re.
-#: High-performance sailplane airfoils reach ~70-80; anything above is suspect.
+#: Conservative cap for reported L/D used in summary/ranking displays.
 LD_MAX_PLAUSIBLE = 80.0
+
+#: Raw L/D filter threshold used to drop extreme NeuralFoil artifacts.
+LD_RAW_FILTER_MAX = 120.0
 
 #: Minimum credible CD.  Turbulent skin-friction on a flat plate at Re=1e6
 #: is ~0.004; no single-element airfoil can beat the flat-plate limit by much.
@@ -624,11 +627,15 @@ def run_simulation_for_file(
                 if abs(cl) > CL_MAX_PLAUSIBLE:
                     plausible = False
 
-                ld = cl / cd_corrected
+                ld_raw = cl / cd_corrected
 
-                if abs(ld) > LD_MAX_PLAUSIBLE:
-                    ld = np.sign(ld) * LD_MAX_PLAUSIBLE
+                # Filter extreme NeuralFoil artifacts while preserving raw values.
+                if ld_raw > LD_RAW_FILTER_MAX:
+                    ld_raw = np.nan
                     plausible = False
+
+                ld_report = (min(ld_raw, LD_MAX_PLAUSIBLE)
+                             if not np.isnan(ld_raw) else np.nan)
 
                 results.append({
                     'bird_name':           bird_name,
@@ -641,7 +648,8 @@ def run_simulation_for_file(
                     'CD':                  cd_corrected,
                     'CD_correction':       k_cd,
                     'CM':                  cm,
-                    'LD_ratio':            ld,
+                    'LD_ratio':            ld_raw,
+                    'LD_report':           ld_report,
                     'analysis_confidence': confidence,
                     'low_confidence':      confidence < CONFIDENCE_THRESHOLD,
                     'plausible':           plausible,
@@ -1063,7 +1071,7 @@ def analyze_all_dat_files(
     print(f"Drag correction applied: Re-dependent (range "
           f"{min(DRAG_CORRECTION_TABLE.values()):.2f}–"
           f"{max(DRAG_CORRECTION_TABLE.values()):.2f}×)")
-    print(f"Plausibility bounds: L/D ≤ {LD_MAX_PLAUSIBLE}, "
+    print(f"L/D handling: raw filter > {LD_RAW_FILTER_MAX}, reported cap = {LD_MAX_PLAUSIBLE}; "
           f"CD ≥ {CD_MIN_PLAUSIBLE}, |CL| ≤ {CL_MAX_PLAUSIBLE}\n")
 
     all_results = []
@@ -1285,8 +1293,10 @@ def generate_report(
         w(f"Alpha sweep             : {min(ALPHAS)}° to {max(ALPHAS)}° in 2° steps")
         w(f"Reynolds number sweep   : {', '.join(f'{r:.0e}' for r in REYNOLDS_NUMBERS)}")
         w(f"Conditions per airfoil  : {len(ALPHAS) * len(REYNOLDS_NUMBERS)}")
-        w(f"Plausibility bounds     : L/D ≤ {LD_MAX_PLAUSIBLE}, "
+        w(f"L/D handling            : raw filter > {LD_RAW_FILTER_MAX}, "
+          f"reported cap = {LD_MAX_PLAUSIBLE}; "
           f"CD ≥ {CD_MIN_PLAUSIBLE}, CL ≤ {CL_MAX_PLAUSIBLE}")
+
         w(f"Drag correction         : Re-dependent "
           f"({min(DRAG_CORRECTION_TABLE.values()):.2f}–"
           f"{max(DRAG_CORRECTION_TABLE.values()):.2f}×)")
@@ -1656,10 +1666,12 @@ if __name__ == "__main__":
     print(f"Drag correction : Re-dependent "
           f"({min(DRAG_CORRECTION_TABLE.values()):.2f}–"
           f"{max(DRAG_CORRECTION_TABLE.values()):.2f}×)")
-    print(f"Plausibility    : L/D ≤ {LD_MAX_PLAUSIBLE}, "
+    print(f"L/D handling    : raw filter > {LD_RAW_FILTER_MAX}, "
+          f"reported cap = {LD_MAX_PLAUSIBLE}; "
           f"CD ≥ {CD_MIN_PLAUSIBLE}, |CL| ≤ {CL_MAX_PLAUSIBLE}")
     print(f"Stall detection : multi-method (slope + curvature + peak-drop)")
     print(f"Re estimation   : allometric (Pennycuick 2008) + heuristic fallback")
+
 
     try:
         n_files = len(list(AIRFOIL_DIR.rglob('*.dat')))
